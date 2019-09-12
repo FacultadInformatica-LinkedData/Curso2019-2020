@@ -1,0 +1,217 @@
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.w3.org/1999/xhtml/vocab#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:j.1="http://a9.com/-/spec/opensearch/1.1/"
+    xmlns:api="http://purl.org/linked-data/api/vocab#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <api:Page rdf:about="http://datos.gob.es/apidata/catalog/dataset/l01281230-piramide-de-poblacion1.rdf">
+    <api:items rdf:parseType="Collection">
+      <dcat:Dataset rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1">
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2015-06-11T00:00:00+02:00</dct:issued>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01281230"/>
+        <dcat:keyword>poblacion</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/2933f2aa-3632-4c02-b981-2ff51da1bb2c">
+            <dct:identifier>https://datosabiertos.rivasciudad.es/dataset/piramide-de-poblacion/resource/c81408d2-618e-4812-9094-09736ebc9208</dct:identifier>
+            <dct:title xml:lang="es">Piramide de poblaciÃ³n. Normalizado</dct:title>
+            <dct:format>
+              <dct:IMT rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/2933f2aa-3632-4c02-b981-2ff51da1bb2c/format">
+                <rdf:value>text/csv</rdf:value>
+              </dct:IMT>
+            </dct:format>
+            <dcat:accessURL rdf:resource="https://datosabiertos.rivasciudad.es/dataset/40e24c18-bad1-4d6f-8b50-e8354c8d651e/resource/c81408d2-618e-4812-9094-09736ebc9208/download/recurso.csv"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >560</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="es">PirÃ¡mide de PoblaciÃ³n</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/12b715db-9748-47e3-b1b8-a9186f4851cc">
+            <dct:identifier>https://datosabiertos.rivasciudad.es/dataset/piramide-de-poblacion/resource/f8f712ef-d972-48ff-aa58-372356beb5af</dct:identifier>
+            <dct:title xml:lang="es">Piramide de poblacion</dct:title>
+            <dct:format>
+              <dct:IMT rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/12b715db-9748-47e3-b1b8-a9186f4851cc/format">
+                <rdf:value>text/csv</rdf:value>
+              </dct:IMT>
+            </dct:format>
+            <dcat:accessURL rdf:resource="https://datosabiertos.rivasciudad.es/dataset/40e24c18-bad1-4d6f-8b50-e8354c8d651e/resource/f8f712ef-d972-48ff-aa58-372356beb5af/download/piramide-de-poblacion4576945574816681076.csv"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >692</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/d6a74dcc-92a0-41d1-b853-84a900f4fd26">
+            <dct:identifier>https://datosabiertos.rivasciudad.es/dataset/piramide-de-poblacion/resource/9ccd770c-71f0-49e0-826b-b6fa4292e6fb</dct:identifier>
+            <dct:title xml:lang="es">Piramide de poblaciÃ³n. Normalizado</dct:title>
+            <dct:format>
+              <dct:IMT rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/d6a74dcc-92a0-41d1-b853-84a900f4fd26/format">
+                <rdf:value>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</rdf:value>
+              </dct:IMT>
+            </dct:format>
+            <dcat:accessURL rdf:resource="https://datosabiertos.rivasciudad.es/dataset/40e24c18-bad1-4d6f-8b50-e8354c8d651e/resource/9ccd770c-71f0-49e0-826b-b6fa4292e6fb/download/recurso.xlsx"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >3895</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid"/>
+        <dct:description xml:lang="es">PirÃ¡mide de PoblaciÃ³n a 1 de Enero de 2015</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/f81a8621-3090-4f02-b1dc-d2b6774fafa8">
+            <dct:identifier>https://datosabiertos.rivasciudad.es/dataset/piramide-de-poblacion/resource/4b6a6133-1c5a-4c67-81f8-dac3427b6d15</dct:identifier>
+            <dct:title xml:lang="es">Piramide de PoblaciÃ³n</dct:title>
+            <dct:format>
+              <dct:IMT rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/f81a8621-3090-4f02-b1dc-d2b6774fafa8/format">
+                <rdf:value>text/csv</rdf:value>
+              </dct:IMT>
+            </dct:format>
+            <dcat:accessURL rdf:resource="https://datosabiertos.rivasciudad.es/dataset/40e24c18-bad1-4d6f-8b50-e8354c8d651e/resource/4b6a6133-1c5a-4c67-81f8-dac3427b6d15/download/piramidepoblacion.csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/c547e49c-fb79-442f-b8af-1ac12118e16b">
+            <dct:identifier>https://datosabiertos.rivasciudad.es/dataset/piramide-de-poblacion/resource/f1fdc21c-7ff9-4575-9d82-d90014a7d05a</dct:identifier>
+            <dct:title xml:lang="es">Piramide de PoblaciÃ³n</dct:title>
+            <dct:format>
+              <dct:IMT rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/c547e49c-fb79-442f-b8af-1ac12118e16b/format">
+                <rdf:value>application/json</rdf:value>
+              </dct:IMT>
+            </dct:format>
+            <dcat:accessURL rdf:resource="https://datosabiertos.rivasciudad.es/dataset/40e24c18-bad1-4d6f-8b50-e8354c8d651e/resource/f1fdc21c-7ff9-4575-9d82-d90014a7d05a/download/piramideedades.json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/981ce53c-cab6-4a75-b957-612ff88e27fd">
+            <dct:identifier>https://datosabiertos.rivasciudad.es/dataset/piramide-de-poblacion/resource/b3b8c534-5039-4df6-9330-2d630f7991dd</dct:identifier>
+            <dct:title xml:lang="es">Piramide de poblaciÃ³n. Normalizado.CSV</dct:title>
+            <dct:format>
+              <dct:IMT rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/981ce53c-cab6-4a75-b957-612ff88e27fd/format">
+                <rdf:value>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</rdf:value>
+              </dct:IMT>
+            </dct:format>
+            <dcat:accessURL rdf:resource="https://datosabiertos.rivasciudad.es/dataset/40e24c18-bad1-4d6f-8b50-e8354c8d651e/resource/b3b8c534-5039-4df6-9330-2d630f7991dd/download/recurso.xlsx"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >3895</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/29a8f491-b117-4c78-8c3e-242d9b2b2572">
+            <dct:identifier>https://datosabiertos.rivasciudad.es/dataset/piramide-de-poblacion/resource/03ddfb77-19de-4963-9e95-9e9bb8a4e7a3</dct:identifier>
+            <dct:title xml:lang="es">Piramide de poblaciÃ³n. Normalizado.CSV</dct:title>
+            <dct:format>
+              <dct:IMT rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/29a8f491-b117-4c78-8c3e-242d9b2b2572/format">
+                <rdf:value>application/ld+json</rdf:value>
+              </dct:IMT>
+            </dct:format>
+            <dcat:accessURL rdf:resource="https://datosabiertos.rivasciudad.es/dataset/40e24c18-bad1-4d6f-8b50-e8354c8d651e/resource/03ddfb77-19de-4963-9e95-9e9bb8a4e7a3/download/recurso.jsonld"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >15415</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/7bdca6e5-5659-439f-a2b4-86d2b52ca75a">
+            <dct:identifier>https://datosabiertos.rivasciudad.es/dataset/piramide-de-poblacion/resource/ec36a216-6bab-46ba-a642-21fdd77edb93</dct:identifier>
+            <dct:title xml:lang="es">Piramide de poblaciÃ³n. Normalizado</dct:title>
+            <dct:format>
+              <dct:IMT rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/7bdca6e5-5659-439f-a2b4-86d2b52ca75a/format">
+                <rdf:value>application/ld+json</rdf:value>
+              </dct:IMT>
+            </dct:format>
+            <dcat:accessURL rdf:resource="https://datosabiertos.rivasciudad.es/dataset/40e24c18-bad1-4d6f-8b50-e8354c8d651e/resource/ec36a216-6bab-46ba-a642-21fdd77edb93/download/recurso.jsonld"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >17201</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword>demografÃ­a</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2019-04-30T00:00:00+02:00</dct:modified>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/53c814fa-ef7f-4760-8fb1-a912f607f8ae">
+            <dct:identifier>https://datosabiertos.rivasciudad.es/dataset/piramide-de-poblacion/resource/503e3f05-be24-4d0f-a350-3d1bead60b2f</dct:identifier>
+            <dct:title xml:lang="es">Piramide de poblaciÃ³n. Normalizado.CSV</dct:title>
+            <dct:format>
+              <dct:IMT rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/53c814fa-ef7f-4760-8fb1-a912f607f8ae/format">
+                <rdf:value>application/json</rdf:value>
+              </dct:IMT>
+            </dct:format>
+            <dcat:accessURL rdf:resource="https://datosabiertos.rivasciudad.es/dataset/40e24c18-bad1-4d6f-8b50-e8354c8d651e/resource/503e3f05-be24-4d0f-a350-3d1bead60b2f/download/recurso.json"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >18852</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/39276139-66ff-470a-9bd2-e62287ba909c">
+            <dct:identifier>https://datosabiertos.rivasciudad.es/dataset/piramide-de-poblacion/resource/33684d5b-5ee9-436e-9fc9-ca4732868e7e</dct:identifier>
+            <dct:title xml:lang="es">Piramide de poblaciÃ³n. Normalizado</dct:title>
+            <dct:format>
+              <dct:IMT rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/39276139-66ff-470a-9bd2-e62287ba909c/format">
+                <rdf:value>application/json</rdf:value>
+              </dct:IMT>
+            </dct:format>
+            <dcat:accessURL rdf:resource="https://datosabiertos.rivasciudad.es/dataset/40e24c18-bad1-4d6f-8b50-e8354c8d651e/resource/33684d5b-5ee9-436e-9fc9-ca4732868e7e/download/recurso.json"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >18852</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/demografia"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/16b092ea-00d3-4b6f-bc50-13a828b2654d">
+            <dct:identifier>https://datosabiertos.rivasciudad.es/dataset/piramide-de-poblacion/resource/ad36ab45-cbbf-47b5-8470-6cfbb76d5931</dct:identifier>
+            <dct:title xml:lang="es">Piramide de poblaciÃ³n. Normalizado.CSV</dct:title>
+            <dct:format>
+              <dct:IMT rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/16b092ea-00d3-4b6f-bc50-13a828b2654d/format">
+                <rdf:value>text/csv</rdf:value>
+              </dct:IMT>
+            </dct:format>
+            <dcat:accessURL rdf:resource="https://datosabiertos.rivasciudad.es/dataset/40e24c18-bad1-4d6f-8b50-e8354c8d651e/resource/ad36ab45-cbbf-47b5-8470-6cfbb76d5931/download/recurso.csv"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >560</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/51223ed1-62c9-4582-8c3d-b314ba35da64">
+            <dct:identifier>https://datosabiertos.rivasciudad.es/dataset/piramide-de-poblacion/resource/e6ec2b82-69cd-4cec-917a-446866a17396</dct:identifier>
+            <dct:title xml:lang="es">Piramide de poblaciÃ³n. Normalizado</dct:title>
+            <dct:format>
+              <dct:IMT rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/51223ed1-62c9-4582-8c3d-b314ba35da64/format">
+                <rdf:value>application/rdf+xml</rdf:value>
+              </dct:IMT>
+            </dct:format>
+            <dcat:accessURL rdf:resource="https://datosabiertos.rivasciudad.es/dataset/40e24c18-bad1-4d6f-8b50-e8354c8d651e/resource/e6ec2b82-69cd-4cec-917a-446866a17396/download/recurso.ttl"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >23431</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/f50b17cf-eeff-4f50-8fdc-407c077af5dd">
+            <dct:identifier>https://datosabiertos.rivasciudad.es/dataset/piramide-de-poblacion/resource/a1839de5-8df6-4601-b8b3-aaceed7d2ee3</dct:identifier>
+            <dct:title xml:lang="es">Piramide de poblaciÃ³n. Normalizado.CSV</dct:title>
+            <dct:format>
+              <dct:IMT rdf:about="http://datos.gob.es/catalogo/l01281230-piramide-de-poblacion1/resource/f50b17cf-eeff-4f50-8fdc-407c077af5dd/format">
+                <rdf:value>application/rdf+xml</rdf:value>
+              </dct:IMT>
+            </dct:format>
+            <dcat:accessURL rdf:resource="https://datosabiertos.rivasciudad.es/dataset/40e24c18-bad1-4d6f-8b50-e8354c8d651e/resource/a1839de5-8df6-4601-b8b3-aaceed7d2ee3/download/recurso.ttl"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >21645</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://datosabiertos.rivasciudad.es/dataset/piramide-de-poblacion</dct:identifier>
+      </dcat:Dataset>
+    </api:items>
+    <api:definition rdf:resource="http://datos.gob.es/apidata/catalog/meta/dataset/_id.rdf"/>
+    <api:extendedMetadataVersion rdf:resource="http://datos.gob.es/apidata/catalog/dataset/l01281230-piramide-de-poblacion1.rdf?_metadata=all"/>
+    <api:page rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >0</api:page>
+    <dct:isPartOf rdf:resource="http://datos.gob.es/apidata/catalog/dataset/l01281230-piramide-de-poblacion1.rdf"/>
+    <j.1:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >10</j.1:itemsPerPage>
+    <j.1:startIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1</j.1:startIndex>
+    <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#ListEndpoint"/>
+    <dct:hasPart rdf:resource="http://datos.gob.es/apidata/catalog/dataset/l01281230-piramide-de-poblacion1.rdf"/>
+    <j.0:first rdf:resource="http://datos.gob.es/apidata/catalog/dataset/l01281230-piramide-de-poblacion1.rdf?_page=0"/>
+  </api:Page>
+</rdf:RDF>
