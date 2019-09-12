@@ -1,0 +1,9 @@
+@prefix p: <http://www.ontogrid.net/Assignment2/>.
+
+p:Class p:involves p:Computer101;
+		p:involves p:Sensor029.
+p:Sensor029 p:hasMeasurement p:Measurement8401.
+p:Measurement8401 p:hasTemperature "29";
+		p:atTime "2010-06-12T12:00:12".
+p:Computer101 p:hasOwner p:User10A.
+p:User10A p:hasName "Pedro".
