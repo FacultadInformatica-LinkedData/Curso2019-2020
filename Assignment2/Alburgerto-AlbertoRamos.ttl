@@ -1,0 +1,10 @@
+@base <http://www.ontogrid.net/StickyNote/>
+@prexif vocab: <http://www.ontogrid.net/StickyNote#>
+@prefix schema: <http://www.w3.org/2001/XMLSchema#>
+:event3 vocab:involves :PinarAlber ;
+		vocab:involves :CaroleGoble ;
+		schema:date "2006-05-15".
+:event4 vocab:involves :OscarCorcho ;
+		schema:date "2006-05-16".
+:event5 vocab:involves :CaroleGoble ;
+		schema:date "2006-05-15".
