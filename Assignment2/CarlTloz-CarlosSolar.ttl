@@ -1,8 +1,10 @@
-@prefix rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns>
-:User10A hasName :"Pedro".
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:User10A hasName :Pedro.
 :Computer101 hasOwner :User10A.
-:Measurement8401 hasTemperature :"29";
-				 atTime :"2010-06-12T12:00:12".
+:Measurement8401 hasTemperature :"29"^^xsd:int;
+				 atTime :"2010-06-12T12:00:12"^^xsd:dateTime.
 :Sensor029 hasMeasurement :Measurement8401.
 :Class01 includes :Sensor029;
 		 includes :Computer101.
