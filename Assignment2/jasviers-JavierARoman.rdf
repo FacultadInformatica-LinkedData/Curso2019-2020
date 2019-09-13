@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.ontogrid.net/StickyNote#">
+  <rdf:Description rdf:about="http://www.ontogrid.net/StickyNote#event3">
+    <involves rdf:resource="http://www.ontogrid.net/StickyNote#PinarAlper"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontogrid.net/StickyNote#event3">
+    <involves rdf:resource="http://www.ontogrid.net/StickyNote#CaroleGoble"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontogrid.net/StickyNote#event3">
+    <eventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-05-15</eventDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontogrid.net/StickyNote#event4">
+    <involves rdf:resource="http://www.ontogrid.net/StickyNote#OscarCorcho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontogrid.net/StickyNote#event4">
+    <eventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-05-16</eventDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontogrid.net/StickyNote#event5">
+    <involves rdf:resource="http://www.ontogrid.net/StickyNote#CaroleGoble"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontogrid.net/StickyNote#event5">
+    <eventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-05-15</eventDate>
+  </rdf:Description>
+</rdf:RDF>
