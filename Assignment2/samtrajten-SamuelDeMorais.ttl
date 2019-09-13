@@ -1,0 +1,14 @@
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Class01 xml:includes :Computer101,
+    :Sensor029 .
+
+:Computer101 xml:hasOwner :User10A .
+
+:Measurement8401 xml:atTime "2010-06-12T12:00:12"^^xsd:dateTime;
+  xml:hasTemperature "29"^^xsd:int .
+
+:Sensor029 xml:hasMeasurement :Measurement8401 .
+
+:User10A xml:hasName "Pedro" .
