@@ -19,6 +19,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="#Measurement8401">
 	<hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#number">29</hasTemperature>
-	<atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-12T 12:00:12</eventDate>
+	<atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-12T 12:00:12</atTime>
     </rdf:Description>
 </rdf:RDF>
