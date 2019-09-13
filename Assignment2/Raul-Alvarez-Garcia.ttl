@@ -1,0 +1,14 @@
+@base <http://www.ontogrid.net/Exercise1/>
+@prefix vocab <http://www.ontogrid.net/Exercise1#>
+
+:Measurement8401	vocab:atTime "2010-06-12T12:00:12";
+					vocab:hasTemperature "29".
+					
+:User10A	vocab:hasname "Pedro".
+
+:Computer101	vocab:hasOwner :User10A.
+
+:Sensor029	vocab:hasMeasurement :Measurement8401.
+
+:Class01	vocab:includes :Sensor029;
+			vocab:includes :Computer101.
