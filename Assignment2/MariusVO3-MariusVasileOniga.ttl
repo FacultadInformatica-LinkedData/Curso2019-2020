@@ -1,0 +1,13 @@
+@prefix :      <http://www.ontogrid.net/StickyNote#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+:Sensor029  :hasMeasurement  :Measurement8401 .
+
+:Computer101  :hasOwner  :User10A .
+
+:User10A  :hasName  :Pedro .
+
+:Measurement8401  :atTime  "2010-06-12T12:00:12"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        :hasTemperature  :29 .
+
+:Class01  :includes  :Computer101 , :Sensor029 .
