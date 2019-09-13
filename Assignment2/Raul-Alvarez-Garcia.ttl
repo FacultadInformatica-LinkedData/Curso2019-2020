@@ -1,14 +1,15 @@
-@base <http://www.ontogrid.net/Exercise1/>
-@prefix vocab <http://www.ontogrid.net/Exercise1#>
+@base <http://www.ontogrid.net/StickyNote#>
+@prefix date <https://www.w3.org/2001/XMLSchema#date>
+@prefix integer <https://www.w3.org/2001/XMLSchema#integer>
 
-:Measurement8401	vocab:atTime "2010-06-12T12:00:12";
-					vocab:hasTemperature "29".
+:Measurement8401	date:atTime :2010-06-12T12:00:12;
+					integer:hasTemperature "29".
 					
-:User10A	vocab:hasname "Pedro".
+:User10A	:hasname :"Pedro".
 
-:Computer101	vocab:hasOwner :User10A.
+:Computer101	:hasOwner :User10A.
 
-:Sensor029	vocab:hasMeasurement :Measurement8401.
+:Sensor029	:hasMeasurement :Measurement8401.
 
-:Class01	vocab:includes :Sensor029;
-			vocab:includes :Computer101.
+:Class01	:includes :Sensor029;
+			:includes :Computer101.

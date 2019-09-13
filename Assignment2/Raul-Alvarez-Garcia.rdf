@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xml:base="http://www.ontogrid.net/Exercise1#"
-
-	xmlns="http://www.ontogrid.net/Exercise1#"
+<?xml version="1.0">
+<rdf:RDF 
+	xml:base="http://www.ontogrid.net/StickyNote#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	
 	<rdf:Description rdf:about="#Measurement8401">
-		<Exercise1:atTime>2010-06-12T12:00:12</atTime>
-		<Exercise1:hasTemperature>29</hasTemperature>
+		<atTime>2010-06-12T12:00:12</atTime>
+		<hasTemperature>29</hasTemperature>
 	</rdf:Description>
 	
 	<rdf:Description rdf:about="#User10A">
-		<Exercise1:hasName>Pedro</hasName>
+		<hasName>Pedro</hasName>
 	</rdf:Description>
 	
 	<rdf:Description rdf:about="#Computer101">
