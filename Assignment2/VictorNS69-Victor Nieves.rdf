@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<rdf:RDF 
+<rdf:RDF xml:base="http://www.ontogrid.net/assignment2/1.a" 
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <rdf:Description rdf:about="#User10A">
 		<hasName>Pedro</hasName>
