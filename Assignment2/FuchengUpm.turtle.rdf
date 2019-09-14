@@ -1,9 +1,9 @@
 	
 @base <http://www.ontogrid.net/StickyNote#>.
-@prefix integer: <http://www.w3.org/2001/XMLSchema#integer>.
-@prefix date: <http://www.w3.org/2001/XMLSchema#date>.
+@prefix xmls: <http://www.w3.org/2001/XMLSchema#>.
+
 :Class01 :includes :Sensor029; :includes :Computer101.
 :Sensor029 :hasMeasurement :Measurement8401.
-:Measurement8401 integer:hasTemperature :29; date:atTime :2010-06-12T12:00:12.
+:Measurement8401 :hasTemperature 29^^xmls:integer; :atTime 2010-06-12T12:00:12^^xmls:dateTime.
 :Computer101 :hasOwner :User10A.
-:User10A: hasName:"Pedro"
+:User10A: hasName:"Pedro"^^xmls:string.
