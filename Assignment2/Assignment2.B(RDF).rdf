@@ -1,0 +1,21 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#Class01">
+    <xsd:includes rdf:resource="http://www.w3.org/2001/XMLSchema#Computer101"/>
+    <xsd:includes rdf:resource="http://www.w3.org/2001/XMLSchema#Sensor029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#User106">
+    <xsd:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pedro</xsd:hasName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#Measurement8401">
+    <xsd:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</xsd:hasTemperature>
+    <xsd:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#datatime">2010-06-12T12:00:12</xsd:atTime>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#Computer101">
+    <xsd:hasOwner rdf:resource="http://www.w3.org/2001/XMLSchema#User106"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#Sensor029">
+    <xsd:hasMeasurement rdf:resource="http://www.w3.org/2001/XMLSchema#Measurement8401"/>
+  </rdf:Description>
+</rdf:RDF>
