@@ -1,5 +1,5 @@
 @base <http://www.ontologies.org/ontologies/assignment2#>
-@prefix source: http://www.ontologies.org/ontologies/assignment2#>
+@prefix source: <http://www.ontologies.org/ontologies/assignment2#>
 
 #Se usa xml para definir el turtle
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
