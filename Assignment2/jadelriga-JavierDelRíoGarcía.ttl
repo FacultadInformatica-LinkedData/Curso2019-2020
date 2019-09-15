@@ -1,8 +1,8 @@
 @base <http://example.org/>.
 @prefix p: <http://www.ontogrid.net/Assignment2#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-:Class01 p:involves :Computer101;
-		p:involves :Sensor029.
+:Class01 p:includes :Computer101;
+		p:includes :Sensor029.
 :Sensor029 p:hasMeasurement :Measurement8401.
 :Measurement8401 p:hasTemperature "29"^^xsd:int;
 		p:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
