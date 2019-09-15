@@ -10,7 +10,7 @@
 	<hasOwner rdf:resource="#User10A"/>
 	</rdf:Description>
     <rdf:Description rdf:about="#User10A">
-	<hasName rdf:resource="#Pedro"/>
+	<hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pedro</hasName>
     </rdf:Description>
     <rdf:Description rdf:about="#Pedro">
 	</rdf:Description>
