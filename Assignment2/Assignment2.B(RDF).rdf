@@ -1,6 +1,5 @@
 <rdf:RDF
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> 
   <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#Class01">
     <xsd:includes rdf:resource="http://www.w3.org/2001/XMLSchema#Computer101"/>
     <xsd:includes rdf:resource="http://www.w3.org/2001/XMLSchema#Sensor029"/>
