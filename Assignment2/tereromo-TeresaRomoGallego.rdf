@@ -22,6 +22,4 @@
 		<hasName rdf:datatype="xs:string">Pedro</hasName>
 	</rdf:Description>
 	
-	<rdf:Description rdf:resource="#Pedro">
-	</rdf:Description>
 </rdf:RDF>
