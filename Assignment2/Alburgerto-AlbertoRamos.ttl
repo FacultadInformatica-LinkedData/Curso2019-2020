@@ -1,10 +1,11 @@
-@base <http://www.ontogrid.net/StickyNote/>
-@prexif vocab: <http://www.ontogrid.net/StickyNote#>
-@prefix schema: <http://www.w3.org/2001/XMLSchema#>
-:event3 vocab:involves :PinarAlber ;
-		vocab:involves :CaroleGoble ;
-		schema:date "2006-05-15".
-:event4 vocab:involves :OscarCorcho ;
-		schema:date "2006-05-16".
-:event5 vocab:involves :CaroleGoble ;
-		schema:date "2006-05-15".
+@base <http://www.fi.upm.es/Resources/SemanticWeb/>
+@prexif WebS: <http://www.fi.upm.es/Resources/SemanticWeb#>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:Class01 		 WebS:includes :Sensor029 ;
+				 WebS:includes :Computer101 .
+:Sensor029 		 WebS:hasMeasurement :Measurement8401 .
+:Measurement8401 WebS:hasTemperature "29"^^xsd:integer ;
+				 WebS:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+:Computer101 	 WebS:hasOwner :User10A .
+:User10A 		 WebS:hasName "Pedro"^^xsd:string .
