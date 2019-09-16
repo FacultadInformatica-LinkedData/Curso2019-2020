@@ -17,6 +17,6 @@
 	<atTime rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime">2010-06-12T12:00:12</atTime>
     </rdf:Description>
     <rdf:Description rdf:about="#User10A">
-	<hasName rdf:resource="Pedro"/>
+	<hasName rdf:resource="http://www.w3.org/2001/XMLSchema#string">"Pedro"</hasName>
     </rdf:Description>
 </rdf:RDF>
