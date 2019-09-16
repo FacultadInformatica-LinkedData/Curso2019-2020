@@ -32,18 +32,14 @@
 	<rdf:Description rdf:about="#Measurement8401">
 	
 	<hasTemperature rdf:datatype="http://www.fi.upm.net/XMLSchema#integer"> 29 </hasTemperature>
-	<atTime rdf:datatype="http://www.fi.upm.net/XMLSchema#date"> 2010-06-12T12:00:12 </atTime>
+	<atTime rdf:datatype="http://www.fi.upm.net/XMLSchema#dateTime"> 2010-06-12T12:00:12 </atTime>
 	
 	</rdf:Description>
     
 	<rdf:Description rdf:about="#User10A">
 	
-	<hasName rdf:resource="#Pedro"/>
+	<hasName rdf:datatype="http://www.fi.upm.net/XMLSchema#string"> Pedro </hasName>
 	
     </rdf:Description>
-    
-	<rdf:Description rdf:about="#Pedro">
-    
-	</rdf:Description>
     
 </rdf:RDF>

@@ -1,10 +1,12 @@
-@base  <http://www.fi.upm.net/v1>
-@prefix vocab: <http://www.fi.upm.net/v1#>
-
+@base  <http://www.fi.upm.net/v1>.
+@prefix vocab: <http://www.fi.upm.net/v1#>.
+@prefix hasTemperature :<http://www.fi.upm.net/v1#hasTemperature>
+@prefix atTime : <http://www.fi.upm.net/v1#atTime>
+#prefix hasName: <http://www.fi.upm.net/v1#hasName>
 :Class01  		vocab:includes :Sensor029 ;
 				vocab:includes :Computer101.
 :Sensor029  	vocab:hasMeasurement :Measurement8401 ;
 :Computer101	vocab:hasOwner	:User10A;
-:Measurement8401 vocab:hasTemperature :"2";	#xsd:integer
-				 vocab:atTime :"2010-06-12T12:00:12".
-:User10A		vocab:hasName :"Pedro".
+:Measurement8401 hasTemperature:integer 2;
+				 atTime:dateTime 2010-06-12T12:00:12.
+:User10A		hasName:string "Pedro".
