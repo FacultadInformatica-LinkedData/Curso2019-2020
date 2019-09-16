@@ -1,0 +1,14 @@
+@base <http://www.fi.upm.es/ontologies/>
+@prefix vocab : <http://www.fi.upm.es/ontologies#>
+
+:Class01	vocab:includes :Sensor029;
+		vocab:includes :Computer101;
+
+:Sensor029	vocab/sensor:hasMeasurement :Measurement8401;
+
+:Measurement8401	vocab/sensor/measurement:hasTemperature :29;
+			vocab/sensor/measurement: atTime :2010 06 12T12:00:12;
+
+:Computer101	vocab/computer:hasOwner :User10A;
+
+:User10A	vocab/computer/user:hasName :Pedro;
