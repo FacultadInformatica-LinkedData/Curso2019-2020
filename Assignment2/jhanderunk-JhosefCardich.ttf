@@ -1,0 +1,14 @@
+@base rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix example: <http://www.ontologies.org/ontologies/assignment2#>
+
+:Class01 example:includes :Sensor029;
+		 example:includes :Computer101.
+
+:User10A example:hasName :"Pedro"^^xsd:string;
+:Computer101 example:hasOwner :User10A.
+
+:Measurement8401 example:hasTemperature :"29"^^xsd:int;
+				 atTime :"2010-06-12T12:00:12"^^xsd:dateType.
+				 
+:Sensor029 example:hasMeasurement :Measurement8401.
