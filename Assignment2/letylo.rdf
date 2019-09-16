@@ -24,3 +24,5 @@
     <rdf:Description rdf:about="#User10A">
     	<hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pedro</hasName>
 	</rdf:Description>
+
+	</rdf:RDF>
