@@ -1,0 +1,13 @@
+@base <http://www.ontologies.org/ontologies/assignment2#>
+@prefix source: <http://www.ontologies.org/ontologies/assignment2#>
+
+#Se usa xml para definir el turtle
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<http://www.ontologies.org/ontologies/assignment2#Class01> source:includes :Sensor029, source:Computer101 .
+:Sensor029 source:hasMeasurement :Measurement8401 .
+:Computer101 source:hasOwner :User10A .
+:Measurement8401 source:hasTemperature "29"^^xsd:integer ; #Especificar el data type en este caso es opcional
+				 source:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+:User10A source:hasName "Pedro"^^xsd:string . #Especificar el data type en este caso es opcional
