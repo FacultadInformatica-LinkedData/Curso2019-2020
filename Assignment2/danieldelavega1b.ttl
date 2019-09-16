@@ -11,4 +11,4 @@ ns0:event4
 
 ns0:event5
   ns0:involves ns0:CaroleGoble ;
-  ns0:eventDate "2006-05-15"^^xsd:date .
+  ns0:eventDate "2006-05-15"^^xsd:date

@@ -1,0 +1,44 @@
+<?xml version ="1.0"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:elemtos="http://www.ontologies.org/ontologies/elemtos#"
+	xmlns:measure="http://www.ontologies.org/ontologies/measure#"
+	xmlns:user="http://www.ontologies.org/ontologies/user#"
+	xml.base="http://www.oeg-upm.net/ontologies/class">
+
+
+<rdf:Property rdf:about="http://www.ontologies.org/ontologies/class#includes"/>
+<rdf:Property rdf:about="http://www.ontologies.org/ontologies/elementos#hasMeasurement"/>
+<rdf:Property rdf:about="http://www.ontologies.org/ontologies/elemntos#hasOwner"/>
+<rdf:Property rdf:about="http://www.ontologies.org/ontologies/user#hasName"/>
+<rdf:Property rdf:about="http://www.ontologies.org/ontologies/measure#atTime"/>
+<rdf:Property rdf:about="http://www.ontologies.org/ontologies/measure#hasTemperature"/>
+
+
+
+<rdf:Description rdf:about="#Class01"/>
+
+	<includes rdf:resource="#Sensor029"/>
+	<includes rdf:resource="#Computer101"/>
+</rfd:Description>
+
+<rdf:Description rdf:about="#Sensor029">
+	<elementos:hasMeasurement rdf:resource ="#Measurement8401"/>
+</rfd:Description>
+
+<rdf:Description rdf:about="#Computer101">
+	<elemtos:hasOwner rdf:resource="#user10A"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Measurement8401">
+	<measure:hasTemperature>29</measure:hasTemperature>
+	<measure:atTime>2010-00-12T12:00:12</measure:atTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="#User10A">
+	<user:hasName>Pedro</user:hasName>
+</rdf:Description>
+
+</rdf:RDF>
+
+
