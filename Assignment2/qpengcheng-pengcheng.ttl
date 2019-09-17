@@ -2,7 +2,7 @@
 @prefix vocab: <http://www.fi.upm.net/v1#>.
 @prefix hasTemperature :<http://www.fi.upm.net/v1#hasTemperature>
 @prefix atTime : <http://www.fi.upm.net/v1#atTime>
-#prefix hasName: <http://www.fi.upm.net/v1#hasName>
+@prefix hasName: <http://www.fi.upm.net/v1#hasName>
 :Class01  		vocab:includes :Sensor029 ;
 				vocab:includes :Computer101.
 :Sensor029  	vocab:hasMeasurement :Measurement8401 ;
