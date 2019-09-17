@@ -1,5 +1,6 @@
 @base <http://www.ontogrid.net/1b>
 @prefix vocab: <http://www.ontogrid.net/1b#>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema>
 
 :Class01 vocab:includes :Sensor029 ;
 		 vocab:includes :Computer101.
