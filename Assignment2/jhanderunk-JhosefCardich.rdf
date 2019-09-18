@@ -11,7 +11,7 @@
 
     <rdf:Description rdf:about="#Measurement8401">
     <rdf:atTtime  rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-05-15T12:00:12</eventDate>
-    <rdf:hasTemperature >29</hasTemperature>  --    Quiza hay queponer tipo de datos  
+    <rdf:hasTemperature  rdf:datatype="http://www.w3.org/2001/XMLSchema#integer" >29</hasTemperature> 
     </rdf:Description>
 
 
@@ -36,8 +36,7 @@
 
     <rdf:Description rdf:about="#Measurement8401">
     <rdf:atTtime  rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-05-15T12:00:12</eventDate>
-    <rdf:hasTemperature >29</hasTemperature>  --    Quiza hay queponer tipo de datos  
-    </rdf:Description>
+    <rdf:hasTemperature  rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</hasTemperature> 
 
 
    
