@@ -1,0 +1,10 @@
+@base <http://www.ontogrid.net/exercise1b/>
+@prefix pr: <http://www.ontogrid.net/exercise1b#>
+
+:Class01 pr:includes :Sensor029 ;
+		 pr:includes :Computer101.
+:Sensor029 pr:hasMeasurement :Measurement8401.
+:Computer101 pr:hasOwner :User10A.
+:User10A pr:hasName "Pedro"^^xsd:string.
+:Measurement8401 pr:hasTemperature "29"^^xsd:integer;
+				 pr:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
