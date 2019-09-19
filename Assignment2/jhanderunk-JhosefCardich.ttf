@@ -5,10 +5,10 @@
 :Class01 example:includes :Sensor029;
 		 example:includes :Computer101.
 
-:User10A example:hasName :"Pedro"^^xsd:string;
-:Computer101 example:hasOwner :User10A.
+:User10A example:hasName "Pedro"^^xsd:string;
+:Computer101 example:hasOwner :User10A .
 
-:Measurement8401 example:hasTemperature :"29"^^xsd:int;
-				 atTime :"2010-06-12T12:00:12"^^xsd:dateType.
+:Measurement8401 example:hasTemperature "29"^^xsd:int;
+				 example:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
 				 
 :Sensor029 example:hasMeasurement :Measurement8401.
