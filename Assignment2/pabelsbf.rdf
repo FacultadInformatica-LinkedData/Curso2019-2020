@@ -1,4 +1,9 @@
-<rdf:RDF xml:base="http://www.ontogrid.net/StickyNote#">
+<?xml version="1.0" encoding="UTF-8" ?>
+    <rdf:RDF
+    xmlns:rdf ="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xml:base ="https://github.com/FacultadInformatica-LinkedData/Curso2019-2020/tree/master/Assignment2"
+    xmlns="https://github.com/FacultadInformatica-LinkedData/Curso2019-2020/tree/master/Assignment2">
+	    
 	<rdf:Description rdf:about="class01"> 
 		<includes rdf:resource="#Sensor029"/>
 		<includes rdf:resource="#Computer101/>
