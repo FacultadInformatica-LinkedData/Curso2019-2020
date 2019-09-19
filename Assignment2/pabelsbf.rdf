@@ -1,10 +1,10 @@
 <rdf:RDF xml:base="http://www.ontogrid.net/StickyNote#">
 	<rdf:Description rdf:about="class01"> 
-		<includes rdf:resource="#Sensor09"/>
+		<includes rdf:resource="#Sensor029"/>
 		<includes rdf:resource="#Computer101/>
 	</rdf:Description>
 
-	<rdf:Description rdf:about="#Sensor09"> 
+	<rdf:Description rdf:about="#Sensor029"> 
 		<hasMeasurement rdf:resource="#Measurement8401"/>
 	</rdf:Description>
 
