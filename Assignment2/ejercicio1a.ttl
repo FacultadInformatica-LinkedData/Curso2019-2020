@@ -1,13 +1,14 @@
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-@prefix vocab0: <http://www.ontologies.org/ontologies/class#>
-@prefix vocab1: <http://www.ontologies.org/ontologies/measure#>
-@prefix vocab2: <http://www.ontologies.org/ontologies/temperature#>
-@prefix vocab3: <http://www.ontologies.org/ontologies/owner#>
-@prefix vocab4: <http://www.ontologies.org/ontologies/name#>
-@prefix vocab5: <http://www.ontologies.org/ontologies/time#>
-:Class01 vocab0:includes:Sensor029,vocab:includes:Computer101 .
-:Sensor029 vocab1:hasMeasurement:Measurement8401 .
-:Measuremet8401 vocab2:hasTemperature "29" ^^ xsd:double;
-		vocab5:atTime "2010-06-12T12:00:12" ^^ xsd:dateTime .
-:Computer101 vocab3:hasOwner:User10A .
-:User10A vocab4:hasName "Pedro" .
+@base  <http://www.ontogrid.net> .
+@prefix : <http://www.oeg-upm.net/ontologies#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vocab: <http://www.ontogrid.net/Tarea2#> .
+
+: Vocab Class01: incluye: Sensor029;
+		vocabulario: incluye: Computadora101.
+: Vocabulario Sensor029: hasMeasurement: Measurement8401.
+: Computer101 vocab: hasOwner: User10A.
+: User10A vocab: hasName " Pedro "^^ xsd: string .
+: Measurement8401 vocab: hasTemperature " 29 "^^ xsd: integer ;
+				vocab: atTime " 2010-06-12T12: 00: 12 "^^ xsd: datetime .
+
+
