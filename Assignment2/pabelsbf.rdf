@@ -4,7 +4,7 @@
 		<includes rdf:resource="#Computer101/>
 	</rdf:Description>
 
-	<rdf:Description rdf:about="Sensor09"> 
+	<rdf:Description rdf:about="#Sensor09"> 
 		<hasMeasurement rdf:resource="#Measurement8401"/>
 	</rdf:Description>
 
