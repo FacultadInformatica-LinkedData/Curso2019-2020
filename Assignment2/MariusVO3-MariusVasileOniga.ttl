@@ -1,4 +1,4 @@
-@prefix :      <http://www.ontogrid.net/StickyNote#> .
+@prefix ns0:      <http://www.ontogrid.net/StickyNote#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
 <http://www.ontogrid.net/StickyNote#Class01> ns0:includes ns0:Sensor029, ns0:Computer101 .
