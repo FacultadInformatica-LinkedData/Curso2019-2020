@@ -1,0 +1,250 @@
+1. --------------------------------------------------
+select distinct ?clase
+where {
+?clase a rdfs:Class
+} 
+
+RESPONSES:
+
+http://GP-onto.fi.upm.es/exercise2#OnFoot
+http://GP-onto.fi.upm.es/exercise2#TransportMedium
+http://GP-onto.fi.upm.es/exercise2#Hostel
+http://GP-onto.fi.upm.es/exercise2#Establishment
+http://GP-onto.fi.upm.es/exercise2#PhysicalPoint
+http://GP-onto.fi.upm.es/exercise2#Stage
+http://GP-onto.fi.upm.es/exercise2#TransportInfrastructure
+http://GP-onto.fi.upm.es/exercise2#Bus
+http://GP-onto.fi.upm.es/exercise2#Car
+http://GP-onto.fi.upm.es/exercise2#BankService
+http://GP-onto.fi.upm.es/exercise2#Service
+http://GP-onto.fi.upm.es/exercise2#Bicycle
+http://GP-onto.fi.upm.es/exercise2#PostalAddress
+http://GP-onto.fi.upm.es/exercise2#Path
+http://GP-onto.fi.upm.es/exercise2#Road
+http://GP-onto.fi.upm.es/exercise2#Cathedral
+http://GP-onto.fi.upm.es/exercise2#TouristicLocation
+http://GP-onto.fi.upm.es/exercise2#City
+http://GP-onto.fi.upm.es/exercise2#Locality
+http://GP-onto.fi.upm.es/exercise2#Route
+http://GP-onto.fi.upm.es/exercise2#SpacialThing
+http://GP-onto.fi.upm.es/exercise2#LocationOfInterest
+http://GP-onto.fi.upm.es/exercise2#Stretch
+http://GP-onto.fi.upm.es/exercise2#Chapel
+http://GP-onto.fi.upm.es/exercise2#GuestHouse
+http://GP-onto.fi.upm.es/exercise2#Hotel
+http://GP-onto.fi.upm.es/exercise2#Church
+http://GP-onto.fi.upm.es/exercise2#Location
+http://GP-onto.fi.upm.es/exercise2#Palace
+http://GP-onto.fi.upm.es/exercise2#PostalService
+http://GP-onto.fi.upm.es/exercise2#Town
+http://GP-onto.fi.upm.es/exercise2#RestaurationService
+http://GP-onto.fi.upm.es/exercise2#HealthService
+http://GP-onto.fi.upm.es/exercise2#SecurityService
+http://GP-onto.fi.upm.es/exercise2#Track
+http://GP-onto.fi.upm.es/exercise2#Train
+http://GP-onto.fi.upm.es/exercise2#Railway
+http://GP-onto.fi.upm.es/exercise2#Village
+
+2. --------------------------------------------------
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#> 
+
+select distinct ?subclase
+where{
+?subclase rdfs:subClassOf ex:Establishment 
+} 
+
+RESPONSES:
+
+http://GP-onto.fi.upm.es/exercise2#Hostel
+http://GP-onto.fi.upm.es/exercise2#GuestHouse
+http://GP-onto.fi.upm.es/exercise2#Hotel
+
+3. --------------------------------------------------
+	PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#> 
+
+	select distinct ?instancia
+	where{
+	?instancia a ex:City 
+	}
+
+RESPONSES: 
+
+http://GP-onto.fi.upm.es/exercise2#ACoruC1a
+http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela
+http://GP-onto.fi.upm.es/exercise2#Madrid
+
+4. --------------------------------------------------
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#> 
+
+select distinct ?number
+where{
+ex:Santiago_de_Compostela ex:hasInhabitantNumber ?number
+} 
+
+RESPONSES:
+
+" 300000 "^^<http://www.w3.org/2001/XMLSchema#integer>
+
+5. --------------------------------------------------
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#> 
+
+select distinct ?x ?number
+where{
+?x ex:hasInhabitantNumber ?number 
+FILTER(?x IN (ex:Arzua,ex:Santiago_de_Compostela))
+} 
+
+RESPONSES:
+
+http://GP-onto.fi.upm.es/exercise2#Arzua					" 38900 "^^<http://www.w3.org/2001/XMLSchema#integer>
+http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela	" 300000 "^^<http://www.w3.org/2001/XMLSchema#integer>
+
+6. --------------------------------------------------
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#> 
+
+select distinct ?x ?number
+where{
+?x ex:hasInhabitantNumber ?number .
+} ORDER by ASC(?x)
+
+RESPONSES:
+
+http://GP-onto.fi.upm.es/exercise2#Arzua					" 38900 "^^<http://www.w3.org/2001/XMLSchema#integer>
+http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela	" 300000 "^^<http://www.w3.org/2001/XMLSchema#integer>
+
+7. --------------------------------------------------
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#> 
+
+select distinct ?x ?number
+where{
+?x a/rdfs:subClassOf* ex:Locality .
+OPTIONAL{?x ex:hasInhabitantNumber ?number}
+} 
+
+RESPONSES:
+
+http://GP-onto.fi.upm.es/exercise2#Arzua					" 38900 "^^<http://www.w3.org/2001/XMLSchema#integer>
+http://GP-onto.fi.upm.es/exercise2#ACoruC1a	
+http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela	" 300000 "^^<http://www.w3.org/2001/XMLSchema#integer>
+http://GP-onto.fi.upm.es/exercise2#Madrid	
+
+8. --------------------------------------------------
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#> 
+
+select distinct ?x xsd:integer(?number) AS ?hab
+where{
+?x ex:hasInhabitantNumber ?number .
+FILTER (xsd:integer(?number)>=200000)
+} 
+
+RESPONSES:
+
+http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela	300000
+
+9. --------------------------------------------------
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#>
+
+select distinct ?street ?number ?locality ?province
+where {
+ex:Pazo_Breogan ex:isPlacedIn ?locality .
+?locality ex:inProvince ?province .
+ex:Pazo_Breogan ex:hasAddress ?address .
+?address ex:hasStreet ?street .
+?address ex:hasNumber ?number
+}
+
+RESPONSES:
+
+#street		number	locality  									province
+C/Mayor		5		http://GP-onto.fi.upm.es/exercise2#Arzua	Pontevedra
+
+10. --------------------------------------------------
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#>
+
+select distinct ?subclass
+where {
+?subclass rdfs:subClassOf ex:Location
+}
+
+RESPONSES:
+
+http://GP-onto.fi.upm.es/exercise2#LocationOfInterest
+
+11. --------------------------------------------------
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#>
+
+select distinct ?instance
+where {
+?instance a/rdfs:subClassOf* ex:Locality
+}
+
+RESPONSES:
+
+http://GP-onto.fi.upm.es/exercise2#Arzua
+http://GP-onto.fi.upm.es/exercise2#ACoruC1a
+http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela
+http://GP-onto.fi.upm.es/exercise2#Madrid
+
+12. --------------------------------------------------
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#> 
+
+DESCRIBE ?x
+where{
+?x rdfs:label "Madrid"
+}
+
+RESPONSES:
+
+@prefix ns0:	<http://GP-onto.fi.upm.es/exercise2#> .
+ns0:GP_Santiago_Instance_72	ns0:hasEnd	ns0:Madrid .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+ns0:Madrid					rdf:type	ns0:City .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns0:Madrid	rdfs:label	"Madrid" ;
+	ns0:isLocatedAtPoint	ns0:GP_Santiago_Instance_74 ;
+	ns0:inProvince			"Madrid" .
+
+13. --------------------------------------------------
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#> 
+
+CONSTRUCT { 
+?touristic ex:isIn ?province .
+}
+
+WHERE { 
+?touristic 	a/rdfs:subClassOf ex:TouristicLocation . 
+?touristic 	ex:isPlacedIn ?location .
+?location 	ex:inProvince ?province
+}
+
+RESPONSES:
+
+@prefix ns0:	<http://GP-onto.fi.upm.es/exercise2#> .
+ns0:Cathedral_Santiago_Compostela	ns0:isIn	"Pontevedra" .
+ns0:Pazo_Breogan					ns0:isIn	"Pontevedra" .
+
+14. --------------------------------------------------
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#> 
+
+ASK 
+where {
+?x a ex:Town
+}
+
+RESPONSES:
+
+true
+
+15. -------------------------------------------------- 
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#> 
+
+ASK 
+where {
+?x a ex:Chapel
+}
+
+RESPONSES:
+
+false
+
+------------------------------------------------------
