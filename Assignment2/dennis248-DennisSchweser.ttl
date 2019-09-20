@@ -1,4 +1,4 @@
-@base <http://www.ontogrid.net/StickyNote#>.
+@prefix : <#> . 
 
 :Class01		:includes		:Sensor029;
 			:includes		:Computer101.
@@ -6,7 +6,7 @@
 :Measurement8401	:atTime			"2010-06-12T12:00:12"^^<http://www.w3.org/2001/XMLSchema#dateTime">;
 			:hasTemperature		"29"^^<http://www.w3.org/2001/XMLSchema#short">.
 :Computer101		:hasOwner		:User10A.
-:User10A		:hasName		"Pedro"^^<http://www.w3.org/2001/XMLSchema#string">.
+:User10A		:hasName		"Pedro"^^<http://www.w3.org/2001/XMLSchema#string">
 
 
 
