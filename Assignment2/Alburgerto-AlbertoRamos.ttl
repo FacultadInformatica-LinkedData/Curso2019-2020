@@ -1,0 +1,11 @@
+@base <http://www.fi.upm.es/Resources/SemanticWeb/>
+@prexif WebS: <http://www.fi.upm.es/Resources/SemanticWeb#>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:Class01 		 WebS:includes :Sensor029 ;
+				 WebS:includes :Computer101 .
+:Sensor029 		 WebS:hasMeasurement :Measurement8401 .
+:Measurement8401 WebS:hasTemperature "29"^^xsd:integer ;
+				 WebS:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+:Computer101 	 WebS:hasOwner :User10A .
+:User10A 		 WebS:hasName "Pedro"^^xsd:string .
