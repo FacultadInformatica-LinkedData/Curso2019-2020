@@ -14,7 +14,7 @@
 	<hasOwner rdf:resource="#User10A"/>
     </rdf:Description>
 	<rdf:Description rdf:about="#Measurement8401"/>
-	<hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</hasTemperature>
+	<hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</hasTemperature>
     <atTime rdf:datatype=""http://www.w3.org/2001/XMLSchema#dateType">2010-06-12T12:00:12</atTime>
 	</rdf:Description>
 	<rdf:Description rdf:about="#User10A">
