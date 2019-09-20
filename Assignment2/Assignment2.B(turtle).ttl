@@ -1,13 +1,12 @@
-@base <http://www.fi.upm.es/LinkedData/Assignment2>.
-@prefix xs0:<http://www.fi.upm.es/LinkedData/Assignment2#>.
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix :<http://www.ontogrid.net/StickyNote#>.
+@prefix xsd: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-:Class01  xs0:includes :Sensor029, :Computer101.
+:Class01  :includes :Sensor029, :Computer101.
       
-:Computer101  xs0:hasOwner :User106.
+:Computer101  :hasOwner :User106.
 
-:Sensor029  xs0:hasMeasurement :Measurement8401.
+:Sensor029  :hasMeasurement :Measurement8401.
 
-:Measurement8401 xs0:atTime  "2010-06-12T12:00:12"^^xsd:dateTime ;
-        xs0:hasTemperature "29"^^xsd:int .
-:User106 xs0:hasName "Pedro"^^xsd:string.
+:Measurement8401 :atTime  "2010-06-12T12:00:12"^^xsd:dateTime ;
+        :hasTemperature "29"^^xsd:int .
+:User106 :hasName "Pedro"^^xsd:string.
