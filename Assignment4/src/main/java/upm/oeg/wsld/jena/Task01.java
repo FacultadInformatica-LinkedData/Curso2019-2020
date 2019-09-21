@@ -1,5 +1,5 @@
 package upm.oeg.wsld.jena;
-
+//para podr LEER archivos que ya estan escritos en rdf e introducirlos en nuestro modelo...
 import java.io.InputStream;
 
 import org.apache.jena.rdf.model.*;

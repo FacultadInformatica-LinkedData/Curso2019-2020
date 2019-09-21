@@ -28,17 +28,17 @@ public class Task00
 	{
 		
 		// Create an empty model
-		Model model = ModelFactory.createDefaultModel();
+		Model model = ModelFactory.createDefaultModel(); //crea un grafo vacio para trabajar
 		
 		//create an statement
-		Resource app = model.createResource("http://example.org/App/this");
-		Property says = model.createProperty("http://example.org/App/says");
-		RDFNode hm = model.createLiteral("Hola Mundo!");
+		Resource app = model.createResource("http://example.org/App/this"); //recurso llama al sujeto (uri del sujeto)
+		Property says = model.createProperty("http://example.org/App/says");//uri que generalmente es el predicado
+		RDFNode hm = model.createLiteral("Hola Mundo!"); //creame un literal
 		//Add the statement to the model
-		model.add(app,says, hm);
+		model.add(app,says, hm); //aniademe la tripleta bien formada a mi grafo
 		
 		// Write it to standard out
-		model.write(System.out, "N-QUADS");
+		model.write(System.out, "N-QUADS"); //formato en el que quieres mostrarlo...
 		
 		//List all the objects of a property
 		NodeIterator it = model.listObjectsOfProperty(says);
