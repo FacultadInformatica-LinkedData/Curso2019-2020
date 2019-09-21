@@ -52,5 +52,6 @@ public class Task01
 
 		// Write it to standard out
 		model.write(System.out);
+
 	}
 }

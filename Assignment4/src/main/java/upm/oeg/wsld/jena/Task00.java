@@ -31,14 +31,14 @@ public class Task00
 		Model model = ModelFactory.createDefaultModel();
 		
 		//create an statement
-		Resource app = model.createResource("http://example.org/App/this");
+		Resource app = model.createResource("http://example.org/App/this");//recurso llama al sujeto(uri del sujeto)
 		Property says = model.createProperty("http://example.org/App/says");
 		RDFNode hm = model.createLiteral("Hola Mundo!");
 		//Add the statement to the model
-		model.add(app,says, hm);
+		model.add(app,says, hm);//aniademe al grafo estas caracteristicas
 		
 		// Write it to standard out
-		model.write(System.out, "N-QUADS");
+		model.write(System.out, "N-QUADS");// formato en el que quieres mostrarlo(TURTLE)
 		
 		//List all the objects of a property
 		NodeIterator it = model.listObjectsOfProperty(says);
