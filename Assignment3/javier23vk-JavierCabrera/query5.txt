@@ -1,0 +1,33 @@
+#query5
+
+select distinct  ?prop  count(?val) as ?count
+where { 
+?inst a  <http://dbpedia.org/ontology/Politician> .
+?inst ?prop ?val 
+FILTER (?prop != rdf:type)
+}
+
+#results
+
+prop						count
+
+rdfs:label [http]				85304
+rdfs:comment [http]				83814
+dbpedia:ontology/deathDate [http]		32983
+<http://purl.org/dc/terms/subject> [http]	333830
+foaf:surname [http]				22623
+dbpedia:ontology/activeYearsStartDate [http]	32648
+dbpedia:ontology/nationality [http]		8202
+dbpedia:ontology/religion [http]		7270
+dbpedia2:by [http]				9
+dbpedia2:honorificSuffix [http]			4522
+dbpedia2:piccap [http]				3
+dbpedia2:premier [http]				606
+dbpedia2:restingPlace [http]			1181
+dbpedia2:ribbon [http]				314
+dbpedia2:wstitle [http]				71
+dbpedia2:networth [http]			10
+dbpedia2:height [http]				19
+dbpedia2:order [http]				24
+dbpedia2:birthPlace [http]			686
+dbpedia:ontology/lieutenant [http]		992	
