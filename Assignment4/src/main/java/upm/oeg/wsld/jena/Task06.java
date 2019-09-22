@@ -9,6 +9,7 @@ import org.apache.jena.ontology.OntModelSpec;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.util.FileManager;
+import org.apache.jena.vocabulary.RDFS;
 import org.apache.jena.vocabulary.VCARD;
 
 /**
@@ -45,22 +46,27 @@ public class Task06
 		OntClass researcher = model.createClass(ns+"Researcher");
 		
 		// ** TASK 6.1: Create a new class named "University" **
-		
+		OntClass university = model.createClass(ns + "University");
 		
 		// ** TASK 6.2: Add "Researcher" as a subclass of "Person" **
-		
+		OntClass person = model.getOntClass(ns+"Person");
+		person.addSubClass(researcher);
+//		researcher.addProperty(RDFS.subClassOf, person);
 		
 		// ** TASK 6.3: Create a new property named "worksIn" **
-		
+		Property works = model.createProperty(ns + "worksIn");
 		
 		// ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **
-		
+		Individual jane = researcher.createIndividual(ns + "JaneSmith");
 		
 		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
-		
-		
+		jane.addProperty(VCARD.FN, "Jane Smith");
+		jane.addProperty(VCARD.Given, "Jane");
+		jane.addProperty(VCARD.Family, "Smith");
+
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		
+		Individual john = model.getIndividual(ns + "JohnSmith");
+		john.addProperty(works, "UPM");
 		
 		model.write(System.out, "RDF/XML-ABBREV");
 	}
