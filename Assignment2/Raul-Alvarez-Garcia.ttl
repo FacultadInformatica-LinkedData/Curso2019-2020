@@ -1,11 +1,10 @@
-@base <http://www.ontogrid.net/StickyNote#>
-@prefix date <https://www.w3.org/2001/XMLSchema#date>
-@prefix integer <https://www.w3.org/2001/XMLSchema#integer>
+@base <http://www.fi.upm.es/Resources/SemanticWeb/>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-:Measurement8401	date:atTime :2010-06-12T12:00:12;
-					integer:hasTemperature "29".
+:Measurement8401	date:atTime :2010-06-12T12:00:12^^xsd:dateTime;
+					integer:hasTemperature "29"^^xsd:integer.
 					
-:User10A	:hasname :"Pedro".
+:User10A	:hasname "Pedro"^^xsd:string.
 
 :Computer101	:hasOwner :User10A.
 
