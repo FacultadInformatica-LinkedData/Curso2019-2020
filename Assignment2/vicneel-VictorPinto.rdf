@@ -10,9 +10,9 @@
 <hasOwner rdf:resource="#User10A"/>
 </rdf:Description>
 <rdf:Description rdf:about="#Measurement8401">
-<hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#temperature">29</hasTemperature>
+<hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</hasTemperature>
 <atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">2010-06-12T12:00:12</atTime>
 </rdf:Description>
 <rdf:Description rdf:about="#User10A">
-<hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#name">Pedro</hasName>
+<hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pedro</hasName>
 </rdf:Description>
