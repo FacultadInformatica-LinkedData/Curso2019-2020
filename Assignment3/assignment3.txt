@@ -1,0 +1,43 @@
+1)Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+select distinct ?property where {
+         ?instance a <http://dbpedia.org/ontology/Politician> . 
+         ?instance ?property ?obj . 
+
+}LIMIT 100
+--------------------------------------------------------------------------------------------
+2)Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+select distinct ?property where {
+         ?instance a <http://dbpedia.org/ontology/Politician> . 
+         ?instance ?property ?obj . 
+         filter (?property not in(rdf:type))
+
+}LIMIT 100
+-----------------------------------------------------------------------------------
+
+3) Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+select count (distinct ?obj) as ?values where {
+         ?instance a <http://dbpedia.org/ontology/Politician> . 
+         ?instance ?property ?obj . 
+         filter (?property not in(rdf:type))
+
+} LIMIT 100
+------------------------------------------------------------------------
+4)For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+select distinct?obj where{
+ ?instance a <http://dbpedia.org/ontology/Politician> . 
+         ?instance ?property ?obj . 
+         filter (?property not in(rdf:type))
+
+} LIMIT 100
+
+---------------------------------------------------------------------------
+5)For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+
+select ?property count (distinct ?obj) as ?values where {
+         ?instance a <http://dbpedia.org/ontology/Politician> . 
+         ?instance ?property ?obj . 
+         filter (?property not in(rdf:type))
+
+} LIMIT 100
