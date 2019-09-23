@@ -315,7 +315,7 @@ FILTER (?propierties not in (rdf:type))
 
 4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
 
-select distinct ?valores
+select distinct ?c
 where
 {
 ?valores a <http://dbpedia.org/ontology/Politician> .
@@ -325,7 +325,7 @@ FILTER (?propierties not in (rdf:type))
 
 5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
 
-select distinct ?propierties count(?valores) as ?numVals
+select distinct ?propierties count(distinct ?valores) as ?numVals
 where
 {
 ?valores a <http://dbpedia.org/ontology/Politician> .
