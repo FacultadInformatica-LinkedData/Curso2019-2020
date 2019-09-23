@@ -1,0 +1,24 @@
+<?xml version ="1.0" codificación = "UTF-8" ?>
+<rdf:RDF xml: base = " http://www.ontogrid.net/Assignment2# "
+    xmlns = " http://www.ontogrid.net/Assignment2# "
+    xmlns: rdf = " http://www.w3.org/1999/02/22-rdf-syntax-ns# " >
+<rdf:Descripcion rdf:about="#Class01"/>
+	<incluye rdf:resource="Computer101"/>
+	<incluye rdf:resource="Sensor029"/>
+</rdf:Descripcion>
+<rdf:Descripcion rdf:about="#Computer101">
+	<hasOwner rdf:resource="User10A"/>
+</rdf:Descripcion>
+<rdf:Descripcion rdf:about="#User10A">
+	<HasName rdf:datatype =" http://www.w3.org/2001/XMLSchema#string ">Pedro</hasName>
+</rdf:Descripcion>
+<rdf:Descripcion rdf:about="#Sensor029">
+	<hasMeasurement rdf:resource ="Measurement8401"/>
+</rdf:Descripcion>
+<rdf:Descripcion rdf:about="Measurement8401">
+	<HasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</hasTemperature>
+	<AtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-00-12T12:00:12</atTime>
+</rdf:Descripcion>
+</rdf:RDF>
+
+
