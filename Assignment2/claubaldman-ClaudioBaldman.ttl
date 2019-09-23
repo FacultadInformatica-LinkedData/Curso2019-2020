@@ -6,17 +6,17 @@
 @prefix user=<http://www.oeg-upm.net/ontologies/user#>
    
     :Class01
-                class:includes:Sensor029
-                class:includes:Computer101
+                class: includes:  Sensor029
+                class: includes:  Computer101
 
     :Sensor029
-                sensor:hasMeasurement:Measurement8401
+                sensor:hasMeasurement: Measurement8401
 
     :Computer101
-                computer:hasOwner:User10A
+                computer:hasOwner: User10A
 
     :Measurement8401
-                measurement:hasTemperature:"29"^^xsd:integer
-                measurement:atTime:"2010-06-12T12:00:12"^^xsd:dateTime
+                measurement:hasTemperature "29"^^xsd:integer
+                measurement:atTime "2010-06-12T12:00:12"^^xsd:dateTime
     :User10A
-                user:hasName:"Pedro"^^xsd:string
+                user:hasName "Pedro"^^xsd:string
