@@ -1,0 +1,177 @@
+Carlos Jiménez Martín - 160190
+
+
+1. Get all the properties that can be applied to instances of the Politician class
+
+SELECT DISTINCT ?property
+WHERE 
+{
+	?x a <http://dbpedia.org/ontology/Politician> .
+	{?isValueOf ?property ?x}
+	UNION
+	{?x ?property ?hasValue}
+}
+
+RESULT:
+ "property" ,
+ "http://www.w3.org/2002/07/owl#differentFrom" ,
+ "http://www.w3.org/2000/01/rdf-schema#seeAlso" ,
+ "http://www.w3.org/2002/07/owl#sameAs" ,
+ "http://dbpedia.org/ontology/wikiPageWikiLink" ,
+ "http://dbpedia.org/ontology/wikiPageRedirects" ,
+ "http://dbpedia.org/ontology/wikiPageDisambiguates" ,
+ "http://dbpedia.org/property/name" ,
+ "http://xmlns.com/foaf/0.1/primaryTopic" ,
+ "http://dbpedia.org/ontology/academicAdvisor" ,
+ "http://dbpedia.org/ontology/appointer" ,
+ "http://dbpedia.org/ontology/associate" ,
+ "http://dbpedia.org/ontology/author" ,
+ "http://dbpedia.org/ontology/award" ,
+ "http://dbpedia.org/ontology/basedOn" ,
+ "http://dbpedia.org/ontology/builder" ,
+ "http://dbpedia.org/ontology/chancellor" ,
+ "http://dbpedia.org/ontology/child" ,
+ "http://dbpedia.org/ontology/commander" ,
+ "http://dbpedia.org/ontology/creator" ,
+ "http://dbpedia.org/ontology/deputy" ,
+
+
+
+2. Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+SELECT DISTINCT ?property
+WHERE 
+{
+	?x a <http://dbpedia.org/ontology/Politician> .
+	{?isValueOf ?property ?x}
+	UNION
+	{?x ?property ?hasValue}
+	FILTER(!(?property = rdf:type))
+}
+
+RESULT:
+ "property" ,
+ "http://www.w3.org/2002/07/owl#differentFrom" ,
+ "http://www.w3.org/2000/01/rdf-schema#seeAlso" ,
+ "http://www.w3.org/2002/07/owl#sameAs" ,
+ "http://dbpedia.org/ontology/wikiPageWikiLink" ,
+ "http://dbpedia.org/ontology/wikiPageRedirects" ,
+ "http://dbpedia.org/ontology/wikiPageDisambiguates" ,
+ "http://dbpedia.org/property/name" ,
+ "http://xmlns.com/foaf/0.1/primaryTopic" ,
+ "http://dbpedia.org/ontology/academicAdvisor" ,
+ "http://dbpedia.org/ontology/appointer" ,
+ "http://dbpedia.org/ontology/associate" ,
+ "http://dbpedia.org/ontology/author" ,
+ "http://dbpedia.org/ontology/award" ,
+ "http://dbpedia.org/ontology/basedOn" ,
+ "http://dbpedia.org/ontology/builder" ,
+ "http://dbpedia.org/ontology/chancellor" ,
+ "http://dbpedia.org/ontology/child" ,
+ "http://dbpedia.org/ontology/commander" ,
+ "http://dbpedia.org/ontology/creator" ,
+ "http://dbpedia.org/ontology/deputy" ,
+
+
+
+3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+SELECT DISTINCT ?property ?hasValue
+WHERE 
+{
+	?x a <http://dbpedia.org/ontology/Politician> .
+	?x ?property ?hasValue .
+	FILTER(!(?property = rdf:type))
+}
+
+RESULT:
+ "property" , "hasValue" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Axel Oxenstierna" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , أكسل أكسنسترنا ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Axel Oxenstierna" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Axel Oxenstierna" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Axel Oxenstierna" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Axel Oxenstierna" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , アクセル・オクセンシェルナ ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Axel Oxenstierna" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Axel Oxenstierna" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Axel Oxenstierna" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Оксеншерна, Аксель" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Brothers Grimm" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , الأخوان غريم ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Brüder Grimm" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Hermanos Grimm" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Frères Grimm" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Fratelli Grimm" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , グリム兄弟 ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Gebroeders Grimm" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Bracia Grimm" ,
+
+
+4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+SELECT DISTINCT ?property ?isValue
+WHERE 
+{
+	?x a <http://dbpedia.org/ontology/Politician> .
+	?isValue ?property ?x .
+	FILTER(!(?property = rdf:type))
+}
+
+RESULT:
+ "property" , "isValue" ,
+ "http://www.w3.org/2002/07/owl#differentFrom" , "http://dbpedia.org/resource/Eric_Honegger" ,
+ "http://www.w3.org/2002/07/owl#differentFrom" , "http://dbpedia.org/resource/John_Glen_(politician)" ,
+ "http://www.w3.org/2000/01/rdf-schema#seeAlso" , "http://dbpedia.org/resource/Home_front_during_World_War_I" ,
+ "http://www.w3.org/2000/01/rdf-schema#seeAlso" , "http://dbpedia.org/resource/Feminism_in_Argentina" ,
+ "http://www.w3.org/2000/01/rdf-schema#seeAlso" , "http://dbpedia.org/resource/Jill_Hazelbaker" ,
+ "http://www.w3.org/2002/07/owl#sameAs" , "http://dbpedia.org/resource/Eva_Perón" ,
+ "http://www.w3.org/2002/07/owl#sameAs" , "http://dbpedia.org/resource/François_Arago" ,
+ "http://www.w3.org/2002/07/owl#sameAs" , "http://dbpedia.org/resource/Laurent-Désiré_Kabila" ,
+ "http://www.w3.org/2002/07/owl#sameAs" , "http://dbpedia.org/resource/Ahmed_Sékou_Touré" ,
+ "http://www.w3.org/2002/07/owl#sameAs" , "http://dbpedia.org/resource/Francisco_Flores_Pérez" ,
+ "http://www.w3.org/2002/07/owl#sameAs" , "http://dbpedia.org/resource/Ilie_Ilașcu" ,
+ "http://www.w3.org/2002/07/owl#sameAs" , "http://dbpedia.org/resource/Ilie_Verdeț" ,
+ "http://dbpedia.org/ontology/wikiPageWikiLink" , "http://dbpedia.org/resource/1583" ,
+ "http://dbpedia.org/ontology/wikiPageWikiLink" , "http://dbpedia.org/resource/1612" ,
+ "http://dbpedia.org/ontology/wikiPageWikiLink" , "http://dbpedia.org/resource/1620s" ,
+ "http://dbpedia.org/ontology/wikiPageWikiLink" , "http://dbpedia.org/resource/1632" ,
+ "http://dbpedia.org/ontology/wikiPageWikiLink" , "http://dbpedia.org/resource/1654" ,
+ "http://dbpedia.org/ontology/wikiPageWikiLink" , "http://dbpedia.org/resource/Christina,_Queen_of_Sweden" ,
+ "http://dbpedia.org/ontology/wikiPageWikiLink" , "http://dbpedia.org/resource/Thirty_Years'_War" ,
+ "http://dbpedia.org/ontology/wikiPageWikiLink" , "http://dbpedia.org/resource/Tidö_Castle" ,
+
+
+
+5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+
+SELECT ?property (COUNT(DISTINCT ?isValue) as ?count)
+WHERE 
+{
+	?x a <http://dbpedia.org/ontology/Politician> .
+	?isValue ?property ?x .
+	FILTER(!(?property = rdf:type))
+}
+
+RESULT:
+ "property" , "count" ,
+ "http://dbpedia.org/property/lyrics" , "2" ,
+ "http://dbpedia.org/property/spokesperson" , "1" ,
+ "http://dbpedia.org/property/deputyLeader" , "1" ,
+ "http://dbpedia.org/property/comptroller" , "1" ,
+ "http://dbpedia.org/property/président" , "3" ,
+ "http://dbpedia.org/property/officeholder" , "17" ,
+ "http://dbpedia.org/property/trophy" , "1" ,
+ "http://dbpedia.org/property/cousins" , "1" ,
+ "http://dbpedia.org/property/goals" , "2" ,
+ "http://purl.org/linguistics/gold/hypernym" , "1" ,
+ "http://dbpedia.org/property/homeClub" , "1" ,
+ "http://dbpedia.org/property/alongsidea" , "1" ,
+ "http://dbpedia.org/property/deputy" , "90" ,
+ "http://dbpedia.org/property/lgThird" , "1" ,
+ "http://dbpedia.org/property/president/ceo" , "1" ,
+ "http://dbpedia.org/ontology/incumbent" , "21" ,
+ "http://dbpedia.org/property/king" , "1" ,
+ "http://dbpedia.org/property/receiver" , "1" ,
+ "http://dbpedia.org/ontology/owner" , "98" ,
+ "http://dbpedia.org/property/post1followed" , "325" ,
