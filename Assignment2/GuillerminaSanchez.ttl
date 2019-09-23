@@ -11,4 +11,4 @@
 :Measurement8401 source:hasTemperature "29"^^xsd:integer ; #Especificar el data type en este caso es opcional
 				 source:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
 :User10A source:hasName "Pedro"^^xsd:string . #Especificar el data type en este caso es opcional
-</rdf:RDF>
+
