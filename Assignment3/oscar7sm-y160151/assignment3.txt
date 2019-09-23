@@ -184,7 +184,7 @@ FILTER(?propiedades not IN (rdf:type))
 -------------------------------------------------------------------
 Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
 
-select distinct ?propiedades ?valor
+select distinct ?propiedades ?c
 where 
 {
 ?x a <http://dbpedia.org/ontology/Politician> .
@@ -208,7 +208,7 @@ For each of the properties, except rdf:type, that can be applied to instances of
 
 PREFIX ex:<http://dbpedia.org/ontology/Politician>
 
-select distinct ?propiedades (COUNT(?c) as ?pCount)
+select distinct ?propiedades (COUNT(disitinc ?c) as ?pCount)
 where 
 {
 ?x a <http://dbpedia.org/ontology/Politician> .
