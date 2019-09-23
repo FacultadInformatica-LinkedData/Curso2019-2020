@@ -1,0 +1,756 @@
+?1. Get all the properties that can be applied to instances of the 
+Politician class (<http://dbpedia.org/ontology/Politician>)
+
+select ?p where { 
+    ?x a <http://dbpedia.org/ontology/Politician> .
+?x ?p ?z } LIMIT 100
+
+p
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+
+
+2. Get all the properties, except rdf:type, that can be applied to
+instances of the Politician class
+
+select ?p where { 
+    ?x a <http://dbpedia.org/ontology/Politician> .
+?x ?p ?z 
+FILTER (?p != rdf:type) } LIMIT 100
+
+p
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#label
+
+
+3. Which different values exist for the properties, except
+rdf:type, of the instances of the Politician class?
+
+select distinct ?v where { 
+    ?x a <http://dbpedia.org/ontology/Politician> .
+?x ?p ?v
+FILTER (?p != rdf:type) } LIMIT 100
+
+v
+"Marcia Alicia Fernández Piña"@es
+"Argentina Rubiera"@es
+"Francisco Pizano de Brigard"@es
+"Gabriel Barceló"@es
+"Gabriel Cruz"@es
+"Guillermo Novara"@es
+"Gustavo Oliva"@es
+"Mario Alberto Dávila Delgado"@es
+"Raquel Barajas"@es
+"Rodrigo Hermosilla Gatica"@es
+"Sergio Sepúlveda Corvalán"@es
+"Albert Botran"@es
+"Antoni Castellà"@es
+"Benet Salellas"@es
+"Clemente Agosto"@es
+"Diego García de García Vilas"@es
+"Gabriela Serra"@es
+"Gian Nicola Berti"@es
+"Ingrid Schemelensky"@es
+"Isabel Muradàs"@es
+"Jesús Gerardo Izquierdo Rojas"@es
+"Meritxell Ruiz"@es
+"Meritxell Serret"@es
+"Miriam Prado Carrascal"@es
+"Pablo Pérez Tremps"@es
+"Roque Sevilla"@es
+"Santiago Aparicio"@es
+"Mieko Yoshimura"@es
+"Abdelkader Taleb Omar"@es
+"Abel Caballero"@es
+"Abel Salinas Izaguirre"@es
+"Abelardo Carrillo Zavala"@es
+"Achille Occhetto"@es
+"Ada de Caria"@es
+"Adalbert Krieger Vasena"@es
+"Adelardo López de Ayala"@es
+"Agustín Basave Benítez"@es
+"Agustín Edwards Mac-Clure"@es
+"Ahmed Ben Bella"@es
+"Alberto Alvarado Arámburo"@es
+"Alberto Anaya"@es
+"Alberto Begné Guerra"@es
+"Alberto Carnevali"@es
+"Alberto Fermín Zubiría"@es
+"Alberto Icare"@es
+"Alberto Oliart"@es
+"Alberto Pandolfi Arbulú"@es
+"Alberto Quintanilla"@es
+"Alda Lazo Ríos"@es
+"Alejandro Aguinaga"@es
+"Alejandro Cervantes Delgado"@es
+"Alejandro Chanona"@es
+"Alejandro García-Huidobro"@es
+"Alejandro González Yáñez"@es
+"Alejandro Navarro"@es
+"Alejandro Zapata Perogordo"@es
+"Alexander Dubcek"@es
+"Alfonso Barrantes Lingán"@es
+"Alfonso Corona del Rosal"@es
+"Alfonso García-Gallo"@es
+"Alfredo Baranda García"@es
+"Alfredo Ferrero Diez Canseco"@es
+"Alfredo Jaime Irujo"@es
+"Alfredo Ovando Candía"@es
+"Algirdas Brazauskas"@es
+"Ali Hassan al-Mayid"@es
+"Allan Wagner Tizón"@es
+"Alonso de Vera y Aragón, el Tupí"@es
+"Alonso de Vera y Aragón y Calderón"@es
+"Amadeo Bordiga"@es
+"Amin al-Husayni"@es
+"Ana Mato"@es
+"Ana Rosa Payán"@es
+"Anastasio Bustamante"@es
+"Andrés Galván Rivas"@es
+"Andrés Townsend Ezcurra"@es
+"Angélica Moya Marín"@es
+"Anselmo Marini"@es
+"Antolín Sánchez Presedo"@es
+"Antoni Castells"@es
+"Antonio Domínguez Ortiz"@es
+"Antonio González y González"@es
+"Antonio Martínez Báez"@es
+"Antonio Muñoz Vera"@es
+"Antonio Rodríguez San Juan"@es
+"Antonio Rumeu de Armas"@es
+"Antonio Vespucio Liberti"@es
+"Antonio del Viso"@es
+"Antton Karrera"@es
+"Antón Cañellas"@es
+"Aquileo Parra"@es
+"Armando Calderón Sol"@es
+"Armando Enríquez Flores"@es
+"Arnoldo Ochoa González"@es
+"Artemio Iglesias"@es
+"Artemisia II de Caria"@es
+"Arthur Dion Hanna"@es
+"Arthur Griffith"@es
+"Artur Bernardes"@es
+"Arturo Escobar y Vega"@es
+
+
+4. For each of the properties, except rdf:type, that 
+can be applied to instances of the Politician class, which 
+different values do they take in those instances?
+
+select distinct ?p, ?x  where { 
+    ?x a <http://dbpedia.org/ontology/Politician> .
+?x ?p ?z 
+FILTER (?p != rdf:type) } LIMIT 100
+
+p
+x
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Marcia_Alicia_Fernández_Piña
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Argentina_Rubiera
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Francisco_Pizano_de_Brigard
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Gabriel_Barceló
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Gabriel_Cruz
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Guillermo_Novara
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Gustavo_Oliva
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Mario_Alberto_Dávila_Delgado
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Raquel_Barajas
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Rodrigo_Hermosilla_Gatica
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Sergio_Sepúlveda_Corvalán
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Albert_Botran
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Antoni_Castellà
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Benet_Salellas
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Clemente_Agosto
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Diego_García_de_García_Vilas
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Gabriela_Serra
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Gian_Nicola_Berti
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Ingrid_Schemelensky
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Isabel_Muradàs
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Jesús_Gerardo_Izquierdo_Rojas
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Meritxell_Ruiz
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Meritxell_Serret
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Miriam_Prado_Carrascal
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Pablo_Pérez_Tremps
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Roque_Sevilla
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Santiago_Aparicio
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Mieko_Yoshimura
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Abdelkader_Taleb_Omar
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Abel_Caballero
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Abel_Salinas_Izaguirre
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Abelardo_Carrillo_Zavala
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Achille_Occhetto
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Ada_de_Caria
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Adalbert_Krieger_Vasena
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Adelardo_López_de_Ayala
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Agustín_Basave_Benítez
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Agustín_Edwards_Mac-Clure
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Ahmed_Ben_Bella
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alberto_Alvarado_Arámburo
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alberto_Anaya
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alberto_Begné_Guerra
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alberto_Carnevali
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alberto_Fermín_Zubiría
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alberto_Icare
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alberto_Oliart
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alberto_Pandolfi_Arbulú
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alberto_Quintanilla
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alda_Lazo_Ríos
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alejandro_Aguinaga
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alejandro_Cervantes_Delgado
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alejandro_Chanona
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alejandro_García-Huidobro
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alejandro_González_Yáñez
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alejandro_Navarro
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alejandro_Zapata_Perogordo
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alexander_Dubcek
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alfonso_Barrantes_Lingán
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alfonso_Corona_del_Rosal
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alfonso_García-Gallo
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alfredo_Baranda_García
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alfredo_Ferrero_Diez_Canseco
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alfredo_Jaime_Irujo
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alfredo_Ovando_Candía
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Algirdas_Brazauskas
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Ali_Hassan_al-Mayid
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Allan_Wagner_Tizón
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alonso_de_Vera_y_Aragón,_el_Tupí
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Alonso_de_Vera_y_Aragón_y_Calderón
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Amadeo_Bordiga
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Amin_al-Husayni
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Ana_Mato
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Ana_Rosa_Payán
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Anastasio_Bustamante
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Andrés_Galván_Rivas
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Andrés_Townsend_Ezcurra
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Angélica_Moya_Marín
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Anselmo_Marini
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Antolín_Sánchez_Presedo
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Antoni_Castells
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Antonio_Domínguez_Ortiz
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Antonio_González_y_González
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Antonio_Martínez_Báez
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Antonio_Muñoz_Vera
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Antonio_Rodríguez_San_Juan
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Antonio_Rumeu_de_Armas
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Antonio_Vespucio_Liberti
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Antonio_del_Viso
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Antton_Karrera
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Antón_Cañellas
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Aquileo_Parra
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Armando_Calderón_Sol
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Armando_Enríquez_Flores
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Arnoldo_Ochoa_González
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Artemio_Iglesias
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Artemisia_II_de_Caria
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Arthur_Dion_Hanna
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Arthur_Griffith
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Artur_Bernardes
+http://www.w3.org/2000/01/rdf-schema#label
+http://es.dbpedia.org/resource/Arturo_Escobar_y_Vega
+
+
+5. For each of the properties, except rdf:type, that can be 
+applied to instances of the Politician class, how many distinct 
+values do they take in those instances?
+
+select distinct  ?p, count(?x) as ?v where { 
+    ?x a <http://dbpedia.org/ontology/Politician> .
+?x ?p ?z 
+FILTER (?p != rdf:type) } ORDER BY DESC(?v) LIMIT 100
+
+p
+v
+http://purl.org/dc/terms/subject
+130616
+http://www.w3.org/2002/07/owl#sameAs
+101862
+http://es.dbpedia.org/property/cargo
+39486
+http://dbpedia.org/ontology/birthPlace
+37930
+http://xmlns.com/foaf/0.1/name
+36927
+http://es.dbpedia.org/property/predecesor
+32877
+http://es.dbpedia.org/property/inicio
+28115
+http://es.dbpedia.org/property/título
+27963
+http://dbpedia.org/ontology/wikiPageExternalLink
+27372
+http://es.dbpedia.org/property/final
+25553
+http://dbpedia.org/ontology/successor
+22313
+http://es.dbpedia.org/property/escudo
+21413
+http://www.w3.org/2000/01/rdf-schema#label
+21036
+http://www.w3.org/ns/prov#wasDerivedFrom
+21036
+http://dbpedia.org/ontology/wikiPageID
+21036
+http://dbpedia.org/ontology/wikiPageRevisionID
+21036
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+21036
+http://www.w3.org/2000/01/rdf-schema#comment
+20967
+http://dbpedia.org/ontology/abstract
+20967
+http://xmlns.com/foaf/0.1/gender
+20818
+http://dbpedia.org/ontology/birthDate
+19511
+http://dbpedia.org/ontology/thumbnail
+19014
+http://xmlns.com/foaf/0.1/depiction
+19014
+http://xmlns.com/foaf/0.1/givenName
+18476
+http://es.dbpedia.org/property/período
+15565
+http://dbpedia.org/ontology/deathPlace
+15481
+http://dbpedia.org/ontology/party
+15186
+http://dbpedia.org/ontology/profession
+11139
+http://es.dbpedia.org/property/imagen
+10920
+http://es.dbpedia.org/property/fechaDeNacimiento
+10734
+http://es.dbpedia.org/property/sucesor
+9525
+http://dbpedia.org/ontology/deathDate
+9468
+http://xmlns.com/foaf/0.1/surname
+8097
+http://es.dbpedia.org/property/cónyuge
+7977
+http://es.dbpedia.org/property/almamáter
+7710
+http://es.dbpedia.org/property/año
+7605
+http://es.dbpedia.org/property/presidente
+7368
+http://es.dbpedia.org/property/nombre
+6859
+http://es.dbpedia.org/property/editorial
+6508
+http://es.dbpedia.org/property/distrito
+6292
+http://dbpedia.org/ontology/occupation
+6243
+http://es.dbpedia.org/property/fechaDeFallecimiento
+5944
+http://es.dbpedia.org/property/url
+5006
+http://es.dbpedia.org/property/tamaño
+4698
+http://es.dbpedia.org/property/pieimagen
+4357
+http://es.dbpedia.org/property/hijos
+4087
+http://purl.org/dc/terms/description
+4039
+http://es.dbpedia.org/property/lugarnac
+3709
+http://es.dbpedia.org/property/apellido
+3432
+http://dbpedia.org/ontology/residence
+3410
+http://es.dbpedia.org/property/padres
+3391
+http://dbpedia.org/ontology/religion
+3383
+http://es.dbpedia.org/property/páginas
+2531
+http://es.dbpedia.org/property/isbn
+2476
+http://es.dbpedia.org/property/profesión
+2457
+http://es.dbpedia.org/property/ubicación
+2235
+http://es.dbpedia.org/property/publicación
+2054
+http://es.dbpedia.org/property/enlaceautor
+2025
+http://es.dbpedia.org/property/fechanac
+2006
+http://xmlns.com/foaf/0.1/homepage
+1799
+http://es.dbpedia.org/property/lugarmuerte
+1668
+http://es.dbpedia.org/property/sitioweb
+1485
+http://es.dbpedia.org/property/volumen
+1395
+http://es.dbpedia.org/property/número
+1266
+http://es.dbpedia.org/property/país
+1265
+http://es.dbpedia.org/property/partido
+1227
+http://es.dbpedia.org/property/autor
+1205
+http://es.dbpedia.org/property/vicepresidente
+1193
+http://es.dbpedia.org/property/twitter
+1182
+http://es.dbpedia.org/property/primerministro
+1176
+http://es.dbpedia.org/property/fechamuerte
+1155
+http://es.dbpedia.org/property/apellidos
+1071
+http://es.dbpedia.org/property/issn
+1064
+http://dbpedia.org/ontology/child
+1003
+http://es.dbpedia.org/property/ocupación
+980
+http://es.dbpedia.org/property/fechaacceso
+954
+http://es.dbpedia.org/property/idioma
+938
+http://es.dbpedia.org/property/monarca
+919
+http://es.dbpedia.org/property/dead
+886
+http://es.dbpedia.org/property/firma
+881
+http://es.dbpedia.org/property/juntoa
+806
+http://es.dbpedia.org/property/fecha
+798
+http://es.dbpedia.org/property/edición
+744
+http://es.dbpedia.org/property/afiliaciones
+661
+http://es.dbpedia.org/property/embajadorde
+624
+http://es.dbpedia.org/property/tratamiento
+587
+http://es.dbpedia.org/property/subtítulo
+560
+http://dbpedia.org/ontology/nationality
+476
+http://es.dbpedia.org/property/posgrado
+434
+http://es.dbpedia.org/property/editor
+418
+http://es.dbpedia.org/property/id
+414
+http://es.dbpedia.org/property/vicegobernador
+395
+http://es.dbpedia.org/property/religión
+373
+http://es.dbpedia.org/property/facebook
+365
+http://es.dbpedia.org/property/gobernador
+357
+http://es.dbpedia.org/property/title
+349
+http://es.dbpedia.org/property/urlarchivo
+346
+http://es.dbpedia.org/property/capítulo
+319
+http://es.dbpedia.org/property/nombreDeNacimiento
+309
+http://es.dbpedia.org/property/lugar
+287
