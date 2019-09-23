@@ -1,5 +1,5 @@
-@base <http://www.w3.org/1999/02/22-rdf-syntax-ns/ >
-@prefix vocab: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@base <http://www.ontogrid.net/StickyNote >
+@prefix vocab: <http://www.ontogrid.net/StickyNote#>
 :Class01    vocab:includes :Sensor029 ;
             vocab:includes :Computer101.
 :Sensor029  vocab:hasMeasurement :Measurement8401.
