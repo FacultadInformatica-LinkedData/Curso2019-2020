@@ -1,0 +1,50 @@
+1.Get all the properties that can be applied to instances of the Politician class
+
+PREFIX ex: <http://dbpedia.org/ontology/>
+select distinct ?p 
+where 
+{
+ ?y a ex:Politician .
+ ?y ?p ?z
+}
+ LIMIT 100
+
+2.Get all the properties, except rdf:type, that can be applied to instances of the Politician class.
+
+SELECT distinct ?x
+WHERE{
+?t a <http://dbpedia.org/ontology/Politician>.
+?t ?x ?y
+FILTER(?p != rdf:type)
+}
+LIMIT 100
+
+3.Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+SELECT distinct ?x
+WHERE{
+?z a <http://dbpedia.org/ontology/Politician>.
+?z ?y ?x
+FILTER(?y != rdf:type)
+}
+LIMIT 100
+
+4.For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+SELECT distinct ?x ?y
+WHERE{
+?t a <http://dbpedia.org/ontology/Politician>.
+?t ?x ?y
+FILTER(?x != rdf:type)
+}
+LIMIT 100
+
+5.For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+ 
+SELECT distinct ?x count(?x) as ?y
+WHERE{
+?t a <http://dbpedia.org/ontology/Politician>.
+?t ?x ?y
+FILTER(?x != rdf:type)
+} ORDER BY DESC(?y)
+LIMIT 100

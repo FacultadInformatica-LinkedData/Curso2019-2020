@@ -42,7 +42,7 @@ public class Task00
 		
 		//List all the objects of a property
 		NodeIterator it = model.listObjectsOfProperty(says);
-		
+
 		while (it.hasNext())
 		{
 		    RDFNode node = it.nextNode();
