@@ -1,0 +1,388 @@
+1. Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+SELECT distinct ?y
+WHERE
+{
+
+?x a <http://dbpedia.org/ontology/Politician> .
+?z ?y ?x
+
+} LIMIT 10
+
+
+rdf:type [http]
+rdfs:label [http]
+rdfs:comment [http]
+owl:differentFrom [http]
+rdfs:seeAlso [http]
+owl:sameAs [http]
+dbpedia:ontology/deathPlace [http]
+dbpedia2:deathPlace [http]
+dbpedia:ontology/deathDate [http]
+dbpedia:ontology/birthPlace [http]
+
+2. Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+SELECT distinct ?y
+WHERE
+{
+
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?y ?z .
+FILTER (?y != rdf:type)
+
+} LIMIT 10
+
+
+rdfs:label [http]
+rdfs:comment [http]
+owl:differentFrom [http]
+rdfs:seeAlso [http]
+owl:sameAs [http]
+dbpedia:ontology/deathPlace [http]
+dbpedia2:deathPlace [http]
+dbpedia:ontology/deathDate [http]
+dbpedia:ontology/birthPlace [http]
+dbpedia:ontology/birthDate [http]
+
+3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+SELECT distinct ?y ?z
+WHERE
+{
+
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?y ?z .
+FILTER (?y != rdf:type)
+
+} LIMIT 100
+
+
+rdfs:label [http]	"Axel Oxenstierna"@en
+rdfs:label [http]	"أكسل أكسنسترنا"@ar
+rdfs:label [http]	"Axel Oxenstierna"@de
+rdfs:label [http]	"Axel Oxenstierna"@es
+rdfs:label [http]	"Axel Oxenstierna"@fr
+rdfs:label [http]	"Axel Oxenstierna"@it
+rdfs:label [http]	"アクセル・オクセンシェルナ"@ja
+rdfs:label [http]	"Axel Oxenstierna"@nl
+rdfs:label [http]	"Axel Oxenstierna"@pl
+rdfs:label [http]	"Axel Oxenstierna"@pt
+rdfs:label [http]	"Оксеншерна, Аксель"@ru
+rdfs:label [http]	"Brothers Grimm"@en
+rdfs:label [http]	"الأخوان غريم"@ar
+rdfs:label [http]	"Brüder Grimm"@de
+rdfs:label [http]	"Hermanos Grimm"@es
+rdfs:label [http]	"Frères Grimm"@fr
+rdfs:label [http]	"Fratelli Grimm"@it
+rdfs:label [http]	"グリム兄弟"@ja
+rdfs:label [http]	"Gebroeders Grimm"@nl
+rdfs:label [http]	"Bracia Grimm"@pl
+rdfs:label [http]	"Irmãos Grimm"@pt
+rdfs:label [http]	"Братья Гримм"@ru
+rdfs:label [http]	"格林兄弟"@zh
+rdfs:label [http]	"Carlos Menem"@en
+rdfs:label [http]	"كارلوس منعم"@ar
+rdfs:label [http]	"Carlos Menem"@de
+rdfs:label [http]	"Carlos Menem"@es
+rdfs:label [http]	"Carlos Menem"@fr
+rdfs:label [http]	"Carlos Saúl Menem"@it
+rdfs:label [http]	"カルロス・メネム"@ja
+rdfs:label [http]	"Carlos Menem"@nl
+rdfs:label [http]	"Carlos Saúl Menem"@pl
+rdfs:label [http]	"Carlos Menem"@pt
+rdfs:label [http]	"Менем, Карлос"@ru
+rdfs:label [http]	"卡洛斯·梅内姆"@zh
+rdfs:label [http]	"Carter Harrison Jr."@en
+rdfs:label [http]	"كارتر هاريسون"@ar
+rdfs:label [http]	"Carter Harrison, Jr."@de
+rdfs:label [http]	"Carter Harrison Sr."@en
+rdfs:label [http]	"Carter Harrison, Sr."@de
+rdfs:label [http]	"Carter Harrison, Sr."@fr
+rdfs:label [http]	"Chen Shui-bian"@en
+rdfs:label [http]	"تشن شوي بيان"@ar
+rdfs:label [http]	"Chen Shui-bian"@de
+rdfs:label [http]	"Chen Shui-bian"@es
+rdfs:label [http]	"Chen Shui-bian"@fr
+rdfs:label [http]	"Chen Shui-bian"@it
+rdfs:label [http]	"陳水扁"@ja
+rdfs:label [http]	"Chen Shui-bian"@nl
+rdfs:label [http]	"Chen Shui-bian"@pl
+rdfs:label [http]	"Chen Shui-bian"@pt
+rdfs:label [http]	"Чэнь Шуйбянь"@ru
+rdfs:label [http]	"陳水扁"@zh
+rdfs:label [http]	"David Lloyd George"@en
+rdfs:label [http]	"ديفيد لويد جورج"@ar
+rdfs:label [http]	"David Lloyd George"@de
+rdfs:label [http]	"David Lloyd George"@es
+rdfs:label [http]	"David Lloyd George"@it
+rdfs:label [http]	"David Lloyd George"@fr
+rdfs:label [http]	"デビッド・ロイド・ジョージ"@ja
+rdfs:label [http]	"David Lloyd George"@nl
+rdfs:label [http]	"David Lloyd George"@pl
+rdfs:label [http]	"David Lloyd George"@pt
+rdfs:label [http]	"Ллойд Джордж, Дэвид"@ru
+rdfs:label [http]	"大衛·勞合·喬治"@zh
+rdfs:label [http]	"Enrico Berlinguer"@en
+rdfs:label [http]	"إنريكو برلينغوير"@ar
+rdfs:label [http]	"Enrico Berlinguer"@de
+rdfs:label [http]	"Enrico Berlinguer"@es
+rdfs:label [http]	"Enrico Berlinguer"@fr
+rdfs:label [http]	"Enrico Berlinguer"@it
+rdfs:label [http]	"エンリコ・ベルリンゲル"@ja
+rdfs:label [http]	"Enrico Berlinguer"@nl
+rdfs:label [http]	"Enrico Berlinguer"@pl
+rdfs:label [http]	"Enrico Berlinguer"@pt
+rdfs:label [http]	"Берлингуэр, Энрико"@ru
+rdfs:label [http]	"恩里科·贝林格"@zh
+rdfs:label [http]	"Eric Williams"@en
+rdfs:label [http]	"Eric Eustace Williams"@de
+rdfs:label [http]	"Eric Eustace Williams"@es
+rdfs:label [http]	"Eric Williams (homme politique)"@fr
+rdfs:label [http]	"エリック・ウィリアムズ"@ja
+rdfs:label [http]	"Eric Williams"@pl
+rdfs:label [http]	"Уильямс, Эрик"@ru
+rdfs:label [http]	"Erich Honecker"@en
+rdfs:label [http]	"إريش هونيكر"@ar
+rdfs:label [http]	"Erich Honecker"@de
+rdfs:label [http]	"Erich Honecker"@es
+rdfs:label [http]	"Erich Honecker"@fr
+rdfs:label [http]	"Erich Honecker"@it
+rdfs:label [http]	"エーリッヒ・ホーネッカー"@ja
+rdfs:label [http]	"Erich Honecker"@nl
+rdfs:label [http]	"Erich Honecker"@pl
+rdfs:label [http]	"Erich Honecker"@pt
+rdfs:label [http]	"Хонеккер, Эрих"@ru
+rdfs:label [http]	"埃里希·昂纳克"@zh
+rdfs:label [http]	"Eva Perón"@en
+rdfs:label [http]	"إيفا بيرون"@ar
+rdfs:label [http]	"Eva Perón"@de
+rdfs:label [http]	"Eva Perón"@es
+
+4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+SELECT distinct ?x ?y ?z
+WHERE
+{
+
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?y ?z .
+FILTER (?y != rdf:type)
+
+} LIMIT 100
+
+
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@en
+:Axel_Oxenstierna [http]	rdfs:label [http]	"أكسل أكسنسترنا"@ar
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@de
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@es
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@fr
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@it
+:Axel_Oxenstierna [http]	rdfs:label [http]	"アクセル・オクセンシェルナ"@ja
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@nl
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@pl
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@pt
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Оксеншерна, Аксель"@ru
+:Brothers_Grimm [http]	rdfs:label [http]	"Brothers Grimm"@en
+:Brothers_Grimm [http]	rdfs:label [http]	"الأخوان غريم"@ar
+:Brothers_Grimm [http]	rdfs:label [http]	"Brüder Grimm"@de
+:Brothers_Grimm [http]	rdfs:label [http]	"Hermanos Grimm"@es
+:Brothers_Grimm [http]	rdfs:label [http]	"Frères Grimm"@fr
+:Brothers_Grimm [http]	rdfs:label [http]	"Fratelli Grimm"@it
+:Brothers_Grimm [http]	rdfs:label [http]	"グリム兄弟"@ja
+:Brothers_Grimm [http]	rdfs:label [http]	"Gebroeders Grimm"@nl
+:Brothers_Grimm [http]	rdfs:label [http]	"Bracia Grimm"@pl
+:Brothers_Grimm [http]	rdfs:label [http]	"Irmãos Grimm"@pt
+:Brothers_Grimm [http]	rdfs:label [http]	"Братья Гримм"@ru
+:Brothers_Grimm [http]	rdfs:label [http]	"格林兄弟"@zh
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Menem"@en
+:Carlos_Menem [http]	rdfs:label [http]	"كارلوس منعم"@ar
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Menem"@de
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Menem"@es
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Menem"@fr
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Saúl Menem"@it
+:Carlos_Menem [http]	rdfs:label [http]	"カルロス・メネム"@ja
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Menem"@nl
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Saúl Menem"@pl
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Menem"@pt
+:Carlos_Menem [http]	rdfs:label [http]	"Менем, Карлос"@ru
+:Carlos_Menem [http]	rdfs:label [http]	"卡洛斯·梅内姆"@zh
+:Carter_Harrison_Jr. [http]	rdfs:label [http]	"Carter Harrison Jr."@en
+:Carter_Harrison_Jr. [http]	rdfs:label [http]	"كارتر هاريسون"@ar
+:Carter_Harrison_Jr. [http]	rdfs:label [http]	"Carter Harrison, Jr."@de
+:Carter_Harrison_Sr. [http]	rdfs:label [http]	"Carter Harrison Sr."@en
+:Carter_Harrison_Sr. [http]	rdfs:label [http]	"Carter Harrison, Sr."@de
+:Carter_Harrison_Sr. [http]	rdfs:label [http]	"Carter Harrison, Sr."@fr
+:Chen_Shui-bian [http]	rdfs:label [http]	"Chen Shui-bian"@en
+:Chen_Shui-bian [http]	rdfs:label [http]	"تشن شوي بيان"@ar
+:Chen_Shui-bian [http]	rdfs:label [http]	"Chen Shui-bian"@de
+:Chen_Shui-bian [http]	rdfs:label [http]	"Chen Shui-bian"@es
+:Chen_Shui-bian [http]	rdfs:label [http]	"Chen Shui-bian"@fr
+:Chen_Shui-bian [http]	rdfs:label [http]	"Chen Shui-bian"@it
+:Chen_Shui-bian [http]	rdfs:label [http]	"陳水扁"@ja
+:Chen_Shui-bian [http]	rdfs:label [http]	"Chen Shui-bian"@nl
+:Chen_Shui-bian [http]	rdfs:label [http]	"Chen Shui-bian"@pl
+:Chen_Shui-bian [http]	rdfs:label [http]	"Chen Shui-bian"@pt
+:Chen_Shui-bian [http]	rdfs:label [http]	"Чэнь Шуйбянь"@ru
+:Chen_Shui-bian [http]	rdfs:label [http]	"陳水扁"@zh
+:David_Lloyd_George [http]	rdfs:label [http]	"David Lloyd George"@en
+:David_Lloyd_George [http]	rdfs:label [http]	"ديفيد لويد جورج"@ar
+:David_Lloyd_George [http]	rdfs:label [http]	"David Lloyd George"@de
+:David_Lloyd_George [http]	rdfs:label [http]	"David Lloyd George"@es
+:David_Lloyd_George [http]	rdfs:label [http]	"David Lloyd George"@it
+:David_Lloyd_George [http]	rdfs:label [http]	"David Lloyd George"@fr
+:David_Lloyd_George [http]	rdfs:label [http]	"デビッド・ロイド・ジョージ"@ja
+:David_Lloyd_George [http]	rdfs:label [http]	"David Lloyd George"@nl
+:David_Lloyd_George [http]	rdfs:label [http]	"David Lloyd George"@pl
+:David_Lloyd_George [http]	rdfs:label [http]	"David Lloyd George"@pt
+:David_Lloyd_George [http]	rdfs:label [http]	"Ллойд Джордж, Дэвид"@ru
+:David_Lloyd_George [http]	rdfs:label [http]	"大衛·勞合·喬治"@zh
+:Enrico_Berlinguer [http]	rdfs:label [http]	"Enrico Berlinguer"@en
+:Enrico_Berlinguer [http]	rdfs:label [http]	"إنريكو برلينغوير"@ar
+:Enrico_Berlinguer [http]	rdfs:label [http]	"Enrico Berlinguer"@de
+:Enrico_Berlinguer [http]	rdfs:label [http]	"Enrico Berlinguer"@es
+:Enrico_Berlinguer [http]	rdfs:label [http]	"Enrico Berlinguer"@fr
+:Enrico_Berlinguer [http]	rdfs:label [http]	"Enrico Berlinguer"@it
+:Enrico_Berlinguer [http]	rdfs:label [http]	"エンリコ・ベルリンゲル"@ja
+:Enrico_Berlinguer [http]	rdfs:label [http]	"Enrico Berlinguer"@nl
+:Enrico_Berlinguer [http]	rdfs:label [http]	"Enrico Berlinguer"@pl
+:Enrico_Berlinguer [http]	rdfs:label [http]	"Enrico Berlinguer"@pt
+:Enrico_Berlinguer [http]	rdfs:label [http]	"Берлингуэр, Энрико"@ru
+:Enrico_Berlinguer [http]	rdfs:label [http]	"恩里科·贝林格"@zh
+:Eric_Williams [http]	rdfs:label [http]	"Eric Williams"@en
+:Eric_Williams [http]	rdfs:label [http]	"Eric Eustace Williams"@de
+:Eric_Williams [http]	rdfs:label [http]	"Eric Eustace Williams"@es
+:Eric_Williams [http]	rdfs:label [http]	"Eric Williams (homme politique)"@fr
+:Eric_Williams [http]	rdfs:label [http]	"エリック・ウィリアムズ"@ja
+:Eric_Williams [http]	rdfs:label [http]	"Eric Williams"@pl
+:Eric_Williams [http]	rdfs:label [http]	"Уильямс, Эрик"@ru
+:Erich_Honecker [http]	rdfs:label [http]	"Erich Honecker"@en
+:Erich_Honecker [http]	rdfs:label [http]	"إريش هونيكر"@ar
+:Erich_Honecker [http]	rdfs:label [http]	"Erich Honecker"@de
+:Erich_Honecker [http]	rdfs:label [http]	"Erich Honecker"@es
+:Erich_Honecker [http]	rdfs:label [http]	"Erich Honecker"@fr
+:Erich_Honecker [http]	rdfs:label [http]	"Erich Honecker"@it
+:Erich_Honecker [http]	rdfs:label [http]	"エーリッヒ・ホーネッカー"@ja
+:Erich_Honecker [http]	rdfs:label [http]	"Erich Honecker"@nl
+:Erich_Honecker [http]	rdfs:label [http]	"Erich Honecker"@pl
+:Erich_Honecker [http]	rdfs:label [http]	"Erich Honecker"@pt
+:Erich_Honecker [http]	rdfs:label [http]	"Хонеккер, Эрих"@ru
+:Erich_Honecker [http]	rdfs:label [http]	"埃里希·昂纳克"@zh
+:Eva_Perón [http]	rdfs:label [http]	"Eva Perón"@en
+:Eva_Perón [http]	rdfs:label [http]	"إيفا بيرون"@ar
+:Eva_Perón [http]	rdfs:label [http]	"Eva Perón"@de
+:Eva_Perón [http]	rdfs:label [http]	"Eva Perón"@es
+
+5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+
+SELECT distinct ?y count(?z) # Devolvería también el ?x si quisiera ver la cantidad de valores por propiedad por cada instancia
+WHERE
+{
+
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?y ?z .
+FILTER (?y != rdf:type)
+
+} LIMIT 100
+
+
+rdfs:label [http]	85304
+rdfs:comment [http]	83814
+dbpedia:ontology/deathDate [http]	32983
+<http://purl.org/dc/terms/subject> [http]	333830
+foaf:surname [http]	22623
+dbpedia:ontology/activeYearsStartDate [http]	32648
+dbpedia:ontology/nationality [http]	8202
+dbpedia:ontology/religion [http]	7270
+dbpedia2:by [http]	9
+dbpedia2:honorificSuffix [http]	4522
+dbpedia2:piccap [http]	3
+dbpedia2:premier [http]	606
+dbpedia2:restingPlace [http]	1181
+dbpedia2:ribbon [http]	314
+dbpedia2:wstitle [http]	71
+dbpedia2:networth [http]	10
+dbpedia2:height [http]	19
+dbpedia2:order [http]	24
+dbpedia2:birthPlace [http]	686
+dbpedia:ontology/lieutenant [http]	992
+dbpedia2:commerceEnd [http]	1
+dbpedia2:presidentEnd [http]	3
+dbpedia2:warEnd [http]	1
+dbpedia2:altstyle [http]	51
+dbpedia2:auto [http]	22
+dbpedia2:latDir [http]	1
+dbpedia2:movement [http]	8
+dbpedia2:votes [http]	2046
+dbpedia2:link [http]	34
+dbpedia2:m [http]	7
+dbpedia2:note [http]	2
+dbpedia2:blp [http]	8
+dbpedia2:brother [http]	4
+dbpedia:ontology/portfolio [http]	76
+dbpedia2:orders [http]	20
+dbpedia2:stat1value [http]	6
+dbpedia2:stat2value [http]	6
+dbpedia2:stat5value [http]	2
+dbpedia2:salary [http]	3
+dbpedia2:failed [http]	14
+dbpedia2:function [http]	1
+dbpedia2:2namedata [http]	48
+dbpedia2:3namedata [http]	11
+dbpedia2:language [http]	5
+dbpedia2:headquarters [http]	4
+dbpedia2:conviction [http]	7
+dbpedia2:ambassadorFrom [http]	22
+dbpedia2:children. [http]	1
+dbpedia2:dateRatified [http]	2
+dbpedia2:governingBody [http]	1
+dbpedia2:latDegrees [http]	1
+dbpedia2:masters [http]	1
+dbpedia2:financeEnd [http]	4
+dbpedia2:interiorForeignAffairs [http]	2
+dbpedia2:notableWorks [http]	8
+dbpedia2:mainInterests [http]	3
+dbpedia2:partners [http]	1
+dbpedia2:creed [http]	2
+dbpedia2:mainWorks [http]	1
+dbpedia2:father'sName [http]	1
+dbpedia:ontology/formationDate [http]	1
+dbpedia:ontology/headquarter [http]	1
+dbpedia2:fechanac [http]	2
+dbpedia2:small [http]	7
+dbpedia2:battles/wars [http]	6
+dbpedia2:df [http]	18
+dbpedia2:noprescript [http]	2
+dbpedia2:doctoralAdvisor [http]	1
+dbpedia:ontology/runningMate [http]	3
+dbpedia2:size [http]	15
+dbpedia2:pos [http]	2
+dbpedia2:tenure [http]	1
+dbpedia2:religious [http]	1
+dbpedia2:toWin [http]	2
+dbpedia2:dates [http]	1
+dbpedia2:priorTerm [http]	17
+dbpedia2:4pp [http]	72
+dbpedia2:5pp [http]	46
+dbpedia2:5y [http]	3
+dbpedia2:6p [http]	7
+dbpedia2:eMail [http]	1
+dbpedia2:buc [http]	1
+dbpedia2:ancestry [http]	15
+dbpedia2:noimage [http]	1
+dbpedia2:tp [http]	1
+dbpedia2:otherFamilies [http]	2
+dbpedia2:estate [http]	1
+dbpedia2:foundingYear [http]	1
+dbpedia2:deathYear [http]	2
+dbpedia2:headerstyle [http]	2
+dbpedia2:refs [http]	2
+dbpedia2:honors [http]	4
+dbpedia2:nfldraftedpick [http]	1
+dbpedia2:natjournal [http]	4
+dbpedia2:positionInTheParty [http]	1
+dbpedia2:overall [http]	12
+dbpedia2:hiddencols [http]	1
+dbpedia2:oppositionLeader [http]	3
+dbpedia2:dateDissolved [http]	1
+dbpedia2:award2n [http]	2
