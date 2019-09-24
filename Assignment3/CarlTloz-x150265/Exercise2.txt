@@ -1,0 +1,361 @@
+1. Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+#Limitado a 50 porque son muchas
+
+SELECT DISTINCT ?property WHERE {
+    ?x a <http://dbpedia.org/ontology/Politician> .
+    ?x ?property ?r
+} LIMIT 50
+
+
+property
+rdf:type [http]
+rdfs:label [http]
+rdfs:comment [http]
+owl:differentFrom [http]
+rdfs:seeAlso [http]
+owl:sameAs [http]
+dbpedia:ontology/deathPlace [http]
+dbpedia2:deathPlace [http]
+dbpedia:ontology/deathDate [http]
+dbpedia:ontology/birthPlace [http]
+dbpedia:ontology/birthDate [http]
+<http://purl.org/dc/terms/subject> [http]
+dbpedia:ontology/wikiPageID [http]
+dbpedia:ontology/wikiPageRevisionID [http]
+dbpedia:ontology/wikiPageExternalLink [http]
+foaf:name [http]
+foaf:homepage [http]
+dbpedia2:name [http]
+foaf:depiction [http]
+<http://purl.org/dc/terms/description> [http]
+foaf:givenName [http]
+foaf:gender [http]
+foaf:isPrimaryTopicOf [http]
+foaf:surname [http]
+dbpedia:ontology/thumbnail [http]
+<http://www.w3.org/ns/prov#wasDerivedFrom> [http]
+dbpedia:ontology/abstract [http]
+dbpedia:ontology/activeYearsEndDate [http]
+dbpedia:ontology/activeYearsStartDate [http]
+dbpedia:ontology/almaMater [http]
+dbpedia:ontology/award [http]
+dbpedia:ontology/battle [http]
+dbpedia:ontology/birthName [http]
+dbpedia:ontology/child [http]
+dbpedia:ontology/country [http]
+dbpedia:ontology/deputy [http]
+dbpedia:ontology/governorGeneral [http]
+dbpedia:ontology/militaryBranch [http]
+dbpedia:ontology/militaryRank [http]
+dbpedia:ontology/militaryUnit [http]
+dbpedia:ontology/monarch [http]
+dbpedia:ontology/nationality [http]
+dbpedia:ontology/occupation [http]
+dbpedia:ontology/office [http]
+dbpedia:ontology/orderInOffice [http]
+dbpedia:ontology/otherParty [http]
+dbpedia:ontology/party [http]
+dbpedia:ontology/president [http]
+dbpedia:ontology/primeMinister [http]
+dbpedia:ontology/profession [http]
+
+
+2. Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+SELECT DISTINCT ?property WHERE {
+    ?x a <http://dbpedia.org/ontology/Politician> .
+    ?x ?property ?r
+    FILTER (?property != rdf:type)
+} LIMIT 50
+
+
+property
+rdfs:label [http]
+rdfs:comment [http]
+owl:differentFrom [http]
+rdfs:seeAlso [http]
+owl:sameAs [http]
+dbpedia:ontology/deathPlace [http]
+dbpedia2:deathPlace [http]
+dbpedia:ontology/deathDate [http]
+dbpedia:ontology/birthPlace [http]
+dbpedia:ontology/birthDate [http]
+<http://purl.org/dc/terms/subject> [http]
+dbpedia:ontology/wikiPageID [http]
+dbpedia:ontology/wikiPageRevisionID [http]
+dbpedia:ontology/wikiPageExternalLink [http]
+foaf:name [http]
+foaf:homepage [http]
+dbpedia2:name [http]
+foaf:depiction [http]
+<http://purl.org/dc/terms/description> [http]
+foaf:givenName [http]
+foaf:gender [http]
+foaf:isPrimaryTopicOf [http]
+foaf:surname [http]
+dbpedia:ontology/thumbnail [http]
+<http://www.w3.org/ns/prov#wasDerivedFrom> [http]
+dbpedia:ontology/abstract [http]
+dbpedia:ontology/activeYearsEndDate [http]
+dbpedia:ontology/activeYearsStartDate [http]
+dbpedia:ontology/almaMater [http]
+dbpedia:ontology/award [http]
+dbpedia:ontology/battle [http]
+dbpedia:ontology/birthName [http]
+dbpedia:ontology/child [http]
+dbpedia:ontology/country [http]
+dbpedia:ontology/deputy [http]
+dbpedia:ontology/governorGeneral [http]
+dbpedia:ontology/militaryBranch [http]
+dbpedia:ontology/militaryRank [http]
+dbpedia:ontology/militaryUnit [http]
+dbpedia:ontology/monarch [http]
+dbpedia:ontology/nationality [http]
+dbpedia:ontology/occupation [http]
+dbpedia:ontology/office [http]
+dbpedia:ontology/orderInOffice [http]
+dbpedia:ontology/otherParty [http]
+dbpedia:ontology/party [http]
+dbpedia:ontology/president [http]
+dbpedia:ontology/primeMinister [http]
+dbpedia:ontology/profession [http]
+dbpedia:ontology/region [http]
+
+
+3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+SELECT DISTINCT ?property ?r WHERE {
+    ?x a <http://dbpedia.org/ontology/Politician> .
+    ?x ?property ?r .
+    FILTER (?property != rdf:type)
+} LIMIT 50
+
+
+property	r
+rdfs:label [http]	"Axel Oxenstierna"@en
+rdfs:label [http]	"أكسل أكسنسترنا"@ar
+rdfs:label [http]	"Axel Oxenstierna"@de
+rdfs:label [http]	"Axel Oxenstierna"@es
+rdfs:label [http]	"Axel Oxenstierna"@fr
+rdfs:label [http]	"Axel Oxenstierna"@it
+rdfs:label [http]	"アクセル・オクセンシェルナ"@ja
+rdfs:label [http]	"Axel Oxenstierna"@nl
+rdfs:label [http]	"Axel Oxenstierna"@pl
+rdfs:label [http]	"Axel Oxenstierna"@pt
+rdfs:label [http]	"Оксеншерна, Аксель"@ru
+rdfs:label [http]	"Brothers Grimm"@en
+rdfs:label [http]	"الأخوان غريم"@ar
+rdfs:label [http]	"Brüder Grimm"@de
+rdfs:label [http]	"Hermanos Grimm"@es
+rdfs:label [http]	"Frères Grimm"@fr
+rdfs:label [http]	"Fratelli Grimm"@it
+rdfs:label [http]	"グリム兄弟"@ja
+rdfs:label [http]	"Gebroeders Grimm"@nl
+rdfs:label [http]	"Bracia Grimm"@pl
+rdfs:label [http]	"Irmãos Grimm"@pt
+rdfs:label [http]	"Братья Гримм"@ru
+rdfs:label [http]	"格林兄弟"@zh
+rdfs:label [http]	"Carlos Menem"@en
+rdfs:label [http]	"كارلوس منعم"@ar
+rdfs:label [http]	"Carlos Menem"@de
+rdfs:label [http]	"Carlos Menem"@es
+rdfs:label [http]	"Carlos Menem"@fr
+rdfs:label [http]	"Carlos Saúl Menem"@it
+rdfs:label [http]	"カルロス・メネム"@ja
+rdfs:label [http]	"Carlos Menem"@nl
+rdfs:label [http]	"Carlos Saúl Menem"@pl
+rdfs:label [http]	"Carlos Menem"@pt
+rdfs:label [http]	"Менем, Карлос"@ru
+rdfs:label [http]	"卡洛斯·梅内姆"@zh
+rdfs:label [http]	"Carter Harrison Jr."@en
+rdfs:label [http]	"كارتر هاريسون"@ar
+rdfs:label [http]	"Carter Harrison, Jr."@de
+rdfs:label [http]	"Carter Harrison Sr."@en
+rdfs:label [http]	"Carter Harrison, Sr."@de
+rdfs:label [http]	"Carter Harrison, Sr."@fr
+rdfs:label [http]	"Chen Shui-bian"@en
+rdfs:label [http]	"تشن شوي بيان"@ar
+rdfs:label [http]	"Chen Shui-bian"@de
+rdfs:label [http]	"Chen Shui-bian"@es
+rdfs:label [http]	"Chen Shui-bian"@fr
+rdfs:label [http]	"Chen Shui-bian"@it
+rdfs:label [http]	"陳水扁"@ja
+rdfs:label [http]	"Chen Shui-bian"@nl
+rdfs:label [http]	"Chen Shui-bian"@pl
+
+
+4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+SELECT DISTINCT ?x ?property ?r WHERE {
+    ?x a <http://dbpedia.org/ontology/Politician> .
+    ?x ?property ?r .
+    FILTER (?property != rdf:type)
+} LIMIT 50
+
+
+x	property	r
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@en
+:Axel_Oxenstierna [http]	rdfs:label [http]	"أكسل أكسنسترنا"@ar
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@de
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@es
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@fr
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@it
+:Axel_Oxenstierna [http]	rdfs:label [http]	"アクセル・オクセンシェルナ"@ja
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@nl
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@pl
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Axel Oxenstierna"@pt
+:Axel_Oxenstierna [http]	rdfs:label [http]	"Оксеншерна, Аксель"@ru
+:Brothers_Grimm [http]	rdfs:label [http]	"Brothers Grimm"@en
+:Brothers_Grimm [http]	rdfs:label [http]	"الأخوان غريم"@ar
+:Brothers_Grimm [http]	rdfs:label [http]	"Brüder Grimm"@de
+:Brothers_Grimm [http]	rdfs:label [http]	"Hermanos Grimm"@es
+:Brothers_Grimm [http]	rdfs:label [http]	"Frères Grimm"@fr
+:Brothers_Grimm [http]	rdfs:label [http]	"Fratelli Grimm"@it
+:Brothers_Grimm [http]	rdfs:label [http]	"グリム兄弟"@ja
+:Brothers_Grimm [http]	rdfs:label [http]	"Gebroeders Grimm"@nl
+:Brothers_Grimm [http]	rdfs:label [http]	"Bracia Grimm"@pl
+:Brothers_Grimm [http]	rdfs:label [http]	"Irmãos Grimm"@pt
+:Brothers_Grimm [http]	rdfs:label [http]	"Братья Гримм"@ru
+:Brothers_Grimm [http]	rdfs:label [http]	"格林兄弟"@zh
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Menem"@en
+:Carlos_Menem [http]	rdfs:label [http]	"كارلوس منعم"@ar
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Menem"@de
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Menem"@es
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Menem"@fr
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Saúl Menem"@it
+:Carlos_Menem [http]	rdfs:label [http]	"カルロス・メネム"@ja
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Menem"@nl
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Saúl Menem"@pl
+:Carlos_Menem [http]	rdfs:label [http]	"Carlos Menem"@pt
+:Carlos_Menem [http]	rdfs:label [http]	"Менем, Карлос"@ru
+:Carlos_Menem [http]	rdfs:label [http]	"卡洛斯·梅内姆"@zh
+:Carter_Harrison_Jr. [http]	rdfs:label [http]	"Carter Harrison Jr."@en
+:Carter_Harrison_Jr. [http]	rdfs:label [http]	"كارتر هاريسون"@ar
+:Carter_Harrison_Jr. [http]	rdfs:label [http]	"Carter Harrison, Jr."@de
+:Carter_Harrison_Sr. [http]	rdfs:label [http]	"Carter Harrison Sr."@en
+:Carter_Harrison_Sr. [http]	rdfs:label [http]	"Carter Harrison, Sr."@de
+:Carter_Harrison_Sr. [http]	rdfs:label [http]	"Carter Harrison, Sr."@fr
+:Chen_Shui-bian [http]	rdfs:label [http]	"Chen Shui-bian"@en
+:Chen_Shui-bian [http]	rdfs:label [http]	"تشن شوي بيان"@ar
+:Chen_Shui-bian [http]	rdfs:label [http]	"Chen Shui-bian"@de
+:Chen_Shui-bian [http]	rdfs:label [http]	"Chen Shui-bian"@es
+:Chen_Shui-bian [http]	rdfs:label [http]	"Chen Shui-bian"@fr
+:Chen_Shui-bian [http]	rdfs:label [http]	"Chen Shui-bian"@it
+:Chen_Shui-bian [http]	rdfs:label [http]	"陳水扁"@ja
+:Chen_Shui-bian [http]	rdfs:label [http]	"Chen Shui-bian"@nl
+:Chen_Shui-bian [http]	rdfs:label [http]	"Chen Shui-bian"@pl
+
+
+
+5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+
+SELECT DISTINCT ?property (COUNT(DISTINCT ?r) as ?count) WHERE {
+    ?x a <http://dbpedia.org/ontology/Politician> .
+    ?x ?property ?r .
+    FILTER (?property != rdf:type)
+} LIMIT 100
+
+
+
+property	count
+dbpedia2:border [http]	2
+dbpedia2:latMin [http]	1
+dbpedia2:employer [http]	9
+dbpedia2:war [http]	1
+dbpedia2:reference [http]	3
+dbpedia2:father'sName [http]	1
+dbpedia2:year2start [http]	3
+dbpedia2:vicepremier [http]	7
+dbpedia2:gap [http]	1
+dbpedia2:1y [http]	16
+dbpedia:ontology/deathYear [http]	78
+dbpedia2:succeeded [http]	5257
+dbpedia2:breeder [http]	1
+dbpedia2:hofdate [http]	2
+dbpedia2:publicutilEnd [http]	1
+dbpedia2:abbr [http]	1
+dbpedia2:fieldgoalsd [http]	1
+dbpedia2:teamc [http]	1
+dbpedia2:hero [http]	1
+dbpedia2:coatOfArms [http]	2
+dbpedia2:educationalBackground [http]	11
+dbpedia:ontology/predecessor [http]	8
+dbpedia2:militaryService [http]	3
+dbpedia2:police [http]	1
+dbpedia2:jurisprudence [http]	1
+dbpedia2:mutupoTribe [http]	1
+dbpedia2:year [http]	27
+dbpedia2:finalteam [http]	5
+dbpedia2:previous [http]	1
+dbpedia2:trainer [http]	1
+dbpedia2:fivefor [http]	3
+dbpedia2:successo [http]	1
+dbpedia2:resingplace [http]	1
+dbpedia2:imdb [http]	50
+dbpedia2:distrcit [http]	2
+dbpedia2:influenced [http]	7
+dbpedia2:incat [http]	1
+dbpedia2:imageCaption [http]	14
+dbpedia2:startrows [http]	1
+dbpedia2:rank [http]	107
+dbpedia:ontology/militaryCommand [http]	562
+dbpedia2:dmvStart [http]	2
+dbpedia2:datePromulgated [http]	1
+dbpedia2:languages [http]	5
+dbpedia2:df [http]	2
+dbpedia2:otherNames [http]	37
+dbpedia2:poll [http]	1
+dbpedia2:post3years [http]	48
+dbpedia2:pp [http]	1
+dbpedia2:direction [http]	2
+dbpedia2:otop [http]	2
+dbpedia2:presidentEnd [http]	3
+dbpedia2:labels [http]	1
+dbpedia2:placeOfBurial [http]	8
+dbpedia2:dated [http]	1
+dbpedia2:convocation [http]	8
+dbpedia2:pointsd [http]	1
+dbpedia2:agricultureEnd [http]	3
+dbpedia2:ft [http]	1
+dbpedia2:size [http]	12
+dbpedia2:award2n [http]	2
+dbpedia:ontology/relative [http]	11
+dbpedia2:finance [http]	3
+dbpedia2:salign [http]	3
+dbpedia2:portrait [http]	2
+dbpedia2:8a [http]	1
+dbpedia2:alternativeNames [http]	1
+dbpedia2:post5years [http]	16
+dbpedia2:homepage [http]	3
+dbpedia2:6pp [http]	29
+dbpedia2:eligion [http]	1
+dbpedia2:burialPlace [http]	4
+dbpedia2:num [http]	4
+dbpedia2:cabinet [http]	1
+dbpedia2:longDegrees [http]	1
+dbpedia2:candidate2Percent [http]	2
+dbpedia2:nndb [http]	81
+dbpedia2:committee [http]	3
+dbpedia2:bowling [http]	3
+dbpedia2:flag [http]	3
+dbpedia2:dateOfBirth [http]	5
+dbpedia2:post1note [http]	78
+dbpedia2:yearAdopted [http]	15
+dbpedia2:footnotes [http]	142
+dbpedia2:bankingEnd [http]	2
+dbpedia2:bowlAvg [http]	6
+dbpedia2:primeminister [http]	44
+dbpedia2:matches [http]	7
+dbpedia2:bgcolor [http]	10
+dbpedia2:end [http]	168
+dbpedia2:wikt [http]	7
+dbpedia2:appearances [http]	7
+dbpedia2:ecgrowthEnd [http]	2
+dbpedia2:city [http]	2
+dbpedia:ontology/president [http]	875
+dbpedia2:mrgye [http]	1
+dbpedia:ontology/thumbnail [http]	16322
+dbpedia2:grandsire [http]	2
+dbpedia2:othertparty [http]	1
+dbpedia2:houseType [http]	1
