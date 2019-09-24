@@ -6,6 +6,7 @@ import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.ontology.OntResource;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
@@ -60,7 +61,19 @@ public class Task07
 		
 		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
+		ExtendedIterator subclasses1 = person.listSubClasses();
+		ExtendedIterator instances1 = person.listInstances();
+		
+		while(subclasses1.hasNext()){
+			OntResource subclases = (OntResource)subclasses1.next();
+			System.out.println("Subclase de persona:" + subclases.getURI());
+		}
+		while(instances1.hasNext()){
+			OntResource instancias = (OntResource)instances1.next();
+			System.out.println("Instancia de persona:" + instancias.getURI());
+		}
+		}
 		
 	
 	}
-}
+
