@@ -1,7 +1,7 @@
 ﻿1- Get all the properties that can be applied to instances of the 
 Politician class (<http://dbpedia.org/ontology/Politician>)
 
-select ?properties where { 
+select distinct ?properties where { 
     ?x a  <http://dbpedia.org/ontology/Politician> .
 ?x ?properties ?z }
 
@@ -45,7 +45,7 @@ __________________________________________________________________
 2- Get all the properties, except rdf:type, 
 that can be applied to instances of the Politician class
 
-select  ?properties where { 
+select distinct  ?properties where { 
     ?x a  <http://dbpedia.org/ontology/Politician> .
 ?x ?properties ?z 
 FILTER (?properties != rdf:type)
@@ -141,7 +141,7 @@ _______________________________________________________
 4- For each of the properties, except rdf:type, that can be applied 
 to instances of the Politician class, which different values do they take in those instances?
 
-select distinct  ?properties , ?x  where { 
+select distinct  ?z , ?x  where { 
     ?x a  <http://dbpedia.org/ontology/Politician> .
 ?x ?properties ?z 
 FILTER (?properties != rdf:type)
@@ -150,59 +150,72 @@ FILTER (?properties != rdf:type)
 RESULTS:
 _______________________________________________________
 
+	z			X
 
-properties		x
+"Axel Oxenstierna"@en	:Axel_Oxenstierna [http]
+"أكسل أكسنسترنا"@ar		:Axel_Oxenstierna [http]
+"Axel Oxenstierna"@de	:Axel_Oxenstierna [http]
+"Axel Oxenstierna"@es	:Axel_Oxenstierna [http]
+"Axel Oxenstierna"@fr	:Axel_Oxenstierna [http]
+"Axel Oxenstierna"@it	:Axel_Oxenstierna [http]
+"アクセル・オクセンシェルナ"@ja	:Axel_Oxenstierna [http]
+"Axel Oxenstierna"@nl	:Axel_Oxenstierna [http]
+"Axel Oxenstierna"@pl	:Axel_Oxenstierna [http]
+"Axel Oxenstierna"@pt	:Axel_Oxenstierna [http]
+"Оксеншерна, Аксель"@ru	:Axel_Oxenstierna [http]
+"Brothers Grimm"@en	:Brothers_Grimm [http]
+"الأخوان غريم"@ar		:Brothers_Grimm [http]
+"Brüder Grimm"@de	:Brothers_Grimm [http]
+"Hermanos Grimm"@es	:Brothers_Grimm [http]
+"Frères Grimm"@fr	:Brothers_Grimm [http]
+"Fratelli Grimm"@it	:Brothers_Grimm [http]
+"グリム兄弟"@ja		:Brothers_Grimm [http]
+"Gebroeders Grimm"@nl	:Brothers_Grimm [http]
+"Bracia Grimm"@pl	:Brothers_Grimm [http]
+"Irmãos Grimm"@pt	:Brothers_Grimm [http]
+"Братья Гримм"@ru	:Brothers_Grimm [http]
+"格林兄弟"@zh		:Brothers_Grimm [http]
+"Carlos Menem"@en	:Carlos_Menem [http]
+"كارلوس منعم"@ar		:Carlos_Menem [http]
+"Carlos Menem"@de	:Carlos_Menem [http]
+"Carlos Menem"@es	:Carlos_Menem [http]
+"Carlos Menem"@fr	:Carlos_Menem [http]
+"Carlos Saúl Menem"@it	:Carlos_Menem [http]
+"カルロス・メネム"@ja		:Carlos_Menem [http]
+"Carlos Menem"@nl	:Carlos_Menem [http]
+"Carlos Saúl Menem"@pl	:Carlos_Menem [http]
+"Carlos Menem"@pt	:Carlos_Menem [http]
+"Менем, Карлос"@ru	:Carlos_Menem [http]
+"卡洛斯·梅内姆"@zh	:Carlos_Menem [http]
+"Carter Harrison Jr."@en	:Carter_Harrison_Jr. [http]
+"كارتر هاريسون"@ar		:Carter_Harrison_Jr. [http]
+"Carter Harrison, Jr."@de	:Carter_Harrison_Jr. [http]
+"Carter Harrison Sr."@en	:Carter_Harrison_Sr. [http]
+"Carter Harrison, Sr."@de	:Carter_Harrison_Sr. [http]
+"Carter Harrison, Sr."@fr	:Carter_Harrison_Sr. [http]
+"Chen Shui-bian"@en		:Chen_Shui-bian [http]
+"تشن شوي بيان"@ar		:Chen_Shui-bian [http]
+"Chen Shui-bian"@de	:Chen_Shui-bian [http]
+"Chen Shui-bian"@es	:Chen_Shui-bian [http]
+"Chen Shui-bian"@fr	:Chen_Shui-bian [http]
+"Chen Shui-bian"@it	:Chen_Shui-bian [http]
+"陳水扁"@ja		:Chen_Shui-bian [http]
+"Chen Shui-bian"@nl	:Chen_Shui-bian [http]
+"Chen Shui-bian"@pl	:Chen_Shui-bian [http]
+"Chen Shui-bian"@pt	:Chen_Shui-bian [http]
+"Чэнь Шуйбянь"@ru	:Chen_Shui-bian [http]
+"陳水扁"@zh		:Chen_Shui-bian [http]
+"David Lloyd George"@en	:David_Lloyd_George [http]
+"ديفيد لويد جورج"@ar		:David_Lloyd_George [http]
+"David Lloyd George"@de	:David_Lloyd_George [http]
+"David Lloyd George"@es	:David_Lloyd_George [http]
+"David Lloyd George"@it	:David_Lloyd_George [http]
+"David Lloyd George"@fr	:David_Lloyd_George [http]
+"デビッド・ロイド・ジョージ"@ja	:David_Lloyd_George [http]
+"David Lloyd George"@nl	:David_Lloyd_George [http]
+"David Lloyd George"@pl	:David_Lloyd_George [http]
+"David Lloyd George"@pt	:David_Lloyd_George [http]
 
-rdfs:label [http]	:Axel_Oxenstierna [http]
-rdfs:label [http]	:Brothers_Grimm [http]
-rdfs:label [http]	:Carlos_Menem [http]
-rdfs:label [http]	:Carter_Harrison_Jr. [http]
-rdfs:label [http]	:Carter_Harrison_Sr. [http]
-rdfs:label [http]	:Chen_Shui-bian [http]
-rdfs:label [http]	:David_Lloyd_George [http]
-rdfs:label [http]	:Enrico_Berlinguer [http]
-rdfs:label [http]	:Eric_Williams [http]
-rdfs:label [http]	:Erich_Honecker [http]
-rdfs:label [http]	:Eva_Perón [http]
-rdfs:label [http]	:Francisco_Pizarro [http]
-rdfs:label [http]	:Franco_Maria_Malfatti [http]
-rdfs:label [http]	:Franco_Zeffirelli [http]
-rdfs:label [http]	:François_Arago [http]
-rdfs:label [http]	:Gervasio_Antonio_de_Posadas [http]
-rdfs:label [http]	:Gus_Hall [http]
-rdfs:label [http]	:Harold_Washington [http]
-rdfs:label [http]	:Jean-Marie_Le_Pen [http]
-rdfs:label [http]	:John_Coughlin_(alderman) [http]
-rdfs:label [http]	:John_Eager_Howard [http]
-rdfs:label [http]	:John_Glenn [http]
-rdfs:label [http]	:John_Gorton [http]
-rdfs:label [http]	:John_McEwen [http]
-rdfs:comment [http]	:Axel_Oxenstierna [http]
-rdfs:comment [http]	:Brothers_Grimm [http]
-rdfs:comment [http]	:Carlos_Menem [http]
-rdfs:comment [http]	:Carter_Harrison_Jr. [http]
-rdfs:comment [http]	:Carter_Harrison_Sr. [http]
-rdfs:comment [http]	:Chen_Shui-bian [http]
-rdfs:comment [http]	:David_Lloyd_George [http]
-rdfs:comment [http]	:Enrico_Berlinguer [http]
-rdfs:comment [http]	:Eric_Williams [http]
-rdfs:comment [http]	:Erich_Honecker [http]
-rdfs:comment [http]	:Eva_Perón [http]
-rdfs:comment [http]	:Francisco_Pizarro [http]
-rdfs:comment [http]	:Franco_Maria_Malfatti [http]
-rdfs:comment [http]	:Franco_Zeffirelli [http]
-rdfs:comment [http]	:François_Arago [http]
-rdfs:comment [http]	:Gervasio_Antonio_de_Posadas [http]
-rdfs:comment [http]	:Gus_Hall [http]
-rdfs:comment [http]	:Harold_Washington [http]
-rdfs:comment [http]	:Jean-Marie_Le_Pen [http]
-rdfs:comment [http]	:John_Coughlin_(alderman) [http]
-rdfs:comment [http]	:John_Eager_Howard [http]
-rdfs:comment [http]	:John_Glenn [http]
-rdfs:comment [http]	:John_Gorton [http]
-owl:differentFrom [http]	:Erich_Honecker [http]
-rdfs:seeAlso [http]	:Chen_Shui-bian [http]
-rdfs:seeAlso [http]	:David_Lloyd_George [http]
 ...
 _______________________________________________________
 
@@ -211,7 +224,7 @@ that can be applied to instances of the Politician class,
 how many distinct values do they take in those instances?
 
 
-select distinct  ?properties , count(?x) AS ?values where { 
+select distinct  ?properties , count(distinct ?z) AS ?values where { 
     ?x a  <http://dbpedia.org/ontology/Politician> .
 ?x ?properties ?z 
 FILTER (?properties != rdf:type)
@@ -224,51 +237,68 @@ _______________________________________________________
 
 properties				values
 
-rdfs:label [http]			85304
-rdfs:comment [http]			83814
-dbpedia:ontology/deathDate [http]	32983
-<http://purl.org/dc/terms/subject> [http]	333830
-foaf:surname [http]			22623
-dbpedia:ontology/activeYearsStartDate [http]	32648
-dbpedia:ontology/nationality [http]	8202
-dbpedia:ontology/religion [http]	7270
-dbpedia2:by [http]			9
-dbpedia2:honorificSuffix [http]		4522
-dbpedia2:piccap [http]			3
-dbpedia2:premier [http]			606
-dbpedia2:restingPlace [http]		1181
-dbpedia2:ribbon [http]			314
-dbpedia2:wstitle [http]			71
-dbpedia2:networth [http]		10
-dbpedia2:height [http]			19
-dbpedia2:order [http]			24
-dbpedia2:birthPlace [http]		686
-dbpedia:ontology/lieutenant [http]	992
-dbpedia2:commerceEnd [http]		1
-dbpedia2:presidentEnd [http]		3
-dbpedia2:warEnd [http]			1
-dbpedia2:altstyle [http]		51
-dbpedia2:auto [http]			22
-dbpedia2:latDir [http]			1
-dbpedia2:movement [http]		8
-dbpedia2:votes [http]			2046
-dbpedia2:link [http]			34
-dbpedia2:m [http]			7
-dbpedia2:note [http]			2
-dbpedia2:blp [http]			8
-dbpedia2:brother [http]			4
-dbpedia:ontology/portfolio [http]	76
-dbpedia2:orders [http]			20
-dbpedia2:stat1value [http]		6
-dbpedia2:stat2value [http]		6
-dbpedia2:stat5value [http]		2
-dbpedia2:salary [http]			3
-dbpedia2:failed [http]			14
-dbpedia2:function [http]		1
-dbpedia2:2namedata [http]		48
-dbpedia2:3namedata [http]		11
-dbpedia2:language [http]		5
-
+dbpedia2:border [http]	2
+dbpedia2:latMin [http]	1
+dbpedia2:employer [http]	9
+dbpedia2:war [http]	1
+dbpedia2:reference [http]	3
+dbpedia2:father'sName [http]	1
+dbpedia2:year2start [http]	3
+dbpedia2:vicepremier [http]	7
+dbpedia2:gap [http]	1
+dbpedia2:1y [http]	16
+dbpedia:ontology/deathYear [http]	78
+dbpedia2:succeeded [http]	5257
+dbpedia2:breeder [http]	1
+dbpedia2:hofdate [http]	2
+dbpedia2:publicutilEnd [http]	1
+dbpedia2:abbr [http]	1
+dbpedia2:fieldgoalsd [http]	1
+dbpedia2:teamc [http]	1
+dbpedia2:hero [http]	1
+dbpedia2:coatOfArms [http]	2
+dbpedia2:educationalBackground [http]	11
+dbpedia:ontology/predecessor [http]	8
+dbpedia2:militaryService [http]	3
+dbpedia2:police [http]	1
+dbpedia2:jurisprudence [http]	1
+dbpedia2:mutupoTribe [http]	1
+dbpedia2:year [http]	27
+dbpedia2:finalteam [http]	5
+dbpedia2:previous [http]	1
+dbpedia2:trainer [http]	1
+dbpedia2:fivefor [http]	3
+dbpedia2:successo [http]	1
+dbpedia2:resingplace [http]	1
+dbpedia2:imdb [http]	50
+dbpedia2:distrcit [http]	2
+dbpedia2:influenced [http]	7
+dbpedia2:incat [http]	1
+dbpedia2:imageCaption [http]	14
+dbpedia2:startrows [http]	1
+dbpedia2:rank [http]	107
+dbpedia:ontology/militaryCommand [http]	562
+dbpedia2:dmvStart [http]	2
+dbpedia2:datePromulgated [http]	1
+dbpedia2:languages [http]	5
+dbpedia2:df [http]	2
+dbpedia2:otherNames [http]	37
+dbpedia2:poll [http]	1
+dbpedia2:post3years [http]	48
+dbpedia2:pp [http]	1
+dbpedia2:direction [http]	2
+dbpedia2:otop [http]	2
+dbpedia2:presidentEnd [http]	3
+dbpedia2:labels [http]	1
+dbpedia2:placeOfBurial [http]	8
+dbpedia2:dated [http]	1
+dbpedia2:convocation [http]	8
+dbpedia2:pointsd [http]	1
+dbpedia2:agricultureEnd [http]	3
+dbpedia2:ft [http]	1
+dbpedia2:size [http]	12
+dbpedia2:award2n [http]	2
+dbpedia:ontology/relative [http]	11
 ....
 
 _______________________________________________________
