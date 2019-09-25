@@ -44,8 +44,9 @@ public class Task07
 		
 		while (instances.hasNext())
 		{
-			Individual inst = (Individual) instances.next();
-			OntResource instance = (OntResource) instances.next();
+			Individual inst = (Individual) instances.next();	
+			OntResource ins = (OntResource) instances.next();
+		
 			System.out.println("Instance of Person: "+inst.getURI());
 		}
 		
