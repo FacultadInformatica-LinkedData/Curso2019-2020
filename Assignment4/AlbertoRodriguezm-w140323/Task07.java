@@ -55,13 +55,7 @@ public class Task07
 		{
 			OntClass subclass = (OntClass) subclasses.next();
 			System.out.println("Subclass of Person: "+subclass.getURI());
-		}
-
-		System.out.println("Version recursiva: ");
-		listarInstaciasSubclases(ns+"Person");
-		
-
-		
+		}	
 		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
 		//Change model inference mode
@@ -88,40 +82,4 @@ public class Task07
 		}
 	
 	}
-	private static void listarInstaciasSubclases(String uri) {
-		String filename = "resources/example6.rdf";
-		
-		// Create an empty model
-		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
-		
-		// Use the FileManager to find the input file
-		InputStream in = FileManager.get().open(filename);
-	
-		if (in == null)
-			throw new IllegalArgumentException("File: "+filename+" not found");
-	
-		// Read the RDF/XML file
-		model.read(in, null);
-		
-		OntClass person = model.getOntClass(uri);
-		
-		ExtendedIterator subclasses = person.listSubClasses();
-		ExtendedIterator instances = person.listInstances();
-	
-		while (instances.hasNext())
-		{
-			Individual inst = (Individual) instances.next();
-			System.out.println("Instance of Person: "+inst.getURI());
-		}
-		
-		while (subclasses.hasNext())
-		{
-			OntClass subclass = (OntClass) subclasses.next();
-			System.out.println("Subclass of Person: "+subclass.getURI());
-			listarInstaciasSubclases(subclass.getURI());
-		}
-		
-	
-	}
-	
 }
