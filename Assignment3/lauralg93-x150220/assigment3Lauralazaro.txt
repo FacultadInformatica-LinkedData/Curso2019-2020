@@ -85,7 +85,7 @@ PREFIX dp: <http://dbpedia.org/ontology/>
 
 
     PREFIX dp: <http://dbpedia.org/ontology/>
-  SELECT distinct ?property count(?value) as ?number
+  SELECT distinct ?property count(distinct ?value) as ?number
   	WHERE {
   	?instance a dp:Politician .
     	?instance ?property ?value
