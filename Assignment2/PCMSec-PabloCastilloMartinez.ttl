@@ -1,6 +1,6 @@
 @base <http://www.ontogrid.net/StickyNote#>
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix test: <"http://www.ontogrid.net/test-ass2#">
+@prefix test: <http://www.ontogrid.net/test-ass2#>
 
 :Class01 test:includes :Sensor029; test:includes :Computer101.
 
