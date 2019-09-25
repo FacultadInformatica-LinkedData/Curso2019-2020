@@ -1,49 +1,28 @@
-<rdf:RDF
-    xmlns:dct="http://purl.org/dc/terms/"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:j.0="http://www.w3.org/1999/xhtml/vocab#"
-    xmlns:dcat="http://www.w3.org/ns/dcat#"
-    xmlns:j.1="http://a9.com/-/spec/opensearch/1.1/"
-    xmlns:api="http://purl.org/linked-data/api/vocab#"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-  <api:ListEndpoint rdf:about="http://datos.gob.es/apidata/catalog/dataset/l01280796-madrid-salud-estadisticas-centro-de-proteccion-animal1.rdf">
-    <dct:isPartOf rdf:resource="http://datos.gob.es/apidata/catalog/dataset/l01280796-madrid-salud-estadisticas-centro-de-proteccion-animal1.rdf"/>
-    <j.1:startIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
-    >1</j.1:startIndex>
-    <api:extendedMetadataVersion rdf:resource="http://datos.gob.es/apidata/catalog/dataset/l01280796-madrid-salud-estadisticas-centro-de-proteccion-animal1.rdf?_metadata=all"/>
-    <dct:hasPart rdf:resource="http://datos.gob.es/apidata/catalog/dataset/l01280796-madrid-salud-estadisticas-centro-de-proteccion-animal1.rdf"/>
-    <j.1:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
-    >10</j.1:itemsPerPage>
-    <api:definition rdf:resource="http://datos.gob.es/apidata/catalog/meta/dataset/_id.rdf"/>
-    <rdf:type rdf:resource="http://purl.org/linked-data/api/vocab#Page"/>
-    <api:items rdf:parseType="Collection">
-      <dcat:Dataset rdf:about="http://datos.gob.es/catalogo/l01280796-madrid-salud-estadisticas-centro-de-proteccion-animal1">
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2019-07-25T10:01:14+02:00</dct:modified>
-        <dct:description xml:lang="es">Actividad del Centro de Protección animal:  Se proporcionan cifras desde 2004 por tipo de animal, diferenciando tres grupos (perros, gatos y otros):   Número de ingresos  Porcentaje medio de ocupación de las instalaciones  Servicio de recogida de animales  Animales adoptados  Animales esterilizados    Actuaciones sobre poblaciones de gatos urbanos:  Información sobre intervenciones en colonias de gatos (datos globales de la ciudad y por distritos).  En actuaciones sobre poblaciones de gatos urbanos, no se aportan datos globales del año 2016 debido a un cambio en las estrategias de actuación que han introducido cambios en la configuración de los datos que se venían aportando. Estas estrategias vienen derivadas de la aprobación del 'Procedimiento para la gestión de solicitudes de colaboración del Ayuntamiento de Madrid en la consolidación de las colonias controladas de gatos urbanos por razones de sostenibilidad y bienestar animal' y de la entrada en vigor de la Ley 4/2016 de Protección de los animales de Compañía de la Comunidad de Madrid. Entre ellas destaca el impulso de la gestión de las poblaciones de gatos urbanos a través de colonias felinas controladas, que permitirán controlar el número de felinos urbanos de forma natural y eficaz.</dct:description>
-        <dct:identifier>https://datos.madrid.es/egob/catalogo/211899-0-estadisticas-animales</dct:identifier>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2015-02-17T09:30:18+01:00</dct:issued>
-        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280796"/>
-        <dct:title xml:lang="es">Madrid Salud. Estadísticas centro de protección animal</dct:title>
-        <dcat:distribution>
-          <dcat:Distribution rdf:about="http://datos.gob.es/catalogo/l01280796-madrid-salud-estadisticas-centro-de-proteccion-animal1/resource/0712048a-cd82-4ade-8f7c-1f9b71af21da">
-            <dct:title xml:lang="es">Estadísticas proporcionadas por el centro de protección animal</dct:title>
-            <dct:format>
-              <dct:IMT rdf:about="http://datos.gob.es/catalogo/l01280796-madrid-salud-estadisticas-centro-de-proteccion-animal1/resource/0712048a-cd82-4ade-8f7c-1f9b71af21da/format">
-                <rdf:value>application/vnd.ms-excel</rdf:value>
-              </dct:IMT>
-            </dct:format>
-            <dcat:accessURL rdf:resource="https://datos.madrid.es/egob/catalogo/211899-0-estadisticas-animales.xls"/>
-            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
-            >86016</dcat:byteSize>
-          </dcat:Distribution>
-        </dcat:distribution>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/salud"/>
-      </dcat:Dataset>
-    </api:items>
-    <j.0:first rdf:resource="http://datos.gob.es/apidata/catalog/dataset/l01280796-madrid-salud-estadisticas-centro-de-proteccion-animal1.rdf?_page=0"/>
-    <api:page rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
-    >0</api:page>
-  </api:ListEndpoint>
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://www.ontogrid.net/StickyNote#"
+    xmlns="http://www.ontogrid.net/StickyNote#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ 
+ <rdf:Description rdf:about="#Class01">
+ 	<includes rdf:resource="#Sensor029"/>
+ 	<includes rdf:resource="#Computer101"/>
+ </rdf:Description>
+ 
+ <rdf:Description rdf:about="#Sensor029">
+ 	<hasMeasurement rdf:resource="#Measurement8401"/>
+ </rdf:Description>
+ 
+ <rdf:Description rdf:about="#Measurement8401">
+ 	<hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#temperature">29</hasTemperature>
+ 	<atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">2010-06-12T12:00:12</atTime>
+ </rdf:Description>
+ 
+ <rdf:Description rdf:about="#User10A">
+ 	<hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#name">Pedro   </hasName>
+ </rdf:Description>
+ 
+ <rdf:Description rdf:about="#Computer101">
+ 	<hasOwner rdf:resource="#User10A"/>
+ </rdf:Description>
+ 
 </rdf:RDF>
