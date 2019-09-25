@@ -1,0 +1,61 @@
+PREFIX db: <http://dbpedia.org/ontology/>
+
+SELECT distinct ?value1 ?value2 WHERE {
+?instance a db:Politician .
+?instance ?prop ?x .
+filter not exists { ?instance a ?x . }
+?value1 ?prop ?value2 .
+} LIMIT 50
+
+--Results
+
+dbpedia:ontology/AustralianFootballLeague [http]	"オーストラリアン・フットボール・リーグ"@ja
+:Australian_Football_League [http]	"オーストラリアン・フットボール・リーグ"@ja
+dbpedia:ontology/AmericanFootballLeague [http]	"aμερικανικό πρωτάθλημα ποδοσφαίρου"@el
+dbpedia:ontology/hasAbsorbedMunicipality [http]	"the previous municipality from which this one has been created or enlarged"@en
+dbpedia:ontology/whaDraftTeam [http]	"WHA тим који је драфтовао играча"@sr
+dbpedia:ontology/humanDevelopmentIndexRankingCategory [http]	"categoria do indice de desenvolvimento humano (IDH)"@pt
+dbpedia:ontology/AustralianFootballTeam [http]	"ποδοσφαιρική ομάδα αυστραλίας"@el
+dbpedia:ontology/ControlledDesignationOfOriginWine [http]	"Ελεγμένη ονομασία προέλευσης κρασιού"@el
+dbpedia:ontology/hasKMLData [http]	"Has KML data associated with it (usually because of KML overlays)"@en
+dbpedia:ontology/buildingEndDate [http]	"Ημερομηνία λήξης κατασκευής"@el
+dbpedia:ontology/documentDesignation [http]	"String designation of the WrittenWork describing the resource"@en
+dbpedia:ontology/winsAtOtherTournaments [http]	"победе на осталим турнирима"@sr
+dbpedia:ontology/HumanGeneLocation [http]	"τοποθεσία του ανθρώπινου γονιδίου"@el
+dbpedia:ontology/AdultActor [http]	"ενήλικας (πορνογραφικός) ηθοποιός"@el
+dbpedia:ontology/distanceToEdinburgh [http]	"απόσταση από το Εδιμβούργο (μ)"@el
+dbpedia:ontology/agglomerationPopulationYear [http]	"година популације агломерације"@sr
+dbpedia:ontology/percentageLiterate [http]	"percentage of a place's population that is literate, degree of analphabetism"@en
+dbpedia:ontology/wikiPageInterLanguageLink [http]	"Link from a Wikipage to a Wikipage in a different language about the same or a related subject."@en
+dbpedia:ontology/Model [http]	"(foto)model"@nl
+dbpedia:ontology/numberOfAcademicStaff [http]	"αριθμός ακαδημαϊκού προσωπικού"@el
+dbpedia:ontology/aircraftHelicopterAttack [http]	"επίθεση ελικοφόρων αεροσκαφών"@el
+dbpedia:ontology/WorldHeritageSite [http]	"Μνημείο Παγκόσμιας Πολιτιστικής Κληρονομιάς (Πληροφορίες ΠΠΚ)"@el
+dbpedia:ontology/usk [http]	"zugelassene Bewertung der Unterhaltungssoftware Selbstkontrolle in Deutschland"@de
+dbpedia:ontology/SportCompetitionResult [http]	"αποτελέσματα αθλητικού διαγωνισμού"@el
+dbpedia:ontology/approvedByLowerParliament [http]	"datum aangenomen door Tweede Kamer, Lagerhuis, Bondsdag enz."@nl
+dbpedia:ontology/BasketballLeague [http]	"Ομοσπονδία Καλαθοσφαίρισης"@el
+dbpedia:ontology/activeYearsEndYear [http]	"последња година активних година"@sr
+dbpedia:ontology/GaelicGamesPlayer [http]	"Γαελικός παίκτης παιχνιδιών"@el
+dbpedia:ontology/percentageLiteracyMen [http]	"percentage van de mannelijke bevolking dat geletterd is"@nl
+dbpedia:ontology/SpaceShuttle/timeInSpace [http]	"Gesamtzeit welche die Person im Weltraum verbracht hat (μ)"@de
+dbpedia:ontology/elementGroup [http]	"группа периодической системы"@ru
+dbpedia:ontology/HistoricalAreaOfAuthority [http]	"ancient area of jurisdiction of a person (feudal) or of a governmental body"@en
+dbpedia:ontology/roleInEvent [http]	"A Person's role in an event"@en
+dbpedia:ontology/actScore [http]	"ACT score"@en
+:ACT_score [http]	"ACT score"@en
+dbpedia:ontology/actScore [http]	"ACT σκορ"@el
+dbpedia:ontology/actScore [http]	"ACT резултат"@sr
+dbpedia:ontology/afdbId [http]	"AFDB ID"@de
+dbpedia:ontology/afdbId [http]	"AFDB ID"@sr
+dbpedia:ontology/afiAward [http]	"AFI Award"@en
+:AFI_Award [http]	"AFI Award"@en
+dbpedia:ontology/afiAward [http]	"AFI награда"@sr
+dbpedia:ontology/aitaCode [http]	"AITA код"@sr
+dbpedia:ontology/amgid [http]	"AMG ID"@sr
+dbpedia:ontology/arielAward [http]	"ARIEL награда"@sr
+dbpedia:ontology/atcPrefix [http]	"ATC prefix"@en
+dbpedia2:atcPrefix [http]	"ATC prefix"@en
+dbpedia:ontology/atcSuffix [http]	"ATC suffix"@en
+dbpedia2:atcSuffix [http]	"ATC suffix"@en
+dbpedia:ontology/atcSupplemental [http]	"ATC supplemental"@en

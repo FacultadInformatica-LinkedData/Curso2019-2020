@@ -1,0 +1,12 @@
+PREFIX db: <http://dbpedia.org/ontology/>
+
+SELECT distinct (COUNT(?value2) AS ?count) WHERE {
+?instance a db:Politician .
+?instance ?prop ?x .
+filter not exists { ?instance a ?x . }
+?instance ?prop ?value2 .
+}
+
+--Result
+8567922
+

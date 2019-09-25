@@ -1,0 +1,61 @@
+PREFIX db: <http://dbpedia.org/ontology/>
+
+SELECT distinct ?value2 WHERE {
+?instance a db:Politician .
+?instance ?prop ?x .
+filter not exists { ?instance a ?x . }
+?instance ?prop ?value2 .
+} LIMIT 50
+
+
+--Results
+"Axel Oxenstierna"@en
+"أكسل أكسنسترنا"@ar
+"Axel Oxenstierna"@de
+"Axel Oxenstierna"@es
+"Axel Oxenstierna"@fr
+"Axel Oxenstierna"@it
+"アクセル・オクセンシェルナ"@ja
+"Axel Oxenstierna"@nl
+"Axel Oxenstierna"@pl
+"Axel Oxenstierna"@pt
+"Оксеншерна, Аксель"@ru
+"Brothers Grimm"@en
+"الأخوان غريم"@ar
+"Brüder Grimm"@de
+"Hermanos Grimm"@es
+"Frères Grimm"@fr
+"Fratelli Grimm"@it
+"グリム兄弟"@ja
+"Gebroeders Grimm"@nl
+"Bracia Grimm"@pl
+"Irmãos Grimm"@pt
+"Братья Гримм"@ru
+"格林兄弟"@zh
+"Carlos Menem"@en
+"كارلوس منعم"@ar
+"Carlos Menem"@de
+"Carlos Menem"@es
+"Carlos Menem"@fr
+"Carlos Saúl Menem"@it
+"カルロス・メネム"@ja
+"Carlos Menem"@nl
+"Carlos Saúl Menem"@pl
+"Carlos Menem"@pt
+"Менем, Карлос"@ru
+"卡洛斯·梅内姆"@zh
+"Carter Harrison Jr."@en
+"كارتر هاريسون"@ar
+"Carter Harrison, Jr."@de
+"Carter Harrison Sr."@en
+"Carter Harrison, Sr."@de
+"Carter Harrison, Sr."@fr
+"Chen Shui-bian"@en
+"تشن شوي بيان"@ar
+"Chen Shui-bian"@de
+"Chen Shui-bian"@es
+"Chen Shui-bian"@fr
+"Chen Shui-bian"@it
+"陳水扁"@ja
+"Chen Shui-bian"@nl
+"Chen Shui-bian"@pl
