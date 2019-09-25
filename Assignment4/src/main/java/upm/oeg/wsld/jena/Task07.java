@@ -6,6 +6,7 @@ import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.ontology.OntResource;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
@@ -44,6 +45,7 @@ public class Task07
 		while (instances.hasNext())
 		{
 			Individual inst = (Individual) instances.next();
+			OntResource instance = (OntResource) instances.next();
 			System.out.println("Instance of Person: "+inst.getURI());
 		}
 		
@@ -52,7 +54,7 @@ public class Task07
 		
 		while (subclasses.hasNext())
 		{
-			OntClass subclass = (OntClass) subclasses.next();
+			OntResource subclass = (OntResource) subclasses.next();
 			System.out.println("Subclass of Person: "+subclass.getURI());
 		}
 		
