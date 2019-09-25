@@ -44,7 +44,7 @@ public class Task07
 		while (instances.hasNext())
 		{
 			Individual inst = (Individual) instances.next();
-			System.out.println("Instance of Person: "+inst.getURI());
+			//System.out.println("Instance of Person: "+inst.getURI());
 		}
 		
 		// ** TASK 7.2: List all subclasses of "Person" **
@@ -53,7 +53,7 @@ public class Task07
 		while (subclasses.hasNext())
 		{
 			OntClass subclass = (OntClass) subclasses.next();
-			System.out.println("Subclass of Person: "+subclass.getURI());
+			//System.out.println("Subclass of Person: "+subclass.getURI());
 		}
 		
 
@@ -61,6 +61,30 @@ public class Task07
 		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
 		
+		OntClass newPerson = model.getOntClass(ns+"Person");
+		//Inference model
+		OntModel newModel = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
+		
+		InputStream newIn = FileManager.get().open(filename);
+		
+		if (newIn == null)
+			throw new IllegalArgumentException("File: "+filename+" not found");
 	
+		// Read the RDF/XML file
+		newModel.read(newIn, null);
+		//Person instances
+		//new person iterator
+		ExtendedIterator newInstances=newPerson.listInstances();
+		while (newInstances.hasNext()) {
+			Individual newInstance = (Individual) newInstances.next();
+			System.out.println("Instance of Person: "+ newInstance.getURI());
+		}
+		
+		//new subclass iterator
+		ExtendedIterator newSubclasses=newPerson.listSubClasses();
+		while (newSubclasses.hasNext()){
+			OntClass newSubclass=(OntClass) newSubclasses.next();
+			System.out.println("Subclass of Person: "+newSubclass.getURI());
+		}
 	}
 }
