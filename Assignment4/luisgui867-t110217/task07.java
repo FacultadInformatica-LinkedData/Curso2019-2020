@@ -1,11 +1,10 @@
-
+package upm.oeg.wsld.jena;
 import java.io.InputStream;
 
 import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
-import org.apache.jena.ontology.OntResource;
 import org.apache.jena.rdf.model.InfModel;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.RDFNode;
@@ -65,16 +64,21 @@ public class Task07
 		
 
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-		System.out.println("\nTASK 7.3 - Make the necessary changes to get as well indirect instances and subclasses\n");
-		Reasoner reasoner = ReasonerRegistry.getOWLReasoner();
-		reasoner = reasoner.bindSchema(model);
-		reasoner.setDerivationLogging(true);
-		InfModel inf = ModelFactory.createInfModel(reasoner, model);
-		StmtIterator i = inf.listStatements(person, null, (RDFNode) null);
-		while(i.hasNext()){
-			Statement s = i.nextStatement();
-			System.out.println("Statement: \n" + s/*.asTriple()*/); //turtle format
-		}
+		System.out.println("\n----------------------------------");
+		
+		OntModel model2 = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF,model);
+	    OntClass personInf = model2.getOntClass(ns + "Person");
+	       
+	    System.out.println("\n Inference person instances : ");
+	    ExtendedIterator instances2 = personInf.listInstances(); 
+
+	    while (instances2.hasNext()) System.out.println(instances2.next());
+
+	    System.out.println("\n Inference person subclasses : ");
+	    ExtendedIterator subclases2 = personInf.listSubClasses();
+	       
+	    while (subclases2.hasNext()) System.out.println(subclases2.next());
+	      
 	
 
 	}

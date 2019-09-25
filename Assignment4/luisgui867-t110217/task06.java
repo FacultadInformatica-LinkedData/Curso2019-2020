@@ -1,6 +1,4 @@
-
-package com.spliff.adviserBot;
-
+package upm.oeg.wsld.jena;
 
 import java.io.InputStream;
 
