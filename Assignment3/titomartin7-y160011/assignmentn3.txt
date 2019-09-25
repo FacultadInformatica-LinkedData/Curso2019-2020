@@ -1,0 +1,156 @@
+ 1.
+select distinct ?prop 
+where { 
+    ?x a  <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?z 
+}
+limit 20
+
+
+rdf:type [http]
+rdfs:label [http]
+rdfs:comment [http]
+owl:differentFrom [http]
+rdfs:seeAlso [http]
+owl:sameAs [http]
+dbpedia:ontology/deathPlace [http]
+dbpedia2:deathPlace [http]
+dbpedia:ontology/deathDate [http]
+dbpedia:ontology/birthPlace [http]
+dbpedia:ontology/birthDate [http]
+<http://purl.org/dc/terms/subject> [http]
+dbpedia:ontology/wikiPageID [http]
+dbpedia:ontology/wikiPageRevisionID [http]
+dbpedia:ontology/wikiPageExternalLink [http]
+foaf:name [http]
+foaf:homepage [http]
+dbpedia2:name [http]
+foaf:depiction [http]
+<http://purl.org/dc/terms/description> [http]
+
+
+
+2.
+select distinct ?prop 
+where { 
+    ?x a  <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?z 
+filter (?prop !=rdf:type)
+}
+limit 20
+
+
+rdfs:label [http]
+rdfs:comment [http]
+owl:differentFrom [http]
+rdfs:seeAlso [http]
+owl:sameAs [http]
+dbpedia:ontology/deathPlace [http]
+dbpedia2:deathPlace [http]
+dbpedia:ontology/deathDate [http]
+dbpedia:ontology/birthPlace [http]
+dbpedia:ontology/birthDate [http]
+<http://purl.org/dc/terms/subject> [http]
+dbpedia:ontology/wikiPageID [http]
+dbpedia:ontology/wikiPageRevisionID [http]
+dbpedia:ontology/wikiPageExternalLink [http]
+foaf:name [http]
+foaf:homepage [http]
+dbpedia2:name [http]
+foaf:depiction [http]
+<http://purl.org/dc/terms/description> [http]
+foaf:givenName [http]
+
+
+3.
+select distinct ?prop ?val
+where { 
+    ?x a  <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?val
+filter (?prop !=rdf:type)
+}
+limit 20
+
+
+rdfs:label [http]	"Axel Oxenstierna"@en
+rdfs:label [http]	"أكسل أكسنسترنا"@ar
+rdfs:label [http]	"Axel Oxenstierna"@de
+rdfs:label [http]	"Axel Oxenstierna"@es
+rdfs:label [http]	"Axel Oxenstierna"@fr
+rdfs:label [http]	"Axel Oxenstierna"@it
+rdfs:label [http]	"アクセル・オクセンシェルナ"@ja
+rdfs:label [http]	"Axel Oxenstierna"@nl
+rdfs:label [http]	"Axel Oxenstierna"@pl
+rdfs:label [http]	"Axel Oxenstierna"@pt
+rdfs:label [http]	"Оксеншерна, Аксель"@ru
+rdfs:label [http]	"Brothers Grimm"@en
+rdfs:label [http]	"الأخوان غريم"@ar
+rdfs:label [http]	"Brüder Grimm"@de
+rdfs:label [http]	"Hermanos Grimm"@es
+rdfs:label [http]	"Frères Grimm"@fr
+rdfs:label [http]	"Fratelli Grimm"@it
+rdfs:label [http]	"グリム兄弟"@ja
+rdfs:label [http]	"Gebroeders Grimm"@nl
+rdfs:label [http]	"Bracia Grimm"@pl
+
+
+4.
+select distinct ?z ?x
+where { 
+    ?x a  <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?z
+filter (?prop !=rdf:type)
+}
+limit 20
+
+"Axel Oxenstierna"@en	:Axel_Oxenstierna [http]
+"أكسل أكسنسترنا"@ar	:Axel_Oxenstierna [http]
+"Axel Oxenstierna"@de	:Axel_Oxenstierna [http]
+"Axel Oxenstierna"@es	:Axel_Oxenstierna [http]
+"Axel Oxenstierna"@fr	:Axel_Oxenstierna [http]
+"Axel Oxenstierna"@it	:Axel_Oxenstierna [http]
+"アクセル・オクセンシェルナ"@ja	:Axel_Oxenstierna [http]
+"Axel Oxenstierna"@nl	:Axel_Oxenstierna [http]
+"Axel Oxenstierna"@pl	:Axel_Oxenstierna [http]
+"Axel Oxenstierna"@pt	:Axel_Oxenstierna [http]
+"Оксеншерна, Аксель"@ru	:Axel_Oxenstierna [http]
+"Brothers Grimm"@en	:Brothers_Grimm [http]
+"الأخوان غريم"@ar	:Brothers_Grimm [http]
+"Brüder Grimm"@de	:Brothers_Grimm [http]
+"Hermanos Grimm"@es	:Brothers_Grimm [http]
+"Frères Grimm"@fr	:Brothers_Grimm [http]
+"Fratelli Grimm"@it	:Brothers_Grimm [http]
+"グリム兄弟"@ja	:Brothers_Grimm [http]
+"Gebroeders Grimm"@nl	:Brothers_Grimm [http]
+"Bracia Grimm"@pl	:Brothers_Grimm [http]
+
+
+5.
+select distinct ?prop, count (distinct ?z) as ?val 
+where { 
+    ?x a  <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?z
+filter (?prop !=rdf:type)
+}
+limit 20
+
+dbpedia2:border [http]	2
+dbpedia2:latMin [http]	1
+dbpedia2:employer [http]	9
+dbpedia2:war [http]	1
+dbpedia2:reference [http]	3
+dbpedia2:father'sName [http]	1
+dbpedia2:year2start [http]	3
+dbpedia2:vicepremier [http]	7
+dbpedia2:gap [http]	1
+dbpedia2:1y [http]	16
+dbpedia:ontology/deathYear [http]	78
+dbpedia2:succeeded [http]	5257
+dbpedia2:breeder [http]	1
+dbpedia2:hofdate [http]	2
+dbpedia2:publicutilEnd [http]	1
+dbpedia2:abbr [http]	1
+dbpedia2:fieldgoalsd [http]	1
+dbpedia2:teamc [http]	1
+dbpedia2:hero [http]	1
+dbpedia2:coatOfArms [http]	2
