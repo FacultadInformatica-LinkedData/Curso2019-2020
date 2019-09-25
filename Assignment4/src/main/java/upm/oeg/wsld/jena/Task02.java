@@ -17,7 +17,7 @@ import org.apache.jena.vocabulary.VCARD;
  */
 public class Task02
 {
-	public static String ns = "http://somewhere#";
+	public static String ns = "http://somewhere#"; //namespace
 	public static String foafNS = "http://xmlns.com/foaf/0.1/";
 	/**
 	 *
@@ -33,6 +33,7 @@ public class Task02
 
 		// ** TASK 2.1: Create the resource John Smith
 		Resource johnSmith = model.createResource(johnURI);
+		
 
 		// Add to johnSmith the datatype property full name (from the VCARD vocabulary)
 		Property vcardfn = model.createProperty("http://www.w3.org/2001/vcard-rdf/3.0#FN");
