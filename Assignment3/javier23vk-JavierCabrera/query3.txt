@@ -1,0 +1,36 @@
+#query3
+
+select distinct  ?prop ?val 
+where 
+{ 
+?x a  <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?val. 
+FILTER (?prop != rdf:type)
+}
+
+#results
+
+prop			val
+
+rdfs:label [http]	"Axel Oxenstierna"@en
+rdfs:label [http]	"أكسل أكسنسترنا"@ar
+rdfs:label [http]	"Axel Oxenstierna"@de
+rdfs:label [http]	"Axel Oxenstierna"@es
+rdfs:label [http]	"Axel Oxenstierna"@fr
+rdfs:label [http]	"Axel Oxenstierna"@it
+rdfs:label [http]	"アクセル・オクセンシェルナ"@ja
+rdfs:label [http]	"Axel Oxenstierna"@nl
+rdfs:label [http]	"Axel Oxenstierna"@pl
+rdfs:label [http]	"Axel Oxenstierna"@pt
+rdfs:label [http]	"Оксеншерна, Аксель"@ru
+rdfs:label [http]	"Brothers Grimm"@en
+rdfs:label [http]	"الأخوان غريم"@ar
+rdfs:label [http]	"Brüder Grimm"@de
+rdfs:label [http]	"Hermanos Grimm"@es
+rdfs:label [http]	"Frères Grimm"@fr
+rdfs:label [http]	"Fratelli Grimm"@it
+rdfs:label [http]	"グリム兄弟"@ja
+rdfs:label [http]	"Gebroeders Grimm"@nl
+rdfs:label [http]	"Bracia Grimm"@pl
+
+
