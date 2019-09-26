@@ -44,10 +44,10 @@ public class Task07
 		
 		while (instances.hasNext())
 		{
-			Individual inst = (Individual) instances.next();	
-			OntResource ins = (OntResource) instances.next();
+			Individual inst = (Individual) instances.next();
 		
 			System.out.println("Instance of Person: "+inst.getURI());
+			OntResource ins = (OntResource) instances.next();
 		}
 		
 		// ** TASK 7.2: List all subclasses of "Person" **
@@ -55,8 +55,9 @@ public class Task07
 		
 		while (subclasses.hasNext())
 		{
-			OntResource subclass = (OntResource) subclasses.next();
 			System.out.println("Subclass of Person: "+subclass.getURI());
+			OntResource subclass = (OntResource) subclasses.next();
+			
 		}
 		
 
