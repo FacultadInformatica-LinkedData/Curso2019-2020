@@ -6,7 +6,6 @@ import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
-import org.apache.jena.ontology.OntProperty;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.util.FileManager;
@@ -46,29 +45,22 @@ public class Task06
 		OntClass researcher = model.createClass(ns+"Researcher");
 		
 		// ** TASK 6.1: Create a new class named "University" **
-		OntClass university= model.createClass(ns+ "University");
+		
 		
 		// ** TASK 6.2: Add "Researcher" as a subclass of "Person" **
-		OntClass person= model.createClass(ns + "Person");
-		person.addSubClass(researcher);
+		
 		
 		// ** TASK 6.3: Create a new property named "worksIn" **
-		OntProperty  worksIn =model.createOntProperty(ns+ "worksIn");
-		worksIn.addDomain(person);
-		worksIn.addDomain(university);
+		
 		
 		// ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **
-		Individual janeSmith= model.createIndividual(ns + "JaneSmith", researcher);
+		
 		
 		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
-		janeSmith.addProperty(VCARD.FN, "Jane Smith");
-		janeSmith.addProperty(VCARD.Given, "Jane");
-		janeSmith.addProperty(VCARD.Family, "Smith");
+		
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		Individual UPM= university.createIndividual(ns + "UPM");
-		Individual johnSmith= model.getIndividual(ns + "JohnSmith");
-		johnSmith.addProperty(worksIn, UPM);
+		
 		
 		model.write(System.out, "RDF/XML-ABBREV");
 	}
