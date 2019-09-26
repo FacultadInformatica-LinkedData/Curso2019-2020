@@ -1,0 +1,133 @@
+select distinct ?property 
+	where {
+		?x a <http://dbpedia.org/ontology/Politician>.
+		?x ?property ?z
+	} LIMIT 100
+
+
+Results:
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://es.dbpedia.org/property/dead
+http://es.dbpedia.org/property/enelcargo
+http://es.dbpedia.org/property/equipoDebut
+http://es.dbpedia.org/property/equipoRetiro
+http://es.dbpedia.org/property/fortuna
+http://es.dbpedia.org/property/oponentes
+http://es.dbpedia.org/property/relaciones
+http://es.dbpedia.org/property/retiro
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://www.w3.org/2002/07/owl#sameAs
+http://purl.org/dc/terms/subject
+http://dbpedia.org/ontology/thumbnail
+
+select distinct ?property  
+	where {
+		?x a <http://dbpedia.org/ontology/Politician>.
+		?x ?property ?a
+		FILTER( ?property != rdf:type )
+	} LIMIT 100
+
+
+Results:
+
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://es.dbpedia.org/property/dead
+http://es.dbpedia.org/property/enelcargo
+http://es.dbpedia.org/property/equipoDebut
+http://es.dbpedia.org/property/equipoRetiro
+http://es.dbpedia.org/property/fortuna
+http://es.dbpedia.org/property/oponentes
+http://es.dbpedia.org/property/relaciones
+http://es.dbpedia.org/property/retiro
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://www.w3.org/2002/07/owl#sameAs
+http://purl.org/dc/terms/subject
+http://dbpedia.org/ontology/thumbnail
+http://xmlns.com/foaf/0.1/depiction
+
+
+
+select distinct ?value
+	where {
+		?x a <http://dbpedia.org/ontology/Politician>.
+		?x ?property ?value
+		FILTER( ?property != rdf:type )
+
+	} LIMIT 100
+
+
+Results:
+
+"Marcia Alicia Fernández Piña"@es
+"Argentina Rubiera"@es
+"Francisco Pizano de Brigard"@es
+"Gabriel Barceló"@es
+"Gabriel Cruz"@es
+"Guillermo Novara"@es
+"Gustavo Oliva"@es
+"Mario Alberto Dávila Delgado"@es
+"Raquel Barajas"@es
+"Rodrigo Hermosilla Gatica"@es
+"Sergio Sepúlveda Corvalán"@es
+"Albert Botran"@es
+"Antoni Castellà"@es
+"Benet Salellas"@es
+"Clemente Agosto"@es
+
+select distinct ?property ?value
+	where {
+		?x a <http://dbpedia.org/ontology/Politician>.
+		?x ?property ?value
+		FILTER( ?property != rdf:type )
+
+	} LIMIT 100
+
+
+Results:
+http://www.w3.org/2000/01/rdf-schema#label	"Marcia Alicia Fernández Piña"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Argentina Rubiera"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Francisco Pizano de Brigard"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Barceló"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Cruz"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Guillermo Novara"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Gustavo Oliva"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Mario Alberto Dávila Delgado"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Raquel Barajas"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Rodrigo Hermosilla Gatica"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Sergio Sepúlveda Corvalán"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Albert Botran"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Antoni Castellà"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Benet Salellas"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Clemente Agosto"@es
+
+select distinct ?property count(?property) as ?value
+	where {
+		?x a <http://dbpedia.org/ontology/Politician>.
+		?x ?property ?value
+		FILTER( ?property != rdf:type )
+
+	} ORDER BY DESC(?value)
+LIMIT 100
+
+Results:
+
+http://purl.org/dc/terms/subject	130616
+http://www.w3.org/2002/07/owl#sameAs	101862
+http://es.dbpedia.org/property/cargo	39486
+http://dbpedia.org/ontology/birthPlace	37930
+http://xmlns.com/foaf/0.1/name	36927
+http://es.dbpedia.org/property/predecesor	32877
+http://es.dbpedia.org/property/inicio	28115
+http://es.dbpedia.org/property/título	27963
+http://dbpedia.org/ontology/wikiPageExternalLink	27372
+http://es.dbpedia.org/property/final	25553
+http://dbpedia.org/ontology/successor	22313
+http://es.dbpedia.org/property/escudo	21413
+http://www.w3.org/2000/01/rdf-schema#label	21036
+http://www.w3.org/ns/prov#wasDerivedFrom	21036
+http://dbpedia.org/ontology/wikiPageID	21036
+
