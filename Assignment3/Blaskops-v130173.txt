@@ -1,3 +1,5 @@
+Alejandro Blasco Prieto v130173 Blaskops
+
 1. Get all the properties that can be applied to instances of the Politician class
 
 PREFIX ns: <http://dbpedia.org/ontology/>
