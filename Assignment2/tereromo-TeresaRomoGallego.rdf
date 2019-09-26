@@ -19,7 +19,7 @@
 	</rdf:Description>
 	
 	<rdf:Description rdf:about="#User10A">
-		<hasName rdf:datatype="xs:string">Pedro</hasName>
+		<hasName rdf:datatype="xsd:string">Pedro</hasName>
 	</rdf:Description>
 	
 </rdf:RDF>
