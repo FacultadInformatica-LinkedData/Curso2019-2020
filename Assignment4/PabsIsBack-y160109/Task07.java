@@ -19,61 +19,62 @@ import org.apache.jena.util.iterator.ExtendedIterator;
 public class Task07
 {
 	public static String ns = "http://somewhere#";
-	
+
 	public static void main(String args[])
 	{
 		String filename = "resources/example6.rdf";
-		
+
 		// Create an empty model
-		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
-		
+		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
+
 		// Use the FileManager to find the input file
 		InputStream in = FileManager.get().open(filename);
-	
+
 		if (in == null)
 			throw new IllegalArgumentException("File: "+filename+" not found");
-	
+
 		// Read the RDF/XML file
 		model.read(in, null);
-		
-		
+
+
 		// ** TASK 7.1: List all individuals of "Person" **
 		OntClass person = model.getOntClass(ns+"Person");
 		ExtendedIterator instances = person.listInstances();
-		
+
 		while (instances.hasNext())
 		{
 			Individual inst = (Individual) instances.next();
 			System.out.println("Instance of Person: "+inst.getURI());
 		}
-		
+
 		// ** TASK 7.2: List all subclasses of "Person" **
 		ExtendedIterator subclasses = person.listSubClasses();
-		
+
 		while (subclasses.hasNext())
 		{
 			OntClass subclass = (OntClass) subclasses.next();
 			System.out.println("Subclass of Person: "+subclass.getURI());
 		}
-		
 
-		
-		
+
+
+
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-		OntModel inferenciaModel= ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF,model);
-		OntClass inferenciaPerson= inferenciaModel.getOntClass(ns + "Person");
-		
-		ExtendedIterator itInstances= inferenciaPerson.listInstances();
-		ExtendedIterator itSubClasses= inferenciaPerson.listSubClasses();
-		
-		while (itInstances.hasNext()) {
-			Individual pers= (Individual) itInstances.next();
-			System.out.println("Instance de: " + pers.getURI());
+		System.out.println("Indirect instances of person:");
+
+		OntModel modelInf = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF,model);
+		OntClass personInf = modelInf.getOntClass(ns+"Person");
+		ExtendedIterator it = personInf.listInstances();
+
+		while(it.hasNext()){
+			Individual insta = (Individual) it.next();
+			System.out.println(insta.getURI());
 		}
-		
-		while (itSubClasses.hasNext()) {
-			OntClass subClass1= (OntClass) itSubClasses.next();
-			System.out.print("Subclases de: " + subClass1.getURI());
+		System.out.println("Indirect subclasses of Person:");
+		it = personInf.listSubClasses();
+		while(it.hasNext()){
+			OntClass subCl = (OntClass) it.next();
+			System.out.println(subCl.getURI());
 		}
 	}
 }
