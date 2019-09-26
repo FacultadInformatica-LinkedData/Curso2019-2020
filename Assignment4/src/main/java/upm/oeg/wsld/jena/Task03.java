@@ -53,7 +53,7 @@ public class Task03
 		}
 		
 		// ** TASK 3.1: List all the resources with the property "vcard:FN" and their full names **
-		StmtIterator stIter = model.listStatements(null, VCARD.FN, (RDFNode)null);
+		StmtIterator stIter = model.listStatements(null, VCARD.FN, (RDFNode)null);//primer NULL es dame todo, tercer NULL es para que no se queje, po reso el cast
 		
 		while (stIter.hasNext())
 		{
@@ -94,14 +94,14 @@ public class Task03
 			Statement st = stIter.next();
 			Resource janeSmith = st.getSubject();
 			
-			StmtIterator stIter2 = model.listStatements(null, FOAF.knows, janeSmith);
+			StmtIterator stIter2 = model.listStatements(null, FOAF.knows, janeSmith);//Dame todo (sujetos) de alguien o algo que conozca a jane smith
 
 			while (stIter2.hasNext())
 			{
 				Statement st2 = stIter2.next();
 				Resource subj = st2.getSubject();
 				
-				StmtIterator stIter3 = model.listStatements(subj, VCARD.Given, (RDFNode)null);
+				StmtIterator stIter3 = model.listStatements(subj, VCARD.Given, (RDFNode)null);//De los anteriores dame su nombre
 				
 				while (stIter3.hasNext())
 				{

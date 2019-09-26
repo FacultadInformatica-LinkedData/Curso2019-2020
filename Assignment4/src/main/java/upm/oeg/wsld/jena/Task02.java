@@ -49,7 +49,13 @@ public class Task02
 //				Property knows = model.createProperty(foafNS+"knows");
 //				johnSmith.addProperty(knows, janeSmith);
 
-		johnSmith.addProperty(FOAF.knows, janeSmith);
+		johnSmith.addProperty(FOAF.knows, janeSmith);//FOAF --> Friend Of A Friend
+	
+		
+		Resource davidMoreno = model.createResource(ns+"DavidMoreno");
+		davidMoreno.addLiteral(VCARD.EMAIL, "email@somewhere.com");
+		davidMoreno.addLiteral(VCARD.FN, "eeeeeeeeee");
+		
 
 		model.write(System.out, "RDF/XML-ABBREV");
 	}
