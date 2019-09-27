@@ -1,4 +1,4 @@
-select distinct ?property count(?value)
+select distinct ?property count(distinct ?value)
 where{
 	?x a <http://dbpedia.org/ontology/Politician>.
 	?x ?property ?value
