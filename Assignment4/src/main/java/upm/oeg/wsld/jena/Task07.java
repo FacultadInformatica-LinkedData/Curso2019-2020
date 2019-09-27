@@ -6,6 +6,8 @@ import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.rdf.model.InfModel;
+import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
@@ -60,7 +62,26 @@ public class Task07
 		
 		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
+		System.out.println("********************************************************************************");
+		OntModel inferencia = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM_RDFS_INF,model);
+		Model modelInMem= ModelFactory.createDefaultModel();
+		modelInMem.add(inferencia);
+		InputStream fire = FileManager.get().open(filename);
+        inferencia.read(fire,null);
+
+        OntClass newperson = inferencia.getOntClass(ns+"Person");
+		ExtendedIterator newInstances = newperson.listInstances();
+		ExtendedIterator newSubclasses = newperson.listSubClasses();
 		
-	
+		while (newInstances.hasNext())
+		{
+			Individual newinst = (Individual) newInstances.next();
+			System.out.println("Instance of Person: "+newinst.getURI());
+		}
+		while (newSubclasses.hasNext())
+		{
+			OntClass newsubclass = (OntClass) newSubclasses.next();
+			System.out.println("Subclass of Person: "+newsubclass.getURI());
+		}
 	}
 }
