@@ -47,7 +47,7 @@ FILTER(?p != rdf:type)
 
 PREFIX schema: <http://dbpedia.org/ontology/>
 
-select distinct ?p count(?x) as ?values
+select distinct ?p count(?y) as ?values
 where {
 ?x a <http://dbpedia.org/ontology/Politician> .
 ?x ?p ?y
