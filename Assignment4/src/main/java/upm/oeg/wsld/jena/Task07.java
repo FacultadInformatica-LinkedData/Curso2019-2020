@@ -1,11 +1,12 @@
 package upm.oeg.wsld.jena;
 
-import java.io.InputStream;
+import java.io.InputStream; 
 
 import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.ontology.OntResource;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
@@ -25,7 +26,7 @@ public class Task07
 		String filename = "resources/example6.rdf";
 		
 		// Create an empty model
-		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
+		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);//_RDFS_INF
 		
 		// Use the FileManager to find the input file
 		InputStream in = FileManager.get().open(filename);
@@ -39,7 +40,7 @@ public class Task07
 		
 		// ** TASK 7.1: List all individuals of "Person" **
 		OntClass person = model.getOntClass(ns+"Person");
-		ExtendedIterator instances = person.listInstances();
+		ExtendedIterator<? extends OntResource> instances = person.listInstances();
 		
 		while (instances.hasNext())
 		{
@@ -48,7 +49,7 @@ public class Task07
 		}
 		
 		// ** TASK 7.2: List all subclasses of "Person" **
-		ExtendedIterator subclasses = person.listSubClasses();
+		ExtendedIterator<OntClass> subclasses = person.listSubClasses();
 		
 		while (subclasses.hasNext())
 		{
@@ -60,7 +61,30 @@ public class Task07
 		
 		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-		
-	
+		OntModel modelInf = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
+		InputStream inInf = FileManager.get().open(filename);
+
+		if (inInf == null)
+			throw new IllegalArgumentException("File: "+filename+" not found");
+
+		modelInf.read(inInf, null);
+
+		OntClass personInf = modelInf.getOntClass(ns+"Person");
+		ExtendedIterator instancesInf = personInf.listInstances();
+
+		while (instancesInf.hasNext())
+		{
+			Individual instInf = (Individual) instancesInf.next();
+			System.out.println("Indirect Instance of Person: "+instInf.getURI());
+		}
+
+		ExtendedIterator subclassesInf = personInf.listSubClasses();
+
+		while (subclassesInf.hasNext())
+		{
+			OntClass subclassInf = (OntClass) subclassesInf.next();
+			System.out.println("Indirect Subclass of Person: "+subclassInf.getURI());
+		}
+
 	}
 }
