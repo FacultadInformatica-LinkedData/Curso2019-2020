@@ -79,6 +79,8 @@ public class Task06
                 johnSmith.addProperty(worksIn, universityUPM);
 
 		
+                
+                
 		model.write(System.out, "RDF/XML-ABBREV");
 	}
 }

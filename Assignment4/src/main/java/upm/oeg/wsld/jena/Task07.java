@@ -77,6 +77,7 @@ public class Task07
                     OntClass subClase = (OntClass) subClaseIterator.next();
                     System.out.println("Instancia de: " + subClase.getURI());
                     
+                    
                 }
 	
 	}
