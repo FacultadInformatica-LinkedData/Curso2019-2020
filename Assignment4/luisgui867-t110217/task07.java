@@ -1,3 +1,4 @@
+
 package upm.oeg.wsld.jena;
 import java.io.InputStream;
 import org.apache.jena.ontology.Individual;
@@ -14,12 +15,6 @@ import org.apache.jena.reasoner.ReasonerRegistry;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
 
-/**
- * Task 07: Querying ontologies (RDFs)
- * @author elozano
- * @author isantana
- *
- */
 public class Task07
 {
 	public static String ns = "http://somewhere#";
