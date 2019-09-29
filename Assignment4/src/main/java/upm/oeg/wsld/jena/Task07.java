@@ -12,8 +12,7 @@ import org.apache.jena.util.iterator.ExtendedIterator;
 
 /**
  * Task 07: Querying ontologies (RDFs)
- * @author elozano
- * @author isantana
+ * @author 
  *
  */
 public class Task07
@@ -56,11 +55,18 @@ public class Task07
 			System.out.println("Subclass of Person: "+subclass.getURI());
 		}
 		
-
-		
-		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-		
-	
+                ExtendedIterator indInstance = person.listInstances();
+                ExtendedIterator indSubclass = person.listSubClasses();
+
+                while (indInstance.hasNext()) {
+                    Individual instance = (Individual) indInstance.next();
+                    System.out.println("Instance of Person: " + instance.getURI());                
+                }
+                
+                while (indSubclass.hasNext()) {                   
+                    OntClass subClase = (OntClass) indSubclass.next();
+                    System.out.println("Subclass of Person: " + subClase.getURI());                    
+                }	
 	}
 }
