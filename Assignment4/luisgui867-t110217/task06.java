@@ -9,6 +9,12 @@ import org.apache.jena.rdf.model.Property;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.vocabulary.VCARD;
 
+/**
+ * Task 06: Modifying ontologies (RDFs)
+ * @author elozano
+ * @author isantana
+ *
+ */
 public class Task06
 {
 	public static String ns = "http://somewhere#";
