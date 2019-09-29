@@ -1,14 +1,15 @@
 @base <http://www.fi.upm.es/ontologies/>
 @prefix vocab : <http://www.fi.upm.es/ontologies#>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 :Class01	vocab:includes :Sensor029;
 		vocab:includes :Computer101;
 
-:Sensor029	vocab/sensor:hasMeasurement :Measurement8401;
+:Sensor029	vocab:hasMeasurement :Measurement8401;
 
-:Measurement8401	vocab/sensor/measurement:hasTemperature :29;
-			vocab/sensor/measurement: atTime :2010 06 12T12:00:12;
+:Measurement8401	vocab:hasTemperature "29"^^xsd:int;
+			vocab:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
 
-:Computer101	vocab/computer:hasOwner :User10A;
+:Computer101	vocab:hasOwner :User10A.
 
-:User10A	vocab/computer/user:hasName :Pedro;
+:User10A	vocab:hasName :"Pedro"^^xsd:string.
