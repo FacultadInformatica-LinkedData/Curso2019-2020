@@ -104,7 +104,7 @@ http://www.w3.org/2000/01/rdf-schema#label	"Antoni Castellà"@es
 http://www.w3.org/2000/01/rdf-schema#label	"Benet Salellas"@es
 http://www.w3.org/2000/01/rdf-schema#label	"Clemente Agosto"@es
 
-select distinct ?property count(?property) as ?value
+select distinct ?property count(distinct ?property) as ?value
 	where {
 		?x a <http://dbpedia.org/ontology/Politician>.
 		?x ?property ?value
