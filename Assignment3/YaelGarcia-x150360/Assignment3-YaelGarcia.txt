@@ -20,10 +20,10 @@ ________________________________________________________________________________
 
 3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
 
-SELECT DISTINCT ?properties ?y
+SELECT DISTINCT ?properties ?values
 WHERE {
 ?x a <http://dbpedia.org/ontology/Politician> .
-?x ?property ?y .
+?x ?properties ?values .
 FILTER (?properties != rdf:type)
 } 
 _____________________________________________________________________________________________________________________________
