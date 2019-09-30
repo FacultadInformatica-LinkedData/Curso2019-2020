@@ -1,0 +1,26 @@
+Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+
+---------------------QWERY---------------------
+
+SELECT distinct ?p
+WHERE
+{
+
+?x a <http://dbpedia.org/ontology/Politician> .
+?z ?p ?x
+
+} LIMIT 20
+
+---------------------RESULT---------------------
+
+http://es.dbpedia.org/property/1data
+http://es.dbpedia.org/property/candidato
+http://es.dbpedia.org/property/comandanteJefe
+http://es.dbpedia.org/property/comandantesDestacados
+http://es.dbpedia.org/property/congresoPresidente
+http://es.dbpedia.org/property/constructor
+http://es.dbpedia.org/property/directorGeneral
+http://es.dbpedia.org/property/enelcargo
+http://es.dbpedia.org/property/equipoDebut
+http://es.dbpedia.org/property/firmantes
