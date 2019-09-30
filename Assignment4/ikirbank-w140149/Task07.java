@@ -6,7 +6,10 @@ import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.ontology.OntResource;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.reasoner.Reasoner;
+import org.apache.jena.reasoner.ReasonerRegistry;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
 
@@ -39,7 +42,7 @@ public class Task07
 		
 		// ** TASK 7.1: List all individuals of "Person" **
 		OntClass person = model.getOntClass(ns+"Person");
-		ExtendedIterator instances = person.listInstances();
+		ExtendedIterator<?> instances = person.listInstances();
 		
 		while (instances.hasNext())
 		{
@@ -48,19 +51,43 @@ public class Task07
 		}
 		
 		// ** TASK 7.2: List all subclasses of "Person" **
-		ExtendedIterator subclasses = person.listSubClasses();
+		ExtendedIterator<?> subclasses = person.listSubClasses();
 		
 		while (subclasses.hasNext())
 		{
 			OntClass subclass = (OntClass) subclasses.next();
 			System.out.println("Subclass of Person: "+subclass.getURI());
 		}
-		
+				
+        // ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some iRnference... **
+		// Create reasoner, source: https://jena.apache.org/documentation/inference/
+        Reasoner reasoner = ReasonerRegistry.getRDFSReasoner();
+        reasoner = reasoner.bindSchema(model);
+        // set the reasoner
+        OntModelSpec ontolmodel = OntModelSpec.RDFS_MEM;
+        ontolmodel.setReasoner(reasoner);
+        //create the model with inference
+        OntModel ontModel = ModelFactory.createOntologyModel(ontolmodel, model);
 
-		
-		
-		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-		
-	
+        OntClass infer = ontModel.getOntClass(ns + "Person");
+
+        System.out.println("Instances of person class: ");
+        
+        //iterator for people
+        ExtendedIterator<? extends OntResource> iter = infer.listInstances();
+        
+        while (iter.hasNext()) 
+        {
+            System.out.println(iter.next());
+        }
+        //iterator for subclasses
+        ExtendedIterator<OntClass> itersub = infer.listSubClasses();
+
+        System.out.println("Subclasses of person: ");
+
+        while (itersub.hasNext()) 
+        {
+            System.out.println(itersub.next());
+        }
 	}
 }
