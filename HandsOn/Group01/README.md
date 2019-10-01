@@ -1,7 +1,7 @@
 Apellidos; Nombre; Usuario Github
 ---------------------------------
-Medina Turati; Manuel; manumedinat /n
-Peña Torre; Jorge; jorgept18
-Natal Rodríguez; Daniel; dani4natal
-Caro Mira; Adrián; AdriCaro
-Menéndez-Morán Fuentes; David; david-menendez
+Medina Turati; Manuel; manumedinat <br />
+Peña Torre; Jorge; jorgept18 <br />
+Natal Rodríguez; Daniel; dani4natal <br />
+Caro Mira; Adrián; AdriCaro <br />
+Menéndez-Morán Fuentes; David; david-menendez <br />
