@@ -1,0 +1,41 @@
+For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+
+---------------------QWERY---------------------
+
+
+SELECT DISTINCT ?p ?y ?x
+WHERE
+{
+
+?x a <http://dbpedia.org/ontology/Politician>.
+?x ?p ?y .
+FILTER(rdf:type != ?p)
+
+}
+
+LIMIT 20
+
+
+---------------------RESULT---------------------
+
+http://www.w3.org/2000/01/rdf-schema#label	"Marcia Alicia Fernández Piña"@es	http://es.dbpedia.org/resource/Marcia_Alicia_Fernández_Piña
+http://www.w3.org/2000/01/rdf-schema#label	"Argentina Rubiera"@es	http://es.dbpedia.org/resource/Argentina_Rubiera
+http://www.w3.org/2000/01/rdf-schema#label	"Francisco Pizano de Brigard"@es	http://es.dbpedia.org/resource/Francisco_Pizano_de_Brigard
+http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Barceló"@es	http://es.dbpedia.org/resource/Gabriel_Barceló
+http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Cruz"@es	http://es.dbpedia.org/resource/Gabriel_Cruz
+http://www.w3.org/2000/01/rdf-schema#label	"Guillermo Novara"@es	http://es.dbpedia.org/resource/Guillermo_Novara
+http://www.w3.org/2000/01/rdf-schema#label	"Gustavo Oliva"@es	http://es.dbpedia.org/resource/Gustavo_Oliva
+http://www.w3.org/2000/01/rdf-schema#label	"Mario Alberto Dávila Delgado"@es	http://es.dbpedia.org/resource/Mario_Alberto_Dávila_Delgado
+http://www.w3.org/2000/01/rdf-schema#label	"Raquel Barajas"@es	http://es.dbpedia.org/resource/Raquel_Barajas
+http://www.w3.org/2000/01/rdf-schema#label	"Rodrigo Hermosilla Gatica"@es	http://es.dbpedia.org/resource/Rodrigo_Hermosilla_Gatica
+http://www.w3.org/2000/01/rdf-schema#label	"Sergio Sepúlveda Corvalán"@es	http://es.dbpedia.org/resource/Sergio_Sepúlveda_Corvalán
+http://www.w3.org/2000/01/rdf-schema#label	"Albert Botran"@es	http://es.dbpedia.org/resource/Albert_Botran
+http://www.w3.org/2000/01/rdf-schema#label	"Antoni Castellà"@es	http://es.dbpedia.org/resource/Antoni_Castellà
+http://www.w3.org/2000/01/rdf-schema#label	"Benet Salellas"@es	http://es.dbpedia.org/resource/Benet_Salellas
+http://www.w3.org/2000/01/rdf-schema#label	"Clemente Agosto"@es	http://es.dbpedia.org/resource/Clemente_Agosto
+http://www.w3.org/2000/01/rdf-schema#label	"Diego García de García Vilas"@es	http://es.dbpedia.org/resource/Diego_García_de_García_Vilas
+http://www.w3.org/2000/01/rdf-schema#label	"Gabriela Serra"@es	http://es.dbpedia.org/resource/Gabriela_Serra
+http://www.w3.org/2000/01/rdf-schema#label	"Gian Nicola Berti"@es	http://es.dbpedia.org/resource/Gian_Nicola_Berti
+http://www.w3.org/2000/01/rdf-schema#label	"Ingrid Schemelensky"@es	http://es.dbpedia.org/resource/Ingrid_Schemelensky
+http://www.w3.org/2000/01/rdf-schema#label	"Isabel Muradàs"@es	http://es.dbpedia.org/resource/Isabel_Muradàs
