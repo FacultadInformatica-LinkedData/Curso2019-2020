@@ -17,9 +17,7 @@
 	<hasOwner rdf:resource="#User10A"/>
     </rdf:Description>
     <rdf:Description rdf:about="#User10A">
-	<hasName rdf:resource="#Pedro"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#Pedro">
+    <hasName>Pedro</hasName>
     </rdf:Description>
 </rdf:RDF>
 

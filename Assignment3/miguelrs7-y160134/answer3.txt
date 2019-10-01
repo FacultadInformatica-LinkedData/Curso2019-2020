@@ -1,0 +1,61 @@
+3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+select ?z
+{
+  ?x a* <http://dbpedia.org/ontology/Politician>.
+  ?x ?p ?z.
+  FILTER(?p != rdf:type)
+}
+
+ANSWER:
+z
+"Luis Carbonell Parra"@es
+"Luis Frías"@es
+"Luis Gerald Ortiz Alba"@es
+"Luis Gil-Orozco Roda"@es
+"Luis Heysen"@es
+"Luis Labín Besuita"@es
+"Luis María Ramírez Boettner"@es
+"Luis Mejía Montesdeoca"@es
+"Luis Molina (político)"@es
+"Luis Monteverde"@es
+"Luis Plaza"@es
+"Luis Quinteros Tricot"@es
+"Luis Rocafull"@es
+"Luis Santibáñez Bastidas"@es
+"Luis Tur y Palau"@es
+"Luis Valenzuela Guzmán"@es
+"Luis Vega Escandón"@es
+"Luis Vicuña"@es
+"Luz Granier"@es
+"Luz Helena Sarmiento"@es
+"Lynden Pindling"@es
+"László Kövér"@es
+"Magdalena Odarda"@es
+"Mahmoud Ezzat"@es
+"Mamnoon Hussain"@es
+"Manuel Alves Branco"@es
+"Manuel Augusto Olaechea"@es
+"Manuel Cáceres (gobernador)"@es
+"Manuel Ferré"@es
+"Manuel González de la Cotera"@es
+"Manuel Jiménez Barrios"@es
+"Manuel José Godoy"@es
+"Manuel María Moreno (gobernador)"@es
+"Manuel Matta Aragay"@es
+"Manuel Odriozola Romero"@es
+"Manuel Sanhueza Cruz"@es
+"Manuel Vicente Bustos"@es
+"Manuela López Besteiro"@es
+"Mara Gabrilli"@es
+"Marcela Paredes"@es
+"Marcelo Dotti"@es
+"Marcelo Padilla Minvielle"@es
+"Marcelo Santos"@es
+"Marco Proaño Maya"@es
+"Margarita Ferrá de Bartol"@es
+"Maria Rúbies"@es
+"Mariano Recalde"@es
+"Marich Man Singh Shrestha"@es
+"Marien Ngouabi"@es
+"Mario Amadeo"@es
