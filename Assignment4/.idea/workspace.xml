@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d556ea2-e789-4313-bc3d-306cb8c9e525" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data01.rdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data02.rdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data03.rdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data04.rdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data05.rdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/example.rdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/example1.rdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/example2.rdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/example3.rdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/example4.rdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/example5.rdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/example6.rdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upm/oeg/wsld/jena/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upm/oeg/wsld/jena/Task00.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upm/oeg/wsld/jena/Task01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upm/oeg/wsld/jena/Task02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upm/oeg/wsld/jena/Task03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upm/oeg/wsld/jena/Task04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upm/oeg/wsld/jena/Task05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upm/oeg/wsld/jena/Task06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upm/oeg/wsld/jena/Task07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upm/oeg/wsld/jena/Task08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upm/oeg/wsld/jena/Task09.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/upm/oeg/wsld/jena/Task10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/upm/oeg/wsld/jena/AppTest.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1RQJNkGjF5RfkCFoARPhijKJffY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d556ea2-e789-4313-bc3d-306cb8c9e525" name="Default Changelist" comment="" />
+      <created>1569593348630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569593348630</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

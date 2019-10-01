@@ -34,7 +34,7 @@ public class Task00
 		Resource app = model.createResource("http://example.org/App/this");
 		Property says = model.createProperty("http://example.org/App/says");
 		RDFNode hm = model.createLiteral("Hola Mundo!");
-		//Add the statement to the model
+		//Add the statement to the modeltus
 		model.add(app,says, hm);
 		
 		// Write it to standard out
@@ -52,7 +52,7 @@ public class Task00
 		//This should print the following: 
 		//    <http://example.org/App/this> <http://example.org/App/says> "Hola Mundo!" .
 		//    Hola Mundo!
-		
-		
+
+
 	}
 }
