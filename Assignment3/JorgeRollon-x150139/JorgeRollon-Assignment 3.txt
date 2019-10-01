@@ -1,0 +1,101 @@
+
+Jorge Fernandez Rollon, x150139
+
+------------------ Assignment 3 ------------------
+
+--------------------------------------------------
+
+1. Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+QUERY: 
+
+PREFIX ex: <http://dbpedia.org/ontology/Politician>
+
+SELECT distinct ?properties WHERE {
+?x a <http://dbpedia.org/ontology/Politician>.
+?x ?properties ?y.
+} 
+
+RESULT:
+
+http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0D%0APREFIX+%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0D%0APREFIX+dbpedia2%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0D%0APREFIX+dbpedia%3A+%3Chttp%3A%2F%2Fdbpedia.org%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0APREFIX+ex%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E%0D%0A%0D%0ASELECT+distinct+%3Fproperties+WHERE+%7B%0D%0A%3Fx+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A%3Fx+%3Fproperties+%3Fy.%0D%0A%7D+
+
+-------------------------------------------------- 
+
+2. Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+QUERY:
+
+PREFIX ex: <http://dbpedia.org/ontology/Politician>
+
+SELECT distinct ?properties WHERE {
+?x a <http://dbpedia.org/ontology/Politician>.
+?x ?properties ?y.
+FILTER (?properties != (rdf:type)).
+} 
+
+
+RESULT: 
+
+http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0D%0APREFIX+%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0D%0APREFIX+dbpedia2%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0D%0APREFIX+dbpedia%3A+%3Chttp%3A%2F%2Fdbpedia.org%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0APREFIX+ex%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E%0D%0A%0D%0ASELECT+distinct+%3Fproperties+WHERE+%7B%0D%0A%3Fx+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A%3Fx+%3Fproperties+%3Fy.%0D%0AFILTER+%28%3Fproperties+%21%3D+%28rdf%3Atype%29%29.%0D%0A%7D+%0D%0A
+
+-------------------------------------------------- 
+
+3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+QUERY:
+
+PREFIX ex: <http://dbpedia.org/ontology/Politician>
+
+SELECT distinct ?values WHERE {
+?x a <http://dbpedia.org/ontology/Politician>.
+?x ?properties ?values.
+FILTER (?properties != (rdf:type))
+} 
+
+
+RESULT:
+
+http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0D%0APREFIX+%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0D%0APREFIX+dbpedia2%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0D%0APREFIX+dbpedia%3A+%3Chttp%3A%2F%2Fdbpedia.org%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0APREFIX+ex%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E%0D%0A%0D%0ASELECT+distinct+%3Fvalues+WHERE+%7B%0D%0A%3Fx+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A%3Fx+%3Fproperties+%3Fvalues.%0D%0AFILTER+%28%3Fproperties+%21%3D+%28rdf%3Atype%29%29%0D%0A%7D+
+
+
+-------------------------------------------------- 
+
+4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+
+QUERY:
+
+PREFIX ex: <http://dbpedia.org/ontology/Politician>
+
+SELECT distinct ?properties ?values WHERE {
+?x a <http://dbpedia.org/ontology/Politician>.
+?x ?properties ?values.
+FILTER (?properties != (rdf:type)).
+} 
+
+
+RESULT: 
+
+http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0D%0APREFIX+%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0D%0APREFIX+dbpedia2%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0D%0APREFIX+dbpedia%3A+%3Chttp%3A%2F%2Fdbpedia.org%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0APREFIX+ex%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E%0D%0A%0D%0ASELECT+distinct+%3Fproperties+%3Fvalues+WHERE+%7B%0D%0A%3Fx+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A%3Fx+%3Fproperties+%3Fvalues.%0D%0AFILTER+%28%3Fproperties+%21%3D+%28rdf%3Atype%29%29.%0D%0A%7D+%0D%0A%0D%0A
+
+
+-------------------------------------------------- 
+
+5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+
+QUERY:
+
+PREFIX ex: <http://dbpedia.org/ontology/Politician>
+
+SELECT distinct ?properties COUNT(?values) AS ?values WHERE {
+?x a <http://dbpedia.org/ontology/Politician>.
+?x ?properties ?values.
+FILTER (?properties != (rdf:type))
+} 
+
+
+RESULT:
+
+http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0D%0APREFIX+%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0D%0APREFIX+dbpedia2%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0D%0APREFIX+dbpedia%3A+%3Chttp%3A%2F%2Fdbpedia.org%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0APREFIX+ex%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E%0D%0A%0D%0ASELECT+distinct+%3Fproperties+COUNT%28%3Fvalues%29+AS+%3Fvalues+WHERE+%7B%0D%0A%3Fx+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A%3Fx+%3Fproperties+%3Fvalues.%0D%0AFILTER+%28%3Fproperties+%21%3D+%28rdf%3Atype%29%29%0D%0A%7D+
+
