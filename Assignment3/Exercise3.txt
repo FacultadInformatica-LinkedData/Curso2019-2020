@@ -3,8 +3,7 @@ PREFIX db: <http://dbpedia.org/ontology/>
 SELECT distinct ?value1 ?value2 WHERE {
 ?instance a db:Politician .
 ?instance ?prop ?x .
-filter not exists { ?instance a ?x . }
-?value1 ?prop ?value2 .
+FILTER (?prop != rdf:type)
 } LIMIT 50
 
 --Results
