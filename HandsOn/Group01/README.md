@@ -3,7 +3,7 @@
 
 Carlos Jiménez Martín - CarlosJM7
 
-Hector Muñoz Merida - HectorElGrande
+Héctor Muñoz Mérida - HectorElGrande
 
 Miguel Ángel Riaño Sánchez - miguelrs7
 
