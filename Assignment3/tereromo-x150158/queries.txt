@@ -67,8 +67,8 @@ http://es.dbpedia.org/resource/Rodrigo_Hermosilla_Gatica
 
 4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
 
-select distinct ?Properties, ?x, ?y where {
-    ?x a  <http://dbpedia.org/ontology/Politician>.
+select distinct ?Properties ?x ?y where {
+    ?x a <http://dbpedia.org/ontology/Politician>.
     ?x ?Properties ?y.
     FILTER(?Properties != rdf:type)
 }
@@ -79,7 +79,7 @@ LIMIT 10
 
 5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
 
-select distinct ?Properties, COUNT(distinct ?y) where {
+select distinct ?Properties count(distinct ?y) where {
 ?x a  <http://dbpedia.org/ontology/Politician>.
 ?x ?Properties ?y.
 FILTER(?Properties != rdf:type)
