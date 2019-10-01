@@ -1,0 +1,110 @@
+SELECT DISTINCT ?p ?val
+WHERE
+{
+  ?x a <http://dbpedia.org/ontology/Politician>.
+  ?x ?p ?val.
+   FILTER(?p != rdf:type)
+}LIMIT 100
+
+-------------------------------------RESULTS-------------------------------------
+
+http://www.w3.org/2000/01/rdf-schema#label	"Marcia Alicia Fernández Piña"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Argentina Rubiera"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Francisco Pizano de Brigard"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Barceló"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Cruz"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Guillermo Novara"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Gustavo Oliva"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Mario Alberto Dávila Delgado"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Raquel Barajas"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Rodrigo Hermosilla Gatica"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Sergio Sepúlveda Corvalán"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Albert Botran"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Antoni Castellà"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Benet Salellas"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Clemente Agosto"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Diego García de García Vilas"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Gabriela Serra"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Gian Nicola Berti"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Ingrid Schemelensky"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Isabel Muradàs"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Jesús Gerardo Izquierdo Rojas"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Meritxell Ruiz"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Meritxell Serret"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Miriam Prado Carrascal"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Pablo Pérez Tremps"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Roque Sevilla"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Santiago Aparicio"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Mieko Yoshimura"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Abdelkader Taleb Omar"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Abel Caballero"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Abel Salinas Izaguirre"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Abelardo Carrillo Zavala"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Achille Occhetto"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Ada de Caria"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Adalbert Krieger Vasena"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Adelardo López de Ayala"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Agustín Basave Benítez"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Agustín Edwards Mac-Clure"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Ahmed Ben Bella"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alberto Alvarado Arámburo"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alberto Anaya"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alberto Begné Guerra"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alberto Carnevali"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alberto Fermín Zubiría"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alberto Icare"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alberto Oliart"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alberto Pandolfi Arbulú"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alberto Quintanilla"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alda Lazo Ríos"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alejandro Aguinaga"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alejandro Cervantes Delgado"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alejandro Chanona"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alejandro García-Huidobro"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alejandro González Yáñez"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alejandro Navarro"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alejandro Zapata Perogordo"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alexander Dubček"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alfonso Barrantes Lingán"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alfonso Corona del Rosal"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alfonso García-Gallo"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alfredo Baranda García"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alfredo Ferrero Diez Canseco"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alfredo Jaime Irujo"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alfredo Ovando Candía"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Algirdas Brazauskas"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Ali Hassan al-Mayid"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Allan Wagner Tizón"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alonso de Vera y Aragón, el Tupí"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Alonso de Vera y Aragón y Calderón"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Amadeo Bordiga"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Amin al-Husayni"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Ana Mato"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Ana Rosa Payán"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Anastasio Bustamante"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Andrés Galván Rivas"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Andrés Townsend Ezcurra"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Angélica Moya Marín"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Anselmo Marini"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Antolín Sánchez Presedo"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Antoni Castells"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Antonio Domínguez Ortiz"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Antonio González y González"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Antonio Martínez Báez"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Antonio Muñoz Vera"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Antonio Rodríguez San Juan"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Antonio Rumeu de Armas"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Antonio Vespucio Liberti"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Antonio del Viso"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Antton Karrera"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Antón Cañellas"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Aquileo Parra"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Armando Calderón Sol"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Armando Enríquez Flores"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Arnoldo Ochoa González"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Artemio Iglesias"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Artemisia II de Caria"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Arthur Dion Hanna"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Arthur Griffith"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Artur Bernardes"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Arturo Escobar y Vega"@es
