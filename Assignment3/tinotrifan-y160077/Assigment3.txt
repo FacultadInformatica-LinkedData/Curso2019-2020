@@ -224,7 +224,7 @@ http://www.w3.org/2000/01/rdf-schema#label	"Carter Harrison, Sr."@de
 5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many
 distinct values do they take in those instances?
 
-SELECT DISTINCT ?property COUNT(?property) AS ?distinctValues
+SELECT DISTINCT ?property COUNT(DISTINCT ?distinctValues) AS ?distinctValues
 	WHERE {
 		?x a <http://dbpedia.org/ontology/Politician> .
 		?x ?property ?distinctValues.
@@ -232,45 +232,44 @@ SELECT DISTINCT ?property COUNT(?property) AS ?distinctValues
 	} LIMIT 40
 
 
-
-	property											distinct
-http://www.w3.org/2000/01/rdf-schema#label					85304
-http://www.w3.org/2000/01/rdf-schema#comment				83814
-http://dbpedia.org/ontology/deathDate						32983
-http://purl.org/dc/terms/subject							333830
-http://xmlns.com/foaf/0.1/surname							22623
-http://dbpedia.org/ontology/activeYearsStartDate			32648
-http://dbpedia.org/ontology/nationality						8202
-http://dbpedia.org/ontology/religion						7270
-http://dbpedia.org/property/by								9
-http://dbpedia.org/property/honorificSuffix					4522
-http://dbpedia.org/property/piccap							3
-http://dbpedia.org/property/premier							606
-http://dbpedia.org/property/restingPlace					1181
-http://dbpedia.org/property/ribbon							314
-http://dbpedia.org/property/wstitle							71
-http://dbpedia.org/property/networth						10
-http://dbpedia.org/property/height							19
-http://dbpedia.org/property/order							24
-http://dbpedia.org/property/birthPlace						686
-http://dbpedia.org/ontology/lieutenant						992
-http://dbpedia.org/property/commerceEnd						1
-http://dbpedia.org/property/presidentEnd					3
-http://dbpedia.org/property/warEnd							1
-http://dbpedia.org/property/altstyle						51
-http://dbpedia.org/property/auto							22
-http://dbpedia.org/property/latDir							1
-http://dbpedia.org/property/movement						8
-http://dbpedia.org/property/votes							2046
-http://dbpedia.org/property/link							34
-http://dbpedia.org/property/m								7
-http://dbpedia.org/property/note							2
-http://dbpedia.org/property/blp								8
-http://dbpedia.org/property/brother							4
-http://dbpedia.org/ontology/portfolio						76
-http://dbpedia.org/property/orders							20
-http://dbpedia.org/property/stat1value						6
-http://dbpedia.org/property/stat2value						6
-http://dbpedia.org/property/stat5value						2
-http://dbpedia.org/property/salary							3
-http://dbpedia.org/property/failed							14
+ property						distinctValues
+dbpedia2:border 						2
+dbpedia2:latMin 						1
+dbpedia2:employer 						9
+dbpedia2:war 							1
+dbpedia2:reference 						3
+dbpedia2:father'sName 					1
+dbpedia2:year2start 					3
+dbpedia2:vicepremier 					7
+dbpedia2:gap 							1
+dbpedia2:1y 							16
+dbpedia:ontology/deathYear 				78
+dbpedia2:succeeded 						5257
+dbpedia2:breeder 						1
+dbpedia2:hofdate 						2
+dbpedia2:publicutilEnd 					1
+dbpedia2:abbr 							1
+dbpedia2:fieldgoalsd 					1
+dbpedia2:teamc 							1
+dbpedia2:hero 							1
+dbpedia2:coatOfArms 					2
+dbpedia2:educationalBackground 			11
+dbpedia:ontology/predecessor 			8
+dbpedia2:militaryService 				3
+dbpedia2:police 						1
+dbpedia2:jurisprudence 					1
+dbpedia2:mutupoTribe 					1
+dbpedia2:year 							27
+dbpedia2:finalteam 						5
+dbpedia2:previous 						1
+dbpedia2:trainer 						1
+dbpedia2:fivefor 						3
+dbpedia2:successo 						1
+dbpedia2:resingplace 					1
+dbpedia2:imdb 							50
+dbpedia2:distrcit 						2
+dbpedia2:influenced 					7
+dbpedia2:incat 							1
+dbpedia2:imageCaption 					14
+dbpedia2:startrows 						1
+dbpedia2:rank 							107
