@@ -30,7 +30,7 @@ public class Task06
 		// Create an empty model
 		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
 		
-		// Use the FileManager to find the input file
+		//  Use the FileManager to find the input file
 		InputStream in = FileManager.get().open(filename);
 	
 		if (in == null)

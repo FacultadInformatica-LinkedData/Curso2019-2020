@@ -66,7 +66,7 @@ public class Task07
 		System.out.println("\n----------------------------------");
 		
 		OntModel model2 = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF,model);
-	    OntClass personInf = model2.getOntClass(ns + "Person");
+	     OntClass personInf = model2.getOntClass(ns + "Person");
 	       
 	    System.out.println("\n Inference person instances : ");
 	    ExtendedIterator instances2 = personInf.listInstances(); 
