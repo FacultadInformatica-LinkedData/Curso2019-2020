@@ -12,4 +12,4 @@
 
 :Computer101	vocab:hasOwner :User10A.
 
-:User10A	vocab:hasName :"Pedro"^^xsd:string.
+:User10A	vocab:hasName "Pedro"^^xsd:string.
