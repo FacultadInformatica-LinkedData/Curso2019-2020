@@ -20,4 +20,4 @@ The "applicationRequirements.html” file:
 
 ##Comments on the self-assessment##
 
-El trabajo se realizó conjuntamente por todos los integrantes usando la herramienta HangOuts de Google y por ello sólo hay commits del líder de momento. Nada más que comentar
+El trabajo se realizó conjuntamente por todos los integrantes usando la herramienta HangOuts de Google y por ello sólo hay commits del líder de momento. Nada más que comentar en esta parte
