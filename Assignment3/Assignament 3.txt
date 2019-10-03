@@ -1,0 +1,156 @@
+#1._________________________________________
+PREFIX ex: <http://dbpedia.org/ontology/>
+SELECT distinct ?att WHERE { 
+  ?entry a ex:Politician .
+  ?entry ?att ?dat .
+} LIMIT 20
+
+#1.Query
+att
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://es.dbpedia.org/property/dead
+http://es.dbpedia.org/property/enelcargo
+http://es.dbpedia.org/property/equipoDebut
+http://es.dbpedia.org/property/equipoRetiro
+http://es.dbpedia.org/property/fortuna
+http://es.dbpedia.org/property/oponentes
+http://es.dbpedia.org/property/relaciones
+http://es.dbpedia.org/property/retiro
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://www.w3.org/2002/07/owl#sameAs
+http://purl.org/dc/terms/subject
+http://dbpedia.org/ontology/thumbnail
+http://xmlns.com/foaf/0.1/depiction
+http://es.dbpedia.org/property/3data
+http://es.dbpedia.org/property/abreviaturaBot
+http://es.dbpedia.org/property/afiliaciones
+http://es.dbpedia.org/property/almaMater
+
+
+#2._________________________________________
+PREFIX ex: <http://dbpedia.org/ontology/>
+SELECT distinct ?att WHERE { 
+  ?entry a ex:Politician .
+  ?entry ?att ?dat .
+FILTER(?att != rdf:type)
+} LIMIT 20
+
+#2.Query
+att
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://es.dbpedia.org/property/dead
+http://es.dbpedia.org/property/enelcargo
+http://es.dbpedia.org/property/equipoDebut
+http://es.dbpedia.org/property/equipoRetiro
+http://es.dbpedia.org/property/fortuna
+http://es.dbpedia.org/property/oponentes
+http://es.dbpedia.org/property/relaciones
+http://es.dbpedia.org/property/retiro
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://www.w3.org/2002/07/owl#sameAs
+http://purl.org/dc/terms/subject
+http://dbpedia.org/ontology/thumbnail
+http://xmlns.com/foaf/0.1/depiction
+http://es.dbpedia.org/property/3data
+http://es.dbpedia.org/property/abreviaturaBot
+http://es.dbpedia.org/property/afiliaciones
+http://es.dbpedia.org/property/almaMater
+http://es.dbpedia.org/property/almaMáter
+
+
+#3._________________________________________
+PREFIX ex: <http://dbpedia.org/ontology/>
+SELECT distinct ?dat WHERE { 
+  ?entry a ex:Politician .
+  ?entry ?att ?dat .
+FILTER(?att != rdf:type)
+} LIMIT 20
+
+#3.Query
+dat
+"Marcia Alicia Fernández Piña"@es
+"Argentina Rubiera"@es
+"Francisco Pizano de Brigard"@es
+"Gabriel Barceló"@es
+"Gabriel Cruz"@es
+"Guillermo Novara"@es
+"Gustavo Oliva"@es
+"Mario Alberto Dávila Delgado"@es
+"Raquel Barajas"@es
+"Rodrigo Hermosilla Gatica"@es
+"Sergio Sepúlveda Corvalán"@es
+"Albert Botran"@es
+"Antoni Castellà"@es
+"Benet Salellas"@es
+"Clemente Agosto"@es
+"Diego García de García Vilas"@es
+"Gabriela Serra"@es
+"Gian Nicola Berti"@es
+"Ingrid Schemelensky"@es
+"Isabel Muradàs"@es
+
+
+#4._________________________________________
+PREFIX ex: <http://dbpedia.org/ontology/>
+SELECT distinct ?att ?dat ?entry WHERE { 
+  ?entry a ex:Politician .
+  ?entry ?att ?dat .
+FILTER(?att != rdf:type)
+} LIMIT 20
+
+#4.Query
+att 	dat 	entry
+http://www.w3.org/2000/01/rdf-schema#label 	"Marcia Alicia Fernández Piña"@es 	http://es.dbpedia.org/resource/Marcia_Alicia_Fernández_Piña
+http://www.w3.org/2000/01/rdf-schema#label 	"Argentina Rubiera"@es 	http://es.dbpedia.org/resource/Argentina_Rubiera
+http://www.w3.org/2000/01/rdf-schema#label 	"Francisco Pizano de Brigard"@es 	http://es.dbpedia.org/resource/Francisco_Pizano_de_Brigard
+http://www.w3.org/2000/01/rdf-schema#label 	"Gabriel Barceló"@es 	http://es.dbpedia.org/resource/Gabriel_Barceló
+http://www.w3.org/2000/01/rdf-schema#label 	"Gabriel Cruz"@es 	http://es.dbpedia.org/resource/Gabriel_Cruz
+http://www.w3.org/2000/01/rdf-schema#label 	"Guillermo Novara"@es 	http://es.dbpedia.org/resource/Guillermo_Novara
+http://www.w3.org/2000/01/rdf-schema#label 	"Gustavo Oliva"@es 	http://es.dbpedia.org/resource/Gustavo_Oliva
+http://www.w3.org/2000/01/rdf-schema#label 	"Mario Alberto Dávila Delgado"@es 	http://es.dbpedia.org/resource/Mario_Alberto_Dávila_Delgado
+http://www.w3.org/2000/01/rdf-schema#label 	"Raquel Barajas"@es 	http://es.dbpedia.org/resource/Raquel_Barajas
+http://www.w3.org/2000/01/rdf-schema#label 	"Rodrigo Hermosilla Gatica"@es 	http://es.dbpedia.org/resource/Rodrigo_Hermosilla_Gatica
+http://www.w3.org/2000/01/rdf-schema#label 	"Sergio Sepúlveda Corvalán"@es 	http://es.dbpedia.org/resource/Sergio_Sepúlveda_Corvalán
+http://www.w3.org/2000/01/rdf-schema#label 	"Albert Botran"@es 	http://es.dbpedia.org/resource/Albert_Botran
+http://www.w3.org/2000/01/rdf-schema#label 	"Antoni Castellà"@es 	http://es.dbpedia.org/resource/Antoni_Castellà
+http://www.w3.org/2000/01/rdf-schema#label 	"Benet Salellas"@es 	http://es.dbpedia.org/resource/Benet_Salellas
+http://www.w3.org/2000/01/rdf-schema#label 	"Clemente Agosto"@es 	http://es.dbpedia.org/resource/Clemente_Agosto
+http://www.w3.org/2000/01/rdf-schema#label 	"Diego García de García Vilas"@es 	http://es.dbpedia.org/resource/Diego_García_de_García_Vilas
+http://www.w3.org/2000/01/rdf-schema#label 	"Gabriela Serra"@es 	http://es.dbpedia.org/resource/Gabriela_Serra
+http://www.w3.org/2000/01/rdf-schema#label 	"Gian Nicola Berti"@es 	http://es.dbpedia.org/resource/Gian_Nicola_Berti
+http://www.w3.org/2000/01/rdf-schema#label 	"Ingrid Schemelensky"@es 	http://es.dbpedia.org/resource/Ingrid_Schemelensky
+http://www.w3.org/2000/01/rdf-schema#label 	"Isabel Muradàs"@es 	http://es.dbpedia.org/resource/Isabel_Muradàs
+
+#5._________________________________________
+PREFIX ex: <http://dbpedia.org/ontology/>
+SELECT ?att (count(distinct ?att) as ?count) WHERE { 
+  ?entry a ex:Politician .
+  ?entry ?att ?dat .
+FILTER(?att != rdf:type)
+} LIMIT 20
+
+#5.Query
+att 	count
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf 	1
+http://es.dbpedia.org/property/description 	1
+http://es.dbpedia.org/property/cadena 	1
+http://es.dbpedia.org/property/dimensiones 	1
+http://www.w3.org/2002/07/owl#sameAs 	1
+http://es.dbpedia.org/property/sitio 	1
+http://es.dbpedia.org/property/partidopolítico 	1
+http://es.dbpedia.org/property/hijo 	1
+http://es.dbpedia.org/property/piedeimagen 	1
+http://es.dbpedia.org/property/diputadaFederalLxiiiLegislatura 	1
+http://es.dbpedia.org/property/abortos 	1
+http://es.dbpedia.org/property/cédulaDeCiudadanía 	1
+http://es.dbpedia.org/property/secretarioGeneral 	1
+http://es.dbpedia.org/property/audio 	1
+http://es.dbpedia.org/property/abortado 	1
+http://es.dbpedia.org/property/asin 	1
+http://es.dbpedia.org/property/antes 	1
+http://es.dbpedia.org/property/conexiones 	1
+http://es.dbpedia.org/property/d 	1
+http://es.dbpedia.org/property/piefoto 	1

@@ -1,0 +1,329 @@
+(Apuntes de clase... Las qwerys de los cuestionarios comienzan mas abajo)
+
+
+selecciona todas las variables que que tengan tipo hasta un limite de 100
+select distinct ?y
+where {
+
+?x rdf:type ?y
+
+} 
+LIMIT 100
+
+-------------------------------------------------------------------
+
+Dame todas las variables distintas entre si del schema (peliculas) (las 100 primeras de la página)
+PREFIX schema: <http://schema.org/>
+
+select distinct ?x
+where {
+
+?x a schema:Movie
+
+} 
+LIMIT 100
+
+
+http://es.dbpedia.org/sparql?
+default-graph-uri=&
+query=PREFIX+schema%3A+
+%3Chttp%3A%2F%2Fschema.org%2F%3E%0D%0A%0D%0A
+select+distinct+%3Fx%0D%0A
+where+%7B%0D%0A%0D%0A%3Fx+a+schema%3AMovie%0D%0A%0D%0A%7D+%0D%0A
+LIMIT+100%0D%0A&
+
+format=text%2Fhtml&   ----->   format=application%2Fjson&
+timeout=0&
+debug=on
+
+-------------------------------------------------------------------
+
+todas las propiedades
+PREFIX schema: <http://schema.org/>
+
+select distinct ?p
+where {
+
+?x a schema:Movie.
+?x ?p ?z
+
+} 
+LIMIT 100
+
+-------------------------------------------------------------------
+
+sacamos el nombre de las etiquetas
+PREFIX schema: <http://schema.org/>
+
+select distinct ?x ?nombre
+where {
+
+?x a schema:Movie .
+#?x ?p ?z					----> comentario
+?x rdfs:label ?nombre
+
+} 
+LIMIT 100
+
+-------------------------------------------------------------------
+
+PREFIX schema: <http://schema.org/>
+
+select distinct ?x ?nombre ?apellido
+where {
+
+?x a schema:Movie .
+#?x ?p ?z
+?x rdfs:label ?nombre .
+?x <http://es.dbpedia.org/property/apellido> ?apellido
+
+} 
+LIMIT 100
+
+-------------------------------------------------------------------
+
+PREFIX schema: <http://schema.org/>
+
+select distinct ?x ?nombre ?apellido
+where {
+
+?x a schema:Movie .
+#?x ?p ?z
+?x rdfs:label ?nombre .
+OPTIONAL{?x <http://es.dbpedia.org/property/apellido> ?apellido}
+
+} 
+LIMIT 1000
+
+-------------------------------------------------------------------
+
+PREFIX schema: <http://schema.org/>
+
+select distinct ?x ?nombre ?apellido
+where {
+
+?x a schema:Movie .
+#?x ?p ?z
+?x rdfs:label ?nombre .
+OPTIONAL{?x <http://es.dbpedia.org/property/apellido> ?apellido}
+
+} 
+ORDER BY ?nombre
+LIMIT 1000
+
+-------------------------------------------------------------------
+
+SELECT ?x ?nombre
+WHERE
+{
+?x a <http://schema.org/Movie>.
+?x rdfs:label ?nombre
+FILTER(regex(?nombre,"^El*"))
+}
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+CUESTIONARIO 1 qwerys sparql CLASE
+
+1Get all the classes--------------------------------------------------------------------------------------------------------------
+ #para todas las q  tienen instancia
+select distinct ?clase
+where {
+?x a ?clase
+}
+
+ #para todas
+select distinct ?clase
+where {
+{?clase rdf:type rdfs:Class}
+UNION
+{?x a ?clase}
+}
+
+2Get all the subclasses of the class Establishment ---------------------------------------------------------------------------------------------------------------
+
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#>
+
+select distinct ?clase
+where
+{
+?clase rdfs:subClassOf ex:Establishment
+} LIMIT 100
+
+3Get all instances of the class City---------------------------------------------------------------------------------------------------------------
+
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#>
+
+select distinct ?clase
+where
+{
+?clase a ex:City
+
+} LIMIT 100
+
+4Get the number of inhabitants of Santiago de Compostela---------------------------------------------------------------------------------------------------------------
+
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#>
+
+select distinct ?z
+where
+{
+ex:Santiago_de_Compostela ex:hasInhabitantNumber ?z
+
+}
+
+
+5Get the number of inhabitants of Santiago de Compostela and Arzua---------------------------------------------------------------------------------------------------------------
+
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#>
+
+select distinct ?y ?z
+where
+{
+?y ex:hasInhabitantNumber ?z .
+FILTER(?y in (ex:Arzua, ex:Santiago_de_Compostela))
+}
+
+6Get all places, together with the number of inhabitants, ordered by the place name (ascending)---------------------------------------------------------------------------------------------------------------
+
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#>
+
+select distinct ?y ?nombre ?z
+where
+{
+?y ex:hasInhabitantNumber ?z .
+?y rdfs:label ?nombre
+}ORDER BY ?nombre
+
+7Get all instances of  Locality together with their number of inhabitants (if this information exists)---------------------------------------------------------------------------------------------------------------
+
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#>
+
+select distinct ?y ?z
+where
+{
+?y a/rdfs:subClassOf* ex:Locality .
+OPTIONAL{?y ex:hasInhabitantNumber ?z} .
+}
+
+8Get all places with more than 200.000 inhabitants---------------------------------------------------------------------------------------------------------------
+
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#>
+
+select distinct ?y xsd:integer(?z) AS ?numHabitantes
+where
+{
+?y ex:hasInhabitantNumber ?z .
+FILTER(xsd:integer(?z)>200000)
+}
+#OJO: casteamos la variable entera del numero de habitantes pq los datos estaban mal pasados del rdf (tenian un espacio)
+
+9Get postal address data for Pazo_Breogan (street, number, locality, province)---------------------------------------------------------------------------------------------------------------
+
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#>
+
+select distinct ?dir ?street ?number ?loc?province
+
+where 
+{
+ex:Pazo_Breogan ex:hasAddress ?dir .
+?dir ex:hasStreet ?street .
+?dir ex:hasNumber ?number .
+ex:Pazo_Breogan ex:isPlacedIn ?loc .
+?loc ex:inProvince ?province
+}
+
+10Get all subclasses of class Location---------------------------------------------------------------------------------------------------------------
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#>
+
+select distinct ?clase
+
+where
+
+{
+?clase rdfs:subClassOf ex:Location
+}
+
+11Get all instances of class Locality---------------------------------------------------------------------------------------------------------------
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#>
+
+select distinct ?clase
+where
+{
+?clase a/rdfs:subClassOf* ex:Locality
+
+} LIMIT 100
+
+12Describe the resource with rdfs:label "Madrid”---------------------------------------------------------------------------------------------------------------
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#>
+
+DESCRIBE ?x
+WHERE    { ?x rdfs:label "Madrid" }
+
+13Construct a graph that relates directly all touristic places with their provinces, using a new property called ”isIn”---------------------------------------------------------------------------------------------------------------
+
+14Check whether there is any instance of Town---------------------------------------------------------------------------------------------------------------
+
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#> 
+ask { ?instance a ex:Town }
+
+15Ask if there is some instance of Chapel--------------------------------------------------------------------------
+
+PREFIX ex: <http://GP-onto.fi.upm.es/exercise2#> 
+ask { ?instance a ex:Chapel }
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+CUESTIONARIO TO PERFORM
+
+1. Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>) 
+
+select distinct ?propierties
+where
+{
+?b a <http://dbpedia.org/ontology/Politician> .
+?b ?propierties ?c
+}
+
+2. Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+select distinct ?propierties
+where
+{
+?b a <http://dbpedia.org/ontology/Politician> .
+?b ?propierties ?c .
+FILTER (?propierties not in (rdf:type))
+}
+
+3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+select distinct ?propierties ?c
+where
+{
+?b a <http://dbpedia.org/ontology/Politician> .
+?b ?propierties ?c .
+FILTER (?propierties not in (rdf:type))
+}
+
+4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+select distinct ?valores ?c
+where
+{
+?valores a <http://dbpedia.org/ontology/Politician> .
+?valores ?propierties ?c .
+FILTER (?propierties not in (rdf:type))
+}
+
+5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+
+select distinct ?propierties count(distinct ?valores) as ?numVals
+where
+{
+?valores a <http://dbpedia.org/ontology/Politician> .
+?valores ?propierties ?c .
+FILTER (?propierties not in (rdf:type))
+}
