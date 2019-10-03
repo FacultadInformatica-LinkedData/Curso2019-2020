@@ -1,5 +1,11 @@
-Grupo 03
-Nombre; Usuario Github
-Carlos Ponce Lazaro; cponceph
-Pablo Bautista Frias; pabelsbf
-Alexandra Faje; alexia2135
+NOMBRE Y APELLIDOS: Ricardo Gil Monteagudo
+USUARIO GITHUB: ikirbank
+
+NOMBRE Y APELLIDOS: David Casado Blasco
+USUARIO GITHUB: casado1996
+
+NOMBRE Y APELLIDOS: David Ruiz Casado
+USUARIO GITHUB: davidrxix
+
+NOMBRE Y APELLIDOS: John Bradley Valdenebro
+USUARIO GITHUB: johnbradleyvaldenebro
