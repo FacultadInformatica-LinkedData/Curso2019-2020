@@ -1,0 +1,13 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+:Class01 class:includes :Sensor029 ;
+	class:includes :Computer101 .
+
+:Sensor029 class:hasMeasurement :Measurement8401 .
+
+:Computer101 class:hasOwner :User10A .
+
+:Measurement8401 class:hasTemperature "29"^^xsd:integer ;
+	class:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+
+:User10A class:hasName "Pedro"^^xsd:string .

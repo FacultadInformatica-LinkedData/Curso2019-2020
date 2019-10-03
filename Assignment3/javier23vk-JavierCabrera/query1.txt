@@ -1,0 +1,34 @@
+#query1
+
+select distinct  ?prop 
+where 
+{ 
+?x a  <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?val. 
+}
+
+#results
+
+prop
+
+rdf:type [http]
+rdfs:label [http]
+rdfs:comment [http]
+owl:differentFrom [http]
+rdfs:seeAlso [http]
+owl:sameAs [http]
+dbpedia:ontology/deathPlace [http]
+dbpedia2:deathPlace [http]
+dbpedia:ontology/deathDate [http]
+dbpedia:ontology/birthPlace [http]
+dbpedia:ontology/birthDate [http]
+<http://purl.org/dc/terms/subject> [http]
+dbpedia:ontology/wikiPageID [http]
+dbpedia:ontology/wikiPageRevisionID [http]
+dbpedia:ontology/wikiPageExternalLink [http]
+foaf:name [http]
+foaf:homepage [http]
+dbpedia2:name [http]
+foaf:depiction [http]
+<http://purl.org/dc/terms/description> [http]
+
