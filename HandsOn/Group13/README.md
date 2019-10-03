@@ -1,4 +1,4 @@
-Integrantes
+Integrantes Grupo 13
 ================
 
 Carlos Solar Sastre  			x150265
