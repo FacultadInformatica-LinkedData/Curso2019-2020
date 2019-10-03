@@ -1,0 +1,61 @@
+4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+select distinct ?p ?z
+{
+  ?x a* <http://dbpedia.org/ontology/Politician>.
+  ?x ?p ?z.
+  FILTER(?p != rdf:type)
+}LIMIT 50
+
+ANSWER:
+p	z
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Carbonell Parra"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Frías"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Gerald Ortiz Alba"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Gil-Orozco Roda"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Heysen"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Labín Besuita"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis María Ramírez Boettner"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Mejía Montesdeoca"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Molina (político)"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Monteverde"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Plaza"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Quinteros Tricot"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Rocafull"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Santibáñez Bastidas"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Tur y Palau"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Valenzuela Guzmán"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Vega Escandón"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Vicuña"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luz Granier"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luz Helena Sarmiento"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Lynden Pindling"@es
+http://www.w3.org/2000/01/rdf-schema#label	"László Kövér"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Magdalena Odarda"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Mahmoud Ezzat"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Mamnoon Hussain"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Alves Branco"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Augusto Olaechea"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Cáceres (gobernador)"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Ferré"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel González de la Cotera"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Jiménez Barrios"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel José Godoy"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel María Moreno (gobernador)"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Matta Aragay"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Odriozola Romero"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Sanhueza Cruz"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Vicente Bustos"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuela López Besteiro"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Mara Gabrilli"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Marcela Paredes"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Marcelo Dotti"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Marcelo Padilla Minvielle"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Marcelo Santos"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Marco Proaño Maya"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Margarita Ferrá de Bartol"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Maria Rúbies"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Mariano Recalde"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Marich Man Singh Shrestha"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Marien Ngouabi"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Mario Amadeo"@es

@@ -1,0 +1,315 @@
+1. Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+select distinct ?property where{
+?politician a ?<http://dbpedia.org/ontology/Politician>.
+?politician ?property ?x
+} LIMIT 50
+
+
+property
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://es.dbpedia.org/property/1data
+http://es.dbpedia.org/property/antecesor
+http://es.dbpedia.org/property/dead
+http://es.dbpedia.org/property/hermanos
+http://es.dbpedia.org/property/lugarMuerte
+http://es.dbpedia.org/property/primerMinistro
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://www.w3.org/2002/07/owl#sameAs
+http://purl.org/dc/terms/subject
+http://dbpedia.org/ontology/thumbnail
+http://xmlns.com/foaf/0.1/depiction
+http://es.dbpedia.org/property/3data
+http://es.dbpedia.org/property/afiliaciones
+http://es.dbpedia.org/property/almaMáter
+http://es.dbpedia.org/property/almamáter
+http://es.dbpedia.org/property/apellido
+http://es.dbpedia.org/property/apellidos
+http://es.dbpedia.org/property/apodo
+http://es.dbpedia.org/property/authorlink
+http://es.dbpedia.org/property/autor
+http://es.dbpedia.org/property/año
+http://es.dbpedia.org/property/canciller
+http://es.dbpedia.org/property/cargo
+http://es.dbpedia.org/property/cita
+http://es.dbpedia.org/property/coautores
+http://es.dbpedia.org/property/conflictos
+http://es.dbpedia.org/property/cónyuge
+http://es.dbpedia.org/property/descripción
+http://es.dbpedia.org/property/distrito
+http://es.dbpedia.org/property/edición
+http://es.dbpedia.org/property/editor
+http://es.dbpedia.org/property/editorial
+http://es.dbpedia.org/property/embajadorde
+http://es.dbpedia.org/property/enciclopedia
+http://es.dbpedia.org/property/enlaceautor
+http://es.dbpedia.org/property/escudo
+http://es.dbpedia.org/property/etnia
+http://es.dbpedia.org/property/facebook
+http://es.dbpedia.org/property/familiares
+http://es.dbpedia.org/property/fecha
+http://es.dbpedia.org/property/fechaDeFallecimiento
+http://es.dbpedia.org/property/fechaDeNacimiento
+http://es.dbpedia.org/property/fechaNacimiento
+http://es.dbpedia.org/property/fechaacceso
+http://es.dbpedia.org/property/fechamuerte
+http://es.dbpedia.org/property/fechanac
+http://es.dbpedia.org/property/final
+
+
+
+2. Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+select distinct ?property where{
+?politician a ?<http://dbpedia.org/ontology/Politician>.
+?politician ?property ?x
+FILTER(?property != rdf:type)
+} LIMIT 50
+
+
+
+property
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://es.dbpedia.org/property/1data
+http://es.dbpedia.org/property/antecesor
+http://es.dbpedia.org/property/dead
+http://es.dbpedia.org/property/hermanos
+http://es.dbpedia.org/property/lugarMuerte
+http://es.dbpedia.org/property/primerMinistro
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://www.w3.org/2002/07/owl#sameAs
+http://purl.org/dc/terms/subject
+http://dbpedia.org/ontology/thumbnail
+http://xmlns.com/foaf/0.1/depiction
+http://es.dbpedia.org/property/3data
+http://es.dbpedia.org/property/afiliaciones
+http://es.dbpedia.org/property/almaMáter
+http://es.dbpedia.org/property/almamáter
+http://es.dbpedia.org/property/apellido
+http://es.dbpedia.org/property/apellidos
+http://es.dbpedia.org/property/apodo
+http://es.dbpedia.org/property/authorlink
+http://es.dbpedia.org/property/autor
+http://es.dbpedia.org/property/año
+http://es.dbpedia.org/property/canciller
+http://es.dbpedia.org/property/cargo
+http://es.dbpedia.org/property/cita
+http://es.dbpedia.org/property/coautores
+http://es.dbpedia.org/property/conflictos
+http://es.dbpedia.org/property/cónyuge
+http://es.dbpedia.org/property/descripción
+http://es.dbpedia.org/property/distrito
+http://es.dbpedia.org/property/edición
+http://es.dbpedia.org/property/editor
+http://es.dbpedia.org/property/editorial
+http://es.dbpedia.org/property/embajadorde
+http://es.dbpedia.org/property/enciclopedia
+http://es.dbpedia.org/property/enlaceautor
+http://es.dbpedia.org/property/escudo
+http://es.dbpedia.org/property/etnia
+http://es.dbpedia.org/property/facebook
+http://es.dbpedia.org/property/familiares
+http://es.dbpedia.org/property/fecha
+http://es.dbpedia.org/property/fechaDeFallecimiento
+http://es.dbpedia.org/property/fechaDeNacimiento
+http://es.dbpedia.org/property/fechaNacimiento
+http://es.dbpedia.org/property/fechaacceso
+http://es.dbpedia.org/property/fechamuerte
+http://es.dbpedia.org/property/fechanac
+http://es.dbpedia.org/property/final
+http://es.dbpedia.org/property/firma
+
+
+
+3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+select distinct ?value where{
+?politician a ?<http://dbpedia.org/ontology/Politician>.
+?politician ?property ?value
+FILTER(?property != rdf:type)
+} LIMIT 50
+
+
+
+value
+"Luis Carbonell Parra"@es
+"Luis Frías"@es
+"Luis Gerald Ortiz Alba"@es
+"Luis Gil-Orozco Roda"@es
+"Luis Heysen"@es
+"Luis Labín Besuita"@es
+"Luis María Ramírez Boettner"@es
+"Luis Mejía Montesdeoca"@es
+"Luis Molina (político)"@es
+"Luis Monteverde"@es
+"Luis Plaza"@es
+"Luis Quinteros Tricot"@es
+"Luis Rocafull"@es
+"Luis Santibáñez Bastidas"@es
+"Luis Tur y Palau"@es
+"Luis Valenzuela Guzmán"@es
+"Luis Vega Escandón"@es
+"Luis Vicuña"@es
+"Luz Granier"@es
+"Luz Helena Sarmiento"@es
+"Lynden Pindling"@es
+"László Kövér"@es
+"Magdalena Odarda"@es
+"Mahmoud Ezzat"@es
+"Mamnoon Hussain"@es
+"Manuel Alves Branco"@es
+"Manuel Augusto Olaechea"@es
+"Manuel Cáceres (gobernador)"@es
+"Manuel Ferré"@es
+"Manuel González de la Cotera"@es
+"Manuel Jiménez Barrios"@es
+"Manuel José Godoy"@es
+"Manuel María Moreno (gobernador)"@es
+"Manuel Matta Aragay"@es
+"Manuel Odriozola Romero"@es
+"Manuel Sanhueza Cruz"@es
+"Manuel Vicente Bustos"@es
+"Manuela López Besteiro"@es
+"Mara Gabrilli"@es
+"Marcela Paredes"@es
+"Marcelo Dotti"@es
+"Marcelo Padilla Minvielle"@es
+"Marcelo Santos"@es
+"Marco Proaño Maya"@es
+"Margarita Ferrá de Bartol"@es
+"Maria Rúbies"@es
+"Mariano Recalde"@es
+"Marich Man Singh Shrestha"@es
+"Marien Ngouabi"@es
+"Mario Amadeo"@es
+
+
+
+4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+select distinct ?property ?value where{
+?politician a ?<http://dbpedia.org/ontology/Politician>.
+?politician ?property ?value
+FILTER(?property != rdf:type)
+} LIMIT 50
+
+
+
+property	value
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Carbonell Parra"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Frías"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Gerald Ortiz Alba"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Gil-Orozco Roda"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Heysen"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Labín Besuita"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis María Ramírez Boettner"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Mejía Montesdeoca"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Molina (político)"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Monteverde"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Plaza"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Quinteros Tricot"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Rocafull"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Santibáñez Bastidas"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Tur y Palau"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Valenzuela Guzmán"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Vega Escandón"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luis Vicuña"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luz Granier"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Luz Helena Sarmiento"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Lynden Pindling"@es
+http://www.w3.org/2000/01/rdf-schema#label	"László Kövér"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Magdalena Odarda"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Mahmoud Ezzat"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Mamnoon Hussain"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Alves Branco"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Augusto Olaechea"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Cáceres (gobernador)"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Ferré"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel González de la Cotera"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Jiménez Barrios"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel José Godoy"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel María Moreno (gobernador)"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Matta Aragay"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Odriozola Romero"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Sanhueza Cruz"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuel Vicente Bustos"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Manuela López Besteiro"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Mara Gabrilli"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Marcela Paredes"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Marcelo Dotti"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Marcelo Padilla Minvielle"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Marcelo Santos"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Marco Proaño Maya"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Margarita Ferrá de Bartol"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Maria Rúbies"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Mariano Recalde"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Marich Man Singh Shrestha"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Marien Ngouabi"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Mario Amadeo"@es
+
+
+
+5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+
+select distinct ?property count(?value) as ?quantity where{
+?politician a ?<http://dbpedia.org/ontology/Politician>.
+?politician ?property ?value
+FILTER(?property != rdf:type)
+} LIMIT 50
+
+
+
+property	quantity
+http://es.dbpedia.org/property/lugarDeNimiento	1
+http://es.dbpedia.org/property/ocupacíon	1
+http://es.dbpedia.org/property/predeceso2r	2
+http://es.dbpedia.org/property/barras	3
+http://es.dbpedia.org/property/colorBarras	3
+http://es.dbpedia.org/property/porcentajeBarras	3
+http://es.dbpedia.org/property/magen	1
+http://es.dbpedia.org/property/casado	1
+http://es.dbpedia.org/property/cónguge	1
+http://es.dbpedia.org/property/jr/sr	1
+http://es.dbpedia.org/property/pagina	1
+http://es.dbpedia.org/property/smallimage	1
+http://dbpedia.org/ontology/birthName	1
+http://es.dbpedia.org/property/precesor	1
+http://es.dbpedia.org/property/tituloNobiliario	1
+http://es.dbpedia.org/property/trabajos	1
+http://es.dbpedia.org/property/yerno	1
+http://es.dbpedia.org/property/titulos	1
+http://es.dbpedia.org/property/conocidaPor	1
+http://es.dbpedia.org/property/encurso	1
+http://es.dbpedia.org/property/fechaElección	1
+http://es.dbpedia.org/property/nombreElección	1
+http://es.dbpedia.org/property/votantes	1
+http://es.dbpedia.org/property/acrónimo	1
+http://es.dbpedia.org/property/coauthor	1
+http://es.dbpedia.org/property/comentario	1
+http://es.dbpedia.org/property/president	1
+http://es.dbpedia.org/property/pipieimagen	1
+http://es.dbpedia.org/property/sepultura	2
+http://es.dbpedia.org/property/secretarioDelAyuntamiento	1
+http://es.dbpedia.org/property/cargoYyaT.DeLaT/o)5Z	1
+http://es.dbpedia.org/property/nomber	1
+http://es.dbpedia.org/property/lemaDeGobierno	1
+http://es.dbpedia.org/property/presidenteDeLaRepublica	1
+http://es.dbpedia.org/property/oficina	2
+http://es.dbpedia.org/property/captura	1
+http://es.dbpedia.org/property/dimensiones	1
+http://es.dbpedia.org/property/especie	2
+http://es.dbpedia.org/property/material	1
+http://es.dbpedia.org/property/organización	4
+http://es.dbpedia.org/property/canon	2
+http://es.dbpedia.org/property/des	1
+http://es.dbpedia.org/property/lugaract	1
+http://es.dbpedia.org/property/projecto	1
+http://es.dbpedia.org/property/nombreJaLatino	2
+http://es.dbpedia.org/property/tipoextra	1
+http://es.dbpedia.org/property/2blankname	1
+http://es.dbpedia.org/property/2namedata	1
+http://es.dbpedia.org/property/poder	1
+http://es.dbpedia.org/property/consejero	1

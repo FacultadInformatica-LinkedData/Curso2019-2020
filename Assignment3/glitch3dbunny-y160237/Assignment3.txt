@@ -1,0 +1,311 @@
+-------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------- Assignment 3: SPARQL ------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
+
+Provide the SPARQL query and the result for the following queries expressed in natural language. 
+The endpoint that you can use for this exercise is: http://es.dbpedia.org/sparql
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+1. Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+# QUERY:
+
+PREFIX ex: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?property
+WHERE {
+	?politician a ex:Politician .
+	?politician ?property ?pvalue
+} LIMIT 20
+
+
+# RESULTS:
+
+|---------------------------------------------------|
+|		     property	         	    |
+|---------------------------------------------------|
+| http://www.w3.org/1999/02/22-rdf-syntax-ns#type   |
+|---------------------------------------------------| 
+| http://www.w3.org/2000/01/rdf-schema#label	    |
+|---------------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#comment	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/dead		    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/enelcargo          |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/equipoDebut	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/equipoRetiro	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/fortuna	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/oponentes	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/relaciones	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/retiro	            |
+|---------------------------------------------------|
+| http://www.w3.org/ns/prov#wasDerivedFrom	    |
+|---------------------------------------------------|
+| http://www.w3.org/2002/07/owl#sameAs		    |
+|---------------------------------------------------|
+| http://purl.org/dc/terms/subject		    |
+|---------------------------------------------------|
+| http://dbpedia.org/ontology/thumbnail		    |
+|---------------------------------------------------|
+| http://xmlns.com/foaf/0.1/depiction	            |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/3data	            |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/abreviaturaBot	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/afiliaciones       |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/almaMater	    |
+|---------------------------------------------------|
+
+
+2. Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+# QUERY:
+
+PREFIX ex: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?property
+WHERE {
+	?a a ex:Politician .
+	?a ?property ?pvalue 
+	FILTER (?property != rdf:type)
+} LIMIT 20
+
+
+#RESULTS:
+
+|---------------------------------------------------|
+|		      property 			    |
+|---------------------------------------------------| 
+| http://www.w3.org/2000/01/rdf-schema#label	    |
+|---------------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#comment	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/dead		    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/enelcargo	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/equipoDebut	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/equipoRetiro	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/fortuna	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/oponentes	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/relaciones	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/retiro		    |
+|---------------------------------------------------|
+| http://www.w3.org/ns/prov#wasDerivedFrom	    |
+|---------------------------------------------------|
+| http://www.w3.org/2002/07/owl#sameAs		    |
+|---------------------------------------------------|
+| http://purl.org/dc/terms/subject		    |
+|---------------------------------------------------|
+| http://dbpedia.org/ontology/thumbnail		    |
+|---------------------------------------------------|
+| http://xmlns.com/foaf/0.1/depiction		    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/3data		    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/abreviaturaBot	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/afiliaciones	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/almaMater   	    |
+|---------------------------------------------------|
+| http://es.dbpedia.org/property/almaMáter	    |
+|---------------------------------------------------|
+
+3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+# QUERY:
+
+PREFIX ex: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?pvalue
+WHERE {
+	?a a ex:Politician .
+	?a ?property ?pvalue 
+	FILTER (?property != rdf:type)
+} LIMIT 20
+
+
+# RESULTS:
+
+|---------------------------------------------------|
+|			pvalue			    |
+|---------------------------------------------------| 
+| "Marcia Alicia Fernández Piña"@es		    |
+|---------------------------------------------------|
+| "Argentina Rubiera"@es			    |
+|---------------------------------------------------|
+| "Francisco Pizano de Brigard"@es		    |
+|---------------------------------------------------|
+| "Gabriel Barceló"@es				    |
+|---------------------------------------------------|
+| "Gabriel Cruz"@es				    |
+|---------------------------------------------------|
+| "Guillermo Novara"@es				    |
+|---------------------------------------------------|
+| "Gustavo Oliva"@es				    |
+|---------------------------------------------------|
+| "Mario Alberto Dávila Delgado"@es		    |
+|---------------------------------------------------|
+| "Raquel Barajas"@es				    |
+|---------------------------------------------------|
+| "Rodrigo Hermosilla Gatica"@es		    |
+|---------------------------------------------------|
+| "Sergio Sepúlveda Corvalán"@es		    |
+|---------------------------------------------------|
+| "Albert Botran"@es				    |
+|---------------------------------------------------|
+| "Antoni Castellà"@es				    |
+|---------------------------------------------------|
+| "Benet Salellas"@es				    |
+|---------------------------------------------------|
+| "Clemente Agosto"@es				    |
+|---------------------------------------------------|
+| "Diego García de García Vilas"@es    		    |
+|---------------------------------------------------|
+| "Gabriela Serra"@es				    |
+|---------------------------------------------------|
+| "Gian Nicola Berti"@es			    |
+|---------------------------------------------------|
+| "Ingrid Schemelensky"@es    			    |
+|---------------------------------------------------|
+| "Isabel Muradàs"@es				    |
+|---------------------------------------------------|
+
+
+
+4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+# QUERY:
+
+PREFIX ex: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?property ?pvalue
+WHERE {
+	?a a ex:Politician .
+	?a ?property ?pvalue 
+	FILTER (?property != rdf:type)
+} LIMIT 20
+
+
+# RESULTS:
+
+|-----------------------------------------------|-----------------------------------------------|
+|		     property			|	       	     pvalue			|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Marcia Alicia Fernández Piña"@es		|	
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Argentina Rubiera"@es			|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Francisco Pizano de Brigard"@es		|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Gabriel Barceló"@es				|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Gabriel Cruz"@es				|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Guillermo Novara"@es				|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Gustavo Oliva"@es				|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Mario Alberto Dávila Delgado"@es		|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Raquel Barajas"@es				|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Rodrigo Hermosilla Gatica"@es		|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Sergio Sepúlveda Corvalán"@es		|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Albert Botran"@es				|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Antoni Castellà"@es				|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Benet Salellas"@es				|
+|-----------------------------------------------|-----------------------------------------------|	
+| http://www.w3.org/2000/01/rdf-schema#label	| "Clemente Agosto"@es				|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Diego García de García Vilas"@es		|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Gabriela Serra"@es				|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Gian Nicola Berti"@es			|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Ingrid Schemelensky"@es			|
+|-----------------------------------------------|-----------------------------------------------|
+| http://www.w3.org/2000/01/rdf-schema#label	| "Isabel Muradàs"@es				|
+|-----------------------------------------------|-----------------------------------------------|
+
+
+
+
+5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+
+
+# QUERY:
+
+PREFIX ex: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?property COUNT(?pvalue) AS ?values
+WHERE {
+	?a a ex:Politician .
+	?a ?property ?pvalue 
+	FILTER (?property != rdf:type)
+} LIMIT 20
+
+
+# RESULTS:
+
+
+|---------------------------------------------------|-------------|
+|		        property	            |	values	  |
+|---------------------------------------------------|-------------| 
+| http://es.dbpedia.org/property/estilopiedetabla   | 1		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/inicioSesiones	    | 1		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/lider		    | 3 	  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/salonRes	    | 1		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/salonSesionesBaja  | 1		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/sedeBaja	    | 2		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/tipoCámara	    | 1		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/tipoLider	    | 3		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/hija		    | 1		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/abortos	    | 1		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/deputyFirstminister| 1		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/firstminister	    | 2		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/vástago	    | 1		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/webPage	    | 1		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/gobrnador	    | 1		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/tamanoimagen	    | 1		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/aB		    | 1		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/adjunto	    | 1		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/causaDeLaMuerte    | 1		  |
+|---------------------------------------------------|-------------|
+| http://es.dbpedia.org/property/oficios	    | 1	          |
+|---------------------------------------------------|-------------|
+

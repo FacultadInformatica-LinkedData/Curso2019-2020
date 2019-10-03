@@ -1,0 +1,10 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@base <http://example.org/> .
+@prefix rel: <http://example.org/relationship/> .
+
+<#Class01> rel:includes <#Sensor029>, <#Computer101>.
+<#Computer101> rel:hasOwner <#User10A>.
+<#Sensor029> rel:hasMeasurement <#Measurement8401>.
+<#User10A> rel:hasName "Pedro"^^xsd:string.
+<#Measurement8401> rel:hasTemperature "29"^^xsd:int;
+				rel:atTime "2010-06-12T12:00:12"^^xsd:dateTime.

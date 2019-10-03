@@ -1,0 +1,18 @@
+
+
+@base <http://www.ontologies.org/ontologies/assigment2#> .
+@prefix xsd:<http://www.w3.org/2001/XMLSchema#> .
+@prefix source:<http://www.ontologies.org/ontologies/assigment2#>
+
+
+	:Class01 source:includes :Sensor029;
+					source:includes :Computer101.
+					
+	:User10A source:hasName "Pedro"^^xsd:string;
+	:Computer101 source:hasOwner :User10A .
+	
+	:Measurament8401 source:hasTemperature "29"^^xsd:int;
+								source:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+								
+								
+	:Sensor029 source:hasMeasurament : Measurament8401

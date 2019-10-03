@@ -1,0 +1,32 @@
+#query5
+
+select distinct  ?prop  count( distinct ?val) as ?count
+where { 
+?inst a  <http://dbpedia.org/ontology/Politician> .
+?inst ?prop ?val 
+FILTER (?prop != rdf:type)
+}
+
+#results
+prop	                              count
+
+dbpedia2:border [http]	            2
+dbpedia2:latMin [http]	            1
+dbpedia2:employer [http]	          9
+dbpedia2:war [http]	                1
+dbpedia2:reference [http]	          3
+dbpedia2:father'sName [http]	      1
+dbpedia2:year2start [http]	        3
+dbpedia2:vicepremier [http]	        7
+dbpedia2:gap [http]	                1
+dbpedia2:1y [http]	                16
+dbpedia:ontology/deathYear [http]	  78
+dbpedia2:succeeded [http]	          5257
+dbpedia2:breeder [http]	            1
+dbpedia2:hofdate [http]	            2 
+dbpedia2:publicutilEnd [http]	      1
+dbpedia2:abbr [http]	              1
+dbpedia2:fieldgoalsd [http]	        1
+dbpedia2:teamc [http]             	1
+dbpedia2:hero [http]	              1
+dbpedia2:coatOfArms [http]	        2

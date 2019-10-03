@@ -1,0 +1,314 @@
+1.	Get all the properties that can be applied to instances of
+	the Politician class
+	
+ >  select distinct ?propiedad  
+	where {
+		?x a <http://dbpedia.org/ontology/Politician>.
+		?x ?propiedad ?z
+	} LIMIT 50
+	
+ RESULT:
+		http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+		http://www.w3.org/2000/01/rdf-schema#label
+		http://www.w3.org/2000/01/rdf-schema#comment
+		http://es.dbpedia.org/property/dead
+		http://es.dbpedia.org/property/enelcargo
+		http://es.dbpedia.org/property/equipoDebut
+		http://es.dbpedia.org/property/equipoRetiro
+		http://es.dbpedia.org/property/fortuna
+		http://es.dbpedia.org/property/oponentes
+		http://es.dbpedia.org/property/relaciones
+		http://es.dbpedia.org/property/retiro
+		http://www.w3.org/ns/prov#wasDerivedFrom
+		http://www.w3.org/2002/07/owl#sameAs
+		http://purl.org/dc/terms/subject
+		http://dbpedia.org/ontology/thumbnail
+		http://xmlns.com/foaf/0.1/depiction
+		http://es.dbpedia.org/property/3data
+		http://es.dbpedia.org/property/abreviaturaBot
+		http://es.dbpedia.org/property/afiliaciones
+		http://es.dbpedia.org/property/almaMater
+		http://es.dbpedia.org/property/almaMáter
+		http://es.dbpedia.org/property/almamater
+		http://es.dbpedia.org/property/almamáter
+		http://es.dbpedia.org/property/altura
+		http://es.dbpedia.org/property/ancho
+		http://es.dbpedia.org/property/apellido
+		http://es.dbpedia.org/property/apellidos
+		http://es.dbpedia.org/property/apellidosEditor
+		http://es.dbpedia.org/property/apodo
+		http://es.dbpedia.org/property/autor
+		http://es.dbpedia.org/property/año
+		http://es.dbpedia.org/property/añoacceso
+		http://es.dbpedia.org/property/capítulo
+		http://es.dbpedia.org/property/cargo
+		http://es.dbpedia.org/property/cita
+		http://es.dbpedia.org/property/conflictos
+		http://es.dbpedia.org/property/cónyuge
+		http://es.dbpedia.org/property/deporte
+		http://es.dbpedia.org/property/dirección
+		http://es.dbpedia.org/property/distrito
+		http://es.dbpedia.org/property/doi
+		http://es.dbpedia.org/property/edición
+		http://es.dbpedia.org/property/editor
+		http://es.dbpedia.org/property/editorial
+		http://es.dbpedia.org/property/embajadorde
+		http://es.dbpedia.org/property/enciclopedia
+		http://es.dbpedia.org/property/enlaceEditor
+		http://es.dbpedia.org/property/enlaceautor
+		http://es.dbpedia.org/property/escudo
+		http://es.dbpedia.org/property/facebook
+	
+2.	Get all the properties, except rdf:type, that can be applied
+	to instances of the Politician class
+	
+ >  select distinct ?propiedad  
+	where {
+		?x a <http://dbpedia.org/ontology/Politician>.
+		?x ?propiedad ?a
+		FILTER( ?propiedad != rdf:type )
+	} LIMIT 50
+	
+ RESULT:
+		http://www.w3.org/2000/01/rdf-schema#label
+		http://www.w3.org/2000/01/rdf-schema#comment
+		http://es.dbpedia.org/property/dead
+		http://es.dbpedia.org/property/enelcargo
+		http://es.dbpedia.org/property/equipoDebut
+		http://es.dbpedia.org/property/equipoRetiro
+		http://es.dbpedia.org/property/fortuna
+		http://es.dbpedia.org/property/oponentes
+		http://es.dbpedia.org/property/relaciones
+		http://es.dbpedia.org/property/retiro
+		http://www.w3.org/ns/prov#wasDerivedFrom
+		http://www.w3.org/2002/07/owl#sameAs
+		http://purl.org/dc/terms/subject
+		http://dbpedia.org/ontology/thumbnail
+		http://xmlns.com/foaf/0.1/depiction
+		http://es.dbpedia.org/property/3data
+		http://es.dbpedia.org/property/abreviaturaBot
+		http://es.dbpedia.org/property/afiliaciones
+		http://es.dbpedia.org/property/almaMater
+		http://es.dbpedia.org/property/almaMáter
+		http://es.dbpedia.org/property/almamater
+		http://es.dbpedia.org/property/almamáter
+		http://es.dbpedia.org/property/altura
+		http://es.dbpedia.org/property/ancho
+		http://es.dbpedia.org/property/apellido
+		http://es.dbpedia.org/property/apellidos
+		http://es.dbpedia.org/property/apellidosEditor
+		http://es.dbpedia.org/property/apodo
+		http://es.dbpedia.org/property/autor
+		http://es.dbpedia.org/property/año
+		http://es.dbpedia.org/property/añoacceso
+		http://es.dbpedia.org/property/capítulo
+		http://es.dbpedia.org/property/cargo
+		http://es.dbpedia.org/property/cita
+		http://es.dbpedia.org/property/conflictos
+		http://es.dbpedia.org/property/cónyuge
+		http://es.dbpedia.org/property/deporte
+		http://es.dbpedia.org/property/dirección
+		http://es.dbpedia.org/property/distrito
+		http://es.dbpedia.org/property/doi
+		http://es.dbpedia.org/property/edición
+		http://es.dbpedia.org/property/editor
+		http://es.dbpedia.org/property/editorial
+		http://es.dbpedia.org/property/embajadorde
+		http://es.dbpedia.org/property/enciclopedia
+		http://es.dbpedia.org/property/enlaceEditor
+		http://es.dbpedia.org/property/enlaceautor
+		http://es.dbpedia.org/property/escudo
+		http://es.dbpedia.org/property/facebook
+		http://es.dbpedia.org/property/fecha
+	
+3.	Which different values exist for the properties, except
+		rdf:type, of the instances of the Politician class?
+	
+ >  select distinct ?valor
+	where {
+		?x a <http://dbpedia.org/ontology/Politician>.
+		?x ?propiedad ?valor
+		FILTER( ?propiedad != rdf:type )
+
+	} LIMIT 50
+	
+ RESULT:
+		"Marcia Alicia Fernández Piña"@es
+		"Argentina Rubiera"@es
+		"Francisco Pizano de Brigard"@es
+		"Gabriel Barceló"@es
+		"Gabriel Cruz"@es
+		"Guillermo Novara"@es
+		"Gustavo Oliva"@es
+		"Mario Alberto Dávila Delgado"@es
+		"Raquel Barajas"@es
+		"Rodrigo Hermosilla Gatica"@es
+		"Sergio Sepúlveda Corvalán"@es
+		"Albert Botran"@es
+		"Antoni Castellà"@es
+		"Benet Salellas"@es
+		"Clemente Agosto"@es
+		"Diego García de García Vilas"@es
+		"Gabriela Serra"@es
+		"Gian Nicola Berti"@es
+		"Ingrid Schemelensky"@es
+		"Isabel Muradàs"@es
+		"Jesús Gerardo Izquierdo Rojas"@es
+		"Meritxell Ruiz"@es
+		"Meritxell Serret"@es
+		"Miriam Prado Carrascal"@es
+		"Pablo Pérez Tremps"@es
+		"Roque Sevilla"@es
+		"Santiago Aparicio"@es
+		"Mieko Yoshimura"@es
+		"Abdelkader Taleb Omar"@es
+		"Abel Caballero"@es
+		"Abel Salinas Izaguirre"@es
+		"Abelardo Carrillo Zavala"@es
+		"Achille Occhetto"@es
+		"Ada de Caria"@es
+		"Adalbert Krieger Vasena"@es
+		"Adelardo López de Ayala"@es
+		"Agustín Basave Benítez"@es
+		"Agustín Edwards Mac-Clure"@es
+		"Ahmed Ben Bella"@es
+		"Alberto Alvarado Arámburo"@es
+		"Alberto Anaya"@es
+		"Alberto Begné Guerra"@es
+		"Alberto Carnevali"@es
+		"Alberto Fermín Zubiría"@es
+		"Alberto Icare"@es
+		"Alberto Oliart"@es
+		"Alberto Pandolfi Arbulú"@es
+		"Alberto Quintanilla"@es
+		"Alda Lazo Ríos"@es
+		"Alejandro Aguinaga"@es
+	
+	
+4.	For each of the properties, except rdf:type, that can be applied to instances of the Politician class, 
+	which different values do they take in those instances?
+	
+ >  select distinct ?propiedad ?valor
+	where {
+		?x a <http://dbpedia.org/ontology/Politician>.
+		?x ?propiedad ?valor
+		FILTER( ?propiedad != rdf:type )
+
+	} LIMIT 50
+	
+ RESULT:
+
+		http://www.w3.org/2000/01/rdf-schema#label	"Marcia Alicia Fernández Piña"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Argentina Rubiera"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Francisco Pizano de Brigard"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Barceló"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Cruz"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Guillermo Novara"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Gustavo Oliva"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Mario Alberto Dávila Delgado"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Raquel Barajas"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Rodrigo Hermosilla Gatica"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Sergio Sepúlveda Corvalán"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Albert Botran"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Antoni Castellà"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Benet Salellas"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Clemente Agosto"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Diego García de García Vilas"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Gabriela Serra"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Gian Nicola Berti"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Ingrid Schemelensky"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Isabel Muradàs"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Jesús Gerardo Izquierdo Rojas"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Meritxell Ruiz"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Meritxell Serret"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Miriam Prado Carrascal"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Pablo Pérez Tremps"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Roque Sevilla"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Santiago Aparicio"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Mieko Yoshimura"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Abdelkader Taleb Omar"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Abel Caballero"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Abel Salinas Izaguirre"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Abelardo Carrillo Zavala"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Achille Occhetto"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Ada de Caria"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Adalbert Krieger Vasena"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Adelardo López de Ayala"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Agustín Basave Benítez"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Agustín Edwards Mac-Clure"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Ahmed Ben Bella"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Alberto Alvarado Arámburo"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Alberto Anaya"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Alberto Begné Guerra"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Alberto Carnevali"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Alberto Fermín Zubiría"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Alberto Icare"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Alberto Oliart"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Alberto Pandolfi Arbulú"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Alberto Quintanilla"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Alda Lazo Ríos"@es
+		http://www.w3.org/2000/01/rdf-schema#label	"Alejandro Aguinaga"@es
+		
+4.	For each of the properties, except rdf:type, that can be applied to instances of the Politician class, 
+	how many distinct values do they take in those instances?
+	
+ >  select distinct ?propiedad count(?propiedad) as ?valor
+	where {
+		?x a <http://dbpedia.org/ontology/Politician>.
+		?x ?propiedad ?valor
+		FILTER( ?propiedad != rdf:type )
+
+	} ORDER BY DESC(?valor)
+	
+ RESULT:
+
+		http://purl.org/dc/terms/subject	130616
+		http://www.w3.org/2002/07/owl#sameAs	101862
+		http://es.dbpedia.org/property/cargo	39486
+		http://dbpedia.org/ontology/birthPlace	37930
+		http://xmlns.com/foaf/0.1/name	36927
+		http://es.dbpedia.org/property/predecesor	32877
+		http://es.dbpedia.org/property/inicio	28115
+		http://es.dbpedia.org/property/título	27963
+		http://dbpedia.org/ontology/wikiPageExternalLink	27372
+		http://es.dbpedia.org/property/final	25553
+		http://dbpedia.org/ontology/successor	22313
+		http://es.dbpedia.org/property/escudo	21413
+		http://www.w3.org/2000/01/rdf-schema#label	21036
+		http://www.w3.org/ns/prov#wasDerivedFrom	21036
+		http://dbpedia.org/ontology/wikiPageID	21036
+		http://dbpedia.org/ontology/wikiPageRevisionID	21036
+		http://xmlns.com/foaf/0.1/isPrimaryTopicOf	21036
+		http://www.w3.org/2000/01/rdf-schema#comment	20967
+		http://dbpedia.org/ontology/abstract	20967
+		http://xmlns.com/foaf/0.1/gender	20818
+		http://dbpedia.org/ontology/birthDate	19511
+		http://dbpedia.org/ontology/thumbnail	19014
+		http://xmlns.com/foaf/0.1/depiction	19014
+		http://xmlns.com/foaf/0.1/givenName	18476
+		http://es.dbpedia.org/property/período	15565
+		http://dbpedia.org/ontology/deathPlace	15481
+		http://dbpedia.org/ontology/party	15186
+		http://dbpedia.org/ontology/profession	11139
+		http://es.dbpedia.org/property/imagen	10920
+		http://es.dbpedia.org/property/fechaDeNacimiento	10734
+		http://es.dbpedia.org/property/sucesor	9525
+		http://dbpedia.org/ontology/deathDate	9468
+		http://xmlns.com/foaf/0.1/surname	8097
+		http://es.dbpedia.org/property/cónyuge	7977
+		http://es.dbpedia.org/property/almamáter	7710
+		http://es.dbpedia.org/property/año	7605
+		http://es.dbpedia.org/property/presidente	7368
+		http://es.dbpedia.org/property/nombre	6859
+		http://es.dbpedia.org/property/editorial	6508
+		http://es.dbpedia.org/property/distrito	6292
+		http://dbpedia.org/ontology/occupation	6243
+		http://es.dbpedia.org/property/fechaDeFallecimiento	5944
+		http://es.dbpedia.org/property/url	5006
+		http://es.dbpedia.org/property/tamaño	4698
+		http://es.dbpedia.org/property/pieimagen	4357
+		http://es.dbpedia.org/property/hijos	4087
+		http://purl.org/dc/terms/description	4039
+		http://es.dbpedia.org/property/lugarnac	3709
+		http://es.dbpedia.org/property/apellido	3432
+		http://dbpedia.org/ontology/residence	3410
