@@ -1,6 +1,6 @@
 # 1. Obtenga todas las propiedades que se pueden aplicar a las instancias de la clase Politician (<http://dbpedia.org/ontology/Politician>)
 
-select distinct ?propiedades where {
+select distinct ?propiedades where {   
 	?instan a <http://dbpedia.org/ontology/Politician>;
 	?propiedades ?something
 } LIMIT 20
