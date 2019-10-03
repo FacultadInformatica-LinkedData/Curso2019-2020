@@ -1,0 +1,40 @@
+Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+
+---------------------QWERY---------------------
+
+SELECT DISTINCT ?p
+WHERE
+{
+
+?x a <http://dbpedia.org/ontology/Politician>.
+?x ?p ?z .
+FILTER(rdf:type != ?p)
+
+}
+
+LIMIT 20
+
+
+---------------------RESULT---------------------
+
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://es.dbpedia.org/property/dead
+http://es.dbpedia.org/property/enelcargo
+http://es.dbpedia.org/property/equipoDebut
+http://es.dbpedia.org/property/equipoRetiro
+http://es.dbpedia.org/property/fortuna
+http://es.dbpedia.org/property/oponentes
+http://es.dbpedia.org/property/relaciones
+http://es.dbpedia.org/property/retiro
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://www.w3.org/2002/07/owl#sameAs
+http://purl.org/dc/terms/subject
+http://dbpedia.org/ontology/thumbnail
+http://xmlns.com/foaf/0.1/depiction
+http://es.dbpedia.org/property/3data
+http://es.dbpedia.org/property/abreviaturaBot
+http://es.dbpedia.org/property/afiliaciones
+http://es.dbpedia.org/property/almaMater
+http://es.dbpedia.org/property/almaMáter
