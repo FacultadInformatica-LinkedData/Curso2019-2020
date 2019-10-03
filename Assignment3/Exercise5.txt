@@ -6,6 +6,3 @@ SELECT distinct ?prop (COUNT(?c) AS ?count) WHERE {
 FILTER (?prop != rdf:type)
 }
 
---Result
-8567922
-
