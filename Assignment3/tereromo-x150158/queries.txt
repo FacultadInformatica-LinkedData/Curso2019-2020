@@ -1,0 +1,98 @@
+1. Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+select distinct ?Properties where {
+    ?x a  <http://dbpedia.org/ontology/Politician>.
+    ?x ?Properties ?y
+    
+}
+
+LIMIT 10
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://es.dbpedia.org/property/dead
+http://es.dbpedia.org/property/enelcargo
+http://es.dbpedia.org/property/equipoDebut
+http://es.dbpedia.org/property/equipoRetiro
+http://es.dbpedia.org/property/fortuna
+http://es.dbpedia.org/property/oponentes
+http://es.dbpedia.org/property/relaciones
+
+
+
+2. Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+select distinct ?Properties where {
+    ?x a  <http://dbpedia.org/ontology/Politician>.
+    ?x ?Properties ?y.
+    FILTER(?Properties != rdf:type)
+}
+
+LIMIT 10
+
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://es.dbpedia.org/property/dead
+http://es.dbpedia.org/property/enelcargo
+http://es.dbpedia.org/property/equipoDebut
+http://es.dbpedia.org/property/equipoRetiro
+http://es.dbpedia.org/property/fortuna
+http://es.dbpedia.org/property/oponentes
+http://es.dbpedia.org/property/relaciones
+http://es.dbpedia.org/property/retiro
+
+
+3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+select distinct ?x where {
+    ?x a  <http://dbpedia.org/ontology/Politician>.
+    ?x ?Properties ?y.
+    FILTER(?Properties != rdf:type)
+}
+
+LIMIT 10
+
+http://es.dbpedia.org/resource/Marcia_Alicia_Fernández_Piña
+http://es.dbpedia.org/resource/Argentina_Rubiera
+http://es.dbpedia.org/resource/Francisco_Pizano_de_Brigard
+http://es.dbpedia.org/resource/Gabriel_Barceló
+http://es.dbpedia.org/resource/Gabriel_Cruz
+http://es.dbpedia.org/resource/Guillermo_Novara
+http://es.dbpedia.org/resource/Gustavo_Oliva
+http://es.dbpedia.org/resource/Mario_Alberto_Dávila_Delgado
+http://es.dbpedia.org/resource/Raquel_Barajas
+http://es.dbpedia.org/resource/Rodrigo_Hermosilla_Gatica
+
+
+4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+select distinct ?Properties ?x ?y where {
+    ?x a <http://dbpedia.org/ontology/Politician>.
+    ?x ?Properties ?y.
+    FILTER(?Properties != rdf:type)
+}
+
+ORDER BY ?Properties
+LIMIT 10
+
+
+5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+
+select distinct ?Properties count(distinct ?y) where {
+?x a  <http://dbpedia.org/ontology/Politician>.
+?x ?Properties ?y.
+FILTER(?Properties != rdf:type)
+}
+LIMIT 10
+
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf	21036
+http://es.dbpedia.org/property/description	2
+http://es.dbpedia.org/property/cadena	2
+http://es.dbpedia.org/property/dimensiones	1
+http://www.w3.org/2002/07/owl#sameAs	101862
+http://es.dbpedia.org/property/sitio	3
+http://es.dbpedia.org/property/partidopolítico	1
+http://es.dbpedia.org/property/hijo	4
+http://es.dbpedia.org/property/piedeimagen	6
+http://es.dbpedia.org/property/diputadaFederalLxiiiLegislatura	1
