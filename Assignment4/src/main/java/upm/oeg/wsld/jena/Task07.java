@@ -56,11 +56,21 @@ public class Task07
 			System.out.println("Subclass of Person: "+subclass.getURI());
 		}
 		
-
-		
-		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
+		OntModel inf = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF,model);
+		OntClass pInf = inf.getOntClass(ns+"Person");
+		ExtendedIterator iter = pInf.listInstances();
+
+		while(iter.hasNext()){
+			Individual indiv = (Individual) iter.next();
+			System.out.println(indiv.getURI());
+		}
 		
+		ExtendedIterator iter2 = pInf.listSubClasses();
+		while(iter2.hasNext()){
+			OntClass subclass = (OntClass) iter2.next();
+			System.out.println(subclass.getURI());
+		}
 	
 	}
 }
