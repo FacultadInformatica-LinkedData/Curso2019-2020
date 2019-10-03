@@ -1,0 +1,110 @@
+SELECT DISTINCT ?val
+WHERE
+{
+  ?x a <http://dbpedia.org/ontology/Politician>.
+  ?x ?p ?val.
+   FILTER(?p != rdf:type)
+}LIMIT 100
+
+-------------------------------------RESULTS-------------------------------------
+
+"Marcia Alicia Fernández Piña"@es
+"Argentina Rubiera"@es
+"Francisco Pizano de Brigard"@es
+"Gabriel Barceló"@es
+"Gabriel Cruz"@es
+"Guillermo Novara"@es
+"Gustavo Oliva"@es
+"Mario Alberto Dávila Delgado"@es
+"Raquel Barajas"@es
+"Rodrigo Hermosilla Gatica"@es
+"Sergio Sepúlveda Corvalán"@es
+"Albert Botran"@es
+"Antoni Castellà"@es
+"Benet Salellas"@es
+"Clemente Agosto"@es
+"Diego García de García Vilas"@es
+"Gabriela Serra"@es
+"Gian Nicola Berti"@es
+"Ingrid Schemelensky"@es
+"Isabel Muradàs"@es
+"Jesús Gerardo Izquierdo Rojas"@es
+"Meritxell Ruiz"@es
+"Meritxell Serret"@es
+"Miriam Prado Carrascal"@es
+"Pablo Pérez Tremps"@es
+"Roque Sevilla"@es
+"Santiago Aparicio"@es
+"Mieko Yoshimura"@es
+"Abdelkader Taleb Omar"@es
+"Abel Caballero"@es
+"Abel Salinas Izaguirre"@es
+"Abelardo Carrillo Zavala"@es
+"Achille Occhetto"@es
+"Ada de Caria"@es
+"Adalbert Krieger Vasena"@es
+"Adelardo López de Ayala"@es
+"Agustín Basave Benítez"@es
+"Agustín Edwards Mac-Clure"@es
+"Ahmed Ben Bella"@es
+"Alberto Alvarado Arámburo"@es
+"Alberto Anaya"@es
+"Alberto Begné Guerra"@es
+"Alberto Carnevali"@es
+"Alberto Fermín Zubiría"@es
+"Alberto Icare"@es
+"Alberto Oliart"@es
+"Alberto Pandolfi Arbulú"@es
+"Alberto Quintanilla"@es
+"Alda Lazo Ríos"@es
+"Alejandro Aguinaga"@es
+"Alejandro Cervantes Delgado"@es
+"Alejandro Chanona"@es
+"Alejandro García-Huidobro"@es
+"Alejandro González Yáñez"@es
+"Alejandro Navarro"@es
+"Alejandro Zapata Perogordo"@es
+"Alexander Dubček"@es
+"Alfonso Barrantes Lingán"@es
+"Alfonso Corona del Rosal"@es
+"Alfonso García-Gallo"@es
+"Alfredo Baranda García"@es
+"Alfredo Ferrero Diez Canseco"@es
+"Alfredo Jaime Irujo"@es
+"Alfredo Ovando Candía"@es
+"Algirdas Brazauskas"@es
+"Ali Hassan al-Mayid"@es
+"Allan Wagner Tizón"@es
+"Alonso de Vera y Aragón, el Tupí"@es
+"Alonso de Vera y Aragón y Calderón"@es
+"Amadeo Bordiga"@es
+"Amin al-Husayni"@es
+"Ana Mato"@es
+"Ana Rosa Payán"@es
+"Anastasio Bustamante"@es
+"Andrés Galván Rivas"@es
+"Andrés Townsend Ezcurra"@es
+"Angélica Moya Marín"@es
+"Anselmo Marini"@es
+"Antolín Sánchez Presedo"@es
+"Antoni Castells"@es
+"Antonio Domínguez Ortiz"@es
+"Antonio González y González"@es
+"Antonio Martínez Báez"@es
+"Antonio Muñoz Vera"@es
+"Antonio Rodríguez San Juan"@es
+"Antonio Rumeu de Armas"@es
+"Antonio Vespucio Liberti"@es
+"Antonio del Viso"@es
+"Antton Karrera"@es
+"Antón Cañellas"@es
+"Aquileo Parra"@es
+"Armando Calderón Sol"@es
+"Armando Enríquez Flores"@es
+"Arnoldo Ochoa González"@es
+"Artemio Iglesias"@es
+"Artemisia II de Caria"@es
+"Arthur Dion Hanna"@es
+"Arthur Griffith"@es
+"Artur Bernardes"@es
+"Arturo Escobar y Vega"@es
