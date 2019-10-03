@@ -1,0 +1,12 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:<http://www.ontogrid.net/StickyNote#> .
+
+ex:event3	ex:eventDate "2006-05-15"^^xsd:date;
+			ex:involves ex:PinarAlper;
+			ex:involves ex:CaroleGoble.
+			
+ex:event4	ex:eventDate "2006-05-16"^^xsd:date;
+			ex:involves	ex:OscarCorcho .
+			
+ex:event5	ex:eventDate	"2006-05-15"^^xsd:date;
+			ex:involves	ex:CaroleGoble.
