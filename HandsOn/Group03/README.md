@@ -1,5 +1,5 @@
 NOMBRE Y APELLIDOS: Ricardo Gil Monteagudo
-USUARIO GITHUB: ikibank
+USUARIO GITHUB: ikirbank
 
 NOMBRE Y APELLIDOS: David Casado Blasco
 USUARIO GITHUB: casado1996
