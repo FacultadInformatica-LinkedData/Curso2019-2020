@@ -45,10 +45,10 @@ public class Task06
 		OntClass researcher = model.createClass(ns+"Researcher");
 		
 		// ** TASK 6.1: Create a new class named "University" **
-
+		
 		
 		// ** TASK 6.2: Add "Researcher" as a subclass of "Person" **
-
+		
 		
 		// ** TASK 6.3: Create a new property named "worksIn" **
 
