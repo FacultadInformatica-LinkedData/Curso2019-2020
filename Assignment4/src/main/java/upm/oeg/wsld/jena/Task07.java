@@ -56,7 +56,7 @@ public class Task07
 			System.out.println("Subclass of Person: "+subclass.getURI());
 		}
 		
-		
+
 		
 		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
