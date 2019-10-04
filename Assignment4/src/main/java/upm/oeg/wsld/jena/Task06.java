@@ -52,8 +52,8 @@ public class Task06
 		
 		// ** TASK 6.3: Create a new property named "worksIn" **
 		
-
-		// ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **	
+		
+		// ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **
 		
 		
 		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
