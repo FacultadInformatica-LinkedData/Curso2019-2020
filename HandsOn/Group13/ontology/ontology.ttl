@@ -1,73 +1,68 @@
-@prefix : <http://accidentesBiciMad.es/ontology/BiciAccidents#> .
+@prefix : <http://biciaccident.es/ontology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://accidentesBiciMad.es/ontology/BiciAccidents#> .
+@base <http://biciaccident.es/ontology> .
 
-<http://accidentesBiciMad.es/ontology/BiciAccidents#> rdf:type owl:Ontology .
-
-#################################################################
-#    Classes & SubClasses
-#################################################################
-
-###  http://dbpedia.org/ontology/Person
-<http://dbpedia.org/ontology/Person> rdf:type owl:Class .
-
-###  http://dbpedia.org/ontology/Location
-<http://dbpedia.org/ontology/Location> rdf:type owl:Class .
-
-###  http://www.cidoc-crm.org/html/5.0.4/cidoc-crm.html#E50
-<http://www.cidoc-crm.org/html/5.0.4/cidoc-crm.html#E50> rdf:type owl:Class .
-
-###  http://vocab.datex.org/terms/#Accident
-<http://vocab.datex.org/terms/#Accident> rdf:type owl:Class .
-
+<http://biciaccident.es/ontology> rdf:type owl:Ontology ;
+                                   rdfs:label :Accident .
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://purl.org/dc/terms/date
-<http://purl.org/dc/terms/date> rdf:type owl:ObjectProperty ;
-                rdfs:domain <http://vocab.datex.org/terms/#Accident> ;
-                rdfs:range <http://www.cidoc-crm.org/html/5.0.4/cidoc-crm.html#E50> .
+###  http://biciaccident.es/ontology#street
+:street rdf:type owl:ObjectProperty ;
+        rdfs:domain [ rdf:type owl:Restriction ;
+                      owl:onProperty owl:topObjectProperty ;
+                      owl:someValuesFrom :Accident
+                    ] ;
+        rdfs:range [ rdf:type owl:Restriction ;
+                     owl:onProperty :street ;
+                     owl:someValuesFrom :Accident
+                   ] .
 
-
-###  <http://dbpedia.org/ontology/location> 
-<http://dbpedia.org/ontology/location> rdf:type owl:ObjectProperty ;
-           rdfs:domain <http://vocab.datex.org/terms/#Accident> ;
-           rdfs:range <http://dbpedia.org/ontology/Location> .
-
-###  http://dbpedia.org/ontology/person
-<http://dbpedia.org/ontology/person> rdf:type owl:ObjectProperty ;
-           rdfs:domain <http://vocab.datex.org/terms/#Accident> ;
-           rdfs:range <http://dbpedia.org/ontology/Person> .       
 
 #################################################################
 #    Data properties
 #################################################################
 
-#   http://dbpedia.org/ontology/id
-</http://dbpedia.org/ontology/id> rdf:type owl:DatatypeProperty ;
-           rdfs:domain <http://vocab.datex.org/terms/#Accident> ;
-           rdfs:range xsd:string .
-
-#  http://vocab.datex.org/terms/#accidentType
-<http://vocab.datex.org/terms/#accidentType> rdf:type owl:DatatypeProperty ;
-           rdfs:domain <http://vocab.datex.org/terms/#Accident> ;
-               rdfs:range xsd:string .
-	  
-
-#   http://vocab.datex.org/terms/#WeatherData
-<http://vocab.datex.org/terms/#WeatherData> rdf:type owl:DatatypeProperty ;
-           rdfs:domain <http://vocab.datex.org/terms/#Accident> ;
-           rdfs:range xsd:string .
+###  http://biciaccident.es/ontology#date
+:date rdf:type owl:DatatypeProperty ;
+      rdfs:domain [ rdf:type owl:Restriction ;
+                    owl:onProperty owl:topObjectProperty ;
+                    owl:someValuesFrom :Accident
+                  ] ;
+      rdfs:range xsd:dateTime .
 
 
+###  http://biciaccident.es/ontology#neighborhood
+:neighborhood rdf:type owl:DatatypeProperty ;
+              rdfs:domain [ rdf:type owl:Restriction ;
+                            owl:onProperty :street ;
+                            owl:someValuesFrom :Accident
+                          ] ;
+              rdfs:range xsd:string .
 
-#   http://vocab.datex.org/terms/#injuryStatus
-<http://vocab.datex.org/terms/#injuryStatus> rdf:type owl:DatatypeProperty ;
-           rdfs:domain <http://dbpedia.org/ontology/Person> ;
-            rdfs:range xsd:string .
+
+###  http://biciaccident.es/ontology#weatherCondition
+:weatherCondition rdf:type owl:DatatypeProperty ;
+                  rdfs:domain [ rdf:type owl:Restriction ;
+                                owl:onProperty owl:topObjectProperty ;
+                                owl:someValuesFrom :Accident
+                              ] ;
+                  rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://biciaccident.es/ontology#Accident
+:Accident rdf:type owl:Class ;
+          rdfs:comment "Esto es la clase accident" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
