@@ -1,0 +1,70 @@
+Analisis del Dataset Group03 - Fuentes de Agua Potable en la Comunidad de Madrid.
+
+Análisis de la licencia:
+La licencia de este dataset permite la reutilización de los documentos y datos sometidos a ellas para fines comerciales y no comerciales, entenidendo que la reutilización de los 
+mismos no constituya una actividad administrativa pública. La licencia se encuentra en el siguiente enlace:
+https://datos.madrid.es/egob/catalogo/aviso-legal
+Esta licencia es publicada por el Ayuntamiento de Madrid que además tiene los derechos de autor sobre la misma .
+El conjunto de datos de nuestra aplicación, tampoco tiene fines comerciales y podrán usarse siempre que se nos acredite a nosotros así como a la fuente de datos original. 
+
+Anlaisys de los datos:
+
+Para cada fuente tenemos los siguientes datos:
+
+-Código de Fuente:
+	Type: String, Comments: Hay algunas fuentes con el mismo identificador (28 fuentes), pero en diferentes lugares o distritos. Tampoco hay elementos nulos o vacios.
+
+-Zona Verde/ Via Publica.
+	Type: String, Comments: el String sólo puede tomar dos valores: ZV (Zona verde) o VP (Vía publica). No hay elementos nulos o con error, tampoco vacíos.
+
+-Distrito:
+	Type: String, Comments: Nombre del distrito donde está la fuente, hay muchos valores duplicados. No hay elementos nulos o con error, tampoco vacíos.
+
+-Dirección: 
+	Type: String, Comments: En algunos casos la dirección incluye un numero, y hay bastantes duplicados (829).  No hay elementos nulos o con error, tampoco vacíos.
+
+-Complemento Dirección:
+	Type: String, Comments: En algunos casos la dirección incluye un numero, y hay bastantes duplicados (815). Hay 551 elementos nulos o vacios.
+
+-Coordenada-X :
+	Type: String, Comments: Rango [429544,68641-452246,27961], indican la coordenada-x de la localización hay algún elemento duplicado (16). No hay elementos nulos o con error, tampoco vacíos.
+
+-Coordenada-Y :
+	Type: String, Comments: Rango [4464487,999-4493789,807], indican la coordenada-y de la localización, hay algún elemento duplicado (18). No hay elementos nulos o con error, tampoco vacíos.
+
+-Sistema de coordenadas: 
+	Type: String, Comments: Inidcan el sistemas de coordenadas, en todos los elementos es el mismo: "ETRS89 / UTM Zona 30N". No hay elementos nulos o con error, tampoco vacíos.
+
+-Estado: 
+	Type: String, Comments: Indican el estado del servicio, puede tomar los valores: "EN SERVICIO" o "FUERA DE SERVICIO" (112). No hay elementos nulos o con error, tampoco vacíos.
+
+-Observaciones: 
+	Type: String, Comments: Insica si hay algun dato relevante que añadir que no esté incluido en los campos del dataser, la mayoría tienen este campo vacío/null, y puede tener
+	los valores encontrados son: "DEFICIENCIA ESTRUCTURAL", "NO APTA CONSUMO" y "VANDALISMO REITERADO". No hay elementos con error.
+-Fecha datos: 
+	Type: String, Comments: Indica la fecha de recogida de los datos, es igual en todos los elementos y toma el valor "1-ago.-19". No hay elementos nulos o con error, tampoco vacíos.
+
+-Longitud: 
+	Type: String, Comments: Rango [(-3.5627446)-(-3.8311625)], indican la longitud (coordenadas) del elemento.Hay 22 elementos duplicados y dos elementos con una longitud erronea ("Error").
+	No hay elementos nulos o vacíos.
+
+-Latitud
+	Type: String, Comments: Rango [(40.3290435)-(40.5926999)], indican la latitud (coordenadas) del elemento.Hay 20 elementos duplicados y dos elementos con una longitud erronea ("Error").
+	No hay elementos nulos o vacíos.
+
+Resource Name Strategy: 
+
+	El dominio será: 
+ 	http://waterCH.es/Group03/ .
+
+ 	Para definir el path de los individuos se utilizará:
+ 	http://waterCH.es/Group03/resource
+
+ 	Para definir los terminos de la ontlología se usará: 
+	http://waterCH.es/Group03/ontology# 
+
+	Para definir el patrón de los individuos se utilizará:
+ 	http://waterCH.es/Group03/resource_name
+
+ 	Para definir el patrón de los terminos de la ontlología se usará: 
+	http://waterCH.es/Group03/ontology#term_name 
