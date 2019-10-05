@@ -12,52 +12,52 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/grupo07/ontologies#hasLocation
-:hasLocation rdf:type owl:ObjectProperty ;
-             rdfs:domain :Park ;
-             rdfs:range <https://schema.org/GeoCoordinates> .
+###  http://www.semanticweb.org/grupo07/ontologies/property#hasLocation
+<http://www.semanticweb.org/grupo07/ontologies/property#hasLocation> rdf:type owl:ObjectProperty ;
+                                                                     rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
+                                                                     rdfs:range <https://schema.org/GeoCoordinates> .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/grupo07/ontologies#description
-:description rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Park ;
-             rdfs:range xsd:string .
+###  http://www.semanticweb.org/grupo07/ontologies/property#description
+<http://www.semanticweb.org/grupo07/ontologies/property#description> rdf:type owl:DatatypeProperty ;
+                                                                     rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
+                                                                     rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/grupo07/ontologies#equipment
-:equipment rdf:type owl:DatatypeProperty ;
-           rdfs:domain :Park ;
-           rdfs:range xsd:string .
+###  http://www.semanticweb.org/grupo07/ontologies/property#equipment
+<http://www.semanticweb.org/grupo07/ontologies/property#equipment> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
+                                                                   rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/grupo07/ontologies#name
-:name rdf:type owl:DatatypeProperty ;
-      rdfs:domain :Park ;
-      rdfs:range xsd:string .
+###  http://www.semanticweb.org/grupo07/ontologies/property#name
+<http://www.semanticweb.org/grupo07/ontologies/property#name> rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
+                                                              rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/grupo07/ontologies#transport
-:transport rdf:type owl:DatatypeProperty ;
-           rdfs:domain :Park ;
-           rdfs:range xsd:string .
+###  http://www.semanticweb.org/grupo07/ontologies/property#transport
+<http://www.semanticweb.org/grupo07/ontologies/property#transport> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
+                                                                   rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/grupo07/ontologies#url
-:url rdf:type owl:DatatypeProperty ;
-     rdfs:domain :Park ;
-     rdfs:range xsd:string .
+###  http://www.semanticweb.org/grupo07/ontologies/property#url
+<http://www.semanticweb.org/grupo07/ontologies/property#url> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
+                                                             rdfs:range xsd:string .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/grupo07/ontologies#Park
-:Park rdf:type owl:Class .
+###  http://www.semanticweb.org/grupo07/ontologies/class#Park
+<http://www.semanticweb.org/grupo07/ontologies/class#Park> rdf:type owl:Class .
 
 
 ###  https://schema.org/GeoCoordinates
