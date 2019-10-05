@@ -1,4 +1,4 @@
-# Hands-on self-assessment
+# Hands-on 1 self-assessment
 - Víctor Nieves: 8
 - Daniel Morgera: 10
 - Andrea Velarde: 10
