@@ -38,12 +38,29 @@
       rdfs:range xsd:dateTime .
 
 
+###  http://biciaccident.es/ontology#expediente
+:expediente rdf:type owl:DatatypeProperty ;
+            rdfs:range xsd:string .
+
+
+###  http://biciaccident.es/ontology#injuryStatus
+:injuryStatus rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:range xsd:string .
+
+
 ###  http://biciaccident.es/ontology#neighborhood
 :neighborhood rdf:type owl:DatatypeProperty ;
               rdfs:domain [ rdf:type owl:Restriction ;
                             owl:onProperty :street ;
                             owl:someValuesFrom :Accident
                           ] ;
+              rdfs:range xsd:string .
+
+
+###  http://biciaccident.es/ontology#typeAccident
+:typeAccident rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
               rdfs:range xsd:string .
 
 
