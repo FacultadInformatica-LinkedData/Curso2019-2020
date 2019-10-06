@@ -92,8 +92,8 @@
 #    Classes
 #################################################################
 
-###  http://group18.org/hands-on/Ontology#Distric
-:Distric rdf:type owl:Class .
+###  http://group18.org/hands-on/Ontology#District
+:District rdf:type owl:Class .
 
 
 ###  http://group18.org/hands-on/Ontology#Event
