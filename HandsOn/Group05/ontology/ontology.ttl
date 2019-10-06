@@ -1,0 +1,235 @@
+@prefix : <http://www.aparcamientospublicomadrid.com/ontology/garajes#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.aparcamientospublicomadrid.com/ontology/garajes#> .
+
+<http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#> rdf:type owl:Ontology .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#Accesibilidad
+:Accesibilidad rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Aparcamientos ;
+               rdfs:range xsd:string .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#CP
+:CP rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Localizacion ;
+    rdfs:range xsd:int .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#dirCompleta
+:dirCompleta rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Localizacion ;
+             rdfs:range xsd:string .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#ClaseVia
+:ClaseVia rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Via ;
+          rdfs:range xsd:string .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#Coordenadas
+:Coordenadas rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Localizacion ;
+             rdfs:range xsd:int .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#DatosExtra
+:DatosExtra rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Aparcamientos ;
+            rdfs:range xsd:string .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#Descripcion
+:Descripción rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Aparcamientos .
+	     rdfs:range xsd:string .
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#Email
+:Email rdf:type owl:DatatypeProperty .
+       rdfs:domain: Aparcamientos .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#Equipamiento
+:Equipamiento rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Aparcamientos ;
+              rdfs:range xsd:string .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#Fax
+:Fax rdf:type owl:DatatypeProperty .
+     rdfs:domain :Aparcamientos .
+     rdfs:range xsd:string .
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#Horario
+:Horario rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Aparcamientos ;
+         rdfs:range xsd:dateTime .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#Latitud
+:Latitud rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Localizacion ;
+         rdfs:range xsd:int .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#Longitud
+:Longitud rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Localizacion ;
+          rdfs:range xsd:int .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#Nombre
+:Nombre rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Aparcamientos ;
+        rdfs:range xsd:string .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#NombreVia
+:NombreVia rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Via ;
+           rdfs:range xsd:string .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#Num
+:Num rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Via ;
+     rdfs:range xsd:int .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#Planta
+:Planta rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Inmueble ;
+        rdfs:range xsd:string .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos##Puerta
+:Puerta rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Inmueble ;
+        rdfs:range xsd:int .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#Telefono
+:Telefono rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Aparcamientos ;
+          rdfs:range xsd:int .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#Tipo
+:Tipo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#TipoNum
+:TipoNum rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Via ;
+         rdfs:range xsd:string .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#Transporte
+:Transporte rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Aparcamientos ;
+            rdfs:range xsd:string .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#URL
+:URL rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Aparcamientos ;
+     rdfs:range xsd:anyURI .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#c_X
+:c_X rdf:type owl:DatatypeProperty ;
+     rdfs:subPropertyOf :Coordenadas ;
+     rdfs:domain :Localizacion ;
+     rdfs:range xsd:int .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos##c_Y
+:c_Y rdf:type owl:DatatypeProperty ;
+     rdfs:subPropertyOf :Coordenadas ;
+     rdfs:domain :Localizacion ;
+     rdfs:range xsd:int .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#gestion
+:gestion rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf :Descripcion ;
+         rdfs:range xsd:string .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#n_Plazas
+:n_Plazas rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf :Descripcion ;
+          rdfs:range xsd:int .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#tarjeta_BonoRed
+:tarjeta_BonoRed rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :Descripcion ;
+                 rdfs:range xsd:boolean .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#tipo_Accesibilidad
+:tipo_Accesibilidad rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf :Descripcion ;
+                    rdfs:range xsd:string .
+
+
+###  http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#titularidad
+:titularidad rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf :Descripcion ;
+             rdfs:range xsd:string .
+
+
+
+#################################################################
+#    Classes & SubClasses
+#################################################################
+
+###  http://www.semanticweb.org/isalcantara/ontologies/2019/9/untitled-ontology-6#Aparcamientos
+:Aparcamientos rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/isalcantara/ontologies/2019/9/untitled-ontology-6#Barrio
+:Barrio rdf:type owl:Class ;
+        rdfs:subClassOf :Localizacion .
+
+
+###  http://www.semanticweb.org/isalcantara/ontologies/2019/9/untitled-ontology-6#Distrito
+:Distrito rdf:type owl:Class ;
+          rdfs:subClassOf :Localizacion .
+
+
+###  http://www.semanticweb.org/isalcantara/ontologies/2019/9/untitled-ontology-6#Inmueble
+:Inmueble rdf:type owl:Class ;
+          rdfs:subClassOf :Localizacion .
+
+
+###  http://www.semanticweb.org/isalcantara/ontologies/2019/9/untitled-ontology-6#Localidad
+:Localidad rdf:type owl:Class ;
+           rdfs:subClassOf :Localizacion .
+
+
+###  http://www.semanticweb.org/isalcantara/ontologies/2019/9/untitled-ontology-6#Localizacion
+:Localizacion rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/isalcantara/ontologies/2019/9/untitled-ontology-6#Provincia
+:Provincia rdf:type owl:Class ;
+           rdfs:subClassOf :Localizacion .
+
+
+###  http://www.semanticweb.org/isalcantara/ontologies/2019/9/untitled-ontology-6#Via
+:Via rdf:type owl:Class ;
+     rdfs:subClassOf :Localizacion .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
