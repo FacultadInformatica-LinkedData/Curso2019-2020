@@ -1,0 +1,126 @@
+
+-Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+PREFIX ex: <http://dbpedia.org/ontology/Politician>
+
+SELECT distinct ?properties WHERE {
+?x rdf:type <http://dbpedia.org/ontology/Politician> .
+?x ?properties ?y.
+} LIMIT 10
+
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://www.w3.org/2002/07/owl#differentFrom
+http://www.w3.org/2000/01/rdf-schema#seeAlso
+http://www.w3.org/2002/07/owl#sameAs
+http://dbpedia.org/ontology/deathPlace
+http://dbpedia.org/property/deathPlace
+http://dbpedia.org/ontology/deathDate
+http://dbpedia.org/ontology/birthPlace
+-------------------------------------------------- 
+
+-Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+
+SELECT distinct ?properties WHERE {
+?x rdf:type <http://dbpedia.org/ontology/Politician> .
+?x ?properties ?y.
+FILTER (?properties != (rdf:type)).
+} LIMIT 10
+
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://www.w3.org/2002/07/owl#differentFrom
+http://www.w3.org/2000/01/rdf-schema#seeAlso
+http://www.w3.org/2002/07/owl#sameAs
+http://dbpedia.org/ontology/deathPlace
+http://dbpedia.org/property/deathPlace
+http://dbpedia.org/ontology/deathDate
+http://dbpedia.org/ontology/birthPlace
+http://dbpedia.org/ontology/birthDate
+-------------------------------------------------- 
+
+-Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+
+SELECT distinct ?values WHERE {
+?x rdf:type <http://dbpedia.org/ontology/Politician> .
+?x ?properties ?values.
+FILTER (?properties != (rdf:type))
+} LIMIT 10
+
+
+"Axel Oxenstierna"@en
+"أكسل أكسنسترنا"@ar
+"Axel Oxenstierna"@de
+"Axel Oxenstierna"@es
+"Axel Oxenstierna"@fr
+"Axel Oxenstierna"@it
+"アクセル・オクセンシェルナ"@ja
+"Axel Oxenstierna"@nl
+"Axel Oxenstierna"@pl
+"Axel Oxenstierna"@pt
+-------------------------------------------------- 
+
+-For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+
+SELECT distinct ?properties ?values WHERE {
+?x rdf:type <http://dbpedia.org/ontology/Politician> .
+?x ?properties ?values.
+FILTER (?properties != (rdf:type)).
+} LIMIT 10
+
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@en
+http://www.w3.org/2000/01/rdf-schema#label	
+"أكسل أكسنسترنا"@ar
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@de
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@es
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@fr
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@it
+http://www.w3.org/2000/01/rdf-schema#label	
+"アクセル・オクセンシェルナ"@ja
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@nl
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@pl
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@pt
+-------------------------------------------------- 
+
+-For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+
+
+SELECT distinct ?properties COUNT(?values) AS ?values WHERE {
+?x rdf:type <http://dbpedia.org/ontology/Politician> .
+?x ?properties ?values.
+FILTER (?properties != (rdf:type))
+} LIMIT 10
+
+http://www.w3.org/2000/01/rdf-schema#label	
+85304
+http://www.w3.org/2000/01/rdf-schema#comment	
+83814
+http://dbpedia.org/ontology/deathDate	
+32983
+http://purl.org/dc/terms/subject	
+333830
+http://xmlns.com/foaf/0.1/surname	
+22623
+http://dbpedia.org/ontology/activeYearsStartDate	
+32648
+http://dbpedia.org/ontology/nationality	
+8202
+http://dbpedia.org/ontology/religion	
+7270
+http://dbpedia.org/property/by	
+9
+http://dbpedia.org/property/honorificSuffix	
+4522
