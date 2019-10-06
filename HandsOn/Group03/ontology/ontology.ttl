@@ -15,6 +15,13 @@
 :isAtLocation rdf:type owl:ObjectProperty ;
                      rdfs:domain :Fountain ;
                      rdfs:range :Location .
+                     
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+rdf:type rdf:type rdfs:Datatype .
 
 #################################################################
 #    Data properties
@@ -57,24 +64,24 @@
 
 ### http://waterCH.es/Group03/Location
 :district  rdf:type owl:DatatypeProperty ;
-					rdfs:domain :Location ;
-					rdfs:range rdfs:Literal .
-					
+                    rdfs:domain :Location ;
+                    rdfs:range rdfs:Literal .
+                    
 ### http://waterCH.es/Group03/Location
 :coordinateX rdf:type owl:DatatypeProperty ;
-					rdfs:domain :Location ;
-					rdfs:range xsd:decimal .
+                    rdfs:domain :Location ;
+                    rdfs:range xsd:decimal .
 
 
-### http://waterCH.es/Group03/Location				
+### http://waterCH.es/Group03/Location              
 :coordinateY rdf:type owl:DatatypeProperty ;
-					rdfs:domain :Location ;
-					rdfs:range xsd:decimal .
+                    rdfs:domain :Location ;
+                    rdfs:range xsd:decimal .
 
-### http://waterCH.es/Group03/Location				
+### http://waterCH.es/Group03/Location              
 :coordinateSystem rdf:type owl:DatatypeProperty ;
-					rdfs:domain :Location ;
-					rdfs:range xsd:string .
+                    rdfs:domain :Location ;
+                    rdfs:range xsd:string .
 
 
 #################################################################
