@@ -9,3 +9,7 @@ USUARIO GITHUB: davidrxix
 
 NOMBRE Y APELLIDOS: John Bradley Valdenebro
 USUARIO GITHUB: johnbradleyvaldenebro
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master
