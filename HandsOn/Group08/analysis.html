@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Set Analysis</title>
+</head>
+<body>
+	<h3>Análisis de los datos</h3>
+	<p>El dataset seleccionado contiene el conjunto de datos necesarios para localizar geográficamente puntos limpio fijos en la Comunidad de madrid. Siguiendo el standard de datos de la
+		web municipal de la comunidad de madrid <a href="www.madrid.es"></a>www.madrid.es</p> el fichero contiene los siguientes campos:
+	<p><ul>
+		<li><b>PK:</b> es un campo clave, dentro de la web municipal, para uso interno.</li>
+		<li><b>NOMBRE:</b> denominación del equipamiento/instalación/organismo/... o entidad a la que se refiera el conjunto de datos.</li>
+		<li><b>HORARIO:</b> de apertura, de actividades, de secretaria, etc. Días y horario de actividad regular. Horarios de periodos excepcionales. Fechas de cierre.</li>
+		<li><b>EQUIPAMIENTO:</b> detalle de espacios internos especializados. Por ej. en Centros Culturales, se relacionan Salas de exposiciones.</li>
+		<li><b>TRANSPORTE:</b> estaciones de metro e indicación de línea; líneas de bus; estaciones de Renfe.</li>
+		<li><b>DESCRIPCIÓN:</b> información adicional. Por ej.: otros equipamientos con los que se comparte la sede física; información de venta de entradas, etc.</li>
+		<li><b>ACCESIBILIDAD:</b> 0 = No accesible, 1 = Accesible, 2 = Instalación parcialmente accesible para personas con movilidad reducida, 3 = Sin información sobre accesibilidad para
+		 personas con movilidad reducida, 4 = Lengua de signos, 5 = Señalización podotáctil, 6 = Bucle de inducción magnético.</li>
+		<li><b>CONTENT-URL:</b>nombre del recurso en Internet, normalmente en la web municipal www.madrid.es para su localización. Se accede a la ficha existente en dicha web.</li>
+		<li><b>NOMBRE-VIA:</b> denominación del via.</li>
+		<li><b>CLASE-VIAL:</b> tipo de vial: calle, avenida, paseo, etc.</li>
+		<li><b>TIPO-NUM:</b> V, S/N, KM.</li>
+		<li><b>NUM:</b> número del equipamiento en el vial. Pueden incluir descriptivos.</li>
+		<li><b>PLANTA:</b> nivel que ocupa en el inmueble</li>
+		<li><b>PUERTA:</b> puerta que ocupa en el inmueble.</li>
+		<li><b>ESCALERAS:</b> escalera de acceso.</li>
+		<li><b>ORIENTACION:</b> Detalles descriptivos de la dirección, si los hubiese. Por ej., “frente a”; “con vuelta a”, “acceso por”, etc.</li>
+		<li><b>LOCALIDAD:</b> Madrid.</li>
+		<li><b>PROVINCIA</b> Madrid.</li>
+		<li><b>BARRIO:</b> denominación del barrio.</li>
+		<li><b>DISTRITO:</b> denominación del distrito.</li>
+		<li><b>COORDENADA-X:</b> coordenada de 6 caracteres sobre plano de la ciudad. Sistema de referencia ETR89.</li>
+		<li><b>COORDENADA-Y:</b> coordenada de 7 caracteres sobre plano de la ciudad. Sistema de referencia ETR89.</li>
+		<li><b>COORDENADA-LATITUD:</b> coordenada latitud en el sistema de referencia WGS84.</li>
+		<li><b>COORDENADA-LONGITUD:</b> coordenada longitud en el sistema de referencia WGS84.</li>
+		<li><b>TELEFONO:</b> teléfonos de contacto.</li>
+		<li><b>FAX:</b> número de fax.</li>
+		<li><b>EMAIL:</b> dirección de correo electrónico, si la tuviese.</li>
+		<li><b>TIPO</b> descripción de la tipología de la instalación. Se encuentra al final de la cadena de texto.</li>
+	</ul>
+	No obstante, todos estos campos serán utilizados para la versión final del a aplicación.
+	</p>
+	<h3>Análisis de la licencia</h3>
+	<p>Al tratarse de un dataset perteneciente a la comunidad de madrid, sus condiciones de uso son: <i>"Las condiciones generales permiten la reutilización de los documentos para fines comerciales y no comerciales. Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Madrid, siempre que dicho uso no constituya una actividad administrativa pública."</i></p>
+	<p>Más concretamente, hablando del uso y reutilización de los datos, la licencia define unas condiciones generales:
+		<ol>
+			<li>Está prohibido desnaturalizar el sentido de la información.</li>
+			<li>Debe citarse la fuente de los documentos objeto de la reutilización. Esta cita podrá realizarse de la siguiente manera: "Origen de los datos: Ayuntamiento de Madrid (o, en su caso, órgano administrativo, organismo o entidad de que se trate)"</li>
+			<li>Debe mencionarse la fecha de la última actualización de los documentos objeto de la reutilización, siempre y cuando estuviera incluida en el documento original.</li>
+			<li>No se podrá indicar, insinuar o sugerir que el Ayuntamiento de Madrid participa, patrocina o apoya la reutilización que se lleve a cabo con la información.</li>
+			<li>Deben conservarse, no alterarse ni suprimirse los metadatos sobre la fecha de actualización y las condiciones de reutilización aplicables incluidos, en su caso, en el documento puesto a disposición para su reutilización.</li>
+			<li>En caso de información anonimizada por protección de datos personales u otros motivos, está expresamente prohibido realizar labores de re-identificación de personas a partir de estos datos y otras fuentes de datos e información posibles, pasadas, actuales o futuras.</li>
+		</ol>
+	</p>
+	<h3>Análisis del recurso</h3>
+	<p>	
+		Dominio a utilizar: http://group08/tupuntolimpio/<br>
+		http://group08/tupuntolimpio#lugar <br>
+		http://group08/tupuntolimpio#relational_property <br>
+	</p>
+</body>
+</html>
