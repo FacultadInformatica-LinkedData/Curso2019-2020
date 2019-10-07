@@ -1,0 +1,59 @@
+@prefix : <http://puntoswifimadrid.com/ontology/puntos> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@base  <http://puntoswifimadrid.com/ontology/puntos> .
+
+<http://puntoswifimadrid.com/ontology/puntos> rdf:type owl:Ontology .
+
+
+#    Classes & SubClasses
+
+
+:Localizacion rdf:type owl:Class .
+
+:Disponibilidad rdf:type owl:Class .
+
+
+#object properties
+
+		
+:isLocated rdf:type owl:ObjectProperty ;
+           rdfs:domain :puntos ;
+           rdfs:range :Localizacion .
+		   
+		   
+:hasAvailability rdf:type owl:ObjectProperty ;
+           rdfs:domain :puntos ;
+           rdfs:range :Disponibilidad .
+		   	   
+
+		   
+#Data properties
+
+:barrio rdf:type owl:DatatypeProperty ;
+			rdfs:domain :Localizacion ;
+			rdfs:range  xsd:string .
+
+:distrito rdf:type owl:DatatypeProperty ;
+			rdfs:domain :Localizacion ;
+			rdfs:range xsd:string .			
+			
+:calle rdf:type owl:DatatypeProperty ;
+			rdfs:domain :Localizacion ;
+			rdfs:range  xsd:string .
+			
+:coordenadaX rdf:type owl:DatatypeProperty ;
+			rdfs:domain :Localizacion ;
+			rdfs:range xsd:integer .
+			
+:coordenadaY rdf:type owl:DatatypeProperty ;
+			rdfs:domain :Localizacion ;
+			rdfs:range xsd:integer .
+			
+:disponibilidadWifi rdf:type owl:DatatypeProperty ;
+			rdfs:domain :Disponibilidad ;
+			rdfs:range  xsd:integer .
+			
