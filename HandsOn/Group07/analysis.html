@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title> Grupo 7, curso 2019-2020</title>
+  <style type="text/css">
+			table {
+				border: 1px solid #bbb;
+				margin-bottom: 1em;
+				width: 100%;
+				border-collapse: collapse;
+			}
+			thead{
+				background-color: aliceblue;
+			}
+			thead tr:hover{
+				background-color: aliceblue !important;
+			}
+			td, th {
+				height: 30px;
+				border: 1px solid 	#e2e2e2;
+				line-height: 1.7;
+				text-align: center;
+			}
+			th {
+				background: #f5f5f5;
+			}
+			tr:hover {
+				transition: background-color 0.5s ease;
+				background: #d8d8d8;
+			}
+			.tdlight{
+				background: #37bb47;
+			}
+			.tdlight:hover{
+				background: #37bb47;
+			}
+			.h1_doc{
+				text-align: center !important;
+				font-size: xx-large;
+			}
+			.asdf{
+				background-color: #f1f1f1;	
+			}
+		</style>
+</head>
+  
+  
+<body>
+<h1> LICENSE </h1>
+  
+	<b> LICENCIA ENLAZADA: <a href="https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default"></a></b>
+    
+	<p> Está prohibido desnaturalizar el sentido de la información.</p>
+	<p> Debe citarse la fuente de los documentos objeto de la reutilización. Esta cita podrá realizarse de la siguiente manera: "Origen de los datos: Ayuntamiento de Madrid (o, en su caso, órgano administrativo, organismo o entidad de que se trate)"</p>
+	<p>Debe mencionarse la fecha de la última actualización de los documentos objeto de la reutilización, siempre y cuando estuviera incluida en el documento original.</p>
+	<p>No se podrá indicar, insinuar o sugerir que el Ayuntamiento de Madrid participa, patrocina o apoya la reutilización que se lleve a cabo con la información.</p>
+	<p>Deben conservarse, no alterarse ni suprimirse los metadatos sobre la fecha de actualización y las condiciones de reutilización aplicables incluidos, en su caso, en el documento puesto a disposición para su reutilización.</p>
+	<p>En caso de información anonimizada por protección de datos personales u otros motivos, está expresamente prohibido realizar labores de re-identificación de personas a partir de estos datos y otras fuentes de datos e información posibles, pasadas, actuales o futuras.</p>
+      
+
+<h1> PARKS AND RECREATION OF MADRID </h1>  
+	<ul>
+		<li><b>CSV: </b>200761-0-parques-jardines.csv</li>
+		<li><b> SOURCE="https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=dc758935dde13410VgnVCM2000000c205a0aRCRD&"</b></li>
+	</ul>  
+	<table>
+		<thead>
+			<tr>
+				<td>Columna</td>
+				<td>Tipo</td>
+				<td>Comentario</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>PK</td>
+				<td>String</td>
+				<td>Código del parque en el que estemos</td>
+			</tr>
+			<tr>
+				<td>NOMBRE</td>
+				<td>String</td>
+				<td>Nombre del parque en el que estemos</td>
+			</tr>
+			<tr>
+				<td>DESCRIPCION-ENTIDAD</td>
+				<td>String</td>
+				<td>Descripción del parque en detalle</td>
+			</tr>
+			<tr>
+				<td>HORARIO</td>
+				<td>String</td>
+				<td>Horario de apertura y clausura. Algunos no tienen horario, otros tienen un campo de texto...</td>
+			</tr>
+			<tr>
+				<td>EQUIPAMIENTO</td>
+				<td>String</td>
+				<td>Equipamiento del que dispone el parque, como zonas infantiles, etc...</td>
+			</tr>
+			<tr>
+				<td>TRANSPORTE</td>
+				<td>String</td>
+				<td>Transportes públicos cercanos</td>
+			</tr>
+			<tr>
+				<td>DESCRIPCIÓN</td>
+				<td>String</td>
+				<td>Encargados del parque y sus cuidados</td>
+			</tr>
+			<tr>
+				<td>ACCESIBILIDAD</td>
+				<td>String</td>
+				<td>Entradas al parque. Puede dar lugar a error</td>
+			</tr>
+			<tr>
+				<td>CONTENT-URL</td>
+				<td>String</td>
+				<td>Página del parque</td>
+			</tr>
+			<tr>
+				<td>NOMBRE VÍA</td>
+				<td>String</td>
+				<td>Calle asociada al parque</td>
+			</tr>
+			<tr>
+				<td>CLASE-VIA</td>
+				<td>String</td>
+				<td>Tipo de vía</td>
+			</tr>
+			<tr>
+				<td>TIPO-NUM</td>
+				<td>String</td>
+				<td>Tipo de número</td>
+			</tr>
+			<tr>
+				<td>NUM</td>
+				<td>Integer</td>
+				<td>Número de calle</td>
+			</tr>
+			<tr>
+				<td>PLANTA</td>
+				<td>String</td>
+				<td>Planta localizada, en blanco</td>
+			</tr>
+			<tr>
+				<td>PUERTA</td>
+				<td>String</td>
+				<td>Puerta en la que está localizado el parque</td>
+			</tr>
+			<tr>
+				<td>ESCALERAS</td>
+				<td>String</td>
+				<td>Escaleras en las que está el parque</td>
+			</tr>
+			<tr>
+				<td>ORIENTACIÓN</td>
+				<td>String</td>
+				<td>Si no tiene una dirección clara</td>
+			</tr>
+			<tr>
+				<td>LOCALIDAD</td>
+				<td>String</td>
+				<td>Madrid porque son parques de Madrid</td>
+			</tr>
+			<tr>
+				<td>PROVINCIA</td>
+				<td>String</td>
+				<td>Madrid porque es la única provincia</td>
+			</tr>
+			<tr>
+				<td>CÓDIGO POSTAL</td>
+				<td>String</td>
+				<td>Código postal de la localidad</td>
+			</tr>
+			<tr>
+				<td>BARRIO</td>
+				<td>String</td>
+				<td>Barrio del parque</td>
+			</tr>
+			<tr>
+				<td>DISTRITO</td>
+				<td>String</td>
+				<td>Distrito del parque</td>
+			</tr>
+			<tr>
+				<td>COORDENADA-X</td>
+				<td>String</td>
+				<td>Coordenada X del parque en el mapa</td>
+			</tr>
+			<tr>
+				<td>COORDENADA-Y</td>
+				<td>String</td>
+				<td>Coordenada Y del parque en el mapa</td>
+			</tr>
+			<tr>
+				<td>LATITUD</td>
+				<td>String</td>
+				<td>Latitud del parque</td>
+			</tr>
+			<tr>
+				<td>LONGITUD</td>
+				<td>String</td>
+				<td>Longitud del mapa</td>
+			</tr>
+			<tr>
+				<td>TElÉFONO</td>
+				<td>String</td>
+				<td>Telefono de los encargados del cuidado del parque</td>
+			</tr>
+			<tr>
+				<td>FAX</td>
+				<td>String</td>
+				<td>Fax de los encargados del cuidado del parque</td>
+			</tr>
+			<tr>
+				<td>EMAIL</td>
+				<td>String</td>
+				<td>Correo específico del parque</td>
+			</tr>
+			<tr>
+				<td>TIPO</td>
+				<td>String</td>
+				<td>Subdirección de la clase específica del parque</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	
+	
+<h1> NOMBRADO </h1>
+    <ul>
+		<li><b> DOMAIN </b> http://www.semanticweb.org/grupo07/ </li>
+		<li><b> ONTOLOGICAL TERMS: </b> http://www.semanticweb.org/grupo07/ontologies# </li>
+		<li><b> INDIVIDUAL TERMS: </b>  http://www.semanticweb.org/grupo07/resources/ </li>
+    </ul>
+</body>
+</html>
