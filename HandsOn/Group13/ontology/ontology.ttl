@@ -6,7 +6,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://accidentesBiciMad.es/ontology/BiciAccidents#> .
 
-<http://accidentesBiciMad.es/ontology/BiciAccidents#> rdt:type owl:Ontology .
+<http://accidentesBiciMad.es/ontology/BiciAccidents#> rdf:type owl:Ontology .
 
 #################################################################
 #    Classes & SubClasses
@@ -70,4 +70,4 @@
 #   http://vocab.datex.org/terms/#injuryStatus
 <http://vocab.datex.org/terms/#injuryStatus> rdf:type owl:DatatypeProperty ;
            rdfs:domain <http://dbpedia.org/ontology/Person> ;
-            rdfs:range xsd:string
+            rdfs:range xsd:string .
