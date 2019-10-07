@@ -16,8 +16,13 @@
 
 :Disponibilidad rdf:type owl:Class .
 
+:Contacto rdf:type owl:Class .
 
 #object properties
+
+:hasContact rdf:type owl:ObjectProperty ;
+           rdfs:domain :puntos ;
+           rdfs:range :Contacto .	
 
 		
 :isLocated rdf:type owl:ObjectProperty ;
@@ -56,4 +61,11 @@
 :disponibilidadWifi rdf:type owl:DatatypeProperty ;
 			rdfs:domain :Disponibilidad ;
 			rdfs:range  xsd:integer .
+		
+:telefono rdf:type owl:DatatypeProperty ;
+			rdfs:domain :Contacto ;
+			rdfs:range  xsd:integer .
 			
+:email rdf:type owl:DatatypeProperty ;
+			rdfs:domain :Contacto ;
+			rdfs:range  xsd:string .
