@@ -49,7 +49,7 @@
 ###  http://www.semanticweb.org/grupo07/ontologies/property#url
 <http://www.semanticweb.org/grupo07/ontologies/property#url> rdf:type owl:DatatypeProperty ;
                                                              rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
-                                                             rdfs:range xsd:anyUri .
+                                                             rdfs:range xsd:anyURI .
 
 
 #################################################################
