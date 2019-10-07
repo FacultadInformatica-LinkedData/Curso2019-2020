@@ -2,12 +2,8 @@
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 :Class01 :includes :Sensor029; :includes :Computer101 .
-
 :Sensor029 :hasMeasurement :Measurement8401.
-
 :Measurement8401 :hasTemperature "29"^^<http://www.w3.org/2001/XMLSchema#int> ;
         :atTime "2010-06-12T12:00:12"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
-
 :Computer101 :hasOwner :User10A.
-
 :User10A :hasName "Pedro"^^<http://www.w3.org/2001/XMLSchema#string>.
