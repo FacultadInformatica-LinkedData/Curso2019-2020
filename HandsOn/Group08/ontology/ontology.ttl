@@ -1,0 +1,180 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://group08/tupuntolimpio> a owl:Ontology .
+<http://group08/tupuntolimpio#has_Coordenadax>
+  a owl:ObjectProperty, owl:FunctionalProperty ;
+  rdfs:subPropertyOf <http://group08/tupuntolimpio#relational_property> ;
+  rdfs:domain <http://group08/tupuntolimpio#lugar> ;
+  rdfs:range <http://group08/tupuntolimpio#Cooerdenadax> ;
+  rdfs:label "has_Coordenadax"@en .
+
+<http://group08/tupuntolimpio#has_Coordenaday>
+  a owl:ObjectProperty, owl:FunctionalProperty ;
+  rdfs:subPropertyOf <http://group08/tupuntolimpio#relational_property> ;
+  rdfs:domain <http://group08/tupuntolimpio#lugar> ;
+  rdfs:range <http://group08/tupuntolimpio#coordeaday> ;
+  rdfs:label "has_Coordenaday"@en .
+
+<http://group08/tupuntolimpio#has_Descripcion>
+  a owl:ObjectProperty, owl:FunctionalProperty ;
+  rdfs:subPropertyOf <http://group08/tupuntolimpio#relational_property> ;
+  rdfs:domain <http://group08/tupuntolimpio#lugar> ;
+  rdfs:range <http://group08/tupuntolimpio#descripcion> ;
+  rdfs:label "has_Descripcion"@en .
+
+<http://group08/tupuntolimpio#has_Direccion>
+  a owl:ObjectProperty, owl:FunctionalProperty ;
+  rdfs:subPropertyOf <http://group08/tupuntolimpio#relational_property> ;
+  rdfs:domain <http://group08/tupuntolimpio#lugar> ;
+  rdfs:range <http://group08/tupuntolimpio#direccion> ;
+  rdfs:label "has_Direccion"@en .
+
+<http://group08/tupuntolimpio#has_Fax>
+  a owl:ObjectProperty, owl:FunctionalProperty ;
+  rdfs:subPropertyOf <http://group08/tupuntolimpio#relational_property> ;
+  rdfs:domain <http://group08/tupuntolimpio#lugar> ;
+  rdfs:range <http://group08/tupuntolimpio#Fax> ;
+  rdfs:label "has_Fax"@en .
+
+<http://group08/tupuntolimpio#has_Telefono>
+  a owl:ObjectProperty, owl:FunctionalProperty ;
+  rdfs:subPropertyOf <http://group08/tupuntolimpio#relational_property> ;
+  rdfs:domain <http://group08/tupuntolimpio#lugar> ;
+  rdfs:range <http://group08/tupuntolimpio#telefono> ;
+  rdfs:label "has_Telefono"@en .
+
+<http://group08/tupuntolimpio#has_email>
+  a owl:ObjectProperty, owl:FunctionalProperty ;
+  rdfs:subPropertyOf <http://group08/tupuntolimpio#relational_property> ;
+  rdfs:domain <http://group08/tupuntolimpio#lugar> ;
+  rdfs:range <http://group08/tupuntolimpio#email> ;
+  rdfs:label "has_email"@en .
+
+<http://group08/tupuntolimpio#modifier_property>
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf owl:topObjectProperty ;
+  rdfs:label "modifier_property"@en .
+
+<http://group08/tupuntolimpio#relational_property>
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf owl:topObjectProperty ;
+  rdfs:label "relational_property"@en .
+
+<http://group08/tupuntolimpio#Cooerdenadax>
+  a owl:Class ;
+  rdfs:subClassOf <http://group08/tupuntolimpio#lugar>, [
+    a owl:Restriction ;
+    owl:onProperty <http://group08/tupuntolimpio#has_Coordenaday> ;
+    owl:someValuesFrom <http://group08/tupuntolimpio#Float>
+  ] ;
+  rdfs:label "Coordenadax_lugar"@en .
+
+<http://group08/tupuntolimpio#Domain_entity>
+  a owl:Class ;
+  rdfs:label "Domain_entity"@en .
+
+<http://group08/tupuntolimpio#Fax>
+  a owl:Class ;
+  rdfs:subClassOf <http://group08/tupuntolimpio#lugar>, [
+    a owl:Restriction ;
+    owl:onProperty <http://group08/tupuntolimpio#has_Fax> ;
+    owl:someValuesFrom <http://group08/tupuntolimpio#fax>
+  ] ;
+  rdfs:label "Fax_lugar"@en .
+
+<http://group08/tupuntolimpio#Float>
+  a owl:Class ;
+  rdfs:subClassOf <http://group08/tupuntolimpio#Value> ;
+  rdfs:label "Float"@en .
+
+<http://group08/tupuntolimpio#Independent_entity>
+  a owl:Class ;
+  rdfs:label "Independent_entity"@en .
+
+<http://group08/tupuntolimpio#String>
+  a owl:Class ;
+  rdfs:subClassOf <http://group08/tupuntolimpio#Value> ;
+  rdfs:label "String"@en .
+
+<http://group08/tupuntolimpio#Telefono>
+  a owl:Class ;
+  rdfs:subClassOf <http://group08/tupuntolimpio#Value> ;
+  rdfs:label "Telefono"@en .
+
+<http://group08/tupuntolimpio#Value>
+  a owl:Class ;
+  rdfs:label "Value"@en .
+
+<http://group08/tupuntolimpio#coordeaday>
+  a owl:Class ;
+  rdfs:subClassOf <http://group08/tupuntolimpio#lugar>, [
+    a owl:Restriction ;
+    owl:onProperty <http://group08/tupuntolimpio#has_Coordenaday> ;
+    owl:someValuesFrom <http://group08/tupuntolimpio#Float>
+  ] ;
+  rdfs:label "Coordenaday_lugar"@en .
+
+<http://group08/tupuntolimpio#descripcion>
+  a owl:Class ;
+  rdfs:subClassOf <http://group08/tupuntolimpio#lugar>, [
+    a owl:Restriction ;
+    owl:onProperty <http://group08/tupuntolimpio#has_Descripcion> ;
+    owl:someValuesFrom <http://group08/tupuntolimpio#String>
+  ] ;
+  rdfs:label "Descripcion_lugar"@en .
+
+<http://group08/tupuntolimpio#direccion>
+  a owl:Class ;
+  rdfs:subClassOf <http://group08/tupuntolimpio#lugar>, [
+    a owl:Restriction ;
+    owl:onProperty <http://group08/tupuntolimpio#has_Direccion> ;
+    owl:someValuesFrom <http://group08/tupuntolimpio#String>
+  ] ;
+  rdfs:label "Direccion_lugar"@en .
+
+<http://group08/tupuntolimpio#email>
+  a owl:Class ;
+  rdfs:subClassOf <http://group08/tupuntolimpio#lugar>, [
+    a owl:Restriction ;
+    owl:onProperty <http://group08/tupuntolimpio#has_email> ;
+    owl:someValuesFrom <http://group08/tupuntolimpio#String>
+  ] ;
+  rdfs:label "Email_lugar"@en .
+
+<http://group08/tupuntolimpio#fax>
+  a owl:Class ;
+  rdfs:subClassOf <http://group08/tupuntolimpio#Value> ;
+  rdfs:label "fax"@en .
+
+<http://group08/tupuntolimpio#lugar>
+  a owl:Class ;
+  rdfs:subClassOf <http://group08/tupuntolimpio#Independent_entity> ;
+  rdfs:label "lugar"@en .
+
+<http://group08/tupuntolimpio#telefono>
+  a owl:Class ;
+  rdfs:subClassOf <http://group08/tupuntolimpio#lugar>, [
+    a owl:Restriction ;
+    owl:onProperty <http://group08/tupuntolimpio#has_Telefono> ;
+    owl:someValuesFrom <http://group08/tupuntolimpio#Telefono>
+  ] ;
+  rdfs:label "Telefono_lugar"@en .
+
+[]
+  a owl:AllDisjointClasses ;
+  owl:members (
+   <http://group08/tupuntolimpio#Domain_entity>
+   <http://group08/tupuntolimpio#Independent_entity>
+   <http://group08/tupuntolimpio#Value>
+ ) .
+
+[]
+  a owl:AllDisjointClasses ;
+  owl:members (
+   <http://group08/tupuntolimpio#Float>
+   <http://group08/tupuntolimpio#String>
+   <http://group08/tupuntolimpio#Telefono>
+   <http://group08/tupuntolimpio#fax>
+ ) .
+
