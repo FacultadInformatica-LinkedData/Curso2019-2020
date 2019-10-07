@@ -58,27 +58,27 @@ rdf:type rdf:type rdfs:Datatype .
 ###  http://waterCH.es/Group03/ontology#hasDate
 :hasDate rdf:type owl:DatatypeProperty ;
              rdfs:domain :Fountain ;
-             rdfs:domain xsd:DateTimeDescription .
+             rdfs:range xsd:date .
 
 
 
-### http://waterCH.es/Group03/Location
+###  http://waterCH.es/Group03/ontology#    
 :district  rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Location ;
                     rdfs:range rdfs:Literal .
                     
-### http://waterCH.es/Group03/Location
+### ###  http://waterCH.es/Group03/ontology#coordinateX
 :coordinateX rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Location ;
                     rdfs:range xsd:decimal .
 
 
-### http://waterCH.es/Group03/Location              
+###  http://waterCH.es/Group03/ontology#coordinateY         
 :coordinateY rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Location ;
                     rdfs:range xsd:decimal .
 
-### http://waterCH.es/Group03/Location              
+### http://waterCH.es/Group03/coordinateSystem          
 :coordinateSystem rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Location ;
                     rdfs:range xsd:string .
@@ -88,7 +88,7 @@ rdf:type rdf:type rdfs:Datatype .
 #    Classes
 #################################################################
 
-### http://waterCH.es/Group03/Location
+### http://waterCH.es/Group03/ontology#Location
 :Location rdf:type owl:Class .
 
 
