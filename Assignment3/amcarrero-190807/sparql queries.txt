@@ -1,0 +1,162 @@
+-------------------------------------------------------------------------------
+----Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+>
+select distinct ?properties where {
+?politicians rdf:type <http://dbpedia.org/ontology/Politician> .
+?politicians ?properties ?thing
+} LIMIT 20
+
+Results:
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://es.dbpedia.org/property/dead
+http://es.dbpedia.org/property/enelcargo
+http://es.dbpedia.org/property/equipoDebut
+http://es.dbpedia.org/property/equipoRetiro
+http://es.dbpedia.org/property/fortuna
+http://es.dbpedia.org/property/oponentes
+http://es.dbpedia.org/property/relaciones
+http://es.dbpedia.org/property/retiro
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://www.w3.org/2002/07/owl#sameAs
+http://purl.org/dc/terms/subject
+http://dbpedia.org/ontology/thumbnail
+http://xmlns.com/foaf/0.1/depiction
+http://es.dbpedia.org/property/3data
+http://es.dbpedia.org/property/abreviaturaBot
+http://es.dbpedia.org/property/afiliaciones
+http://es.dbpedia.org/property/almaMater
+
+-------------------------------------------------------------------------------
+----Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+> 
+select distinct ?properties where {
+?politicians rdf:type <http://dbpedia.org/ontology/Politician> .
+?politicians ?properties ?thing .
+FILTER (?properties != rdf:type)
+} LIMIT 20
+
+Results:
+
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://es.dbpedia.org/property/dead
+http://es.dbpedia.org/property/enelcargo
+http://es.dbpedia.org/property/equipoDebut
+http://es.dbpedia.org/property/equipoRetiro
+http://es.dbpedia.org/property/fortuna
+http://es.dbpedia.org/property/oponentes
+http://es.dbpedia.org/property/relaciones
+http://es.dbpedia.org/property/retiro
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://www.w3.org/2002/07/owl#sameAs
+http://purl.org/dc/terms/subject
+http://dbpedia.org/ontology/thumbnail
+http://xmlns.com/foaf/0.1/depiction
+http://es.dbpedia.org/property/3data
+http://es.dbpedia.org/property/abreviaturaBot
+http://es.dbpedia.org/property/afiliaciones
+http://es.dbpedia.org/property/almaMater
+http://es.dbpedia.org/property/almaMáter
+
+-------------------------------------------------------------------------------
+----Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+>
+select distinct ?thing where {
+?politicians rdf:type <http://dbpedia.org/ontology/Politician> .
+?politicians ?properties ?thing .
+FILTER (?properties != rdf:type)
+} LIMIT 20
+
+Results:
+
+"Marcia Alicia Fernández Piña"@es
+"Argentina Rubiera"@es
+"Francisco Pizano de Brigard"@es
+"Gabriel Barceló"@es
+"Gabriel Cruz"@es
+"Guillermo Novara"@es
+"Gustavo Oliva"@es
+"Mario Alberto Dávila Delgado"@es
+"Raquel Barajas"@es
+"Rodrigo Hermosilla Gatica"@es
+"Sergio Sepúlveda Corvalán"@es
+"Albert Botran"@es
+"Antoni Castellà"@es
+"Benet Salellas"@es
+"Clemente Agosto"@es
+"Diego García de García Vilas"@es
+"Gabriela Serra"@es
+"Gian Nicola Berti"@es
+"Ingrid Schemelensky"@es
+"Isabel Muradàs"@es
+
+-------------------------------------------------------------------------------
+----For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+>
+select distinct ?thing ?properties where {
+?politicians rdf:type <http://dbpedia.org/ontology/Politician> .
+?politicians ?properties ?thing .
+FILTER (?properties != rdf:type)
+} LIMIT 20
+
+Results:
+
+"Marcia Alicia Fernández Piña"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Argentina Rubiera"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Francisco Pizano de Brigard"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Gabriel Barceló"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Gabriel Cruz"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Guillermo Novara"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Gustavo Oliva"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Mario Alberto Dávila Delgado"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Raquel Barajas"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Rodrigo Hermosilla Gatica"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Sergio Sepúlveda Corvalán"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Albert Botran"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Antoni Castellà"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Benet Salellas"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Clemente Agosto"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Diego García de García Vilas"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Gabriela Serra"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Gian Nicola Berti"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Ingrid Schemelensky"@es	http://www.w3.org/2000/01/rdf-schema#label
+"Isabel Muradàs"@es	http://www.w3.org/2000/01/rdf-schema#label
+
+-------------------------------------------------------------------------------
+----For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+
+>
+select distinct ?properties count(distinct ?thing) as ?count where {
+?politicians rdf:type <http://dbpedia.org/ontology/Politician> .
+?politicians ?properties ?thing .
+FILTER (?properties != rdf:type)
+} LIMIT 20
+
+Results:
+
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf			21036
+http://es.dbpedia.org/property/description			2
+http://es.dbpedia.org/property/cadena				2
+http://es.dbpedia.org/property/dimensiones			1
+http://www.w3.org/2002/07/owl#sameAs				101862
+http://es.dbpedia.org/property/sitio				3
+http://es.dbpedia.org/property/partidopolítico			1
+http://es.dbpedia.org/property/hijo				4
+http://es.dbpedia.org/property/piedeimagen			6
+http://es.dbpedia.org/property/diputadaFederalLxiiiLegislatura	1
+http://es.dbpedia.org/property/abortos				1
+http://es.dbpedia.org/property/cédulaDeCiudadanía		1
+http://es.dbpedia.org/property/secretarioGeneral		1
+http://es.dbpedia.org/property/audio				1
+http://es.dbpedia.org/property/abortado				1
+http://es.dbpedia.org/property/asin				1
+http://es.dbpedia.org/property/antes				1
+http://es.dbpedia.org/property/conexiones			3
+http://es.dbpedia.org/property/d				2
