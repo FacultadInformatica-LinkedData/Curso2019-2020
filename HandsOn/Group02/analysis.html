@@ -1,0 +1,114 @@
+<html>
+<head>
+ 	<meta charset="UTF-8">
+ 	<title>applicationRequirements</title>
+ </head>
+
+ <body>
+ <h1>BiciMAD. Bases del servicio público de bicicleta eléctrica de la ciudad de Madrid</h1>
+ <p class="p1">El Dataset “BiciMAD” se compone por un total de 156 instancias,<span class="Apple-converted-space">  </span>cada una de ellas correspondiente a un punto de recogida de bicicletas de la ciudad de Madrid. Para cada instancia se dispone de un total de 13 atributos, a saber:</p>
+ <table style="width:100%;text-align: center;border: 1px solid black;">
+   <tr >
+     <th>Nombre</th>
+     <th>Tipo</th>
+     <th>Ejemplo</th>
+     <th>Descripcion</th>
+   </tr>
+   <tr>
+     <td>Numero</td>
+     <td>Id</td>
+     <td>001a</td>
+     <td>Identificador de la bicicleta</td>
+   </tr>
+   <tr>
+     <td>Gis_X</td>
+     <td>Coordinante</td>
+     <td>440394,55</td>
+     <td>Coordenada X de la parada de bicicletas</td>
+   </tr>
+   <tr>
+     <td>Gis_Y</td>
+     <td>Coordinante</td>
+     <td>4474280,53</td>
+     <td>Coordenada Y de la parada de bicicletas</td>
+   </tr>
+   <tr>
+     <td>Fecha de Alta</td>
+     <td>String</td>
+     <td>23-06-14</td>
+     <td>Fecha de Alta del servicio de la bicicleta</td>
+   </tr>
+   <tr>
+     <td>Distrito</td>
+     <td>String</td>
+     <td>01  CENTRO</td>
+     <td>Distrito donde se encuentra la parada de bicicletas</td>
+   </tr>
+   <tr>
+     <td>Barrio</td>
+     <td>String</td>
+     <td>01-06 SOL</td>
+     <td>Barrio donde se encuentra la parada de bicicletas</td>
+   </tr>
+   <tr>
+     <td>Calle</td>
+     <td>String</td>
+     <td>PUERTA DEL SOL, PLAZA, DE LA</td>
+     <td>Calle donde se encuentra la parada de bicicletas</td>
+   </tr>
+   <tr>
+     <td>Nº Finca</td>
+     <td>String</td>
+     <td>1 B</td>
+     <td>Finca donde se encuentra la parada de bicicletas</td>
+   </tr>
+   <tr>
+     <td>Tipo de Reserva</td>
+     <td>String</td>
+     <td>BiciMAD</td>
+     <td>Tipo de reserva para la bicicleta</td>
+   </tr>
+   <tr>
+     <td>Número de Plazas</td>
+     <td>Integer</td>
+     <td>24</td>
+     <td>Numero de bicicletas en el punto de recogida</td>
+   </tr>
+   <tr>
+     <td>Longitud</td>
+     <td>Integer</td>
+     <td>-3.7025753</td>
+     <td>Longitud geografica del punto donde se encuentran las bicicletas</td>
+   </tr>
+   <tr>
+     <td>Latitud</td>
+     <td>Integer</td>
+     <td>40.417016</td>
+     <td>Latitud geografica del punto donde se encuentran las bicicletas</td>
+   </tr>
+   <tr>
+     <td>Direccion</td>
+     <td>String</td>
+     <td>PUERTA DEL SOL, PLAZA, DE LA, 1 B</td>
+     <td>Direccion del punto donde se encuentran las bicicletas</td>
+   </tr>
+ </table>
+ <h3> Tras el análisis no necesitamos más datos del csv para satisfacer los requisitos de la aplicación </h3>
+
+ <h3>Análisis de la licencia de los datos, condiciones de Uso:</h3>
+ <p>
+   Las condiciones generales permiten la reutilización de los documentos para fines comerciales y no comerciales. Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Madrid, siempre que dicho uso no constituya una actividad administrativa pública.
+   Licencia:
+  	https://datos.madrid.es/egob/catalogo/aviso-legal
+ </p>
+ <h2> Definición de la estrategia de nombrado </h2>
+     <ul>
+       <li><b> Domain: </b>http://www.biciMAD.es </li>
+       <li><b> Ontological terms path:</b>http://www.biciMAD.es/ontology/BikeStation </li>
+       <li><b> Individuals path: </b>http://www.biciMAD.es/resource</li>
+       <li><b> Ontological terms pattern: </b>http://www.biciMAD.es/ontology/BikeStation#term</li>
+       <li><b> Individual pattern: </b>http://www.biciMAD.es/resource/type/name</li>
+     </ul>
+ </body>
+
+</html>

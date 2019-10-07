@@ -1,0 +1,186 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>analysis</title>
+  </head>
+  <body>
+    <h3>Data set analysis</h3>
+    <table>
+      <tr>
+        <td style="font-weight:bold;">Data</td>
+        <td style="font-weight:bold;">Type</td>
+        <td style="font-weight:bold;">Range</td>
+        <td style="font-weight:bold;">Description</td>
+		<td style="font-weight:bold;">Problems</td>
+      </tr>
+      <tr>
+        <td>ID-EVENTO</td>
+        <td>Integer</td>
+		<td>[0-9]</td>
+		<td>Event ID</td>
+		<td></td>
+      </tr>
+      <tr>
+        <td>TITULO</td>
+		<td>String</td>
+		<td>[a-z][A-Z][0-9]</td>
+		<td>Event name</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>PRECIO</td>
+		<td>String</td>
+		<td>[a-z][A-Z][0-9]</td>
+		<td>Price of admitance</td>
+		<td>No data for many columns. Not a uniform format.</td>
+      </tr>
+	  <tr>
+        <td>GRATUITO</td>
+		<td>Boolean</td>
+		<td>[0-1]</td>
+		<td>Indicates whether the event is free to attend</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>LARGA-DURACION</td>
+		<td>Boolean</td>
+		<td>[0-1]</td>
+		<td>Indicates whether the event lasts more than a day</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>DIAS-SEMANA</td>
+		<td>String</td>
+		<td>[L,M,X,J,V,S,D]</td>
+		<td>Indicates which days of the week the event is attendable</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>DIAS-EXCLUIDOS</td>
+		<td>Date</td>
+		<td>[dd-MM-YYYY]</td>
+		<td>Indicates which days of the week the event is closed</td>
+		<td>Format is different to other columns</td>
+      </tr>
+	  <tr>
+        <td>FECHA</td>
+		<td>DateTime</td>
+		<td>[YYYY-MM-dd HH:mm:ss.s]</td>
+		<td>Start date of the event</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>FECHA-FIN</td>
+		<td>DateTime</td>
+		<td>[YYYY-MM-dd HH:mm:ss.s]</td>
+		<td>End date of the event</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>HORA</td>
+		<td>Time</td>
+		<td>[HH:mm]</td>
+		<td>Start time of the event</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>DESCRIPCION</td>
+		<td>String</td>
+		<td>[a-z][A-Z][0-9]</td>
+		<td>Summary of the event</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>CONTENT-URL</td>
+		<td>String</td>
+		<td>[a-z][A-Z][0-9][/:.-?=%@#]</td>
+		<td>Web page for the contents of the activity</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>TITULO-ACTIVIDAD</td>
+		<td>String</td>
+		<td>[a-z][A-Z][0-9]</td>
+		<td>Title for the activity</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>URL-ACTIVIDAD</td>
+		<td>String</td>
+		<td>[a-z][A-Z][0-9][/:.-?=%@#]</td>
+		<td>Web page of the activity</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>URL-INSTALACION</td>
+		<td>String</td>
+		<td>[a-z][A-Z][0-9][/:.-?=%@#]</td>
+		<td>Web page of the venue</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>NOMBRE-INSTALACION</td>
+		<td>String</td>
+		<td>[a-z][A-Z][0-9]</td>
+		<td>Name of the venue</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>COORDENADA-X</td>
+		<td>Integer</td>
+		<td>[0-9]</td>
+		<td>ED50 X-coordinate on the city map</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>COORDENADA-Y</td>
+		<td>Integer</td>
+		<td>[0-9]</td>
+		<td>ED50 Y-coordinate on the city map</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>LATITUD</td>
+		<td>Double</td>
+		<td>[0-9]</td>
+		<td>Latitude on WGS84 system</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>LONGITUD</td>
+		<td>Double</td>
+		<td>[0-9]</td>
+		<td>Longitude on WGS84 system</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>DISTRITO</td>
+		<td>String</td>
+		<td>[a-z][A-Z][-]</td>
+		<td>District name</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>TIPO</td>
+		<td>String</td>
+		<td>[a-z][A-Z][/]</td>
+		<td>Event type</td>
+		<td></td>
+      </tr>
+	  <tr>
+        <td>AUDIENCIA</td>
+		<td>String</td>
+		<td>[a-z][A-Z][/,]</td>
+		<td>Target audience</td>
+		<td></td>
+      </tr>    
+    </table>
+    <h3>Licensing</h3>
+    <p>Publisher: Ayuntamiento of Madrid.</p>
+    <p>License: Datos abiertos del ayuntamiento de Madrid. Documents may be used for commercial and non commercial purposes.</p>
+    <h3>Resource Naming</h3>
+    <p>Domain: http://group18.org/hands-on/</p>
+    <p>Ontological terms: http://group18.org/hands-on#ontology</p>
+    <p>Individuals pattern: http://group18.org/hands-on/individual-pattern</p>
+  </body>
+</html>
