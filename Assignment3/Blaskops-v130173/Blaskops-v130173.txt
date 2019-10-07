@@ -1,0 +1,56 @@
+Alejandro Blasco Prieto v130173 Blaskops
+
+1. Get all the properties that can be applied to instances of the Politician class
+
+PREFIX ns: <http://dbpedia.org/ontology/>
+
+select distinct ?property where {
+         ?subject a ns:Politician . 
+         ?subject ?property ?object . }
+limit 10
+
+
+2. Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+PREFIX ns: <http://dbpedia.org/ontology/>
+
+select distinct ?property where {
+         ?subject a ns:Politician . 
+         ?subject ?property ?object . 
+         FILTER (?property != rdf:type) . 
+}
+limit 10
+
+
+3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+PREFIX ns: <http://dbpedia.org/ontology/>
+
+select distinct ?property ?object where {
+         ?subject a ns:Politician . 
+         ?subject ?property ?object .
+         FILTER (?property != rdf:type) . 
+}
+limit 10
+
+
+4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+PREFIX ns: <http://dbpedia.org/ontology/>
+
+select distinct ?object where {
+         ?subject a ns:Politician . 
+         ?subject ?property ?object .
+         FILTER (?property != rdf:type) .
+}
+group by ?property
+
+5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+
+PREFIX ns: <http://dbpedia.org/ontology/>
+select distinct ?property (count(distinct ?object) as ?count) where {
+         ?subject a ns:Politician . 
+         ?subject ?property ?object .
+         FILTER (?property != rdf:type) .
+}
+group by ?property
