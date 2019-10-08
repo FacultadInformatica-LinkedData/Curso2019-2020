@@ -1,0 +1,96 @@
+@prefix : <http://waterCH.es/Group03/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://waterCH.es/Group03/ontology#> .
+
+<http://waterCH.es/Group03/ontology#>  rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+###  http://waterCH.es/Group03/isAtLocation
+:isAtLocation rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Fountain ;
+                     rdfs:range :Location .
+                     
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+rdf:type rdf:type rdfs:Datatype .
+
+#################################################################
+#    Data properties
+#################################################################
+###  http://waterCH.es/Group03/isLocated
+:isLocated rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Fountain ;
+                    rdfs:range xsd:boolean .
+
+
+###  http://waterCH.es/Group03/ontology#hasCode
+:hasCode rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Fountain ;
+             rdfs:range xsd:string .
+
+
+###  http://waterCH.es/Group03/ontology#typeZone
+:typeZone rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Fountain ;
+             rdfs:range xsd:string .
+
+
+###  http://waterCH.es/Group03/ontology#inService
+:inService rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Fountain ;
+             rdfs:range xsd:boolean .
+
+
+###  http://waterCH.es/Group03/ontology#hasObservations
+:hasObservations rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Fountain ;
+             rdfs:range xsd:string .
+
+###  http://waterCH.es/Group03/ontology#hasDate
+:hasDate rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Fountain ;
+             rdfs:domain xsd:DateTimeDescription .
+
+
+
+### http://waterCH.es/Group03/Location
+:district  rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Location ;
+                    rdfs:range rdfs:Literal .
+                    
+### http://waterCH.es/Group03/Location
+:coordinateX rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Location ;
+                    rdfs:range xsd:decimal .
+
+
+### http://waterCH.es/Group03/Location              
+:coordinateY rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Location ;
+                    rdfs:range xsd:decimal .
+
+### http://waterCH.es/Group03/Location              
+:coordinateSystem rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Location ;
+                    rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+### http://waterCH.es/Group03/Location
+:Location rdf:type owl:Class .
+
+
+###  http://waterCH.es/Group03/ontology#Fountain
+:Fountain rdf:type owl:Class .

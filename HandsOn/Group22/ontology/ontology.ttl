@@ -1,0 +1,213 @@
+@prefix : < www.medicalCentersMadrid.org/Group22/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base < www.medicalCentersMadrid.org/Group22/> .
+
+< www.medicalCentersMadrid.org/Group22/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###   www.medicalCentersMadrid.org/Group22/#hasCity
+< www.medicalCentersMadrid.org/Group22/#hasCity> rdf:type owl:ObjectProperty .
+
+
+###   www.medicalCentersMadrid.org/Group22/#hasDescriptionTansport
+< www.medicalCentersMadrid.org/Group22/#hasDescriptionTansport> rdf:type owl:ObjectProperty ;
+                                                                            rdfs:subPropertyOf < www.medicalCentersMadrid.org/Group22/#hasTransport> ;
+                                                                            rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> .
+
+
+###   www.medicalCentersMadrid.org/Group22/#hasDistrict
+< www.medicalCentersMadrid.org/Group22/#hasDistrict> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:subPropertyOf < www.medicalCentersMadrid.org/Group22/#hasCity> ;
+                                                                 rdfs:domain < www.medicalCentersMadrid.org/Group22/#City> .
+
+
+###   www.medicalCentersMadrid.org/Group22/#hasEquipment
+< www.medicalCentersMadrid.org/Group22/#hasEquipment> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf < www.medicalCentersMadrid.org/Group22/#hasName> ;
+                                                                  rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> .
+
+
+###   www.medicalCentersMadrid.org/Group22/#hasName
+< www.medicalCentersMadrid.org/Group22/#hasName> rdf:type owl:ObjectProperty ;
+                                                             rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> .
+
+
+###   www.medicalCentersMadrid.org/Group22/#hasNeighbourhood
+< www.medicalCentersMadrid.org/Group22/#hasNeighbourhood> rdf:type owl:ObjectProperty ;
+                                                                      rdfs:subPropertyOf < www.medicalCentersMadrid.org/Group22/#hasDistrict> ;
+                                                                      rdfs:domain < www.medicalCentersMadrid.org/Group22/#City> .
+
+
+###   www.medicalCentersMadrid.org/Group22/#hasTransport
+< www.medicalCentersMadrid.org/Group22/#hasTransport> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf < www.medicalCentersMadrid.org/Group22/#hasCity> ;
+                                                                  rdfs:domain < www.medicalCentersMadrid.org/Group22/#City> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###   www.medicalCentersMadrid.org/Group22/hasAccesibility
+:hasAccesibility rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :hasPk ;
+                 rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasContent-url
+:hasContent-url rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf :hasPk ;
+                rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasCoordinateX
+:hasCoordinateX rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf :hasPk ;
+                rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> ;
+                rdfs:range rdfs:Literal .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasCoordinateY
+:hasCoordinateY rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf :hasPk ;
+                rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> ;
+                rdfs:range rdfs:Literal .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasDescriptionEntity
+:hasDescriptionEntity rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf :hasPk ;
+                      rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasDoor
+:hasDoor rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf :hasViaName ;
+         rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> ;
+         rdfs:range xsd:integer .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasEmail
+:hasEmail rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf :hasPk ;
+          rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasFax
+:hasFax rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf :hasPk ;
+        rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> ;
+        rdfs:range rdfs:Literal .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasFloor
+:hasFloor rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf :hasViaName ;
+          rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> ;
+          rdfs:range xsd:integer .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasLatitude
+:hasLatitude rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf :hasPk ;
+             rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> ;
+             rdfs:range rdfs:Literal .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasLongitude
+:hasLongitude rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf :hasPk ;
+              rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> ;
+              rdfs:range rdfs:Literal .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasNumType
+:hasNumType rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf :hasPk ;
+            rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> ;
+            rdfs:range rdfs:Literal .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasNumber
+:hasNumber rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf :hasViaName ;
+           rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> ;
+           rdfs:range xsd:integer .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasOrientation
+:hasOrientation rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf :hasViaName ;
+                rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasPk
+:hasPk rdf:type owl:DatatypeProperty ;
+       rdfs:subPropertyOf owl:topDataProperty ;
+       rdfs:domain < www.medicalCentersMadrid.org/Group22/#PrimaryKey> .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasPostalCode
+:hasPostalCode rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf :hasPk ;
+               rdfs:domain < www.medicalCentersMadrid.org/Group22/#City> ;
+               rdfs:range xsd:integer .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasSchedule
+:hasSchedule rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf :hasPk ;
+             rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> ;
+             rdfs:range xsd:string .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasTelephone
+:hasTelephone rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf :hasPk ;
+              rdfs:domain < www.medicalCentersMadrid.org/Group22/#Name> ;
+              rdfs:range xsd:string .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasViaClass
+:hasViaClass rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf :hasPk ;
+             rdfs:domain < www.medicalCentersMadrid.org/Group22/#City> .
+
+
+###   www.medicalCentersMadrid.org/Group22/hasViaName
+:hasViaName rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf :hasPk ;
+            rdfs:domain < www.medicalCentersMadrid.org/Group22/#City> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###   www.medicalCentersMadrid.org/Group22/#City
+< www.medicalCentersMadrid.org/Group22/#City> rdf:type owl:Class ;
+                                                          rdfs:subClassOf < www.medicalCentersMadrid.org/Group22/#MedicalCenter> .
+
+
+###   www.medicalCentersMadrid.org/Group22/#MedicalCenter
+< www.medicalCentersMadrid.org/Group22/#MedicalCenter> rdf:type owl:Class .
+
+
+###   www.medicalCentersMadrid.org/Group22/#Name
+< www.medicalCentersMadrid.org/Group22/#Name> rdf:type owl:Class ;
+                                                          rdfs:subClassOf < www.medicalCentersMadrid.org/Group22/#MedicalCenter> .
+
+
+###   www.medicalCentersMadrid.org/Group22/#PrimaryKey
+< www.medicalCentersMadrid.org/Group22/#PrimaryKey> rdf:type owl:Class ;
+                                                                rdfs:subClassOf < www.medicalCentersMadrid.org/Group22/#MedicalCenter> .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
