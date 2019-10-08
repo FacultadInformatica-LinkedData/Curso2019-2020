@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.ontogrid.net/jguijarro97-JorgeGuijarro#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@base : <http://www.ontogrid.net/jguijarro97-JorgeGuijarro#> .
+
+:Class01 :includes :Sensor029; :includes :Computer101.
+:Sensor029 :hasMeasurement :Measurement8401.
+:Measurement8401 :hasTemperature "29"^^xsd:integer; :atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+:Computer101 :hasOwner :Usera10A.
+:User10A :hasName "Pedro"^^xsd:string.

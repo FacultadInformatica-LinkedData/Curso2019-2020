@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>analysis</title>
+</head>
+
+<body>
+<h1>
+ CSV 1 -> Informacion estaciones de la red de calidad del aire de Madrid (localización de las estaciones)
+</h1>
+<table style="width:100%;text-align: center;border: 1px solid black;">
+  <tr >
+    <th>Nombre</th>
+    <th>Tipo</th> 
+    <th>Rango</th>
+    <th>Ejemplo</th>
+    <th>Ejemplo tras limpiar</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>CODIGO</td>
+    <td>Integer</td>
+    <td>28079004 a 28079060</td>
+    <td>28079004</td>
+    <td>28079004</td>
+    <td>Identificador de la estación</td>
+  </tr>
+  <tr>
+    <td>COD_CORTO</td>
+    <td>Integer</td> 
+    <td>4 - 60</td>
+    <td>4</td>
+    <td>4</td>
+    <td>Identificador abreviado de la estación</td>
+  </tr>
+  <tr>
+    <td>ESTACION</td>
+    <td>String</td> 
+    <td>N/A</td>
+    <td>Pza. de España </td>
+    <td>Pza. de España</td>
+    <td>Nombre de la estación</td>
+  </tr>
+  <tr>
+    <td>DIRECCION</td>
+    <td>String</td> 
+    <td>N/A</td>
+    <td>Entre C/ Alcalá y C/ O’ Donell</td>
+    <td>Entre C/ Alcalá y C/ O’ Donell</td>
+    <td>Situación física de la estación</td>
+  </tr>
+  <tr>
+    <td>LONGITUD_ETRS89</td>
+    <td>Coordinate</td> 
+    <td>N/A</td>
+    <td>3°42'43.91"O"</td>
+    <td>3°42'43.91"O"</td>
+    <td>Coordenada Y de la estacion (Grados Minutos Segundos PuntoCardinal)</td>
+  </tr>
+  <tr>
+    <td>LATITUD_ETRS89</td>
+    <td>Coordinate</td> 
+    <td>N/A</td>
+    <td>40°25'25.98"N"</td>
+    <td>40°25'25.98"N"</td>
+    <td>Coordenada X de la estacion (Grados Minutos Segundos PuntoCardinal)</td>
+  </tr>
+</table>
+<h3> Tras el análisis no necesitamos más datos de este csv para satisfacer los requisitos de la aplicación </h3>
+<h1>
+ CSV 2 -> Datos estaciones de la red de calidad del aire de Madrid (datos medición de las estaciones)
+</h1>
+<table style="width:100%;text-align: center;border: 1px solid black;">
+  <tr >
+    <th>Nombre</th>
+    <th>Tipo</th> 
+    <th>Rango</th>
+    <th>Ejemplo</th>
+    <th>Ejemplo tras limpiar</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>PROVINCIA</td>
+    <td>Integer</td>
+    <td>28 a 28</td>
+    <td>28</td>
+    <td>28</td>
+    <td>Número de provincia (28 se corresponde con Madrid)</td>
+  </tr>
+  <tr>
+    <td>MUNICIPIO</td>
+    <td>Integer</td> 
+    <td>079 a 079</td>
+    <td>079</td>
+    <td>079</td>
+    <td>Número de municipio (079 se corresponde con Ciudad de Madrid)</td>
+  </tr>
+  <tr>
+    <td>MEDICION</td>
+    <td>String</td> 
+    <td>N/A</td>
+    <td>28079004_1_38</td>
+    <td>28079004_1_38</td>
+    <td>Identificador de la estación_magnitudMedicion_tipoMedido</td>
+  </tr>
+  <tr>
+    <td>ANIO</td>
+    <td>Integer</td> 
+    <td>2019 a 2019</td>
+    <td>2019</td>
+    <td>2019</td>
+    <td>Año de la medición</td>
+  </tr>
+   <tr>
+    <td>MES</td>
+    <td>Integer</td> 
+    <td>10 a 10</td>
+    <td>10</td>
+    <td>10</td>
+    <td>Mes de la medición</td>
+  </tr>
+  <tr>
+    <td>DIA</td>
+    <td>Integer</td> 
+    <td>02</td>
+    <td>02</td>
+    <td>02</td>
+    <td>Dia de la medición</td>
+  </tr>
+  <tr>
+    <td>HXX</td>
+    <td>Decimal</td> 
+    <td>0 a 94.47</td>
+    <td>00006</td>
+    <td>00006</td>
+    <td>Datos de la medición expresados en µg/m^3(H01 se corresponde con la medición a la 1 de la mañana, H02 con la medicion a las 2 de la mañana...)</td>
+  </tr>
+</table>
+<h3>Análisis de la licencia de los datos</h3>
+<p>
+  Las condiciones generales permiten la reutilización de los documentos para fines comerciales y no comerciales. Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Madrid, siempre que dicho uso no constituya una actividad administrativa pública.
+</p>
+<h2> Definición de la estrategia de nombrado </h2>
+    <ul>
+      <li><b> Domain: </b>http://www.airQualityMadrid.com </li>
+      <li><b> Ontological terms path:</b>http://www.airQualityMadrid.com/ontology/AirPollution# </li>
+      <li><b> Individuals path: </b>http://www.airQualityMadrid.com/resource/ </li>
+      <li><b> Ontological terms pattern: </b>http://www.airQualityMadrid.com/ontology/AirPollution#term </li>
+      <li><b> Individual pattern: </b>http://www.airQualityMadrid.com/resources/resource_type/resource_name </li>
+    </ul>
+</body>
+
+</html>

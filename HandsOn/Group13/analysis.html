@@ -1,0 +1,192 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta name="theme-color" content="#fafafa">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <style>
+        div {
+            margin: 70px;
+            border: 1px solid #af3f02;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Análisis de los datos</h4>
+        <p>
+            Nuestros datos no tienen registros repetidos, por lo que tenemos el mismo número de rows que de records
+            (565). Además la columna de de tipo de vehículo sería innecesaria porque siempre tiene en su celda
+            "Bicicleta".
+            La <a
+            href="https://datos.madrid.es/FWProjects/egob/Catalogo/Seguridad/Ficheros/Estructura_DS_Accidentes_Bicicletas_desde_2019.pdf">documentación</a> es necesaria para la comprensión total de los datos.
+            El análisis de los datos se encuentra en la siguiente tabla:
+        </p>
+
+        <table>
+
+            <tr>
+                <th>*CAMPO*</th>
+                <th>*DATATYPE*</th>
+                <th>*COMENTARIO*</th>
+            </tr>
+            <tr>
+                <th>Nº EXPEDIENTE</th>
+                <th>TEXT</th>
+                <th>
+                    Código del accidente. Los registros que tienen el mismo número de parte corresponden se trata del mismo accidente donde hay varios afectados. </th>
+            </tr>
+            <tr>
+                <th>FECHA</th>
+                <th>TEXT</th>
+                <th>Fecha en formato dd/mm/aaaa</th>
+            </tr>
+            <tr>
+                <th>HORA</th>
+                <th>TEXT</th>
+                <th>La hora se establece en rangos horarios de 1 hora</th>
+            </tr>
+            <tr>
+                <th>CALLE</th>
+                <th>TEXT</th>
+                <th>
+                    calle 1 ‐ calle 2 (cruce) o una calle<br>
+                    Como se puede ver, hay algunos casos que son cruces y aparecen dos calles separadas con un "/"
+                </th>
+            </tr>
+            <tr>
+                <th>NÚMERO</th>
+                <th>TEXT</th>
+                <th>Número de la calle, cuando tiene sentido<br>
+                    Como dice, el número puede no aparecer, apareciendo en su lugar un "-"
+                </th>
+            </tr>
+            <tr>
+                <th>DISTRITO</th>
+                <th>TEXT</th>
+                <th>Nombre del distrito</th>
+            </tr>
+            <tr>
+                <th>TIPO ACCIDENTE</th>
+                <th>TEXT</th>
+                <th>
+                    Tipo de accidente descrito en la documentación del dataset. Hay 8 tipos de accidentes.
+                </th>
+            </tr>
+            <tr>
+                <th>ESTADO METEREOLÓGICO</th>
+                <th>TEXT</th>
+                <th>Condiciones ambientales que se dan en el momento del siniestro. A veces, es desconocida.</th>
+            </tr>
+            <tr>
+                <th>TIPO VEHÍCULO</th>
+                <th>TEXT</th>
+                <th>Tipo de vehículo afectado. Siempre es una Bicicleta</th>
+            </tr>
+            <tr>
+                <th>TIPO PERSONA</th>
+                <th>TEXT</th>
+                <th>Puede ser: Conductor, peatón, testigo o viajero. 516 son Conductor, 45 Peatón, 0 testigo, 0 viajero.</th>
+            </tr>
+            <tr>
+                <th>RANGO DE EDAD</th>
+                <th>TEXT</th>
+                <th>Tramo de edad de la persona afectada. Se trata de un texto con el rango de edad escrito con el patrón "DE XX A XX AÑOS", donde XX son las edades.</th>
+            </tr>
+            <tr>
+                <th>SEXO</th>
+                <th>TEXT</th>
+                <th>Puede ser: Hombre, mujer o no asignado. 419 Hombre, 137 Mujer.</th>
+            </tr>
+            <tr>
+                <th>LESIVIDAD</th>
+                <th>TEXT</th>
+                <th>Se trata de un código numérico en el que cada uno viene explicado en la documentación del dataset</th>
+            </tr>
+
+        </table>
+
+        <hr>
+    </div>
+
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Análisis de la licencia</h4>
+        <p>Según las <a
+                href="https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Condiciones
+                generales para la modalidad general de puesta a disposición de los documentos reutilizables del
+                Ayuntamiento
+                de Madrid</a>
+            se declara que las presentes condiciones generales permiten la reutilización de los documentos y datos
+            sometidos a ellas para fines comerciales y no
+            comerciales,
+            siempre que dicho uso no constituya una actividad administrativa pública. Por ejemplo, la reutilización
+            autorizada incluye actividades como la copia, difusión, modificación, adaptación, extracción, reordenación y
+            combinación de la información. <br>
+            También en el apartado Condiciones generales para la reutilización declaran que está prohibido desnaturalizar el
+            sentido
+            de la información, debe citarse fuente de los documentos objeto de la reutilización, debe mencionarse la
+            fecha
+            de la última actualización de los documentos objeto de la reutilización, siempre y cuando estuviera incluida
+            en
+            el documento original, no se podrá indicar, insinuar o sugerir que el Ayuntamiento de Madrid participa,
+            patrocina o apoya la reutilización que se lleve a cabo con la información, deben conservarse, no alterarse
+            ni
+            suprimirse los metadatos sobre la fecha de actualización y las condiciones de reutilización aplicables
+            incluidos, en su caso, en el documento puesto a disposición para su reutilización y en caso de información
+            anonimizada por protección de datos personales u otros motivos, está expresamente prohibido realizar labores
+            de
+            re-identificación de personas a partir de estos datos y otras fuentes de datos e información posibles,
+            pasadas,
+            actuales o futuras.</p>
+        <hr>
+    </div>
+
+    <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">Resource Naming Strategy</h4>
+            <p>Hash URIs for ontological terms, slash URIs for individuals
+                <ul>
+                    <li> Domain: http://accidentesBiciMad.es/</li>
+                    <li> Ontological terms path: http://accidentesBiciMad.es/ontology/BiciAccidents#</li>
+                    <li> Individuals path: http://accidentesBiciMad.es/accident</li>
+                    <li> Ontological terms pattern: http://accidentesBiciMad.es/ontology/BiciAccidents#term</li>
+                    <li> Individuals pattern: http://accidentesBiciMad.es/accidents/</li>
+                </ul>
+            </p>
+            <hr>
+        </div>
+
+</body>
+
+</html>

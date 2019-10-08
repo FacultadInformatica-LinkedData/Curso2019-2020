@@ -1,0 +1,151 @@
+﻿<html>
+	<head>
+		<title>Aparcamientos públicos municipales</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		
+		<style>
+			header {
+				width: 100%;
+				height: 100vh;
+				background: url(https://cdn.pixabay.com/photo/2015/11/07/11/27/highway-1031149_1280.jpg) no-repeat center;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+			}
+			.page-title {
+				position: relative;
+				text-align: center;
+				font-family: SANS-SERIF;
+				color: white;
+				top: 45vh;
+				font-size: 4vw;
+				animation: fadeIn 5.0s;
+				padding-bottom: 100px;
+			}
+			.navbar-nav .nav-link {
+				color: white;
+				font-size: 16px;
+			}
+			section {
+				padding-top: 100px;
+				padding-bottom:100px;
+			}
+		</style>
+
+	</head>
+
+	
+
+	<body>
+
+		<header>
+			<div class="container-fluid">
+				<div class="welcome-text">
+					<div class="page-title"> Air quality awareness in <b>Madrid</b></div>
+				</div>
+			</div>
+		</header>
+
+		<nav id="menu" class="navbar fixed-top navbar-expand-lg" style="background-color: #000000b5">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars fa-1x"></i>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#description">Description</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#app_requirements">Requirements</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#data_requirements">Data</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#mock-up">Mock-up</a>
+					</li>
+
+				</ul>
+			</div>
+		</nav>
+
+		<section id="description">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2 style="padding:50px">Project description</h2>
+						<p class="text-muted">The aim of this application is to raise awareness of the current quality of the air in a big city as Madrid.</p>
+						<p class="text-muted">This application will show a map of Madrid with the location of the different stations for air quality measurement with a colour indicating the quality of the air according to the classification established by the ICA. In this App, the user will be able to check the quality of the air in his current location or in any location of the city. The application will show with detail the concrete values of the gases and the degree of risk associated at the area selected. Also, the user will be able to filter locations according to the quality of the air and to check the nearest locations with better air quality. Addicionally, every location will have available the data of the air quality evolution in the recent years.</p>
+					</div>
+				</div>
+            </div>
+		</section>
+
+		<section id="app_requirements">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2 style="padding:50px">Application Requirements</h2>
+						<p class="text-muted">For the implementation of this App, we have considered the following requirements:</p>
+						<ul class="text-muted" style="text-align:left">
+							<li>The format for our application will be Web App.</li>
+							<li>For the implementation and the treatment of data we use Java.</b></li>
+							<li>For UI development we will use HTML5 with bootstrap. In case we need any particular tool for the integration of data in a particular format we will add another technology.</b></li>
+							<li>The UI should be very visual and easy to understand. On the left side it will contain a search form to select certain location and a panel with the data about the current location of the user. On the right side, the application will show a map with visual and graphic information of all the stations of air measurement.</b></li>
+
+						</ul>
+					</div>
+				</div>
+            </div>
+		</section>
+
+		<section id="data_requirements">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2 style="padding:50px">Data</h2>
+						<p class="text-muted">According to the best practices for the process of generation of Linked Data, the data that we have selected for this application will satisfy the following requirements:</p>
+						<ul class="text-muted" style="text-align:left">
+
+							<li><b>R1. Data are in one of the selected smart city domains.</b></li>
+							<li style="list-style-type: none;">Our application will be focused on Air quality.</li>
+							<li><b>R2. Data are available as a CSV file.</b></li>
+							<li style="list-style-type: none;">For this application we will use different CSV files related to Air quality and Streets in Madrid. All of the data will be extracted from CSV files, which may be accesed in the following links:</li>
+							<ul>
+								<li><b>Calidad del aire. Datos en tiempo real:</b> https://datos.madrid.es/sites/v/index.jsp?vgnextoid=41e01e007c9db410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD </li>
+								<li><b>Calidad del aire. Datos diarios años 2001 a 2019:</b> https://datos.madrid.es/sites/v/index.jsp?vgnextoid=aecb88a7e2b73410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD </li>
+								<li><b>Callejero Oficial del Ayuntamiento de Madrid:</b> https://datos.madrid.es/sites/v/index.jsp?vgnextoid=b3c41f3cf6a6c410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD </li>
+							</ul>
+							<li><b>R3. Data have an open license so they can be published.</b></li>
+							<li style="list-style-type: none;">Open distribution license for commercial and non-commercial use.</li>
+							<li><b>R4. Data can be easily linked with generic real-world entities (e.g., locations).</b></li>
+							<li style="list-style-type: none;">Our data can be easily linked to locations in the real world. As we have data of quality air in different zones, we may relate concrete locations belonging to those zones (like streets or addreses) to a certain classification of quality air.</li>
+							<li><b>R5. Documentation exists for the data (optional).</b></li>
+							<li style="list-style-type: none;">Every one of the CSV files come with at least one official document associated. In these documents we may find information about the data or the representation of data in the file.</li>
+							<li><b>R6. Data can come from multiple data sources (optional).</b></li>
+							<li style="list-style-type: none;">All of our datasets are extracted from: https://datos.madrid.es/portal/site/egob .</li>
+						</ul>
+					</div>
+				</div>
+            </div>
+		</section>
+
+		<section id="mock-up">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2 style="padding:50px">Mock-ups</h2>
+						<p class="text-muted">To be added in the next commit.</p>
+					</div>
+				</div>
+            </div>
+		</section>
+	</body>
+</html>
+

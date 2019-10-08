@@ -1,0 +1,971 @@
+_____________________________________________________________________________________________________________________________
+1. Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+SELECT DISTINCT ?properties 
+WHERE {
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?properties ?y .
+} 
+
+RESULT:
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://www.w3.org/2002/07/owl#differentFrom
+http://www.w3.org/2000/01/rdf-schema#seeAlso
+http://www.w3.org/2002/07/owl#sameAs
+http://dbpedia.org/ontology/deathPlace
+http://dbpedia.org/property/deathPlace
+http://dbpedia.org/ontology/deathDate
+http://dbpedia.org/ontology/birthPlace
+http://dbpedia.org/ontology/birthDate
+http://purl.org/dc/terms/subject
+http://dbpedia.org/ontology/wikiPageID
+http://dbpedia.org/ontology/wikiPageRevisionID
+http://dbpedia.org/ontology/wikiPageExternalLink
+http://xmlns.com/foaf/0.1/name
+http://xmlns.com/foaf/0.1/homepage
+http://dbpedia.org/property/name
+http://xmlns.com/foaf/0.1/depiction
+http://purl.org/dc/terms/description
+http://xmlns.com/foaf/0.1/givenName
+http://xmlns.com/foaf/0.1/gender
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://xmlns.com/foaf/0.1/surname
+http://dbpedia.org/ontology/thumbnail
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://dbpedia.org/ontology/abstract
+http://dbpedia.org/ontology/activeYearsEndDate
+http://dbpedia.org/ontology/activeYearsStartDate
+http://dbpedia.org/ontology/almaMater
+http://dbpedia.org/ontology/award
+http://dbpedia.org/ontology/battle
+http://dbpedia.org/ontology/birthName
+http://dbpedia.org/ontology/child
+http://dbpedia.org/ontology/country
+http://dbpedia.org/ontology/deputy
+http://dbpedia.org/ontology/governorGeneral
+http://dbpedia.org/ontology/militaryBranch
+http://dbpedia.org/ontology/militaryRank
+http://dbpedia.org/ontology/militaryUnit
+http://dbpedia.org/ontology/monarch
+http://dbpedia.org/ontology/nationality
+http://dbpedia.org/ontology/occupation
+http://dbpedia.org/ontology/office
+http://dbpedia.org/ontology/orderInOffice
+http://dbpedia.org/ontology/otherParty
+http://dbpedia.org/ontology/party
+http://dbpedia.org/ontology/president
+http://dbpedia.org/ontology/primeMinister
+http://dbpedia.org/ontology/profession
+http://dbpedia.org/ontology/region
+http://dbpedia.org/ontology/relation
+http://dbpedia.org/ontology/religion
+http://dbpedia.org/ontology/residence
+http://dbpedia.org/ontology/restingPlace
+http://dbpedia.org/ontology/serviceEndYear
+http://dbpedia.org/ontology/serviceStartYear
+http://dbpedia.org/ontology/spouse
+http://dbpedia.org/ontology/successor
+http://dbpedia.org/ontology/vicePresident
+http://dbpedia.org/property/after
+http://dbpedia.org/property/align
+http://dbpedia.org/property/alongside
+http://dbpedia.org/property/authorlink
+http://dbpedia.org/property/b
+http://dbpedia.org/property/before
+http://dbpedia.org/property/birthDate
+http://dbpedia.org/property/birthName
+http://dbpedia.org/property/by
+http://dbpedia.org/property/caption
+http://dbpedia.org/property/children
+http://dbpedia.org/property/citizenship
+http://dbpedia.org/property/class
+http://dbpedia.org/property/constituency
+http://dbpedia.org/property/creation
+http://dbpedia.org/property/date
+http://dbpedia.org/property/direction
+http://dbpedia.org/property/district
+http://dbpedia.org/property/ethnicity
+http://dbpedia.org/property/first
+http://dbpedia.org/property/footer
+http://dbpedia.org/property/footerAlign
+http://dbpedia.org/property/headerAlign
+http://dbpedia.org/property/honorificPrefix
+http://dbpedia.org/property/honorificSuffix
+http://dbpedia.org/property/id
+http://dbpedia.org/property/image
+http://dbpedia.org/property/imageName
+http://dbpedia.org/property/imagesize
+http://dbpedia.org/property/jr/sr
+http://dbpedia.org/property/knownFor
+http://dbpedia.org/property/labels
+http://dbpedia.org/property/last
+http://dbpedia.org/property/module
+http://dbpedia.org/property/n
+http://dbpedia.org/property/nationality
+http://dbpedia.org/property/nativeNameLang
+http://dbpedia.org/property/no
+http://dbpedia.org/property/number
+http://dbpedia.org/property/occupation
+
+_____________________________________________________________________________________________________________________________
+
+2. Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+SELECT DISTINCT ?properties 
+WHERE {
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?properties ?y .
+FILTER (?properties != rdf:type)
+} 
+
+RESULT:
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://www.w3.org/2002/07/owl#differentFrom
+http://www.w3.org/2000/01/rdf-schema#seeAlso
+http://www.w3.org/2002/07/owl#sameAs
+http://dbpedia.org/ontology/deathPlace
+http://dbpedia.org/property/deathPlace
+http://dbpedia.org/ontology/deathDate
+http://dbpedia.org/ontology/birthPlace
+http://dbpedia.org/ontology/birthDate
+http://purl.org/dc/terms/subject
+http://dbpedia.org/ontology/wikiPageID
+http://dbpedia.org/ontology/wikiPageRevisionID
+http://dbpedia.org/ontology/wikiPageExternalLink
+http://xmlns.com/foaf/0.1/name
+http://xmlns.com/foaf/0.1/homepage
+http://dbpedia.org/property/name
+http://xmlns.com/foaf/0.1/depiction
+http://purl.org/dc/terms/description
+http://xmlns.com/foaf/0.1/givenName
+http://xmlns.com/foaf/0.1/gender
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://xmlns.com/foaf/0.1/surname
+http://dbpedia.org/ontology/thumbnail
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://dbpedia.org/ontology/abstract
+http://dbpedia.org/ontology/activeYearsEndDate
+http://dbpedia.org/ontology/activeYearsStartDate
+http://dbpedia.org/ontology/almaMater
+http://dbpedia.org/ontology/award
+http://dbpedia.org/ontology/battle
+http://dbpedia.org/ontology/birthName
+http://dbpedia.org/ontology/child
+http://dbpedia.org/ontology/country
+http://dbpedia.org/ontology/deputy
+http://dbpedia.org/ontology/governorGeneral
+http://dbpedia.org/ontology/militaryBranch
+http://dbpedia.org/ontology/militaryRank
+http://dbpedia.org/ontology/militaryUnit
+http://dbpedia.org/ontology/monarch
+http://dbpedia.org/ontology/nationality
+http://dbpedia.org/ontology/occupation
+http://dbpedia.org/ontology/office
+http://dbpedia.org/ontology/orderInOffice
+http://dbpedia.org/ontology/otherParty
+http://dbpedia.org/ontology/party
+http://dbpedia.org/ontology/president
+http://dbpedia.org/ontology/primeMinister
+http://dbpedia.org/ontology/profession
+http://dbpedia.org/ontology/region
+http://dbpedia.org/ontology/relation
+http://dbpedia.org/ontology/religion
+http://dbpedia.org/ontology/residence
+http://dbpedia.org/ontology/restingPlace
+http://dbpedia.org/ontology/serviceEndYear
+http://dbpedia.org/ontology/serviceStartYear
+http://dbpedia.org/ontology/spouse
+http://dbpedia.org/ontology/successor
+http://dbpedia.org/ontology/vicePresident
+http://dbpedia.org/property/after
+http://dbpedia.org/property/align
+http://dbpedia.org/property/alongside
+http://dbpedia.org/property/authorlink
+http://dbpedia.org/property/b
+http://dbpedia.org/property/before
+http://dbpedia.org/property/birthDate
+http://dbpedia.org/property/birthName
+http://dbpedia.org/property/by
+http://dbpedia.org/property/caption
+http://dbpedia.org/property/children
+http://dbpedia.org/property/citizenship
+http://dbpedia.org/property/class
+http://dbpedia.org/property/constituency
+http://dbpedia.org/property/creation
+http://dbpedia.org/property/date
+http://dbpedia.org/property/direction
+http://dbpedia.org/property/district
+http://dbpedia.org/property/ethnicity
+http://dbpedia.org/property/first
+http://dbpedia.org/property/footer
+http://dbpedia.org/property/footerAlign
+http://dbpedia.org/property/headerAlign
+http://dbpedia.org/property/honorificPrefix
+http://dbpedia.org/property/honorificSuffix
+http://dbpedia.org/property/id
+http://dbpedia.org/property/image
+http://dbpedia.org/property/imageName
+http://dbpedia.org/property/imagesize
+http://dbpedia.org/property/jr/sr
+http://dbpedia.org/property/knownFor
+http://dbpedia.org/property/labels
+http://dbpedia.org/property/last
+http://dbpedia.org/property/module
+http://dbpedia.org/property/n
+http://dbpedia.org/property/nationality
+http://dbpedia.org/property/nativeNameLang
+http://dbpedia.org/property/no
+http://dbpedia.org/property/number
+http://dbpedia.org/property/occupation
+http://dbpedia.org/property/otherDevice
+
+_____________________________________________________________________________________________________________________________
+
+3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+SELECT DISTINCT ?properties ?values
+WHERE {
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?properties ?values .
+FILTER (?properties != rdf:type)
+} 
+
+
+RESULT: 
+properties	values
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@en
+http://www.w3.org/2000/01/rdf-schema#label	
+"أكسل أكسنسترنا"@ar
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@de
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@es
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@fr
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@it
+http://www.w3.org/2000/01/rdf-schema#label	
+"アクセル・オクセンシェルナ"@ja
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@nl
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@pl
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@pt
+http://www.w3.org/2000/01/rdf-schema#label	
+"Оксеншерна, Аксель"@ru
+http://www.w3.org/2000/01/rdf-schema#label	
+"Brothers Grimm"@en
+http://www.w3.org/2000/01/rdf-schema#label	
+"الأخوان غريم"@ar
+http://www.w3.org/2000/01/rdf-schema#label	
+"Brüder Grimm"@de
+http://www.w3.org/2000/01/rdf-schema#label	
+"Hermanos Grimm"@es
+http://www.w3.org/2000/01/rdf-schema#label	
+"Frères Grimm"@fr
+http://www.w3.org/2000/01/rdf-schema#label	
+"Fratelli Grimm"@it
+http://www.w3.org/2000/01/rdf-schema#label	
+"グリム兄弟"@ja
+http://www.w3.org/2000/01/rdf-schema#label	
+"Gebroeders Grimm"@nl
+http://www.w3.org/2000/01/rdf-schema#label	
+"Bracia Grimm"@pl
+http://www.w3.org/2000/01/rdf-schema#label	
+"Irmãos Grimm"@pt
+http://www.w3.org/2000/01/rdf-schema#label	
+"Братья Гримм"@ru
+http://www.w3.org/2000/01/rdf-schema#label	
+"格林兄弟"@zh
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Menem"@en
+http://www.w3.org/2000/01/rdf-schema#label	
+"كارلوس منعم"@ar
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Menem"@de
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Menem"@es
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Menem"@fr
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Saúl Menem"@it
+http://www.w3.org/2000/01/rdf-schema#label	
+"カルロス・メネム"@ja
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Menem"@nl
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Saúl Menem"@pl
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Menem"@pt
+http://www.w3.org/2000/01/rdf-schema#label	
+"Менем, Карлос"@ru
+http://www.w3.org/2000/01/rdf-schema#label	
+"卡洛斯·梅内姆"@zh
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carter Harrison Jr."@en
+http://www.w3.org/2000/01/rdf-schema#label	
+"كارتر هاريسون"@ar
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carter Harrison, Jr."@de
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carter Harrison Sr."@en
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carter Harrison, Sr."@de
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carter Harrison, Sr."@fr
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@en
+http://www.w3.org/2000/01/rdf-schema#label	
+"تشن شوي بيان"@ar
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@de
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@es
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@fr
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@it
+http://www.w3.org/2000/01/rdf-schema#label	
+"陳水扁"@ja
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@nl
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@pl
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@pt
+http://www.w3.org/2000/01/rdf-schema#label	
+"Чэнь Шуйбянь"@ru
+http://www.w3.org/2000/01/rdf-schema#label	
+"陳水扁"@zh
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@en
+http://www.w3.org/2000/01/rdf-schema#label	
+"ديفيد لويد جورج"@ar
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@de
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@es
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@it
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@fr
+http://www.w3.org/2000/01/rdf-schema#label	
+"デビッド・ロイド・ジョージ"@ja
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@nl
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@pl
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@pt
+http://www.w3.org/2000/01/rdf-schema#label	
+"Ллойд Джордж, Дэвид"@ru
+http://www.w3.org/2000/01/rdf-schema#label	
+"大衛·勞合·喬治"@zh
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@en
+http://www.w3.org/2000/01/rdf-schema#label	
+"إنريكو برلينغوير"@ar
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@de
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@es
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@fr
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@it
+http://www.w3.org/2000/01/rdf-schema#label	
+"エンリコ・ベルリンゲル"@ja
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@nl
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@pl
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@pt
+http://www.w3.org/2000/01/rdf-schema#label	
+"Берлингуэр, Энрико"@ru
+http://www.w3.org/2000/01/rdf-schema#label	
+"恩里科·贝林格"@zh
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eric Williams"@en
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eric Eustace Williams"@de
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eric Eustace Williams"@es
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eric Williams (homme politique)"@fr
+http://www.w3.org/2000/01/rdf-schema#label	
+"エリック・ウィリアムズ"@ja
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eric Williams"@pl
+http://www.w3.org/2000/01/rdf-schema#label	
+"Уильямс, Эрик"@ru
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@en
+http://www.w3.org/2000/01/rdf-schema#label	
+"إريش هونيكر"@ar
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@de
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@es
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@fr
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@it
+http://www.w3.org/2000/01/rdf-schema#label	
+"エーリッヒ・ホーネッカー"@ja
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@nl
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@pl
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@pt
+http://www.w3.org/2000/01/rdf-schema#label	
+"Хонеккер, Эрих"@ru
+http://www.w3.org/2000/01/rdf-schema#label	
+"埃里希·昂纳克"@zh
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eva Perón"@en
+http://www.w3.org/2000/01/rdf-schema#label	
+"إيفا بيرون"@ar
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eva Perón"@de
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eva Perón"@es
+
+_____________________________________________________________________________________________________________________________
+
+4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different 
+values do they take in those instances?
+
+prefix pt: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?p ?y ?x WHERE{
+?x a pt:Politician.
+?x ?p ?y .
+FILTER(rdf:type != ?p)
+}
+
+
+RESULT:
+p	y	x
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@en
+http://dbpedia.org/resource/Axel_Oxenstierna
+http://www.w3.org/2000/01/rdf-schema#label	
+"أكسل أكسنسترنا"@ar
+http://dbpedia.org/resource/Axel_Oxenstierna
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@de
+http://dbpedia.org/resource/Axel_Oxenstierna
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@es
+http://dbpedia.org/resource/Axel_Oxenstierna
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@fr
+http://dbpedia.org/resource/Axel_Oxenstierna
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@it
+http://dbpedia.org/resource/Axel_Oxenstierna
+http://www.w3.org/2000/01/rdf-schema#label	
+"アクセル・オクセンシェルナ"@ja
+http://dbpedia.org/resource/Axel_Oxenstierna
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@nl
+http://dbpedia.org/resource/Axel_Oxenstierna
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@pl
+http://dbpedia.org/resource/Axel_Oxenstierna
+http://www.w3.org/2000/01/rdf-schema#label	
+"Axel Oxenstierna"@pt
+http://dbpedia.org/resource/Axel_Oxenstierna
+http://www.w3.org/2000/01/rdf-schema#label	
+"Оксеншерна, Аксель"@ru
+http://dbpedia.org/resource/Axel_Oxenstierna
+http://www.w3.org/2000/01/rdf-schema#label	
+"Brothers Grimm"@en
+http://dbpedia.org/resource/Brothers_Grimm
+http://www.w3.org/2000/01/rdf-schema#label	
+"الأخوان غريم"@ar
+http://dbpedia.org/resource/Brothers_Grimm
+http://www.w3.org/2000/01/rdf-schema#label	
+"Brüder Grimm"@de
+http://dbpedia.org/resource/Brothers_Grimm
+http://www.w3.org/2000/01/rdf-schema#label	
+"Hermanos Grimm"@es
+http://dbpedia.org/resource/Brothers_Grimm
+http://www.w3.org/2000/01/rdf-schema#label	
+"Frères Grimm"@fr
+http://dbpedia.org/resource/Brothers_Grimm
+http://www.w3.org/2000/01/rdf-schema#label	
+"Fratelli Grimm"@it
+http://dbpedia.org/resource/Brothers_Grimm
+http://www.w3.org/2000/01/rdf-schema#label	
+"グリム兄弟"@ja
+http://dbpedia.org/resource/Brothers_Grimm
+http://www.w3.org/2000/01/rdf-schema#label	
+"Gebroeders Grimm"@nl
+http://dbpedia.org/resource/Brothers_Grimm
+http://www.w3.org/2000/01/rdf-schema#label	
+"Bracia Grimm"@pl
+http://dbpedia.org/resource/Brothers_Grimm
+http://www.w3.org/2000/01/rdf-schema#label	
+"Irmãos Grimm"@pt
+http://dbpedia.org/resource/Brothers_Grimm
+http://www.w3.org/2000/01/rdf-schema#label	
+"Братья Гримм"@ru
+http://dbpedia.org/resource/Brothers_Grimm
+http://www.w3.org/2000/01/rdf-schema#label	
+"格林兄弟"@zh
+http://dbpedia.org/resource/Brothers_Grimm
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Menem"@en
+http://dbpedia.org/resource/Carlos_Menem
+http://www.w3.org/2000/01/rdf-schema#label	
+"كارلوس منعم"@ar
+http://dbpedia.org/resource/Carlos_Menem
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Menem"@de
+http://dbpedia.org/resource/Carlos_Menem
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Menem"@es
+http://dbpedia.org/resource/Carlos_Menem
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Menem"@fr
+http://dbpedia.org/resource/Carlos_Menem
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Saúl Menem"@it
+http://dbpedia.org/resource/Carlos_Menem
+http://www.w3.org/2000/01/rdf-schema#label	
+"カルロス・メネム"@ja
+http://dbpedia.org/resource/Carlos_Menem
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Menem"@nl
+http://dbpedia.org/resource/Carlos_Menem
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Saúl Menem"@pl
+http://dbpedia.org/resource/Carlos_Menem
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carlos Menem"@pt
+http://dbpedia.org/resource/Carlos_Menem
+http://www.w3.org/2000/01/rdf-schema#label	
+"Менем, Карлос"@ru
+http://dbpedia.org/resource/Carlos_Menem
+http://www.w3.org/2000/01/rdf-schema#label	
+"卡洛斯·梅内姆"@zh
+http://dbpedia.org/resource/Carlos_Menem
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carter Harrison Jr."@en
+http://dbpedia.org/resource/Carter_Harrison_Jr.
+http://www.w3.org/2000/01/rdf-schema#label	
+"كارتر هاريسون"@ar
+http://dbpedia.org/resource/Carter_Harrison_Jr.
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carter Harrison, Jr."@de
+http://dbpedia.org/resource/Carter_Harrison_Jr.
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carter Harrison Sr."@en
+http://dbpedia.org/resource/Carter_Harrison_Sr.
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carter Harrison, Sr."@de
+http://dbpedia.org/resource/Carter_Harrison_Sr.
+http://www.w3.org/2000/01/rdf-schema#label	
+"Carter Harrison, Sr."@fr
+http://dbpedia.org/resource/Carter_Harrison_Sr.
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@en
+http://dbpedia.org/resource/Chen_Shui-bian
+http://www.w3.org/2000/01/rdf-schema#label	
+"تشن شوي بيان"@ar
+http://dbpedia.org/resource/Chen_Shui-bian
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@de
+http://dbpedia.org/resource/Chen_Shui-bian
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@es
+http://dbpedia.org/resource/Chen_Shui-bian
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@fr
+http://dbpedia.org/resource/Chen_Shui-bian
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@it
+http://dbpedia.org/resource/Chen_Shui-bian
+http://www.w3.org/2000/01/rdf-schema#label	
+"陳水扁"@ja
+http://dbpedia.org/resource/Chen_Shui-bian
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@nl
+http://dbpedia.org/resource/Chen_Shui-bian
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@pl
+http://dbpedia.org/resource/Chen_Shui-bian
+http://www.w3.org/2000/01/rdf-schema#label	
+"Chen Shui-bian"@pt
+http://dbpedia.org/resource/Chen_Shui-bian
+http://www.w3.org/2000/01/rdf-schema#label	
+"Чэнь Шуйбянь"@ru
+http://dbpedia.org/resource/Chen_Shui-bian
+http://www.w3.org/2000/01/rdf-schema#label	
+"陳水扁"@zh
+http://dbpedia.org/resource/Chen_Shui-bian
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@en
+http://dbpedia.org/resource/David_Lloyd_George
+http://www.w3.org/2000/01/rdf-schema#label	
+"ديفيد لويد جورج"@ar
+http://dbpedia.org/resource/David_Lloyd_George
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@de
+http://dbpedia.org/resource/David_Lloyd_George
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@es
+http://dbpedia.org/resource/David_Lloyd_George
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@it
+http://dbpedia.org/resource/David_Lloyd_George
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@fr
+http://dbpedia.org/resource/David_Lloyd_George
+http://www.w3.org/2000/01/rdf-schema#label	
+"デビッド・ロイド・ジョージ"@ja
+http://dbpedia.org/resource/David_Lloyd_George
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@nl
+http://dbpedia.org/resource/David_Lloyd_George
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@pl
+http://dbpedia.org/resource/David_Lloyd_George
+http://www.w3.org/2000/01/rdf-schema#label	
+"David Lloyd George"@pt
+http://dbpedia.org/resource/David_Lloyd_George
+http://www.w3.org/2000/01/rdf-schema#label	
+"Ллойд Джордж, Дэвид"@ru
+http://dbpedia.org/resource/David_Lloyd_George
+http://www.w3.org/2000/01/rdf-schema#label	
+"大衛·勞合·喬治"@zh
+http://dbpedia.org/resource/David_Lloyd_George
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@en
+http://dbpedia.org/resource/Enrico_Berlinguer
+http://www.w3.org/2000/01/rdf-schema#label	
+"إنريكو برلينغوير"@ar
+http://dbpedia.org/resource/Enrico_Berlinguer
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@de
+http://dbpedia.org/resource/Enrico_Berlinguer
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@es
+http://dbpedia.org/resource/Enrico_Berlinguer
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@fr
+http://dbpedia.org/resource/Enrico_Berlinguer
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@it
+http://dbpedia.org/resource/Enrico_Berlinguer
+http://www.w3.org/2000/01/rdf-schema#label	
+"エンリコ・ベルリンゲル"@ja
+http://dbpedia.org/resource/Enrico_Berlinguer
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@nl
+http://dbpedia.org/resource/Enrico_Berlinguer
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@pl
+http://dbpedia.org/resource/Enrico_Berlinguer
+http://www.w3.org/2000/01/rdf-schema#label	
+"Enrico Berlinguer"@pt
+http://dbpedia.org/resource/Enrico_Berlinguer
+http://www.w3.org/2000/01/rdf-schema#label	
+"Берлингуэр, Энрико"@ru
+http://dbpedia.org/resource/Enrico_Berlinguer
+http://www.w3.org/2000/01/rdf-schema#label	
+"恩里科·贝林格"@zh
+http://dbpedia.org/resource/Enrico_Berlinguer
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eric Williams"@en
+http://dbpedia.org/resource/Eric_Williams
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eric Eustace Williams"@de
+http://dbpedia.org/resource/Eric_Williams
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eric Eustace Williams"@es
+http://dbpedia.org/resource/Eric_Williams
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eric Williams (homme politique)"@fr
+http://dbpedia.org/resource/Eric_Williams
+http://www.w3.org/2000/01/rdf-schema#label	
+"エリック・ウィリアムズ"@ja
+http://dbpedia.org/resource/Eric_Williams
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eric Williams"@pl
+http://dbpedia.org/resource/Eric_Williams
+http://www.w3.org/2000/01/rdf-schema#label	
+"Уильямс, Эрик"@ru
+http://dbpedia.org/resource/Eric_Williams
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@en
+http://dbpedia.org/resource/Erich_Honecker
+http://www.w3.org/2000/01/rdf-schema#label	
+"إريش هونيكر"@ar
+http://dbpedia.org/resource/Erich_Honecker
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@de
+http://dbpedia.org/resource/Erich_Honecker
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@es
+http://dbpedia.org/resource/Erich_Honecker
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@fr
+http://dbpedia.org/resource/Erich_Honecker
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@it
+http://dbpedia.org/resource/Erich_Honecker
+http://www.w3.org/2000/01/rdf-schema#label	
+"エーリッヒ・ホーネッカー"@ja
+http://dbpedia.org/resource/Erich_Honecker
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@nl
+http://dbpedia.org/resource/Erich_Honecker
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@pl
+http://dbpedia.org/resource/Erich_Honecker
+http://www.w3.org/2000/01/rdf-schema#label	
+"Erich Honecker"@pt
+http://dbpedia.org/resource/Erich_Honecker
+http://www.w3.org/2000/01/rdf-schema#label	
+"Хонеккер, Эрих"@ru
+http://dbpedia.org/resource/Erich_Honecker
+http://www.w3.org/2000/01/rdf-schema#label	
+"埃里希·昂纳克"@zh
+http://dbpedia.org/resource/Erich_Honecker
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eva Perón"@en
+http://dbpedia.org/resource/Eva_Perón
+http://www.w3.org/2000/01/rdf-schema#label	
+"إيفا بيرون"@ar
+http://dbpedia.org/resource/Eva_Perón
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eva Perón"@de
+http://dbpedia.org/resource/Eva_Perón
+http://www.w3.org/2000/01/rdf-schema#label	
+"Eva Perón"@es
+http://dbpedia.org/resource/Eva_Perón
+
+_____________________________________________________________________________________________________________________________
+
+5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct
+values do they take in those instances?
+
+prefix pt: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?x count(?y) WHERE{
+?z a pt:Politician.
+?x ?y ?z .
+FILTER (?x != rdf:type)
+}
+
+RESULT:
+x	callret-1
+http://en.wikipedia.org/wiki/Finlay_Carson	
+1
+http://en.wikipedia.org/wiki/Bob_Gardner_(Queensland_politician)	
+1
+http://dbpedia.org/resource/Ivan_Bisyuk	
+1
+http://en.wikipedia.org/wiki/Abdul_Latif_(politician)	
+1
+http://en.wikipedia.org/wiki/Alexander_Robert_Richardson	
+1
+http://dbpedia.org/resource/Garnet_Wood	
+1
+http://dbpedia.org/resource/R._A._L._H._Gunawardana	
+1
+http://dbpedia.org/resource/Thomas_Tonkin_Edwards	
+1
+http://en.wikipedia.org/wiki/Terry_Beech	
+1
+http://dbpedia.org/resource/Lloyd_Roberts_(politician)	
+1
+http://dbpedia.org/resource/George_Spriggs_(politician)	
+1
+http://dbpedia.org/resource/Presidential_Administration_of_Ukraine	
+1
+http://dbpedia.org/resource/Michigan_gubernatorial_election,_1990	
+3
+http://dbpedia.org/resource/Charles_Stetson	
+4
+http://dbpedia.org/resource/Robert_Parkhill	
+1
+http://dbpedia.org/resource/Clarke_Tivy_Rollins	
+1
+http://dbpedia.org/resource/D._H._Christie	
+1
+http://dbpedia.org/resource/Elmer_Hoffman	
+1
+http://dbpedia.org/resource/Ernest_Benach_i_Pascual	
+1
+http://dbpedia.org/resource/Toker	
+1
+http://en.wikipedia.org/wiki/Benigno_Ferreira	
+1
+http://en.wikipedia.org/wiki/Bruce_Kraus	
+1
+http://en.wikipedia.org/wiki/David_Howell_(jurist)	
+1
+http://en.wikipedia.org/wiki/David_Johnson_(governor)	
+1
+http://en.wikipedia.org/wiki/Dennis_Canavan	
+1
+http://dbpedia.org/resource/Cecil_Jesson	
+2
+http://en.wikipedia.org/wiki/John_Foulkes	
+1
+http://dbpedia.org/resource/James_Edgar_Martine	
+2
+http://dbpedia.org/resource/Robert_James_Boyer	
+1
+http://dbpedia.org/resource/Jacob_Stumm	
+2
+http://dbpedia.org/resource/Hector_Lamond	
+1
+http://dbpedia.org/resource/William_Frank_(politician)	
+1
+http://dbpedia.org/resource/Jose_Insulza	
+1
+http://dbpedia.org/resource/Felix_zu_Schwarzenberg	
+1
+http://en.wikipedia.org/wiki/Mike_Pratt_(Australian_politician)	
+1
+http://dbpedia.org/resource/Wilhelm_Christopher_Christophersen	
+1
+http://dbpedia.org/resource/Tom_Koutsantonis	
+1
+http://dbpedia.org/resource/Yury	
+1
+http://en.wikipedia.org/wiki/Teddy_Taylor	
+1
+http://en.wikipedia.org/wiki/Thomas_Fitzgerald_(American_politician)	
+1
+http://dbpedia.org/resource/East_Sydney_by-election,_1932	
+3
+http://en.wikipedia.org/wiki/Daniel_Russell_Brown	
+1
+http://en.wikipedia.org/wiki/George_Banda-Thomas	
+1
+http://en.wikipedia.org/wiki/Jesse_Lowe	
+1
+http://en.wikipedia.org/wiki/Michael_Whalen_Maher	
+1
+http://dbpedia.org/resource/Guayaquil	
+1
+http://dbpedia.org/resource/Major_James_Coldwell	
+2
+http://dbpedia.org/resource/Jose_Guadalupe_Cervantes_Corona	
+1
+http://dbpedia.org/resource/Armand_de_l'Aude	
+1
+http://dbpedia.org/resource/Kwek_Hian_Chuan_Henry	
+1
+http://dbpedia.org/resource/Uruguay_women's_national_football_team	
+1
+http://en.wikipedia.org/wiki/Jamuna_Devi_Barupal	
+1
+http://dbpedia.org/resource/Napa,_California	
+1
+http://dbpedia.org/resource/Jafeth_Cabrera	
+1
+http://dbpedia.org/resource/Henry_James_Price	
+1
+http://en.wikipedia.org/wiki/Denis_Blanchette	
+1
+http://en.wikipedia.org/wiki/Derrick_Burgess_(politician)	
+1
+http://en.wikipedia.org/wiki/Joseph_P._Ganim	
+1
+http://en.wikipedia.org/wiki/Michele_Smith_(politician)	
+1
+http://dbpedia.org/resource/Oklahoma_Bureau_of_Narcotics_and_Dangerous_Drugs_Control	
+1
+http://dbpedia.org/resource/Kirsan_Ilyumzhinov	
+1
+http://dbpedia.org/resource/Rodney_(New_Zealand_electorate)	
+3
+http://dbpedia.org/resource/Kathleen_Taylor_(politician)	
+1
+http://dbpedia.org/resource/Ólína_Þorvarðardóttir	
+1
+http://dbpedia.org/resource/Alvin_Bentley_III	
+1
+http://dbpedia.org/resource/Doris_Amelia_Blackburn	
+1
+http://dbpedia.org/resource/Elizabeth_Weir_(New_Brunswick_politician)	
+1
+http://en.wikipedia.org/wiki/Ted_Vogt	
+1
+http://dbpedia.org/resource/Harry_Johnston_(politician)	
+2
+http://dbpedia.org/resource/John_Amari	
+2
+http://dbpedia.org/resource/Electoral_district_of_Mulgoa	
+2
+http://dbpedia.org/resource/Ramsay_state_by-election,_2012	
+1
+http://dbpedia.org/resource/Lord_Woolton	
+1
+http://dbpedia.org/resource/Khalid_bin_Sultan_bin_Abdulaziz	
+1
+http://en.wikipedia.org/wiki/Joan_Clos	
+1
+http://dbpedia.org/resource/Tilston,_Manitoba	
+1
+http://dbpedia.org/resource/Marilyn_Lloyd_Boquard	
+1
+http://en.wikipedia.org/wiki/Monika_Flašíková-Beňová	
+1
+http://dbpedia.org/resource/Doris_Blackburn	
+1
+http://dbpedia.org/resource/Raymond_Steele_Hall	
+1
+http://dbpedia.org/resource/Wallace_White,_Jr.	
+1
+http://dbpedia.org/resource/Johann_David_Wadephul	
+1
+http://en.wikipedia.org/wiki/Thomas_C._Power	
+1
+http://en.wikipedia.org/wiki/Ahmad_Maslan	
+1
+http://dbpedia.org/resource/Hajibala_Abutalybov	
+1
+http://dbpedia.org/resource/Dumitru_Braşoveanu	
+1
+http://en.wikipedia.org/wiki/Eric_Majimbun	
+1
+http://dbpedia.org/resource/Vladimir_Criste	
+1
+http://dbpedia.org/resource/Nic_Varvaris	
+1
+http://en.wikipedia.org/wiki/Vladimir_Bogos	
+1
+http://en.wikipedia.org/wiki/Jonas_Levien	
+1
+http://en.wikipedia.org/wiki/Ewart_Brown	
+1
+http://dbpedia.org/resource/New_South_Wales_state_election,_1959	
+1
+http://dbpedia.org/resource/Philip_Craven	
+1
+http://dbpedia.org/resource/Eddie_Sargent	
+1
+http://dbpedia.org/resource/Electoral_district_of_North_Shore	
+2
+http://dbpedia.org/resource/People's_Freedom_Party_%22For_Russia_without_Lawlessness_and_Corruption%22	
+1
+http://dbpedia.org/resource/Andrew_Bonar-Law	
+1
+http://dbpedia.org/resource/Antonín_Novotny	
+1
+http://dbpedia.org/resource/Barthelemy_Boganda	
+1
+
+_____________________________________________________________________________________________________________________________
