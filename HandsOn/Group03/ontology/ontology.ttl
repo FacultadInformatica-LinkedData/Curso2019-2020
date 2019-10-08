@@ -62,7 +62,7 @@ rdf:type rdf:type rdfs:Datatype .
 
 
 
-###  http://waterCH.es/Group03/ontology#    
+###  http://waterCH.es/Group03/ontology#district 
 :district  rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Location ;
                     rdfs:range rdfs:Literal .
@@ -78,7 +78,7 @@ rdf:type rdf:type rdfs:Datatype .
                     rdfs:domain :Location ;
                     rdfs:range xsd:decimal .
 
-### http://waterCH.es/Group03/coordinateSystem          
+### http://waterCH.es/Group03/ontology#coordinateSystem          
 :coordinateSystem rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Location ;
                     rdfs:range xsd:string .
