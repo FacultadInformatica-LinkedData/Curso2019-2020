@@ -26,11 +26,6 @@ rdf:type rdf:type rdfs:Datatype .
 #################################################################
 #    Data properties
 #################################################################
-###  http://waterCH.es/Group03/isLocated
-:isLocated rdf:type owl:DatatypeProperty ;
-                    rdfs:domain :Fountain ;
-                    rdfs:range xsd:boolean .
-
 
 ###  http://waterCH.es/Group03/ontology#hasCode
 :hasCode rdf:type owl:DatatypeProperty ;
@@ -50,11 +45,6 @@ rdf:type rdf:type rdfs:Datatype .
              rdfs:range xsd:boolean .
 
 
-###  http://waterCH.es/Group03/ontology#hasObservations
-:hasObservations rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Fountain ;
-             rdfs:range xsd:string .
-
 ###  http://waterCH.es/Group03/ontology#hasDate
 :hasDate rdf:type owl:DatatypeProperty ;
              rdfs:domain :Fountain ;
@@ -67,19 +57,19 @@ rdf:type rdf:type rdfs:Datatype .
                     rdfs:domain :Location ;
                     rdfs:range rdfs:Literal .
                     
-### ###  http://waterCH.es/Group03/ontology#coordinateX
-:coordinateX rdf:type owl:DatatypeProperty ;
+### ###  http://waterCH.es/Group03/ontology#hasLongitude
+:hasLongitude rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Location ;
                     rdfs:range xsd:decimal .
 
 
-###  http://waterCH.es/Group03/ontology#coordinateY         
-:coordinateY rdf:type owl:DatatypeProperty ;
+###  http://waterCH.es/Group03/ontology#hasLatitude         
+:hasLatitude rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Location ;
                     rdfs:range xsd:decimal .
 
-### http://waterCH.es/Group03/ontology#coordinateSystem          
-:coordinateSystem rdf:type owl:DatatypeProperty ;
+### http://waterCH.es/Group03/ontology#address          
+:address rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Location ;
                     rdfs:range xsd:string .
 
