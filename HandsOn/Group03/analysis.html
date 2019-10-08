@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Analisis del Dataset Group03 - Fuentes de Agua Potable en la Comunidad de Madrid.</title>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+
+<body>
+<p>Análisis de la licencia:</p>
+
+<p>La licencia de este dataset permite la reutilización de los documentos y datos sometidos a ellas para fines comerciales y no comerciales, entenidendo que la reutilización de los mismos no constituya una actividad administrativa pública. La licencia se encuentra en el siguiente enlace: <a href="https://datos.madrid.es/egob/catalogo/aviso-legal">Link</a>
+Esta licencia es publicada por el Ayuntamiento de Madrid que además tiene los derechos de autor sobre la misma .
+El conjunto de datos de nuestra aplicación, tampoco tiene fines comerciales y podrán usarse siempre que se nos acredite a nosotros así como a la fuente de datos original.</p>
+
+<p>Análisis de los datos:</p>
+
+<p>Para cada fuente tenemos los siguientes datos:</p>
+
+<table>
+  <tr>
+    <th>Field</th>
+    <th>Type</th>
+    <th>Comments</th>
+  </tr>
+    <tr>
+    <th>Código de Fuente</th>
+    <th>String</th>
+    <th>Hay algunas fuentes con el mismo identificador (28 fuentes), pero en diferentes lugares o distritos. Tampoco hay elementos nulos o vacios</th>
+  </tr>
+    <tr>
+    <th>Zona Verde/Via Publica</th>
+    <th>String</th>
+    <th>el String sólo puede tomar dos valores: ZV (Zona verde) o VP (Vía publica). No hay elementos nulos o con error, tampoco vacíos.</th>
+  </tr>
+    <tr>
+    <th>Distrito</th>
+    <th>String</th>
+    <th>Nombre del distrito donde está la fuente, hay muchos valores duplicados. No hay elementos nulos o con error, tampoco vacíos.</th>
+  </tr>
+  	<tr>
+    <th>Dirección</th>
+    <th>String</th>
+    <th>En algunos casos la dirección incluye un numero, y hay bastantes duplicados (829).  No hay elementos nulos o con error, tampoco vacíos.</th>
+  </tr>
+  	<tr>
+    <th>Complemento Dirección</th>
+    <th>String</th>
+    <th>En algunos casos la dirección incluye un numero, y hay bastantes duplicados (815). Hay 551 elementos nulos o vacios.</th>
+  </tr>
+ 	<tr>
+    <th>Coordenada-X</th>
+    <th>String</th>
+    <th>Rango [429544,68641-452246,27961], indican la coordenada-x de la localización hay algún elemento duplicado (16). No hay elementos nulos o con error, tampoco vacíos.</th>
+  </tr>
+  	<tr>
+    <th>Coordenada-Y</th>
+    <th>String</th>
+    <th>Rango [4464487,999-4493789,807], indican la coordenada-y de la localización, hay algún elemento duplicado (18). No hay elementos nulos o con error, tampoco vacíos.</th>
+  </tr>
+  	<tr>
+    <th>Sistema de coordenadas</th>
+    <th>String</th>
+    <th>Inidcan el sistemas de coordenadas, en todos los elementos es el mismo: "ETRS89 / UTM Zona 30N". No hay elementos nulos o con error, tampoco vacíos.</th>
+  </tr>
+  	<tr>
+    <th>Estado</th>
+    <th>String</th>
+    <th>Indican el estado del servicio, puede tomar los valores: "EN SERVICIO" o "FUERA DE SERVICIO" (112). No hay elementos nulos o con error, tampoco vacíos.</th>
+  </tr>
+  	<tr>
+    <th>Observaciones</th>
+    <th>String</th>
+    <th>Insica si hay algun dato relevante que añadir que no esté incluido en los campos del dataser, la mayoría tienen este campo vacío/null, y puede tener los valores encontrados son: "DEFICIENCIA ESTRUCTURAL", "NO APTA CONSUMO" y "VANDALISMO REITERADO". No hay elementos con error.</th>
+  </tr>
+  	<tr>
+    <th>Fecha datos</th>
+    <th>String</th>
+    <th>Indica la fecha de recogida de los datos, es igual en todos los elementos y toma el valor "1-ago.-19". No hay elementos nulos o con error, tampoco vacíos.</th>
+  </tr>
+  	<tr>
+    <th>Longitud</th>
+    <th>String</th>
+    <th>Rango [(-3.5627446)-(-3.8311625)], indican la longitud (coordenadas) del elemento.Hay 22 elementos duplicados y dos elementos con una longitud erronea ("Error").
+	No hay elementos nulos o vacíos.</th>
+  </tr>
+  	<tr>
+    <th>Latitud</th>
+    <th>String</th>
+    <th>Rango [(40.3290435)-(40.5926999)], indican la latitud (coordenadas) del elemento.Hay 20 elementos duplicados y dos elementos con una longitud erronea ("Error"). No hay elementos nulos o vacíos.</th>
+  </tr>
+  </table>
+
+<p>Resource Name Strategy:</p>
+
+	<p>&nbsp;&nbsp;El dominio será:&nbsp;&nbsp;&nbsp;&nbsp; 
+ 	http://waterCH.es/Group03/ </p>
+
+ 	<p>&nbsp;&nbsp;Para definir el path de los individuos se utilizará:&nbsp;&nbsp;&nbsp;&nbsp;
+ 	http://waterCH.es/Group03/resource </p>
+
+ 	<p>&nbsp;&nbsp;Para definir los terminos de la ontlología se usará: &nbsp;&nbsp;&nbsp;&nbsp;
+	http://waterCH.es/Group03/ontology#</p>
+
+	<p>&nbsp;&nbsp;Para definir el patrón de los individuos se utilizará:&nbsp;&nbsp;&nbsp;&nbsp;
+ 	http://waterCH.es/Group03/resource_name</p>
+
+ 	<p>&nbsp;&nbsp;Para definir el patrón de los terminos de la ontlología se usará: &nbsp;&nbsp;&nbsp;&nbsp;
+	http://waterCH.es/Group03/ontology#term_name</p>
+
+</body>
+</html>
