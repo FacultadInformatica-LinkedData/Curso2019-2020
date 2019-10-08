@@ -1,8 +1,19 @@
-PREFIX db: <http://dbpedia.org/ontology/>
-
-SELECT distinct ?prop (COUNT(?c) AS ?count) WHERE {
+PREFIX db: http://dbpedia.org/ontology/
+SELECT distinct ?prop (COUNT(distinct ?c) AS ?count) WHERE {
 ?instance a db:Politician .
-?instance ?prop ?x .
+?instance ?prop ?c .
 FILTER (?prop != rdf:type)
 }
 
+-- Results
+
+prop	count
+dbpedia2:border [http]	2
+dbpedia2:latMin [http]	1
+dbpedia2:employer [http]	9
+dbpedia2:war [http]	1
+dbpedia2:reference [http]	3
+dbpedia2:father'sName [http]	1
+dbpedia2:year2start [http]	3
+dbpedia2:vicepremier [http]	7
+dbpedia2:gap [http]	1
