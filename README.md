@@ -39,8 +39,17 @@ For example, I (my Github username is 'ocorcho') would upload three files :
 * ocorcho-OscarCorcho.rdf (Exercise 1.b in RDF/XML), and 
 * ocorcho-OscarCorcho.ttl (Exercise 1.b in Turtle).
 
+<<<<<<< HEAD
 **Assignment 3 - Exercise on Jena API**. Upload the java files Task06.java and Task07.java after completing the tasks 6.x and 7.x mentioned in those files. Before uploading the files create a folder with your **YourGitHubID-StudentID** (e.g., Assignment3/dchaves-u120106/) in [Assignment3](./Assignment3/) folder.
 
 **Assignment 4 - SPARQL**. Upload the SPARQL queries and their results after completing the completing the tasks mentioned in the slides. Before uploading the files create a folder with your **YourGitHubID-StudentID** (e.g., Assignment3/dchaves-u120106/) in [Assignment4](./Assignment4/) folder.
+=======
+**Assignment 3 - SPARQL**. Upload the SPARQL queries and their results after completing the tasks mentioned in the slides. Before uploading the files create a folder with your **YourGitHubID-StudentID** (e.g., Assignment3/dchaves-u120106/) in [Assignment3](./Assignment3/) folder.
+
+**The following set of instructions will be updated as we progress during the course**
+
+**Assignment 4 - Exercise on Jena API**. Upload the java files Task06.java and Task07.java after completing the tasks 6.x and 7.x mentioned in those files. Before uploading the files create a folder with your **YourGitHubID-StudentID** (e.g., Assignment4/dchaves-u120106/) in [Assignment4](./Assignment4/) folder.
+
+>>>>>>> 3ee45bb20098aeae450b1fe68b6906a83fd6cacc
 
 
