@@ -8,7 +8,7 @@
 @base <http://www.semweb19-20/G11/fullstation> .
 
 <http://www.semweb19-20/G11/fullstation> rdf:type owl:Ontology ;
-rdfs:comment "An Alcobendas's fuel station ontology that describe the location, opening hours and fuel prices of every station." .
+rdfs:comment "ontology of Alcobendas gas stations" .
 
 #################################################################
 #    Datatypes
