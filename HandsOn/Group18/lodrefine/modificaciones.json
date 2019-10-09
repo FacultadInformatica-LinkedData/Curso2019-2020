@@ -1,0 +1,48 @@
+
+{
+	"Modificaciones realizadas":[
+		{
+		"Columna": 22,
+		"Nombre" "TIPO",
+		"Operacion":"modificar celdas",
+		"Codigo":"substring(value,lastIndexOf(value,"/")+1,length(value)-1)"
+		},
+		{
+		"Columna": 23,
+		"Nombre" "AUDIENCIA",
+		"Operacion":"modificar celdas",
+		"Codigo":"replace(value,”/usuario/",")"
+		},
+		{
+		"Columna": 9,
+		"Nombre" "FECHA",
+		"Operacion":"modificar celdas",
+		"Codigo":"value.toDate(‘yyyy-mm-dd').toString('dd/mm/yyyy')"
+		},
+		{
+		"Columna": 10,
+		"Nombre" "FECHA FIN",
+		"Operacion":"modificar celdas",
+		"Codigo":"value.toDate(‘yyyy-mm-dd').toString('dd/mm/yyyy')"
+		},
+		{
+		"Columna": 3,
+		"Nombre" "PRECIO",
+		"Operacion":"modificar celdas",
+		"Codigo":"if(cells["GRATUITO"].value==1, 0,value)"
+		},
+		{
+		"Columna": 4,
+		"Nombre" "GRATUITO",
+		"Operacion":"eliminar columna",
+		"Codigo":""
+		},
+		{
+		"Columna": 3,
+		"Nombre" "PRECIO",
+		"Operacion":"modificar celdas",
+		"Codigo":"if(value==null, "buscar informacion",value)"
+		}
+
+	]
+}
