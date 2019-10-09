@@ -8,7 +8,6 @@ import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
-import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.vocabulary.VCARD;
 
@@ -46,34 +45,22 @@ public class Task06
 		OntClass researcher = model.createClass(ns+"Researcher");
 		
 		// ** TASK 6.1: Create a new class named "University" **
-		OntClass university = model.createClass(ns+"University");
+		
 		
 		// ** TASK 6.2: Add "Researcher" as a subclass of "Person" **
-		researcher.addSuperClass(model.getOntClass(ns+"Person"));
+		
 		
 		// ** TASK 6.3: Create a new property named "worksIn" **
-		String wIURI = ns + "worksIn";		
-		Property worksIn = model.createProperty(wIURI);	
+		
 		
 		// ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **
-		String janeURI = ns + "JaneSmith"; 
-		Individual janeSmith = researcher.createIndividual(janeURI);		
-				
+		
+		
 		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
-		String fullName = "Jane Smith";
-		String given = "Smith";
-		String family = "Jane";
-				
-		janeSmith.addLiteral(VCARD.Given, given);
-		janeSmith.addLiteral(VCARD.FN, fullName);
-		janeSmith.addLiteral(VCARD.Family, family);
+		
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		String upmURI = ns + "UPM";
-		String johnURI = ns + "JohnSmith"; 
 		
-		Individual upm = model.getOntClass(ns + "University").createIndividual(upmURI);
-		model.getIndividual(johnURI).addProperty(worksIn, upmURI);
 		
 		model.write(System.out, "RDF/XML-ABBREV");
 	}
