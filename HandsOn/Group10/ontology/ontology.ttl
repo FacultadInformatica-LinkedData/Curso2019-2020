@@ -28,12 +28,12 @@
 :featuresEvent rdf:type owl:ObjectProperty ;
                owl:inverseOf :hasInstallation ;
                rdfs:domain <https://www.eventosmadrid.es/#Installation> ;
-               rdfs:range <https://www.eventosmadrid.es/#Events> .
+               rdfs:range <https://www.eventosmadrid.es/#Event> .
 
 
 ###  https://www.eventosmadrid.es/hasInstallation
 :hasInstallation rdf:type owl:ObjectProperty ;
-                 rdfs:domain <https://www.eventosmadrid.es/#Events> ;
+                 rdfs:domain <https://www.eventosmadrid.es/#Event> ;
                  rdfs:range <https://www.eventosmadrid.es/#Installation> .
 
 
@@ -43,13 +43,13 @@
 
 ###  https://www.eventosmadrid.es/hasDateTimeStamp
 :hasDateTimeStamp rdf:type owl:DatatypeProperty ;
-                  rdfs:domain <https://www.eventosmadrid.es/#Events> ;
+                  rdfs:domain <https://www.eventosmadrid.es/#Event> ;
                   rdfs:range xsd:dateTimeStamp .
 
 
 ###  https://www.eventosmadrid.es/hasId
 :hasId rdf:type owl:DatatypeProperty ;
-       rdfs:domain <https://www.eventosmadrid.es/#Events> ;
+       rdfs:domain <https://www.eventosmadrid.es/#Event> ;
        rdfs:range xsd:integer .
 
 
@@ -73,13 +73,13 @@
 
 ###  https://www.eventosmadrid.es/hasPrice
 :hasPrice rdf:type owl:DatatypeProperty ;
-          rdfs:domain <https://www.eventosmadrid.es/#Events> ;
+          rdfs:domain <https://www.eventosmadrid.es/#Event> ;
           rdfs:range xsd:float .
 
 
 ###  https://www.eventosmadrid.es/hasTitle
 :hasTitle rdf:type owl:DatatypeProperty ;
-          rdfs:domain <https://www.eventosmadrid.es/#Events> ;
+          rdfs:domain <https://www.eventosmadrid.es/#Event> ;
           rdfs:range xsd:string .
 
 
@@ -87,8 +87,8 @@
 #    Classes
 #################################################################
 
-###  https://www.eventosmadrid.es/#Events
-<https://www.eventosmadrid.es/#Events> rdf:type owl:Class .
+###  https://www.eventosmadrid.es/#Event
+<https://www.eventosmadrid.es/#Event> rdf:type owl:Class .
 
 
 ###  https://www.eventosmadrid.es/#Installation
