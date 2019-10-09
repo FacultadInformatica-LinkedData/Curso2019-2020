@@ -65,6 +65,7 @@ public class Task06
 		// ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **
 		
 		Individual JS= researcher.createIndividual(ns+"JaneSmith");
+		JS.addProperty(RDF.type,researcher);
                 
                 
 		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
@@ -76,13 +77,17 @@ public class Task06
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
 		
 		Individual UPM=university.createIndividual(ns+"UPM");              
-                StmtIterator stIter = model.listStatements(null,null , "John Smith");
+                  UPM.addProperty(RDF.type,university);
+
+		Resource js = model.getResource(ns+"JohnSmith");
+		js.addProperty(worksIn,UPM);
+
 		
 		while (stIter.hasNext())
 		{
 			Statement st = stIter.next();
-			Resource jSmith = st.getSubject();
-                        jSmith.addProperty(wksin, UPM);
+			Resource jS = st.getSubject();
+                        jS.addProperty(wksin, UPM);
                 }
                 
 		model.write(System.out, "RDF/XML-ABBREV");
