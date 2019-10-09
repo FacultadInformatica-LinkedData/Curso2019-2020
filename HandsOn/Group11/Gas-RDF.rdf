@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sem="http://www.semweb19-20/G11/fullstation"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/0">
+	<rdfs:label>SHELL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-S: 06:00-00:00; D: 09:00-17:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">AVENIDA VALDELAPARRA, 3</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28100</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.537250</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.643194</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1279</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1369</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1509</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1359</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/1">
+	<rdfs:label>SHELL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 06:00-22:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CARRETERA M-603 KM. 14,900</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28100</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.528806</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.651583</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1279</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1369</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1509</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1359</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/2">
+	<rdfs:label>CARREFOUR</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CARRETERA A-1 KM. 14,500</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28100</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.528194</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.649417</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1249</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1339</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1469</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1279</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/3">
+	<rdfs:label>BP</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 06:00-22:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CALLE VALGRANDE (DE), 11</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28100</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.536583</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.649778</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1259</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1359</hasPriceGas95>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/4">
+	<rdfs:label>BP EL SAPO-ALCOBENDAS</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 06:00-13:59 y 14:00-22:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">AVENIDA MONTE DE VALDELATAS, 5</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28100</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.528722</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.659667</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1259</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1359</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1501</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1349</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/5">
+	<rdfs:label>BP VALDAVIA</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CALLE MARQUES DE LA VALDAVIA (DEL), 138</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28100</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.546944</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.653944</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1259</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1359</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1501</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1349</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/6">
+	<rdfs:label>BP JUNCAL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CARRETERA BARAJAS KM. S/N</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28100</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.534083</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.618944</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1259</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1359</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1501</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1349</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/7">
+	<rdfs:label>CEPSA</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 07:00-23:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">AVENIDA EUROPA (C.C. LA MORALEJA), 13/15</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28100</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.520111</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.657528</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1289</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1374</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1489</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1349</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/8">
+	<rdfs:label>BALLENOIL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CALLE VALGRANDE, 30</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28100</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.539583</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.654139</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1177</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1299</hasPriceGas95>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1199</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/9">
+	<rdfs:label>REPSOL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 06:00-00:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CR M-603, 14,1</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28100</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.525778</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.654889</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1275</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1385</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1525</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1355</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/10">
+	<rdfs:label>REPSOL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CL AVENIDA DE ESPA¿A, S.N.</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28100</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.546167</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.634639</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1259</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1375</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1515</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1339</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/11">
+	<rdfs:label>CEPSA</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 06:00-22:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">PASEO ALCOBENDAS (DE), 10</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28100</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.527889</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.622306</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1319</hasPriceDiesA>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1524</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1369</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/12">
+	<rdfs:label>GALP</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CARRETERA ANTIGUA NACIONAL I KM. 15,5</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28100</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.532806</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.642250</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1249</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1369</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1509</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1319</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/13">
+	<rdfs:label>GALP</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">AVENIDA VALDELAPARRA (DE), 5</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28100</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.548306</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.662056</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1249</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1369</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1509</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1319</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/14">
+	<rdfs:label>REPOSTA ALCOBENDAS</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">AVENIDA MARQUES DE LA VALDAVIA, 132</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28100</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.546556</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.651861</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1219</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1319</hasPriceGas95>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/15">
+	<rdfs:label>REPSOL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 06:00-23:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CL BOULEVARD SALVADOR ALLENDE, 12-1</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28108</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.537500</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.633944</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1249</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1365</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1505</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1329</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/16">
+	<rdfs:label>REPSOL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-S: 06:00-22:00; D: 08:00-22:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">BULEVAR SALVADOR ALLENDE (DE), 13</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28108</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.537750</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.634389</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1249</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1365</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1505</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1329</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/17">
+	<rdfs:label>REPSOL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-V: 06:00-22:00; S: 07:00-14:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CALLE FRANCISCO GERVAS, 13</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28108</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.533722</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.652250</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1259</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1349</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1489</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1339</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/18">
+	<rdfs:label>ALCAMPO</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">AVENIDA OLIMPICA, 9</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28108</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.535194</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.636806</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1177</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1299</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1459</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1229</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/19">
+	<rdfs:label>REPSOL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-S: 07:00-22:00; D: 09:00-15:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">PLAZA MORALEJA S/N, S/N</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28109</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.515639</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.651083</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1279</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1389</hasPriceGas95>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/20">
+	<rdfs:label>SHELL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">AVENIDA FUENTENUEVA, 1</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.547750</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.610750</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1259</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1359</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1509</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1349</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/21">
+	<rdfs:label>SHELL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 06:00-00:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CARRETERA ANTIGUA N-I CV CAMINO REDESA KM. S/N</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.565556</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.605472</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1259</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1359</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1509</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1349</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/22">
+	<rdfs:label>SETOR</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 06:00-00:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">N-I  (BURGOS-MADRID) km 24,100</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.590944</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.583417</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1209</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1309</hasPriceGas95>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1219</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/23">
+	<rdfs:label>CEPSA</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CTRA. BURGOS</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.590500</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.582583</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1269</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1349</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1429</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1299</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/24">
+	<rdfs:label>REPSOL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 07:00-23:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CL AVDA. EINSTEIN, 5</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.544417</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.610167</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1249</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1355</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1495</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1299</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/25">
+	<rdfs:label>REPSOL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CR N-1, 18,6</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.545778</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.606500</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1249</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1355</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1495</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1299</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/26">
+	<rdfs:label>REPSOL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-V: 06:00-23:00; S-D: 07:00-23:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CL REAL  (ANTIGUA N-1), 120</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.552500</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.618861</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1249</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1349</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1489</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1279</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/27">
+	<rdfs:label>REPSOL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-V: 06:30-00:30; S-D: 07:00-23:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">CL AVDA TENERIFE, 18</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.560250</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.620056</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1219</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1329</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1469</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1249</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/28">
+	<rdfs:label>CEPSA</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">AVENIDA TENERIFE (DE), 14</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.559528</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.621750</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1199</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1309</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1424</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1229</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/29">
+	<rdfs:label>BALLENOIL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">PASEO EUROPA, 22</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.545917</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.622917</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1189</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1297</hasPriceGas95>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/30">
+	<rdfs:label>BALLENOIL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">AVENIDA PIRINEOS (DE LOS), 21</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.551972</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.610083</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1169</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1287</hasPriceGas95>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/31">
+	<rdfs:label>BALLENOIL</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">AVENIDA TENERIFE, 10</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.559389</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.622861</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1167</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1287</hasPriceGas95>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/32">
+	<rdfs:label>BP APADIS</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 06:00-00:00</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">GLORIETA ANTONIO GAUDI, </hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.557833</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.612611</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1249</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1359</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1501</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1339</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/33">
+	<rdfs:label>PETROPRIX</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">AVENIDA FUENTE NUEVA, 18</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.547667</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.612472</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1167</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1287</hasPriceGas95>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/34">
+	<rdfs:label>GALP</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">AUTOVIA NACIONAL I KM. 26,200</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.608694</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.579000</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1259</hasPriceDiesA>
+	<hasPriceGas95 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1339</hasPriceGas95>
+	<hasPriceGas98 xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1419</hasPriceGas98>
+	<hasPriceNewA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1329</hasPriceNewA>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semweb19-20/G11/fullstation/35">
+	<rdfs:label>CEPSA</rdfs:label>
+	<hasSchedule xmlns="http://www.semweb19-20/G11/fullstation#">L-D: 24H</hasSchedule>
+	<hasAddress xmlns="http://www.semweb19-20/G11/fullstation#">N-I (MADRID-BURGOS) km 24,100</hasAddress>
+	<hasPostalCode xmlns="http://www.semweb19-20/G11/fullstation#">28700</hasPostalCode>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.590889</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.581778</geo:long>
+	<hasPriceDiesA xmlns="http://www.semweb19-20/G11/fullstation#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1249</hasPriceDiesA>
+</rdf:Description>
+
+</rdf:RDF>
