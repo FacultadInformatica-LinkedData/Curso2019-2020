@@ -46,20 +46,28 @@ public class Task06
 		
 		// ** TASK 6.1: Create a new class named "University" **
 		
-		
+		OntClass university = model.createClass(ns+"University");
 		// ** TASK 6.2: Add "Researcher" as a subclass of "Person" **
 		
-		
+		OntClass person = model.createClass(ns+"Person");
+		person.addSubClass(researcher);
 		// ** TASK 6.3: Create a new property named "worksIn" **
 		
+		Property worksIn = model.createProperty(ns + "worksIn");
 		
 		// ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **
-		
+		Individual jane_Smith = model.createIndividual(ns+"JaneSmith", researcher);
 		
 		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
-		
+		jane_Smith.addLiteral(VCARD.FN, "Jane Smith");
+		jane_Smith.addLiteral(VCARD.Given, "Jane");
+		jane_Smith.addLiteral(VCARD.Family, "Smith");
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
+		Individual john_Simth = model.getIndividual(ns+"JohnSmith");
+		Individual upm = model.createIndividual(ns+"UPM", university);
+		
+		john_Simth.addProperty(worksIn, upm);
 		
 		
 		model.write(System.out, "RDF/XML-ABBREV");
