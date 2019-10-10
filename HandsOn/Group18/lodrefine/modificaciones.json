@@ -1,48 +1,85 @@
-
-{
-	"Modificaciones realizadas":[
-		{
-		"Columna": 22,
-		"Nombre" "TIPO",
-		"Operacion":"modificar celdas",
-		"Codigo":"substring(value,lastIndexOf(value,"/")+1,length(value)-1)"
-		},
-		{
-		"Columna": 23,
-		"Nombre" "AUDIENCIA",
-		"Operacion":"modificar celdas",
-		"Codigo":"replace(value,”/usuario/",")"
-		},
-		{
-		"Columna": 9,
-		"Nombre" "FECHA",
-		"Operacion":"modificar celdas",
-		"Codigo":"value.toDate(‘yyyy-mm-dd').toString('dd/mm/yyyy')"
-		},
-		{
-		"Columna": 10,
-		"Nombre" "FECHA FIN",
-		"Operacion":"modificar celdas",
-		"Codigo":"value.toDate(‘yyyy-mm-dd').toString('dd/mm/yyyy')"
-		},
-		{
-		"Columna": 3,
-		"Nombre" "PRECIO",
-		"Operacion":"modificar celdas",
-		"Codigo":"if(cells["GRATUITO"].value==1, 0,value)"
-		},
-		{
-		"Columna": 4,
-		"Nombre" "GRATUITO",
-		"Operacion":"eliminar columna",
-		"Codigo":""
-		},
-		{
-		"Columna": 3,
-		"Nombre" "PRECIO",
-		"Operacion":"modificar celdas",
-		"Codigo":"if(value==null, "buscar informacion",value)"
-		}
-
-	]
-}
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO using expression grel:replace(value,\"/contenido/actividades/\",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "expression": "grel:replace(value,\"/contenido/actividades/\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column AUDIENCIA using expression grel:replace(value,\"/usuario/\",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AUDIENCIA",
+    "expression": "grel:replace(value,\"/usuario/\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column FECHA using expression grel:value.toDate('yyyy-mm-dd').toString('dd/mm/yyyy')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA",
+    "expression": "grel:value.toDate('yyyy-mm-dd').toString('dd/mm/yyyy')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column FECHA-FIN using expression grel:value.toDate('yyyy-mm-dd').toString('dd/mm/yyyy')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA-FIN",
+    "expression": "grel:value.toDate('yyyy-mm-dd').toString('dd/mm/yyyy')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PRECIO using expression grel:if(cells[\"GRATUITO\"].value==1, 0,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "grel:if(cells[\"GRATUITO\"].value==1, 0,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column GRATUITO",
+    "columnName": "GRATUITO"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PRECIO using expression grel:if(value==null, \"buscar informacion\",value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "grel:if(value==null, \"buscar informacion\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]
