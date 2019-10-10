@@ -1,0 +1,287 @@
+@prefix : <http://www.madridhistorico.es/linkedData#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.madridhistorico.es/linkedData#> .
+
+<http://www.madridhistorico.es/linkedData#> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://dbpedia.org/ontology/author
+<http://dbpedia.org/ontology/author> rdf:type owl:ObjectProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Bridge> ,
+                                                 <http://dbpedia.org/ontology/Monument> ,
+                                                 <http://linkedgeodata.org/ontology/Statue> ,
+                                                 <http://linkedgeodata.org/ontology/Stone#Stone> ,
+                                                 :Conceptual_Statue ,
+                                                 :Sculptural_Group ,
+                                                 :Singular_Building ,
+                                                 :Water_Construction ,
+                                                 <http://www.ontotext.com/proton/protonext#Arch> ;
+                                     rdfs:range <http://dbpedia.org/ontology/person> .
+
+
+###  http://dbpedia.org/ontology/borough
+<http://dbpedia.org/ontology/borough> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Bridge> ,
+                                                  <http://dbpedia.org/ontology/Monument> ,
+                                                  <http://linkedgeodata.org/ontology/Statue> ,
+                                                  <http://linkedgeodata.org/ontology/Stone#Stone> ,
+                                                  :Conceptual_Statue ,
+                                                  :Sculptural_Group ,
+                                                  :Singular_Building ,
+                                                  :Water_Construction ,
+                                                  <http://www.ontotext.com/proton/protonext#Arch> ;
+                                      rdfs:range <http://es.dbpedia.org/ontology/PopulatedPlace> .
+
+
+###  http://dbpedia.org/ontology/district
+<http://dbpedia.org/ontology/district> rdf:type owl:ObjectProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Bridge> ,
+                                                   <http://dbpedia.org/ontology/Monument> ,
+                                                   <http://linkedgeodata.org/ontology/Statue> ,
+                                                   <http://linkedgeodata.org/ontology/Stone#Stone> ,
+                                                   :Conceptual_Statue ,
+                                                   :Sculptural_Group ,
+                                                   :Singular_Building ,
+                                                   :Water_Construction ,
+                                                   <http://www.ontotext.com/proton/protonext#Arch> ;
+                                       rdfs:range <http://es.dbpedia.org/ontology/PopulatedPlace> .
+
+
+###  http://es.dbpedia.org/ontology/city
+<http://es.dbpedia.org/ontology/city> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Bridge> ,
+                                                  <http://dbpedia.org/ontology/Monument> ,
+                                                  <http://linkedgeodata.org/ontology/Statue> ,
+                                                  <http://linkedgeodata.org/ontology/Stone#Stone> ,
+                                                  :Conceptual_Statue ,
+                                                  :Sculptural_Group ,
+                                                  :Singular_Building ,
+                                                  :Water_Construction ,
+                                                  <http://www.ontotext.com/proton/protonext#Arch> ;
+                                      rdfs:range <http://es.dbpedia.org/ontology/PopulatedPlace> .
+
+
+###  http://es.dbpedia.org/ontology/province
+<http://es.dbpedia.org/ontology/province> rdf:type owl:ObjectProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Bridge> ,
+                                                      <http://dbpedia.org/ontology/Monument> ,
+                                                      <http://linkedgeodata.org/ontology/Statue> ,
+                                                      <http://linkedgeodata.org/ontology/Stone#Stone> ,
+                                                      :Conceptual_Statue ,
+                                                      :Sculptural_Group ,
+                                                      :Singular_Building ,
+                                                      :Water_Construction ,
+                                                      <http://www.ontotext.com/proton/protonext#Arch> ;
+                                          rdfs:range <http://es.dbpedia.org/ontology/PopulatedPlace> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://dbpedia.org/ontology/Name
+<http://dbpedia.org/ontology/Name> rdf:type owl:DatatypeProperty ;
+                                   rdfs:domain <http://dbpedia.org/ontology/Bridge> ,
+                                               <http://dbpedia.org/ontology/Monument> ,
+                                               <http://dbpedia.org/ontology/person> ,
+                                               <http://linkedgeodata.org/ontology/Statue> ,
+                                               <http://linkedgeodata.org/ontology/Stone#Stone> ,
+                                               :Conceptual_Statue ,
+                                               :Sculptural_Group ,
+                                               :Singular_Building ,
+                                               :Water_Construction ,
+                                               <http://www.ontotext.com/proton/protonext#Arch> ,
+                                               owl:Thing ;
+                                   rdfs:range xsd:string .
+
+
+###  http://dbpedia.org/ontology/postalCode
+<http://dbpedia.org/ontology/postalCode> rdf:type owl:DatatypeProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Bridge> ,
+                                                     <http://dbpedia.org/ontology/Monument> ,
+                                                     <http://dbpedia.org/ontology/person> ,
+                                                     <http://linkedgeodata.org/ontology/Statue> ,
+                                                     <http://linkedgeodata.org/ontology/Stone#Stone> ,
+                                                     :Conceptual_Statue ,
+                                                     :Sculptural_Group ,
+                                                     :Singular_Building ,
+                                                     :Water_Construction ,
+                                                     <http://www.ontotext.com/proton/protonext#Arch> ,
+                                                     owl:Thing ;
+                                         rdfs:range xsd:string .
+
+
+###  http://dbpedia.org/page/Latitude
+<http://dbpedia.org/page/Latitude> rdf:type owl:DatatypeProperty ;
+                                   rdfs:domain <http://dbpedia.org/ontology/Bridge> ,
+                                               <http://dbpedia.org/ontology/Monument> ,
+                                               <http://dbpedia.org/ontology/person> ,
+                                               <http://linkedgeodata.org/ontology/Statue> ,
+                                               <http://linkedgeodata.org/ontology/Stone#Stone> ,
+                                               :Conceptual_Statue ,
+                                               :Sculptural_Group ,
+                                               :Singular_Building ,
+                                               :Water_Construction ,
+                                               <http://www.ontotext.com/proton/protonext#Arch> ,
+                                               owl:Thing ;
+                                   rdfs:range xsd:float .
+
+
+###  http://dbpedia.org/page/Length
+<http://dbpedia.org/page/Length> rdf:type owl:DatatypeProperty ;
+                                 rdfs:domain <http://dbpedia.org/ontology/Bridge> ,
+                                             <http://dbpedia.org/ontology/Monument> ,
+                                             <http://dbpedia.org/ontology/person> ,
+                                             <http://linkedgeodata.org/ontology/Statue> ,
+                                             <http://linkedgeodata.org/ontology/Stone#Stone> ,
+                                             :Conceptual_Statue ,
+                                             :Sculptural_Group ,
+                                             :Singular_Building ,
+                                             :Water_Construction ,
+                                             <http://www.ontotext.com/proton/protonext#Arch> ,
+                                             owl:Thing ;
+                                 rdfs:range xsd:float .
+
+
+###  http://www.madridhistorico.es/linkedData#address
+:address rdf:type owl:DatatypeProperty ;
+         rdfs:domain <http://dbpedia.org/ontology/Bridge> ,
+                     <http://dbpedia.org/ontology/Monument> ,
+                     <http://dbpedia.org/ontology/person> ,
+                     <http://linkedgeodata.org/ontology/Statue> ,
+                     <http://linkedgeodata.org/ontology/Stone#Stone> ,
+                     :Conceptual_Statue ,
+                     :Sculptural_Group ,
+                     :Singular_Building ,
+                     :Water_Construction ,
+                     <http://www.ontotext.com/proton/protonext#Arch> ,
+                     owl:Thing ;
+         rdfs:range xsd:string .
+
+
+###  http://www.madridhistorico.es/linkedData#coordinate_X
+:coordinate_X rdf:type owl:DatatypeProperty ;
+              rdfs:domain <http://dbpedia.org/ontology/Bridge> ,
+                          <http://dbpedia.org/ontology/Monument> ,
+                          <http://dbpedia.org/ontology/person> ,
+                          <http://linkedgeodata.org/ontology/Statue> ,
+                          <http://linkedgeodata.org/ontology/Stone#Stone> ,
+                          :Conceptual_Statue ,
+                          :Sculptural_Group ,
+                          :Singular_Building ,
+                          :Water_Construction ,
+                          <http://www.ontotext.com/proton/protonext#Arch> ,
+                          owl:Thing ;
+              rdfs:range xsd:int .
+
+
+###  http://www.madridhistorico.es/linkedData#coordinate_Y
+:coordinate_Y rdf:type owl:DatatypeProperty ;
+              rdfs:domain <http://dbpedia.org/ontology/Bridge> ,
+                          <http://dbpedia.org/ontology/Monument> ,
+                          <http://dbpedia.org/ontology/person> ,
+                          <http://linkedgeodata.org/ontology/Statue> ,
+                          <http://linkedgeodata.org/ontology/Stone#Stone> ,
+                          :Conceptual_Statue ,
+                          :Sculptural_Group ,
+                          :Singular_Building ,
+                          :Water_Construction ,
+                          <http://www.ontotext.com/proton/protonext#Arch> ,
+                          owl:Thing ;
+              rdfs:range xsd:int .
+
+
+###  http://www.madridhistorico.es/linkedData#year
+:year rdf:type owl:DatatypeProperty ;
+      rdfs:domain <http://dbpedia.org/ontology/Bridge> ,
+                  <http://dbpedia.org/ontology/Monument> ,
+                  <http://dbpedia.org/ontology/person> ,
+                  <http://linkedgeodata.org/ontology/Statue> ,
+                  <http://linkedgeodata.org/ontology/Stone#Stone> ,
+                  :Conceptual_Statue ,
+                  :Sculptural_Group ,
+                  :Singular_Building ,
+                  :Water_Construction ,
+                  <http://www.ontotext.com/proton/protonext#Arch> ,
+                  owl:Thing ;
+      rdfs:range xsd:int .
+
+
+###  ttp://dbpedia.org/ontology/description
+<ttp://dbpedia.org/ontology/description> rdf:type owl:DatatypeProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Bridge> ,
+                                                     <http://dbpedia.org/ontology/Monument> ,
+                                                     <http://linkedgeodata.org/ontology/Statue> ,
+                                                     <http://linkedgeodata.org/ontology/Stone#Stone> ,
+                                                     :Conceptual_Statue ,
+                                                     :Sculptural_Group ,
+                                                     :Singular_Building ,
+                                                     :Water_Construction ,
+                                                     <http://www.ontotext.com/proton/protonext#Arch> ;
+                                         rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/ontology/Bridge
+<http://dbpedia.org/ontology/Bridge> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###  http://dbpedia.org/ontology/Monument
+<http://dbpedia.org/ontology/Monument> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/person
+<http://dbpedia.org/ontology/person> rdf:type owl:Class .
+
+
+###  http://es.dbpedia.org/ontology/PopulatedPlace
+<http://es.dbpedia.org/ontology/PopulatedPlace> rdf:type owl:Class .
+
+
+###  http://linkedgeodata.org/ontology/Statue
+<http://linkedgeodata.org/ontology/Statue> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###  http://linkedgeodata.org/ontology/Stone#Stone
+<http://linkedgeodata.org/ontology/Stone#Stone> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###  http://www.madridhistorico.es/linkedData#Conceptual_Statue
+:Conceptual_Statue rdf:type owl:Class ;
+                   rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###  http://www.madridhistorico.es/linkedData#Sculptural_Group
+:Sculptural_Group rdf:type owl:Class ;
+                  rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###  http://www.madridhistorico.es/linkedData#Singular_Building
+:Singular_Building rdf:type owl:Class ;
+                   rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###  http://www.madridhistorico.es/linkedData#Water_Construction
+:Water_Construction rdf:type owl:Class ;
+                    rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###  http://www.ontotext.com/proton/protonext#Arch
+<http://www.ontotext.com/proton/protonext#Arch> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

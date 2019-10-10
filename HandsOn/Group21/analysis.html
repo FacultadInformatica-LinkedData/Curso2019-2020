@@ -1,0 +1,186 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Analysis</title>
+  </head>
+  <body>
+    <h3>Analyse Data Set, Licensing of Data Source and Resource Naming Strategy</h3>
+    <table style="width:100%;text-align: center;border: 1px solid black;">
+    <tr>
+        <td style="font-weight:bold;">Data</td>
+        <td style="font-weight:bold;">Type</td>
+        <td style="font-weight:bold;">Value range</td>
+        <td style="font-weight:bold;">Description</td>
+    </tr>
+    <tr>
+        <td>PK</td>
+        <td>Integer</td>
+
+        <td>[0-9]</td>
+        <td>Identificador numerico de las instalaciones deportivas</td>
+    </tr>
+    <tr>
+        <td>NOMBRE</td>
+        <td>String</td>
+        <td>[a-z][A-Z]</td>
+        <td>Nombre de la instalación deportiva</td>
+    </tr>
+    <tr>
+        <td>EQUIPAMIENTO</td>
+        <td>String</td>
+        <td>[0-9[a-z][A-Z]</td>
+        <td>Equipamiento con el que cuenta la instalación deportiva</td>
+    </tr>
+    <tr>
+        <td>TRANSPORTE</td>
+        <td>String</td>
+        <td>[a-z][A-Z][:,]</td>
+        <td>Indicaciónes de transporte publico para llegar a la instalaciñon deportiva</td>
+    </tr>
+    <tr>
+        <td>ACCESIBILIDAD</td>
+        <td>Integer</td>
+        <td>[0-3]</td>
+        <td>Grado de nivel de accesibilidad de las instalaciones</td>
+    </tr>
+    <tr>
+        <td>CONTENT-URL</td>
+        <td>String</td>
+        <td>[a-z][A-Z][/?&.=:]</td>
+        <td>Url de las instalaciones para informacion en el portal de datos.gob</td>
+    </tr>
+    <tr>
+        <td>NOMBRE-VIA</td>
+        <td>String</td>
+        <td>[a-z][A-Z]</td>
+        <td>Nombre de la via donde se encuentra la instalacion</td>
+    </tr>
+    <tr>
+        <td>CLASE-VIAL</td>
+        <td>String</td>
+        <td>[a-z][A-Z]</td>
+        <td>Tipo de via</td>
+    </tr>
+    <tr>
+        <td>TIPO-NUM</td>
+        <td>String</td>
+        <td>[A,V]</td>
+        <td>Tipo de numeracion de la via</td>
+    </tr>
+    <tr>
+        <td>NUM</td>
+        <td>String</td>
+        <td>[0-9][s/n]</td>
+        <td>Numero de la via donde se encuentra la instalacion</td>
+    </tr>
+    <tr>
+        <td>ORIENTACIÓN</td>
+        <td>String</td>
+        <td>[a-z][A-Z][/]</td>
+        <td>Orientacion de las instalaciones deportivas</td>
+    </tr>
+    <tr>
+        <td>LOCALIDAD</td>
+        <td>String</td>
+        <td>[a-z][A-Z]</td>
+        <td>Localdad donde se encuentran las instalaciones deportivas</td>
+    </tr>
+    <tr>
+        <td>PROVINCIA</td>
+        <td>String</td>
+        <td>[a-z][A-Z]</td>
+        <td>Provincia donde se encuentran las instalaciones deportivas</td>
+    </tr>
+    <tr>
+        <td>CODIGO-POSTAL</td>
+        <td>Integer</td>
+        <td>[0-9]</td>
+        <td>Codigo Postal de donde se encuentran las instalaciones deportivas</td>
+    </tr>
+    <tr>
+        <td>BARRIO</td>
+        <td>String</td>
+        <td>[a-z][A-Z]</td>
+        <td>Barrio donde se encuentran las instalaciones deportivas</td>
+    </tr>
+    <tr>
+        <td>DISTRITO</td>
+        <td>String</td>
+        <td>[a-z][A-Z]</td>
+        <td>Distrito donde se encuentran las instalaciones deportivas</td>
+    </tr>
+    <tr>
+        <td>COORDENADA-X</td>
+        <td>Integer</td>
+        <td>[0-9]</td>
+        <td>Coordenada X de la instalacion deportiva</td>
+    </tr>
+    <tr>
+        <td>COORDENADA-Y</td>
+        <td>Integer</td>
+        <td>[0-9]</td>
+        <td>Coordenada Y de la instalacion deportiva</td>
+    </tr>
+    <tr>
+        <td>LATITUD</td>
+        <td>Double</td>
+        <td>[0-9][.][-]</td>
+        <td>Longitud geografica de donde se encuentran las instalaciones</td>
+    </tr>
+    <tr>
+        <td>LONGITUD</td>
+		<td>Double</td>
+        <td>[0-9][.]</td>
+        <td>Latitud geografica de donde se encuentran las instalaciones</td>
+    </tr>
+    <tr>
+        <td>TELEFONO</td>
+        <td>String</td>
+        <td>[0-9]</td>
+        <td>Telefono de contacto de la instalacion deportiva</td>
+    </tr>
+    <tr>
+        <td>TIPO</td>
+        <td>String</td>
+        <td>[a-z][A-Z][/]</td>
+        <td>Tipo de la instalacion deportiva</td>
+    </tr>    
+    </table>
+    <h3>Licensing</h3>
+	<p>Publisher:  Ayuntamiento de Madrid.<br>
+	Rightsholder: Ayuntamiento de Madrid.</p>
+	<p>The licence of the dataset:<br>
+	El publicador no ha especificado una licencia explícitamente, pero las condiciones son bastantes parecidas a las de CC BY.</p>
+	<p>Las presentes condiciones generales permiten la reutilización de los documentos y datos sometidos a ellas para fines comerciales y no comerciales.<br>
+	Condiciones generales para la reutilización, siempre que dicho uso no constituya una actividad administrativa pública. Por ejemplo, la reutilización autorizada incluye actividades como la copia, difusión, modificación, adaptación, extracción, reordenación y combinación de la información.</p>
+	<p>Son de aplicación las siguientes condiciones generales para la reutilización de los documentos sometidos a ellas:<br>
+	1.Está prohibido desnaturalizar el sentido de la información.<br>
+	2.Debe citarse la fuente de los documentos objeto de la reutilización. Esta cita podrá realizarse de la siguiente manera: "Origen de los datos: Ayuntamiento de Madrid (o, en su caso, órgano administrativo, organismo o entidad de que se trate)"<br>
+	3.Debe mencionarse la fecha de la última actualización de los documentos objeto de la reutilización, siempre y cuando estuviera incluida en el documento original.<br>
+	4.No se podrá indicar, insinuar o sugerir que el Ayuntamiento de Madrid participa, patrocina o apoya la reutilización que se lleve a cabo con la información.<br>
+	5.Deben conservarse, no alterarse ni suprimirse los metadatos sobre la fecha de actualización y las condiciones de reutilización aplicables incluidos, en su caso, en el documento puesto a disposición para su reutilización.<br>
+	6.En caso de información anonimizada por protección de datos personales u otros motivos, está expresamente prohibido realizar labores de re-identificación de personas a partir de estos datos y otras fuentes de datos e información posibles, pasadas, actuales o futuras.</p>
+	<p>Define the potential license to be used for the dataset to be generated:<br>
+	CC BY<br>
+	CC BY-SA<br>	
+	CC BY-NC<br>
+	CC BY-ND<br>
+	CC BY-NC-ND<br>
+	CC BY-NC-SA</p>
+       <p> Podemos encontrar la licencia en el siguiente enlace:  <a href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD">Enlace</a></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <h3>Resource Naming</h3>
+    <ul>
+       <li><b> Domain: </b>http://www.instalacionesDeportivasMunicipales.es/ </li>
+       <li><b> Ontological terms path:</b>http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas </li>
+       <li><b> Individuals path: </b>http://www.instalacionesDeportivasMunicipales.es/resource</li>
+       <li><b> Ontological terms pattern: </b>http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#term</li>
+       <li><b> Individual pattern: </b>http://www.instalacionesDeportivasMunicipales.es/resource/type/name</li>
+     </ul>
+    <p></p>
+    <p></p>
+    <p></p>
+  </body>
+</html>
