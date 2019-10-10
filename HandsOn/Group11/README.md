@@ -1,7 +1,7 @@
-# Group Hands-on Assignment 2019-2020
+# Hands-on Assignment 2019-2020
 
 
-## Group11
+## Group 11
 - [Víctor Nieves](https://github.com/VictorNS69)
 - [Daniel Morgera](https://github.com/dmorgera)
 - [Andrea Velarde](https://github.com/AndreaVentur10)
