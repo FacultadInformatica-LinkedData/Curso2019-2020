@@ -11,8 +11,6 @@ import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.vocabulary.VCARD;
-import org.apache.jena.vocabulary.RDF;
-import org.apache.jena.vocabulary.RDFS;
 
 /**
  * Task 06: Modifying ontologies (RDFs)
@@ -45,36 +43,29 @@ public class Task06
 		model.read(in, null);
 		
 		// Create a new class named "Researcher"
-		
 		OntClass researcher = model.createClass(ns+"Researcher");
 		
 		// ** TASK 6.1: Create a new class named "University" **
-		
 		OntClass university = model.createClass(ns+"University");
 		
 		// ** TASK 6.2: Add "Researcher" as a subclass of "Person" **
-		
-		OntClass person = model.getOntClass(ns+"Person"); person.addSubClass(researcher);
+		researcher.addSuperClass(model.getOntClass(ns+"Person"));
 		
 		// ** TASK 6.3: Create a new property named "worksIn" **
-		
-		model.createProperty(ns + "worksIn");
+		Property worksIn = model.createProperty(ns+"worksIn");
 		
 		// ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **
-		
-		Individual janeSmith = researcher.createIndividual(ns + "JaneSmith");
+		Individual janeSmith = researcher.createIndividual(ns+"Jane Smith");
 		
 		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
-		
-		janeSmith.addLiteral(VCARD.FN,"Jane Smith");
-		janeSmith.addLiteral(VCARD.Given,"Jane");
-		janeSmith.addLiteral(VCARD.Family,"Smith");
+		janeSmith.addLiteral(VCARD.FN, "Jane Smith");
+		janeSmith.addLiteral(VCARD.Given, "Jane");
+		janeSmith.addLiteral(VCARD.Family, "Smith");
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		
-		Individual UPM = model.getOntClass(ns + "University").createIndividual(ns + "UPM");
-		model.getIndividual(ns + "JohnSmith").addProperty(model.getProperty(ns + "worksIn"), UPM);		
-
+		Individual UPM = university.createIndividual(ns+"UPM");
+		Individual johnSmith = model.getIndividual(ns+"JohnSmith");
+		johnSmith.addProperty(worksIn, UPM);
 		
 		model.write(System.out, "RDF/XML-ABBREV");
 	}

@@ -56,33 +56,34 @@ public class Task07
 			System.out.println("Subclass of Person: "+subclass.getURI());
 		}
 		
+
+		
+		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
+
+		OntModel inferenceModel = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
 		
-		 System.out.println("\nTASK 7.3:");
-
-	        OntModel modelInference = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
-
-			//Read the file
-	        InputStream inInference = FileManager.get().open(filename);
-	        modelInference.read(inInference,null);
-
-	        //Individuals of persons
-	        OntClass personInference = modelInference.getOntClass(ns + "Person");
-	        ExtendedIterator instancesInference = personInference.listInstances();
-
-	        while(instancesInference.hasNext()){
-	            Individual instInference = (Individual) instancesInference.next();
-	            System.out.println("Instance of Person: " + instInference.getURI());
-	        }
-
-	        //Subclasses of "Person"
-	        ExtendedIterator subClassesInference = personInference.listSubClasses();
-
-	        while(subClassesInference.hasNext()){
-	            OntClass subClassInference = (OntClass) subClassesInference.next();
-	            System.out.println("Subclass of Person: " + subClassInference.getURI());
-	        }
+		InputStream in2 = FileManager.get().open(filename);
 		
-	
+		if (in2 == null)
+			throw new IllegalArgumentException("File: "+filename+" not found");
+		
+		inferenceModel.read(in2, null);
+		
+		OntClass person2 = inferenceModel.getOntClass(ns+"Person");
+		
+		ExtendedIterator persons = person2.listInstances();
+		
+		while(persons.hasNext()){
+			Individual personInst = (Individual) persons.next();
+			System.out.println("Instance of person: " + personInst.getURI());
+		}
+		
+		ExtendedIterator subClasses2 = person2.listSubClasses();
+		
+		while(subClasses2.hasNext()){
+			OntClass subclassInst = (OntClass) subClasses2.next();
+			System.out.println("Subclass of Person: " + subclassInst.getURI());
+		}
 	}
 }

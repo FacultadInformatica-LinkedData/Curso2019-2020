@@ -1,11 +1,12 @@
 package upm.oeg.wsld.jena;
 
-import java.io.InputStream;
+import java.io.InputStream; 
 
 import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.ontology.OntResource;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
@@ -56,33 +57,34 @@ public class Task07
 			System.out.println("Subclass of Person: "+subclass.getURI());
 		}
 		
+
+		
+		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-		
-		 System.out.println("\nTASK 7.3:");
+		OntModel modelInf = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
+		InputStream inInf = FileManager.get().open(filename);
 
-	        OntModel modelInference = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
+		if (inInf == null)
+			throw new IllegalArgumentException("File: "+filename+" not found");
 
-			//Read the file
-	        InputStream inInference = FileManager.get().open(filename);
-	        modelInference.read(inInference,null);
+		modelInf.read(inInf, null);
 
-	        //Individuals of persons
-	        OntClass personInference = modelInference.getOntClass(ns + "Person");
-	        ExtendedIterator instancesInference = personInference.listInstances();
+		OntClass personInf = modelInf.getOntClass(ns+"Person");
+		ExtendedIterator instancesInf = personInf.listInstances();
 
-	        while(instancesInference.hasNext()){
-	            Individual instInference = (Individual) instancesInference.next();
-	            System.out.println("Instance of Person: " + instInference.getURI());
-	        }
+		while (instancesInf.hasNext())
+		{
+			Individual instInf = (Individual) instancesInf.next();
+			System.out.println("Indirect Instance of Person: "+instInf.getURI());
+		}
 
-	        //Subclasses of "Person"
-	        ExtendedIterator subClassesInference = personInference.listSubClasses();
+		ExtendedIterator subclassesInf = personInf.listSubClasses();
 
-	        while(subClassesInference.hasNext()){
-	            OntClass subClassInference = (OntClass) subClassesInference.next();
-	            System.out.println("Subclass of Person: " + subClassInference.getURI());
-	        }
-		
-	
+		while (subclassesInf.hasNext())
+		{
+			OntClass subclassInf = (OntClass) subclassesInf.next();
+			System.out.println("Indirect Subclass of Person: "+subclassInf.getURI());
+		}
+
 	}
 }
