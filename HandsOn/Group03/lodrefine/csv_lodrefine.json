@@ -1,0 +1,115 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column ZONA VERDE / \nVIA PUBLICA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ZONA VERDE / \nVIA PUBLICA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ZV"
+        ],
+        "to": "Zona Verde"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column ZONA VERDE / \nVIA PUBLICA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ZONA VERDE / \nVIA PUBLICA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "VP"
+        ],
+        "to": "Vía Pública"
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column IDENTIFICADOR at index 1 based on column CODIGO using expression grel:\"FUE_\" + \"0000\"[0,4-row.index.length()] + row.index",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "IDENTIFICADOR",
+    "columnInsertIndex": 1,
+    "baseColumnName": "CODIGO",
+    "expression": "grel:\"FUE_\" + \"0000\"[0,4-row.index.length()] + row.index",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGO",
+    "columnName": "CODIGO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column IDENTIFICADOR to CODIGO",
+    "oldColumnName": "IDENTIFICADOR",
+    "newColumnName": "CODIGO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COMPLEMENTO_DIRECCION",
+    "columnName": "COMPLEMENTO_DIRECCION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORD. X",
+    "columnName": "COORD. X"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORD. Y",
+    "columnName": "COORD. Y"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column SISTEMA DE COORDENADAS",
+    "columnName": "SISTEMA DE COORDENADAS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column OBSERVACIONES",
+    "columnName": "OBSERVACIONES"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column DIR at index 4 based on column DIRECCION using expression grel:value.replace(/[123456789,:º]/,' ')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "DIR",
+    "columnInsertIndex": 4,
+    "baseColumnName": "DIRECCION",
+    "expression": "grel:value.replace(/[123456789,:º]/,' ')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DIRECCION",
+    "columnName": "DIRECCION"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column DIR to DIRECCION",
+    "oldColumnName": "DIR",
+    "newColumnName": "DIRECCION"
+  }
+]
