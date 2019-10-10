@@ -1,0 +1,95 @@
+@prefix : <http://www.semanticweb.org/group19/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/group19/ontology/> .
+
+<http://www.semanticweb.org/group19/ontology/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/group19/ontology#hasDistrict
+<http://www.semanticweb.org/group19/ontology#hasDistrict> rdf:type owl:ObjectProperty ;
+                                                          rdfs:domain <http://www.semanticweb.org/group19/ontology#Accident> ;
+                                                          rdfs:range <http://www.semanticweb.org/group19/ontology#District> .
+
+
+###  http://www.semanticweb.org/group19/ontology#hasStreet
+<http://www.semanticweb.org/group19/ontology#hasStreet> rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain <http://www.semanticweb.org/group19/ontology#Accident> ;
+                                                        rdfs:range <http://www.semanticweb.org/group19/ontology#Street> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/group19/ontology#hasAgeRange
+<http://www.semanticweb.org/group19/ontology#hasAgeRange> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:domain <http://www.semanticweb.org/group19/ontology#Accident> ;
+                                                          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group19/ontology#hasDateTime
+<http://www.semanticweb.org/group19/ontology#hasDateTime> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:domain <http://www.semanticweb.org/group19/ontology#Accident> ;
+                                                          rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/group19/ontology#hasGenre
+<http://www.semanticweb.org/group19/ontology#hasGenre> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:domain <http://www.semanticweb.org/group19/ontology#Accident> ;
+                                                       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group19/ontology#hasInjury
+<http://www.semanticweb.org/group19/ontology#hasInjury> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:domain <http://www.semanticweb.org/group19/ontology#Accident> ;
+                                                        rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/group19/ontology#hasNumber
+<http://www.semanticweb.org/group19/ontology#hasNumber> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:domain <http://www.semanticweb.org/group19/ontology#Accident> ;
+                                                        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group19/ontology#hasPersonType
+<http://www.semanticweb.org/group19/ontology#hasPersonType> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:domain <http://www.semanticweb.org/group19/ontology#Accident> ;
+                                                            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group19/ontology#hasWeather
+<http://www.semanticweb.org/group19/ontology#hasWeather> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:domain <http://www.semanticweb.org/group19/ontology#Accident> ;
+                                                         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group19/ontology#hastType
+<http://www.semanticweb.org/group19/ontology#hastType> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:domain <http://www.semanticweb.org/group19/ontology#Accident> ;
+                                                       rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/group19/ontology#Accident
+<http://www.semanticweb.org/group19/ontology#Accident> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/group19/ontology#District
+<http://www.semanticweb.org/group19/ontology#District> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/group19/ontology#Street
+<http://www.semanticweb.org/group19/ontology#Street> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
