@@ -64,8 +64,8 @@ public class Task06
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
 		Individual UPM = university.createIndividual(ns+"UPM");
-		Resource johnSmith = model.createResource(ns+"JohnSmith");
-		johnSmith.addLiteral(worksIn, UPM);
+		Individual johnSmith = model.getIndividual(ns+"JohnSmith");
+		johnSmith.addProperty(worksIn, UPM);
 		
 		model.write(System.out, "RDF/XML-ABBREV");
 	}
