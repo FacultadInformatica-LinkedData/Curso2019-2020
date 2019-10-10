@@ -3,6 +3,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://www.semanticweb.org/grupo07/ontologies> .
 
@@ -22,6 +23,12 @@
 #    Data properties
 #################################################################
 
+###  http://www.semanticweb.org/grupo07/ontologies/property#bus
+<http://www.semanticweb.org/grupo07/ontologies/property#bus> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
+                                                             rdfs:range xsd:string .
+
+
 ###  http://www.semanticweb.org/grupo07/ontologies/property#description
 <http://www.semanticweb.org/grupo07/ontologies/property#description> rdf:type owl:DatatypeProperty ;
                                                                      rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
@@ -34,22 +41,22 @@
                                                                    rdfs:range xsd:string .
 
 
+###  http://www.semanticweb.org/grupo07/ontologies/property#metro
+<http://www.semanticweb.org/grupo07/ontologies/property#metro> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
+                                                               rdfs:range xsd:string .
+
+
 ###  http://www.semanticweb.org/grupo07/ontologies/property#name
 <http://www.semanticweb.org/grupo07/ontologies/property#name> rdf:type owl:DatatypeProperty ;
                                                               rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
                                                               rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/grupo07/ontologies/property#transport
-<http://www.semanticweb.org/grupo07/ontologies/property#transport> rdf:type owl:DatatypeProperty ;
-                                                                   rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
-                                                                   rdfs:range xsd:string .
-
-
 ###  http://www.semanticweb.org/grupo07/ontologies/property#url
 <http://www.semanticweb.org/grupo07/ontologies/property#url> rdf:type owl:DatatypeProperty ;
                                                              rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
-                                                             rdfs:range xsd:anyUri .
+                                                             rdfs:range xsd:anyURI .
 
 
 #################################################################
