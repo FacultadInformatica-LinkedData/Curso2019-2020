@@ -1,0 +1,291 @@
+[
+  {
+    "op": "core/blank-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_VIA",
+    "description": "Blank down cells in column COD_VIA"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "COD_VIA",
+          "expression": "isBlank(value)",
+          "columnName": "COD_VIA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "VIA_NOMBRE_ACENTOS",
+    "description": "Remove column VIA_NOMBRE_ACENTOS"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CLASE_APP",
+    "description": "Remove column CLASE_APP"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CALIFICADOR",
+    "description": "Remove column CALIFICADOR"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO_NDP",
+    "description": "Remove column TIPO_NDP"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COD_NDP",
+    "description": "Remove column COD_NDP"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ANGULO_ROTULACION",
+    "description": "Remove column ANGULO_ROTULACION"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "VIA_CLASE",
+          "columnName": "VIA_CLASE",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "VIA_CLASE",
+    "expression": "grel:value + \" \" + cells['VIA_PAR'].value + \" \" + cells['VIA_NOMBRE'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column VIA_CLASE using expression grel:value + \" \" + cells['VIA_PAR'].value + \" \" + cells['VIA_NOMBRE'].value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "VIA_PAR",
+    "description": "Remove column VIA_PAR"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "VIA_NOMBRE",
+    "description": "Remove column VIA_NOMBRE"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NUMERO",
+    "description": "Remove column NUMERO"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "VIA_CLASE",
+          "expression": "isBlank(value)",
+          "columnName": "VIA_CLASE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COD_VIA",
+    "newColumnName": "Location",
+    "description": "Rename column COD_VIA to Location"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "VIA_CLASE",
+    "newColumnName": "Name",
+    "description": "Rename column VIA_CLASE to Name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DISTRITO",
+    "newColumnName": "District",
+    "description": "Rename column DISTRITO to District"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "BARRIO",
+    "newColumnName": "Neighborhood",
+    "description": "Rename column BARRIO to Neighborhood"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "UTMX_ED",
+    "description": "Remove column UTMX_ED"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "UTMY_ED",
+    "description": "Remove column UTMY_ED"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "UTMX_ETRS",
+    "description": "Remove column UTMX_ETRS"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "UTMY_ETRS",
+    "description": "Remove column UTMY_ETRS"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COD_POSTAL",
+    "description": "Remove column COD_POSTAL"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LATITUD",
+    "newColumnName": "Latitude",
+    "description": "Rename column LATITUD to Latitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LONGITUD",
+    "newColumnName": "Longitude",
+    "description": "Rename column LONGITUD to Longitude"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g17",
+          "uri": "http://group17.data/"
+        }
+      ],
+      "baseUri": "http://localhost:3333/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Location",
+          "expression": "\"Location/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Name",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://group17.data/isInDistrict",
+              "curie": "g17:isInDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "District",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://group17.data/isInNeighborhood",
+              "curie": "g17:isInNeighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Neighborhood",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Latitude",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Longitude",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://group17.data/Location",
+              "curie": "g17:Location"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]
