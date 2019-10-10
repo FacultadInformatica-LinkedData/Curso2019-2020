@@ -1,0 +1,99 @@
+@prefix : <http://www.tupuntolimpio.es/grupo08/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> . //1er fallo transparencias ultimas viene formato uri
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix loc: <http://rdfs.co/juso/latest/html#term-Address> .
+@prefix rot:<http://dbpedia.org/ontology/RouteOfTransportation>
+@base <http://www.tupuntolimpio.es/grupo08/ontology#> .
+
+<http://www.tupuntolimpio.es/grupo08/ontology#> rdf:type owl:Ontology .
+
+
+# Object Properties #
+
+<http://www.tupuntolimpio.es/grupo08/ontology#enBarrio> rdf:type owl:ObjectProperty ;
+													    rdfs:domain :Barrio ;
+													    rdfs:range xsd:string .
+                                                              															   
+<http://www.tupuntolimpio.es/grupo08/ontology#enDistrito> rdf:type owl:ObjectProperty ;
+													      rdfs:domain :Distrito ;
+													      rdfs:range xsd:string .
+														  
+<http://www.tupuntolimpio.es/grupo08/ontology#enLocalidad> rdf:type owl:ObjectProperty ;
+													       rdfs:domain :Localidad ;
+													       rdfs:range xsd:string .
+														   
+<http://www.tupuntolimpio.es/grupo08/ontology#enProvincia> rdf:type owl:ObjectProperty ;
+														   rdfs:domain :Provincia ;
+													       rdfs:range xsd:string .
+
+
+# Data Properties #
+
+
+<http://www.tupuntolimpio.es/grupo08/ontology#hasCoordenadaX>
+:hasCoordenadaX rdf:type owl:DatatypeProperty ;
+				rdfs:domain :PuntoLimpio ;
+				rdfs:range xsd:int .
+				rdfs: seeAlso <https://datos.ign.es/def/geo_core/index-es.html#ObjetoGeografico> .
+
+
+<http://www.tupuntolimpio.es/grupo08/ontology#hasCoordenadaY>
+:hasCoordenadaY rdf:type owl:DatatypeProperty ;
+				rdfs:domain :PuntoLimpio ;
+				rdfs:range xsd:int ;
+				rdfs: seeAlso <https://datos.ign.es/def/geo_core/index-es.html#ObjetoGeografico> .
+
+<http://www.tupuntolimpio.es/grupo08/ontology#hasHorario>
+:hasHorario rdf:type owl:DatatypeProperty ;
+		    rdfs:domain :PuntoLimpio ;
+		    rdfs:range xsd:int .
+
+<http://www.tupuntolimpio.es/grupo08/ontology#hasCodigoPostal>
+:hasCodigoPostal rdf:type owl:DatatypeProperty ;
+				 rdfs:domain :PuntoLimpio;
+				 rdfs:range xsd:int ;
+				 rdfs: seeAlso <https://www.w3.org/2006/vcard/ns#postal-code> .
+				 
+<http://www.tupuntolimpio.es/grupo08/ontology#tipoCalle>
+:tipoCalle    rdf:type owl:DatatypeProperty ;
+			  rdfs:domain :Calle;
+			  rdfs:range xsd:string .
+			  
+<http://www.tupuntolimpio.es/grupo08/ontology#descripcion>
+:descripcion  rdf:type owl:DatatypeProperty ;
+			  rdfs:domain :PuntoLimpio;
+			  rdfs:range xsd:string .
+			  
+<http://www.tupuntolimpio.es/grupo08/ontology#transporte>
+:transporte rdf:type owl:DatatypeProperty ;
+			rdfs:domain rot:route;
+			rdfs:range xsd:string .
+			  
+			  
+# Classes #
+
+http://www.tupuntolimpio.es/grupo08/PuntoLimpio
+rdf:type owl:Class .
+
+http://www.tupuntolimpio.es/grupo08/Distrito
+rdf:type owl:Class .
+
+http://www.tupuntolimpio.es/grupo08/Barrio
+rdf:type owl:Class .
+
+http://www.tupuntolimpio.es/grupo08/Localidad
+rdf:type owl:Class .
+
+http://www.tupuntolimpio.es/grupo08/Provincia
+rdf:type owl:Class .
+
+http://www.tupuntolimpio.es/grupo08/Calle
+rdf:type owl:Class .
+rdfs: seeAlso <https://www.w3.org/2006/vcard/ns#street-address> .
+
+
+
+
