@@ -1,0 +1,265 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION",
+    "description": "Remove column DIRECCION"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LONGITUD_ETRS89",
+    "description": "Remove column LONGITUD_ETRS89"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LATITUD_ETRS89",
+    "description": "Remove column LATITUD_ETRS89"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COD_TIPO",
+    "description": "Remove column COD_TIPO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NOM_TIPO",
+    "description": "Remove column NOM_TIPO"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "VIA_CLASE",
+    "expression": "grel:value + \" \" + cells['VIA_PAR'].value + \" \" + cells['VIA_NOMBRE'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column VIA_CLASE using expression grel:value + \" \" + cells['VIA_PAR'].value + \" \" + cells['VIA_NOMBRE'].value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "VIA_NOMBRE",
+    "description": "Remove column VIA_NOMBRE"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "VIA_PAR",
+    "description": "Remove column VIA_PAR"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Fecha alta",
+    "description": "Remove column Fecha alta"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COORDENADA_X_ETRS89",
+    "description": "Remove column COORDENADA_X_ETRS89"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COORDENADA_Y_ETRS89",
+    "description": "Remove column COORDENADA_Y_ETRS89"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CODIGO",
+    "description": "Remove column CODIGO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CODIGO_CORTO",
+    "newColumnName": "CODIGO_ESTACION",
+    "description": "Rename column CODIGO_CORTO to CODIGO_ESTACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CODIGO_ESTACION",
+    "newColumnName": "Sensor",
+    "description": "Rename column CODIGO_ESTACION to Sensor"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ESTACION",
+    "newColumnName": "Nombre",
+    "description": "Rename column ESTACION to Nombre"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ALTITUD",
+    "description": "Remove column ALTITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NO2",
+    "description": "Remove column NO2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "SO2",
+    "description": "Remove column SO2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CO",
+    "description": "Remove column CO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PM10",
+    "description": "Remove column PM10"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PM2_5",
+    "description": "Remove column PM2_5"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "O3",
+    "description": "Remove column O3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "BTX",
+    "description": "Remove column BTX"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "HC",
+    "description": "Remove column HC"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nombre",
+    "newColumnName": "Name",
+    "description": "Rename column Nombre to Name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COD_VIA",
+    "newColumnName": "Location",
+    "description": "Rename column COD_VIA to Location"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "VIA_CLASE",
+    "description": "Remove column VIA_CLASE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LONGITUD",
+    "newColumnName": "Longitude",
+    "description": "Rename column LONGITUD to Longitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LATITUD",
+    "newColumnName": "Latitude",
+    "description": "Rename column LATITUD to Latitude"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sosa",
+          "uri": "http://www.w3.org/ns/sosa/"
+        }
+      ],
+      "baseUri": "http://group17.data/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Sensor",
+          "expression": "\"Sensor/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Name",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "hasLocation",
+              "curie": ":hasLocation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Location",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Latitude",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Longitude",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Sensor",
+              "curie": "sosa:Sensor"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]
