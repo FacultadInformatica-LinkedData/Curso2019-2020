@@ -3,7 +3,7 @@
 	xml:base="http://www.fi.upm.es/LinkedData/Assignment2#"
     xmlns="http://www.fi.upm.es/LinkedData/Assignment2#">
 	<rdf:Description rdf:about="#Class01">
-		<includes rdf:resource=#Sensor029"/>
+		<includes rdf:resource="#Sensor029"/>
 		<includes rdf:resource="#Computer101"/>
 	</rdf:Description>
 	<rdf:Description rdf:about="#Sensor029">
