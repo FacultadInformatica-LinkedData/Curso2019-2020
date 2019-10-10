@@ -1,0 +1,325 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column DISTRITO to type Q3032114"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column",
+    "description": "Remove column Column"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LARGA-DURACION",
+    "description": "Remove column LARGA-DURACION"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "URL-ACTIVIDAD",
+    "description": "Remove column URL-ACTIVIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TITULO-ACTIVIDAD",
+    "description": "Remove column TITULO-ACTIVIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIAS-EXCLUIDOS",
+    "description": "Remove column DIAS-EXCLUIDOS"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA",
+    "expression": "grel:value.split(\" \")[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column FECHA using expression grel:value.split(\" \")[0]"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA-FIN",
+    "expression": "grel:value.split(\" \")[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column FECHA-FIN using expression grel:value.split(\" \")[0]"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "https://www.eventosmadrid.es/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "TITULO",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "https://www.eventosmadrid.es/hasName",
+              "curie": ":https://www.eventosmadrid.es/hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TITULO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://www.eventosmadrid.es/hasPrice",
+              "curie": ":https://www.eventosmadrid.es/hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PRECIO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://www.eventosmadrid.es/hasLatitude",
+              "curie": ":https://www.eventosmadrid.es/hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://www.eventosmadrid.es/hasLongitude",
+              "curie": ":https://www.eventosmadrid.es/hasLongitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://www.eventosmadrid.es/hasInstallation",
+              "curie": ":https://www.eventosmadrid.es/hasInstallation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE-INSTALACION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://www.eventosmadrid.es/hasId",
+              "curie": ":https://www.eventosmadrid.es/hasId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID-EVENTO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "https://www.eventosmadrid.es/#Event",
+              "curie": ":https://www.eventosmadrid.es/#Event"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "NOMBRE-INSTALACION",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "https://www.eventosmadrid.es/featuresEvent",
+              "curie": ":https://www.eventosmadrid.es/featuresEvent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID-EVENTO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "https://www.eventosmadrid.es/#Installation",
+              "curie": ":https://www.eventosmadrid.es/#Installation"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "https://www.eventosmadrid.es/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "TITULO",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "https://www.eventosmadrid.es/hasName",
+              "curie": ":https://www.eventosmadrid.es/hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TITULO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://www.eventosmadrid.es/hasPrice",
+              "curie": ":https://www.eventosmadrid.es/hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PRECIO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://www.eventosmadrid.es/hasLatitude",
+              "curie": ":https://www.eventosmadrid.es/hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://www.eventosmadrid.es/hasLongitude",
+              "curie": ":https://www.eventosmadrid.es/hasLongitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://www.eventosmadrid.es/hasInstallation",
+              "curie": ":https://www.eventosmadrid.es/hasInstallation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE-INSTALACION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://www.eventosmadrid.es/hasId",
+              "curie": ":https://www.eventosmadrid.es/hasId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID-EVENTO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "https://www.eventosmadrid.es/#Event",
+              "curie": ":https://www.eventosmadrid.es/#Event"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "NOMBRE-INSTALACION",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "https://www.eventosmadrid.es/featuresEvent",
+              "curie": ":https://www.eventosmadrid.es/featuresEvent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID-EVENTO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "https://www.eventosmadrid.es/#Installation",
+              "curie": ":https://www.eventosmadrid.es/#Installation"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]
