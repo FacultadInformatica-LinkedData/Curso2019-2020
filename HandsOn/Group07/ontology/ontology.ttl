@@ -29,6 +29,12 @@
                                                              rdfs:range xsd:string .
 
 
+###  http://www.semanticweb.org/grupo07/ontologies/property#bus
+<http://www.semanticweb.org/grupo07/ontologies/property#bus> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
+                                                             rdfs:range xsd:string .
+
+
 ###  http://www.semanticweb.org/grupo07/ontologies/property#description
 <http://www.semanticweb.org/grupo07/ontologies/property#description> rdf:type owl:DatatypeProperty ;
                                                                      rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;

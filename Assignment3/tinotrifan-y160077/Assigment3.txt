@@ -1,0 +1,275 @@
+1. Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>) 
+
+SELECT DISTINCT ?property 
+	WHERE {
+	 ?x a <http://dbpedia.org/ontology/Politician> .
+	 ?x ?property ?y
+	} LIMIT 40
+
+
+property
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://www.w3.org/2002/07/owl#differentFrom
+http://www.w3.org/2000/01/rdf-schema#seeAlso
+http://www.w3.org/2002/07/owl#sameAs
+http://dbpedia.org/ontology/deathPlace
+http://dbpedia.org/property/deathPlace
+http://dbpedia.org/ontology/deathDate
+http://dbpedia.org/ontology/birthPlace
+http://dbpedia.org/ontology/birthDate
+http://purl.org/dc/terms/subject
+http://dbpedia.org/ontology/wikiPageID
+http://dbpedia.org/ontology/wikiPageRevisionID
+http://dbpedia.org/ontology/wikiPageExternalLink
+http://xmlns.com/foaf/0.1/name
+http://xmlns.com/foaf/0.1/homepage
+http://dbpedia.org/property/name
+http://xmlns.com/foaf/0.1/depiction
+http://purl.org/dc/terms/description
+http://xmlns.com/foaf/0.1/givenName
+http://xmlns.com/foaf/0.1/gender
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://xmlns.com/foaf/0.1/surname
+http://dbpedia.org/ontology/thumbnail
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://dbpedia.org/ontology/abstract
+http://dbpedia.org/ontology/activeYearsEndDate
+http://dbpedia.org/ontology/activeYearsStartDate
+http://dbpedia.org/ontology/almaMater
+http://dbpedia.org/ontology/award
+http://dbpedia.org/ontology/battle
+http://dbpedia.org/ontology/birthName
+http://dbpedia.org/ontology/child
+http://dbpedia.org/ontology/country
+http://dbpedia.org/ontology/deputy
+http://dbpedia.org/ontology/governorGeneral
+http://dbpedia.org/ontology/militaryBranch
+http://dbpedia.org/ontology/militaryRank
+http://dbpedia.org/ontology/militaryUnit
+
+#########################################################################################################################
+#########################################################################################################################
+
+2. Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+SELECT DISTINCT ?property 
+	WHERE {
+		?x a <http://dbpedia.org/ontology/Politician> .
+		?x ?property ?y .
+		FILTER (?property !=rdf:type)
+	} LIMIT 40
+
+
+	property
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://www.w3.org/2002/07/owl#differentFrom
+http://www.w3.org/2000/01/rdf-schema#seeAlso
+http://www.w3.org/2002/07/owl#sameAs
+http://dbpedia.org/ontology/deathPlace
+http://dbpedia.org/property/deathPlace
+http://dbpedia.org/ontology/deathDate
+http://dbpedia.org/ontology/birthPlace
+http://dbpedia.org/ontology/birthDate
+http://purl.org/dc/terms/subject
+http://dbpedia.org/ontology/wikiPageID
+http://dbpedia.org/ontology/wikiPageRevisionID
+http://dbpedia.org/ontology/wikiPageExternalLink
+http://xmlns.com/foaf/0.1/name
+http://xmlns.com/foaf/0.1/homepage
+http://dbpedia.org/property/name
+http://xmlns.com/foaf/0.1/depiction
+http://purl.org/dc/terms/description
+http://xmlns.com/foaf/0.1/givenName
+http://xmlns.com/foaf/0.1/gender
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://xmlns.com/foaf/0.1/surname
+http://dbpedia.org/ontology/thumbnail
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://dbpedia.org/ontology/abstract
+http://dbpedia.org/ontology/activeYearsEndDate
+http://dbpedia.org/ontology/activeYearsStartDate
+http://dbpedia.org/ontology/almaMater
+http://dbpedia.org/ontology/award
+http://dbpedia.org/ontology/battle
+http://dbpedia.org/ontology/birthName
+http://dbpedia.org/ontology/child
+http://dbpedia.org/ontology/country
+http://dbpedia.org/ontology/deputy
+http://dbpedia.org/ontology/governorGeneral
+http://dbpedia.org/ontology/militaryBranch
+http://dbpedia.org/ontology/militaryRank
+http://dbpedia.org/ontology/militaryUnit
+http://dbpedia.org/ontology/monarch
+
+#########################################################################################################################
+#########################################################################################################################
+
+3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+SELECT DISTINCT ?y 
+	WHERE {
+		?x a <http://dbpedia.org/ontology/Politician> .
+		?x ?property ?y .
+		FILTER (?property !=rdf:type)
+	} LIMIT 40
+
+y
+"Axel Oxenstierna"@en
+"أكسل أكسنسترنا"@ar
+"Axel Oxenstierna"@de
+"Axel Oxenstierna"@es
+"Axel Oxenstierna"@fr
+"Axel Oxenstierna"@it
+"アクセル・オクセンシェルナ"@ja
+"Axel Oxenstierna"@nl
+"Axel Oxenstierna"@pl
+"Axel Oxenstierna"@pt
+"Оксеншерна, Аксель"@ru
+"Brothers Grimm"@en
+"الأخوان غريم"@ar
+"Brüder Grimm"@de
+"Hermanos Grimm"@es
+"Frères Grimm"@fr
+"Fratelli Grimm"@it
+"グリム兄弟"@ja
+"Gebroeders Grimm"@nl
+"Bracia Grimm"@pl
+"Irmãos Grimm"@pt
+"Братья Гримм"@ru
+"格林兄弟"@zh
+"Carlos Menem"@en
+"كارلوس منعم"@ar
+"Carlos Menem"@de
+"Carlos Menem"@es
+"Carlos Menem"@fr
+"Carlos Saúl Menem"@it
+"カルロス・メネム"@ja
+"Carlos Menem"@nl
+"Carlos Saúl Menem"@pl
+"Carlos Menem"@pt
+"Менем, Карлос"@ru
+"卡洛斯·梅内姆"@zh
+"Carter Harrison Jr."@en
+"كارتر هاريسون"@ar
+"Carter Harrison, Jr."@de
+"Carter Harrison Sr."@en
+"Carter Harrison, Sr."@de
+
+
+#########################################################################################################################
+#########################################################################################################################
+
+4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different
+values do they take in those instances?
+
+SELECT DISTINCT ?property ?y
+	WHERE {
+		?x a <http://dbpedia.org/ontology/Politician> .
+		?x ?property ?y .
+		FILTER (?property !=rdf:type)
+	} LIMIT 40
+
+
+
+property	                                  y
+http://www.w3.org/2000/01/rdf-schema#label	"Axel Oxenstierna"@en
+http://www.w3.org/2000/01/rdf-schema#label	"أكسل أكسنسترنا"@ar
+http://www.w3.org/2000/01/rdf-schema#label	"Axel Oxenstierna"@de
+http://www.w3.org/2000/01/rdf-schema#label	"Axel Oxenstierna"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Axel Oxenstierna"@fr
+http://www.w3.org/2000/01/rdf-schema#label	"Axel Oxenstierna"@it
+http://www.w3.org/2000/01/rdf-schema#label	"アクセル・オクセンシェルナ"@ja
+http://www.w3.org/2000/01/rdf-schema#label	"Axel Oxenstierna"@nl
+http://www.w3.org/2000/01/rdf-schema#label	"Axel Oxenstierna"@pl
+http://www.w3.org/2000/01/rdf-schema#label	"Axel Oxenstierna"@pt
+http://www.w3.org/2000/01/rdf-schema#label	"Оксеншерна, Аксель"@ru
+http://www.w3.org/2000/01/rdf-schema#label	"Brothers Grimm"@en
+http://www.w3.org/2000/01/rdf-schema#label	"الأخوان غريم"@ar
+http://www.w3.org/2000/01/rdf-schema#label	"Brüder Grimm"@de
+http://www.w3.org/2000/01/rdf-schema#label	"Hermanos Grimm"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Frères Grimm"@fr
+http://www.w3.org/2000/01/rdf-schema#label	"Fratelli Grimm"@it
+http://www.w3.org/2000/01/rdf-schema#label	"グリム兄弟"@ja
+http://www.w3.org/2000/01/rdf-schema#label	"Gebroeders Grimm"@nl
+http://www.w3.org/2000/01/rdf-schema#label	"Bracia Grimm"@pl
+http://www.w3.org/2000/01/rdf-schema#label	"Irmãos Grimm"@pt
+http://www.w3.org/2000/01/rdf-schema#label	"Братья Гримм"@ru
+http://www.w3.org/2000/01/rdf-schema#label	"格林兄弟"@zh
+http://www.w3.org/2000/01/rdf-schema#label	"Carlos Menem"@en
+http://www.w3.org/2000/01/rdf-schema#label	"كارلوس منعم"@ar
+http://www.w3.org/2000/01/rdf-schema#label	"Carlos Menem"@de
+http://www.w3.org/2000/01/rdf-schema#label	"Carlos Menem"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Carlos Menem"@fr
+http://www.w3.org/2000/01/rdf-schema#label	"Carlos Saúl Menem"@it
+http://www.w3.org/2000/01/rdf-schema#label	"カルロス・メネム"@ja
+http://www.w3.org/2000/01/rdf-schema#label	"Carlos Menem"@nl
+http://www.w3.org/2000/01/rdf-schema#label	"Carlos Saúl Menem"@pl
+http://www.w3.org/2000/01/rdf-schema#label	"Carlos Menem"@pt
+http://www.w3.org/2000/01/rdf-schema#label	"Менем, Карлос"@ru
+http://www.w3.org/2000/01/rdf-schema#label	"卡洛斯·梅内姆"@zh
+http://www.w3.org/2000/01/rdf-schema#label	"Carter Harrison Jr."@en
+http://www.w3.org/2000/01/rdf-schema#label	"كارتر هاريسون"@ar
+http://www.w3.org/2000/01/rdf-schema#label	"Carter Harrison, Jr."@de
+http://www.w3.org/2000/01/rdf-schema#label	"Carter Harrison Sr."@en
+http://www.w3.org/2000/01/rdf-schema#label	"Carter Harrison, Sr."@de
+
+
+#########################################################################################################################
+#########################################################################################################################
+
+
+5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many
+distinct values do they take in those instances?
+
+SELECT DISTINCT ?property COUNT(DISTINCT ?distinctValues) AS ?distinctValues
+	WHERE {
+		?x a <http://dbpedia.org/ontology/Politician> .
+		?x ?property ?distinctValues.
+		FILTER (?property !=rdf:type)
+	} LIMIT 40
+
+
+ property						distinctValues
+dbpedia2:border 						2
+dbpedia2:latMin 						1
+dbpedia2:employer 						9
+dbpedia2:war 							1
+dbpedia2:reference 						3
+dbpedia2:father'sName 					1
+dbpedia2:year2start 					3
+dbpedia2:vicepremier 					7
+dbpedia2:gap 							1
+dbpedia2:1y 							16
+dbpedia:ontology/deathYear 				78
+dbpedia2:succeeded 						5257
+dbpedia2:breeder 						1
+dbpedia2:hofdate 						2
+dbpedia2:publicutilEnd 					1
+dbpedia2:abbr 							1
+dbpedia2:fieldgoalsd 					1
+dbpedia2:teamc 							1
+dbpedia2:hero 							1
+dbpedia2:coatOfArms 					2
+dbpedia2:educationalBackground 			11
+dbpedia:ontology/predecessor 			8
+dbpedia2:militaryService 				3
+dbpedia2:police 						1
+dbpedia2:jurisprudence 					1
+dbpedia2:mutupoTribe 					1
+dbpedia2:year 							27
+dbpedia2:finalteam 						5
+dbpedia2:previous 						1
+dbpedia2:trainer 						1
+dbpedia2:fivefor 						3
+dbpedia2:successo 						1
+dbpedia2:resingplace 					1
+dbpedia2:imdb 							50
+dbpedia2:distrcit 						2
+dbpedia2:influenced 					7
+dbpedia2:incat 							1
+dbpedia2:imageCaption 					14
+dbpedia2:startrows 						1
+dbpedia2:rank 							107

@@ -1,0 +1,61 @@
+PREFIX db: <http://dbpedia.org/ontology/>
+
+SELECT distinct ?prop WHERE {
+?instance a db:Politician .
+?instance ?prop ?x
+} LIMIT 50
+
+
+--Results
+
+rdf:type [http]
+rdfs:label [http]
+rdfs:comment [http]
+owl:differentFrom [http]
+rdfs:seeAlso [http]
+owl:sameAs [http]
+dbpedia:ontology/deathPlace [http]
+dbpedia2:deathPlace [http]
+dbpedia:ontology/deathDate [http]
+dbpedia:ontology/birthPlace [http]
+dbpedia:ontology/birthDate [http]
+<http://purl.org/dc/terms/subject> [http]
+dbpedia:ontology/wikiPageID [http]
+dbpedia:ontology/wikiPageRevisionID [http]
+dbpedia:ontology/wikiPageExternalLink [http]
+foaf:name [http]
+foaf:homepage [http]
+dbpedia2:name [http]
+foaf:depiction [http]
+<http://purl.org/dc/terms/description> [http]
+foaf:givenName [http]
+foaf:gender [http]
+foaf:isPrimaryTopicOf [http]
+foaf:surname [http]
+dbpedia:ontology/thumbnail [http]
+<http://www.w3.org/ns/prov#wasDerivedFrom> [http]
+dbpedia:ontology/abstract [http]
+dbpedia:ontology/activeYearsEndDate [http]
+dbpedia:ontology/activeYearsStartDate [http]
+dbpedia:ontology/almaMater [http]
+dbpedia:ontology/award [http]
+dbpedia:ontology/battle [http]
+dbpedia:ontology/birthName [http]
+dbpedia:ontology/child [http]
+dbpedia:ontology/country [http]
+dbpedia:ontology/deputy [http]
+dbpedia:ontology/governorGeneral [http]
+dbpedia:ontology/militaryBranch [http]
+dbpedia:ontology/militaryRank [http]
+dbpedia:ontology/militaryUnit [http]
+dbpedia:ontology/monarch [http]
+dbpedia:ontology/nationality [http]
+dbpedia:ontology/occupation [http]
+dbpedia:ontology/office [http]
+dbpedia:ontology/orderInOffice [http]
+dbpedia:ontology/otherParty [http]
+dbpedia:ontology/party [http]
+dbpedia:ontology/president [http]
+dbpedia:ontology/primeMinister [http]
+dbpedia:ontology/profession [http]
+Powered by OpenLink Virtuoso and dbpedia
