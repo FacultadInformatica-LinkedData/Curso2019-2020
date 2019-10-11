@@ -62,14 +62,14 @@ public class Task06
 		
 		
 		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
-		jaSmith.addLiteral(VCARD.FN, "Jane Smith");
-		jaSmith.addLiteral(VCARD.Given, "Jane");
-		jaSmith.addLiteral(VCARD.Family, "Smith");
+		jaSmith.addProperty(VCARD.FN, "Jane Smith");
+		jaSmith.addProperty(VCARD.Given, "Jane");
+		jaSmith.addProperty(VCARD.Family, "Smith");
 		
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		Individual upm = model.createIndividual(ns+"UPM", university);
-		Individual joSmith = model.createIndividual(ns+"John Smith", person);
+		Individual upm = university.createIndividual(ns+"UPM");
+		Individual joSmith = model.getIndividual(ns+"John Smith");
 		joSmith.addProperty(worksIn, upm);
 		
 		
