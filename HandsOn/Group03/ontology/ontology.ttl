@@ -1,7 +1,7 @@
 @prefix : <http://waterCH.es/Group03/ontology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xml: <https://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://waterCH.es/Group03/ontology#> .
@@ -57,7 +57,7 @@ rdf:type rdf:type rdfs:Datatype .
                     rdfs:domain :Location ;
                     rdfs:range rdfs:Literal .
                     
-### ###  http://waterCH.es/Group03/ontology#hasLongitude
+###  http://waterCH.es/Group03/ontology#hasLongitude
 :hasLongitude rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Location ;
                     rdfs:range xsd:decimal .
