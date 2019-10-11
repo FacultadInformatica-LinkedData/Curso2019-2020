@@ -1,0 +1,533 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 4",
+    "columnName": "Column 4"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 3",
+    "columnName": "Column 3"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 7",
+    "columnName": "Column 7"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 14",
+    "columnName": "Column 14"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 15",
+    "columnName": "Column 15"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 16",
+    "columnName": "Column 16"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 28",
+    "columnName": "Column 28"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 29",
+    "columnName": "Column 29"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column ﻿ to PK",
+    "oldColumnName": "﻿",
+    "newColumnName": "PK"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 2 to Nombre",
+    "oldColumnName": "Column 2",
+    "newColumnName": "Nombre"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 5 to Equipamiento",
+    "oldColumnName": "Column 5",
+    "newColumnName": "Equipamiento"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 6 to Transporte",
+    "oldColumnName": "Column 6",
+    "newColumnName": "Transporte"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 8 to Accesibilidad",
+    "oldColumnName": "Column 8",
+    "newColumnName": "Accesibilidad"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 9 to Content-URL",
+    "oldColumnName": "Column 9",
+    "newColumnName": "Content-URL"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 10 to Nombre-Via",
+    "oldColumnName": "Column 10",
+    "newColumnName": "Nombre-Via"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 11 to Clase-Vial",
+    "oldColumnName": "Column 11",
+    "newColumnName": "Clase-Vial"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 12 to Tipo-Num",
+    "oldColumnName": "Column 12",
+    "newColumnName": "Tipo-Num"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 13 to Num",
+    "oldColumnName": "Column 13",
+    "newColumnName": "Num"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 17 to Orientacion",
+    "oldColumnName": "Column 17",
+    "newColumnName": "Orientacion"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 18 to Localidad",
+    "oldColumnName": "Column 18",
+    "newColumnName": "Localidad"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 19 to Provincia",
+    "oldColumnName": "Column 19",
+    "newColumnName": "Provincia"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 20 to Codigo Postal",
+    "oldColumnName": "Column 20",
+    "newColumnName": "Codigo Postal"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Codigo Postal to Código-Postal",
+    "oldColumnName": "Codigo Postal",
+    "newColumnName": "Código-Postal"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Nombre-Via to Nombre-Vía",
+    "oldColumnName": "Nombre-Via",
+    "newColumnName": "Nombre-Vía"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Orientacion to Orientación",
+    "oldColumnName": "Orientacion",
+    "newColumnName": "Orientación"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 21 to Barrio",
+    "oldColumnName": "Column 21",
+    "newColumnName": "Barrio"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 22 to Distrito",
+    "oldColumnName": "Column 22",
+    "newColumnName": "Distrito"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 23 to Coordenadas-X",
+    "oldColumnName": "Column 23",
+    "newColumnName": "Coordenadas-X"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 24 to Coordenadas-Y",
+    "oldColumnName": "Column 24",
+    "newColumnName": "Coordenadas-Y"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 25 to Latitud",
+    "oldColumnName": "Column 25",
+    "newColumnName": "Latitud"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 26 to Longitud",
+    "oldColumnName": "Column 26",
+    "newColumnName": "Longitud"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 27 to Teléfono",
+    "oldColumnName": "Column 27",
+    "newColumnName": "Teléfono"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 30 to Tipo",
+    "oldColumnName": "Column 30",
+    "newColumnName": "Tipo"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 31",
+    "columnName": "Column 31"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "row.starred",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Starred Rows",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": ""
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Teléfono",
+    "columnName": "Teléfono"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.instalacionesDeportivasMunicipales.es/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.instalacionesDeportivasMunicipales.es/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#pk",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#pk"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#name",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Nombre"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#equipment",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#equipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Equipamiento"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#transport",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#transport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Transporte"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#accesibility",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#accesibility",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Accesibilidad"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#urlContent",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#urlContent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Content-URL"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#road_name",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#road_name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Nombre-Vía"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#roadClass",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#roadClass",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Clase-Vial"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#typeNum",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#typeNum",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tipo-Num"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#num",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#num",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Num"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#orientation",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#orientation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Orientación"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#locality",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#locality",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#province",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#postalCode",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#postalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código-Postal"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#neighborhood",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#neighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#district",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#coordenate_x",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#coordenate_x",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Coordenadas-X"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#coordenate_y",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#coordenate_y",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Coordenadas-Y"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#latitude",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Latitud"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#longitude",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Longitud"
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#type",
+              "curie": "http://www.instalacionesDeportivasMunicipales.es/ontology#type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tipo"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  }
+]
