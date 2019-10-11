@@ -6,27 +6,32 @@ import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
-import org.apache.jena.ontology.OntResource;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
 import org.apache.jena.util.FileManager;
-import org.apache.jena.util.iterator.ExtendedIterator;
+import org.apache.jena.vocabulary.RDFS;
+import org.apache.jena.vocabulary.VCARD;
 
 /**
- * Task 07: Querying ontologies (RDFs)
+ * Task 06: Modifying ontologies (RDFs)
  * @author elozano
  * @author isantana
  *
  */
-public class Task07
+public class Task06
 {
 	public static String ns = "http://somewhere#";
+	public static String foafNS = "http://xmlns.com/foaf/0.1/";
+	public static String foafEmailURI = foafNS+"email";
+	public static String foafKnowsURI = foafNS+"knows";
+	public static String stringTypeURI = "http://www.w3.org/2001/XMLSchema#string";
 	
 	public static void main(String args[])
 	{
-		String filename = "resources/example6.rdf";
+		String filename = "resources/example5.rdf";
 		
 		// Create an empty model
-		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
+		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
 		
 		// Use the FileManager to find the input file
 		InputStream in = FileManager.get().open(filename);
@@ -37,53 +42,31 @@ public class Task07
 		// Read the RDF/XML file
 		model.read(in, null);
 		
-		// ** TASK 7.1: List all individuals of "Person" **
+		// Create a new class named "Researcher"
+		OntClass researcher = model.createClass(ns+"Researcher");
+		
+		// ** TASK 6.1: Create a new class named "University" **
+		OntClass university = model.createClass(ns + "University");
+		
+		// ** TASK 6.2: Add "Researcher" as a subclass of "Person" **
 		OntClass person = model.getOntClass(ns+"Person");
-		ExtendedIterator instances = person.listInstances();
+		person.addSubClass(researcher);
 		
-		while (instances.hasNext())
-		{
-			Individual inst = (Individual) instances.next();
-			System.out.println("Instance of Person: "+inst.getURI());
-		}
+		// ** TASK 6.3: Create a new property named "worksIn" **
+		Property worksIn = model.createProperty(ns + "worksIn");
 		
-		// ** TASK 7.2: List all subclasses of "Person" **
-		ExtendedIterator subclasses = person.listSubClasses();
+		// ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **
+		Individual jane_smith = researcher.createIndividual(ns + "JaneSmith");
 		
-		while (subclasses.hasNext())
-		{
-			OntResource subclass = (OntResource) subclasses.next();
-			System.out.println("Subclass of Person: "+subclass.getURI());
-		}
+		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
+		jane.addLiteral(VCARD.FN, "Jane Smith");
+		jane.addLiteral(VCARD.Given, "Jane");
+		jane.addLiteral(VCARD.Family, "Smith");
+
+		// ** TASK 6.6: Add UPM as the university where John Smith works **
+		Individual john_smith = model.getIndividual(ns + "JohnSmith");
+		john_smith.addProperty(worksIn, "UPM");
 		
-		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-		
-		System.out.print("\n");
-		OntModel modelInf = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
-		InputStream inInf = FileManager.get().open(filename);
-
-		if (inInf == null)
-			throw new IllegalArgumentException("File: "+filename+" not found");
-
-		modelInf.read(inInf, null);
-
-		OntClass personInf = modelInf.getOntClass(ns+"Person");
-
-		ExtendedIterator indInst = personInf.listInstances();
-
-		while (indInst.hasNext())
-		{
-			Individual indInst = (Individual) indInst.next();
-			System.out.println("[Indirect]Instance of Person: "+indInst.getURI());
-		}
-
-		ExtendedIterator indirectSubclasses = personInf.listSubClasses();
-
-		while (indirectSubclasses.hasNext())
-		{
-			OntClass indSubclass = (OntClass) indirectSubclasses.next();
-			System.out.println("[Indirect]Subclass of Person: "+indSubclass.getURI());
-		}
-	
+		model.write(System.out, "RDF/XML-ABBREV");
 	}
 }
