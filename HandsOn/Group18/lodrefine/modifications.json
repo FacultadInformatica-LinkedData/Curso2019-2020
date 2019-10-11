@@ -213,5 +213,308 @@
         }
       ]
     }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column FECHA using expression grel:value.toDate('dd/mm/yyyy').toString('yyyy-mm-dd')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "FECHA",
+    "expression": "grel:value.toDate('dd/mm/yyyy').toString('yyyy-mm-dd')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column FECHA-FIN using expression grel:value.toDate('dd/mm/yyyy').toString('yyyy-mm-dd')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "FECHA-FIN",
+    "expression": "grel:value.toDate('dd/mm/yyyy').toString('yyyy-mm-dd')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group18.org/hands-on/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"event/\"+replaceChars(value,' ','')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.org/hands-on/ontology#Event",
+              "curie": "http://group18.org/hands-on/ontology#Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasId",
+              "curie": "http://group18.org/hands-on/ontology#hasId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasPrice",
+              "curie": "http://group18.org/hands-on/ontology#hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasDate",
+              "curie": "http://group18.org/hands-on/ontology#hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasDescription",
+              "curie": "http://group18.org/hands-on/ontology#hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasUrlEvent",
+              "curie": "http://group18.org/hands-on/ontology#hasUrlEvent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://schema.org/url",
+                "columnName": "URL-ACTIVIDAD"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasType",
+              "curie": "http://group18.org/hands-on/ontology#hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasTitle",
+              "curie": "http://group18.org/hands-on/ontology#hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasInstallation",
+              "curie": "http://group18.org/hands-on/ontology#hasInstallation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"installation/\"+replaceChars(value,' ','')",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION",
+                "rdfTypes": [
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#Installation",
+                    "curie": "http://group18.org/hands-on/ontology#Installation"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasUrlInstallation",
+                    "curie": "http://group18.org/hands-on/ontology#hasUrlInstallation",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://schema.org/url",
+                      "columnName": "URL-INSTALACION"
+                    }
+                  },
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasLongitude",
+                    "curie": "http://group18.org/hands-on/ontology#hasLongitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://schema.org/longitude",
+                      "columnName": "LONGITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasLatitude",
+                    "curie": "http://group18.org/hands-on/ontology#hasLatitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://schema.org/latitude",
+                      "columnName": "LATITUD"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasAudience",
+              "curie": "http://group18.org/hands-on/ontology#hasAudience",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AUDIENCIA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TITULO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TITULO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Antología de la Rabia",
+          "Antología de la rabia"
+        ],
+        "to": "Antología de la Rabia"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TITULO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TITULO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cuentos de la casa grande, de Alicia Mohíno",
+          "Cuentos de la Casa Grande, de Alicia Mohino",
+          "Cuentos de la Casa Grande, de Alicia Mohíno",
+          "Cuentos de la casa grande, de Alicia Mohino"
+        ],
+        "to": "Cuentos de la casa grande, de Alicia Mohíno"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Dos Palabras",
+          "Dos palabras"
+        ],
+        "to": "Dos Palabras"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Qué ruina de función",
+          "Qué ruina de función."
+        ],
+        "to": "Qué ruina de función"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cinco lobitos, de Légolas",
+          "Cinco Lobitos, de Légolas"
+        ],
+        "to": "Cinco lobitos, de Légolas"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "El botiquin de Montecarmelo",
+          "El botiquín de Montecarmelo"
+        ],
+        "to": "El botiquin de Montecarmelo"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "El circo de Rotundifolia, de Estrella Ortiz",
+          "El Circo de Rotundifolia, de Estrella Ortiz"
+        ],
+        "to": "El circo de Rotundifolia, de Estrella Ortiz"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "¡Fabuloso! Historias de aventuras, de Cristina Verbena",
+          "¡Fabuloso! HIstorias de aventuras, de Cristina Verbena"
+        ],
+        "to": "¡Fabuloso! Historias de aventuras, de Cristina Verbena"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Mamá no quiero ser normal",
+          "Mamá, no quiero ser normal"
+        ],
+        "to": "Mamá no quiero ser normal"
+      }
+    ]
   }
 ]
