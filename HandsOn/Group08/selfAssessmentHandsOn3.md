@@ -17,16 +17,16 @@
 
 **Every individual in the RDF files:**
 
-- [ ] Has a label with the name of the individual
+- [X] Has a label with the name of the individual
 - [X] Has a type
 
 **Every value in the RDF files:**
 
-- [ ] Is not empty (i.e., “”)
+- [X] Is not empty (i.e., “”)
 - [X] Is trimmed
 - [X] Is properly encoded (e.g., dates, booleans)
 - [X] Includes its datatype
-- [ ] Uses the correct datatype (e.g., values of 0-1 may be booleans and not integers, not every string made of numbers is a number) 
+- [X] Uses the correct datatype (e.g., values of 0-1 may be booleans and not integers, not every string made of numbers is a number) 
 
 ##Comments on the self-assessment##
-_(If required)_
+Continúa el trabajo en común
