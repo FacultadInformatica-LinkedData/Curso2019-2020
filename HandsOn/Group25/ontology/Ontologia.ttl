@@ -1,0 +1,140 @@
+@prefix : <http://madridcen.es/group5> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://madridcen.es.group5> .
+
+<http://madridcen.es/group5> rdf:type owl:Ontology .
+
+
+#    Data properties
+
+#  http://madridcen.es/group5#nombre
+:nombre rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:domain   <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+        rdfs:range xsd:string .
+		
+#  http://madridcen.es/group5#horario
+:horario rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+         rdfs:range xsd:string .
+		 
+#  http://madridcen.es/group5#equipamiento
+:equipamiento rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain  <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+              rdfs:range xsd:string .
+
+#  http://madridcen.es/group5#transporte
+:transporte rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:domain  <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+                   rdfs:range xsd:string .
+			  		
+#  http://madridcen.es/group5#descripcion
+:descripcion rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain   <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+             rdfs:range xsd:string .
+			 
+# http://madridcen.es/group5#accesibilidad
+:accesibilidad rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdfs:domain <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+                      rdfs:range xsd:int .
+					  
+#  http://madridcen.es/group5#contenidoURL
+:contenidoURL rdf:type owl:DatatypeProperty ;
+     rdfs:subPropertyOf owl:topDataProperty ;
+     rdfs:domain <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+     rdfs:range xsd:anyURI .
+					  
+#  http://madridcen.es/group5#nombreVia
+:nombreVia rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain  <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+             rdfs:range xsd:string .
+			 
+#  http://madridcen.es/group5#tipoVia
+:tipoVia rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain   <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+           rdfs:range xsd:string .
+		   
+#  http://madridcen.es/group5#numeroVia
+:numeroVia rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+             rdfs:range xsd:int .
+			 
+#  http://madridcen.es/group5#localidad
+:localidad rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain  <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+           rdfs:range xsd:string .
+
+#  http://madridcen.es/group5#provincia
+:provincia rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain  <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+           rdfs:range xsd:string .		   
+			 
+#  http://madridcen.es/group5#codigoPostal
+:codigoPostal rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+              rdfs:range xsd:int .
+
+#  http://madridcen.es/group5#barrio
+:barrio rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:domain  <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+        rdfs:range xsd:string .
+
+#  http://madridcen.es/group5#distrito
+:distrito rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain   <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+          rdfs:range xsd:string .
+
+#  http://madridcen.es/group5#latitud
+:latitud rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+         rdfs:range xsd:float .
+
+#  http://madridcen.es/group5#longitud
+:longitud rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain  <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+          rdfs:range xsd:float .
+
+#  http://madridcen.es/group5#telefono
+:telefono rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain  <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+          rdfs:range xsd:string .
+
+#  http://madridcen.es/group5#fax
+:fax rdf:type owl:DatatypeProperty ;
+     rdfs:subPropertyOf owl:topDataProperty ;
+     rdfs:domain <http://madridcen.es/group5/recursos/CentrosDeportivos> .
+		  
+#  http://madridcen.es/group5#email
+:email rdf:type owl:DatatypeProperty ;
+       rdfs:subPropertyOf owl:topDataProperty ;
+       rdfs:domain   <http://madridcen.es/group5/recursos/CentrosDeportivos> ;
+       rdfs:range xsd:string .
+
+	   
+#    Classes
+
+
+#  http://madridcen.es/group5/recursos/CentrosDeportivos
+<http://madridcen.es/group5/recursos/CentrosDeportivos> rdf:type owl:Class .
+
+
