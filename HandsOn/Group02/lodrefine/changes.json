@@ -1,0 +1,639 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "Gis_X",
+    "description": "Remove column Gis_X"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Gis_Y",
+    "description": "Remove column Gis_Y"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Direccion",
+    "description": "Remove column Direccion"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Barrio",
+          "columnName": "Barrio",
+          "query": "",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "lengths",
+    "fieldLengths": [
+      5,
+      20
+    ],
+    "description": "Split column Barrio by field lengths"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Barrio 1",
+    "description": "Remove column Barrio 1"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Barrio 2",
+    "newColumnName": "Barrio",
+    "description": "Rename column Barrio 2 to Barrio"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Barrio",
+          "columnName": "Barrio",
+          "query": "",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Distrito",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "lengths",
+    "fieldLengths": [
+      3,
+      20
+    ],
+    "description": "Split column Distrito by field lengths"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Distrito 1",
+    "description": "Remove column Distrito 1"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Distrito 2",
+    "newColumnName": "Distrito",
+    "description": "Rename column Distrito 2 to Distrito"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tipo de Reserva",
+    "description": "Remove column Tipo de Reserva"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "sch",
+          "uri": "https://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.biciMAD.com/resources/BikeStation#",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "https://schema.org/streetAddress",
+              "curie": "sch:streetAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Calle",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "N�mero de Plazas",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "sch",
+          "uri": "https://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.biciMAD.com/resources/BikeStation#",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "https://schema.org/streetAddress",
+              "curie": "sch:streetAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Calle",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "N�mero de Plazas",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "sch",
+          "uri": "https://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.biciMAD.com/resources/BikeStation#",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "https://schema.org/streetAddress",
+              "curie": "sch:streetAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Calle",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "N�mero de Plazas",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "sch",
+          "uri": "https://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.biciMAD.com/resources/BikeStation#",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "https://schema.org/streetAddress",
+              "curie": "sch:streetAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Calle",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/latitude",
+              "curie": "sch:latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Latitud",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/longitude",
+              "curie": "sch:longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Longitud",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "bikeAvailability",
+              "curie": ":bikeAvailability",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "N�mero de Plazas",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/addressRegion",
+              "curie": "sch:addressRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Barrio",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "BikeStation",
+              "curie": ":BikeStation"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "sch",
+          "uri": "https://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.biciMAD.com/BikeStation/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "https://schema.org/streetAddress",
+              "curie": "sch:streetAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Calle",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/latitude",
+              "curie": "sch:latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Latitud",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/longitude",
+              "curie": "sch:longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Longitud",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "bikeAvailability",
+              "curie": ":bikeAvailability",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "N�mero de Plazas",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/addressRegion",
+              "curie": "sch:addressRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Barrio",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/postalAddress",
+              "curie": "sch:postalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "N� Finca",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/serviceArea",
+              "curie": "sch:serviceArea",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Distrito",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "id",
+              "curie": ":id",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "N�mero",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "BikeStation",
+              "curie": ":BikeStation"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "sch",
+          "uri": "https://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.biciMAD.com/BikeStation/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "https://schema.org/streetAddress",
+              "curie": "sch:streetAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Calle",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/latitude",
+              "curie": "sch:latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Latitud",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/longitude",
+              "curie": "sch:longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Longitud",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "bikeAvailability",
+              "curie": ":bikeAvailability",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "N�mero de Plazas",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/addressRegion",
+              "curie": "sch:addressRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Barrio",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/postalAddress",
+              "curie": "sch:postalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "N� Finca",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/serviceArea",
+              "curie": "sch:serviceArea",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Distrito",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "id",
+              "curie": ":id",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "N�mero",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.biciMAD.com/resource/BikeStation",
+              "curie": "http://www.biciMAD.com/resource/BikeStation"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]

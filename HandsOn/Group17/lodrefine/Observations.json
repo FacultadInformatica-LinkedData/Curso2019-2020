@@ -1,0 +1,1162 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "PROVINCIA",
+    "description": "Remove column PROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MUNICIPIO",
+    "description": "Remove column MUNICIPIO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "MAGNITUD",
+    "newColumnName": "GAS",
+    "description": "Rename column MAGNITUD to GAS"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V24",
+    "description": "Remove column V24"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "H24",
+    "description": "Remove column H24"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V23",
+    "description": "Remove column V23"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "H23",
+    "description": "Remove column H23"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V22",
+    "description": "Remove column V22"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "H22",
+    "description": "Remove column H22"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V21",
+    "description": "Remove column V21"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "H21",
+    "description": "Remove column H21"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V20",
+    "description": "Remove column V20"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "H20",
+    "description": "Remove column H20"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V19",
+    "description": "Remove column V19"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V18",
+    "description": "Remove column V18"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V17",
+    "description": "Remove column V17"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V16",
+    "description": "Remove column V16"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V15",
+    "description": "Remove column V15"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V14",
+    "description": "Remove column V14"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V13",
+    "description": "Remove column V13"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V12",
+    "description": "Remove column V12"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V11",
+    "description": "Remove column V11"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V10",
+    "description": "Remove column V10"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V09",
+    "description": "Remove column V09"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V08",
+    "description": "Remove column V08"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V07",
+    "description": "Remove column V07"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V06",
+    "description": "Remove column V06"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V05",
+    "description": "Remove column V05"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V04",
+    "description": "Remove column V04"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V03",
+    "description": "Remove column V03"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V02",
+    "description": "Remove column V02"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V01",
+    "description": "Remove column V01"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PUNTO_MUESTREO",
+    "description": "Remove column PUNTO_MUESTREO"
+  },
+  {
+    "op": "core/transpose-columns-into-rows",
+    "startColumnName": "H01",
+    "columnCount": -1,
+    "ignoreBlankCells": true,
+    "fillDown": true,
+    "separator": null,
+    "keyColumnName": "HORA",
+    "valueColumnName": "RESULTADO",
+    "description": "Transpose cells in columns starting with H01 into rows in two new columns named HORA and RESULTADO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H01"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "01:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H02"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "02:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H03"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "03:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H04"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "04:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H05"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "05:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H06"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "06:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H07"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "07:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H08"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "08:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H09"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "09:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H10"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "10:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H11"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "11:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H12"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "12:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H13"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "13:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H14"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "14:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H15"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "15:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H16"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "16:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H17"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "17:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H18"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "18:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H19"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "19:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ANO",
+    "expression": "grel:value + \"-\" + cells['MES'].value + \"-\" + cells['DIA'].value + \"T\" + cells['HORA'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ANO using expression grel:value + \"-\" + cells['MES'].value + \"-\" + cells['DIA'].value + \"T\" + cells['HORA'].value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ANO",
+    "newColumnName": "resultTime",
+    "description": "Rename column ANO to resultTime"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MES",
+    "description": "Remove column MES"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIA",
+    "description": "Remove column DIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "HORA",
+    "description": "Remove column HORA"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GAS",
+    "expression": "value.replace(\"1\",\"Dióxido de Azufre\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GAS using expression value.replace(\"1\",\"Dióxido de Azufre\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GAS",
+    "expression": "value.replace(\"6\",\"Monóxido de Carbono\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GAS using expression value.replace(\"6\",\"Monóxido de Carbono\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GAS",
+    "expression": "value.replace(\"7\",\"Monóxido de Nitrógeno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GAS using expression value.replace(\"7\",\"Monóxido de Nitrógeno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GAS",
+    "expression": "value.replace(\"9\",\"Partículas < 2.5 µm \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GAS using expression value.replace(\"9\",\"Partículas < 2.5 µm \")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GAS",
+    "expression": "value.replace(\"10\",\"Partículas < 10 µm \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GAS using expression value.replace(\"10\",\"Partículas < 10 µm \")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GAS",
+    "expression": "value.replace(\"12\",\"Óxidos de Nitrógeno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GAS using expression value.replace(\"12\",\"Óxidos de Nitrógeno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GAS",
+    "expression": "value.replace(\"14\",\"Ozono\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GAS using expression value.replace(\"14\",\"Ozono\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GAS",
+    "expression": "value.replace(\"20\",\"Tolueno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GAS using expression value.replace(\"20\",\"Tolueno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GAS",
+    "expression": "value.replace(\"30\",\"Benceno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GAS using expression value.replace(\"30\",\"Benceno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GAS",
+    "expression": "value.replace(\"35\",\"Etilbenceno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GAS using expression value.replace(\"35\",\"Etilbenceno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GAS",
+    "expression": "value.replace(\"37\",\"Metaxileno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GAS using expression value.replace(\"37\",\"Metaxileno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GAS",
+    "expression": "value.replace(\"38\",\"Paraxileno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GAS using expression value.replace(\"38\",\"Paraxileno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GAS",
+    "expression": "value.replace(\"39\",\"Ortoxileno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GAS using expression value.replace(\"39\",\"Ortoxileno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GAS",
+    "expression": "value.replace(\"42\",\"Hidrocarburos totales (hexano)\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GAS using expression value.replace(\"42\",\"Hidrocarburos totales (hexano)\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GAS",
+    "expression": "value.replace(\"43\",\"Metano\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GAS using expression value.replace(\"43\",\"Metano\")"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ESTACION",
+    "newColumnName": "sensor",
+    "description": "Rename column ESTACION to sensor"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "GAS",
+    "newColumnName": "ObservableProperty",
+    "description": "Rename column GAS to ObservableProperty"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "resultTime",
+    "newColumnName": "dateTime",
+    "description": "Rename column resultTime to dateTime"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "RESULTADO",
+    "newColumnName": "Result",
+    "description": "Rename column RESULTADO to Result"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "sensor",
+    "newColumnName": "Sensor",
+    "description": "Rename column sensor to Sensor"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Sensor",
+    "expression": "grel:row.index",
+    "onError": "set-to-blank",
+    "newColumnName": "Observation",
+    "columnInsertIndex": 1,
+    "description": "Create column Observation at index 1 based on column Sensor using expression grel:row.index"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Observation",
+    "index": 0,
+    "description": "Move column Observation to position 0"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sosa",
+          "uri": "http://www.w3.org/ns/sosa/"
+        }
+      ],
+      "baseUri": "http://group17.data/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Observation",
+          "expression": "\"Observation/\"  + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/resultTime",
+              "curie": "sosa:resultTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "dateTime",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/hasResult",
+              "curie": "sosa:hasResult",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Result",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/observedProperty",
+              "curie": "sosa:observedProperty",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ObservableProperty",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/madeBySensor",
+              "curie": "sosa:madeBySensor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Sensor",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sosa",
+          "uri": "http://www.w3.org/ns/sosa/"
+        }
+      ],
+      "baseUri": "http://group17.data/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Observation",
+          "expression": "\"Observation/\"  + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/resultTime",
+              "curie": "sosa:resultTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "dateTime",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/hasResult",
+              "curie": "sosa:hasResult",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Result",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/observedProperty",
+              "curie": "sosa:observedProperty",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ObservableProperty",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/madeBySensor",
+              "curie": "sosa:madeBySensor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Sensor",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Observation",
+              "curie": "sosa:Observation"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sosa",
+          "uri": "http://www.w3.org/ns/sosa/"
+        }
+      ],
+      "baseUri": "http://group17.data/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Observation",
+          "expression": "\"Observation/\"  + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/resultTime",
+              "curie": "sosa:resultTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "dateTime",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/hasResult",
+              "curie": "sosa:hasResult",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Result",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/observedProperty",
+              "curie": "sosa:observedProperty",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ObservableProperty",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/madeBySensor",
+              "curie": "sosa:madeBySensor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Sensor",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Observation",
+              "curie": "sosa:Observation"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]
