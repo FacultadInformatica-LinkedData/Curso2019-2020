@@ -54,8 +54,28 @@
          rdfs:domain :Biblioteca ;
          rdfs:range xsd:integer .
 
+# http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca
+:tipo_biblioteca rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Biblioteca ;
+                 rdfs:range xsd:integer .
+
+# http://www.spanishlibraries.es/group09/ontology/tipo_dependencia
+:tipo_dependencia rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Biblioteca ;
+                  rdfs:range xsd:string .
+
+# http://www.spanishlibraries.es/group09/ontology/tipo_acceso
+:tipo_acceso rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Biblioteca ;
+             rdfs:range xsd:string .
+
+# http://www.spanishlibraries.es/group09/ontology/notas_acceso
+:notas_acceso rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Biblioteca ;
+                  rdfs:range xsd:string .
+
 # http://www.spanishlibraries.es/group09/ontology#institucion
- <http://dbpedia.org/ontology/institution> rdf:type owl:DatatypeProperty ;
+<http://dbpedia.org/ontology/institution> rdf:type owl:DatatypeProperty ;
         								   rdfs:domain :Biblioteca ;
         								   rdfs:range xsd:string .
 
@@ -76,7 +96,8 @@
 :Biblioteca rdf:type owl:Class .    
 
 # http://www.spanishlibraries.es/group09/ontology#Comunidad_Autonoma
-
+:Comunidad_Autonoma rdf:type owl:Class ;
+                    rdfs:subClassOf <http://dbpedia.org/ontology/country> .
 
 # http://www.spanishlibraries.es/group09/ontology#Pais
 <http://dbpedia.org/ontology/country> rdf:type owl:Class ;
@@ -91,4 +112,4 @@
 
 # http://www.spanishlibraries.es/group09/ontology#Provincia
 <http://dbpedia.org/ontology/province> rdf:type owl:Class ;
-									   rdfs:subClassOf <http://dbpedia.org/ontology/country> .
+									   rdfs:subClassOf :Comunidad_Autonoma .
