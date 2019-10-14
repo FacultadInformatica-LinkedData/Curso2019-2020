@@ -1,0 +1,3449 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix esdbo: <http://es.dbpedia.org/ontology/> .
+@prefix sch: <https://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mdc: <http://www.medicalCentersMadrid.org/Group22/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/134929> a mdc:MedicalCenter;
+  dbo:Latitude "40.446.053.313.442.700";
+  dbo:Longitude "-36.702.766.124.516.500";
+  dbo:Name "Centro Concertado de Atención a las Adicciones (CCAD) Cáritas Madrid";
+  dbo:address "CALLE ; SANTA HORTENSIA; Num V 1";
+  dbo:borough "PROSPERIDAD";
+  dbo:description "El CCAD Cáritas que forma parte de la red del Instituto de Adicciones de la Ciudad de Madrid, presta una atención personalizada individual y/o grupal en régimen ambulatorio a las personas que presentan problemas de abuso o dependencia del alcohol y de otras drogas.";
+  dbo:district "CHAMARTIN";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes mañanas de 9 a 14 horas, tardes de 15:30 a 18 horas";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/134929#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/134929#BusTrip>, <http://www.medicalCentersMadrid.org/Group22/Individuals/134929#SubwayStation>;
+  sch:email "tto.adicciones@caritasmadrid.org";
+  sch:telephone "917 440 599" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/134929#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 9, 73, N2 " .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/134929#SubwayStation> a mdc:Transport;
+  sch:SubwayStation "Metro: Alfonso XIII (L4), Prosperidad (L4)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/134929#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/53123> a mdc:MedicalCenter;
+  dbo:Latitude "4.041.633.059.885.880";
+  dbo:Longitude "-37.239.914.257.003.300";
+  dbo:Name "Centro Concertado de Atención a las Adicciones (CCAD) Casa de Campo (Cruz Roja)";
+  dbo:address "AVENIDA ; PORTUGAL; Num V 0";
+  dbo:borough "PUERTA DEL ANGEL";
+  dbo:description "El CCAD Casa de Campo que forma parte de la red del Instituto de Adicciones de la Ciudad de Madrid, presta una atención personalizada individual y/o grupal en régimen ambulatorio a las personas que presentan problemas de abuso o dependencia del alcohol y de otras drogas.";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 9 a 17 horas";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/53123#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/53123#BusTrip>, <http://www.medicalCentersMadrid.org/Group22/Individuals/53123#SubwayStation>;
+  sch:telephone "914 799 499" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/53123#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 31, 33, 36, 39, 65, 138 " .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/53123#SubwayStation> a mdc:Transport;
+  sch:SubwayStation "Metro:Puerta del Angel (L6), Lago (L10)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/53123#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11867> a mdc:MedicalCenter;
+  dbo:Latitude "4.039.305.745.803.060";
+  dbo:Longitude "-36.980.673.403.694.100";
+  dbo:Name "Centro de Atención a las Adicciones (CAD) de Arganzuela";
+  dbo:address "PASEO ; CHOPERA; Num V 12";
+  dbo:borough "CHOPERA";
+  dbo:district "ARGANZUELA";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario ordinario:De lunes a jueves de 8 a 20:30 horas Viernes de 8 a 15:00 horas  Horario verano:Del 15 al 30 de junio y del 1 al 15 de septiembreDe lunes a jueves de 8 a 19:30 horas Viernes de 8 a 14:00 horas  Del 1 de julio al 31 de agostoDe lunes a viernes de 8 a 14:00 horas";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/11867#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/11867#BusTrip>, <http://www.medicalCentersMadrid.org/Group22/Individuals/11867#SubwayStation>;
+  sch:email "cadarganzuela@madrid.es";
+  sch:telephone """915 886 186                       
+915 886 189""" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11867#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 6 , 8 , 18 , 19 , 22 , 45 , 47 , 76 , 78 , 79 , 85 , 86 , 88 , 123 , 148 , 247 " .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11867#SubwayStation> a mdc:Transport;
+  sch:SubwayStation "Metro: Legazpi (L 3 y L 6)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11867#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11887> a mdc:MedicalCenter;
+  dbo:Latitude "40.468.288.815.918.500";
+  dbo:Longitude "-3.636.150.078.507.100";
+  dbo:Name "Centro de Atención a las Adicciones (CAD) de Hortaleza";
+  dbo:address "CALLE ; MINAYA; Num V 7";
+  dbo:borough "CANILLAS";
+  dbo:district "HORTALEZA";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario ordinario:De lunes a jueves de 8 a 20:30 horasViernes de 8 a 15:00 horas Horario verano:Del 15 al 30 de junio y del 1 al 15 de septiembreDe lunes a jueves de 8 a 19:30 horasViernes de 8 a 14:00 horasDel 1 de julio al 31 de agostoDe lunes a viernes de 8 a 14:00 horas";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/11887#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/11887#BusTrip>, <http://www.medicalCentersMadrid.org/Group22/Individuals/11887#SubwayStation>;
+  sch:email "cadhortaleza@madrid. es";
+  sch:telephone "913 822 530" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11887#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 73, 87, 104, 112, 120, 125, 153, 172 " .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11887#SubwayStation> a mdc:Transport;
+  sch:SubwayStation "Metro: Mar de Cristal (L4, L8)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11887#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11862> a mdc:MedicalCenter;
+  dbo:Latitude "4.039.597.072.367.930";
+  dbo:Longitude "-37.562.716.852.987.800";
+  dbo:Name "Centro de Atención a las Adicciones (CAD) de Latina";
+  dbo:address "CALLE ; CAMARENA; Num V 10";
+  dbo:borough "ALUCHE";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario ordinario:De lunes a jueves de 8 a 20:30 horasViernes de 8 a 15:00 horas Horario verano:Del 15 al 30 de junio y del 1 al 15 de septiembreDe lunes a jueves de 8 a 19:30 horasViernes de 8 a 14:00 horasDel 1 de julio al 31 de agostoDe lunes a viernes de 8 a 14:00 horas";
+  sch:email "cadlatina@madrid.es";
+  sch:telephone "917 198 989" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11865> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.097.774.609.990";
+  dbo:Longitude "-36.271.316.821.262.900";
+  dbo:Name "Centro de Atención a las Adicciones (CAD) de San Blas";
+  dbo:address "CALLE ; ALCALA; Num V 527";
+  dbo:borough "EL SALVADOR";
+  dbo:district "DISTRITO";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario ordinario:De lunes a jueves de 8 a 20:30 horasViernes de 8 a 15:00 horas Horario verano:Del 15 al 30 de junio y del 1 al 15 de septiembreDe lunes a jueves de 8 a 19:30 horasViernes de 8 a 14:00 horasDel 1 de julio al 31 de agostoDe lunes a viernes de 8 a 14:00 horas";
+  sch:email "cadsanblas@madrid.es";
+  sch:telephone "917 434 771" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11866> a mdc:MedicalCenter;
+  dbo:Latitude "4.047.084.721.439.760";
+  dbo:Longitude "-3.701.561.801.865.390";
+  dbo:Name "Centro de Atención a las Adicciones (CAD) de Tetuán";
+  dbo:address "CALLE ; PINOS ALTA; Num V 122";
+  dbo:borough "ALMENARA";
+  dbo:district "TETUAN";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario ordinario:De lunes a jueves de 8 a 20:30 horasViernes de 8 a 15:00 horas Horario verano:Del 15 al 30 de junio y del 1 al 15 de septiembreDe lunes a jueves de 8 a 19:30 horasViernes de 8 a 14:00 horasDel 1 de julio al 31 de agostoDe lunes a viernes de 8 a 14:00 horas";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/11866#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/11866#BusTrip>, <http://www.medicalCentersMadrid.org/Group22/Individuals/11866#SubwayStation>;
+  sch:email "cadtetuan@madrid.es";
+  sch:telephone "913 235 920" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11866#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 42 " .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11866#SubwayStation> a mdc:Transport;
+  sch:SubwayStation "Metro: Ventilla (L-9), Valdeacederas (L-1)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11866#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11864> a mdc:MedicalCenter;
+  dbo:Latitude "4.039.501.488.341.380";
+  dbo:Longitude "-3.665.565.995.938.500";
+  dbo:Name "Centro de Atención a las Adicciones (CAD) de Vallecas";
+  dbo:address "CALLE ; CONCORDIA; Num NUM 17";
+  dbo:borough "SAN DIEGO";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario ordinario:De lunes a jueves de 8 a 20:30 horasViernes de 8 a 15:00 horas Horario verano:Del 15 al 30 de junio y del 1 al 15 de septiembreDe lunes a jueves de 8 a 19:30 horasViernes de 8 a 14:00 horasDel 1 de julio al 31 de agostoDe lunes a viernes de 8 a 14:00 horas";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/11864#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/11864#BusTrip>, <http://www.medicalCentersMadrid.org/Group22/Individuals/11864#SubwayStation>;
+  sch:email "cadvallecas@madrid.es";
+  sch:telephone "914 801 486" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11864#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 10, 24, 54, 57, 58, 111, 136, 140, 310 " .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11864#SubwayStation> a mdc:Transport;
+  sch:SubwayStation "Metro: Nueva Numancia (L1)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11864#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11863> a mdc:MedicalCenter;
+  dbo:Latitude "4.035.231.468.998.610";
+  dbo:Longitude "-3.717.783.527.602.660";
+  dbo:Name "Centro de Atención a las Adicciones (CAD) de Villaverde";
+  dbo:address "CALLE ; VERDE VIENTO; Num V 16";
+  dbo:borough "SAN ANDRES";
+  dbo:district "VILLAVERDE";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario ordinario:De lunes a jueves de 8 a 20:30 horasViernes de 8 a 15:00 horas Horario verano:Del 15 al 30 de junio y del 1 al 15 de septiembreDe lunes a jueves de 8 a 19:30 horasViernes de 8 a 14:00 horasDel 1 de julio al 31 de agostoDe lunes a viernes de 8 a 14:00 horas";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/11863#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/11863#BusTrip>;
+  sch:email "cadvillaverde@madrid.es";
+  sch:telephone "917 231 110" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11863#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 76" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11863#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11868> a mdc:MedicalCenter;
+  dbo:Latitude "40.433.034.436.825.400";
+  dbo:Longitude "-36.165.885.100.628.400";
+  dbo:Name "Centro de Atención Integral a Drogodependientes CAID Este";
+  dbo:address "PLAZA ; CIVICA; Num V; Orientacion: esquina C/ Pobladura del Valle";
+  dbo:borough "HELLIN";
+  dbo:district "SAN BLAS-CANILLEJAS";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario atención telefónica: Lunes a viernes laborables, 9 a 20 horas.Horario atención presencial: consultar telefónicamente.";
+  sch:email "caideste@salud.madrid.org";
+  sch:telephone "901 350 350 / 913 064 542 / 913 064 543" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11882> a mdc:MedicalCenter;
+  dbo:Latitude "4.046.123.735.083.850";
+  dbo:Longitude "-37.040.802.461.239.900";
+  dbo:Name "Centro de Atención Integral a Drogodependientes CAID Norte";
+  dbo:address "CALLE ; NUESTRA SEÑORA DEL CARMEN; Num V 46";
+  dbo:borough "BERRUGUETE";
+  dbo:district "TETUAN";
+  esdbo:city "MADRID";
+  sch:email "caidnorte.agad@salud.madrid.org";
+  sch:telephone "901 350 350 / 913 980 556" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11884> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.089.582.968.080";
+  dbo:Longitude "-37.068.597.834.339.600";
+  dbo:Name "Centro de Atención Integral a Drogodependientes CAID Sur-Usera";
+  dbo:address "CALLE ; JASPE; Num V 40";
+  dbo:borough "PRADOLONGO";
+  dbo:district "USERA";
+  esdbo:city "MADRID";
+  mdc:schedule "Lunes a viernes, de 9 a 21 horas.";
+  sch:email "caiddeusera.agad@salud.madrid.org";
+  sch:telephone "901 350 350 / 915 003 010 / 915 002 828" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/5408374> a mdc:MedicalCenter;
+  dbo:Latitude "403.683.826.319.493";
+  dbo:Longitude "-36.237.845.559.205.900";
+  dbo:Name "Centro de Atención Integral a Drogodependientes CAID Vallecas";
+  dbo:address "CALLE ; CINCOVILLAS; Num V 5";
+  dbo:borough "CASCO H.VALLECAS";
+  dbo:district "VILLA DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "Lunes a viernes, de 9 a 21 horas.";
+  sch:email "caidvallecas@salud.madrid.org";
+  sch:telephone "901 350 350 / 914 942 828" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/11899> a mdc:MedicalCenter;
+  dbo:Latitude "4.042.747.404.776.080";
+  dbo:Longitude "-3.697.485.377.509.970";
+  dbo:Name "Centro de Atención integral sociosanitaria nocturno";
+  dbo:address "CALLE ; HERMANOS ALVAREZ QUINTERO; Num V 3";
+  dbo:borough "JUSTICIA";
+  dbo:district "CENTRO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a domingo de 21 a 8 horas";
+  sch:telephone "91 369 12 71" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/5855213> a mdc:MedicalCenter;
+  dbo:Latitude "4.042.747.404.776.080";
+  dbo:Longitude "-3.697.485.377.509.970";
+  dbo:Name "Centro de Atención integral sociosanitario diurno";
+  dbo:address "CALLE ; HERMANOS ALVAREZ QUINTERO; Num V 3";
+  dbo:borough "JUSTICIA";
+  dbo:description "El Centro de atención integral sociosanitario diurno forma parte de la red del Instituto de Adicciones de la Ciudad de Madrid, presta una atención personalizada individual y/o grupal en régimen ambulatorio a las personas que presentan problemas de abuso o dependencia del alcohol y de otras drogas.";
+  dbo:district "CENTRO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 17 horas";
+  sch:email "ctdcentro@cruzroja.es";
+  sch:telephone "914 291 960" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9176> a mdc:MedicalCenter;
+  dbo:Latitude "40.447.634.266.728.900";
+  dbo:Longitude "-3.709.893.403.930.220";
+  dbo:Name "Centro de donación de sangre de Cruz Roja";
+  dbo:address "CALLE ; JUAN MONTALVO; Num V 3";
+  dbo:borough "CIUDAD UNIVERSITARIA";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 9 a 14:30 horas";
+  sch:telephone "914 562 470" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9091> a mdc:MedicalCenter;
+  dbo:Latitude "40.427.813.991.541.300";
+  dbo:Longitude "-3.717.265.212.211.460";
+  dbo:Name "Centro de Especialidades Periférico Argüelles";
+  dbo:address "CALLE ; QUINTANA; Num V 11";
+  dbo:borough "ARGUELLES";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9091#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9091#BusTrip>;
+  sch:telephone "913 445 024 / 913 445 006" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9091#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 62, 74" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9091#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 114 (calle Quintana 11-13)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9093> a mdc:MedicalCenter;
+  dbo:Latitude "4.041.118.910.558.640";
+  dbo:Longitude "-37.378.201.989.857.700";
+  dbo:Name "Centro de Especialidades Periférico Avenida de Portugal";
+  dbo:address "AVENIDA ; PORTUGAL; Num V 155";
+  dbo:borough "PUERTA DEL ANGEL";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "Este centro de especialidades dispone de Servicio de Urgencias de Atención Primaria de lunes a viernes de 20:30 a 8:30 del día siguiente y sábados, domingos y festivos las 24 horas.";
+  sch:telephone "913 301 952 / Urgencias: 112" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9095> a mdc:MedicalCenter;
+  dbo:Latitude "4.037.199.728.022.390";
+  dbo:Longitude "-37.480.055.783.841.600";
+  dbo:Name "Centro de Especialidades Periférico Carabanchel Alto";
+  dbo:address "CALLE ; AGUACATE; Num V 13";
+  dbo:borough "BUENAVISTA";
+  dbo:district "CARABANCHEL";
+  esdbo:city "MADRID";
+  mdc:schedule "Este centro de especialidades dispone de Servicio de Urgencias de Atención Primaria de lunes a viernes de 20:30 a 8:30 del día siguiente y sábados, domingos y festivos las 24 horas.";
+  sch:telephone "915 085 731 (información) / 915 115 033" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/6869784> a mdc:MedicalCenter;
+  dbo:Latitude "4.046.868.395.687.670";
+  dbo:Longitude "-3.636.377.932.102.780";
+  dbo:Name "Centro de Especialidades Periférico Emigrantes";
+  dbo:address "CALLE ; AREQUIPA; Num V 30 ; Planta: 3ª";
+  dbo:borough "CANILLAS";
+  dbo:district "HORTALEZA";
+  esdbo:city "MADRID";
+  sch:telephone "913 816 088" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/136605> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.752.095.230.910";
+  dbo:Longitude "-3.639.737.034.237.320";
+  dbo:Name "Centro de Especialidades Periférico Federica Montseny";
+  dbo:address "AVENIDA ; ALBUFERA; Num V 285";
+  dbo:borough "PALOMERAS SURESTE";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "Este centro de especialidades dispone de Servicio de Urgencias de Atención Primaria de lunes a viernes de 20:30 a 8:30 del día siguiente y sábados, domingos y festivos las 24 horas.";
+  sch:telephone "913 808 426 / 913 808 427" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9085> a mdc:MedicalCenter;
+  dbo:Latitude "40.423.556.423.686.000";
+  dbo:Longitude "-3.668.546.719.643.050";
+  dbo:Name "Centro de Especialidades Periférico Hermanos García Noblejas";
+  dbo:address "CALLE ; DOCTOR ESQUERDO; Num V 45";
+  dbo:borough "FUENTE DEL BERRO";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  mdc:schedule "Este centro de especialidades dispone de Servicio de Urgencias de Atención Primaria los viernes de 20:30h a 8:30 del día siguiente y sábados, domingos y festivos las 24 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9085#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9085#BusTrip>;
+  sch:telephone "Información: 915 742 187 / 915 742 389 - Cita previa: 915 046 607 / 915 742 187" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9085#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 2, 30, 56, 143, 156, 28, 203" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9085#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 63 (calle Ibiza, 62)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9082> a mdc:MedicalCenter;
+  dbo:Latitude "40.398.592.514.272.600";
+  dbo:Longitude "-3.668.511.825.547.570";
+  dbo:Name "Centro de Especialidades Periférico Hermanos Sangro (Peña Prieta)";
+  dbo:address "AVENIDA ; PEÑA PRIETA; Num NUM 4";
+  dbo:borough "NUMANCIA";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  sch:telephone "915 515 456" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/40266> a mdc:MedicalCenter;
+  dbo:Latitude "4.046.344.389.355.500";
+  dbo:Longitude "-3.696.754.927.700.330";
+  dbo:Name "Centro de Especialidades Periférico José Marvá";
+  dbo:address "CALLE ; BRAVO MURILLO; Num V 317";
+  dbo:borough "VALDEACEDERAS";
+  dbo:district "TETUAN";
+  esdbo:city "MADRID";
+  sch:telephone "917 277 070 / 912 350 002 (atención al paciente)." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9092> a mdc:MedicalCenter;
+  dbo:Latitude "404.400.595.709.992";
+  dbo:Longitude "-36.962.540.372.344.900";
+  dbo:Name "Centro de Especialidades Periférico Modesto Lafuente";
+  dbo:address "CALLE ; MODESTO LAFUENTE; Num V 21";
+  dbo:borough "RIOS ROSAS";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  sch:telephone "913 301 808" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9081> a mdc:MedicalCenter;
+  dbo:Latitude "4.039.977.862.719.600";
+  dbo:Longitude "-3.633.866.766.863.200";
+  dbo:Name "Centro de Especialidades Periférico Moratalaz";
+  dbo:address "CALLE ; HACIENDA DE PAVONES; Num V 348";
+  dbo:borough "PAVONES";
+  dbo:district "MORATALAZ";
+  esdbo:city "MADRID";
+  sch:telephone "917 733 141" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9096> a mdc:MedicalCenter;
+  dbo:Latitude "40.372.680.378.354.800";
+  dbo:Longitude "-371.405.352.060.838";
+  dbo:Name "Centro de Especialidades Periférico Orcasitas";
+  dbo:address "CALLE ; CESTONA; Num V 3";
+  dbo:borough "ORCASITAS";
+  dbo:district "USERA";
+  esdbo:city "MADRID";
+  sch:telephone "913 415 262" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9086> a mdc:MedicalCenter;
+  dbo:Latitude "4.042.345.514.830.320";
+  dbo:Longitude "-3.627.133.951.136.980";
+  dbo:Name "Centro de Especialidades Periférico Pedro González Bueno (San Blas)";
+  dbo:address "AVENIDA ; INSTITUCION LIBRE DE ENSE&amp;Ntilde;ANZA; Num V 89";
+  dbo:borough "AMPOSTA";
+  dbo:district "SAN BLAS-CANILLEJAS";
+  esdbo:city "MADRID";
+  sch:telephone "913 040 760 / 913 044 232" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9089> a mdc:MedicalCenter;
+  dbo:Latitude "40.474.880.519.213.700";
+  dbo:Longitude "-3.725.351.369.075.340";
+  dbo:Name "Centro de Especialidades Periférico Peña Grande";
+  dbo:address "CALLE ; ISLA DE CERDEÑA; Num V 5";
+  dbo:borough "PEÑA GRANDE";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  sch:telephone "917 277 070" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/7559224> a mdc:MedicalCenter;
+  dbo:Latitude "4.040.681.495.043.130";
+  dbo:Longitude "-3.712.728.851.523.640";
+  dbo:Name "Centro de Especialidades Periférico Pontones";
+  dbo:address "RONDA ; SEGOVIA; Num V 52";
+  dbo:borough "IMPERIAL";
+  dbo:district "ARGANZUELA";
+  esdbo:city "MADRID";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/7559224#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/7559224#BusTrip>;
+  sch:telephone "Información: 914 182 970 / 914 182 988 / 914 182 990 / Cita previa: 914 182 101" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/7559224#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: C2, 17, 41, C1, 3, 148, 60, 18, 23, 35" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/7559224#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 45 (glorieta Puerta de Toledo, 1)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/10158869> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.895.208.754.310";
+  dbo:Longitude "-3.667.073.330.202.460";
+  dbo:Name "Centro de Especialidades Periférico Vicente Soldevilla";
+  dbo:address "CALLE ; SIERRA DE ALQUIFE; Num V 8";
+  dbo:borough "SAN DIEGO";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  sch:telephone "917 798 803 / 917 798 806" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9097> a mdc:MedicalCenter;
+  dbo:Latitude "4.034.953.244.091.500";
+  dbo:Longitude "-3.694.239.816.260.810";
+  dbo:Name "Centro de Especialidades Periférico Villaverde Cruce";
+  dbo:address "CALLE ; ALCARRIA; Num V 4";
+  dbo:borough "LOS ANGELES";
+  dbo:district "VILLAVERDE";
+  esdbo:city "MADRID";
+  sch:telephone "917 987 000" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/163279> a mdc:MedicalCenter;
+  dbo:Latitude "4.045.680.646.874.770";
+  dbo:Longitude "-36.611.039.641.981.200";
+  dbo:Name "Centro de Patología Dual";
+  dbo:address "CALLE ; LOPEZ DE HOYOS; Num NUM 259; Orientacion: DISPOSITIVO DE HOSPITALIZACION";
+  dbo:borough "COLINA";
+  dbo:description "Unidad hospitalaria de apoyo donde se realiza el abordaje terapéutico integral tanto de la psicopatología concomitante como de la conducta adictiva, en coordinación con el equipo del centro de atención.";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  sch:telephone "914 156 000" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/183742> a mdc:MedicalCenter;
+  dbo:Latitude "40.428.976.927.386.800";
+  dbo:Longitude "-36.721.607.026.353.800";
+  dbo:Name "Centro de Prevención de Deterioro Cognitivo";
+  dbo:address "CALLE ; MONTESA; Num V 22; Orientacion: Edificio B";
+  dbo:borough "LISTA";
+  dbo:description "Su objetivo fundamental es el diagnóstico precoz y el tratamiento de las personas que tienen Deterioro Cognitivo Leve.Su orientación es preventiva y a esta prevención van dirigidas sus actividades.Para acceder a este servicio se deberá acudir previamente al Centro Municipal de Salud Comunitaria de su Distrito donde decidirán si procede su derivación al Centro de Prevención de Deterioro Cognitivo.";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno Lunes, miércoles y viernes de 9 a 14 horasMartes y jueves de 10 a 14 horas Horario de verano   Del 15 de junio al 15 de septiembre:  de 8:30 a 14 horas (le recomendamos confirmar este horario llamando al centro)";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/183742#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/183742#BusTrip>;
+  sch:email "mspcognitiva@madrid.es";
+  sch:telephone """915 885 801              
+915 885 810""" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/183742#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: C1, C2, 1, 2, 12, 15, 21, 26, 29, 30, 38, 43, 48, 53, 56, 61, 63, 120, 71, 74, 106, 110, 143, 146, 152, 210." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/183742#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/177645> a mdc:MedicalCenter;
+  dbo:Latitude "4.045.817.981.904.010";
+  dbo:Longitude "-37.207.253.118.064.800";
+  dbo:Name "Centro de Prevención de Riesgos Laborales Fabiola de Mora y Aragón";
+  dbo:address "CARRETERA ; DEHESA DE LA VILLA; Num V 1";
+  dbo:borough "CIUDAD UNIVERSITARIA";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  mdc:schedule "Consulta previa cita.";
+  sch:telephone "915 883 176 / 915 883 178" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/183561> a mdc:MedicalCenter;
+  dbo:Latitude "4.042.884.173.116.560";
+  dbo:Longitude "-3.672.171.145.701.450";
+  dbo:Name "Centro de Promoción de Hábitos Saludables";
+  dbo:address "CALLE ; MONTESA; Num V 22; Orientacion: Edificio C";
+  dbo:district "DISTRITO";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de verano (antes de acudir, póngase en contacto telefónico con el centro)  Del 15 de junio al 15 de septiembre:  de 8:30 a 14 horas.";
+  sch:telephone "915 889 063" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8984> a mdc:MedicalCenter;
+  dbo:Latitude "40.381.074.416.720.500";
+  dbo:Longitude "-37.274.543.653.739.800";
+  dbo:Name "Centro de Salud Abrantes";
+  dbo:address "AVENIDA ; ABRANTES; Num V 55";
+  dbo:borough "ABRANTES";
+  dbo:district "CARABANCHEL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 650 770" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/139416> a mdc:MedicalCenter;
+  dbo:Latitude "4.040.093.539.108.980";
+  dbo:Longitude "-36.746.274.376.053.100";
+  dbo:Name "Centro de Salud Adelfas";
+  dbo:address "AVENIDA ; CIUDAD DE BARCELONA; Num V 190";
+  dbo:borough "ADELFAS";
+  dbo:district "RETIRO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/139416#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/139416#BusTrip>;
+  sch:telephone "914 340 348" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/139416#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 310, 8, 10, 136, 56, 156 ,24, 37, 54, 57, 141" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/139416#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 78 (calle Cerro de la Plata 2)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9052> a mdc:MedicalCenter;
+  dbo:Latitude "4.041.203.809.922.690";
+  dbo:Longitude "-3.693.820.066.399.220";
+  dbo:Name "Centro de Salud Alameda";
+  dbo:address "CALLE ; ALAMEDA; Num V 5";
+  dbo:borough "CORTES";
+  dbo:district "CENTRO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 203 802" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9076> a mdc:MedicalCenter;
+  dbo:Latitude "4.045.539.853.225.990";
+  dbo:Longitude "-35.864.475.918.316.700";
+  dbo:Name "Centro de Salud Alameda de Osuna";
+  dbo:address "CALLE ; CARABELA; Num V 7";
+  dbo:borough "ALAMEDA DE OSUNA";
+  dbo:district "BARAJAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 296 458" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8985> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.959.377.837.190";
+  dbo:Longitude "-36.572.768.410.568.700";
+  dbo:Name "Centro de Salud Alcalá de Guadaira";
+  dbo:address "CALLE ; ALCALA DE GUADAIRA; Num V 4";
+  dbo:borough "PALOMERAS BAJAS";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 783 562  (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/21018> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.199.919.729.480";
+  dbo:Longitude "-3.701.723.064.805.610";
+  dbo:Name "Centro de Salud Almendrales";
+  dbo:address "CALLE ; VISITACION; Num V 5";
+  dbo:borough "ALMENDRALES";
+  dbo:district "USERA";
+  esdbo:city "MADRID";
+  mdc:schedule "Lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 001 160" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9053> a mdc:MedicalCenter;
+  dbo:Latitude "404.381.477.593.023";
+  dbo:Longitude "-37.142.858.638.933.400";
+  dbo:Name "Centro de Salud Andrés Mellado";
+  dbo:address "CALLE ; ANDRES MELLADO; Num V 65";
+  dbo:borough "GAZTAMBIDE";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9053#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9053#BusTrip>;
+  sch:telephone "915 446 020" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9053#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 2, 12" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9053#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 128 (calle Cea Bermúdez, 59)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/31645> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.216.728.179.810";
+  dbo:Longitude "-3.664.108.286.837.150";
+  dbo:Name "Centro de Salud Ángela Uriarte";
+  dbo:address "CALLE ; CANDILEJAS; Num V 66";
+  dbo:borough "PALOMERAS BAJAS";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.Este centro de salud presta atención urgente como Servicio de Urgencias de Atención Primaria de lunes a viernes de 20:30h a 8:30 horas del día siguiente y sábados, domingos y festivos las 24 horas.";
+  sch:telephone "917 851 030 (cita previa) / 112 (urgencias)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8957> a mdc:MedicalCenter;
+  dbo:Latitude "4.041.873.147.347.620";
+  dbo:Longitude "-3.617.636.645.167.140";
+  dbo:Name "Centro de Salud Aquitania";
+  dbo:address "CALLE ; AQUITANIA; Num V 22";
+  dbo:borough "ARCOS";
+  dbo:district "SAN BLAS-CANILLEJAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 135 323" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9001> a mdc:MedicalCenter;
+  dbo:Latitude "4.045.644.133.669.230";
+  dbo:Longitude "-37.816.810.459.701.000";
+  dbo:Name "Centro de Salud Aravaca";
+  dbo:address "CALLE ; RIAZA; Num V 5";
+  dbo:borough "ARAVACA";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 573 486 / 913 574 502" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/10144881> a mdc:MedicalCenter;
+  dbo:Latitude "40.427.813.991.541.300";
+  dbo:Longitude "-3.717.265.212.211.460";
+  dbo:Name "Centro de Salud Argüelles";
+  dbo:address "CALLE ; QUINTANA; Num V 11";
+  dbo:borough "ARGUELLES";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/10144881#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/10144881#BusTrip>;
+  sch:telephone "915 594 898" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/10144881#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 62, 74" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/10144881#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 114 (calle Quintala, 11-13)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/34973> a mdc:MedicalCenter;
+  dbo:Latitude "40.412.160.113.309.600";
+  dbo:Longitude "-36.543.494.461.654.500";
+  dbo:Name "Centro de Salud Arroyo Medialegua";
+  dbo:address "CALLE ; ARROYO DE LA MEDIA LEGUA; Num V 35";
+  dbo:borough "MEDIA LEGUA";
+  dbo:district "MORATALAZ";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 280 257 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9007> a mdc:MedicalCenter;
+  dbo:Latitude "40.405.768.443.099.600";
+  dbo:Longitude "-3.608.950.387.094.390";
+  dbo:Name "Centro de Salud Artilleros";
+  dbo:address "PASEO ; ARTILLEROS; Num V 31";
+  dbo:borough "CASCO H.VICALVARO";
+  dbo:district "VICALVARO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 768 011 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9039> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.827.455.642.490";
+  dbo:Longitude "-36.371.051.129.727.000";
+  dbo:Name "Centro de Salud Avenida de Aragón";
+  dbo:address "CALLE ; ALCALA; Num V 425";
+  dbo:borough "QUINTANA";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 201 068 / 913 201 472" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8953> a mdc:MedicalCenter;
+  dbo:Latitude "404.716.288.649.535";
+  dbo:Longitude "-35.818.701.273.536.900";
+  dbo:Name "Centro de Salud Barajas";
+  dbo:address "AVENIDA ; LOGRO&amp;Ntilde;O; Num V 319";
+  dbo:borough "TIMON";
+  dbo:district "BARAJAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes 8 a 21 horas.Este centro de salud presta atención urgente como Servicio de Urgencias de Atención Primaria los viernes de 20:30 a 8:30 del día siguiente y sábados, domingos y festivos las 24 horas.";
+  sch:telephone "913 291 767  / 112 (urgencias)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8958> a mdc:MedicalCenter;
+  dbo:Latitude "4.047.787.174.931.880";
+  dbo:Longitude "-3.701.965.253.145.550";
+  dbo:Name "Centro de Salud Barrio del Pilar";
+  dbo:address "CALLE ; FINISTERRE; Num V 18";
+  dbo:borough "LA PAZ";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 149 777" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9031> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.246.124.961.720";
+  dbo:Longitude "-3.663.180.199.288.560";
+  dbo:Name "Centro de Salud Baviera";
+  dbo:address "AVENIDA ; BAVIERA; Num V 9";
+  dbo:borough "GUINDALERA";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 267 178" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9006> a mdc:MedicalCenter;
+  dbo:Latitude "40.465.137.220.932.300";
+  dbo:Longitude "-36.504.400.014.912.800";
+  dbo:Name "Centro de Salud Benita Ávila";
+  dbo:address "CALLE ; BENITA AVILA; Num V 26";
+  dbo:borough "CANILLAS";
+  dbo:district "HORTALEZA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 882 915" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8939> a mdc:MedicalCenter;
+  dbo:Latitude "4.035.940.720.387.400";
+  dbo:Longitude "-3.690.771.730.176.700";
+  dbo:Name "Centro de Salud Bucodental";
+  dbo:address "AVENIDA ; FELICIDAD; Num V 17";
+  dbo:district "VILLAVERDE";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de verano (antes de acudir, póngase en contacto telefónico con el centro)  Del 15 de junio al 15 de septiembre (cierra en agosto):  de 8:30 a 14 horas. Horario de invierno De lunes a viernes de 8:30 a 15 horas (es necesario pedir cita previa antes de acudir al centro)";
+  sch:email "mspbucodental@madrid.es";
+  sch:telephone """Recepción: 915 88 87 80                                
+Secretaría: 914 80 10 40""" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8945> a mdc:MedicalCenter;
+  dbo:Latitude "40.394.001.804.101.600";
+  dbo:Longitude "-3.653.643.402.215.280";
+  dbo:Name "Centro de Salud Buenos Aires";
+  dbo:address "CALLE ; PIO FELIPE; Num V 26";
+  dbo:borough "NUMANCIA";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 033 200 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8959> a mdc:MedicalCenter;
+  dbo:Latitude "40.462.253.445.775.800";
+  dbo:Longitude "-36.954.687.768.736.000";
+  dbo:Name "Centro de Salud Bustarviejo";
+  dbo:address "CALLE ; BUSTARVIEJO; Num V 5";
+  dbo:borough "CASTILLEJOS";
+  dbo:district "TETUAN";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 720 998" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8975> a mdc:MedicalCenter;
+  dbo:Latitude "4.039.862.523.060.970";
+  dbo:Longitude "-36.950.492.737.105.900";
+  dbo:Name "Centro de Salud Cáceres";
+  dbo:address "CALLE ; CACERES; Num V 4";
+  dbo:borough "DELICIAS";
+  dbo:district "ARGANZUELA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 309 112" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8964> a mdc:MedicalCenter;
+  dbo:Latitude "40.393.721.254.108.900";
+  dbo:Longitude "-3.781.591.559.690.340";
+  dbo:Name "Centro de Salud Campamento";
+  dbo:address "CALLE ; MIRUE&amp;Ntilde;A; Num V 5";
+  dbo:borough "CAMPAMENTO";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 113 973" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/7651785> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.200.620.388.690";
+  dbo:Longitude "-36.480.375.349.969.100";
+  dbo:Name "Centro de Salud Campo de la Paloma";
+  dbo:address "CALLE ; VILLALOBOS; Num V 14";
+  dbo:borough "PALOMERAS SURESTE";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 789 613 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/51700> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.125.057.288.540";
+  dbo:Longitude "-365.270.946.001.226";
+  dbo:Name "Centro de Salud Canal de Panamá";
+  dbo:address "CALLE ; VERDAGUER Y GARCIA; Num V 56";
+  dbo:borough "SAN PASCUAL";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 032 154" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/41145> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.436.285.408.180";
+  dbo:Longitude "-36.141.331.916.571.200";
+  dbo:Name "Centro de Salud Canillejas";
+  dbo:address "CALLE ; BOLTAÑA; Num V 5";
+  dbo:borough "CANILLEJAS";
+  dbo:district "SAN BLAS-CANILLEJAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 249 393" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/7651324> a mdc:MedicalCenter;
+  dbo:Latitude "4.036.162.427.421.500";
+  dbo:Longitude "-3.754.097.563.776.420";
+  dbo:Name "Centro de Salud Carabanchel Alto";
+  dbo:address "AVENIDA ; CARABANCHEL ALTO; Num V 150";
+  dbo:borough "BUENAVISTA";
+  dbo:district "CARABANCHEL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 115 793" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8965> a mdc:MedicalCenter;
+  dbo:Latitude "4.040.916.086.026.770";
+  dbo:Longitude "-37.280.631.261.494.400";
+  dbo:Name "Centro de Salud Caramuel";
+  dbo:address "CALLE ; FUENTEOVEJUNA; Num V 17";
+  dbo:borough "PUERTA DEL ANGEL";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 635 879 / 914 798 262" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9050> a mdc:MedicalCenter;
+  dbo:Latitude "4.042.782.393.254.150";
+  dbo:Longitude "-3.731.494.497.212.350";
+  dbo:Name "Centro de Salud Casa de Campo";
+  dbo:address "CALLE ; RIBERA DEL MANZANARES; Num V 113";
+  dbo:borough "CASA DE CAMPO";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 473 628 / 915 590 035" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9032> a mdc:MedicalCenter;
+  dbo:Latitude "40.428.679.802.203.500";
+  dbo:Longitude "-3.681.364.992.353.440";
+  dbo:Name "Centro de Salud Castelló";
+  dbo:address "CALLE ; CASTELLO; Num V 63";
+  dbo:borough "RECOLETOS";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9032#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9032#BusTrip>;
+  sch:telephone "915 778 118" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9032#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 29, 52, 1, 74" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9032#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 109 (calle José Ortega y Gasset, 30)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9054> a mdc:MedicalCenter;
+  dbo:Latitude "40.438.903.566.928.400";
+  dbo:Longitude "-37.071.132.524.691.600";
+  dbo:Name "Centro de Salud Cea Bermúdez";
+  dbo:address "CALLE ; CEA BERMUDEZ; Num V 10";
+  dbo:borough "VALLEHERMOSO";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 349 755" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8966> a mdc:MedicalCenter;
+  dbo:Latitude "4.040.575.093.761.930";
+  dbo:Longitude "-37.485.205.362.420.900";
+  dbo:Name "Centro de Salud Cebreros";
+  dbo:address "CALLE ; CEBREROS; Num V 74";
+  dbo:borough "LUCERO";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 642 716" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9028> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.043.934.052.420";
+  dbo:Longitude "-36.046.579.314.499.900";
+  dbo:Name "Centro de Salud Cerro Almodóvar";
+  dbo:address "CALLE ; FUENTESPINA; Num V 2";
+  dbo:borough "SANTA EUGENIA";
+  dbo:district "VILLA DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 311 836 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8960> a mdc:MedicalCenter;
+  dbo:Latitude "40.486.000.931.317.000";
+  dbo:Longitude "-3.702.934.870.524.550";
+  dbo:Name "Centro de Salud Ciudad de los Periodistas";
+  dbo:address "CALLE ; VALENCIA DE DON JUAN; Num V 10";
+  dbo:borough "LA PAZ";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 303 399" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8951> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.733.798.955.030";
+  dbo:Longitude "-367.049.219.748.446";
+  dbo:Name "Centro de Salud Ciudad Jardín";
+  dbo:address "CALLE ; PANTOJA; Num V 3";
+  dbo:borough "CIUDAD JARDIN";
+  dbo:district "CHAMARTIN";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 194 411" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9065> a mdc:MedicalCenter;
+  dbo:Latitude "4.039.230.886.184.920";
+  dbo:Longitude "-37.100.426.086.851.500";
+  dbo:Name "Centro de Salud Comillas";
+  dbo:address "CALLE ; EDUARDO MARQUINA; Num V 33";
+  dbo:borough "COMILLAS";
+  dbo:district "CARABANCHEL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 605 100" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9040> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.068.905.567.280";
+  dbo:Longitude "-3.657.995.094.893.660";
+  dbo:Name "Centro de Salud Daroca";
+  dbo:address "AVENIDA ; DAROCA; Num V 4";
+  dbo:borough "VENTAS";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 553 004" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9064> a mdc:MedicalCenter;
+  dbo:Latitude "4.040.430.960.161.490";
+  dbo:Longitude "-3.695.107.740.220.050";
+  dbo:Name "Centro de Salud Delicias";
+  dbo:address "CALLE ; DELICIAS; Num V 5";
+  dbo:borough "PALOS DE MOGUER";
+  dbo:district "ARGANZUELA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9064#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9064#BusTrip>;
+  sch:telephone "914 678 962" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9064#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 19, 45, 86, 27, 55, 8, 47, 247, 6, 59, 85, 102 " .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9064#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 120 (calle Palos de la Frontera 40)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/31598> a mdc:MedicalCenter;
+  dbo:Latitude "4.047.277.245.807.720";
+  dbo:Longitude "-371.813.267.268.184";
+  dbo:Name "Centro de Salud Doctor Castroviejo";
+  dbo:address "CALLE ; CANDIDO MATEOS; Num V 11";
+  dbo:borough "PEÑA GRANDE";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 739 500" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9020> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.540.069.493.300";
+  dbo:Longitude "-3.637.101.566.557.670";
+  dbo:Name "Centro de Salud Doctor Cirajas";
+  dbo:address "CALLE ; DOCTOR CIRAJAS; Num V 20";
+  dbo:borough "PUEBLO NUEVO";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 221 540" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9014> a mdc:MedicalCenter;
+  dbo:Latitude "4.035.862.379.228.150";
+  dbo:Longitude "-3.689.197.415.839.020";
+  dbo:Name "Centro de Salud el Espinillo";
+  dbo:address "AVENIDA ; OROVILLA; Num V 53";
+  dbo:borough "LOS ROSALES";
+  dbo:district "VILLAVERDE";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 180 775" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9011> a mdc:MedicalCenter;
+  dbo:Latitude "4.051.845.479.322.290";
+  dbo:Longitude "-3.776.911.691.678.240";
+  dbo:Name "Centro de Salud El Pardo";
+  dbo:address "CALLE ; CARLOS MORLA LYNCH; Num V 2";
+  dbo:borough "EL PARDO";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 760 233" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/34480> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.412.739.234.340";
+  dbo:Longitude "-3.701.427.600.778.640";
+  dbo:Name "Centro de Salud Eloy Gonzalo";
+  dbo:address "CALLE ; ELOY GONZALO; Num V 24";
+  dbo:borough "TRAFALGAR";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/34480#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/34480#BusTrip>;
+  sch:telephone "915 932 300" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/34480#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 3, 16,  61, 149" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/34480#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 126 (Calle General Álvarez de Castro, 2)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8977> a mdc:MedicalCenter;
+  dbo:Latitude "40.402.049.127.782.300";
+  dbo:Longitude "-3.699.456.498.318.920";
+  dbo:Name "Centro de Salud Embajadores";
+  dbo:address "CALLE ; CARDENAL SOLIS; Num V 6";
+  dbo:borough "PALOS DE MOGUER";
+  dbo:district "ARGANZUELA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 671 200" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/5647268> a mdc:MedicalCenter;
+  dbo:Latitude "403.683.825.684.203";
+  dbo:Longitude "-36.237.963.338.906.100";
+  dbo:Name "Centro de Salud Ensanche de Vallecas";
+  dbo:address "CALLE ; CINCOVILLAS; Num V 1";
+  dbo:borough "CASCO H.VALLECAS";
+  dbo:district "VILLA DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 852 255 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/7651810> a mdc:MedicalCenter;
+  dbo:Latitude "4.037.945.461.257.860";
+  dbo:Longitude "-3.670.513.784.357.970";
+  dbo:Name "Centro de Salud Entrevías";
+  dbo:address "CALLE ; CAMPIÑA; Num V";
+  dbo:borough "ENTREVIAS";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 073 030 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9005> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.050.708.089.830";
+  dbo:Longitude "-36.967.420.896.749.100";
+  dbo:Name "Centro de Salud Espronceda";
+  dbo:address "CALLE ; ESPRONCEDA; Num V 24";
+  dbo:borough "RIOS ROSAS";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.Este centro de salud dispone de Servicio de Urgencias de Atención Primaria de lunes a viernes de 20:30 a 8:30 del día siguiente y sábados, domingos y festivos las 24 horas..";
+  sch:telephone "913 994 149 / 112 (urgencias)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/62770> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.991.701.481.400";
+  dbo:Longitude "-3.647.944.779.892.400";
+  dbo:Name "Centro de Salud Estrecho de Corea";
+  dbo:address "CALLE ; ESTRECHO DE COREA; Num V 1";
+  dbo:borough "CONCEPCION";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 073 714" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8942> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.752.095.230.910";
+  dbo:Longitude "-3.639.737.034.237.320";
+  dbo:Name "Centro de Salud Federica Montseny";
+  dbo:address "AVENIDA ; ALBUFERA; Num V 285";
+  dbo:borough "PALOMERAS SURESTE";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 909 975 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9017> a mdc:MedicalCenter;
+  dbo:Latitude "4.048.443.051.092.660";
+  dbo:Longitude "-36.777.752.563.358.400";
+  dbo:Name "Centro de Salud Fuencarral";
+  dbo:address "CALLE ; ISLA DE JAVA; Num V";
+  dbo:borough "VALVERDE";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.Este centro de salud dispone de Servicio de Urgencias de Atención Primaria sábados, domingos y festivos de 9h a 22 horas.";
+  sch:telephone "917 293 471 (cita previa) / 112 (urgencias)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9012> a mdc:MedicalCenter;
+  dbo:Latitude "40.482.214.022.386.300";
+  dbo:Longitude "-37.338.779.503.799.400";
+  dbo:Name "Centro de Salud Fuentelarreina";
+  dbo:address "CALLE ; ALFONSO RODRIGUEZ CASTELAO; Num V 17";
+  dbo:borough "PEÑA GRANDE";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 738 448 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/104705> a mdc:MedicalCenter;
+  dbo:Latitude "4.042.522.373.132.440";
+  dbo:Longitude "-3.631.582.839.635.460";
+  dbo:Name "Centro de Salud Gandhi";
+  dbo:address "CALLE ; GANDHI; Num V 30";
+  dbo:borough "PUEBLO NUEVO";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 042 927" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/44689> a mdc:MedicalCenter;
+  dbo:Latitude "4.042.335.202.303.160";
+  dbo:Longitude "-36.278.756.460.913.700";
+  dbo:Name "Centro de Salud García Noblejas";
+  dbo:address "AVENIDA ; INSTITUCION LIBRE DE ENSE&amp;Ntilde;ANZA; Num V 168";
+  dbo:borough "PUEBLO NUEVO";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.Este centro de salud dispone de Servicio de Urgencias de Atención Primaria de lunes a viernes de 20:30 a 8:30 del día siguiente y sábados, domingos y festivos las 24 horas..";
+  sch:telephone "913 045 362 / 112" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/43144> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.194.936.141.380";
+  dbo:Longitude "-37.771.436.928.937.500";
+  dbo:Name "Centro de Salud General Fanjul";
+  dbo:address "AVENIDA ; LAS AGUILAS; Num V 18";
+  dbo:borough "LAS AGUILAS";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 063 300" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/52655> a mdc:MedicalCenter;
+  dbo:Latitude "403.906.640.645.144";
+  dbo:Longitude "-3.728.252.705.868.510";
+  dbo:Name "Centro de Salud General Ricardos";
+  dbo:address "CALLE ; GENERAL RICARDOS; Num V 131";
+  dbo:borough "OPAÑEL";
+  dbo:district "CARABANCHEL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 283 939 / 914 283 940" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8986> a mdc:MedicalCenter;
+  dbo:Latitude "4.042.147.680.417.170";
+  dbo:Longitude "-36.714.023.531.659.000";
+  dbo:Name "Centro de Salud Goya";
+  dbo:address "CALLE ; O'DONNELL; Num NUM 55";
+  dbo:borough "GOYA";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8986#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8986#BusTrip>;
+  sch:telephone "915 042 210 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8986#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 28" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8986#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 62 (calle D'Donnell, 50)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9024> a mdc:MedicalCenter;
+  dbo:Latitude "4.037.314.356.256.140";
+  dbo:Longitude "-37.476.766.527.040.200";
+  dbo:Name "Centro de Salud Guayaba";
+  dbo:address "CALLE ; ANTONIA RODRIGUEZ SACRISTAN; Num V 4";
+  dbo:borough "BUENAVISTA";
+  dbo:district "CARABANCHEL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 081 004 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8967> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.128.712.671.830";
+  dbo:Longitude "-3.713.600.213.433.190";
+  dbo:Name "Centro de Salud Guzmán el Bueno";
+  dbo:address "CALLE ; GUZMAN EL BUENO; Num V 11";
+  dbo:borough "GAZTAMBIDE";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8967#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8967#BusTrip>;
+  sch:telephone "915 447 696 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8967#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 2, 21, M2" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8967#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 123 (calle Guzmán el Bueno, 2)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8999> a mdc:MedicalCenter;
+  dbo:Latitude "40.418.519.523.915.300";
+  dbo:Longitude "-36.779.738.285.565.400";
+  dbo:Name "Centro de Salud Ibiza";
+  dbo:address "CALLE ; IBIZA; Num V 7";
+  dbo:borough "IBIZA";
+  dbo:district "RETIRO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 044 016 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8990> a mdc:MedicalCenter;
+  dbo:Latitude "4.045.299.526.555.740";
+  dbo:Longitude "-36.994.420.003.701.500";
+  dbo:Name "Centro de Salud Infanta Mercedes";
+  dbo:address "CALLE ; INFANTA MERCEDES; Num V 7";
+  dbo:borough "CUATRO CAMINOS";
+  dbo:district "TETUAN";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8990#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8990#BusTrip>;
+  sch:telephone "915 545 504 / 914 506 061 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8990#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 43, 3" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8990#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 152 (Avenida General Perón, 14)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8993> a mdc:MedicalCenter;
+  dbo:Latitude "40.468.039.595.122.000";
+  dbo:Longitude "-37.272.830.680.164.500";
+  dbo:Name "Centro de Salud Isla de Oza";
+  dbo:address "CALLE ; SAN MARTIN DE PORRES; Num V 6";
+  dbo:borough "CIUDAD UNIVERSITARIA";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 738 412" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/30526> a mdc:MedicalCenter;
+  dbo:Latitude "4.047.681.915.988.450";
+  dbo:Longitude "-3.668.284.328.873.810";
+  dbo:Name "Centro de Salud Jazmín";
+  dbo:address "CALLE ; JAZMIN; Num V 33";
+  dbo:borough "COSTILLARES";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 832 614" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/117595> a mdc:MedicalCenter;
+  dbo:Latitude "403.814.097.989.591";
+  dbo:Longitude "-37.097.278.880.009.500";
+  dbo:Name "Centro de Salud Joaquín Rodrigo";
+  dbo:address "CALLE ; MARIANO VELA; Num V 62";
+  dbo:borough "PRADOLONGO";
+  dbo:district "USERA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 920 630 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9022> a mdc:MedicalCenter;
+  dbo:Latitude "4.037.142.430.282.160";
+  dbo:Longitude "-3.661.682.337.719.250";
+  dbo:Name "Centro de Salud José María Llanos";
+  dbo:address "CALLE ; CABO MACHICHACO; Num V 62";
+  dbo:borough "ENTREVIAS";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 075 060 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9090> a mdc:MedicalCenter;
+  dbo:Latitude "4.046.344.389.355.500";
+  dbo:Longitude "-3.696.754.927.700.330";
+  dbo:Name "Centro de Salud José Marvá";
+  dbo:address "CALLE ; BRAVO MURILLO; Num V 317";
+  dbo:borough "VALDEACEDERAS";
+  dbo:district "TETUAN";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 718 303 (Cita Previa Automática)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/190838> a mdc:MedicalCenter;
+  dbo:Latitude "4.042.444.378.844.650";
+  dbo:Longitude "-36.967.767.140.523.400";
+  dbo:Name "Centro de Salud Justicia";
+  dbo:address "CALLE ; REGUEROS; Num V 3";
+  dbo:borough "JUSTICIA";
+  dbo:district "CENTRO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/190838#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/190838#BusTrip>;
+  sch:telephone "917 025 483" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/190838#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 37, 3" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/190838#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 7 (calle Hortaleza, 75), estación 6 (calle Hortaleza, 63)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/40204> a mdc:MedicalCenter;
+  dbo:Latitude "40.471.430.965.072.200";
+  dbo:Longitude "-36.988.900.682.571.900";
+  dbo:Name "Centro de Salud La Ventilla";
+  dbo:address "AVENIDA ; ASTURIAS; Num V 61";
+  dbo:borough "ALMENARA";
+  dbo:district "TETUAN";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 156 112 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8987> a mdc:MedicalCenter;
+  dbo:Latitude "40.435.581.678.921.400";
+  dbo:Longitude "-3.684.252.530.537.980";
+  dbo:Name "Centro de Salud Lagasca";
+  dbo:address "CALLE ; LAGASCA; Num V 122";
+  dbo:borough "CASTELLANA";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 618 463 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8971> a mdc:MedicalCenter;
+  dbo:Latitude "40.377.817.772.860.100";
+  dbo:Longitude "-3.768.520.276.993.840";
+  dbo:Name "Centro de Salud Las Águilas";
+  dbo:address "CALLE ; JOSE DE CADALSO; Num V 51";
+  dbo:borough "LAS AGUILAS";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.Este centro de salud dispone de Servicio de Urgencias de Atención Primaria de lunes a viernes de 20:30 a 8:30 horas del día siguiente y sábados, domingos y festivos las 24 horas.";
+  sch:telephone "917 059 100 (Cita previa) / 112 (urgencias)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8976> a mdc:MedicalCenter;
+  dbo:Latitude "403.899.305.644.959";
+  dbo:Longitude "-37.056.110.581.606.300";
+  dbo:Name "Centro de Salud Las Calesas";
+  dbo:address "CALLE ; CALESAS; Num V 12";
+  dbo:borough "MOSCARDO";
+  dbo:district "USERA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 001 247 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8968> a mdc:MedicalCenter;
+  dbo:Latitude "4.041.648.415.259.390";
+  dbo:Longitude "-36.990.401.903.458.200";
+  dbo:Name "Centro de Salud Las Cortes";
+  dbo:address "CARRERA ; SAN JERONIMO; Num V 32";
+  dbo:borough "CORTES";
+  dbo:district "CENTRO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8968#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8968#BusTrip>;
+  sch:telephone "913 690 491" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8968#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus:  3, 6, 26, 32, 51, 53, 15, 20, M1, 5, 150, 46, M2" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8968#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 28 (calle Alcalá, 27)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/190840> a mdc:MedicalCenter;
+  dbo:Latitude "40.407.598.710.636.000";
+  dbo:Longitude "-37.039.098.865.773.900";
+  dbo:Name "Centro de Salud Lavapiés";
+  dbo:address "CALLE ; EMBAJADORES; Num V 41";
+  dbo:borough "EMBAJADORES";
+  dbo:district "CENTRO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/190840#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/190840#BusTrip>;
+  sch:telephone "915 272 745" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/190840#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: M1" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/190840#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 44 (calle Mesón de Paredes 35)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8980> a mdc:MedicalCenter;
+  dbo:Latitude "40.389.654.432.623.500";
+  dbo:Longitude "-36.916.697.952.507.500";
+  dbo:Name "Centro de Salud Legazpi";
+  dbo:address "CALLE ; ANTRACITA; Num V 2";
+  dbo:borough "LEGAZPI";
+  dbo:district "ARGANZUELA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 062 326" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9068> a mdc:MedicalCenter;
+  dbo:Latitude "4.041.330.775.966.550";
+  dbo:Longitude "-3.720.434.908.279.480";
+  dbo:Name "Centro de Salud Linneo";
+  dbo:address "CALLE ; LINNEO; Num V 3";
+  dbo:borough "IMPERIAL";
+  dbo:district "ARGANZUELA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9068#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9068#BusTrip>;
+  sch:telephone "913 654 868" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9068#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 36, 50, 62, 41, c2" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9068#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 167 (calle Segovia, 45)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/6879417> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.185.977.714.670";
+  dbo:Longitude "-36.659.409.141.391.200";
+  dbo:Name "Centro de Salud Londres";
+  dbo:address "CALLE ; LONDRES; Num V 55";
+  dbo:borough "GUINDALERA";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 611 674 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/112335> a mdc:MedicalCenter;
+  dbo:Latitude "404.215.335.050.215";
+  dbo:Longitude "-3.610.813.545.103.930";
+  dbo:Name "Centro de Salud Los Alpes";
+  dbo:address "CALLE ; SUECIA; Num V 62";
+  dbo:borough "ROSAS";
+  dbo:district "SAN BLAS-CANILLEJAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 759 109" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/21025> a mdc:MedicalCenter;
+  dbo:Latitude "4.035.126.152.445.180";
+  dbo:Longitude "-3.698.507.572.624.560";
+  dbo:Name "Centro de Salud Los Ángeles";
+  dbo:address "CALLE ; TOTANES; Num V 1";
+  dbo:borough "LOS ANGELES";
+  dbo:district "VILLAVERDE";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.Este centro de salud dispone de Servicio de Urgencias de Atención Primaria de lunes a viernes de 20:30 a 8:30 horas del día siguiente y sábados, domingos y festivos las 24 horas.";
+  sch:telephone "917 972 509 (Cita previa) / 112 (urgencias)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/51699> a mdc:MedicalCenter;
+  dbo:Latitude "40.397.067.128.465.000";
+  dbo:Longitude "-37.371.593.255.578.400";
+  dbo:Name "Centro de Salud Los Cármenes";
+  dbo:address "CALLE ; VIA CARPETANA; Num V 202";
+  dbo:borough "LOS CARMENES";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 663 139 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/4736570> a mdc:MedicalCenter;
+  dbo:Latitude "4.035.312.704.162.810";
+  dbo:Longitude "-3.687.881.431.681.460";
+  dbo:Name "Centro de Salud Los Rosales";
+  dbo:address "CALLE ; DIAMANTE; Num V 12";
+  dbo:borough "LOS ROSALES";
+  dbo:district "VILLAVERDE";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 230 327 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9057> a mdc:MedicalCenter;
+  dbo:Latitude "40.395.330.803.096.000";
+  dbo:Longitude "-3.753.554.389.834.550";
+  dbo:Name "Centro de Salud Los Yébenes";
+  dbo:address "CALLE ; LOS YEBENES; Num V 46";
+  dbo:borough "ALUCHE";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes a las 8 a 21 horas.";
+  sch:telephone "917 178 412 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/4577760> a mdc:MedicalCenter;
+  dbo:Latitude "4.040.122.306.053.060";
+  dbo:Longitude "-37.507.329.535.761.100";
+  dbo:Name "Centro de Salud Lucero";
+  dbo:address "CALLE ; LATINA; Num V 14";
+  dbo:borough "LUCERO";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 798 513 / 914 798 113 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8994> a mdc:MedicalCenter;
+  dbo:Latitude "40.396.574.059.845.000";
+  dbo:Longitude "-3.765.893.700.384.320";
+  dbo:Name "Centro de Salud Maqueda";
+  dbo:address "CALLE ; SESE&amp;Ntilde;A; Num V 44";
+  dbo:borough "ALUCHE";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 119 112 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9019> a mdc:MedicalCenter;
+  dbo:Latitude "404.725.427.450.273";
+  dbo:Longitude "-364.235.991.291.186";
+  dbo:Name "Centro de Salud Mar Báltico";
+  dbo:address "CALLE ; MAR BALTICO; Num V 2";
+  dbo:borough "PINAR DEL REY";
+  dbo:district "HORTALEZA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.Este centro de salud dispone de Servicio de Urgencias de Atención Primaria de lunes a viernes de 20:30 a 8:30 del día siguiente y sábados, domingos y festivos las 24 horas con entrada al servicio de urgencias por la Calle Liberación s/n .";
+  sch:telephone "913 817 625 / 112 (urgencias)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8962> a mdc:MedicalCenter;
+  dbo:Latitude "404.576.006.881.379";
+  dbo:Longitude "-37.138.785.520.307.800";
+  dbo:Name "Centro de Salud María Auxiliadora";
+  dbo:address "CALLE ; MARIA AUXILIADORA; Num V 3";
+  dbo:borough "CIUDAD UNIVERSITARIA";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 506 951" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8981> a mdc:MedicalCenter;
+  dbo:Latitude "40.403.052.163.464.100";
+  dbo:Longitude "-37.019.298.551.038.100";
+  dbo:Name "Centro de Salud Martín de Vargas";
+  dbo:address "CALLE ; MARTIN DE VARGAS; Num V 15";
+  dbo:borough "ACACIAS";
+  dbo:district "ARGANZUELA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 171 218" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8943> a mdc:MedicalCenter;
+  dbo:Latitude "4.039.191.566.075.260";
+  dbo:Longitude "-36.655.826.124.537.600";
+  dbo:Name "Centro de Salud Martínez de la Riva";
+  dbo:address "CALLE ; MARTINEZ DE LA RIVA; Num V 57";
+  dbo:borough "SAN DIEGO";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 772 561 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/6566847> a mdc:MedicalCenter;
+  dbo:Latitude "40.372.113.628.202.800";
+  dbo:Longitude "-37.481.246.564.254.900";
+  dbo:Name "Centro de Salud Mental Aguacate-Carabanchel";
+  dbo:address "CALLE ; DEL AGUACATE; Num V 13";
+  dbo:borough "BUENAVISTA";
+  dbo:district "CARABANCHEL";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente";
+  sch:telephone "914 655 021" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8904> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.540.075.990.550";
+  dbo:Longitude "-3.637.089.776.932.160";
+  dbo:Name "Centro de Salud Mental Ciudad Lineal";
+  dbo:address "CALLE ; DOCTOR CIRAJAS; Num V 20";
+  dbo:borough "PUEBLO NUEVO";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:telephone "914 030 715 / 913 261 025 / 914 030 811" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8915> a mdc:MedicalCenter;
+  dbo:Latitude "4.040.680.594.196.190";
+  dbo:Longitude "-3.712.728.756.496.070";
+  dbo:Name "Centro de Salud Mental de Arganzuela";
+  dbo:address "RONDA ; DE SEGOVIA; Num V 52";
+  dbo:borough "IMPERIAL";
+  dbo:district "ARGANZUELA";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8915#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8915#BusTrip>;
+  sch:telephone "914 655 021" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8915#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: C2, 17, 41, C1, 3, 148, 60, 18, 23, 35" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8915#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 45 (Glorieta Puerta de Toledo, 1)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8916> a mdc:MedicalCenter;
+  dbo:Latitude "404.730.441.402.139";
+  dbo:Longitude "-35.781.073.547.601.700";
+  dbo:Name "Centro de Salud Mental de Barajas";
+  dbo:address "AVENIDA ; GENERAL; Num V 5 ; Planta: 2ª ; Puerta A";
+  dbo:borough "CASCO H.BARAJAS";
+  dbo:district "BARAJAS";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente";
+  sch:telephone "913 056 017/ 913 086 178" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8900> a mdc:MedicalCenter;
+  dbo:Latitude "40.411.670.975.056.800";
+  dbo:Longitude "-3.703.881.601.171.720";
+  dbo:Name "Centro de Salud Mental de Centro";
+  dbo:address "CALLE ; DE LA CABEZA; Num V 4 ; Planta: 1ª";
+  dbo:borough "EMBAJADORES";
+  dbo:district "CENTRO";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente";
+  sch:telephone "915 271 095 / 915 271 418" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8912> a mdc:MedicalCenter;
+  dbo:Latitude "404.366.846.275.659";
+  dbo:Longitude "-3.668.193.331.101.840";
+  dbo:Name "Centro de Salud Mental de Chamartín";
+  dbo:address "CALLE ; MARQUÉS DE AHUMADA; Num V 11";
+  dbo:borough "GUINDALERA";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente";
+  sch:telephone "917 131 991" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8909> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.005.949.998.650";
+  dbo:Longitude "-3.696.265.827.531.810";
+  dbo:Name "Centro de Salud Mental de Chamberí";
+  dbo:address "CALLE ; MODESTO LAFUENTE; Num V 21 ; Planta: 1ª";
+  dbo:borough "RIOS ROSAS";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8909#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8909#BusTrip>;
+  sch:telephone "913 301 841 / 913 304 142 (Información y Cita Previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8909#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 5, 12, 45" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8909#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 129 (calle José Abascal, 33)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/37193> a mdc:MedicalCenter;
+  dbo:Latitude "4.041.010.296.708.970";
+  dbo:Longitude "-37.315.265.142.002.500";
+  dbo:Name "Centro de Salud Mental de Latina - Galiana";
+  dbo:address "CALLE ; GALIANA; Num V 1";
+  dbo:borough "PUERTA DEL ANGEL";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:telephone "915 261 928 / 915 263 368" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8911> a mdc:MedicalCenter;
+  dbo:Latitude "4.042.780.498.311.370";
+  dbo:Longitude "-37.172.651.165.081.800";
+  dbo:Name "Centro de Salud Mental de Moncloa";
+  dbo:address "CALLE ; DE QUINTANA; Num V 11";
+  dbo:borough "ARGÜELLES";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8911#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8911#BusTrip>;
+  sch:telephone "915 417 267" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8911#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 62, 74" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8911#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 114 (calle Quintana, 11 - 13)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8910> a mdc:MedicalCenter;
+  dbo:Latitude "40.399.841.881.364.800";
+  dbo:Longitude "-363.383.200.802.786";
+  dbo:Name "Centro de Salud Mental de Moratalaz";
+  dbo:address "CALLE ; HACIENDA DE PAVONES; Num V 348";
+  dbo:borough "PAVONES";
+  dbo:district "MORATALAZ";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:telephone "913 283 209 / 913 283 081" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8908> a mdc:MedicalCenter;
+  dbo:Latitude "4.039.566.867.834.170";
+  dbo:Longitude "-366.779.947.609.606";
+  dbo:Name "Centro de Salud Mental de Puente de Vallecas";
+  dbo:address "CALLE ; PE&amp;Ntilde;A GORBEA; Num V 4";
+  dbo:borough "SAN DIEGO";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:telephone "914 778 747 / 914 778 946 / 914 778 646" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8921> a mdc:MedicalCenter;
+  dbo:Latitude "4.042.147.680.417.170";
+  dbo:Longitude "-36.714.023.531.659.000";
+  dbo:Name "Centro de Salud Mental de Salamanca";
+  dbo:address "CALLE ; O'DONNELL; Num V 55 ; Planta: baja";
+  dbo:borough "GOYA";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8921#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8921#BusTrip>;
+  sch:telephone "915 042 796 / 915 040 034" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8921#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 28" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8921#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 62 (calle O'Donnell, 50)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8919> a mdc:MedicalCenter;
+  dbo:Latitude "40.351.252.444.754.200";
+  dbo:Longitude "-36.985.192.544.873.000";
+  dbo:Name "Centro de Salud Mental de Villaverde";
+  dbo:address "CALLE ; DE TOTANES; Num V 1 ; Planta: 4ª";
+  dbo:borough "LOS ANGELES";
+  dbo:district "VILLAVERDE";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:email "csmvillaverde@salud.madrid.org";
+  sch:telephone "917 955 546" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8901> a mdc:MedicalCenter;
+  dbo:Latitude "404.771.715.137.825";
+  dbo:Longitude "-3.691.092.443.221.490";
+  dbo:Name "Centro de Salud Mental Fuencarral";
+  dbo:address "CALLE ; MELCHOR FERNÁNDEZ ALMAGRO; Num V 1";
+  dbo:borough "LA PAZ";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:telephone "913 238 180" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8903> a mdc:MedicalCenter;
+  dbo:Latitude "4.047.117.057.642.610";
+  dbo:Longitude "-36.444.820.023.980.300";
+  dbo:Name "Centro de Salud Mental Hortaleza";
+  dbo:address "CALLE ; MAR DE KARA; Num V 1";
+  dbo:borough "PINAR DEL REY";
+  dbo:district "HORTALEZA";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:telephone "913 818 266 / 913 818 332" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/7902951> a mdc:MedicalCenter;
+  dbo:Latitude "4.037.311.569.945.420";
+  dbo:Longitude "-37.478.059.173.712.000";
+  dbo:Name "Centro de Salud Mental Infanto juvenil Carabanchel - Usera. Centro de Salud Menal Guayaba";
+  dbo:address "CALLE ; ANTONIA RODRÍGUEZ SACRISTÁN; Num V 4 ; Planta: 2.º ; Puerta A";
+  dbo:borough "BUENAVISTA";
+  dbo:district "CARABANCHEL";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:email "usminfantojuvenil.hdoc@salud.madrid.org";
+  sch:telephone "915 084 398" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/5562342> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.264.318.541.140";
+  dbo:Longitude "-3.771.744.197.591.820";
+  dbo:Name "Centro de Salud Mental Latina - Las Águilas";
+  dbo:address "CALLE ; JOSE DE CADALSO; Num V 0";
+  dbo:borough "LAS AGUILAS";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:telephone "917 060 061 / 917 062 587" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8918> a mdc:MedicalCenter;
+  dbo:Latitude "404.196.477.997.268";
+  dbo:Longitude "-3.677.607.955.870.500";
+  dbo:Name "Centro de Salud Mental Retiro";
+  dbo:address "CALLE ; LOPE DE RUEDA; Num V 43";
+  dbo:borough "IBIZA";
+  dbo:district "RETIRO";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:telephone "914 008 690 / 914 008 695" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8905> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.106.180.744.460";
+  dbo:Longitude "-36.232.433.423.754.500";
+  dbo:Name "Centro de Salud Mental San Blas";
+  dbo:address "CALLE ; CASTILLO DE UCLES; Num V 35; Orientacion: y 37";
+  dbo:borough "SIMANCAS";
+  dbo:district "SAN BLAS-CANILLEJAS";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:telephone "913 135 540 / 913 135 541" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8907> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.512.955.125.290";
+  dbo:Longitude "-3.699.584.503.327.300";
+  dbo:Name "Centro de Salud Mental Tetuán";
+  dbo:address "CALLE ; MAUDES; Num V 32";
+  dbo:borough "RIOS ROSAS";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultal telefónicamente.";
+  sch:telephone "915 349 920 / 915 347 363" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8914> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.199.919.729.480";
+  dbo:Longitude "-3.701.723.064.805.610";
+  dbo:Name "Centro de Salud Mental Usera";
+  dbo:address "CALLE ; VISITACION; Num V 5 ; Planta: 2ª";
+  dbo:borough "ALMENDRALES";
+  dbo:district "USERA";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:telephone "915 001 015" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/6566703> a mdc:MedicalCenter;
+  dbo:Latitude "40.406.847.513.994.700";
+  dbo:Longitude "-36.127.431.819.124.400";
+  dbo:Name "Centro de Salud Mental Vicálvaro";
+  dbo:address "CALLE ; CALAHORRA; Num V 11; Orientacion: bis";
+  dbo:borough "AMBROZ";
+  dbo:district "VICALVARO";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:telephone "917 753 260 / 917 753 262" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/5562302> a mdc:MedicalCenter;
+  dbo:Latitude "40.388.687.170.165.500";
+  dbo:Longitude "-36.390.057.976.158.900";
+  dbo:Name "Centro de Salud Mental Villa de Vallecas";
+  dbo:address "CALLE ; SAN CLAUDIO; Num V 154";
+  dbo:borough "PALOMERAS SURESTE";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:telephone "913 909 953 / 913 909 877 / 913 909 878" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/176345> a mdc:MedicalCenter;
+  dbo:Latitude "4.049.069.597.624.910";
+  dbo:Longitude "-3.718.819.303.334.670";
+  dbo:Name "Centro de Salud Mirasierra";
+  dbo:address "CALLE ; MIRADOR DE LA REINA; Num V 117";
+  dbo:borough "MIRASIERRA";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 767 451 (cita previa automática)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8955> a mdc:MedicalCenter;
+  dbo:Latitude "40.477.488.458.735.300";
+  dbo:Longitude "-3.656.823.708.332.610";
+  dbo:Name "Centro de Salud Monóvar";
+  dbo:address "CALLE ; MONOVAR; Num V 11";
+  dbo:borough "APOSTOL SANTIAGO";
+  dbo:district "HORTALEZA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 839 535" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/10759241> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.066.819.867.420";
+  dbo:Longitude "-3.672.008.133.361.960";
+  dbo:Name "Centro de Salud Montesa";
+  dbo:address "CALLE ; MONTESA; Num V 38";
+  dbo:borough "LISTA";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/10759241#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/10759241#BusTrip>;
+  sch:telephone "913 090 864 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/10759241#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 12, 43, 48, 56, C1,210, 1, 74" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/10759241#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 145 (calle Ortega y Gasset, 87)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9025> a mdc:MedicalCenter;
+  dbo:Latitude "403.791.723.619.984";
+  dbo:Longitude "-37.488.035.324.559.800";
+  dbo:Name "Centro de Salud Nuestra Señora de Fátima";
+  dbo:address "AVENIDA ; NUESTRA SEÑORA DE FATIMA; Num V 93";
+  dbo:borough "VISTA ALEGRE";
+  dbo:district "CARABANCHEL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 255 643 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8947> a mdc:MedicalCenter;
+  dbo:Latitude "4.040.179.559.244.050";
+  dbo:Longitude "-3.658.243.977.346.570";
+  dbo:Name "Centro de Salud Numancia";
+  dbo:address "CALLE ; PUERTO DE COTOS; Num V 2";
+  dbo:borough "NUMANCIA";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 287 410  (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9034> a mdc:MedicalCenter;
+  dbo:Latitude "4.046.834.995.795.900";
+  dbo:Longitude "-36.853.399.366.612.400";
+  dbo:Name "Centro de Salud Núñez Morgado";
+  dbo:address "CALLE ; NUÑEZ MORGADO; Num V 4";
+  dbo:borough "CASTILLA";
+  dbo:district "CHAMARTIN";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 143 151 (cita previa automática)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/17954> a mdc:MedicalCenter;
+  dbo:Latitude "40.372.680.378.354.800";
+  dbo:Longitude "-371.405.352.060.838";
+  dbo:Name "Centro de Salud Orcasitas";
+  dbo:address "CALLE ; CESTONA; Num V 3";
+  dbo:borough "ORCASITAS";
+  dbo:district "USERA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.Este centro de salud dispone de Servicio de Urgencias de Atención Primaria de lunes a viernes de 20:30 h a 8:30 horas del día siguiente y sábados, domingos y festivos las 24 horas.";
+  sch:telephone "913 412 009 / 913 415 785  (Cita previa) / 112 (urgencias)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/10759192> a mdc:MedicalCenter;
+  dbo:Latitude "4.036.532.653.890.690";
+  dbo:Longitude "-3.700.633.690.827";
+  dbo:Name "Centro de Salud Orcasur";
+  dbo:address "CALLE ; ARENAS DEL REY; Num V 1";
+  dbo:borough "ORCASUR";
+  dbo:district "USERA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 171 103 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9000> a mdc:MedicalCenter;
+  dbo:Latitude "40.407.966.365.053.700";
+  dbo:Longitude "-367.704.293.920.089";
+  dbo:Name "Centro de Salud Pacífico";
+  dbo:address "CALLE ; REYES MAGOS; Num V 21";
+  dbo:borough "NIÑO JESUS";
+  dbo:district "RETIRO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9000#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9000#BusTrip>;
+  sch:telephone "915 017 065 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9000#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 14, 32, 26, 63, C2, 153, 10" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9000#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 75 (avenida Menéndez Pelayo, 90)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9058> a mdc:MedicalCenter;
+  dbo:Latitude "4.042.662.261.170.800";
+  dbo:Longitude "-3.707.385.433.644.170";
+  dbo:Name "Centro de Salud Palma Norte";
+  dbo:address "CALLE ; PALMA; Num V 59; Orientacion: ESQU. CALLE NORTE Y PALMA 51";
+  dbo:borough "UNIVERSIDAD";
+  dbo:district "CENTRO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9058#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9058#BusTrip>;
+  sch:telephone "915 214 578" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9058#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 3, 147, M2" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9058#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 15 (calle San Vicente Ferrer, 64)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8997> a mdc:MedicalCenter;
+  dbo:Latitude "40.397.178.304.464.600";
+  dbo:Longitude "-36.989.465.308.833.500";
+  dbo:Name "Centro de Salud Párroco Julio Morate";
+  dbo:address "CALLE ; PARROCO JULIO MORATE; Num V 3";
+  dbo:borough "CHOPERA";
+  dbo:district "ARGANZUELA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 736 822" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8972> a mdc:MedicalCenter;
+  dbo:Latitude "4.040.589.264.108.710";
+  dbo:Longitude "-37.433.131.166.088.800";
+  dbo:Name "Centro de Salud Pascual Rodríguez";
+  dbo:address "CALLE ; PASCUAL RODRIGUEZ; Num V 21";
+  dbo:borough "LUCERO";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 646 445 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/10759171> a mdc:MedicalCenter;
+  dbo:Latitude "404.016.064.809.333";
+  dbo:Longitude "-37.143.483.544.427.700";
+  dbo:Name "Centro de Salud Paseo Imperial";
+  dbo:address "CALLE ; TOLEDO; Num V 180";
+  dbo:borough "IMPERIAL";
+  dbo:district "ARGANZUELA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.Este centro de salud dispone de Servicio de Urgencias de Atención Primaria de lunes a viernes de 20:30h a 8:30 del día siguiente y sábados, domingos y festivos las 24 horas con entrada al servicio de urgencias por la Glorieta de Pirámides número 7..";
+  sch:telephone "913 640 762 / 112 (urgencias)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8946> a mdc:MedicalCenter;
+  dbo:Latitude "40.399.264.108.059.900";
+  dbo:Longitude "-36.291.012.319.932.400";
+  dbo:Name "Centro de Salud Pavones";
+  dbo:address "CALLE ; HACIENDA DE PAVONES; Num V 271";
+  dbo:borough "PAVONES";
+  dbo:district "MORATALAZ";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.Este centro de salud presta atención urgente como Servicio de Urgencias de Atención Primaria de lunes a viernes de 20:30 a 8:30 horas del día siguiente y sábados, domingos y festivos las 24 horas.";
+  sch:telephone "913 016 261 (Cita previa) / 112 (urgencias)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8948> a mdc:MedicalCenter;
+  dbo:Latitude "4.039.851.477.386.250";
+  dbo:Longitude "-36.679.336.509.247.100";
+  dbo:Name "Centro de Salud Peña Prieta";
+  dbo:address "CALLE ; ALTOS DE CABREJAS; Num V 4";
+  dbo:borough "NUMANCIA";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 014 040 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8983> a mdc:MedicalCenter;
+  dbo:Latitude "4.035.077.924.881.620";
+  dbo:Longitude "-37.096.539.581.448.500";
+  dbo:Name "Centro de Salud Potes";
+  dbo:address "CALLE ; POTES; Num V 2";
+  dbo:borough "SAN ANDRES";
+  dbo:district "VILLAVERDE";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 954 561 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/64009> a mdc:MedicalCenter;
+  dbo:Latitude "4.045.714.216.744.820";
+  dbo:Longitude "-36.793.408.196.533.400";
+  dbo:Name "Centro de Salud Potosí";
+  dbo:address "CALLE ; POTOSI; Num V 7";
+  dbo:borough "HISPANOAMERICA";
+  dbo:district "CHAMARTIN";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 570 976 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9035> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.999.018.256.100";
+  dbo:Longitude "-3.679.144.549.510.140";
+  dbo:Name "Centro de Salud Príncipe de Vergara";
+  dbo:address "CALLE ; PRINCIPE DE VERGARA; Num V 111";
+  dbo:borough "EL VISO";
+  dbo:district "CHAMARTIN";
+  esdbo:city "MADRID";
+  mdc:schedule "De lune a viernes de 8 a 21 horas.";
+  sch:telephone "915 644 116 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9008> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.401.898.273.560";
+  dbo:Longitude "-3.669.574.836.728.380";
+  dbo:Name "Centro de Salud Prosperidad";
+  dbo:address "CALLE ; CANILLAS; Num V 99";
+  dbo:borough "PROSPERIDAD";
+  dbo:district "CHAMARTIN";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 134 313 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/35956> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.423.835.656.160";
+  dbo:Longitude "-3.732.884.226.172.520";
+  dbo:Name "Centro de Salud Puerta Bonita";
+  dbo:address "CALLE ; ALEGRIA; Num V 24";
+  dbo:borough "PUERTA BONITA";
+  dbo:district "CARABANCHEL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 611 195 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/174059> a mdc:MedicalCenter;
+  dbo:Latitude "4.041.100.721.204.760";
+  dbo:Longitude "-37.352.606.633.385.900";
+  dbo:Name "Centro de Salud Puerta del Ángel";
+  dbo:address "PASEO ; EXTREMADURA; Num V 113";
+  dbo:borough "PUERTA DEL ANGEL";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 797 414 (pita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9070> a mdc:MedicalCenter;
+  dbo:Latitude "4.039.776.459.167.660";
+  dbo:Longitude "-37.179.478.251.425.800";
+  dbo:Name "Centro de Salud Quince de Mayo";
+  dbo:address "PASEO ; QUINCE DE MAYO; Num V 10";
+  dbo:borough "SAN ISIDRO";
+  dbo:district "CARABANCHEL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 696 161 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8949> a mdc:MedicalCenter;
+  dbo:Latitude "40.388.687.170.165.500";
+  dbo:Longitude "-36.390.057.976.158.900";
+  dbo:Name "Centro de Salud Rafael Alberti";
+  dbo:address "CALLE ; SAN CLAUDIO; Num V 154";
+  dbo:borough "PALOMERAS SURESTE";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 909 900 (Cita Previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8989> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.684.632.686.600";
+  dbo:Longitude "-37.076.328.011.260.700";
+  dbo:Name "Centro de Salud Reina Victoria";
+  dbo:address "AVENIDA ; REINA VICTORIA; Num V 21";
+  dbo:borough "VALLEHERMOSO";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8989#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8989#BusTrip>;
+  sch:telephone "915 349 906 (Cita previa automática)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8989#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 45, F, 127, 128, 64, 124, 66, 3, 149, C1, 37, C2" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8989#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 132 (calle Santa Engracia, 168)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8954> a mdc:MedicalCenter;
+  dbo:Latitude "40.443.024.421.715.700";
+  dbo:Longitude "-3.592.672.121.149.880";
+  dbo:Name "Centro de Salud Rejas";
+  dbo:address "CALLE ; EUTERPE; Num V 12";
+  dbo:borough "REJAS";
+  dbo:district "SAN BLAS-CANILLEJAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 202 284" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/33524> a mdc:MedicalCenter;
+  dbo:Latitude "4.034.259.953.589.290";
+  dbo:Longitude "-37.124.881.941.932.800";
+  dbo:Name "Centro de Salud San Andrés";
+  dbo:address "CALLE ; ALBERTO PALACIOS; Num V 22";
+  dbo:borough "SAN ANDRES";
+  dbo:district "VILLAVERDE";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 972 884 (Cita previa )" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9002> a mdc:MedicalCenter;
+  dbo:Latitude "4.034.304.411.259.120";
+  dbo:Longitude "-36.851.298.220.101.100";
+  dbo:Name "Centro de Salud San Cristóbal";
+  dbo:address "CALLE ; BENIMAMET; Num V 24";
+  dbo:borough "SAN CRISTOBAL";
+  dbo:district "VILLAVERDE";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 955 313 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9075> a mdc:MedicalCenter;
+  dbo:Latitude "4.037.135.931.921.230";
+  dbo:Longitude "-3.692.778.403.810.460";
+  dbo:Name "Centro de Salud San Fermín";
+  dbo:address "AVENIDA ; SAN FERMIN; Num V 3";
+  dbo:borough "SAN FERMIN";
+  dbo:district "USERA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 923 312 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/4551680> a mdc:MedicalCenter;
+  dbo:Latitude "4.049.374.475.357.500";
+  dbo:Longitude "-36.576.784.263.027.200";
+  dbo:Name "Centro de Salud Sanchinarro";
+  dbo:address "CALLE ; ANA DE AUSTRIA; Num V 26";
+  dbo:borough "VALDEFUENTES";
+  dbo:district "HORTALEZA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 188 346" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8952> a mdc:MedicalCenter;
+  dbo:Latitude "40.445.161.353.404.300";
+  dbo:Longitude "-36.698.809.711.248.300";
+  dbo:Name "Centro de Salud Santa Hortensia";
+  dbo:address "CALLE ; SANTA HORTENSIA; Num V 14";
+  dbo:borough "PROSPERIDAD";
+  dbo:district "CHAMARTIN";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 194 566 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8995> a mdc:MedicalCenter;
+  dbo:Latitude "4.041.367.929.355.590";
+  dbo:Longitude "-3.709.890.028.833.590";
+  dbo:Name "Centro de Salud Segovia";
+  dbo:address "CALLE ; SEGOVIA; Num V 4";
+  dbo:borough "PALACIO";
+  dbo:district "CENTRO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8995#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8995#BusTrip>;
+  sch:telephone "915 482 224" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8995#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 31, 50, 65" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8995#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 35 (plaza del Cordón, 1)." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9036> a mdc:MedicalCenter;
+  dbo:Latitude "4.045.125.976.007.340";
+  dbo:Longitude "-36.853.667.626.105.700";
+  dbo:Name "Centro de Salud Segre";
+  dbo:address "CALLE ; SEGRE; Num V 27";
+  dbo:borough "EL VISO";
+  dbo:district "CHAMARTIN";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 644 254 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/4570184> a mdc:MedicalCenter;
+  dbo:Latitude "4.046.342.026.622.710";
+  dbo:Longitude "-3.635.184.124.989.880";
+  dbo:Name "Centro de Salud Silvano";
+  dbo:address "AVENIDA ; MACHUPICHU; Num V 58";
+  dbo:borough "CANILLAS";
+  dbo:district "HORTALEZA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 815 100" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9018> a mdc:MedicalCenter;
+  dbo:Latitude "40.406.199.754.518.800";
+  dbo:Longitude "-36.456.885.707.087.300";
+  dbo:Name "Centro de Salud Torito";
+  dbo:address "CALLE ; CAMINO DE LOS VINATEROS; Num V 140";
+  dbo:borough "VINATEROS";
+  dbo:district "MORATALAZ";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 280 000 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/110788> a mdc:MedicalCenter;
+  dbo:Latitude "4.039.993.347.039.770";
+  dbo:Longitude "-36.219.427.587.698.300";
+  dbo:Name "Centro de Salud Valdebernardo";
+  dbo:address "BULEVAR ; INDALECIO PRIETO; Num V 26";
+  dbo:borough "CASCO H.VICALVARO";
+  dbo:district "VICALVARO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 016 290  (Cita previa automática)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9023> a mdc:MedicalCenter;
+  dbo:Latitude "4.046.347.990.936.100";
+  dbo:Longitude "-37.115.463.824.075.400";
+  dbo:Name "Centro de Salud Valdezarza-Sur";
+  dbo:address "CALLE ; AZUAGA; Num V 13";
+  dbo:borough "VALDEZARZA";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 115 878" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/47160> a mdc:MedicalCenter;
+  dbo:Latitude "4.037.620.019.864.490";
+  dbo:Longitude "-3.774.662.762.626.920";
+  dbo:Name "Centro de Salud Valle Inclan";
+  dbo:address "CALLE ; VALLE INCLAN; Num V 97";
+  dbo:borough "LAS AGUILAS";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 062 100 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8963> a mdc:MedicalCenter;
+  dbo:Latitude "4.042.526.825.572.230";
+  dbo:Longitude "-3.713.737.002.455.040";
+  dbo:Name "Centro de Salud Ventura Rodríguez";
+  dbo:address "CALLE ; VENTURA RODRIGUEZ; Num V 7";
+  dbo:borough "ARGUELLES";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8963#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8963#BusTrip>;
+  sch:telephone "915 590 240" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8963#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 62, 74, 1, 2, 44, C2, 133, 138, C1" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8963#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 14 (calle Ventura Rodriguez, 2)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9048> a mdc:MedicalCenter;
+  dbo:Latitude "4.045.838.315.641.870";
+  dbo:Longitude "-366.108.403.663.452";
+  dbo:Name "Centro de Salud Vicente Muzas";
+  dbo:address "CALLE ; VICENTE MUZAS; Num V 8";
+  dbo:borough "COLINA";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "915 102 820" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8950> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.895.208.754.310";
+  dbo:Longitude "-3.667.073.330.202.460";
+  dbo:Name "Centro de Salud Vicente Soldevilla";
+  dbo:address "CALLE ; SIERRA DE ALQUIFE; Num V 8";
+  dbo:borough "SAN DIEGO";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "914 775 048" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9013> a mdc:MedicalCenter;
+  dbo:Latitude "40.371.769.710.699.200";
+  dbo:Longitude "-36.221.784.847.870.000";
+  dbo:Name "Centro de Salud Villa de Vallecas";
+  dbo:address "CALLE ; FUENTIDUEÑA; Num V 12";
+  dbo:borough "CASCO H.VALLECAS";
+  dbo:district "VILLA DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 315 050 (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8991> a mdc:MedicalCenter;
+  dbo:Latitude "4.045.788.141.899.210";
+  dbo:Longitude "-3.706.309.685.675.350";
+  dbo:Name "Centro de Salud Villaamil";
+  dbo:address "CALLE ; VILLAAMIL; Num V 19";
+  dbo:borough "BERRUGUETE";
+  dbo:district "TETUAN";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 114 560 (Cita Previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/72851> a mdc:MedicalCenter;
+  dbo:Latitude "40.405.646.973.563.200";
+  dbo:Longitude "-35.994.387.516.026.400";
+  dbo:Name "Centro de Salud Villablanca";
+  dbo:address "CALLE ; VILLABLANCA; Num V 81";
+  dbo:borough "AMBROZ";
+  dbo:district "VICALVARO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "913 716 200 (Cita previa automática)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9010> a mdc:MedicalCenter;
+  dbo:Latitude "4.048.414.436.483.160";
+  dbo:Longitude "-36.850.522.053.599.600";
+  dbo:Name "Centro de Salud Virgen de Begoña";
+  dbo:address "AVENIDA ; LLANO CASTELLANO; Num V 3";
+  dbo:borough "VALVERDE";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  mdc:schedule "Lunes a viernes, de 8 a 21 horas.";
+  sch:telephone "913 582 023 (Cita previa automática)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9078> a mdc:MedicalCenter;
+  dbo:Latitude "40.487.524.319.619.600";
+  dbo:Longitude "-3.661.582.281.009.020";
+  dbo:Name "Centro de Salud Virgen del Cortijo";
+  dbo:address "AVENIDA ; MANOTERAS; Num V 47";
+  dbo:borough "VALDEFUENTES";
+  dbo:district "HORTALEZA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8 a 21 horas.";
+  sch:telephone "917 664 222" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9174> a mdc:MedicalCenter;
+  dbo:Latitude "40.396.266.780.421";
+  dbo:Longitude "-36.152.042.549.806.600";
+  dbo:Name "Centro de Transfusión de la Comunidad de Madrid";
+  dbo:address "AVENIDA ; DEMOCRACIA; Num V 1; Orientacion: Esquina Avenida de las Comunidades";
+  dbo:borough "CASCO H.VICALVARO";
+  dbo:district "VICALVARO";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a sábado, de 8:30 a 21 horas.";
+  sch:email "centro.transfusion@salud.madrid.org";
+  sch:telephone "913 017 200 / Información donantes: 900 303 530" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8832> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.636.457.358.720";
+  dbo:Longitude "-36.859.229.121.375.600";
+  dbo:Name "Centro de Vacunación de la Comunidad de Madrid";
+  dbo:address "CALLE ; GENERAL ORAA; Num V 15";
+  dbo:borough "CASTELLANA";
+  dbo:description "Desde este centro se llevan a cabo actividades relacionadas con la vacunación a población en general.";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  mdc:schedule "Atención telefónica: lunes a viernes de 9 a 14 y de 15 a 20 horas, para petición de cita en los teléfonos indicados.Consultar telefónicamente horario durante meses de verano.";
+  sch:telephone "915 616 195 / 914 111 140 (petición cita)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9355> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.409.068.468.070";
+  dbo:Longitude "-36.742.866.612.680.700";
+  dbo:Name "Centro de Vacunación Internacional. Delegación del Gobierno en Madrid";
+  dbo:address "CALLE ; FRANCISCO SILVELA; Num V 57 ; Planta: 1º";
+  dbo:borough "LISTA";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  mdc:schedule "Atención presencial: de 9 a 14 horas de lunes a viernes.Atención telefónica para solicitud de cita previa: de 9 a 14 horas de lunes a viernes y de 16 a 18 horas de lunes a jueves. Cita previa.";
+  sch:email "vacui.fcosil.madrid@seap.minhap.es";
+  sch:telephone "912 729 441 /  912 729 442 /  912 729 443  (Cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/4614547> a mdc:MedicalCenter;
+  dbo:Latitude "40.428.976.927.386.800";
+  dbo:Longitude "-36.721.607.026.353.800";
+  dbo:Name "Centro Madrid Salud Internacional. Centro de Vacunación Internacional";
+  dbo:address "CALLE ; MONTESA; Num V 22 ; Planta: Baja; Orientacion: Edificio A";
+  dbo:borough "LISTA";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8,30 a 13 horasEs necesario pedir cita previa (salvo para la emisión de duplicados de certificado internacional de vacunación de aquellas personas que anteriormente fueron vacunadas en el Centro)";
+  sch:email "mspinternacional@madrid.es";
+  sch:telephone """010 Línea Madrid (91 529 82 10 si llaman desde fuera del municipio de Madrid)
+Citas: 91 529 82 10
+Teléfono del centro: 915885960""" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/7928372> a mdc:MedicalCenter;
+  dbo:Latitude "4.039.951.152.980.000";
+  dbo:Longitude "-3.670.052.831.164.530";
+  dbo:Name "Centro para la prevención y atención de las adicciones en adolescentes y jóvenes Los Mesejo";
+  dbo:address "CALLE ; LOS MESEJO; Num V 9";
+  dbo:borough "ADELFAS";
+  dbo:district "RETIRO";
+  esdbo:city "MADRID";
+  mdc:schedule "Lunes a viernes, de 9 a 21 horas.";
+  sch:email "mesejo9@salud.madrid.org";
+  sch:telephone "901 350 350 / 913 442 400" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/57586> a mdc:MedicalCenter;
+  dbo:Latitude "40.493.572.790.428.300";
+  dbo:Longitude "-3.716.891.138.866.980";
+  dbo:Name "Clínica CEMTRO";
+  dbo:address "AVENIDA ; VENTISQUERO DE LA CONDESA; Num V 42";
+  dbo:borough "MIRASIERRA";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  sch:telephone "917 355 757" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9148> a mdc:MedicalCenter;
+  dbo:Latitude "40.407.698.072.539.100";
+  dbo:Longitude "-3.678.242.360.181.900";
+  dbo:Name "Clínica Doctor León";
+  dbo:address "PLAZA ; MARIANO DE CAVIA; Num V 3";
+  dbo:borough "NIÑO JESUS";
+  dbo:district "RETIRO";
+  esdbo:city "MADRID";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9148#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9148#BusTrip>;
+  sch:telephone "914 332 948 (administración y citas) / 915 517 722 (hospital y urgencias)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9148#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 14, 32, 152, 26, 63, C2, C1, 10." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9148#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 75 (Avenida Menéndez Pelayo, 90)." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9156> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.014.086.646.590";
+  dbo:Longitude "-3.640.105.871.301.790";
+  dbo:Name "Clínica Fuensanta";
+  dbo:address "CALLE ; ARTURO SORIA; Num V 17";
+  dbo:borough "QUINTANA";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  sch:telephone "914 100 200" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9170> a mdc:MedicalCenter;
+  dbo:Latitude "4.045.715.237.904.700";
+  dbo:Longitude "-37.164.449.010.990.600";
+  dbo:Name "Clínica Isadora";
+  dbo:address "CALLE ; PIRINEOS; Num V 7";
+  dbo:borough "CIUDAD UNIVERSITARIA";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  sch:telephone "913 111 000 (Centralita)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9161> a mdc:MedicalCenter;
+  dbo:Latitude "404.679.134.611.177";
+  dbo:Longitude "-3.724.415.306.447.470";
+  dbo:Name "Clínica López Ibor";
+  dbo:address "CALLE ; DOCTOR JUAN JOSE LOPEZ IBOR; Num V 2";
+  dbo:borough "VALDEZARZA";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  sch:email "info@lopezibor.com";
+  sch:telephone "913 162 740" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9138> a mdc:MedicalCenter;
+  dbo:Latitude "4.045.680.646.874.770";
+  dbo:Longitude "-36.611.039.641.981.200";
+  dbo:Name "Clínica Nuestra Señora de la Paz";
+  dbo:address "CALLE ; LOPEZ DE HOYOS; Num V 259";
+  dbo:borough "COLINA";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  sch:telephone "914 156 000" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9146> a mdc:MedicalCenter;
+  dbo:Latitude "40.459.864.121.342.600";
+  dbo:Longitude "-36.604.734.450.205.800";
+  dbo:Name "Clínica San Miguel";
+  dbo:address "CALLE ; ARTURO SORIA; Num V 204";
+  dbo:borough "COLINA";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  sch:email "info.sanmiguel@hospitalarias.es";
+  sch:telephone "914 135 011" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9152> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.572.483.924.680";
+  dbo:Longitude "-37.171.136.100.108.800";
+  dbo:Name "Clínica Santa Elena";
+  dbo:address "CALLE ; GRANJA; Num V 8";
+  dbo:borough "VALLEHERMOSO";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  sch:telephone "914 539 400" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/7389333> a mdc:MedicalCenter;
+  dbo:Latitude "4.054.027.027.315.490";
+  dbo:Longitude "-37.000.064.949.150.600";
+  dbo:Name "Clínica Sear";
+  dbo:address "CARRETERA ; M-607; Num T 1600";
+  dbo:borough "EL GOLOSO";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  sch:telephone "917 340 500" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/10613510> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.786.310.469.960";
+  dbo:Longitude "-3.624.832.954.153.380";
+  dbo:Name "Clínica Universidad de Navarra en Madrid";
+  dbo:address "CALLE ; MARQUESADO DE SANTA MARTA; Num V 1";
+  dbo:borough "EL SALVADOR";
+  dbo:district "SAN BLAS-CANILLEJAS";
+  esdbo:city "MADRID";
+  sch:telephone "913 531 920" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/163281> a mdc:MedicalCenter;
+  dbo:Latitude "4.041.922.883.312.700";
+  dbo:Longitude "-37.069.543.620.889.100";
+  dbo:Name "CMS Centro Municipal de Salud Joven";
+  dbo:address "CALLE ; NAVAS DE TOLOSA; Num V 10 ; Planta: 2ª";
+  dbo:borough "SOL";
+  dbo:district "CENTRO";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno De lunes a viernes de 8:30 a 20:30 horas Horario Semana San Isidro: de 8:30 a 19:30 horas Horario de verano (antes de acudir, póngase en contacto telefónico con el centro)  Del 15 de junio al 15 de septiembre:  de 8:30 a 19:30 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/163281#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/163281#BusTrip>;
+  sch:email "cmsjoven@madrid.es";
+  sch:telephone "CITACIONES: 915 889 677 / 915 889 678" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/163281#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 1 , 2 , 44 , 46 , 74 , 75 , 133 , 146 , 147 , 148" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/163281#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8870> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.353.205.080.220";
+  dbo:Longitude "-36.970.827.354.853.600";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria  Chamberí";
+  dbo:address "CALLE ; RAFAEL CALVO; Num V 6";
+  dbo:borough "ALMAGRO";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno De lunes a viernes de 8:30 a 20:30 horas Anticoncepción de urgencia (pildora postcoital):  De lunes a viernes de 9 a 20 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro. Vacunación: con cita previa Horario Semana San Isidro: 8:30 a 19:30 horas Horario de verano (antes de acudir, póngase en contacto telefónico con el centro)  Del 15 de junio al 15 de septiembre:  de 8:30 a 19:30 horas.";
+  sch:email "cmschamberi@madrid.es";
+  sch:telephone "CITACIONES:  915 886 784 / 915 886 783" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8866> a mdc:MedicalCenter;
+  dbo:Latitude "4.040.569.156.269.290";
+  dbo:Longitude "-3.710.819.612.821.550";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria Arganzuela";
+  dbo:address "CALLE ; CONCEJAL BENITO MARTIN LOZANO; Num V 1";
+  dbo:borough "ACACIAS";
+  dbo:district "ARGANZUELA";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno De lunes a viernes de 8:30 a 20:30 horas Anticoncepción de urgencia (pildora postcoital):  De lunes a viernes de 8:30 a 15 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro. Vacunación: cita previa Horario Semana San Isidro: 8:30 a 19:30 horas Horario de verano (antes de acudir, póngase en contacto telefónico con el centro)  Del 15 de junio al 15 de septiembre:  de 8:30 a 19:30 horas.";
+  sch:email "cmsarganzuela@madrid.es";
+  sch:telephone "CITACIONES: 913 541 784/ 913 541 785" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8880> a mdc:MedicalCenter;
+  dbo:Latitude "4.037.830.205.060.460";
+  dbo:Longitude "-3.748.252.006.016.630";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria Carabanchel";
+  dbo:address "CALLE ; EUGENIA DE MONTIJO; Num V 90";
+  dbo:borough "VISTA ALEGRE";
+  dbo:district "CARABANCHEL";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno De lunes a viernes de 8:30 a 20:30 horas  Anticoncepción de urgencia (píldora postcoital): De lunes a viernes de 8:30 a 20 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto telefónico con el centro Vacunación: Cita previa Horario Semana San Isidro: 8:30 a 19:30 horas Horario de verano (antes de acudir, póngase en contacto telefónico con el centro)  Del 15 de junio al 15 de septiembre:  de 8:30 a 19:30 horas.";
+  sch:email "cmscarabanchel@madrid.es";
+  sch:telephone "CITACIONES:913 696 072 / 913 602 200" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8882> a mdc:MedicalCenter;
+  dbo:Latitude "40.419.201.879.815.400";
+  dbo:Longitude "-37.069.422.925.635.500";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria Centro";
+  dbo:address "CALLE ; NAVAS DE TOLOSA; Num V 10";
+  dbo:borough "SOL";
+  dbo:district "CENTRO";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno De lunes a viernes de 8:30 a 20:30 horas Horario Semana San Isidro: 8:30 a 19:30 horas Horario de verano (antes de acudir, póngase en contacto telefónico con el centro)  Del 15 de junio al 15 de septiembre:  de 8:30 a 19:30 horas.";
+  sch:email "cmscentro@madrid.es";
+  sch:telephone "CITACIONES: 915 889 661 / 915 889 660" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8881> a mdc:MedicalCenter;
+  dbo:Latitude "40.427.642.192.384.500";
+  dbo:Longitude "-36.471.432.101.293.100";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria Ciudad Lineal";
+  dbo:address "PLAZA ; DE AGUSTÍN GONZALEZ; Num V 1";
+  dbo:borough "VENTAS";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno De lunes a viernes de 8:30 a 20:30 horas Horario Semana San Isidro: 8:30 a 19:30 horas Horario de verano (antes de acudir, póngase en contacto telefónico con el centro)  Del 15 de junio al 15 de septiembre: de 8:30 a 19:30 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8881#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8881#SubwayStation>;
+  sch:email "cmsciudadlineal@madrid.es";
+  sch:telephone "Citaciones: 914 061 578 / 914 064 134" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8881#SubwayStation> a mdc:Transport;
+  sch:SubwayStation "Metro: L2Autobuses: 106, 113" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8881#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8867> a mdc:MedicalCenter;
+  dbo:Latitude "4.047.860.087.334.550";
+  dbo:Longitude "-37.094.408.342.979.900";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria Fuencarral";
+  dbo:address "AVENIDA ; MONFORTE DE LEMOS; Num V 38";
+  dbo:borough "EL PILAR";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno:  De lunes a viernes de 8:30 a 20:30 horas. Anticoncepción de urgencia:  De lunes a viernes de 8:30 a 20:00 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro. Horario Semana San Isidro: 8:30 a 19:30 horas Horario de verano (antes de acudir, póngase en contacto telefónico con el centro)   Del 15 de junio al  15 de septiembre: de 8:30 a 19:30 horas.";
+  sch:email "cmsfuencarral@madrid.es";
+  sch:telephone "CITACIONES: 91 588 68 71 / 91 588 68 73" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/17433> a mdc:MedicalCenter;
+  dbo:Latitude "4.046.218.555.303.640";
+  dbo:Longitude "-3.627.022.202.641.670";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria Hortaleza";
+  dbo:address "CALLE ; JUAN CLEMENTE NUÑEZ; Num V 3; Orientacion: frente a Silvano 157";
+  dbo:district "HORTALEZA";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno De lunes a viernes de 8:30 a 20:30 horas Anticoncepción de urgencia (pildora postcoital):  De lunes a viernes de 9 a 17 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro. Vacunación: con cita previa Horario de Semana San Isidro: 8:30 a 19:30 horas Horario de verano  Del 15 de junio  al 15 de septiembre: de 8:30 a 19:30 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/17433#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/17433#BusTrip>, <http://www.medicalCentersMadrid.org/Group22/Individuals/17433#SubwayStation>;
+  sch:email "cmshortaleza@madrid.es";
+  sch:telephone "CITACIONES: 917 489 197 / 917 489 207" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/17433#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 73 , 120 , 122 " .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/17433#SubwayStation> a mdc:Transport;
+  sch:SubwayStation "Metro: L 4, estación Canillas" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/17433#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8876> a mdc:MedicalCenter;
+  dbo:Latitude "4.040.955.885.950.750";
+  dbo:Longitude "-37.391.695.341.734";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria Latina";
+  dbo:address "PASEO ; EXTREMADURA; Num V 147";
+  dbo:borough "PUERTA DEL ANGEL";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno De lunes a viernes de 8:30 a 14 horas.Anticoncepción de urgencia (pildora postcoital): De lunes a viernes de 9 a 14 horas, tardes no hay servicio. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.Otros servicios y talleres: con cita previa Horario Semana San Isidro: de 8:30 a 14 horas.  Horario de verano (antes de acudir, póngase en contacto telefónico con el centro) Del 15 de junio al 15 de septiembre: de 8:30 a 14 horas.";
+  sch:email "cmslatina@madrid.es";
+  sch:telephone "CITACIONES:  914 649 972 / 914 794 666" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/148488> a mdc:MedicalCenter;
+  dbo:Latitude "4.039.525.784.370.070";
+  dbo:Longitude "-3.665.615.521.144.960";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria Puente de Vallecas";
+  dbo:address "CALLE ; CONCORDIA; Num NUM 15";
+  dbo:borough "SAN DIEGO";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno  De lunes a viernes de 8 a 20:30 horas  Anticoncepción de urgencia (pildora postcoital):  de lunes a viernes de 9 a 20:30 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro. Horario Semana San Isidro: de 8:30 a 19:30 horas. Horario de verano (antes de acudir, póngase en contacto telefónico con el centro)  Del 15 de junio al 15 de septiembre:  de 8:30 a 19:30 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/148488#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/148488#BusTrip>;
+  sch:email "cmsvallecasp@madrid.es";
+  sch:telephone "CITACIONES: 915 886 016 / 915 133 025" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/148488#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 10 , 24 , 54 , 57 , 58 , 111 , 140" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/148488#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8872> a mdc:MedicalCenter;
+  dbo:Latitude "4.039.525.784.370.070";
+  dbo:Longitude "-3.665.615.521.144.960";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria Retiro";
+  dbo:address "CALLE ; CONCORDIA; Num V 15";
+  dbo:borough "SAN DIEGO";
+  dbo:district "PUENTE DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno De lunes a viernes de 8:30 a 14:30 horas Anticoncepción de urgencia (píldora postcoital): de lunes a viernes de 9 a 14 horas Vacunación: con cita previa Horario Semana San Isidro: de 8:30 a 14 horas. Horario de verano (antes de acudir, póngase en contacto telefónico con el centro)  Del 15 de junio al 15 de septiembre:  de 8:30 a 14 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8872#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8872#BusTrip>;
+  sch:email "cmsretiro@madrid.es";
+  sch:telephone "CITACIONES: 913 601 530" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8872#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 10 , 24, 54, 57, 58, 111, 140" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8872#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8871> a mdc:MedicalCenter;
+  dbo:Latitude "4.046.548.064.796.590";
+  dbo:Longitude "-36.936.383.781.020.600";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria Salud Tetuán";
+  dbo:address "CALLE ; AGUILEÑAS; Num V 1";
+  dbo:borough "ALMENARA";
+  dbo:district "TETUAN";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno De lunes a viernes de 8:30 a 20:30 horas Anticoncepción de urgencia (pildora postcoital):  De lunes a viernes de 8:30 a 20:30 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro. Vacunación: con cita previa Semana San Isidro: de 8:30 a 19:30 horas. Horario de verano (antes de acudir, póngase en contacto telefónico con el centro)  Del 15 de junio al 15 de septiembre:  de 8:30 a 19:30 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8871#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8871#BusTrip>;
+  sch:email "cmstetuan@madrid.es";
+  sch:telephone "CITACIONES: 915 886 675/ 915 886 689" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8871#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 42 , 49 , 124" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8871#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/4645539> a mdc:MedicalCenter;
+  dbo:Latitude "40.425.889.776.910.900";
+  dbo:Longitude "-3.620.048.048.164.770";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria San Blas";
+  dbo:address "CALLE ; POBLADURA DEL VALLE; Num V 13";
+  dbo:borough "AMPOSTA";
+  dbo:district "SAN BLAS-CANILLEJAS";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno: De lunes a viernes de 8:30 a 20:30 horasAnticoncepción de urgencia (pildora postcoital): Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.Prueba rápida del VIH con cita previa:mañanas de 9 a 13 horas, martes, miércoles y jueves por la tarde de 15 a 19 horas.  Semana San Isidro: de 8:30 a 19:30 horas.  Horario de verano (antes de acudir, póngase en contacto telefónico con el centro) Del 15 de junio al 15 de septiembre: de 8:30 a 19:30 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/4645539#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/4645539#BusTrip>, <http://www.medicalCentersMadrid.org/Group22/Individuals/4645539#SubwayStation>;
+  sch:telephone "CITACIONES: 917 609 656/47" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/4645539#BusTrip> a mdc:Transport;
+  sch:BusTrip "Autobus: 38, 48, 153 " .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/4645539#SubwayStation> a
+    mdc:Transport;
+  sch:SubwayStation "Metro: San Blas" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/4645539#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8878> a mdc:MedicalCenter;
+  dbo:Latitude "4.037.773.347.929.670";
+  dbo:Longitude "-37.156.736.251.996.900";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria Usera";
+  dbo:address "CALLE ; AVENA; Num V 3; Orientacion: (Esquina a calle Heno)";
+  dbo:borough "ZOFIO";
+  dbo:district "USERA";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno de lunes a viernes de 8:30 a 20 horas. Atención individual sin cita previa:Anticoncepción de urgenciaConsulta joven para menores de 25 años Horario Semana San Isidro: 8:30 a 19:30 horas Horario de verano del 15 de junio al 15 de septiembre de 8:30 a 19:30 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8878#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8878#BusTrip>, <http://www.medicalCentersMadrid.org/Group22/Individuals/8878#SubwayStation>;
+  sch:email "cmsusera@madrid.es";
+  sch:telephone "CITACIONES: 914 609 850 / 914 607 200" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8878#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 6 , 60 , 78 , 81 " .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8878#SubwayStation> a mdc:Transport;
+  sch:SubwayStation "Metro: Plaza Elíptica" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8878#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8877> a mdc:MedicalCenter;
+  dbo:Latitude "4.040.760.589.417.710";
+  dbo:Longitude "-3.610.734.756.927.210";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria Vicálvaro";
+  dbo:address "CALLE ; CALAHORRA; Num V 11";
+  dbo:borough "AMBROZ";
+  dbo:district "VICALVARO";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno De lunes a viernes de 8:30 a 20:30 horasAnticoncepción de urgencia (pildora postcoital): De lunes a viernes de 8:30 a 20 horas, excepto martes y jueves de 14 a 20 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.Vacunación: con cita previa Horario Semana San Isidro: de 8:30 a 19:30 horas  Horario de verano (antes de acudir, póngase en contacto telefónico con el centro)Del 15 de junio al 15 de septiembre: de 8:30 a 19:30 horas.";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8877#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8877#BusTrip>;
+  sch:email "cmsvicalvaro@madrid.es";
+  sch:telephone "Citaciones: 917 602 401 / 917 753 260 / 917 753 262" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8877#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 4 , 100 , 106 , 130, E3" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8877#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8873> a mdc:MedicalCenter;
+  dbo:Latitude "4.037.978.858.026.880";
+  dbo:Longitude "-3.622.040.199.057.610";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria Villa de Vallecas";
+  dbo:address "CALLE ; SIERRA GADOR; Num V 68";
+  dbo:borough "CASCO H.VALLECAS";
+  dbo:district "VILLA DE VALLECAS";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de invierno De lunes a viernes de 8:30 a 20:30 horas Anticoncepción de urgencia (pildora postcoital):  De lunes a viernes de 9 a 20 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro. Vacunación: con cita previa Horario Semana San Isidro: 8:30 a 19:30 horas Horario de verano (antes de acudir, póngase en contacto telefónico con el centro)   Del 15 de junio al 15 de septiembre, de 8:30 a 19:30 horas";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/8873#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/8873#BusTrip>;
+  sch:email "cmsvallecasv@madrid.es";
+  sch:telephone "CITACIONES: 917 791 312 / 913 807 910" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8873#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 54 , 58 , 130 , 143" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8873#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/6017257> a mdc:MedicalCenter;
+  dbo:Latitude "4.035.940.720.387.400";
+  dbo:Longitude "-3.690.771.730.176.700";
+  dbo:Name "CMSc Centro Municipal de Salud Comunitaria Villaverde";
+  dbo:address "AVENIDA ; FELICIDAD; Num V 17";
+  dbo:borough "LOS ROSALES";
+  dbo:district "VILLAVERDE";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 8:30 a 18 horas Anticoncepción de urgencia (pildora postcoital):  De lunes a viernes de 8:30 a 18 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.Vacunación (adultos): cita previa Horario de verano Del 15 de junio al 15 de septiembre: de 8:30 a 17 horas.";
+  sch:email "cmsvillaverde@madrid.es";
+  sch:telephone "Recepción: 914 80 49 39 / 915 88 92 60" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9164> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.270.280.839.360";
+  dbo:Longitude "-3.677.762.569.951.610";
+  dbo:Name "Complejo Hospitalario Ruber Juan Bravo 39";
+  dbo:address "CALLE ; JUAN BRAVO; Num V 39";
+  dbo:borough "LISTA";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9164#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9164#BusTrip>;
+  sch:telephone "914 022 100" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9164#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 29, 52, 61, 210, 56, 26." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9164#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 144 (calle Juan Bravo, 50)." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9133> a mdc:MedicalCenter;
+  dbo:Latitude "404.180.582.197.158";
+  dbo:Longitude "-3.669.010.928.401.370";
+  dbo:Name "Hospital Beata María Ana de Hermanas Hospitalarias";
+  dbo:address "CALLE ; DOCTOR ESQUERDO; Num V 83";
+  dbo:borough "ESTRELLA";
+  dbo:district "RETIRO";
+  esdbo:city "MADRID";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9133#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9133#BusTrip>;
+  sch:telephone "914 097 423" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9133#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 143, 156, 2, 30, 56, 15, 215." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9133#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 63 (calle Ibiza, 62)." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9127> a mdc:MedicalCenter;
+  dbo:Latitude "4.047.502.578.668.780";
+  dbo:Longitude "-369.589.607.039.969";
+  dbo:Name "Hospital Carlos III";
+  dbo:address "CALLE ; SINESIO DELGADO; Num V 10";
+  dbo:borough "LA PAZ";
+  dbo:description "El Hospital Carlos III está designado como centro de referencia en la Comunidad de Madrid para determinadas enfermedades: tratamiento e investigación del VIH,  enfermedades tropicales, adopciones internacionales, vacunación internacional y las unidades del Viajero y de Tabaquismo.";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  sch:telephone "914 532 500" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9131> a mdc:MedicalCenter;
+  dbo:Latitude "40.447.228.937.084.000";
+  dbo:Longitude "-37.069.410.696.045.600";
+  dbo:Name "Hospital Central de la Cruz Roja San José y Santa Adela";
+  dbo:address "AVENIDA ; REINA VICTORIA; Num V 22; Orientacion: 22 - 26";
+  dbo:borough "BELLAS VISTAS";
+  dbo:district "TETUAN";
+  esdbo:city "MADRID";
+  sch:telephone "914 538 300" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9118> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.794.124.740.320";
+  dbo:Longitude "-37.455.427.960.089.000";
+  dbo:Name "Hospital Central de la Defensa Gómez Ulla";
+  dbo:address "GLORIETA ; EJERCITO; Num V 1";
+  dbo:borough "ALUCHE";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  sch:telephone "914 228 056" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9104> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.969.162.044.750";
+  dbo:Longitude "-37.195.609.709.099.200";
+  dbo:Name "Hospital Clínico San Carlos";
+  dbo:address "CALLE ; PROFESOR MARTIN LAGOS; Num V 2";
+  dbo:borough "CIUDAD UNIVERSITARIA";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  sch:email "buzgen.hcsc@salud.madrid.org";
+  sch:telephone "913 303 000 / 913 303 001" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9135> a mdc:MedicalCenter;
+  dbo:Latitude "4.040.905.071.519.980";
+  dbo:Longitude "-3.713.942.783.731.200";
+  dbo:Name "Hospital de la Venerable Orden Tercera de San Francisco de Asís";
+  dbo:address "CALLE ; SAN BERNABE; Num V 13";
+  dbo:borough "PALACIO";
+  dbo:district "CENTRO";
+  esdbo:city "MADRID";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9135#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9135#BusTrip>;
+  sch:telephone "913 657 600" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9135#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 148, 3, 60, C1, C2." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9135#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 37 (Plaza San Francisco, 5)." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/10131886> a mdc:MedicalCenter;
+  dbo:Name "Hospital Doctor Rodríguez Lafora";
+  dbo:address "CARRETERA ; COLMENAR VIEJO; Num V; Orientacion: Km. 13,800";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  sch:telephone "915 867 500" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/12168> a mdc:MedicalCenter;
+  dbo:Latitude "4.036.208.135.098.420";
+  dbo:Longitude "-3.774.901.548.263.780";
+  dbo:Name "Hospital Fundación Instituto San José, centro de rehabilitación Discapacitados físicos";
+  dbo:address "CALLE ; PINAR DE SAN JOSE; Num V 98";
+  dbo:borough "CUATRO VIENTOS";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  sch:telephone "915 080 140" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9098> a mdc:MedicalCenter;
+  dbo:Latitude "40.419.353.265.375.300";
+  dbo:Longitude "-3.669.400.954.524.190";
+  dbo:Name "Hospital General Universitario Gregorio Marañón";
+  dbo:address "CALLE ; DOCTOR ESQUERDO; Num V 46";
+  dbo:borough "IBIZA";
+  dbo:district "RETIRO";
+  esdbo:city "MADRID";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9098#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9098#BusTrip>;
+  sch:telephone "915 868 000" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9098#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 2, 30, 56, 143, 156, 28, 203, E2, E3" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9098#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 63 (calle Ibiza, 62)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9136> a mdc:MedicalCenter;
+  dbo:Latitude "40.431.328.769.688.100";
+  dbo:Longitude "-3.706.821.691.696.720";
+  dbo:Name "Hospital HM Madrid";
+  dbo:address "PLAZA ; CONDE DEL VALLE DE SUCHIL; Num V 16";
+  dbo:borough "ARAPILES";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9136#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9136#BusTrip>;
+  sch:telephone "914 476 600" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9136#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 21." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9136#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 3 (Plaza Conde del Valle de Suchil, 2-4)." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9151> a mdc:MedicalCenter;
+  dbo:Latitude "4.045.507.853.168.630";
+  dbo:Longitude "-3.657.631.482.596.100";
+  dbo:Name "Hospital HM Nuevo Belén";
+  dbo:address "CALLE ; JOSE SILVA; Num V 7";
+  dbo:borough "SAN JUAN BAUTISTA";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  sch:telephone "902 089 800 (citación Consultas); 902 089 700 (citación Radiología)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/5753845> a mdc:MedicalCenter;
+  dbo:Latitude "40.489.245.182.406.600";
+  dbo:Longitude "-3.666.260.040.995.530";
+  dbo:Name "Hospital HM Sanchinarro";
+  dbo:address "CALLE ; OÑA; Num V 10";
+  dbo:borough "VALDEFUENTES";
+  dbo:district "HORTALEZA";
+  esdbo:city "MADRID";
+  sch:telephone "902 107 469" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9099> a mdc:MedicalCenter;
+  dbo:Latitude "40.413.858.634.560.900";
+  dbo:Longitude "-36.769.841.290.878.600";
+  dbo:Name "Hospital Infantil Universitario Niño Jesús";
+  dbo:address "AVENIDA ; MENENDEZ PELAYO; Num V 65";
+  dbo:borough "NIÑO JESUS";
+  dbo:district "RETIRO";
+  esdbo:city "MADRID";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9099#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9099#BusTrip>;
+  sch:telephone "915 035 900 (información)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9099#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 20, 26, 63, C1, 152, C2, 61" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9099#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas:Estación 83 (calle Pío Baroja, 10)Estación 70 (Avenida Menéndez Pelayo, 63)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9155> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.410.450.540.460";
+  dbo:Longitude "-37.139.951.646.612.000";
+  dbo:Name "Hospital La Luz";
+  dbo:address "CALLE ; MAESTRO ANGEL LLORCA; Num V 8";
+  dbo:borough "VALLEHERMOSO";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  sch:telephone "914 530 200" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9142> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.703.422.204.970";
+  dbo:Longitude "-3.695.975.226.567.990";
+  dbo:Name "Hospital La Milagrosa";
+  dbo:address "CALLE ; MODESTO LAFUENTE; Num V 14";
+  dbo:borough "ALMAGRO";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9142#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9142#BusTrip>;
+  sch:email "lamilagrosa@lamilagrosa.com";
+  sch:telephone "914 472 100" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9142#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 5, 12." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9142#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 129 (calle José Abascal, 33).Estación 125 (calle General Martínez Campos, 29)." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9166> a mdc:MedicalCenter;
+  dbo:Latitude "40.433.178.814.794.400";
+  dbo:Longitude "-37.337.807.973.090.700";
+  dbo:Name "Hospital Moncloa";
+  dbo:address "AVENIDA ; VALLADOLID; Num V 83";
+  dbo:borough "CASA DE CAMPO";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  sch:telephone "915 957 000 / 917 581 196 (cita previa)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/4897073> a mdc:MedicalCenter;
+  dbo:Latitude "4.046.633.906.243.520";
+  dbo:Longitude "-3.783.470.759.971.290";
+  dbo:Name "Hospital Nisa Pardo de Aravaca";
+  dbo:address "CALLE ; LA SALLE; Num V 12";
+  dbo:borough "VALDEMARIN";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  sch:telephone "915 129 000" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9140> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.202.238.342.300";
+  dbo:Longitude "-36.797.953.394.778.300";
+  dbo:Name "Hospital Nuestra Señora del Rosario";
+  dbo:address "CALLE ; PRINCIPE DE VERGARA; Num V 53";
+  dbo:borough "CASTELLANA";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9140#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9140#BusTrip>;
+  sch:telephone "914 359 100" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9140#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 29, 52." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9140#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 143 (calle Diego de León, 52)." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9145> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.053.093.314.870";
+  dbo:Longitude "-3.674.492.498.969.220";
+  dbo:Name "Hospital Quirón Salud - San José";
+  dbo:address "CALLE ; CARTAGENA; Num V 111";
+  dbo:borough "PROSPERIDAD";
+  dbo:district "CHAMARTIN";
+  esdbo:city "MADRID";
+  sch:email "info.sanjose@quironsalud.es";
+  sch:telephone "910 687 000" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9137> a mdc:MedicalCenter;
+  dbo:Latitude "4.048.931.453.671.990";
+  dbo:Longitude "-37.149.578.807.926";
+  dbo:Name "Hospital Ruber Internacional";
+  dbo:address "CALLE ; MASO; Num V 38";
+  dbo:borough "MIRASIERRA";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  sch:telephone "913 875 000" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9144> a mdc:MedicalCenter;
+  dbo:Latitude "40.442.507.578.574.100";
+  dbo:Longitude "-36.830.728.592.371.600";
+  dbo:Name "Hospital San Francisco de Asís";
+  dbo:address "CALLE ; JOAQUIN COSTA; Num V 28";
+  dbo:borough "EL VISO";
+  dbo:district "CHAMARTIN";
+  esdbo:city "MADRID";
+  sch:email "hsfda@hsfda.com";
+  sch:telephone "915 617 100 / 915 630 360" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9134> a mdc:MedicalCenter;
+  dbo:Latitude "4.045.194.925.430.990";
+  dbo:Longitude "-36.815.056.266.232.800";
+  dbo:Name "Hospital San Rafael de los Hermanos de San Juan de Dios";
+  dbo:address "CALLE ; SERRANO; Num V 199";
+  dbo:borough "HISPANOAMERICA";
+  dbo:district "CHAMARTIN";
+  esdbo:city "MADRID";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9134#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9134#BusTrip>;
+  sch:telephone "915 649 943" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9134#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 51, 7, 120, 43." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9134#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 148 (calle Serrano, 210)." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9106> a mdc:MedicalCenter;
+  dbo:Latitude "4.037.810.671.044.640";
+  dbo:Longitude "-3.695.851.468.797.000";
+  dbo:Name "Hospital Universitario 12 de Octubre";
+  dbo:address "AVENIDA ; CORDOBA; Num V 41";
+  dbo:borough "ORCASUR";
+  dbo:district "USERA";
+  esdbo:city "MADRID";
+  sch:telephone "913 908 000" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9100> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.442.460.950.320";
+  dbo:Longitude "-367.572.838.355.801";
+  dbo:Name "Hospital Universitario de  La Princesa";
+  dbo:address "CALLE ; DIEGO DE LEON; Num V 62";
+  dbo:borough "LISTA";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  sch:telephone "915 202 200" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9130> a mdc:MedicalCenter;
+  dbo:Latitude "4.043.856.066.906.920";
+  dbo:Longitude "-3.718.888.630.279.220";
+  dbo:Name "Hospital Universitario Fundación Jiménez Díaz";
+  dbo:address "AVENIDA ; REYES CATOLICOS; Num V 2";
+  dbo:borough "CIUDAD UNIVERSITARIA";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  sch:telephone "915 446 200" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/4820572> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.535.663.052.740";
+  dbo:Longitude "-361.860.409.051.464";
+  dbo:Name "Hospital Universitario Infanta Leonor";
+  dbo:address "AVENIDA ; GRAN VIA DEL ESTE; Num V 80";
+  dbo:borough "SANTA EUGENIA";
+  dbo:district "VILLA DE VALLECAS";
+  esdbo:city "MADRID";
+  sch:telephone "911 918 000" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/176770> a mdc:MedicalCenter;
+  dbo:Latitude "4.049.216.638.514.870";
+  dbo:Longitude "-36.627.252.849.368.300";
+  dbo:Name "Hospital Universitario La Moraleja";
+  dbo:address "AVENIDA ; FRANCISCO PI Y MARGALL; Num V 81";
+  dbo:borough "VALDEFUENTES";
+  dbo:district "HORTALEZA";
+  esdbo:city "MADRID";
+  sch:telephone "917 679 100" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9105> a mdc:MedicalCenter;
+  dbo:Latitude "4.048.040.956.769.200";
+  dbo:Longitude "-36.859.108.927.124.700";
+  dbo:Name "Hospital Universitario la Paz";
+  dbo:address "PASEO ; CASTELLANA; Num V 261";
+  dbo:borough "LA PAZ";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  sch:telephone "917 277 000" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9102> a mdc:MedicalCenter;
+  dbo:Name "Hospital Universitario Ramón y Cajal";
+  dbo:address "CARRETERA ; COLMENAR VIEJO; Num V; Orientacion: Km. 9,100";
+  dbo:district "CHAMARTIN";
+  esdbo:city "MADRID";
+  sch:telephone "913 368 000" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9110> a mdc:MedicalCenter;
+  dbo:Latitude "40.421.910.034.706.300";
+  dbo:Longitude "-36.712.652.060.202.900";
+  dbo:Name "Hospital Universitario Santa Cristina";
+  dbo:address "CALLE ; MAESTRO VIVES; Num V 2; Orientacion: y 3";
+  dbo:borough "GOYA";
+  dbo:description "Fue inaugurado en 1926 por el Rey Alfonso XIII y la Reina Victoria Eugenia. Fruto de la arquitectura civil de principios del siglo XX el edificio fue declarado monumento artístico de interés cultural por el gobierno de la nación. (Real Decreto 984/1999 de 4 de junio).";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9110#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9110#BusTrip>;
+  sch:telephone "915 574 300" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9110#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 28, 2, 30, 56, 71, 143, 156, E4, 203, E2, E3" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9110#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 62 (calle O'Donnell, 50)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9163> a mdc:MedicalCenter;
+  dbo:Latitude "4.046.238.897.755.270";
+  dbo:Longitude "-3.784.085.377.424.230";
+  dbo:Name "Hospital Universitario Zarzuela";
+  dbo:address "CALLE ; PLEYADES; Num V 25";
+  dbo:borough "ARAVACA";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  sch:telephone "915 858 000" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9141> a mdc:MedicalCenter;
+  dbo:Latitude "4.044.533.534.012.260";
+  dbo:Longitude "-3.716.001.027.645.850";
+  dbo:Name "Hospital Virgen de La Paloma";
+  dbo:address "CALLE ; LOMA; Num V 1";
+  dbo:borough "VALLEHERMOSO";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  sch:telephone "915 348 207" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9103> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.113.766.908.020";
+  dbo:Longitude "-3.619.107.413.174.210";
+  dbo:Name "Hospital Virgen de La Torre";
+  dbo:address "CALLE ; PUERTO DE LUMBRERAS; Num V 5";
+  dbo:borough "CASCO H.VALLECAS";
+  dbo:district "VILLA DE VALLECAS";
+  esdbo:city "MADRID";
+  sch:telephone "911 918 000" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9143> a mdc:MedicalCenter;
+  dbo:Latitude "4.045.953.411.819.070";
+  dbo:Longitude "-3.678.562.891.899.210";
+  dbo:Name "Hospital Virgen del Mar";
+  dbo:address "CALLE ; HONDURAS; Num V 14";
+  dbo:borough "NUEVA ESPAÑA";
+  dbo:district "CHAMARTIN";
+  esdbo:city "MADRID";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/9143#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/9143#BusTrip>;
+  sch:telephone "913 539 500" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9143#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 11, 40, 16, 29, 51, 150." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9143#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Estación 160 (calle Colombia, 7)." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8924> a mdc:MedicalCenter;
+  dbo:Latitude "40.431.826.525.287.100";
+  dbo:Longitude "-3.693.056.662.156.630";
+  dbo:Name "Instituto Provincial de Oftalmología";
+  dbo:address "CALLE ; GENERAL ARRANDO; Num V 17";
+  dbo:borough "ALMAGRO";
+  dbo:district "CHAMBERI";
+  esdbo:city "MADRID";
+  sch:telephone "915 867 307 (Información) / 915 867 339 (Atención al paciente)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8923> a mdc:MedicalCenter;
+  dbo:Latitude "404.330.997.384.476";
+  dbo:Longitude "-36.727.322.957.984.000";
+  dbo:Name "Instituto Provincial de Rehabilitación";
+  dbo:address "CALLE ; FRANCISCO SILVELA; Num V 40";
+  dbo:borough "GUINDALERA";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  sch:telephone "915 868 000 (centralita) / 915 868 556 / 915 868 557 (atención al paciente)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/25900> a mdc:MedicalCenter;
+  dbo:Latitude "40.428.976.927.386.800";
+  dbo:Longitude "-36.721.607.026.353.800";
+  dbo:Name "Laboratorio de Análisis Clínicos";
+  dbo:address "CALLE ; MONTESA; Num NUM 22; Orientacion: Edificio D";
+  dbo:district "DISTRITO";
+  esdbo:city "MADRID";
+  mdc:schedule "Secretaría: de lunes a viernes de 8 a 14 horasExtracciones sanguineas: de lunes a viernes de 8:30 a 10:30 horas sin cita previa";
+  sch:TravelAction <http://www.medicalCentersMadrid.org/Group22/Individuals/25900#BikeTrip>,
+    <http://www.medicalCentersMadrid.org/Group22/Individuals/25900#BusTrip>;
+  sch:email "mspanalisis@madrid.es";
+  sch:telephone "914 803 549/ 914 803 550" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/25900#BusTrip> a mdc:Transport;
+  sch:BusTrip "Bus: 1 , 2 , 12 , 21 , 43 , 48 , 53 , 56 , 74 , 146 , 210 , Línea C" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/25900#BikeTrip> a mdc:Transport;
+  mdc:BikeTrip "Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/10168171> a mdc:MedicalCenter;
+  dbo:Latitude "4.047.015.306.729.340";
+  dbo:Longitude "-3.666.649.221.736.810";
+  dbo:Name "MD Anderson Cancer Center Madrid";
+  dbo:address "CALLE ; ARTURO SORIA; Num V 270";
+  dbo:borough "COSTILLARES";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  sch:email "info@mdanderson.es";
+  sch:telephone "912 777 220" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9175> a mdc:MedicalCenter;
+  dbo:Latitude "4.047.406.445.678.990";
+  dbo:Longitude "-3.687.898.995.406.080";
+  dbo:Name "Organización Nacional de Trasplantes";
+  dbo:address "CALLE ; SINESIO DELGADO; Num V 6; Orientacion: PABELLÓN 3";
+  dbo:borough "ALMENARA";
+  dbo:district "TETUAN";
+  esdbo:city "MADRID";
+  sch:email "ont@msssi.es";
+  sch:telephone "917 278 699" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9147> a mdc:MedicalCenter;
+  dbo:Latitude "4.038.190.580.588.020";
+  dbo:Longitude "-37.579.168.409.144.500";
+  dbo:Name "Sanatorio Esquerdo";
+  dbo:address "AVENIDA ; POBLADOS; Num V 70";
+  dbo:borough "LAS AGUILAS";
+  dbo:district "LATINA";
+  esdbo:city "MADRID";
+  sch:telephone "917 061 100" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8835> a mdc:MedicalCenter;
+  dbo:Latitude "40.428.976.927.386.800";
+  dbo:Longitude "-36.721.607.026.353.800";
+  dbo:Name "Servicio de Inmunoprofilaxis de la Rabia Humana";
+  dbo:address "CALLE ; MONTESA; Num V 22";
+  dbo:borough "LISTA";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 9 a 14 horas";
+  sch:email "mspinternacional@madrid.es";
+  sch:telephone "915 885 960 / 915 885 180 / 915 885 949" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/165817> a mdc:MedicalCenter;
+  dbo:Latitude "40.455.282.976.343.900";
+  dbo:Longitude "-3.699.536.485.135.370";
+  dbo:Name "Unidad de gestión de prestaciones del Sindrome Tóxico";
+  dbo:address "CALLE ; LA CORU&amp;Ntilde;A; Num V 25";
+  dbo:borough "CUATRO CAMINOS";
+  dbo:district "TETUAN";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 9 a 14 horas";
+  sch:telephone "915 688 886" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/7318822> a mdc:MedicalCenter;
+  dbo:Latitude "4.047.277.245.807.720";
+  dbo:Longitude "-371.813.267.268.184";
+  dbo:Name "Unidad de Salud Mental de niños y adolescentes Fuencarral";
+  dbo:address "CALLE ; CANDIDO MATEOS; Num V 11";
+  dbo:borough "PEÑA GRANDE";
+  dbo:district "FUENCARRAL-EL PARDO";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultar telefónicamente.";
+  sch:telephone "913 733 597 / 913 733 977" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/7318897> a mdc:MedicalCenter;
+  dbo:Latitude "4.046.548.064.796.590";
+  dbo:Longitude "-36.936.383.781.020.600";
+  dbo:Name "Unidad de Salud Mental de niños y adolescentes Tetuán";
+  dbo:address "CALLE ; AGUILEÑAS; Num V 1";
+  dbo:borough "ALMENARA";
+  dbo:district "TETUAN";
+  esdbo:city "MADRID";
+  mdc:schedule "Consultal telefónicamente.";
+  sch:telephone "915 886 675" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/4795428> a mdc:MedicalCenter;
+  dbo:Latitude "4.042.054.836.583.690";
+  dbo:Longitude "-37.179.660.205.926.200";
+  dbo:Name "Unidad móvil Madroño";
+  dbo:address "PASEO ; REY; Num V; Orientacion: Junto al albergue de San Isidro";
+  dbo:borough "ARGUELLES";
+  dbo:district "MONCLOA-ARAVACA";
+  esdbo:city "MADRID";
+  mdc:schedule "De lunes a viernes de 15 a 17,30 horasSábado, domingo y festivo de 12,30 a 14 horas";
+  sch:telephone "647 304 366" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/8889> a mdc:MedicalCenter;
+  dbo:Latitude "40.428.976.927.386.800";
+  dbo:Longitude "-36.721.607.026.353.800";
+  dbo:Name "Unidad Técnica de Apoyo Diagnóstico";
+  dbo:address "CALLE ; MONTESA; Num V 22";
+  dbo:borough "LISTA";
+  dbo:district "SALAMANCA";
+  esdbo:city "MADRID";
+  mdc:schedule "Horario de verano (antes de acudir, póngase en contacto telefónico con el centro)  Del 15 de junio al 15 de septiembre: de 8:30 a 14 horas. Horario de invierno  Citas: de lunes a viernes de 8:30 a 14 horas Consulta de prevención de VIH y Enfermedades de Transmisión Sexual, programa de salud sexual y reproductiva: horario de admisión de usuarios/usuarias sin cita previa de lunes a viernes de 8 a 9:30 horas, hasta completar cupo.";
+  sch:email "mspdiagnostico@madrid.es";
+  sch:telephone "915 885 100 / 06 (Citas)" .
+
+<http://www.medicalCentersMadrid.org/Group22/Individuals/9154> a mdc:MedicalCenter;
+  dbo:Latitude "40.449.787.026.276.600";
+  dbo:Longitude "-3.651.729.403.937.950";
+  dbo:Name "Vithas Hospital Nuestra Señora de América";
+  dbo:address "CALLE ; ARTURO SORIA; Num V 103";
+  dbo:borough "SAN JUAN BAUTISTA";
+  dbo:district "CIUDAD LINEAL";
+  esdbo:city "MADRID";
+  sch:telephone "902 298 299" .

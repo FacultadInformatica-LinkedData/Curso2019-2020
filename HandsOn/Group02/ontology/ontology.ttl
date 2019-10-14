@@ -1,0 +1,85 @@
+@prefix : <http://www.biciMad.com/ontology/BikeStation#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@base  <http://www.biciMad.com/ontology/BikeStation#> .
+
+<http://www.biciMad.com/ontology/BikeStation#> rdf:type owl:Ontology .
+
+
+#    Classes & SubClasses
+
+
+###  
+
+:BikeStation rdf:type owl:Class .
+
+:Location rdf:type owl:Class .
+
+:Availability rdf:type owl:Class .
+
+:Identifier rdf:type owl:Class .
+		
+
+
+
+
+#object properties
+
+:hasId rdf:type owl:ObjectProperty ;
+		rdfs:domain :BikeStation;
+		rdfs:range :Identifier . 
+		
+:isLocated rdf:type owl:ObjectProperty ;
+           rdfs:domain :BikeStation ;
+           rdfs:range :Location .
+		   
+		   
+:hasAvailability rdf:type owl:ObjectProperty ;
+           rdfs:domain :BikeStation ;
+           rdfs:range :Availability .
+		   
+		   
+		   
+#Data properties
+
+:id rdf:type owl:DatatypeProperty ;
+			rdfs:domain :Identifier ;
+			rdfs:range xsd:integer .
+
+:neighborhood rdf:type owl:DatatypeProperty ;
+			rdfs:domain :Location ;
+			rdfs:range  xsd:string .
+			
+:address rdf:type owl:DatatypeProperty ;
+			rdfs:domain :Location ;
+			rdfs:range  xsd:string .
+			
+:longitude rdf:type owl:DatatypeProperty ;
+			rdfs:domain :Location ;
+			rdfs:range xsd:integer .
+			
+:latitude rdf:type owl:DatatypeProperty ;
+			rdfs:domain :Location ;
+			rdfs:range xsd:integer .
+			
+:district rdf:type owl:DatatypeProperty ;
+			rdfs:domain :Location ;
+			rdfs:range xsd:string .
+			
+:bikeAvailability rdf:type owl:DatatypeProperty ;
+			rdfs:domain :Availability ;
+			rdfs:range  xsd:integer .
+			
+			
+			
+
+
+
+
+
+
+
+
