@@ -1,1 +1,880 @@
-#No conseguimos hacerlo. este archivo es por entregar algo hasta que lo consigamos hacer
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vocab: <http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.aparcamientospublicomadrid.com/recurso/13470> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Arquitecto Ribera" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 318 públicas y 298 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "BARCELO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "40.426.687.899.755.700"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.996.173.701.222.400"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28004"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "JUSTICIA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "2"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a50e15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/59060> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Avenida de América (intercambiador)" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 269 públicas y 392 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "PRADENA DEL RINCON" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.043.886.083.125.740"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.766.217.383.743.300"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28002"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "917 376 257"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/email> "intercambiador@intercambiador.net" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "PROSPERIDAD" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CHAMARTIN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "4"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3f3bc2c6e051c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/5898885> <http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 432 públicas y 437 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/ontology/horario> "Horario de apertura de 6:00 h a 22:00 h los días laborables." ;
+	<http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Avenida de Portugal" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "PORTUGAL" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "AVENIDA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "40.411.180.021.966.300"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-37.378.318.857.463.100"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28011"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "917 877 292 (grúa municipal)"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/email> "aparcamientos@madridmovilidad.es" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "PUERTA DEL ANGEL" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "LATINA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "155"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c313e26f2b3fc210VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13475> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Brasil" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 226 públicas y 400 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "GENERAL YAG&amp;Uuml;E" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.045.610.834.965.890"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.694.131.675.088.480"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28020"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "CUATRO CAMINOS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "TETUAN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "11"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fb2e15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/183747> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Casino de la Reina" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 135 públicas y 449 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "CASINO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "40.406.792.648.617.100"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-37.046.086.019.457.100"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28005"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "EMBAJADORES" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "3"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c5f4bdc85c01c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13477> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Condesa de Gavia" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 73 públicas y 79 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "CONDESA DE GAVIA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.044.938.567.948.410"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-37.019.164.121.880.800"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28020"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "CUATRO CAMINOS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "TETUAN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "0"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7e5f15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/24103> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Corazón de María II" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 327 públicas y 750 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "CORAZON DE MARIA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "40.444.421.820.483.200"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.666.902.094.780.130"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28002"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "915 563 165 / 915 195 280"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/email> "aparcamientocorazondemaria@grupocogesa.es" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "PROSPERIDAD" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CHAMARTIN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "46"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b74e6545f951c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/81736> <http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 120 públicas y 125 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Corona Boreal" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "PEREZ DE VICTORIA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.045.852.127.134.040"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-378.317.943.069.732"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28023"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "913 573 714"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/email> "parkingcoronaboreal@hotmail.com" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "ARAVACA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "MONCLOA-ARAVACA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=db8bc2c6e051c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/183748> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Daoíz y Velarde" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 312 públicas y 174 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "CIUDAD DE BARCELONA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "AVENIDA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.040.531.540.835.350"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.683.557.034.656.530"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28007"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "S/T"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "PACIFICO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "RETIRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "3"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0f85bdc85c01c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/44724> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Díaz Porlier" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 203 públicas y 421 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "DIEGO DE LEON" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "40.434.415.601.006.300"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.675.728.293.375.590"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28006"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "91 401 73 74"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "LISTA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "SALAMANCA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "62"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9e69946be351c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/36269> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Encuentro" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 104 públicas y 550 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "ENCUENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.040.581.270.738.190"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.652.048.809.515.800"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28030"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "91 328 36 80"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "MEDIA LEGUA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "MORATALAZ" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "1"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c3e12c798651c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13464> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Felipe II" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 1175 públicas rotacionales y 615 para residentes " ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "ANTONIA MERCE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.042.422.175.692.130"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.673.433.652.213.160"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28009"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "GOYA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "SALAMANCA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "5"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=425e15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13462> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Fuencarral" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 410 públicas y 111 para residentes " ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "FUENCARRAL" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.042.948.845.687.030"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-37.027.941.027.177.900"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28010"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "915 468 939"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/email> "clientes@empark.es" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "TRAFALGAR" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CHAMBERI" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "111"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=987e15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/36270> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Hernani" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 115 públicas y 383 residentes " ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "HERNANI" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "40.448.394.729.978.000"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-37.033.919.552.673.100"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28020"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "915 545 326"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "CUATRO CAMINOS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "TETUAN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "60"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d0712c798651c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13459> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Jacinto Benavente" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 285 públicas y 110 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "JACINTO BENAVENTE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.041.444.016.371.450"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-370.332.112.917.586"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28012"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "917 877 292 (grúa municipal)"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/email> "aparcamientos@madridmovilidad.es" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "CORTES" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "6"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c48f15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13479> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. José Castán Tobeñas" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 205 públicas y 43 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "CAPITAN HAYA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.046.451.060.463.540"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.916.467.875.121.300"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28020"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "915 707 612"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/email> "aeuropeos@gmail.com" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "CASTILLEJOS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "TETUAN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "57"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=35ce15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/6143690> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Marqués de Salamanca" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 360 públicas y 70 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "MARQUES DE SALAMANCA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.043.046.723.981.020"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.792.137.901.324.000"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28006"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "917 877 292 (grúa municipal)"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/email> "aparcamientos@madridmovilidad.es" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "LISTA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "SALAMANCA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "8"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cb5b1b2bb5b61310VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/182188> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Miguel Yuste" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 182  públicas y 68 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "MIGUEL YUSTE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "404.402.052.387.976"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.625.049.272.913.960"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28037"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "SIMANCAS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "SAN BLAS-CANILLEJAS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "11"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1c15bdc85c01c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13465> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Montalbán" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 145 Residenciales 130 Rotacionales" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "MONTALBAN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.041.802.725.000.110"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.691.123.387.515.540"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28014"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "LOS JERONIMOS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "RETIRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "4"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f0967339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/5517342> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Orense" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 128 públicas y 663 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "SOR ANGELA DE LA CRUZ" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.045.973.534.025.830"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.962.330.375.922.300"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28020"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/email> "aparcamientos@emtmadrid.es" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "CASTILLEJOS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "TETUAN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "27"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=eee35ed15bb95210VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/52114> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Pedro Zerolo 'antes denominado Vázquez de Mella'" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 107 públicas y 261 para residentes." ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "PEDRO ZEROLO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "404.209.564.450.911"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.699.899.832.865.300"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28004"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/email> "aparcamientos@emtmadrid.es" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "JUSTICIA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "1"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e499946be351c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/33440> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Plaza de Oriente" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 242 públicas rotacionales (30 plazas para autobuses) y 511 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "ORIENTE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "40.417.632.509.561.100"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-37.116.407.088.004.700"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28013"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "PALACIO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "1"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7db12c798651c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13466> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Plaza Mayor" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 694279 Residenciales415 Rotacionales" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "FELIPE III" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.041.586.882.022.000"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.706.895.619.414.360"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28012"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "SOL" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "11"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2b1981eb5f51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/36271> <http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 379 públicas y 124 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Presidente Carmona" ;
+	<http://www.aparcamientospublicomadrid.com/ontology/horario> "De lunes a domingo servicio ininterrumpido" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "PRESIDENTE CARMONA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "AVENIDA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.045.362.846.199.130"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.975.262.417.380.000"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28020"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "CUATRO CAMINOS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "TETUAN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "3"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8a412c798651c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13476> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Recoletos" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 102 públicas y 289 para residentes " ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "RECOLETOS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PASEO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.042.054.469.225.100"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.691.974.283.683.480"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28001"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/email> "aparcamientos@emtmadrid.es" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "RECOLETOS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "SALAMANCA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "4"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=283f15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/24193> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. República Dominicana" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 892 públicas y 203 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "REPUBLICA DOMINICANA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.045.887.037.458.620"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.765.275.895.176.600"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28016"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "NUEVA ESPAÑA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CHAMARTIN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "6"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aabe6545f951c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/167692> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. San Cayetano" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 222 públicas y 261 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "SAN CAYETANO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.043.432.235.224.970"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.700.799.322.371.000"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28028"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "GUINDALERA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "SALAMANCA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "1"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a284ff632081c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13515> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. San Germán II (antes General Yagüe)" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 409 públicas y 717 residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "BRASIL" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "AVENIDA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.045.673.936.450.410"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.694.067.405.537.410"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28020"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "CASTILLEJOS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "TETUAN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "15"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ee9e15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/19053> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Sánchez Bustillo" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 132 públicas y 408 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "SANCHEZ BUSTILLO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.040.917.205.238.470"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.940.145.592.988.000"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28012"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "EMBAJADORES" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "1"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=27912c798651c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7416748> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Serrano I" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 307 públicas y 831 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "JUAN BRAVO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.043.289.700.914.240"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.857.697.780.390.100"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28006"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "CASTELLANA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "SALAMANCA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "4"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bd61f94ae1d15410VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7417028> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Serrano II" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 379 públicas y 794 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "JOSE ORTEGA Y GASSET" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.043.059.379.257.070"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.688.281.097.618.060"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28006"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "CASTELLANA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "SALAMANCA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "1"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bc096f1c35d15410VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7417052> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Serrano III" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 261 públicas y 725 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "JORGE JUAN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.042.446.775.888.820"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.897.747.066.093.900"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28001"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "RECOLETOS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "SALAMANCA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "1"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9a1c6f1c35d15410VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13460> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Sevilla" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 649 públicas rotacionales y 74 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "ALCALA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.041.780.383.567.920"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.998.082.261.071.700"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28014"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "915 219 281"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "SOL" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "17"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9dd67339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13458> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Velázquez - Ayala" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 464 públicas y 235 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "VELAZQUEZ" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "40.427.203.787.185.400"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.841.676.172.873.900"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28001"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "RECOLETOS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "SALAMANCA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "47"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8bee15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13457> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Velázquez - Jorge Juan" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 549 públicas y 395 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "VELAZQUEZ" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "404.243.649.253.884"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.684.339.253.399.850"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28001"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "RECOLETOS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "SALAMANCA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "25"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d11f15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/183607> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento mixto. Verdaguer y García" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 83 públicas y 180 para residentes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "VERDAGUER Y GARCIA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.043.992.277.144.070"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.656.505.118.007.150"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28027"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "913 531 050"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "SAN PASCUAL" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CIUDAD LINEAL" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "1"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6245bdc85c01c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/10489514> <http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público disuasorio Estadio Metropolitano Sur ES-02b" ;
+	<http://www.aparcamientospublicomadrid.com/ontology/horario> "Horario de apertura de 6:00 h a 22:00 h los días laborables excepto los días de partido en el estadio Metropolitano" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas:para automóviles 1719 para motocicletas 61" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "ARCENTALES" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "AVENIDA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "40.434.154"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.598.831"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28022"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "ROSAS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "SAN BLAS-CANILLEJAS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "37"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=975b89a80c49e510VgnVCM1000001d4a900aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13452> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Almagro" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 462 " ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "ALMAGRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.043.030.345.785.860"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.931.471.299.523.400"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28010"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "ALMAGRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CHAMBERI" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "13"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0e167339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7393089> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Auditorio Nacional de Música (Príncipe de Vergara)" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 376" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "CARTAGENA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.044.426.892.073.370"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.777.018.495.296.000"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28002"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "CIUDAD JARDIN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CHAMARTIN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "176"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ed88f25e040c4410VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13473> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Descalzas" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 400" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "DESCALZAS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.041.809.765.692.240"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.706.306.013.191.400"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28013"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "91 532 57 57"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "SOL" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "4"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=98e77339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/24809> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Fernández Shaw" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 245" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "CARLOS Y GUILLERMO FERNANDEZ SHAW" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "40.406.002.468.696.700"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.669.292.239.090.560"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28007"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "ADELFAS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "RETIRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0e6e6545f951c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13478> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Glorieta Puerta de Toledo" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 244" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "CAPITAN SALAZAR MARTINEZ" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.040.745.328.367.240"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-37.100.131.737.859.500"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28005"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "EMBAJADORES" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "2"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5f477339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13467> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Las Cortes" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 480" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "LAS CORTES" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.041.576.756.093.720"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.695.367.083.138.700"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28014"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "CORTES" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "DISTRITO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "0"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=42c77339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13449> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Luna - Tudescos" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 481" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "SANTA MARIA SOLEDAD TORRES ACOSTA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "404.214.535.549.175"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.705.563.118.253.950"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28004"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "UNIVERSIDAD" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "2"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=54467339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13469> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Marqués de Urquijo" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 482" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "MARQUES DE URQUIJO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.042.955.928.333.470"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.719.111.078.507.020"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28008"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "ARGUELLES" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "MONCLOA-ARAVACA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "27"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aa667339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13451> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Mostenses" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 362 " ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "GARCIA MOLINAS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "404.227.759.148.193"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.708.830.424.647.750"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28015"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "902 283 080"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "UNIVERSIDAD" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "4"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fe0881eb5f51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/88141> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Museo de la Ciudad" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 147" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "PRINCIPE DE VERGARA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.044.366.224.087.450"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.782.263.814.004.500"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28002"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "CIUDAD JARDIN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CHAMARTIN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "134"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bdc7bdc85c01c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13450> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Olavide" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 397" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "OLAVIDE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.043.277.769.820.200"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-37.011.542.013.121.200"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28010"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "914 468 570"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "TRAFALGAR" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CHAMBERI" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "17"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=453881eb5f51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13454> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Plaza de Colón" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 605" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "GOYA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.042.518.540.300.910"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.887.800.207.651.400"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28001"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "915 761 837"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "RECOLETOS" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "SALAMANCA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "2"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a5777339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13463> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Plaza de España" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 800 (hasta 535 abonados)" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "ESPA&amp;Ntilde;A" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.042.372.251.184.830"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-37.116.577.340.508.500"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28008"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "ARGUELLES" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "MONCLOA-ARAVACA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "20"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fb977339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13472> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Plaza del Carmen" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 450 Plaza para minusválidos residentes: 7" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "CARMEN" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.041.848.676.016.160"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.703.068.586.180.960"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28013"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "915 214 312"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "SOL" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "10"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8ec881eb5f51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13474> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Plaza del Rey" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 160 Plaza para minusválidos residentes: 16" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "REY" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.042.018.796.139.450"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-369.587.231.093.941"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28004"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "915 225 219"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "JUSTICIA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "1"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d4f881eb5f51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13456> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Santa Ana" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 325Plaza para minusválidos residentes: 6" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "SANTA ANA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "PLAZA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.041.487.830.605.110"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.700.897.645.451.050"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28012"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/telefono> "915 214 312"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "CORTES" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "16"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9b5881eb5f51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/10737574> <http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Usera" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 36" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "0"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "AMPARO USERA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.038.710.254.642.700"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-37.065.255.061.698.000"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28026"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "MOSCARDO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "USERA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "46"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ce8907e1fd534610VgnVCM1000001d4a900aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13468> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Velázquez - Juan Bravo" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas: 371" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "VELAZQUEZ" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "40.431.991.827.319.100"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-3.683.449.815.935.090"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28006"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "CASTELLANA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "SALAMANCA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "88"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e3077339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13453> <http://www.aparcamientospublicomadrid.com/recurso/nombre> "Aparcamiento público. Villa de París" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/plazas> "Plazas rotación: 169 Plazas motos: 2" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/accesibilidad> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/abierto24h> "1"^^xsd:boolean ;
+	<http://www.aparcamientospublicomadrid.com/recurso/calle> "MARQUES DE LA ENSENADA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/clasevia> "CALLE" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/latitud> "4.042.533.530.030.620"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/longitud> "-36.923.416.648.619.900"^^xsd:double ;
+	<http://www.aparcamientospublicomadrid.com/recurso/cp> "28004"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/localidad> "MADRID" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/barrio> "JUSTICIA" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/distrito> "CENTRO" ;
+	<http://www.aparcamientospublicomadrid.com/recurso/num> "1"^^xsd:int ;
+	<http://www.aparcamientospublicomadrid.com/recurso/url> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=38a881eb5f51c010VgnVCM2000000c205a0aRCRD" .
