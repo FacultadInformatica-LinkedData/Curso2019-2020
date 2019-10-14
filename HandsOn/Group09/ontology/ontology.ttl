@@ -37,7 +37,7 @@
  # http://www.spanishlibraries.es/group09/ontology#codigo_postal
 <http://dbpedia.org/ontology/postalCode> rdf:type owl:DatatypeProperty ;
      									 rdfs:domain :Biblioteca ;
-        								 rdfs:range xsd:integer .
+        								 rdfs:range xsd:string .
 
 # http://www.spanishlibraries.es/group09/ontology#direccion
 <http://dbpedia.org/ontology/address> rdf:type owl:DatatypeProperty ;
@@ -52,12 +52,12 @@
 # http://www.spanishlibraries.es/group09/ontology#horario
 :horario rdf:type owl:DatatypeProperty ;
          rdfs:domain :Biblioteca ;
-         rdfs:range xsd:integer .
+         rdfs:range xsd:string .
 
 # http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca
 :tipo_biblioteca rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Biblioteca ;
-                 rdfs:range xsd:integer .
+                 rdfs:range xsd:string .
 
 # http://www.spanishlibraries.es/group09/ontology/tipo_dependencia
 :tipo_dependencia rdf:type owl:DatatypeProperty ;
