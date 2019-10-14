@@ -1,0 +1,115 @@
+@prefix : <http://www.spanishlibraries.es/group09/ontology#> .
+@prefix owl : <http://www.w3.org/2002/07/owl#> .
+@prefix rdf : <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml : <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd : <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs : <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.spanishlibraries.es/group09/ontology> .
+
+<http://www.spanishlibraries.es/group09/ontology> rdf:type owl:Ontology .
+
+
+#######################################################################################
+##
+## Object Properties
+##
+#######################################################################################
+
+# http://www.spanishlibraries.es/group09/ontology#hasCity
+
+<http://www.spanishlibraries.es/group09/ontology#hasCity> rdf:type owl:ObjectProperty ;
+														  rdfs:domain :Biblioteca ;
+														  rdfs:range <http://dbpedia.org/ontology/city> .
+
+
+#######################################################################################
+##
+## Data properties
+##
+#######################################################################################
+
+
+## http://www.spanishlibraries.es/group09/ontology#codigo
+:codigo rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Biblioteca ;
+        rdfs:range xsd:integer .
+
+ # http://www.spanishlibraries.es/group09/ontology#codigo_postal
+<http://dbpedia.org/ontology/postalCode> rdf:type owl:DatatypeProperty ;
+     									 rdfs:domain :Biblioteca ;
+        								 rdfs:range xsd:integer .
+
+# http://www.spanishlibraries.es/group09/ontology#direccion
+<http://dbpedia.org/ontology/address> rdf:type owl:DatatypeProperty ;
+        							  rdfs:domain :Biblioteca ;
+        							  rdfs:range xsd:string .
+
+# http://www.spanishlibraries.es/group09/ontology#fecha_fundacion
+:fecha_fundacion rdf:type owl:DatatypeProperty ;
+        		 rdfs:domain :Biblioteca ;
+        		 rdfs:range xsd:integer .
+
+# http://www.spanishlibraries.es/group09/ontology#horario
+:horario rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Biblioteca ;
+         rdfs:range xsd:integer .
+
+# http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca
+:tipo_biblioteca rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Biblioteca ;
+                 rdfs:range xsd:integer .
+
+# http://www.spanishlibraries.es/group09/ontology/tipo_dependencia
+:tipo_dependencia rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Biblioteca ;
+                  rdfs:range xsd:string .
+
+# http://www.spanishlibraries.es/group09/ontology/tipo_acceso
+:tipo_acceso rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Biblioteca ;
+             rdfs:range xsd:string .
+
+# http://www.spanishlibraries.es/group09/ontology/notas_acceso
+:notas_acceso rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Biblioteca ;
+                  rdfs:range xsd:string .
+
+# http://www.spanishlibraries.es/group09/ontology#institucion
+<http://dbpedia.org/ontology/institution> rdf:type owl:DatatypeProperty ;
+        								   rdfs:domain :Biblioteca ;
+        								   rdfs:range xsd:string .
+
+# http://www.spanishlibraries.es/group09/ontology#nombre
+<http://dbpedia.org/ontology/name> rdf:type owl:DatatypeProperty ;
+        						   rdfs:domain :Biblioteca ;
+        						   rdfs:range xsd:string .
+
+
+#######################################################################################
+##
+## Classes
+##
+#######################################################################################
+
+
+# http://www.spanishlibraries.es/group09/ontology#Biblioteca
+:Biblioteca rdf:type owl:Class .    
+
+# http://www.spanishlibraries.es/group09/ontology#Comunidad_Autonoma
+:Comunidad_Autonoma rdf:type owl:Class ;
+                    rdfs:subClassOf <http://dbpedia.org/ontology/country> .
+
+# http://www.spanishlibraries.es/group09/ontology#Pais
+<http://dbpedia.org/ontology/country> rdf:type owl:Class ;
+									  rdfs:subClassOf <http://dbpedia.org/ontology/place> .
+
+# http://www.spanishlibraries.es/group09/ontology#Municipio
+<http://dbpedia.org/ontology/city> rdf:type owl:Class ;
+								   rdfs:subClassOf <http://dbpedia.org/ontology/province> .
+    
+# http://dbpedia.org/ontology/Place
+<http://dbpedia.org/ontology/place> rdf:type owl:Class .
+
+# http://www.spanishlibraries.es/group09/ontology#Provincia
+<http://dbpedia.org/ontology/province> rdf:type owl:Class ;
+									   rdfs:subClassOf :Comunidad_Autonoma .
