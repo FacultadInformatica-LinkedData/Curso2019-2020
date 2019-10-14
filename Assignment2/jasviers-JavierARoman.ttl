@@ -1,0 +1,15 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://www.ontogrid.net/StickyNote#> .
+
+:event3
+    :eventDate "2006-05-15"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    :involves :CaroleGoble, :PinarAlper .
+
+:event4
+    :eventDate "2006-05-16"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    :involves :OscarCorcho .
+
+:event5
+    :eventDate "2006-05-15"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    :involves :CaroleGoble .
+
