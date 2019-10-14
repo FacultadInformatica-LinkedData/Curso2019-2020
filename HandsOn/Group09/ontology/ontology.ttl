@@ -97,19 +97,19 @@
 
 # http://www.spanishlibraries.es/group09/ontology#Comunidad_Autonoma
 :Comunidad_Autonoma rdf:type owl:Class ;
-                    rdfs:subClassOf <http://dbpedia.org/ontology/country> .
+                    rdfs:subClassOf <http://dbpedia.org/ontology/Country> .
 
 # http://www.spanishlibraries.es/group09/ontology#Pais
-<http://dbpedia.org/ontology/country> rdf:type owl:Class ;
-									  rdfs:subClassOf <http://dbpedia.org/ontology/place> .
+<http://dbpedia.org/ontology/Country> rdf:type owl:Class ;
+									  rdfs:subClassOf <http://dbpedia.org/ontology/Place> .
 
 # http://www.spanishlibraries.es/group09/ontology#Municipio
-<http://dbpedia.org/ontology/city> rdf:type owl:Class ;
-								   rdfs:subClassOf <http://dbpedia.org/ontology/province> .
+<http://dbpedia.org/ontology/City> rdf:type owl:Class ;
+								   rdfs:subClassOf <http://dbpedia.org/ontology/Province> .
     
 # http://dbpedia.org/ontology/Place
-<http://dbpedia.org/ontology/place> rdf:type owl:Class .
+<http://dbpedia.org/ontology/Place> rdf:type owl:Class .
 
 # http://www.spanishlibraries.es/group09/ontology#Provincia
-<http://dbpedia.org/ontology/province> rdf:type owl:Class ;
+<http://dbpedia.org/ontology/Province> rdf:type owl:Class ;
 									   rdfs:subClassOf :Comunidad_Autonoma .
