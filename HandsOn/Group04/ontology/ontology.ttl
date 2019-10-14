@@ -52,11 +52,11 @@
 			
 :coordenadaX rdf:type owl:DatatypeProperty ;
 			rdfs:domain :Localizacion ;
-			rdfs:range xsd:boolean .
+			rdfs:range xsd:integer .
 			
 :coordenadaY rdf:type owl:DatatypeProperty ;
 			rdfs:domain :Localizacion ;
-			rdfs:range xsd:boolean .
+			rdfs:range xsd:integer .
 			
 :disponibilidadWifi rdf:type owl:DatatypeProperty ;
 			rdfs:domain :Disponibilidad ;
