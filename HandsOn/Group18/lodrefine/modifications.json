@@ -516,5 +516,359 @@
         "to": "Mamá no quiero ser normal"
       }
     ]
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group18.org/hands-on/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"event/\"+replaceChars(value,' ','')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.org/hands-on/ontology#Event",
+              "curie": "http://group18.org/hands-on/ontology#Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasId",
+              "curie": "http://group18.org/hands-on/ontology#hasId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasPrice",
+              "curie": "http://group18.org/hands-on/ontology#hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasDate",
+              "curie": "http://group18.org/hands-on/ontology#hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasDescription",
+              "curie": "http://group18.org/hands-on/ontology#hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasUrlEvent",
+              "curie": "http://group18.org/hands-on/ontology#hasUrlEvent",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URL-ACTIVIDAD",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasType",
+              "curie": "http://group18.org/hands-on/ontology#hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasTitle",
+              "curie": "http://group18.org/hands-on/ontology#hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasInstallation",
+              "curie": "http://group18.org/hands-on/ontology#hasInstallation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"installation/\"+replaceChars(value,' ','')",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION",
+                "rdfTypes": [
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#Installation",
+                    "curie": "http://group18.org/hands-on/ontology#Installation"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasUrlInstallation",
+                    "curie": "http://group18.org/hands-on/ontology#hasUrlInstallation",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "URL-INSTALACION",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasLongitude",
+                    "curie": "http://group18.org/hands-on/ontology#hasLongitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "LONGITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasLatitude",
+                    "curie": "http://group18.org/hands-on/ontology#hasLatitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "LATITUD"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasAudience",
+              "curie": "http://group18.org/hands-on/ontology#hasAudience",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AUDIENCIA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group18.org/hands-on/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"event/\"+replaceChars(value,' ','')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.org/hands-on/ontology#Event",
+              "curie": "http://group18.org/hands-on/ontology#Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasId",
+              "curie": "http://group18.org/hands-on/ontology#hasId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasPrice",
+              "curie": "http://group18.org/hands-on/ontology#hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasDate",
+              "curie": "http://group18.org/hands-on/ontology#hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasDescription",
+              "curie": "http://group18.org/hands-on/ontology#hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasUrlEvent",
+              "curie": "http://group18.org/hands-on/ontology#hasUrlEvent",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URL-ACTIVIDAD",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/url",
+                    "curie": "http://schema.org/url"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasType",
+              "curie": "http://group18.org/hands-on/ontology#hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasTitle",
+              "curie": "http://group18.org/hands-on/ontology#hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasInstallation",
+              "curie": "http://group18.org/hands-on/ontology#hasInstallation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"installation/\"+replaceChars(value,' ','')",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION",
+                "rdfTypes": [
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#Installation",
+                    "curie": "http://group18.org/hands-on/ontology#Installation"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasUrlInstallation",
+                    "curie": "http://group18.org/hands-on/ontology#hasUrlInstallation",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "URL-INSTALACION",
+                      "rdfTypes": [
+                        {
+                          "uri": "http://schema.org/url",
+                          "curie": "http://schema.org/url"
+                        }
+                      ],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasLongitude",
+                    "curie": "http://group18.org/hands-on/ontology#hasLongitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "LONGITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasLatitude",
+                    "curie": "http://group18.org/hands-on/ontology#hasLatitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "LATITUD"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasAudience",
+              "curie": "http://group18.org/hands-on/ontology#hasAudience",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AUDIENCIA"
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
