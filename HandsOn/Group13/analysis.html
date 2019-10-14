@@ -174,27 +174,48 @@
     </div>
 
     <div class="alert alert-success" role="alert">
-            <h4 class="alert-heading">Resource Naming Strategy</h4>
+            <h3 class="alert-heading">RESOURCE NAME STRATEGY</h3>
             <p>Hash URIs for ontological terms, slash URIs for individuals
                 <ul>
-                    <li> Domain: http://accidentesBiciMad.es/</li>
-                    <li> Ontological terms path: http://accidentesBiciMad.es/ontology/BiciAccidents#</li>
-                    <li> Individuals path: 
-                        http://accidentesBiciMad.es/accident <br>
-                        http://accidentesBiciMad.es/location <br>
-                        http://accidentesBiciMad.es/person <br>
-                        http://accidentesBiciMad.es/date 
+                    <li> Domain:   <h5> http://biciaccident.es/</h5></li>
+                  
+                    <li> Ontological terms path (Base):  <h5> http://biciaccident.es/ontology# </h5></li>
+                    <li> Individuals path:   Base de los Reources: Representan los individuos que se pueden representar en nuestra Ontology <br> 
+                   
+                   
+                   <h5>http://biciaccident.es/resource/</h5>  <!-- Base de los resources -->
+                   <h5>    http://biciaccident.es/resource/[type]/[id]  <!--patron para crear todos los individuos--></h5>
+                 
+                   <li> Ejemplos de Individuos representables: <br>
+                    http://biciaccident.es/resource/neighborhood/fuencarral<br> <!--Ejemplo de individuo distrito-->
+                    http://biciaccident.es/resource/street/juan-de-vera<br> <!--Ejemplo de individuo calle-->               
+                    http://biciaccident.es/resource/accident/766S7677
+                   </li>
+                   <br>
+
+                        
+                      
+                      
+                      
                     </li>
-                    <li> Ontological terms pattern: http://accidentesBiciMad.es/ontology/BiciAccidents#term</li>
-                    <li> Individuals pattern: 
-                        http://accidentesBiciMad.es/accidents/name <br>
-                        http://accidentesBiciMad.es/locations/name <br>
-                        http://accidentesBiciMad.es/people/name <br>
-                        http://accidentesBiciMad.es/dates/name 
+                    <li> Ontological terms pattern: 
+                     <h5> http://biciaccident.es/ontology#term </h5>  </li>
+                    <li> ontology terms : <br> <!-- Estos son los dataProperties-->
+                       <h6>
+                        http://biciaccident.es/ontology#expedient <br>
+                        http://biciaccident.es/ontology#injuryStatus <br>
+                        http://biciaccident.es/ontology#typeAccident <br>
+                        http://biciaccident.es/ontology#weatherCondition
+                    </h6>
                     </li>
                 </ul>
+
+              
             </p>
             <hr>
+
+            <img src="on_repre.png" alt="Girl in a jacket" width="800" height="500">
+
         </div>
 
 </body>

@@ -542,14 +542,90 @@
   {
     "op": "rdf-extension/save-rdf-schema",
     "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CALL. FUENCARRAL / GTA. BILBAO",
+          "GTA. BILBAO / CALL. FUENCARRAL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CALL. FUENCARRAL / GTA. BILBAO"
+      }
+    ],
+    "description": "Mass edit cells in column STREET"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ACCIDENT",
+    "description": "Remove column ACCIDENT"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
       "prefixes": [
         {
           "name": "rdf",
           "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
         },
         {
           "name": "xml",
@@ -564,163 +640,292 @@
           "uri": "http://www.w3.org/2000/01/rdf-schema#"
         }
       ],
-      "baseUri": "http://biciaccident.es/ontology#",
+      "baseUri": "http://biciaccident.es/",
       "rootNodes": [
         {
           "nodeType": "cell-as-resource",
-          "columnName": "ACCIDENT",
-          "expression": "value",
+          "columnName": "EXPEDIENT",
+          "expression": "\"accident/\" + value",
           "isRowNumberCell": false,
           "links": [
             {
-              "uri": "http://biciaccident.es/ontology#expediente",
-              "curie": "http://biciaccident.es/ontology#expediente",
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
               "target": {
-                "nodeType": "cell-as-resource",
+                "nodeType": "cell-as-literal",
                 "columnName": "EXPEDIENT",
                 "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": [
-                  {
-                    "uri": "http://www.w3.org/2001/XMLSchema#string",
-                    "curie": "xsd:string"
-                  }
-                ]
+                "isRowNumberCell": false
               }
-            },
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#string",
+              "curie": "rdf:string"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "STREET",
+          "expression": "\"street/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "STREET",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#string",
+              "curie": "rdf:string"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "NEIGHBORHOOD",
+          "expression": "\"neighborhood/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NEIGHBORHOOD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#string",
+              "curie": "rdf:string"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "grel:toTitlecase(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column STREET using expression grel:toTitlecase(value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "grel:replace(value, \"/\", \"Cruce con\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column STREET using expression grel:replace(value, \"/\", \"Cruce con\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "grel:replace(value, \"Cruce\", \"cruce\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column STREET using expression grel:replace(value, \"Cruce\", \"cruce\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "grel:replace(value, \" \", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column STREET using expression grel:replace(value, \" \", \"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "grel:replace(value, \"crucecon\", \"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column STREET using expression grel:replace(value, \"crucecon\", \"-\")"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "baseUri": "http://biciaccident.es/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "EXPEDIENT",
+          "expression": "\"resource/accident/\" + value",
+          "isRowNumberCell": false,
+          "links": [
             {
               "uri": "http://biciaccident.es/ontology#date",
               "curie": "http://biciaccident.es/ontology#date",
               "target": {
-                "nodeType": "cell-as-resource",
+                "nodeType": "cell-as-literal",
                 "columnName": "DATE",
                 "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": [
-                  {
-                    "uri": "http://www.w3.org/2001/XMLSchema#date",
-                    "curie": "xsd:date"
-                  }
-                ]
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
               }
             },
             {
-              "uri": "http://biciaccident.es/ontology#street",
-              "curie": "http://biciaccident.es/ontology#street",
+              "uri": "http://biciaccident.es/ontology#occursOn",
+              "curie": "http://biciaccident.es/ontology#occursOn",
               "target": {
                 "nodeType": "cell-as-resource",
                 "columnName": "STREET",
-                "expression": "value",
+                "expression": "\"resource/street/\" + value",
                 "isRowNumberCell": false,
                 "links": [],
-                "rdfTypes": [
-                  {
-                    "uri": "http://www.w3.org/2001/XMLSchema#string",
-                    "curie": "xsd:string"
-                  }
-                ]
-              }
-            },
-            {
-              "uri": "http://biciaccident.es/ontology#number",
-              "curie": "http://biciaccident.es/ontology#number",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "NUMBER",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": [
-                  {
-                    "uri": "http://www.w3.org/2001/XMLSchema#string",
-                    "curie": "xsd:string"
-                  }
-                ]
-              }
-            },
-            {
-              "uri": "http://biciaccident.es/ontology#neighborhood",
-              "curie": "http://biciaccident.es/ontology#neighborhood",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "NEIGHBORHOOD",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": [
-                  {
-                    "uri": "http://www.w3.org/2001/XMLSchema#string",
-                    "curie": "xsd:string"
-                  }
-                ]
-              }
-            },
-            {
-              "uri": "http://biciaccident.es/ontology#typeAccident",
-              "curie": "http://biciaccident.es/ontology#typeAccident",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "TYPE ACCIDENT",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": [
-                  {
-                    "uri": "http://www.w3.org/2001/XMLSchema#string",
-                    "curie": "xsd:string"
-                  }
-                ]
-              }
-            },
-            {
-              "uri": "http://biciaccident.es/ontology#weatherCondition",
-              "curie": "http://biciaccident.es/ontology#weatherCondition",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "WEATHER",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": [
-                  {
-                    "uri": "http://www.w3.org/2001/XMLSchema#string",
-                    "curie": "xsd:string"
-                  }
-                ]
+                "rdfTypes": []
               }
             },
             {
               "uri": "http://biciaccident.es/ontology#injuryStatus",
               "curie": "http://biciaccident.es/ontology#injuryStatus",
               "target": {
-                "nodeType": "cell-as-resource",
+                "nodeType": "cell-as-literal",
                 "columnName": "INJURY STATUS",
                 "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": [
-                  {
-                    "uri": "http://www.w3.org/2001/XMLSchema#string",
-                    "curie": "xsd:string"
-                  }
-                ]
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://biciaccident.es/ontology#weatherCondition",
+              "curie": "http://biciaccident.es/ontology#weatherCondition",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "WEATHER",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://biciaccident.es/ontology#typeAccident",
+              "curie": "http://biciaccident.es/ontology#typeAccident",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TYPE ACCIDENT",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://biciaccident.es/ontology#expedient",
+              "curie": "http://biciaccident.es/ontology#expedient",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "EXPEDIENT",
+                "expression": "value",
+                "isRowNumberCell": false
               }
             }
           ],
-          "rdfTypes": [
-            {
-              "uri": "http://biciaccident.es/ontology#Accident",
-              "curie": "http://biciaccident.es/ontology#Accident"
-            }
-          ]
+          "rdfTypes": []
         },
         {
           "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "links": [],
+          "columnName": "STREET",
+          "expression": "\"resource/street/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://biciaccident.es/ontology#locatedIn",
+              "curie": "http://biciaccident.es/ontology#locatedIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "NEIGHBORHOOD",
+                "expression": "\"resource/neighborhood/\" + value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://biciaccident.es/ontology#number",
+              "curie": "http://biciaccident.es/ontology#number",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NUMBER",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "NEIGHBORHOOD",
+          "expression": "\"resource/neighborhood/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://biciaccident.es/ontology#name",
+              "curie": "http://biciaccident.es/ontology#name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NEIGHBORHOOD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
           "rdfTypes": []
         }
       ]
