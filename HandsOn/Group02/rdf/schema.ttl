@@ -1,0 +1,1726 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sch: <https://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.biciMAD.com/BikeStation/0> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "001a";
+  sch:addressRegion " SOL";
+  sch:latitude "40.417.016";
+  sch:longitude "-37.025.753";
+  sch:postalAddress "1 B";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "PUERTA DEL SOL, PLAZA, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/1> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "001b";
+  sch:addressRegion " SOL";
+  sch:latitude "404.170.785";
+  sch:longitude "-37.024.621";
+  sch:postalAddress "1";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "ALCALA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/2> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "2";
+  sch:addressRegion " UNIVERSIDAD";
+  sch:latitude "4.042.058";
+  sch:longitude "-37.056.739";
+  sch:postalAddress "1";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "MIGUEL MOYA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/3> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "18"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "3";
+  sch:addressRegion " ARAPILES";
+  sch:latitude "404.303.224";
+  sch:longitude "-37.072.122";
+  sch:postalAddress "2";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "CONDE DEL VALLE DE SUCHIL, PLAZA, DEL" .
+
+<http://www.biciMAD.com/BikeStation/4> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "4";
+  sch:addressRegion " UNIVERSIDAD";
+  sch:latitude "404.285.905";
+  sch:longitude "-37.026.739";
+  sch:postalAddress "3";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "MANUELA MALASA�A, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/5> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "5";
+  sch:addressRegion " JUSTICIA";
+  sch:latitude "404.283.628";
+  sch:longitude "-37.020.762";
+  sch:postalAddress "106";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "FUENCARRAL, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/6> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "6";
+  sch:addressRegion " JUSTICIA";
+  sch:latitude "404.241.633";
+  sch:longitude "-36.984.093";
+  sch:postalAddress "63";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "HORTALEZA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/7> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "21"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "7";
+  sch:addressRegion " JUSTICIA";
+  sch:latitude "404.252.161";
+  sch:longitude "-36.977.399";
+  sch:postalAddress "75";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "HORTALEZA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/8> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "8";
+  sch:addressRegion " ALMAGRO";
+  sch:latitude "404.277.143";
+  sch:longitude "-36.953.067";
+  sch:postalAddress "6";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "ALONSO MARTINEZ, PLAZA, DE" .
+
+<http://www.biciMAD.com/BikeStation/9> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "9";
+  sch:addressRegion " PALACIO";
+  sch:latitude "404.156.134";
+  sch:longitude "-37.094.093";
+  sch:postalAddress "9";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "SAN MIGUEL, PLAZA, DE" .
+
+<http://www.biciMAD.com/BikeStation/10> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "10";
+  sch:addressRegion " JUSTICIA";
+  sch:latitude "404.254.027";
+  sch:longitude "-36.920.816";
+  sch:postalAddress "16";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "MARQUES DE LA ENSENADA, CALLE, DEL" .
+
+<http://www.biciMAD.com/BikeStation/11> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "11";
+  sch:addressRegion " UNIVERSIDAD";
+  sch:latitude "404.270.517";
+  sch:longitude "-37.036.192";
+  sch:postalAddress "20";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "SAN ANDRES, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/12> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "12";
+  sch:addressRegion " UNIVERSIDAD";
+  sch:latitude "404.285.271";
+  sch:longitude "-37.062.202";
+  sch:postalAddress "87";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "SAN BERNARDO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/13> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "13";
+  sch:addressRegion " UNIVERSIDAD";
+  sch:latitude "404.273.652";
+  sch:longitude "-37.104.727";
+  sch:postalAddress "22";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "CONDE DUQUE, CALLE, DEL" .
+
+<http://www.biciMAD.com/BikeStation/14> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "14";
+  sch:addressRegion " ARG�ELLES";
+  sch:latitude "404.260.035";
+  sch:longitude "-37.134.644";
+  sch:postalAddress "2";
+  sch:serviceArea " MONCLOA-ARAVACA";
+  sch:streetAddress "VENTURA RODRIGUEZ, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/15> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "21"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "15";
+  sch:addressRegion " UNIVERSIDAD";
+  sch:latitude "404.261.226";
+  sch:longitude "-3.707.242";
+  sch:postalAddress "62";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "SAN VICENTE FERRER, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/16> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "21"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "16";
+  sch:addressRegion " UNIVERSIDAD";
+  sch:latitude "404.229.357";
+  sch:longitude "-37.074.931";
+  sch:postalAddress "22";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "SAN BERNARDO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/17> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "17";
+  sch:addressRegion " UNIVERSIDAD";
+  sch:latitude "404.231.675";
+  sch:longitude "-37.041.859";
+  sch:postalAddress "2";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "CARLOS CAMBRONERO, PLAZA, DE" .
+
+<http://www.biciMAD.com/BikeStation/18> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "18";
+  sch:addressRegion " JUSTICIA";
+  sch:latitude "404.209.206";
+  sch:longitude "-36.995.679";
+  sch:postalAddress "1";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "PEDRO ZEROLO, PLAZA, DE" .
+
+<http://www.biciMAD.com/BikeStation/19> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "19";
+  sch:addressRegion " JUSTICIA";
+  sch:latitude "404.219.023";
+  sch:longitude "-36.953.948";
+  sch:postalAddress "4";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "PRIM, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/20> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "20";
+  sch:addressRegion " JUSTICIA";
+  sch:latitude "404.191.989";
+  sch:longitude "-36.952.095";
+  sch:postalAddress "49";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "ALCALA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/21> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "6"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "020 ampliacion";
+  sch:addressRegion " JUSTICIA";
+  sch:latitude "404.191.858";
+  sch:longitude "-36.952.901";
+  sch:postalAddress "49";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "ALCALA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/22> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "021a";
+  sch:addressRegion " SOL";
+  sch:latitude "404.197.804";
+  sch:longitude "-37.015.608";
+  sch:postalAddress "S/N";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "RED DE SAN LUIS, PLAZA, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/23> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "021b";
+  sch:addressRegion " SOL";
+  sch:latitude "404.198.857";
+  sch:longitude "-37.014.962";
+  sch:postalAddress "S/N";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "RED DE SAN LUIS, PLAZA, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/24> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "22";
+  sch:addressRegion " SOL";
+  sch:latitude "404.201.452";
+  sch:longitude "-37.064.995";
+  sch:postalAddress "1";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "JACOMETREZO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/25> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "23";
+  sch:addressRegion " PALACIO";
+  sch:latitude "404.202.137";
+  sch:longitude "-37.082.901";
+  sch:postalAddress "S/N";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "SANTO DOMINGO, CUESTA, DE" .
+
+<http://www.biciMAD.com/BikeStation/26> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "24";
+  sch:addressRegion " PALACIO";
+  sch:latitude "40.417.906";
+  sch:longitude "-37.105.866";
+  sch:postalAddress "1";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "CARLOS III, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/27> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "025a";
+  sch:addressRegion " SOL";
+  sch:latitude "404.173.416";
+  sch:longitude "-37.059.978";
+  sch:postalAddress "1";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "CELENQUE, PLAZA, DEL" .
+
+<http://www.biciMAD.com/BikeStation/28> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "025b";
+  sch:addressRegion " SOL";
+  sch:latitude "404.172.593";
+  sch:longitude "-37.060.243";
+  sch:postalAddress "1";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "CELENQUE, PLAZA, DEL" .
+
+<http://www.biciMAD.com/BikeStation/29> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "26";
+  sch:addressRegion " JUSTICIA";
+  sch:latitude "404.238.321";
+  sch:longitude "-36.945.535";
+  sch:postalAddress "8";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "SALESAS, PLAZA, DE LAS" .
+
+<http://www.biciMAD.com/BikeStation/30> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "27";
+  sch:addressRegion " CORTES";
+  sch:latitude "404.132.828";
+  sch:longitude "-36.955.929";
+  sch:postalAddress "1";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "JESUS, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/31> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "28";
+  sch:addressRegion " CORTES";
+  sch:latitude "404.181.752";
+  sch:longitude "-36.988.356";
+  sch:postalAddress "25";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "ALCALA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/32> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "29"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "29";
+  sch:addressRegion " CORTES";
+  sch:latitude "40.416.244";
+  sch:longitude "-36.958.008";
+  sch:postalAddress "25";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "MARQUES DE CUBAS, CALLE, DEL" .
+
+<http://www.biciMAD.com/BikeStation/33> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "30";
+  sch:addressRegion " PALACIO";
+  sch:latitude "404.193.355";
+  sch:longitude "-37.115.428";
+  sch:postalAddress "6";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "PAVIA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/34> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "31";
+  sch:addressRegion " SOL";
+  sch:latitude "404.163.446";
+  sch:longitude "-3.706.625";
+  sch:postalAddress "18";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "MAYOR, CALLE" .
+
+<http://www.biciMAD.com/BikeStation/35> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "32";
+  sch:addressRegion " SOL";
+  sch:latitude "404.148.511";
+  sch:longitude "-37.061.355";
+  sch:postalAddress "1";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "PROVINCIA, PLAZA, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/36> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "33";
+  sch:addressRegion " SOL";
+  sch:latitude "40.415.496";
+  sch:longitude "-37.032.626";
+  sch:postalAddress "23";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "CARRETAS, CALLE, DE LAS" .
+
+<http://www.biciMAD.com/BikeStation/37> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "34";
+  sch:addressRegion " CORTES";
+  sch:latitude "404.144.117";
+  sch:longitude "-37.035.044";
+  sch:postalAddress "S/N";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "JACINTO BENAVENTE, PLAZA, DE" .
+
+<http://www.biciMAD.com/BikeStation/38> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "35";
+  sch:addressRegion " PALACIO";
+  sch:latitude "404.141.792";
+  sch:longitude "-37.103.676";
+  sch:postalAddress "4";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "CORDON, CALLE, DEL" .
+
+<http://www.biciMAD.com/BikeStation/39> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "36";
+  sch:addressRegion " PALACIO";
+  sch:latitude "40.416.885";
+  sch:longitude "-37.116.215";
+  sch:postalAddress "1";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "RAMALES, PLAZA, DE" .
+
+<http://www.biciMAD.com/BikeStation/40> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "37";
+  sch:addressRegion " PALACIO";
+  sch:latitude "404.108.606";
+  sch:longitude "-37.141.234";
+  sch:postalAddress "S/N";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "VISTILLAS, TRAVESIA, DE LAS" .
+
+<http://www.biciMAD.com/BikeStation/41> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "38";
+  sch:addressRegion " PALACIO";
+  sch:latitude "404.112.961";
+  sch:longitude "-37.114.443";
+  sch:postalAddress "1";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "SAN FRANCISCO, CARRERA, DE" .
+
+<http://www.biciMAD.com/BikeStation/42> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "39";
+  sch:addressRegion " PALACIO";
+  sch:latitude "404.112.662";
+  sch:longitude "-37.090.043";
+  sch:postalAddress "16";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "CEBADA, PLAZA, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/43> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "40";
+  sch:addressRegion " EMBAJADORES";
+  sch:latitude "404.137.865";
+  sch:longitude "-37.047.463";
+  sch:postalAddress "2";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "CONDE DE ROMANONES, CALLE, DEL" .
+
+<http://www.biciMAD.com/BikeStation/44> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "21"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "41";
+  sch:addressRegion " EMBAJADORES";
+  sch:latitude "404.122.423";
+  sch:longitude "-36.990.517";
+  sch:postalAddress "54";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "ATOCHA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/45> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "42";
+  sch:addressRegion " EMBAJADORES";
+  sch:latitude "40.410.744";
+  sch:longitude "-36.982.068";
+  sch:postalAddress "32";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "SANTA ISABEL, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/46> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "43";
+  sch:addressRegion " EMBAJADORES";
+  sch:latitude "404.100.889";
+  sch:longitude "-37.025.446";
+  sch:postalAddress "36";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "LAVAPIES, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/47> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "21"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "44";
+  sch:addressRegion " EMBAJADORES";
+  sch:latitude "404.098.162";
+  sch:longitude "-37.039.138";
+  sch:postalAddress "35";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "MESON DE PAREDES, CALLE, DEL" .
+
+<http://www.biciMAD.com/BikeStation/48> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "21"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "45";
+  sch:addressRegion " EMBAJADORES";
+  sch:latitude "404.069.547";
+  sch:longitude "-37.111.363";
+  sch:postalAddress "1";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "PUERTA DE TOLEDO, GLORIETA, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/49> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "46";
+  sch:addressRegion " ACACIAS";
+  sch:latitude "404.055.087";
+  sch:longitude "-37.071.322";
+  sch:postalAddress "28";
+  sch:serviceArea " ARGANZUELA";
+  sch:streetAddress "RIBERA DE CURTIDORES, CALLE, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/50> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "47";
+  sch:addressRegion " ACACIAS";
+  sch:latitude "404.046.233";
+  sch:longitude "-3.702.755";
+  sch:postalAddress "7 B";
+  sch:serviceArea " ARGANZUELA";
+  sch:streetAddress "EMBAJADORES, GLORIETA, DE" .
+
+<http://www.biciMAD.com/BikeStation/51> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "48";
+  sch:addressRegion " EMBAJADORES";
+  sch:latitude "404.054.473";
+  sch:longitude "-37.020.997";
+  sch:postalAddress "25";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "MIGUEL SERVET, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/52> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "49";
+  sch:addressRegion " EMBAJADORES";
+  sch:latitude "404.060.497";
+  sch:longitude "-36.992.427";
+  sch:postalAddress "36";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "ATOCHA, RONDA, DE" .
+
+<http://www.biciMAD.com/BikeStation/53> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "50";
+  sch:addressRegion " EMBAJADORES";
+  sch:latitude "404.083.102";
+  sch:longitude "-369.322";
+  sch:postalAddress "57";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "SANTA ISABEL, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/54> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "51";
+  sch:addressRegion " EMBAJADORES";
+  sch:latitude "404.077.234";
+  sch:longitude "-36.935.934";
+  sch:postalAddress "7";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "EMPERADOR CARLOS V, PLAZA, DEL" .
+
+<http://www.biciMAD.com/BikeStation/55> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "52";
+  sch:addressRegion " CORTES";
+  sch:latitude "404.145.181";
+  sch:longitude "-37.007.838";
+  sch:postalAddress "9";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "SANTA ANA, PLAZA, DE" .
+
+<http://www.biciMAD.com/BikeStation/56> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "53";
+  sch:addressRegion " EMBAJADORES";
+  sch:latitude "404.082.802";
+  sch:longitude "-37.007.295";
+  sch:postalAddress "4";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "VALENCIA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/57> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "21"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "54";
+  sch:addressRegion " JUSTICIA";
+  sch:latitude "404.266.233";
+  sch:longitude "-37.003.435";
+  sch:postalAddress "7";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "BARCELO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/58> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "55";
+  sch:addressRegion " UNIVERSIDAD";
+  sch:latitude "404.240.716";
+  sch:longitude "-37.019.295";
+  sch:postalAddress "8";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "SAN ILDEFONSO, PLAZA, DE" .
+
+<http://www.biciMAD.com/BikeStation/59> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "56";
+  sch:addressRegion " SOL";
+  sch:latitude "40.418.484";
+  sch:longitude "-37.032.875";
+  sch:postalAddress "1";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "CARMEN, PLAZA, DEL" .
+
+<http://www.biciMAD.com/BikeStation/60> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "57";
+  sch:addressRegion " UNIVERSIDAD";
+  sch:latitude "404.296.363";
+  sch:longitude "-37.128.181";
+  sch:postalAddress "24";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "SANTA CRUZ DE MARCENADO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/61> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "58";
+  sch:addressRegion " JUSTICIA";
+  sch:latitude "404.222.585";
+  sch:longitude "-36.979.411";
+  sch:postalAddress "33";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "AUGUSTO FIGUEROA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/62> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "21"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "59";
+  sch:addressRegion " UNIVERSIDAD";
+  sch:latitude "404.254.802";
+  sch:longitude "-37.041.167";
+  sch:postalAddress "30";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "ESPIRITU SANTO, CALLE, DEL" .
+
+<http://www.biciMAD.com/BikeStation/63> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "60";
+  sch:addressRegion " JER�NIMOS";
+  sch:latitude "404.194.508";
+  sch:longitude "-36.881.994";
+  sch:postalAddress "S/N";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "ALFONSO XII, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/64> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "61";
+  sch:addressRegion " IBIZA";
+  sch:latitude "404.214.379";
+  sch:longitude "-3.675.206";
+  sch:postalAddress "30";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "O'DONNELL, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/65> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "62";
+  sch:addressRegion " IBIZA";
+  sch:latitude "404.212.152";
+  sch:longitude "-36.706.664";
+  sch:postalAddress "S/N";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "O'DONNELL, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/66> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "63";
+  sch:addressRegion " IBIZA";
+  sch:latitude "404.178.874";
+  sch:longitude "-36.706.803";
+  sch:postalAddress "64";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "IBIZA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/67> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "65";
+  sch:addressRegion " JER�NIMOS";
+  sch:latitude "404.166.952";
+  sch:longitude "-36.893.825";
+  sch:postalAddress "15";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "ANTONIO MAURA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/68> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "67"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "67";
+  sch:addressRegion " CORTES";
+  sch:latitude "40.410.829";
+  sch:longitude "-36.931.349";
+  sch:postalAddress "28";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "ALMADEN, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/69> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "21"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "68";
+  sch:addressRegion " JER�NIMOS";
+  sch:latitude "40.412.781";
+  sch:longitude "-36.911.649";
+  sch:postalAddress "1";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "ESPALTER, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/70> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "69";
+  sch:addressRegion " JER�NIMOS";
+  sch:latitude "404.100.609";
+  sch:longitude "-36.888.669";
+  sch:postalAddress "54";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "ALFONSO XII, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/71> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "70";
+  sch:addressRegion " JER�NIMOS";
+  sch:latitude "404.151.635";
+  sch:longitude "-36.777.776";
+  sch:postalAddress "S/N";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "MENENDEZ PELAYO, AVENIDA, DE" .
+
+<http://www.biciMAD.com/BikeStation/72> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "71";
+  sch:addressRegion " NI�O JES�S";
+  sch:latitude "404.160.054";
+  sch:longitude "-3.674.021";
+  sch:postalAddress "28";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "DOCE DE OCTUBRE, CALLE, DEL" .
+
+<http://www.biciMAD.com/BikeStation/73> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "72";
+  sch:addressRegion " ESTRELLA";
+  sch:latitude "404.159.135";
+  sch:longitude "-36.692.614";
+  sch:postalAddress "99";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "DOCTOR ESQUERDO, CALLE, DEL" .
+
+<http://www.biciMAD.com/BikeStation/74> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "73";
+  sch:addressRegion " ESTRELLA";
+  sch:latitude "40.411.463";
+  sch:longitude "-3.669.099";
+  sch:postalAddress "S/N";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "ASTROS, PLAZA, DE LOS" .
+
+<http://www.biciMAD.com/BikeStation/75> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "74";
+  sch:addressRegion " JER�NIMOS";
+  sch:latitude "404.117.601";
+  sch:longitude "-36.765.768";
+  sch:postalAddress "S/N";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "MENENDEZ PELAYO, AVENIDA, DE" .
+
+<http://www.biciMAD.com/BikeStation/76> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "75";
+  sch:addressRegion " JER�NIMOS";
+  sch:latitude "404.083.387";
+  sch:longitude "-36.784.149";
+  sch:postalAddress "S/N";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "MENENDEZ PELAYO, AVENIDA, DE" .
+
+<http://www.biciMAD.com/BikeStation/77> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "76";
+  sch:addressRegion " NI�O JES�S";
+  sch:latitude "404.072.851";
+  sch:longitude "-36.751.544";
+  sch:postalAddress "48";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "JUAN DE URBIETA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/78> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "77";
+  sch:addressRegion " PAC�FICO";
+  sch:latitude "404.063.347";
+  sch:longitude "-36.707.742";
+  sch:postalAddress "8";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "CONDE DE CASAL, PLAZA, DEL" .
+
+<http://www.biciMAD.com/BikeStation/79> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "78";
+  sch:addressRegion " ADELFAS";
+  sch:latitude "404.005.704";
+  sch:longitude "-36.745.783";
+  sch:postalAddress "2";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "CERRO DE LA PLATA, CALLE, DEL" .
+
+<http://www.biciMAD.com/BikeStation/80> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "79";
+  sch:addressRegion " PAC�FICO";
+  sch:latitude "404.050.482";
+  sch:longitude "-36.805.524";
+  sch:postalAddress "38";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "MENENDEZ PELAYO, AVENIDA, DE" .
+
+<http://www.biciMAD.com/BikeStation/81> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "080a";
+  sch:addressRegion " JER�NIMOS";
+  sch:latitude "404.074.558";
+  sch:longitude "-36.904.197";
+  sch:postalAddress "S/N";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "CIUDAD DE BARCELONA, AVENIDA, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/82> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "080b";
+  sch:addressRegion " JER�NIMOS";
+  sch:latitude "404.076.554";
+  sch:longitude "-36.906.904";
+  sch:postalAddress "S/N";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "CIUDAD DE BARCELONA, AVENIDA, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/83> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "81";
+  sch:addressRegion " JER�NIMOS";
+  sch:latitude "404.095.758";
+  sch:longitude "-36.919.663";
+  sch:postalAddress "S/N";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "PRADO, PASEO, DEL" .
+
+<http://www.biciMAD.com/BikeStation/84> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "82";
+  sch:addressRegion " ESTRELLA";
+  sch:latitude "404.084.793";
+  sch:longitude "-3.669.683";
+  sch:postalAddress "2";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "LIRA, CALLE, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/85> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "83";
+  sch:addressRegion " NI�O JES�S";
+  sch:latitude "404.132.589";
+  sch:longitude "-36.745.339";
+  sch:postalAddress "8 B";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "PIO BAROJA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/86> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "84";
+  sch:addressRegion " ADELFAS";
+  sch:latitude "404.033.695";
+  sch:longitude "-36.726.923";
+  sch:postalAddress "191";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "DOCTOR ESQUERDO, CALLE, DEL" .
+
+<http://www.biciMAD.com/BikeStation/87> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "85";
+  sch:addressRegion " JER�NIMOS";
+  sch:latitude "404.211.415";
+  sch:longitude "-36.799.299";
+  sch:postalAddress "S/N";
+  sch:serviceArea " RETIRO";
+  sch:streetAddress "MENENDEZ PELAYO, AVENIDA, DE" .
+
+<http://www.biciMAD.com/BikeStation/88> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "21"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "86";
+  sch:addressRegion " CORTES";
+  sch:latitude "404.185.779";
+  sch:longitude "-36.933.298";
+  sch:postalAddress "S/N";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "PRADO, PASEO, DEL" .
+
+<http://www.biciMAD.com/BikeStation/89> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "87";
+  sch:addressRegion " RECOLETOS";
+  sch:latitude "404.276.717";
+  sch:longitude "-36.835.631";
+  sch:postalAddress "44";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "AYALA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/90> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "88";
+  sch:addressRegion " CASTELLANA";
+  sch:latitude "404.312.077";
+  sch:longitude "-36.837.471";
+  sch:postalAddress "73";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "VELAZQUEZ, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/91> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "89";
+  sch:addressRegion " GOYA";
+  sch:latitude "404.272.628";
+  sch:longitude "-36.751.716";
+  sch:postalAddress "102";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "AYALA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/92> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "90";
+  sch:addressRegion " RECOLETOS";
+  sch:latitude "404.250.878";
+  sch:longitude "-36.837.297";
+  sch:postalAddress "18";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "GOYA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/93> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "91";
+  sch:addressRegion " GOYA";
+  sch:latitude "404.261.113";
+  sch:longitude "-36.788.203";
+  sch:postalAddress "73";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "HERMOSILLA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/94> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "92";
+  sch:addressRegion " RECOLETOS";
+  sch:latitude "404.262.237";
+  sch:longitude "-36.864.821";
+  sch:postalAddress "45";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "CLAUDIO COELLO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/95> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "93";
+  sch:addressRegion " RECOLETOS";
+  sch:latitude "404.256.984";
+  sch:longitude "-36.894.124";
+  sch:postalAddress "3";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "GOYA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/96> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "94";
+  sch:addressRegion " RECOLETOS";
+  sch:latitude "404.233.686";
+  sch:longitude "-36.907.044";
+  sch:postalAddress "S/N";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "RECOLETOS, PASEO, DE" .
+
+<http://www.biciMAD.com/BikeStation/97> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "95";
+  sch:addressRegion " RECOLETOS";
+  sch:latitude "404.226.634";
+  sch:longitude "-36.869.914";
+  sch:postalAddress "19";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "CLAUDIO COELLO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/98> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "96";
+  sch:addressRegion " RECOLETOS";
+  sch:latitude "404.220.516";
+  sch:longitude "-36.820.471";
+  sch:postalAddress "111";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "ALCALA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/99> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "97";
+  sch:addressRegion " GOYA";
+  sch:latitude "404.224.846";
+  sch:longitude "-36.801.515";
+  sch:postalAddress "1";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "MENENDEZ PELAYO, AVENIDA, DE" .
+
+<http://www.biciMAD.com/BikeStation/100> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "98";
+  sch:addressRegion " GOYA";
+  sch:latitude "404.241.911";
+  sch:longitude "-36.754.079";
+  sch:postalAddress "5";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "FELIPE II, AVENIDA, DE" .
+
+<http://www.biciMAD.com/BikeStation/101> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "99";
+  sch:addressRegion " GOYA";
+  sch:latitude "404.261.048";
+  sch:longitude "-36.739.638";
+  sch:postalAddress "2";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "ALCANTARA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/102> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "100";
+  sch:addressRegion " GOYA";
+  sch:latitude "404.247.843";
+  sch:longitude "-36.738.777";
+  sch:postalAddress "99";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "GOYA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/103> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "101";
+  sch:addressRegion " GOYA";
+  sch:latitude "404.231.223";
+  sch:longitude "-36.694.246";
+  sch:postalAddress "131";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "JORGE JUAN, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/104> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "102";
+  sch:addressRegion " RECOLETOS";
+  sch:latitude "404.211.552";
+  sch:longitude "-36.840.806";
+  sch:postalAddress "95";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "ALCALA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/105> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "103";
+  sch:addressRegion " CASTELLANA";
+  sch:latitude "404.303.733";
+  sch:longitude "-36.865.351";
+  sch:postalAddress "4";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "JOSE ORTEGA Y GASSET, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/106> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "21"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "104";
+  sch:addressRegion " RECOLETOS";
+  sch:latitude "404.267.658";
+  sch:longitude "-36.895.792";
+  sch:postalAddress "4";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "CASTELLANA, PASEO, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/107> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "105";
+  sch:addressRegion " RECOLETOS";
+  sch:latitude "404.270.684";
+  sch:longitude "-36.874.745";
+  sch:postalAddress "46";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "SERRANO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/108> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "36"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "106";
+  sch:addressRegion " RECOLETOS";
+  sch:latitude "404.249.335";
+  sch:longitude "-3.687.876";
+  sch:postalAddress "32";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "SERRANO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/109> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "107";
+  sch:addressRegion " RECOLETOS";
+  sch:latitude "404.215.952";
+  sch:longitude "-36.884.243";
+  sch:postalAddress "8";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "SERRANO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/110> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "108";
+  sch:addressRegion " GOYA";
+  sch:latitude "404.274.425";
+  sch:longitude "-3.670.653";
+  sch:postalAddress "2";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "MARTIRES CONCEPCIONISTAS, CALLE, DE LOS" .
+
+<http://www.biciMAD.com/BikeStation/111> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "109";
+  sch:addressRegion " CASTELLANA";
+  sch:latitude "404.301.281";
+  sch:longitude "-36.815.253";
+  sch:postalAddress "32";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "JOSE ORTEGA Y GASSET, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/112> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "110";
+  sch:addressRegion " CASA DE CAMPO";
+  sch:latitude "404.347.654";
+  sch:longitude "-37.201.316";
+  sch:postalAddress "S/N";
+  sch:serviceArea " MONCLOA-ARAVACA";
+  sch:streetAddress "MORET, PASEO, DE" .
+
+<http://www.biciMAD.com/BikeStation/113> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "111a";
+  sch:addressRegion " GAZTAMBIDE";
+  sch:latitude "404.335.742";
+  sch:longitude "-37.174.896";
+  sch:postalAddress "8";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "ARCIPRESTE DE HITA, CALLE, DEL" .
+
+<http://www.biciMAD.com/BikeStation/114> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "111b";
+  sch:addressRegion " GAZTAMBIDE";
+  sch:latitude "40.433.982";
+  sch:longitude "-37.177.783";
+  sch:postalAddress "10";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "ARCIPRESTE DE HITA, CALLE, DEL" .
+
+<http://www.biciMAD.com/BikeStation/115> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "112";
+  sch:addressRegion " ARG�ELLES";
+  sch:latitude "404.326.267";
+  sch:longitude "-37.248.727";
+  sch:postalAddress "11";
+  sch:serviceArea " MONCLOA-ARAVACA";
+  sch:streetAddress "MORET, PASEO, DE" .
+
+<http://www.biciMAD.com/BikeStation/116> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "113";
+  sch:addressRegion " CASA DE CAMPO";
+  sch:latitude "404.277.472";
+  sch:longitude "-37.207.145";
+  sch:postalAddress "S/N";
+  sch:serviceArea " MONCLOA-ARAVACA";
+  sch:streetAddress "PINTOR ROSALES, PASEO, DEL" .
+
+<http://www.biciMAD.com/BikeStation/117> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "114";
+  sch:addressRegion " ARG�ELLES";
+  sch:latitude "404.278.199";
+  sch:longitude "-37.174.108";
+  sch:postalAddress "13";
+  sch:serviceArea " MONCLOA-ARAVACA";
+  sch:streetAddress "QUINTANA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/118> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "115";
+  sch:addressRegion " ARG�ELLES";
+  sch:latitude "404.253.802";
+  sch:longitude "-37.169.626";
+  sch:postalAddress "S/N";
+  sch:serviceArea " MONCLOA-ARAVACA";
+  sch:streetAddress "MARQUES DE CERRALBO, PLAZA, DEL" .
+
+<http://www.biciMAD.com/BikeStation/119> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "116a";
+  sch:addressRegion " ARG�ELLES";
+  sch:latitude "404.241.079";
+  sch:longitude "-37.118.199";
+  sch:postalAddress "S/N";
+  sch:serviceArea " MONCLOA-ARAVACA";
+  sch:streetAddress "ESPA�A, PLAZA, DE" .
+
+<http://www.biciMAD.com/BikeStation/120> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "116b";
+  sch:addressRegion " ARG�ELLES";
+  sch:latitude "404.241.996";
+  sch:longitude "-37.118.905";
+  sch:postalAddress "S/N";
+  sch:serviceArea " MONCLOA-ARAVACA";
+  sch:streetAddress "ESPA�A, PLAZA, DE" .
+
+<http://www.biciMAD.com/BikeStation/121> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "117";
+  sch:addressRegion " ARG�ELLES";
+  sch:latitude "404.309.046";
+  sch:longitude "-37.189.152";
+  sch:postalAddress "24";
+  sch:serviceArea " MONCLOA-ARAVACA";
+  sch:streetAddress "ALTAMIRANO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/122> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "118";
+  sch:addressRegion " PALOS DE MOGUER";
+  sch:latitude "404.007.979";
+  sch:longitude "-36.881.393";
+  sch:postalAddress "16";
+  sch:serviceArea " ARGANZUELA";
+  sch:streetAddress "JUAN MARTIN EL EMPECINADO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/123> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "119";
+  sch:addressRegion " ATOCHA";
+  sch:latitude "404.014.567";
+  sch:longitude "-36.865.777";
+  sch:postalAddress "7";
+  sch:serviceArea " ARGANZUELA";
+  sch:streetAddress "MENDEZ ALVARO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/124> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "120";
+  sch:addressRegion " PALOS DE MOGUER";
+  sch:latitude "404.030.247";
+  sch:longitude "-36.946.097";
+  sch:postalAddress "27";
+  sch:serviceArea " ARGANZUELA";
+  sch:streetAddress "PALOS DE LA FRONTERA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/125> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "121";
+  sch:addressRegion " PALOS DE MOGUER";
+  sch:latitude "404.018.356";
+  sch:longitude "-36.986.046";
+  sch:postalAddress "58";
+  sch:serviceArea " ARGANZUELA";
+  sch:streetAddress "SANTA MARIA DE LA CABEZA, PASEO, DE" .
+
+<http://www.biciMAD.com/BikeStation/126> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "122";
+  sch:addressRegion " ALMAGRO";
+  sch:latitude "40.429.524";
+  sch:longitude "-36.962.626";
+  sch:postalAddress "16";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "SANTA ENGRACIA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/127> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "123";
+  sch:addressRegion " GAZTAMBIDE";
+  sch:latitude "404.306.386";
+  sch:longitude "-37.134.685";
+  sch:postalAddress "2";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "GUZMAN EL BUENO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/128> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "124";
+  sch:addressRegion " TRAFALGAR";
+  sch:latitude "404.308.173";
+  sch:longitude "-36.993.182";
+  sch:postalAddress "18";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "MANUEL SILVELA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/129> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "125";
+  sch:addressRegion " ALMAGRO";
+  sch:latitude "404.353.145";
+  sch:longitude "-36.948.375";
+  sch:postalAddress "29";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "FERNANDEZ DE LA HOZ, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/130> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "126";
+  sch:addressRegion " TRAFALGAR";
+  sch:latitude "404.345.672";
+  sch:longitude "-37.017.424";
+  sch:postalAddress "4";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "GENERAL ALVAREZ DE CASTRO, CALLE, DEL" .
+
+<http://www.biciMAD.com/BikeStation/131> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "127";
+  sch:addressRegion " ARAPILES";
+  sch:latitude "40.433.908";
+  sch:longitude "-37.083.987";
+  sch:postalAddress "19";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "FERNANDO EL CATOLICO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/132> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "128";
+  sch:addressRegion " GAZTAMBIDE";
+  sch:latitude "404.390.413";
+  sch:longitude "-37.155.889";
+  sch:postalAddress "59";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "CEA BERMUDEZ, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/133> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "129";
+  sch:addressRegion " R�OS ROSAS";
+  sch:latitude "404.384.622";
+  sch:longitude "-36.982.986";
+  sch:postalAddress "33";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "JOSE ABASCAL, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/134> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "18"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "130";
+  sch:addressRegion " R�OS ROSAS";
+  sch:latitude "404.417.512";
+  sch:longitude "-37.017.555";
+  sch:postalAddress "129";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "SANTA ENGRACIA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/135> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "131";
+  sch:addressRegion " R�OS ROSAS";
+  sch:latitude "404.417.479";
+  sch:longitude "-37.040.233";
+  sch:postalAddress "44";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "BRAVO MURILLO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/136> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "132";
+  sch:addressRegion " R�OS ROSAS";
+  sch:latitude "404.463.889";
+  sch:longitude "-37.035.911";
+  sch:postalAddress "168";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "SANTA ENGRACIA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/137> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "133";
+  sch:addressRegion " CUATRO CAMINOS";
+  sch:latitude "404.471.673";
+  sch:longitude "-37.000.292";
+  sch:postalAddress "3";
+  sch:serviceArea " TETU�N";
+  sch:streetAddress "DULCINEA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/138> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "134";
+  sch:addressRegion " R�OS ROSAS";
+  sch:latitude "404.440.317";
+  sch:longitude "-36.955.092";
+  sch:postalAddress "58";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "MARIA DE GUZMAN, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/139> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "135";
+  sch:addressRegion " R�OS ROSAS";
+  sch:latitude "40.441.484";
+  sch:longitude "-36.928.896";
+  sch:postalAddress "S/N";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "SAN JUAN DE LA CRUZ, PLAZA, DE" .
+
+<http://www.biciMAD.com/BikeStation/140> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "136";
+  sch:addressRegion " EL VISO";
+  sch:latitude "404.452.833";
+  sch:longitude "-36.908.127";
+  sch:postalAddress "106";
+  sch:serviceArea " CHAMART�N";
+  sch:streetAddress "CASTELLANA, PASEO, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/141> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "137";
+  sch:addressRegion " EL VISO";
+  sch:latitude "404.454.958";
+  sch:longitude "-36.852.925";
+  sch:postalAddress "6";
+  sch:serviceArea " CHAMART�N";
+  sch:streetAddress "REPUBLICA ARGENTINA, PLAZA, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/142> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "138";
+  sch:addressRegion " R�OS ROSAS";
+  sch:latitude "404.456.884";
+  sch:longitude "-36.915.818";
+  sch:postalAddress "S/N";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "CASTELLANA, PASEO, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/143> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "139";
+  sch:addressRegion " EL VISO";
+  sch:latitude "404.393.558";
+  sch:longitude "-36.904.495";
+  sch:postalAddress "S/N";
+  sch:serviceArea " CHAMART�N";
+  sch:streetAddress "JOSE GUTIERREZ ABASCAL, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/144> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "140";
+  sch:addressRegion " EL VISO";
+  sch:latitude "404.386.081";
+  sch:longitude "-36.829.088";
+  sch:postalAddress "134";
+  sch:serviceArea " CHAMART�N";
+  sch:streetAddress "VELAZQUEZ, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/145> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "141";
+  sch:addressRegion " ALMAGRO";
+  sch:latitude "404.354.253";
+  sch:longitude "-36.892.902";
+  sch:postalAddress "43";
+  sch:serviceArea " CHAMBER�";
+  sch:streetAddress "CASTELLANA, PASEO, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/146> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "142";
+  sch:addressRegion " CASTELLANA";
+  sch:latitude "404.335.262";
+  sch:longitude "-36.880.402";
+  sch:postalAddress "S/N";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "CASTELLANA, PASEO, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/147> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "143";
+  sch:addressRegion " LISTA";
+  sch:latitude "40.434.616";
+  sch:longitude "-36.782.355";
+  sch:postalAddress "54";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "DIEGO DE LEON, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/148> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "144";
+  sch:addressRegion " LISTA";
+  sch:latitude "404.323.192";
+  sch:longitude "-36.754.628";
+  sch:postalAddress "50";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "JUAN BRAVO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/149> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "145";
+  sch:addressRegion " LISTA";
+  sch:latitude "404.297.717";
+  sch:longitude "-3.671.401";
+  sch:postalAddress "87";
+  sch:serviceArea " SALAMANCA";
+  sch:streetAddress "JOSE ORTEGA Y GASSET, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/150> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "146";
+  sch:addressRegion " EL VISO";
+  sch:latitude "404.442.372";
+  sch:longitude "-36.787.983";
+  sch:postalAddress "1";
+  sch:serviceArea " CHAMART�N";
+  sch:streetAddress "MARIA FRANCISCA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/151> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "147";
+  sch:addressRegion " EL VISO";
+  sch:latitude "404.483.353";
+  sch:longitude "-36.795.811";
+  sch:postalAddress "45";
+  sch:serviceArea " CHAMART�N";
+  sch:streetAddress "DOCTOR ARCE, AVENIDA, DEL" .
+
+<http://www.biciMAD.com/BikeStation/152> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "148";
+  sch:addressRegion " EL VISO";
+  sch:latitude "404.510.228";
+  sch:longitude "-36.817.012";
+  sch:postalAddress "210";
+  sch:serviceArea " CHAMART�N";
+  sch:streetAddress "SERRANO, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/153> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "149";
+  sch:addressRegion " EL VISO";
+  sch:latitude "40.449.845";
+  sch:longitude "-36.878.481";
+  sch:postalAddress "42";
+  sch:serviceArea " CHAMART�N";
+  sch:streetAddress "LA HABANA, PASEO, DE" .
+
+<http://www.biciMAD.com/BikeStation/154> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "150";
+  sch:addressRegion " EL VISO";
+  sch:latitude "404.491.555";
+  sch:longitude "-36.905.376";
+  sch:postalAddress "S/N";
+  sch:serviceArea " CHAMART�N";
+  sch:streetAddress "CASTELLANA, PASEO, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/155> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "151";
+  sch:addressRegion " CUATRO CAMINOS";
+  sch:latitude "404.488.617";
+  sch:longitude "-36.952.117";
+  sch:postalAddress "10";
+  sch:serviceArea " TETU�N";
+  sch:streetAddress "ORENSE, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/156> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "152";
+  sch:addressRegion " CUATRO CAMINOS";
+  sch:latitude "404.527.163";
+  sch:longitude "-36.989.497";
+  sch:postalAddress "S/N";
+  sch:serviceArea " TETU�N";
+  sch:streetAddress "GENERAL PERON, AVENIDA, DEL" .
+
+<http://www.biciMAD.com/BikeStation/157> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "153";
+  sch:addressRegion " CUATRO CAMINOS";
+  sch:latitude "404.523.394";
+  sch:longitude "-36.930.944";
+  sch:postalAddress "S/N";
+  sch:serviceArea " TETU�N";
+  sch:streetAddress "GENERAL PERON, AVENIDA, DEL" .
+
+<http://www.biciMAD.com/BikeStation/158> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "154";
+  sch:addressRegion " CUATRO CAMINOS";
+  sch:latitude "40.454.776";
+  sch:longitude "-36.946.897";
+  sch:postalAddress "36";
+  sch:serviceArea " TETU�N";
+  sch:streetAddress "ORENSE, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/159> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "155";
+  sch:addressRegion " CUATRO CAMINOS";
+  sch:latitude "404.572.961";
+  sch:longitude "-37.008.905";
+  sch:postalAddress "55";
+  sch:serviceArea " TETU�N";
+  sch:streetAddress "SAN GERM�N, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/160> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "156";
+  sch:addressRegion " CASTILLEJOS";
+  sch:latitude "404.592.406";
+  sch:longitude "-36.913.229";
+  sch:postalAddress "S/N";
+  sch:serviceArea " TETU�N";
+  sch:streetAddress "SOR ANGELA DE LA CRUZ, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/161> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "157";
+  sch:addressRegion " NUEVA ESPA�A";
+  sch:latitude "40.459.282";
+  sch:longitude "-36.893.305";
+  sch:postalAddress "S/N";
+  sch:serviceArea " CHAMART�N";
+  sch:streetAddress "CASTELLANA, PASEO, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/162> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "158";
+  sch:addressRegion " HISPANOAM�RICA";
+  sch:latitude "4.045.862";
+  sch:longitude "-36.847.049";
+  sch:postalAddress "22 A";
+  sch:serviceArea " CHAMART�N";
+  sch:streetAddress "ALBERTO ALCOCER, AVENIDA, DE" .
+
+<http://www.biciMAD.com/BikeStation/163> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "159";
+  sch:addressRegion " HISPANOAM�RICA";
+  sch:latitude "404.542.549";
+  sch:longitude "-36.837.348";
+  sch:postalAddress "63";
+  sch:serviceArea " CHAMART�N";
+  sch:streetAddress "LA HABANA, PASEO, DE" .
+
+<http://www.biciMAD.com/BikeStation/164> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "160";
+  sch:addressRegion " HISPANOAM�RICA";
+  sch:latitude "404.571.887";
+  sch:longitude "-36.765.407";
+  sch:postalAddress "7";
+  sch:serviceArea " CHAMART�N";
+  sch:streetAddress "COLOMBIA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/165> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "161";
+  sch:addressRegion " CASA DE CAMPO";
+  sch:latitude "404.221.254";
+  sch:longitude "-3.722.035";
+  sch:postalAddress "8";
+  sch:serviceArea " MONCLOA-ARAVACA";
+  sch:streetAddress "FLORIDA, PASEO, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/166> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "162";
+  sch:addressRegion " ACACIAS";
+  sch:latitude "404.035.176";
+  sch:longitude "-37.107.559";
+  sch:postalAddress "28";
+  sch:serviceArea " ARGANZUELA";
+  sch:streetAddress "OLMOS, PASEO, DE LOS" .
+
+<http://www.biciMAD.com/BikeStation/167> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "163";
+  sch:addressRegion " ACACIAS";
+  sch:latitude "404.036.349";
+  sch:longitude "-37.064.372";
+  sch:postalAddress "0,083333333";
+  sch:serviceArea " ARGANZUELA";
+  sch:streetAddress "ESPERANZA, PASEO, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/168> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "164";
+  sch:addressRegion " DELICIAS";
+  sch:latitude "403.971.621";
+  sch:longitude "-36.944.786";
+  sch:postalAddress "92";
+  sch:serviceArea " ARGANZUELA";
+  sch:streetAddress "DELICIAS, PASEO, DE LAS" .
+
+<http://www.biciMAD.com/BikeStation/169> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "165";
+  sch:addressRegion " CHOPERA";
+  sch:latitude "403.929.735";
+  sch:longitude "-36.977.928";
+  sch:postalAddress "47";
+  sch:serviceArea " ARGANZUELA";
+  sch:streetAddress "CHOPERA, PASEO, DE LA" .
+
+<http://www.biciMAD.com/BikeStation/170> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "166";
+  sch:addressRegion " PALACIO";
+  sch:latitude "404.139.487";
+  sch:longitude "-37.133.497";
+  sch:postalAddress "26";
+  sch:serviceArea " CENTRO";
+  sch:streetAddress "SEGOVIA, CALLE, DE" .
+
+<http://www.biciMAD.com/BikeStation/171> a <http://www.biciMAD.com/resource/BikeStation>;
+  <http://www.biciMAD.com/BikeStation/bikeAvailability> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.biciMAD.com/BikeStation/id> "167";
+  sch:addressRegion " IMPERIAL";
+  sch:latitude "404.137.262";
+  sch:longitude "-37.175.955";
+  sch:postalAddress "45";
+  sch:serviceArea " ARGANZUELA";
+  sch:streetAddress "SEGOVIA, CALLE, DE" .
