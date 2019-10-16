@@ -617,5 +617,47 @@
     "description": "Rename column DATA DATE to FECHA DATOS",
     "oldColumnName": "DATA DATE",
     "newColumnName": "FECHA DATOS"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column FECHA DATOS",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "FECHA DATOS",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "01/08/2019"
+        ],
+        "to": "1 August 2019"
+      }
+    ]
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column FECHA DATOS to type Q47150325",
+    "columnName": "FECHA DATOS",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q47150325",
+        "name": "calendar day of a given year"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
   }
 ]
