@@ -123,7 +123,8 @@
 :fax rdf:type owl:DatatypeProperty ;
      rdfs:subPropertyOf owl:topDataProperty ;
      rdfs:domain <http://madridcen.es/group30/recursos/CentrosDeportivos> .
-		  
+	 rdfs:range xsd:string .	  
+	 
 #  http://madridcen.es/group30#email
 :email rdf:type owl:DatatypeProperty ;
        rdfs:subPropertyOf owl:topDataProperty ;
