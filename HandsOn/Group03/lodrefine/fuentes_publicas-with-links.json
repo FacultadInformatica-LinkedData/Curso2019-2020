@@ -659,5 +659,18 @@
       "mode": "row-based",
       "facets": []
     }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Wikidata URI fecha at index 7 based on column FECHA DATOS using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Wikidata URI fecha",
+    "columnInsertIndex": 7,
+    "baseColumnName": "FECHA DATOS",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
   }
 ]
