@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Dataset Analysis Group19 - Accidentes Bicicletas en Madrid 2019.</title>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+
+<body>
+<p>Licence:</p>
+
+<p>The license of this dataset allow us to re-use of this documents and data with commercial and non-commercial purposes, the license is resided here: <a href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD">Link</a>
+This license is published by the town hall of Madrid which has the rights of this license. This amount of data in our app has no comercial intentions and will be able to be used always we get accredited because of that.</p>
+
+<p>Data Analysis:</p>
+
+<p>We have this data for our resources:</p>
+
+<table>
+    
+  <tr>
+    <th>Field</th>
+    <th>Type</th>
+    <th>Comments</th>
+  </tr>
+    
+  <tr>
+    <th>Expedient Number</th>
+    <th>int</th>
+    <th>This variable can take any number, expedient numbers normally are long.</th>
+  </tr>
+    
+  <tr>
+    <th>Date</th>
+    <th>date</th>
+    <th>The date when the accident was produced with format dd/mm/yyyy.</th>
+  </tr>
+    
+  <tr>
+    <th>Hour</th>
+    <th>date</th>
+    <th>The hour when the accident was produced, format is 24h.</th>
+  </tr>
+    
+  <tr>
+    <th>Address</th>
+    <th>String</th>
+    <th>Saves the postal address where the accident was produced.</th>
+  </tr>
+    
+  <tr>
+    <th>Number</th>
+    <th>int</th>
+    <th>Can take any value always its a number, it can take an empty value, its the concrete number inside the street where the accident was produced, its just to locate the accident better.</th>
+  </tr>
+    
+  <tr>
+    <th>District</th>
+    <th>String</th>
+    <th>The district where the accident was produced, the address of the accident must be inside the district limits, is a trivial thing.</th>
+  </tr>
+    
+  <tr>
+    <th>Type of accident</th>
+    <th>String</th>
+    <th>Its a string that indicates what type the accident was.</th>
+  </tr>
+    
+  <tr>
+    <th>Weather</th>
+    <th>String</th>
+    <th>It's a string that indicates the weather at the time of the accident.</th>
+  </tr>
+    
+  <tr>
+    <th>Type of person</th>
+    <th>String</th>
+    <th>It's a string that indicates the person who was affected by the accident, it can take two values: driver (of the bicycle) or pedestrian, the case is normally duplicated with the same expedient number, date, time, address etc if it was a hit between a pedestrian and a driver, one being driver as type of person and the other one being pedestrian.</th>
+  </tr>
+    
+  <tr>
+    <th>Age range</th>
+    <th>string</th>
+    <th>It's not an integer cause on the dataset is setted as a range between 2 near values.</th>
+  </tr>
+    
+  <tr>
+    <th>Genre</th>
+    <th>String</th>
+    <th>It tells the genre of the affected by the accident, it can be male or female.</th>
+  </tr>
+    
+  <tr>
+    <th>Injury</th>
+    <th>int</th>
+    <th>It describes the injury grade of the affected person on the accident, it can take empty values.</th>
+  </tr>
+    
+  </table>
+
+<p>Resource Name Strategy:</p>
+    
+    
+    <p>Ontology:</p>
+
+	<p>http://www.semanticweb.org/group19/ontology#</p>
+    
+    
+    
+    <p>Classes:</p>
+    
+    <p>http://www.semanticweb.org/group19/ontology#Accident</p>
+    
+    
+    
+    <p>Properties:</p>
+    
+	<p>http://www.semanticweb.org/group19/ontology#hasNumber</p>
+    
+	<p>http://www.semanticweb.org/group19/ontology#hasDate</p>
+    
+	<p>http://www.semanticweb.org/group19/ontology#hasTime</p>
+    
+	<p>http://www.semanticweb.org/group19/ontology#hasStreet</p>
+    
+    <p>http://www.semanticweb.org/group19/ontology#hasDistrict</p>
+    
+	<p>http://www.semanticweb.org/group19/ontology#hasType</p>
+    
+	<p>http://www.semanticweb.org/group19/ontology#hasWeather</p>
+    
+	<p>http://www.semanticweb.org/group19/ontology#hasPersonType</p>
+    
+	<p>http://www.semanticweb.org/group19/ontology#hasAgeRange#</p>
+    
+	<p>http://www.semanticweb.org/group19/ontology#hasGenre</p>
+    
+	<p>http://www.semanticweb.org/group19/ontology#hasInjury</p>
+
+</body>
+</html> 
