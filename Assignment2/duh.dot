@@ -1,0 +1,28 @@
+digraph {
+	rankdir = LR;
+	charset="utf-8";
+
+	"Revent3" -> "RPinarAlper" [ label="involves" ];
+	"Revent3" -> "RCaroleGoble" [ label="involves" ];
+	"Revent3" -> "L2006-05-15|Datatype: http://www.w3.org/2001/XMLSchema#date" [ label="eventDate" ];
+	"Revent4" -> "ROscarCorcho" [ label="involves" ];
+	"Revent4" -> "L2006-05-16|Datatype: http://www.w3.org/2001/XMLSchema#date" [ label="eventDate" ];
+	"Revent5" -> "RCaroleGoble" [ label="involves" ];
+	"Revent5" -> "L2006-05-15|Datatype: http://www.w3.org/2001/XMLSchema#date" [ label="eventDate" ];
+
+	// Resources
+	"Revent3" [ label="event3", shape = ellipse, color = blue ];
+	"RPinarAlper" [ label="PinarAlper", shape = ellipse, color = blue ];
+	"RCaroleGoble" [ label="CaroleGoble", shape = ellipse, color = blue ];
+	"Revent4" [ label="event4", shape = ellipse, color = blue ];
+	"ROscarCorcho" [ label="OscarCorcho", shape = ellipse, color = blue ];
+	"Revent5" [ label="event5", shape = ellipse, color = blue ];
+
+	// Anonymous nodes
+
+	// Literals
+	"L2006-05-15|Datatype: http://www.w3.org/2001/XMLSchema#date" [ label="2006-05-15|Datatype: http://www.w3.org/2001/XMLSchema#date", shape = record ];
+	"L2006-05-16|Datatype: http://www.w3.org/2001/XMLSchema#date" [ label="2006-05-16|Datatype: http://www.w3.org/2001/XMLSchema#date", shape = record ];
+
+	label="\n\nModel:\n(Unknown)\n\nNamespaces:\nhttp://www.ontogrid.net/StickyNote#\nrdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#\n";
+}
