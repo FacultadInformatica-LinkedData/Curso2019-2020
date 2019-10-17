@@ -247,1648 +247,93 @@
   },
   {
     "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
     "schema": {
-      "prefixes": [
-        {
-          "name": "schema",
-          "uri": "http://schema.org/"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "group07",
-          "uri": ""
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "baseUri": "http://www.semanticweb.org/grupo07/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#name",
-              "curie": "group07:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "NOMBRE",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION-ENTIDAD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO METRO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO BUS",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#url",
-              "curie": "group07:url",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "CONTENT-URL",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/address",
-              "curie": "schema:address",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ADDRESS (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressRegion",
-              "curie": "schema:addressRegion",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PROVINCIA (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/postalCode",
-              "curie": "schema:postalCode",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PostalCode (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressLocality",
-              "curie": "schema:addressLocality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DISTRITO (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/latitude",
-              "curie": "schema:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LATITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/longitude",
-              "curie": "schema:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LONGITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": []
-        }
-      ]
-    }
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
     "schema": {
-      "prefixes": [
-        {
-          "name": "schema",
-          "uri": "http://schema.org/"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "group07",
-          "uri": ""
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "baseUri": "http://www.semanticweb.org/grupo07/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#name",
-              "curie": "group07:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "NOMBRE",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION-ENTIDAD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO METRO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO BUS",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#url",
-              "curie": "group07:url",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "CONTENT-URL",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/address",
-              "curie": "schema:address",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ADDRESS (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressRegion",
-              "curie": "schema:addressRegion",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PROVINCIA (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/postalCode",
-              "curie": "schema:postalCode",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PostalCode (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressLocality",
-              "curie": "schema:addressLocality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DISTRITO (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/latitude",
-              "curie": "schema:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LATITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/longitude",
-              "curie": "schema:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LONGITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": []
-        }
-      ]
-    }
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
     "schema": {
-      "prefixes": [
-        {
-          "name": "schema",
-          "uri": "http://schema.org/"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "group07",
-          "uri": ""
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "baseUri": "http://www.semanticweb.org/grupo07/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#name",
-              "curie": "group07:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "NOMBRE",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION-ENTIDAD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO METRO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO BUS",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#url",
-              "curie": "group07:url",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "CONTENT-URL",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/address",
-              "curie": "schema:address",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ADDRESS (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressRegion",
-              "curie": "schema:addressRegion",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PROVINCIA (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/postalCode",
-              "curie": "schema:postalCode",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PostalCode (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressLocality",
-              "curie": "schema:addressLocality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DISTRITO (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/latitude",
-              "curie": "schema:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LATITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/longitude",
-              "curie": "schema:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LONGITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": []
-        }
-      ]
-    }
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
     "schema": {
-      "prefixes": [
-        {
-          "name": "schema",
-          "uri": "http://schema.org/"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "group07",
-          "uri": ""
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "baseUri": "http://www.semanticweb.org/grupo07/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#name",
-              "curie": "group07:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "NOMBRE",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION-ENTIDAD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO METRO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO BUS",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#url",
-              "curie": "group07:url",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "CONTENT-URL",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/address",
-              "curie": "schema:address",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ADDRESS (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressRegion",
-              "curie": "schema:addressRegion",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PROVINCIA (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/postalCode",
-              "curie": "schema:postalCode",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PostalCode (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressLocality",
-              "curie": "schema:addressLocality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DISTRITO (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/latitude",
-              "curie": "schema:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LATITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/longitude",
-              "curie": "schema:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LONGITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": []
-        }
-      ]
-    }
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
     "schema": {
-      "prefixes": [
-        {
-          "name": "schema",
-          "uri": "http://schema.org/"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "group07",
-          "uri": ""
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "baseUri": "http://www.semanticweb.org/grupo07/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#name",
-              "curie": "group07:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "NOMBRE",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION-ENTIDAD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO METRO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO BUS",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#url",
-              "curie": "group07:url",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "CONTENT-URL",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/address",
-              "curie": "schema:address",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ADDRESS (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressRegion",
-              "curie": "schema:addressRegion",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PROVINCIA (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/postalCode",
-              "curie": "schema:postalCode",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PostalCode (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressLocality",
-              "curie": "schema:addressLocality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DISTRITO (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/latitude",
-              "curie": "schema:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LATITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/longitude",
-              "curie": "schema:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LONGITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": []
-        }
-      ]
-    }
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
     "schema": {
-      "prefixes": [
-        {
-          "name": "schema",
-          "uri": "http://schema.org/"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "group07",
-          "uri": ""
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "baseUri": "http://www.semanticweb.org/grupo07/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#name",
-              "curie": "group07:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "NOMBRE",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION-ENTIDAD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO METRO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO BUS",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#url",
-              "curie": "group07:url",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "CONTENT-URL",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/address",
-              "curie": "schema:address",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ADDRESS (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressRegion",
-              "curie": "schema:addressRegion",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PROVINCIA (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/postalCode",
-              "curie": "schema:postalCode",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PostalCode (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressLocality",
-              "curie": "schema:addressLocality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DISTRITO (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/latitude",
-              "curie": "schema:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LATITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/longitude",
-              "curie": "schema:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LONGITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": []
-        }
-      ]
-    }
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
     "schema": {
-      "prefixes": [
-        {
-          "name": "schema",
-          "uri": "http://schema.org/"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "group07",
-          "uri": ""
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "baseUri": "http://www.semanticweb.org/grupo07/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#name",
-              "curie": "group07:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "NOMBRE",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION-ENTIDAD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO METRO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO BUS",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#url",
-              "curie": "group07:url",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "CONTENT-URL",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/address",
-              "curie": "schema:address",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ADDRESS (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressRegion",
-              "curie": "schema:addressRegion",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PROVINCIA (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/postalCode",
-              "curie": "schema:postalCode",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PostalCode (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressLocality",
-              "curie": "schema:addressLocality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DISTRITO (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/latitude",
-              "curie": "schema:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LATITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/longitude",
-              "curie": "schema:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LONGITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": []
-        }
-      ]
-    }
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
     "schema": {
-      "prefixes": [
-        {
-          "name": "schema",
-          "uri": "http://schema.org/"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "group07",
-          "uri": ""
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "baseUri": "http://www.semanticweb.org/grupo07/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#name",
-              "curie": "group07:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "NOMBRE",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION-ENTIDAD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO METRO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO BUS",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#url",
-              "curie": "group07:url",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "CONTENT-URL",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/address",
-              "curie": "schema:address",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ADDRESS (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressRegion",
-              "curie": "schema:addressRegion",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PROVINCIA (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/postalCode",
-              "curie": "schema:postalCode",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PostalCode (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressLocality",
-              "curie": "schema:addressLocality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DISTRITO (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/latitude",
-              "curie": "schema:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LATITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/longitude",
-              "curie": "schema:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LONGITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-              "curie": "group07:Park"
-            }
-          ]
-        }
-      ]
-    }
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
     "schema": {
-      "prefixes": [
-        {
-          "name": "schema",
-          "uri": "http://schema.org/"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "group07",
-          "uri": ""
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "baseUri": "http://www.semanticweb.org/grupo07/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#name",
-              "curie": "group07:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "NOMBRE",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION-ENTIDAD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO METRO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO BUS",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#url",
-              "curie": "group07:url",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "CONTENT-URL",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/address",
-              "curie": "schema:address",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ADDRESS (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressRegion",
-              "curie": "schema:addressRegion",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PROVINCIA (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/postalCode",
-              "curie": "schema:postalCode",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PostalCode (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressLocality",
-              "curie": "schema:addressLocality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DISTRITO (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/latitude",
-              "curie": "schema:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LATITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/longitude",
-              "curie": "schema:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LONGITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-              "curie": "group07:Park"
-            }
-          ]
-        }
-      ]
-    }
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
     "schema": {
-      "prefixes": [
-        {
-          "name": "schema",
-          "uri": "http://schema.org/"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "group07",
-          "uri": ""
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "baseUri": "http://www.semanticweb.org/grupo07/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#name",
-              "curie": "group07:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "NOMBRE",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION-ENTIDAD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO METRO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#transport",
-              "curie": "group07:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO BUS",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#url",
-              "curie": "group07:url",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "CONTENT-URL",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/address",
-              "curie": "schema:address",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ADDRESS (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressRegion",
-              "curie": "schema:addressRegion",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PROVINCIA (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/postalCode",
-              "curie": "schema:postalCode",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PostalCode (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressLocality",
-              "curie": "schema:addressLocality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DISTRITO (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/latitude",
-              "curie": "schema:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LATITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/longitude",
-              "curie": "schema:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LONGITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-              "curie": "group07:Park"
-            }
-          ]
-        }
-      ]
-    }
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
   },
   {
     "op": "core/row-removal",
@@ -1920,207 +365,219 @@
   },
   {
     "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
     "schema": {
-      "prefixes": [
-        {
-          "name": "schema",
-          "uri": "http://schema.org/"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "group07",
-          "uri": ""
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "baseUri": "http://www.semanticweb.org/grupo07/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#name",
-              "curie": "group07:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "NOMBRE",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION-ENTIDAD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#metro",
-              "curie": "group07:metro",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO METRO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#bus",
-              "curie": "group07:bus",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESO BUS",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
-              "curie": "group07:description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#url",
-              "curie": "group07:url",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "CONTENT-URL",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/address",
-              "curie": "schema:address",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ADDRESS (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressRegion",
-              "curie": "schema:addressRegion",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PROVINCIA (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/postalCode",
-              "curie": "schema:postalCode",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PostalCode (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/addressLocality",
-              "curie": "schema:addressLocality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DISTRITO (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/latitude",
-              "curie": "schema:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LATITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://schema.org/longitude",
-              "curie": "schema:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LONGITUD (RDF)",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-              "curie": "group07:Park"
-            }
-          ]
-        }
-      ]
-    }
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LOCALIDAD",
+    "newColumnName": "LOCALIDAD (RDF)",
+    "description": "Rename column LOCALIDAD to LOCALIDAD (RDF)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LOCALIDAD (RDF)",
+    "newColumnName": "LOCALIDAD (RDF",
+    "description": "Rename column LOCALIDAD (RDF) to LOCALIDAD (RDF"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LOCALIDAD (RDF",
+    "newColumnName": "LOCALIDAD",
+    "description": "Rename column LOCALIDAD (RDF to LOCALIDAD"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LOCALIDAD",
+    "newColumnName": "LOCALIDAD (RDF)",
+    "description": "Rename column LOCALIDAD to LOCALIDAD (RDF)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LOCALIDAD (RDF)",
+    "newColumnName": "LOCALIDAD (RDF",
+    "description": "Rename column LOCALIDAD (RDF) to LOCALIDAD (RDF"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LOCALIDAD (RDF",
+    "newColumnName": "LOCALIDAD",
+    "description": "Rename column LOCALIDAD (RDF to LOCALIDAD"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "NOMBRE",
+    "expression": "jython:import re\n\nvalue.replace('á', 'a')\nvalue.replace('é', 'e')\nvalue.replace('í', 'i')\nvalue.replace('ó', 'o')\nvalue.replace('ú', 'u')",
+    "onError": "set-to-blank",
+    "newColumnName": "name_URL",
+    "columnInsertIndex": 1,
+    "description": "Create column name_URL at index 1 based on column NOMBRE using expression jython:import re\n\nvalue.replace('á', 'a')\nvalue.replace('é', 'e')\nvalue.replace('í', 'i')\nvalue.replace('ó', 'o')\nvalue.replace('ú', 'u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name_URL",
+    "expression": "jython:import re\nresult = cells[\"NOMBRE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name_URL using expression jython:import re\nresult = cells[\"NOMBRE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name_URL",
+    "expression": "jython:import re\nresult = cells[\"NOMBRE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name_URL using expression jython:import re\nresult = cells[\"NOMBRE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
     "schema": {
       "prefixes": [
         {
           "name": "schema",
-          "uri": "http://schema.org/"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "group07",
           "uri": ""
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
         }
       ],
       "baseUri": "http://www.semanticweb.org/grupo07/",
       "rootNodes": [
         {
           "nodeType": "cell-as-resource",
-          "expression": "value",
+          "expression": "\"Park/\" + cells['name_URL'].value + \"_\" + row.index",
           "isRowNumberCell": true,
           "links": [
             {
@@ -2177,10 +634,12 @@
               "uri": "http://www.semanticweb.org/grupo07/ontologies/property#url",
               "curie": "group07:url",
               "target": {
-                "nodeType": "cell-as-literal",
+                "nodeType": "cell-as-resource",
                 "columnName": "CONTENT-URL",
                 "expression": "value",
-                "isRowNumberCell": false
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
               }
             },
             {
@@ -2230,6 +689,7 @@
                 "nodeType": "cell-as-literal",
                 "columnName": "LATITUD (RDF)",
                 "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
                 "isRowNumberCell": false
               }
             },
@@ -2240,18 +700,1934 @@
                 "nodeType": "cell-as-literal",
                 "columnName": "LONGITUD (RDF)",
                 "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
                 "isRowNumberCell": false
               }
             }
           ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-              "curie": "group07:Park"
-            }
-          ]
+          "rdfTypes": []
         }
       ]
-    }
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": ""
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['name_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#name",
+              "curie": "group07:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
+              "curie": "group07:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#metro",
+              "curie": "group07:metro",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO METRO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#bus",
+              "curie": "group07:bus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO BUS",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#description",
+              "curie": "group07:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#url",
+              "curie": "group07:url",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://schema.org/address",
+              "curie": "schema:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ADDRESS (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/addressRegion",
+              "curie": "schema:addressRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/postalCode",
+              "curie": "schema:postalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/addressLocality",
+              "curie": "schema:addressLocality",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DISTRITO (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/latitude",
+              "curie": "schema:latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD (RDF)",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/longitude",
+              "curie": "schema:longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD (RDF)",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": ""
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['name_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "group07",
+          "uri": ""
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['name_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "group07",
+          "uri": ""
+        }
+      ],
+      "baseUri": "http://127.0.0.1:3333/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasName",
+              "curie": "group07:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground",
+              "curie": "group07:hasUnderground",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO METRO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasBus",
+              "curie": "group07:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO BUS",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUrl",
+              "curie": "group07:hasUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasAddress",
+              "curie": "group07:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ADDRESS (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasRegion",
+              "curie": "group07:hasRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode",
+              "curie": "group07:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#inDistrict",
+              "curie": "group07:inDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DISTRITO (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude",
+              "curie": "group07:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud",
+              "curie": "group07:hasLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "group07",
+          "uri": ""
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasName",
+              "curie": "group07:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground",
+              "curie": "group07:hasUnderground",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO METRO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasBus",
+              "curie": "group07:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO BUS",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUrl",
+              "curie": "group07:hasUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasAddress",
+              "curie": "group07:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ADDRESS (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasRegion",
+              "curie": "group07:hasRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode",
+              "curie": "group07:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#inDistrict",
+              "curie": "group07:inDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DISTRITO (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude",
+              "curie": "group07:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud",
+              "curie": "group07:hasLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "group07",
+          "uri": ""
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasName",
+              "curie": "group07:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground",
+              "curie": "group07:hasUnderground",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO METRO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasBus",
+              "curie": "group07:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO BUS",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUrl",
+              "curie": "group07:hasUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasAddress",
+              "curie": "group07:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ADDRESS (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasRegion",
+              "curie": "group07:hasRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode",
+              "curie": "group07:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#inDistrict",
+              "curie": "group07:inDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DISTRITO (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude",
+              "curie": "group07:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud",
+              "curie": "group07:hasLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "group07",
+          "uri": ""
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasName",
+              "curie": "group07:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground",
+              "curie": "group07:hasUnderground",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO METRO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasBus",
+              "curie": "group07:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO BUS",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUrl",
+              "curie": "group07:hasUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasAddress",
+              "curie": "group07:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ADDRESS (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasRegion",
+              "curie": "group07:hasRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode",
+              "curie": "group07:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#inDistrict",
+              "curie": "group07:inDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DISTRITO (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude",
+              "curie": "group07:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud",
+              "curie": "group07:hasLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "group07",
+          "uri": ""
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['name_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasName",
+              "curie": "group07:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground",
+              "curie": "group07:hasUnderground",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO METRO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasBus",
+              "curie": "group07:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO BUS",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUrl",
+              "curie": "group07:hasUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasAddress",
+              "curie": "group07:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ADDRESS (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasRegion",
+              "curie": "group07:hasRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode",
+              "curie": "group07:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#inDistrict",
+              "curie": "group07:inDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DISTRITO (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude",
+              "curie": "group07:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud",
+              "curie": "group07:hasLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "group07",
+          "uri": ""
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['name_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasName",
+              "curie": "group07:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground",
+              "curie": "group07:hasUnderground",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO METRO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasBus",
+              "curie": "group07:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO BUS",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUrl",
+              "curie": "group07:hasUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasAddress",
+              "curie": "group07:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ADDRESS (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasRegion",
+              "curie": "group07:hasRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode",
+              "curie": "group07:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#inDistrict",
+              "curie": "group07:inDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DISTRITO (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude",
+              "curie": "group07:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud",
+              "curie": "group07:hasLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "group07",
+          "uri": ""
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['name_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasName",
+              "curie": "group07:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground",
+              "curie": "group07:hasUnderground",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO METRO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasBus",
+              "curie": "group07:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO BUS",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUrl",
+              "curie": "group07:hasUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasAddress",
+              "curie": "group07:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ADDRESS (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasRegion",
+              "curie": "group07:hasRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode",
+              "curie": "group07:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#inDistrict",
+              "curie": "group07:inDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "DISTRITO (RDF)",
+                "expression": "\"http://semanticweb.org/Group07/\" + cells['DISTRICT'].value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude",
+              "curie": "group07:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud",
+              "curie": "group07:hasLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "group07",
+          "uri": ""
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['name_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasName",
+              "curie": "group07:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground",
+              "curie": "group07:hasUnderground",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO METRO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasBus",
+              "curie": "group07:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO BUS",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUrl",
+              "curie": "group07:hasUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasAddress",
+              "curie": "group07:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ADDRESS (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasRegion",
+              "curie": "group07:hasRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode",
+              "curie": "group07:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#inDistrict",
+              "curie": "group07:inDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "DISTRITO (RDF)",
+                "expression": "\"http://semanticweb.org/Group07/\" + cells['DISTRICT'].value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude",
+              "curie": "group07:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud",
+              "curie": "group07:hasLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "group07",
+          "uri": ""
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['name_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasName",
+              "curie": "group07:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground",
+              "curie": "group07:hasUnderground",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO METRO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasBus",
+              "curie": "group07:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO BUS",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUrl",
+              "curie": "group07:hasUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasAddress",
+              "curie": "group07:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ADDRESS (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasRegion",
+              "curie": "group07:hasRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode",
+              "curie": "group07:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#inDistrict",
+              "curie": "group07:inDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "DISTRITO (RDF)",
+                "expression": "\"http://semanticweb.org/Group07/\" + cells['DISTRITO (RDF)'].value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude",
+              "curie": "group07:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud",
+              "curie": "group07:hasLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "group07",
+          "uri": ""
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['name_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasName",
+              "curie": "group07:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground",
+              "curie": "group07:hasUnderground",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO METRO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasBus",
+              "curie": "group07:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO BUS",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUrl",
+              "curie": "group07:hasUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasAddress",
+              "curie": "group07:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ADDRESS (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasRegion",
+              "curie": "group07:hasRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode",
+              "curie": "group07:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#inDistrict",
+              "curie": "group07:inDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "DISTRITO (RDF)",
+                "expression": "\"http://semanticweb.org/Group07/\" + cells['DISTRITO (RDF)'].value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude",
+              "curie": "group07:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud",
+              "curie": "group07:hasLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "group07",
+          "uri": ""
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['name_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasName",
+              "curie": "group07:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground",
+              "curie": "group07:hasUnderground",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO METRO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasBus",
+              "curie": "group07:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO BUS",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUrl",
+              "curie": "group07:hasUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasAddress",
+              "curie": "group07:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ADDRESS (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasRegion",
+              "curie": "group07:hasRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode",
+              "curie": "group07:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#inDistrict",
+              "curie": "group07:inDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "DISTRITO (RDF)",
+                "expression": "\"http://semanticweb.org/Group07/District/\" + cells['DISTRITO (RDF)'].value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude",
+              "curie": "group07:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud",
+              "curie": "group07:hasLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "group07",
+          "uri": ""
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['name_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasName",
+              "curie": "group07:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground",
+              "curie": "group07:hasUnderground",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO METRO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasBus",
+              "curie": "group07:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESO BUS",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasDescription",
+              "curie": "group07:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasUrl",
+              "curie": "group07:hasUrl",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasAddress",
+              "curie": "group07:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ADDRESS (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasRegion",
+              "curie": "group07:hasRegion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPostalCode",
+              "curie": "group07:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#inDistrict",
+              "curie": "group07:inDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "DISTRITO (RDF)",
+                "expression": "\"http://semanticweb.org/Group07/District/\" + cells['DISTRITO (RDF)'].value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude",
+              "curie": "group07:hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud",
+              "curie": "group07:hasLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD (RDF)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
   }
 ]
