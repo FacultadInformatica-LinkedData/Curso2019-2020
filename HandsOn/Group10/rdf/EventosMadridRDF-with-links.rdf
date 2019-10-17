@@ -1,0 +1,307 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://localhost:3333/2> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<http://localhost:3333/4> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/5> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/18> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/19> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/21> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<http://localhost:3333/34> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<http://localhost:3333/35> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/51> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<http://localhost:3333/52> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/58> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/59> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/63> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<http://localhost:3333/73> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/80> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/85> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/88> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<http://localhost:3333/101> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/115> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/116> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<http://localhost:3333/119> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/120> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/122> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/139> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/143> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<http://localhost:3333/144> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/145> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/156> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/161> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<http://localhost:3333/169> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/170> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/175> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/176> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/185> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/186> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/187> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/188> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/190> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/191> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/192> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/194> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/196> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/197> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/198> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/200> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/217> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/218> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/276> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/282> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/283> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/300> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/322> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/330> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/331> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/371> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/390> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/391> owl:sameAs "https://www.wikidata.org/wikiQ56426930" .
+
+<http://localhost:3333/397> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<http://localhost:3333/403> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/407> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/408> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/420> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/432> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/438> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/445> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/448> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/451> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<http://localhost:3333/454> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<http://localhost:3333/456> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/457> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/473> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/478> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/481> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/487> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/494> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/549> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/550> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/551> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/560> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<http://localhost:3333/562> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/563> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/564> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<http://localhost:3333/569> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/572> owl:sameAs "https://www.wikidata.org/wikiQ56426930" .
+
+<http://localhost:3333/579> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/590> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/600> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<http://localhost:3333/607> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<http://localhost:3333/619> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/622> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<http://localhost:3333/628> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/631> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/632> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/649> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/653> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/660> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/665> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/671> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/681> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/683> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/691> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/694> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/700> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/701> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/704> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/713> owl:sameAs "https://www.wikidata.org/wikiQ56426930" .
+
+<http://localhost:3333/715> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/717> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/732> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/740> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/750> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/755> owl:sameAs "https://www.wikidata.org/wikiQ56426930" .
+
+<http://localhost:3333/764> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/767> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/776> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<http://localhost:3333/781> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/782> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/783> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/786> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/791> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/793> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<http://localhost:3333/803> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/804> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/809> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/812> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/817> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/818> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/844> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<http://localhost:3333/845> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/847> owl:sameAs "https://www.wikidata.org/wikiQ56426930" .
+
+<http://localhost:3333/853> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/854> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/857> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/858> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/861> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/869> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<http://localhost:3333/917> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<http://localhost:3333/918> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/931> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/942> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/943> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<http://localhost:3333/952> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/969> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/970> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/971> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/974> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<http://localhost:3333/988> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<http://localhost:3333/990> owl:sameAs "https://www.wikidata.org/wikiQ170544" .
+
+<http://localhost:3333/996> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<http://localhost:3333/998> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<http://localhost:3333/999> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
