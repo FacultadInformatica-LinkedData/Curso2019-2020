@@ -1,0 +1,44 @@
+1)
+prefix pr: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?properties
+WHERE {
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?properties ?y .
+}
+
+
+2)
+prefix pr: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?properties
+WHERE {
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?properties ?y .
+FILTER (?properties != rdf:type)
+}
+
+3)
+prefix pr: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?properties ?values
+WHERE {
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?properties ?values .
+FILTER (?properties != rdf:type)
+}
+
+4)
+prefix pr: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?x ?y
+WHERE {
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?property ?y .
+FILTER (?properties != rdf:type)
+}
+
+5)
+prefix pr: <http://dbpedia.org/ontology/>
+SELECT DISTINCT  ?properties count(distinct ?x) AS ?z
+where {
+x a <http://dbpedia.org/ontology/Politician> .
+?x ?properties ?y .
+FILTER (?properties != rdf:type)
+}
