@@ -1,0 +1,1492 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vocab: <http://www.aparcamientospublicomadrid.com/ontology/aparcamientos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.aparcamientospublicomadrid.com/recurso/13470> a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento mixto. Arquitecto Ribera" ;
+	vocab:plazas "Plazas: 318 públicas y 298 para residentes" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "BARCELO" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "40.426.687.899.755.700"^^xsd:double ;
+	vocab:longitud "-36.996.173.701.222.400"^^xsd:double ;
+	vocab:cp "28004"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/JUSTICIA> owl:sameAs <http://www.wikidata.org/wiki/Q1992319> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13470> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/JUSTICIA> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13470> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "2"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a50e15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13470> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/59060> vocab:nombre "Aparcamiento mixto. Avenida de América (intercambiador)" ;
+	vocab:plazas "Plazas: 269 públicas y 392 para residentes" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	a vocab:aparcamientos ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "PRADENA DEL RINCON" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.043.886.083.125.740"^^xsd:double ;
+	vocab:longitud "-36.766.217.383.743.300"^^xsd:double ;
+	vocab:cp "28002"^^xsd:int ;
+	vocab:telefono "917 376 257"^^xsd:int ;
+	vocab:email "intercambiador@intercambiador.net" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/PROSPERIDAD> owl:sameAs <http://www.wikidata.org/wiki/Q4776> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/59060> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/PROSPERIDAD> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CHAMARTIN> owl:sameAs <http://www.wikidata.org/wiki/Q1766348> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/59060> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CHAMARTIN> ;
+	vocab:num "4"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3f3bc2c6e051c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/59060> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/5898885> vocab:calle "PORTUGAL" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:horario "Horario de apertura de 6:00 h a 22:00 h los días laborables." ;
+	a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento mixto. Avenida de Portugal" ;
+	vocab:plazas "Plazas: 432 públicas y 437 para residentes" ;
+	vocab:clasevia "AVENIDA" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:latitud "40.411.180.021.966.300"^^xsd:double ;
+	vocab:longitud "-37.378.318.857.463.100"^^xsd:double ;
+	vocab:cp "28011"^^xsd:int ;
+	vocab:telefono "917 877 292"^^xsd:int ;
+	vocab:email "aparcamientos@madridmovilidad.es" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/PUERTA+DEL+ANGEL> owl:sameAs <http://www.wikidata.org/wiki/Q31142> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/5898885> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/PUERTA+DEL+ANGEL> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/LATINA> owl:sameAs <http://www.wikidata.org/wiki/Q794954> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/5898885> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/LATINA> ;
+	vocab:num "155"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c313e26f2b3fc210VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/5898885> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13475> vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:plazas "Plazas: 226 públicas y 400 para residentes" ;
+	a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento mixto. Brasil" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:clasevia "CALLE" ;
+	vocab:calle "GENERAL YAGUEZ" ;
+	vocab:latitud "4.045.610.834.965.890"^^xsd:double ;
+	vocab:longitud "-3.694.131.675.088.480"^^xsd:double ;
+	vocab:cp "28020"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CUATRO+CAMINOS> owl:sameAs <http://www.wikidata.org/wiki/Q5824684> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13475> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/CUATRO+CAMINOS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/TETUAN> owl:sameAs <http://www.wikidata.org/wiki/Q1773540> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13475> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/TETUAN> ;
+	vocab:num "11"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fb2e15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13475> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/183747> vocab:plazas "Plazas: 135 públicas y 449 para residentes" ;
+	a vocab:aparcamientos ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:nombre "Aparcamiento mixto. Casino de la Reina" ;
+	vocab:calle "CASINO" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "40.406.792.648.617.100"^^xsd:double ;
+	vocab:longitud "-37.046.086.019.457.100"^^xsd:double ;
+	vocab:cp "28005"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/EMBAJADORES> owl:sameAs <http://www.wikidata.org/wiki/Q2449844> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/183747> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/EMBAJADORES> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/183747> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "3"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c5f4bdc85c01c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/183747> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13477> vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "0"^^xsd:boolean ;
+	vocab:nombre "Aparcamiento mixto. Condesa de Gavia" ;
+	a vocab:aparcamientos ;
+	vocab:plazas "Plazas: 73 públicas y 79 para residentes" ;
+	vocab:calle "CONDESA DE GAVIA" ;
+	vocab:clasevia "PLAZA" ;
+	vocab:latitud "4.044.938.567.948.410"^^xsd:double ;
+	vocab:longitud "-37.019.164.121.880.800"^^xsd:double ;
+	vocab:cp "28020"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CUATRO+CAMINOS> owl:sameAs <http://www.wikidata.org/wiki/Q5824684> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13477> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/CUATRO+CAMINOS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/TETUAN> owl:sameAs <http://www.wikidata.org/wiki/Q1773540> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13477> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/TETUAN> ;
+	vocab:num "0"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7e5f15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13477> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/24103> vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:calle "CORAZON DE MARIA" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:plazas "Plazas: 327 públicas y 750 para residentes" ;
+	a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento mixto. Corazón de María II" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "40.444.421.820.483.200"^^xsd:double ;
+	vocab:longitud "-3.666.902.094.780.130"^^xsd:double ;
+	vocab:cp "28002"^^xsd:int ;
+	vocab:telefono "915 563 165"^^xsd:int ;
+	vocab:email "aparcamientocorazondemaria@grupocogesa.es" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/PROSPERIDAD> owl:sameAs <http://www.wikidata.org/wiki/Q4776> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/24103> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/PROSPERIDAD> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CHAMARTIN> owl:sameAs <http://www.wikidata.org/wiki/Q1766348> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/24103> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CHAMARTIN> ;
+	vocab:num "46"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b74e6545f951c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/24103> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/81736> vocab:plazas "Plazas: 120 públicas y 125 para residentes" ;
+	a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento mixto. Corona Boreal" ;
+	vocab:accesibilidad "1"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "PEREZ DE VICTORIA" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.045.852.127.134.040"^^xsd:double ;
+	vocab:longitud "-378.317.943.069.732"^^xsd:double ;
+	vocab:cp "28023"^^xsd:int ;
+	vocab:telefono "913 573 714"^^xsd:int ;
+	vocab:email "parkingcoronaboreal@hotmail.com" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/ARAVACA> owl:sameAs <http://www.wikidata.org/wiki/Q3314682> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/81736> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/ARAVACA> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MONCLOA-ARAVACA> owl:sameAs <http://www.wikidata.org/wiki/Q2017682> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/81736> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/MONCLOA-ARAVACA> ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=db8bc2c6e051c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/81736> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/183748> a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento mixto. Daoíz y Velarde" ;
+	vocab:plazas "Plazas: 312 públicas y 174 para residentes" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "CIUDAD DE BARCELONA" ;
+	vocab:clasevia "AVENIDA" ;
+	vocab:latitud "4.040.531.540.835.350"^^xsd:double ;
+	vocab:longitud "-3.683.557.034.656.530"^^xsd:double ;
+	vocab:cp "28007"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/PACIFICO> owl:sameAs <http://www.wikidata.org/wiki/Q3773753> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/183748> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/PACIFICO> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/RETIRO> owl:sameAs <http://www.wikidata.org/wiki/Q2002296> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/183748> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/RETIRO> ;
+	vocab:num "3"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0f85bdc85c01c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/183748> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/44724> vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:nombre "Aparcamiento mixto. Díaz Porlier" ;
+	vocab:plazas "Plazas: 203 públicas y 421 para residentes" ;
+	a vocab:aparcamientos ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "DIEGO DE LEON" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "40.434.415.601.006.300"^^xsd:double ;
+	vocab:longitud "-3.675.728.293.375.590"^^xsd:double ;
+	vocab:cp "28006"^^xsd:int ;
+	vocab:telefono "91 401 73 74"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/LISTA> owl:sameAs <http://www.wikidata.org/wiki/Q4779> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/44724> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/LISTA> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> owl:sameAs <http://www.wikidata.org/wiki/Q1773521> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/44724> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> ;
+	vocab:num "62"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9e69946be351c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/44724> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/36269> a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento mixto. Encuentro" ;
+	vocab:plazas "Plazas: 104 públicas y 550 para residentes" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "ENCUENTRO" ;
+	vocab:clasevia "PLAZA" ;
+	vocab:latitud "4.040.581.270.738.190"^^xsd:double ;
+	vocab:longitud "-3.652.048.809.515.800"^^xsd:double ;
+	vocab:cp "28030"^^xsd:int ;
+	vocab:telefono "91 328 36 80"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MEDIA+LEGUA> owl:sameAs <http://www.wikidata.org/wiki/Q9031035> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/36269> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/MEDIA+LEGUA> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MORATALAZ> owl:sameAs <http://www.wikidata.org/wiki/Q2076109> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/36269> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/MORATALAZ> ;
+	vocab:num "1"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c3e12c798651c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/36269> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13464> vocab:calle "ANTONIA MERCE" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:nombre "Aparcamiento mixto. Felipe II" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	a vocab:aparcamientos ;
+	vocab:plazas "Plazas: 1175 públicas rotacionales y 615 para residentes " ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.042.422.175.692.130"^^xsd:double ;
+	vocab:longitud "-3.673.433.652.213.160"^^xsd:double ;
+	vocab:cp "28009"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/GOYA> owl:sameAs <http://www.wikidata.org/wiki/Q3814578> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13464> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/GOYA> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> owl:sameAs <http://www.wikidata.org/wiki/Q1773521> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13464> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> ;
+	vocab:num "5"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=425e15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13464> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13462> vocab:nombre "Aparcamiento mixto. Fuencarral" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:plazas "Plazas: 410 públicas y 111 para residentes " ;
+	a vocab:aparcamientos ;
+	vocab:calle "FUENCARRAL" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.042.948.845.687.030"^^xsd:double ;
+	vocab:longitud "-37.027.941.027.177.900"^^xsd:double ;
+	vocab:cp "28010"^^xsd:int ;
+	vocab:telefono "915 468 939"^^xsd:int ;
+	vocab:email "clientes@empark.es" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/TRAFALGAR> owl:sameAs <http://www.wikidata.org/wiki/Q10384027> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13462> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/TRAFALGAR> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CHAMBERI> owl:sameAs <http://www.wikidata.org/wiki/Q1763370> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13462> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CHAMBERI> ;
+	vocab:num "111"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=987e15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13462> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/36270> vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:plazas "Plazas: 115 públicas y 383 residentes " ;
+	a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento mixto. Hernani" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:calle "HERNANI" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "40.448.394.729.978.000"^^xsd:double ;
+	vocab:longitud "-37.033.919.552.673.100"^^xsd:double ;
+	vocab:cp "28020"^^xsd:int ;
+	vocab:telefono "915 545 326"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CUATRO+CAMINOS> owl:sameAs <http://www.wikidata.org/wiki/Q5824684> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/36270> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/CUATRO+CAMINOS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/TETUAN> owl:sameAs <http://www.wikidata.org/wiki/Q1773540> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/36270> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/TETUAN> ;
+	vocab:num "60"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d0712c798651c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/36270> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13459> a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento mixto. Jacinto Benavente" ;
+	vocab:plazas "Plazas: 285 públicas y 110 para residentes" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "JACINTO BENAVENTE" ;
+	vocab:clasevia "PLAZA" ;
+	vocab:latitud "4.041.444.016.371.450"^^xsd:double ;
+	vocab:longitud "-370.332.112.917.586"^^xsd:double ;
+	vocab:cp "28012"^^xsd:int ;
+	vocab:telefono "917 877 292"^^xsd:int ;
+	vocab:email "aparcamientos@madridmovilidad.es" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CORTES> owl:sameAs <http://www.wikidata.org/wiki/Q2535637> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13459> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/CORTES> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13459> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "6"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c48f15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13459> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13479> vocab:calle "CAPITAN HAYA" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento mixto. José Castán Tobeñas" ;
+	vocab:clasevia "CALLE" ;
+	vocab:plazas "Plazas: 205 públicas y 43 para residentes" ;
+	vocab:latitud "4.046.451.060.463.540"^^xsd:double ;
+	vocab:longitud "-36.916.467.875.121.300"^^xsd:double ;
+	vocab:cp "28020"^^xsd:int ;
+	vocab:telefono "915 707 612"^^xsd:int ;
+	vocab:email "aeuropeos@gmail.com" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CASTILLEJOS> owl:sameAs <http://www.wikidata.org/wiki/Q11913212> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13479> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/CASTILLEJOS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/TETUAN> owl:sameAs <http://www.wikidata.org/wiki/Q1773540> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13479> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/TETUAN> ;
+	vocab:num "57"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=35ce15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13479> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/6143690> vocab:nombre "Aparcamiento mixto. Marqués de Salamanca" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:plazas "Plazas: 360 públicas y 70 para residentes" ;
+	a vocab:aparcamientos ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "MARQUES DE SALAMANCA" ;
+	vocab:clasevia "PLAZA" ;
+	vocab:latitud "4.043.046.723.981.020"^^xsd:double ;
+	vocab:longitud "-36.792.137.901.324.000"^^xsd:double ;
+	vocab:cp "28006"^^xsd:int ;
+	vocab:telefono "917 877 292"^^xsd:int ;
+	vocab:email "aparcamientos@madridmovilidad.es" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/LISTA> owl:sameAs <http://www.wikidata.org/wiki/Q4779> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/6143690> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/LISTA> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> owl:sameAs <http://www.wikidata.org/wiki/Q1773521> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/6143690> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> ;
+	vocab:num "8"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cb5b1b2bb5b61310VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/6143690> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/182188> a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento mixto. Miguel Yuste" ;
+	vocab:plazas "Plazas: 182  públicas y 68 para residentes" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "MIGUEL YUSTE" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "404.402.052.387.976"^^xsd:double ;
+	vocab:longitud "-3.625.049.272.913.960"^^xsd:double ;
+	vocab:cp "28037"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SIMANCAS> owl:sameAs <http://www.wikidata.org/wiki/Q10371626> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/182188> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/SIMANCAS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SAN+BLAS-CANILLEJAS> owl:sameAs <http://www.wikidata.org/wiki/Q2001937> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/182188> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/SAN+BLAS-CANILLEJAS> ;
+	vocab:num "11"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1c15bdc85c01c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/182188> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13465> vocab:accesibilidad "1"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:nombre "Aparcamiento mixto. Montalbán" ;
+	a vocab:aparcamientos ;
+	vocab:plazas "Plazas: 145 Residenciales 130 Rotacionales" ;
+	vocab:calle "MONTALBAN" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.041.802.725.000.110"^^xsd:double ;
+	vocab:longitud "-3.691.123.387.515.540"^^xsd:double ;
+	vocab:cp "28014"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/LOS+JERONIMOS> owl:sameAs <http://www.wikidata.org/wiki/Q10306766> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13465> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/LOS+JERONIMOS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/RETIRO> owl:sameAs <http://www.wikidata.org/wiki/Q2002296> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13465> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/RETIRO> ;
+	vocab:num "4"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f0967339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13465> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/5517342> vocab:plazas "Plazas: 128 públicas y 663 para residentes" ;
+	vocab:nombre "Aparcamiento mixto. Orense" ;
+	a vocab:aparcamientos ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "SOR ANGELA DE LA CRUZ" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.045.973.534.025.830"^^xsd:double ;
+	vocab:longitud "-36.962.330.375.922.300"^^xsd:double ;
+	vocab:cp "28020"^^xsd:int ;
+	vocab:email "aparcamientos@emtmadrid.es" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CASTILLEJOS> owl:sameAs <http://www.wikidata.org/wiki/Q11913212> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/5517342> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/CASTILLEJOS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/TETUAN> owl:sameAs <http://www.wikidata.org/wiki/Q1773540> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/5517342> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/TETUAN> ;
+	vocab:num "27"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=eee35ed15bb95210VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/5517342> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/52114> vocab:clasevia "PLAZA" ;
+	vocab:calle "PEDRO ZEROLO" ;
+	vocab:nombre "Aparcamiento mixto. Pedro Zerolo 'antes denominado Vázquez de Mella'" ;
+	vocab:plazas "Plazas: 107 públicas y 261 para residentes." ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	a vocab:aparcamientos ;
+	vocab:latitud "404.209.564.450.911"^^xsd:double ;
+	vocab:longitud "-3.699.899.832.865.300"^^xsd:double ;
+	vocab:cp "28004"^^xsd:int ;
+	vocab:email "aparcamientos@emtmadrid.es" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/JUSTICIA> owl:sameAs <http://www.wikidata.org/wiki/Q1992319> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/52114> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/JUSTICIA> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/52114> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "1"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e499946be351c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/52114> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/33440> vocab:plazas "Plazas: 242 públicas rotacionales (30 plazas para autobuses) y 511 para residentes" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	a vocab:aparcamientos ;
+	vocab:clasevia "PLAZA" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "ORIENTE" ;
+	vocab:nombre "Aparcamiento mixto. Plaza de Oriente" ;
+	vocab:latitud "40.417.632.509.561.100"^^xsd:double ;
+	vocab:longitud "-37.116.407.088.004.700"^^xsd:double ;
+	vocab:cp "28013"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/PALACIO> owl:sameAs <http://www.wikidata.org/wiki/Q2136510> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/33440> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/PALACIO> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/33440> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "1"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7db12c798651c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/33440> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13466> vocab:calle "FELIPE III" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:plazas "Plazas: 694279 Residenciales415 Rotacionales" ;
+	vocab:nombre "Aparcamiento mixto. Plaza Mayor" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	a vocab:aparcamientos ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.041.586.882.022.000"^^xsd:double ;
+	vocab:longitud "-3.706.895.619.414.360"^^xsd:double ;
+	vocab:cp "28012"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SOL> owl:sameAs <http://www.wikidata.org/wiki/Q2465181> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13466> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/SOL> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13466> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "11"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2b1981eb5f51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13466> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/36271> vocab:horario "De lunes a domingo servicio ininterrumpido" ;
+	vocab:nombre "Aparcamiento mixto. Presidente Carmona" ;
+	vocab:plazas "Plazas: 379 públicas y 124 para residentes" ;
+	a vocab:aparcamientos ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "PRESIDENTE CARMONA" ;
+	vocab:clasevia "AVENIDA" ;
+	vocab:latitud "4.045.362.846.199.130"^^xsd:double ;
+	vocab:longitud "-36.975.262.417.380.000"^^xsd:double ;
+	vocab:cp "28020"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CUATRO+CAMINOS> owl:sameAs <http://www.wikidata.org/wiki/Q5824684> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/36271> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/CUATRO+CAMINOS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/TETUAN> owl:sameAs <http://www.wikidata.org/wiki/Q1773540> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/36271> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/TETUAN> ;
+	vocab:num "3"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8a412c798651c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/36271> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13476> vocab:nombre "Aparcamiento mixto. Recoletos" ;
+	vocab:plazas "Plazas: 102 públicas y 289 para residentes " ;
+	a vocab:aparcamientos ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "RECOLETOS" ;
+	vocab:clasevia "PASEO" ;
+	vocab:latitud "4.042.054.469.225.100"^^xsd:double ;
+	vocab:longitud "-3.691.974.283.683.480"^^xsd:double ;
+	vocab:cp "28001"^^xsd:int ;
+	vocab:email "aparcamientos@emtmadrid.es" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/RECOLETOS> owl:sameAs <http://www.wikidata.org/wiki/Q3814551> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13476> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/RECOLETOS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> owl:sameAs <http://www.wikidata.org/wiki/Q1773521> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13476> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> ;
+	vocab:num "4"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=283f15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13476> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/24193> vocab:plazas "Plazas: 892 públicas y 203 para residentes" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento mixto. República Dominicana" ;
+	vocab:calle "REPUBLICA DOMINICANA" ;
+	vocab:clasevia "PLAZA" ;
+	vocab:latitud "4.045.887.037.458.620"^^xsd:double ;
+	vocab:longitud "-36.765.275.895.176.600"^^xsd:double ;
+	vocab:cp "28016"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/NUEVA+ESPA%C3%91A> owl:sameAs <http://www.wikidata.org/wiki/Q10338128> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/24193> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/NUEVA+ESPA%C3%91A> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CHAMARTIN> owl:sameAs <http://www.wikidata.org/wiki/Q1766348> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/24193> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CHAMARTIN> ;
+	vocab:num "6"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aabe6545f951c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/24193> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/167692> vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:nombre "Aparcamiento mixto. San Cayetano" ;
+	a vocab:aparcamientos ;
+	vocab:plazas "Plazas: 222 públicas y 261 para residentes" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "SAN CAYETANO" ;
+	vocab:clasevia "PLAZA" ;
+	vocab:latitud "4.043.432.235.224.970"^^xsd:double ;
+	vocab:longitud "-36.700.799.322.371.000"^^xsd:double ;
+	vocab:cp "28028"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/GUINDALERA> owl:sameAs <http://www.wikidata.org/wiki/Q3814559> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/167692> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/GUINDALERA> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> owl:sameAs <http://www.wikidata.org/wiki/Q1773521> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/167692> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> ;
+	vocab:num "1"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a284ff632081c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/167692> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13515> a vocab:aparcamientos ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:nombre "Aparcamiento mixto. San Germán II (antes General Yagüe)" ;
+	vocab:calle "BRASIL" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:plazas "Plazas: 409 públicas y 717 residentes" ;
+	vocab:clasevia "AVENIDA" ;
+	vocab:latitud "4.045.673.936.450.410"^^xsd:double ;
+	vocab:longitud "-3.694.067.405.537.410"^^xsd:double ;
+	vocab:cp "28020"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CASTILLEJOS> owl:sameAs <http://www.wikidata.org/wiki/Q11913212> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13515> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/CASTILLEJOS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/TETUAN> owl:sameAs <http://www.wikidata.org/wiki/Q1773540> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13515> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/TETUAN> ;
+	vocab:num "15"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ee9e15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13515> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/19053> vocab:plazas "Plazas: 132 públicas y 408 para residentes" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento mixto. Sánchez Bustillo" ;
+	vocab:calle "SANCHEZ BUSTILLO" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.040.917.205.238.470"^^xsd:double ;
+	vocab:longitud "-36.940.145.592.988.000"^^xsd:double ;
+	vocab:cp "28012"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/EMBAJADORES> owl:sameAs <http://www.wikidata.org/wiki/Q2449844> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/19053> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/EMBAJADORES> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/19053> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "1"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=27912c798651c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/19053> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7416748> a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento mixto. Serrano I" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:plazas "Plazas: 307 públicas y 831 para residentes" ;
+	vocab:calle "JUAN BRAVO" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.043.289.700.914.240"^^xsd:double ;
+	vocab:longitud "-36.857.697.780.390.100"^^xsd:double ;
+	vocab:cp "28006"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CASTELLANA> owl:sameAs <http://www.wikidata.org/wiki/Q4781> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7416748> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/CASTELLANA> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> owl:sameAs <http://www.wikidata.org/wiki/Q1773521> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7416748> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> ;
+	vocab:num "4"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bd61f94ae1d15410VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7416748> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7417028> a vocab:aparcamientos ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:nombre "Aparcamiento mixto. Serrano II" ;
+	vocab:plazas "Plazas: 379 públicas y 794 para residentes" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "JOSE ORTEGA Y GASSET" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.043.059.379.257.070"^^xsd:double ;
+	vocab:longitud "-3.688.281.097.618.060"^^xsd:double ;
+	vocab:cp "28006"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CASTELLANA> owl:sameAs <http://www.wikidata.org/wiki/Q4781> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7417028> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/CASTELLANA> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> owl:sameAs <http://www.wikidata.org/wiki/Q1773521> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7417028> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> ;
+	vocab:num "1"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bc096f1c35d15410VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7417028> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7417052> vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:nombre "Aparcamiento mixto. Serrano III" ;
+	a vocab:aparcamientos ;
+	vocab:plazas "Plazas: 261 públicas y 725 para residentes" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "JORGE JUAN" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.042.446.775.888.820"^^xsd:double ;
+	vocab:longitud "-36.897.747.066.093.900"^^xsd:double ;
+	vocab:cp "28001"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/RECOLETOS> owl:sameAs <http://www.wikidata.org/wiki/Q3814551> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7417052> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/RECOLETOS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> owl:sameAs <http://www.wikidata.org/wiki/Q1773521> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7417052> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> ;
+	vocab:num "1"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9a1c6f1c35d15410VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7417052> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13460> a vocab:aparcamientos ;
+	vocab:plazas "Plazas: 649 públicas rotacionales y 74 para residentes" ;
+	vocab:nombre "Aparcamiento mixto. Sevilla" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "ALCALA" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.041.780.383.567.920"^^xsd:double ;
+	vocab:longitud "-36.998.082.261.071.700"^^xsd:double ;
+	vocab:cp "28014"^^xsd:int ;
+	vocab:telefono "915 219 281"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SOL> owl:sameAs <http://www.wikidata.org/wiki/Q2465181> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13460> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/SOL> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13460> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "17"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9dd67339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13460> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13458> vocab:calle "VELAZQUEZ" ;
+	vocab:nombre "Aparcamiento mixto. Velázquez - Ayala" ;
+	vocab:plazas "Plazas: 464 públicas y 235 para residentes" ;
+	vocab:clasevia "CALLE" ;
+	a vocab:aparcamientos ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:latitud "40.427.203.787.185.400"^^xsd:double ;
+	vocab:longitud "-36.841.676.172.873.900"^^xsd:double ;
+	vocab:cp "28001"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/RECOLETOS> owl:sameAs <http://www.wikidata.org/wiki/Q3814551> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13458> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/RECOLETOS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> owl:sameAs <http://www.wikidata.org/wiki/Q1773521> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13458> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> ;
+	vocab:num "47"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8bee15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13458> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13457> a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento mixto. Velázquez - Jorge Juan" ;
+	vocab:plazas "Plazas: 549 públicas y 395 para residentes" ;
+	vocab:accesibilidad "1"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "VELAZQUEZ" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "404.243.649.253.884"^^xsd:double ;
+	vocab:longitud "-3.684.339.253.399.850"^^xsd:double ;
+	vocab:cp "28001"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/RECOLETOS> owl:sameAs <http://www.wikidata.org/wiki/Q3814551> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13457> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/RECOLETOS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> owl:sameAs <http://www.wikidata.org/wiki/Q1773521> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13457> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> ;
+	vocab:num "25"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d11f15cbed51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13457> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/183607> vocab:nombre "Aparcamiento mixto. Verdaguer y García" ;
+	a vocab:aparcamientos ;
+	vocab:plazas "Plazas: 83 públicas y 180 para residentes" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "VERDAGUER Y GARCIA" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.043.992.277.144.070"^^xsd:double ;
+	vocab:longitud "-3.656.505.118.007.150"^^xsd:double ;
+	vocab:cp "28027"^^xsd:int ;
+	vocab:telefono "913 531 050"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SAN+PASCUAL> owl:sameAs <http://www.wikidata.org/wiki/Q165612> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/183607> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/SAN+PASCUAL> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CIUDAD+LINEAL> owl:sameAs <http://www.wikidata.org/wiki/Q1763694> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/183607> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CIUDAD+LINEAL> ;
+	vocab:num "1"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6245bdc85c01c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/183607> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/10489514> vocab:horario "Horario de apertura de 6:00 h a 22:00 h los días laborables excepto los días de partido en el estadio Metropolitano" ;
+	a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento público disuasorio Estadio Metropolitano Sur ES-02b" ;
+	vocab:plazas "Plazas:para automóviles 1719 para motocicletas 61" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "0"^^xsd:boolean ;
+	vocab:calle "ARCENTALES" ;
+	vocab:clasevia "AVENIDA" ;
+	vocab:latitud "40.434.154"^^xsd:double ;
+	vocab:longitud "-3.598.831"^^xsd:double ;
+	vocab:cp "28022"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/ROSAS> owl:sameAs <http://www.wikidata.org/wiki/Q18880469> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/10489514> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/ROSAS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SAN+BLAS-CANILLEJAS> owl:sameAs <http://www.wikidata.org/wiki/Q2001937> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/10489514> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/SAN+BLAS-CANILLEJAS> ;
+	vocab:num "37"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=975b89a80c49e510VgnVCM1000001d4a900aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/10489514> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13452> a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento público. Almagro" ;
+	vocab:plazas "Plazas: 462 " ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "ALMAGRO" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.043.030.345.785.860"^^xsd:double ;
+	vocab:longitud "-36.931.471.299.523.400"^^xsd:double ;
+	vocab:cp "28010"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/ALMAGRO> owl:sameAs <http://www.wikidata.org/wiki/Q10954432> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13452> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/ALMAGRO> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CHAMBERI> owl:sameAs <http://www.wikidata.org/wiki/Q1763370> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13452> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CHAMBERI> ;
+	vocab:num "13"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0e167339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13452> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7393089> vocab:accesibilidad "1"^^xsd:boolean ;
+	vocab:plazas "Plazas: 376" ;
+	vocab:nombre "Aparcamiento público. Auditorio Nacional de Música (Príncipe de Vergara)" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	a vocab:aparcamientos ;
+	vocab:calle "CARTAGENA" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.044.426.892.073.370"^^xsd:double ;
+	vocab:longitud "-36.777.018.495.296.000"^^xsd:double ;
+	vocab:cp "28002"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CIUDAD+JARDIN> owl:sameAs <http://www.wikidata.org/wiki/Q3773744> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7393089> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/CIUDAD+JARDIN> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CHAMARTIN> owl:sameAs <http://www.wikidata.org/wiki/Q1766348> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7393089> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CHAMARTIN> ;
+	vocab:num "176"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ed88f25e040c4410VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/7393089> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13473> vocab:nombre "Aparcamiento público. Descalzas" ;
+	vocab:plazas "Plazas: 400" ;
+	vocab:accesibilidad "1"^^xsd:boolean ;
+	vocab:clasevia "PLAZA" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "DESCALZAS" ;
+	a vocab:aparcamientos ;
+	vocab:latitud "4.041.809.765.692.240"^^xsd:double ;
+	vocab:longitud "-3.706.306.013.191.400"^^xsd:double ;
+	vocab:cp "28013"^^xsd:int ;
+	vocab:telefono "91 532 57 57"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SOL> owl:sameAs <http://www.wikidata.org/wiki/Q2465181> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13473> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/SOL> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13473> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "4"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=98e77339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13473> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/24809> vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:clasevia "CALLE" ;
+	vocab:plazas "Plazas: 245" ;
+	a vocab:aparcamientos ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "CARLOS Y GUILLERMO FERNANDEZ SHAW" ;
+	vocab:nombre "Aparcamiento público. Fernández Shaw" ;
+	vocab:latitud "40.406.002.468.696.700"^^xsd:double ;
+	vocab:longitud "-3.669.292.239.090.560"^^xsd:double ;
+	vocab:cp "28007"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/ADELFAS> owl:sameAs <http://www.wikidata.org/wiki/Q3774001> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/24809> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/ADELFAS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/RETIRO> owl:sameAs <http://www.wikidata.org/wiki/Q2002296> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/24809> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/RETIRO> ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0e6e6545f951c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/24809> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13478> vocab:plazas "Plazas: 244" ;
+	a vocab:aparcamientos ;
+	vocab:accesibilidad "1"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:nombre "Aparcamiento público. Glorieta Puerta de Toledo" ;
+	vocab:calle "CAPITAN SALAZAR MARTINEZ" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.040.745.328.367.240"^^xsd:double ;
+	vocab:longitud "-37.100.131.737.859.500"^^xsd:double ;
+	vocab:cp "28005"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/EMBAJADORES> owl:sameAs <http://www.wikidata.org/wiki/Q2449844> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13478> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/EMBAJADORES> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13478> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "2"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5f477339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13478> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13467> a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento público. Las Cortes" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:plazas "Plazas: 480" ;
+	vocab:accesibilidad "1"^^xsd:boolean ;
+	vocab:calle "LAS CORTES" ;
+	vocab:clasevia "PLAZA" ;
+	vocab:latitud "4.041.576.756.093.720"^^xsd:double ;
+	vocab:longitud "-3.695.367.083.138.700"^^xsd:double ;
+	vocab:cp "28014"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CORTES> owl:sameAs <http://www.wikidata.org/wiki/Q2535637> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13467> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/CORTES> ;
+	vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/DISTRITO> ;
+	vocab:num "0"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=42c77339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13467> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13449> vocab:plazas "Plazas: 481" ;
+	vocab:accesibilidad "1"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "SANTA MARIA SOLEDAD TORRES ACOSTA" ;
+	a vocab:aparcamientos ;
+	vocab:clasevia "PLAZA" ;
+	vocab:nombre "Aparcamiento público. Luna - Tudescos" ;
+	vocab:latitud "404.214.535.549.175"^^xsd:double ;
+	vocab:longitud "-3.705.563.118.253.950"^^xsd:double ;
+	vocab:cp "28004"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/UNIVERSIDAD> owl:sameAs <http://www.wikidata.org/wiki/Q10387767> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13449> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/UNIVERSIDAD> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13449> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "2"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=54467339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13449> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13469> vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:nombre "Aparcamiento público. Marqués de Urquijo" ;
+	vocab:plazas "Plazas: 482" ;
+	vocab:clasevia "CALLE" ;
+	vocab:calle "MARQUES DE URQUIJO" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	a vocab:aparcamientos ;
+	vocab:latitud "4.042.955.928.333.470"^^xsd:double ;
+	vocab:longitud "-3.719.111.078.507.020"^^xsd:double ;
+	vocab:cp "28008"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/ARGUELLES> owl:sameAs <http://www.wikidata.org/wiki/Q64874> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13469> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/ARGUELLES> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MONCLOA-ARAVACA> owl:sameAs <http://www.wikidata.org/wiki/Q2017682> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13469> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/MONCLOA-ARAVACA> ;
+	vocab:num "27"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aa667339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13469> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13451> a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento público. Mostenses" ;
+	vocab:accesibilidad "1"^^xsd:boolean ;
+	vocab:plazas "Plazas: 362 " ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "GARCIA MOLINAS" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "404.227.759.148.193"^^xsd:double ;
+	vocab:longitud "-3.708.830.424.647.750"^^xsd:double ;
+	vocab:cp "28015"^^xsd:int ;
+	vocab:telefono "902 283 080"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/UNIVERSIDAD> owl:sameAs <http://www.wikidata.org/wiki/Q10387767> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13451> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/UNIVERSIDAD> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13451> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "4"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fe0881eb5f51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13451> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/88141> vocab:nombre "Aparcamiento público. Museo de la Ciudad" ;
+	a vocab:aparcamientos ;
+	vocab:plazas "Plazas: 147" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "PRINCIPE DE VERGARA" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.044.366.224.087.450"^^xsd:double ;
+	vocab:longitud "-36.782.263.814.004.500"^^xsd:double ;
+	vocab:cp "28002"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CIUDAD+JARDIN> owl:sameAs <http://www.wikidata.org/wiki/Q3773744> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/88141> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/CIUDAD+JARDIN> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CHAMARTIN> owl:sameAs <http://www.wikidata.org/wiki/Q1766348> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/88141> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CHAMARTIN> ;
+	vocab:num "134"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bdc7bdc85c01c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/88141> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13450> vocab:nombre "Aparcamiento público. Olavide" ;
+	a vocab:aparcamientos ;
+	vocab:plazas "Plazas: 397" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "OLAVIDE" ;
+	vocab:clasevia "PLAZA" ;
+	vocab:latitud "4.043.277.769.820.200"^^xsd:double ;
+	vocab:longitud "-37.011.542.013.121.200"^^xsd:double ;
+	vocab:cp "28010"^^xsd:int ;
+	vocab:telefono "914 468 570"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/TRAFALGAR> owl:sameAs <http://www.wikidata.org/wiki/Q10384027> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13450> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/TRAFALGAR> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CHAMBERI> owl:sameAs <http://www.wikidata.org/wiki/Q1763370> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13450> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CHAMBERI> ;
+	vocab:num "17"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=453881eb5f51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13450> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13454> a vocab:aparcamientos ;
+	vocab:nombre "Aparcamiento público. Plaza de Colón" ;
+	vocab:plazas "Plazas: 605" ;
+	vocab:accesibilidad "1"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "GOYA" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.042.518.540.300.910"^^xsd:double ;
+	vocab:longitud "-36.887.800.207.651.400"^^xsd:double ;
+	vocab:cp "28001"^^xsd:int ;
+	vocab:telefono "915 761 837"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/RECOLETOS> owl:sameAs <http://www.wikidata.org/wiki/Q3814551> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13454> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/RECOLETOS> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> owl:sameAs <http://www.wikidata.org/wiki/Q1773521> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13454> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> ;
+	vocab:num "2"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a5777339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13454> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13463> vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:nombre "Aparcamiento público. Plaza de España" ;
+	a vocab:aparcamientos ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "ESPANA" ;
+	vocab:plazas "Plazas: 800 (hasta 535 abonados)" ;
+	vocab:clasevia "PLAZA" ;
+	vocab:latitud "4.042.372.251.184.830"^^xsd:double ;
+	vocab:longitud "-37.116.577.340.508.500"^^xsd:double ;
+	vocab:cp "28008"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/ARGUELLES> owl:sameAs <http://www.wikidata.org/wiki/Q64874> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13463> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/ARGUELLES> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MONCLOA-ARAVACA> owl:sameAs <http://www.wikidata.org/wiki/Q2017682> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13463> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/MONCLOA-ARAVACA> ;
+	vocab:num "20"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fb977339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13463> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13472> vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:plazas "Plazas: 450 Plaza para minusválidos residentes: 7" ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	a vocab:aparcamientos ;
+	vocab:calle "CARMEN" ;
+	vocab:nombre "Aparcamiento público. Plaza del Carmen" ;
+	vocab:clasevia "PLAZA" ;
+	vocab:latitud "4.041.848.676.016.160"^^xsd:double ;
+	vocab:longitud "-3.703.068.586.180.960"^^xsd:double ;
+	vocab:cp "28013"^^xsd:int ;
+	vocab:telefono "915 214 312"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SOL> owl:sameAs <http://www.wikidata.org/wiki/Q2465181> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13472> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/SOL> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13472> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "10"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8ec881eb5f51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13472> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13474> vocab:accesibilidad "0"^^xsd:boolean ;
+	a vocab:aparcamientos ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "REY" ;
+	vocab:nombre "Aparcamiento público. Plaza del Rey" ;
+	vocab:plazas "Plazas: 160 Plaza para minusválidos residentes: 16" ;
+	vocab:clasevia "PLAZA" ;
+	vocab:latitud "4.042.018.796.139.450"^^xsd:double ;
+	vocab:longitud "-369.587.231.093.941"^^xsd:double ;
+	vocab:cp "28004"^^xsd:int ;
+	vocab:telefono "915 225 219"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/JUSTICIA> owl:sameAs <http://www.wikidata.org/wiki/Q1992319> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13474> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/JUSTICIA> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13474> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "1"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d4f881eb5f51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13474> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13456> a vocab:aparcamientos ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:nombre "Aparcamiento público. Santa Ana" ;
+	vocab:plazas "Plazas: 325Plaza para minusválidos residentes: 6" ;
+	vocab:calle "SANTA ANA" ;
+	vocab:accesibilidad "1"^^xsd:boolean ;
+	vocab:clasevia "PLAZA" ;
+	vocab:latitud "4.041.487.830.605.110"^^xsd:double ;
+	vocab:longitud "-3.700.897.645.451.050"^^xsd:double ;
+	vocab:cp "28012"^^xsd:int ;
+	vocab:telefono "915 214 312"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CORTES> owl:sameAs <http://www.wikidata.org/wiki/Q2535637> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13456> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/CORTES> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13456> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "16"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9b5881eb5f51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13456> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/10737574> vocab:clasevia "CALLE" ;
+	vocab:nombre "Aparcamiento público. Usera" ;
+	vocab:plazas "Plazas: 36" ;
+	vocab:accesibilidad "0"^^xsd:boolean ;
+	vocab:calle "AMPARO USERA" ;
+	vocab:abierto24h "0"^^xsd:boolean ;
+	a vocab:aparcamientos ;
+	vocab:latitud "4.038.710.254.642.700"^^xsd:double ;
+	vocab:longitud "-37.065.255.061.698.000"^^xsd:double ;
+	vocab:cp "28026"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MOSCARDO> owl:sameAs <http://www.wikidata.org/wiki/Q11937679> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/10737574> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/MOSCARDO> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/USERA> owl:sameAs <http://www.wikidata.org/wiki/Q953368> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/10737574> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/USERA> ;
+	vocab:num "46"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ce8907e1fd534610VgnVCM1000001d4a900aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/10737574> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13468> vocab:nombre "Aparcamiento público. Velázquez - Juan Bravo" ;
+	a vocab:aparcamientos ;
+	vocab:plazas "Plazas: 371" ;
+	vocab:accesibilidad "1"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "VELAZQUEZ" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "40.431.991.827.319.100"^^xsd:double ;
+	vocab:longitud "-3.683.449.815.935.090"^^xsd:double ;
+	vocab:cp "28006"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CASTELLANA> owl:sameAs <http://www.wikidata.org/wiki/Q4781> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13468> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/CASTELLANA> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> owl:sameAs <http://www.wikidata.org/wiki/Q1773521> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13468> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/SALAMANCA> ;
+	vocab:num "88"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e3077339ae51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13468> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13453> vocab:nombre "Aparcamiento público. Villa de París" ;
+	a vocab:aparcamientos ;
+	vocab:plazas "Plazas rotación: 169 Plazas motos: 2" ;
+	vocab:accesibilidad "1"^^xsd:boolean ;
+	vocab:abierto24h "1"^^xsd:boolean ;
+	vocab:calle "MARQUES DE LA ENSENADA" ;
+	vocab:clasevia "CALLE" ;
+	vocab:latitud "4.042.533.530.030.620"^^xsd:double ;
+	vocab:longitud "-36.923.416.648.619.900"^^xsd:double ;
+	vocab:cp "28004"^^xsd:int .
+
+<http://www.aparcamientospublicomadrid.com/recurso/JUSTICIA> owl:sameAs <http://www.wikidata.org/wiki/Q1992319> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13453> vocab:barrio <http://www.aparcamientospublicomadrid.com/recurso/JUSTICIA> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/CENTRO> owl:sameAs <http://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13453> vocab:distrito <http://www.aparcamientospublicomadrid.com/recurso/CENTRO> ;
+	vocab:num "1"^^xsd:int ;
+	vocab:uri "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=38a881eb5f51c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.aparcamientospublicomadrid.com/recurso/MADRID> owl:sameAs <http://www.wikidata.org/wiki/Q2807> .
+
+<http://www.aparcamientospublicomadrid.com/recurso/13453> vocab:localidad <http://www.aparcamientospublicomadrid.com/recurso/MADRID> ;
+	vocab:provincia <http://www.aparcamientospublicomadrid.com/recurso/MADRID> .
