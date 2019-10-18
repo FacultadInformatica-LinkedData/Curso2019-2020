@@ -1,0 +1,19 @@
+<rdf:RDF xml:base="https://www.fi.upm.es/assignment2#">
+	<rdf:Description rdf:about="#Class01">
+		<includes rdf:resource="#sensor029"/>
+		<includes rdf:resource="#Computer01"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Sensor029">
+		<hasMeasurement rdf:resource="#Measurement8401"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Measurement8401">
+		<hasTemperature rdf:dataType="http://www.w3.org/2001/XMLSchema#integer">29</hasTemperature/>
+		<atTime rdf:dataType="http://www.w3.org/2001/XMLSchema#dateTime">2010-06-12T12:00:12</atTime/>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Computer101">
+		<hasOwner rdf:resource="#Usera10A">
+	</rdf:Description>
+	<rdf:Description rdf:about="#Usera10A">
+		<hasName rdf:dataType="http://www.w3.org/2001/XMLSchema#string">Pedro</hasName>
+	</rdf:Description>
+</rdf:RDF>

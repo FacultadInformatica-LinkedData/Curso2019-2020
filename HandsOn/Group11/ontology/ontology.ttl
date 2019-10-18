@@ -1,14 +1,14 @@
-@prefix : <http://www.semweb19-20/G11/fullstation#> .
+@prefix : <http://www.semweb19-20/G11#> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semweb19-20/G11/fullstation> .
+@base <http://www.semweb19-20/G11> .
 
-<http://www.semweb19-20/G11/fullstation> rdf:type owl:Ontology ;
-rdfs:comment "An Alcobendas's fuel station ontology that describe the location, opening hours and fuel prices of every station." .
+<http://www.semweb19-20/G11> rdf:type owl:Ontology ;
+rdfs:comment "An Alcobendas gas station ontology that describe the location, opening hours and fuel prices of every station." .
 
 #################################################################
 #    Datatypes
@@ -36,8 +36,8 @@ geo:long rdf:type rdfs:Datatype .
 #    Data properties
 #################################################################
 
-###  http://www.semweb19-20/G11/fullstation#hasAdress
-:hasAdress rdf:type owl:DatatypeProperty ;
+###  http://www.semweb19-20/G11/fullstation#hasAddress
+:hasAddress rdf:type owl:DatatypeProperty ;
            rdfs:domain :Station ;
            rdfs:range xsd:string .
 
@@ -65,12 +65,21 @@ geo:long rdf:type rdfs:Datatype .
                rdfs:domain :Station ;
                rdfs:range xsd:int .
 
-
-###  http://www.semweb19-20/G11/fullstation#hasPrice
-:hasPrice rdf:type owl:DatatypeProperty ;
-          rdfs:domain :FuelType ;
+###  http://www.semweb19-20/G11/fullstation#hasPriceDiesA
+:hasPriceDiesA rdf:type owl:DatatypeProperty ;
           rdfs:range xsd:double .
 
+###  http://www.semweb19-20/G11/fullstation#hasPriceGas95
+:hasPriceGas95 rdf:type owl:DatatypeProperty ;
+          rdfs:range xsd:double .
+
+###  http://www.semweb19-20/G11/fullstation#hasPriceGas98
+:hasPriceGas98 rdf:type owl:DatatypeProperty ;
+          rdfs:range xsd:double .
+
+###  http://www.semweb19-20/G11/fullstation#hasPriceNewA
+:hasPriceNewA rdf:type owl:DatatypeProperty ;
+          rdfs:range xsd:double .
 
 ###  http://www.semweb19-20/G11/fullstation#hasSchedule
 :hasSchedule rdf:type owl:DatatypeProperty ;
