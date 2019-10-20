@@ -1,5 +1,6 @@
 #Hands-on assignment 3 – Self assessment#
-
+The whole group worked in this part
+There are some problems with the json, since the operations showed in it don´t work properly
 ##Checklist##
 
 **Every RDF file:**
