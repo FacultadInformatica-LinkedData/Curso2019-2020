@@ -1,0 +1,170 @@
+@prefix : <http://www.medicalCentersMadrid.org/Group22/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.medicalCentersMadrid.org/Group22/ontology> .
+
+<http://www.medicalCentersMadrid.org/Group22/ontology> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://dbpedia.org/ontology/borough
+<http://dbpedia.org/ontology/borough> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain :MedicalCenter ;
+                                      rdfs:range <http://es.dbpedia.org/ontology/PopulatedPlace> .
+
+
+###  http://dbpedia.org/ontology/district
+<http://dbpedia.org/ontology/district> rdf:type owl:ObjectProperty ;
+                                       rdfs:domain :MedicalCenter ;
+                                       rdfs:range <http://es.dbpedia.org/ontology/PopulatedPlace> .
+
+
+###  http://es.dbpedia.org/ontology/city
+<http://es.dbpedia.org/ontology/city> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain :MedicalCenter ;
+                                      rdfs:range <http://es.dbpedia.org/ontology/PopulatedPlace> .
+
+
+###  http://es.dbpedia.org/ontology/province
+<http://es.dbpedia.org/ontology/province> rdf:type owl:ObjectProperty ;
+                                          rdfs:domain :MedicalCenter ;
+                                          rdfs:range <http://es.dbpedia.org/ontology/PopulatedPlace> .
+
+
+###  https://schema.org/TravelAction
+<https://schema.org/TravelAction> rdf:type owl:ObjectProperty ;
+                                  rdfs:domain <http://es.dbpedia.org/ontology/PopulatedPlace> ,
+                                              :BikeTrip ,
+                                              :MedicalCenter ,
+                                              <https://schema.org/BusTrip> ,
+                                              <https://schema.org/SubwayStation> ;
+                                  rdfs:range :Transport .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://dbpedia.org/ontology/Name
+<http://dbpedia.org/ontology/Name> rdf:type owl:DatatypeProperty ;
+                                   rdfs:domain <http://es.dbpedia.org/ontology/PopulatedPlace> ,
+                                               :MedicalCenter ;
+                                   rdfs:range xsd:string .
+
+
+###  http://dbpedia.org/ontology/address
+<http://dbpedia.org/ontology/address> rdf:type owl:DatatypeProperty ;
+                                      rdfs:domain <http://es.dbpedia.org/ontology/PopulatedPlace> ,
+                                                  :MedicalCenter ,
+                                                  :Transport ;
+                                      rdfs:range xsd:string .
+
+
+###  http://dbpedia.org/ontology/description
+<http://dbpedia.org/ontology/description> rdf:type owl:DatatypeProperty ;
+                                          rdfs:domain :MedicalCenter ;
+                                          rdfs:range xsd:string .
+
+
+###  http://dbpedia.org/ontology/postalCode
+<http://dbpedia.org/ontology/postalCode> rdf:type owl:DatatypeProperty ;
+                                         rdfs:domain <http://es.dbpedia.org/ontology/PopulatedPlace> ,
+                                                     :MedicalCenter ;
+                                         rdfs:range xsd:integer .
+
+
+###  http://dbpedia.org/page/Latitude
+<http://dbpedia.org/page/Latitude> rdf:type owl:DatatypeProperty ;
+                                   rdfs:domain <http://es.dbpedia.org/ontology/PopulatedPlace> ,
+                                               :MedicalCenter ;
+                                   rdfs:range xsd:integer .
+
+
+###  http://dbpedia.org/page/Longitude
+<http://dbpedia.org/page/Longitude> rdf:type owl:DatatypeProperty ;
+                                    rdfs:domain <http://es.dbpedia.org/ontology/PopulatedPlace> ,
+                                                :MedicalCenter ;
+                                    rdfs:range xsd:integer .
+
+
+###  http://www.medicalCentersMadrid.org/Group22/ontology#Coordinate_X
+:Coordinate_X rdf:type owl:DatatypeProperty ;
+              rdfs:domain <http://es.dbpedia.org/ontology/PopulatedPlace> ,
+                          :MedicalCenter ;
+              rdfs:range xsd:integer .
+
+
+###  http://www.medicalCentersMadrid.org/Group22/ontology#Coordinate_Y
+:Coordinate_Y rdf:type owl:DatatypeProperty ;
+              rdfs:domain <http://es.dbpedia.org/ontology/PopulatedPlace> ,
+                          :MedicalCenter ;
+              rdfs:range xsd:integer .
+
+
+###  http://www.medicalCentersMadrid.org/Group22/ontology#primaryKey
+:primaryKey rdf:type owl:DatatypeProperty ;
+            rdfs:domain :MedicalCenter ;
+            rdfs:range xsd:integer .
+
+
+###  http://www.medicalCentersMadrid.org/Group22/ontology#schedule
+:schedule rdf:type owl:DatatypeProperty ;
+          rdfs:domain :MedicalCenter ;
+          rdfs:range xsd:string .
+
+
+###  https://schema.org/contentUrl
+<https://schema.org/contentUrl> rdf:type owl:DatatypeProperty ;
+                                rdfs:domain :MedicalCenter ;
+                                rdfs:range xsd:string .
+
+
+###  https://schema.org/email
+<https://schema.org/email> rdf:type owl:DatatypeProperty ;
+                           rdfs:domain :MedicalCenter ;
+                           rdfs:range xsd:string .
+
+
+###  https://schema.org/telephone
+<https://schema.org/telephone> rdf:type owl:DatatypeProperty ;
+                               rdfs:domain :MedicalCenter ;
+                               rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://es.dbpedia.org/ontology/PopulatedPlace
+<http://es.dbpedia.org/ontology/PopulatedPlace> rdf:type owl:Class .
+
+
+###  http://www.medicalCentersMadrid.org/Group22/ontology#BikeTrip
+:BikeTrip rdf:type owl:Class ;
+          rdfs:subClassOf :Transport .
+
+
+###  http://www.medicalCentersMadrid.org/Group22/ontology#MedicalCenter
+:MedicalCenter rdf:type owl:Class .
+
+
+###  http://www.medicalCentersMadrid.org/Group22/ontology#Transport
+:Transport rdf:type owl:Class .
+
+
+###  https://schema.org/BusTrip
+<https://schema.org/BusTrip> rdf:type owl:Class ;
+                             rdfs:subClassOf :Transport .
+
+
+###  https://schema.org/SubwayStation
+<https://schema.org/SubwayStation> rdf:type owl:Class ;
+                                   rdfs:subClassOf :Transport .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
