@@ -61,6 +61,12 @@ public class Task07
 		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
 		
+OntModel modelo	= ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
+	InputStream input = FileManager.get().open(filename);
+	modelo.read(input,null);
+	
+	OntClass person = modelo.getOntClass(ns+"Person");
+	
 	ExtendedIterator instancias = person.listInstances();
 	ExtendedIterator subclases = person.listSubClasses();
 	
