@@ -1,0 +1,307 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<https://www.eventosmadrid.es/2> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<https://www.eventosmadrid.es/4> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/5> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/18> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/19> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/21> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<https://www.eventosmadrid.es/34> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<https://www.eventosmadrid.es/35> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/51> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<https://www.eventosmadrid.es/52> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/58> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/59> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/63> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<https://www.eventosmadrid.es/73> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/80> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/85> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/88> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<https://www.eventosmadrid.es/101> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/115> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/116> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<https://www.eventosmadrid.es/119> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/120> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/122> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/139> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/143> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<https://www.eventosmadrid.es/144> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/145> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/156> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/161> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<https://www.eventosmadrid.es/169> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/170> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/175> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/176> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/185> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/186> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/187> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/188> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/190> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/191> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/192> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/194> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/196> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/197> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/198> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/200> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/217> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/218> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/276> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/282> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/283> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/300> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/322> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/330> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/331> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/371> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/390> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/391> owl:sameAs "https://www.wikidata.org/wikiQ56426930" .
+
+<https://www.eventosmadrid.es/397> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<https://www.eventosmadrid.es/403> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/407> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/408> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/420> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/432> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/438> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/445> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/448> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/451> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<https://www.eventosmadrid.es/454> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<https://www.eventosmadrid.es/456> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/457> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/473> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/478> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/481> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/487> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/494> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/549> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/550> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/551> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/560> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<https://www.eventosmadrid.es/562> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/563> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/564> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<https://www.eventosmadrid.es/569> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/572> owl:sameAs "https://www.wikidata.org/wikiQ56426930" .
+
+<https://www.eventosmadrid.es/579> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/590> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/600> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<https://www.eventosmadrid.es/607> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<https://www.eventosmadrid.es/619> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/622> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<https://www.eventosmadrid.es/628> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/631> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/632> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/649> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/653> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/660> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/665> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/671> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/681> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/683> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/691> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/694> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/700> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/701> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/704> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/713> owl:sameAs "https://www.wikidata.org/wikiQ56426930" .
+
+<https://www.eventosmadrid.es/715> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/717> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/732> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/740> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/750> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/755> owl:sameAs "https://www.wikidata.org/wikiQ56426930" .
+
+<https://www.eventosmadrid.es/764> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/767> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/776> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<https://www.eventosmadrid.es/781> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/782> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/783> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/786> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/791> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/793> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<https://www.eventosmadrid.es/803> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/804> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/809> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/812> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/817> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/818> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/844> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<https://www.eventosmadrid.es/845> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/847> owl:sameAs "https://www.wikidata.org/wikiQ56426930" .
+
+<https://www.eventosmadrid.es/853> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/854> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/857> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/858> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/861> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/869> owl:sameAs "https://www.wikidata.org/wikiQ48868396" .
+
+<https://www.eventosmadrid.es/917> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<https://www.eventosmadrid.es/918> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/931> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/942> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/943> owl:sameAs "https://www.wikidata.org/wikiQ28662866" .
+
+<https://www.eventosmadrid.es/952> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/969> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/970> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/971> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/974> owl:sameAs "https://www.wikidata.org/wikiQ6008551" .
+
+<https://www.eventosmadrid.es/988> owl:sameAs "https://www.wikidata.org/wikiQ56426480" .
+
+<https://www.eventosmadrid.es/990> owl:sameAs "https://www.wikidata.org/wikiQ170544" .
+
+<https://www.eventosmadrid.es/996> owl:sameAs "https://www.wikidata.org/wikiQ56426764" .
+
+<https://www.eventosmadrid.es/998> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
+
+<https://www.eventosmadrid.es/999> owl:sameAs "https://www.wikidata.org/wikiQ57196155" .
