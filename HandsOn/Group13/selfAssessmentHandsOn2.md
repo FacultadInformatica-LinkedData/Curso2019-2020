@@ -3,7 +3,7 @@
 -[x] Includes the resource naming strategy
 
 **• The resource naming strategy:**
--[x] Uses a domain that is not the one given by default in Protégé
+-[] Uses a domain that is not the one given by default in Protégé
 -[x] Uses different paths for ontology resources (i.e., classes and properties) and individuals
 -[x] Ensures that the paths for individuals of different classes are not the same
 -[x] Defines property URIs independently of class URIs

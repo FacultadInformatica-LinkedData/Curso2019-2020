@@ -1,0 +1,7 @@
+PREFIX db: <http://dbpedia.org/ontology/>
+
+SELECT distinct ?propiedades (COUNT(distinct ?x) AS ?contador) WHERE {
+?instance a db:Politician .
+?instance ?propiedades ?x .
+FILTER (?propiedades != rdf:type)
+}LIMIT 30
