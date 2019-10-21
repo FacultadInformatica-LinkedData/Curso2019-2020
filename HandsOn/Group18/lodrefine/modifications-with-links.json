@@ -870,5 +870,595 @@
         }
       ]
     }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE-INSTALACION to type null",
+    "columnName": "NOMBRE-INSTALACION",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/museos",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": null,
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "museo",
+          "name": "NOMBRE-INSTALACION",
+          "type": "text",
+          "columnName": "NOMBRE-INSTALACION"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE-INSTALACION to type null",
+    "columnName": "NOMBRE-INSTALACION",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia.es",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": null,
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "madrid",
+          "name": "NOMBRE-INSTALACION",
+          "type": "text",
+          "columnName": "NOMBRE-INSTALACION"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE-INSTALACION to type Q1329623",
+    "columnName": "NOMBRE-INSTALACION",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q1329623",
+        "name": "cultural centre"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITO to type Q3032114",
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column TITULO to type Q11424",
+    "columnName": "TITULO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q11424",
+        "name": "film"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Centro Cultural Conde Duque (Q56426480) for cells containing \"Conde Duque\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Conde Duque",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56426480",
+      "name": "Centro Cultural Conde Duque",
+      "score": 58,
+      "types": [
+        "Q1329623"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Centro Cultural Conde Duque (Q56426480) for cells containing \"Conde Duque\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Conde Duque",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56426480",
+      "name": "Centro Cultural Conde Duque",
+      "score": 58,
+      "types": [
+        "Q1329623"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE-INSTALACION to type null",
+    "columnName": "NOMBRE-INSTALACION",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": null,
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE-INSTALACION to type Q1329623",
+    "columnName": "NOMBRE-INSTALACION",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q1329623",
+        "name": "cultural centre"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Centro Cultural Conde Duque (Q56426480) for cells containing \"Conde Duque\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Conde Duque",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56426480",
+      "name": "Centro Cultural Conde Duque",
+      "score": 58,
+      "types": [
+        "Q1329623"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Naves Matadero (Q57196155) for cells containing \"Naves Matadero. Centro Internacional Artes Vivas\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Naves Matadero. Centro Internacional Artes Vivas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q57196155",
+      "name": "Naves Matadero",
+      "score": 46,
+      "types": [
+        "Q2190251",
+        "Q3469910"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Teatro Circo Price\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Teatro Circo Price",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Teatro Circo Price\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Teatro Circo Price",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Teatro Español (Q3891573) for cells containing \"Teatro Español\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Teatro Español",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3891573",
+      "name": "Teatro Español",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Matadero Madrid (Q56427524) for cells containing \"Matadero Madrid\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Matadero Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56427524",
+      "name": "Matadero Madrid",
+      "score": 100,
+      "types": [
+        "Q1329623"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE-INSTALACION to type Q24699794",
+    "columnName": "NOMBRE-INSTALACION",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q24699794",
+        "name": "museum building"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Centro Cultural Conde Duque (Q56426480) for cells containing \"Conde Duque\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Conde Duque",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56426480",
+      "name": "Centro Cultural Conde Duque",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Matadero Madrid (Q56427524) for cells containing \"Cineteca Madrid\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Cineteca Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56427524",
+      "name": "Matadero Madrid",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cineteca Madrid"
+        ],
+        "to": "Cineteca Madrid"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Conde Duque"
+        ],
+        "to": "Conde Duque"
+      }
+    ]
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Medialab-Prado (Q6008551) for cells containing \"Medialab - Prado\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Medialab - Prado",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6008551",
+      "name": "Medialab-Prado",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Medialab - Prado"
+        ],
+        "to": "Medialab - Prado"
+      }
+    ]
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Casa de Vacas (Q21155850) for cells containing \"Centro Cultural Casa de Vacas (Retiro)\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Centro Cultural Casa de Vacas (Retiro)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q21155850",
+      "name": "Casa de Vacas",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Centro Cultural Casa de Vacas (Retiro)"
+        ],
+        "to": "Centro Cultural Casa de Vacas (Retiro)"
+      }
+    ]
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Quinta de los Molinos park (Q6062479) for cells containing \"Espacio Abierto Quinta de los Molinos\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Espacio Abierto Quinta de los Molinos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6062479",
+      "name": "Quinta de los Molinos park",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Matadero Madrid (Q56427524) for cells containing \"Naves Matadero. Centro Internacional Artes Vivas\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Naves Matadero. Centro Internacional Artes Vivas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56427524",
+      "name": "Matadero Madrid",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Matadero Madrid (Q56427524) for cells containing \"Intermediae Matadero Madrid\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Intermediae Matadero Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56427524",
+      "name": "Matadero Madrid",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Imprenta Municipal-Artes del Libro (Q19453318) for cells containing \"Imprenta Municipal - Artes del libro\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Imprenta Municipal - Artes del libro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q19453318",
+      "name": "Imprenta Municipal-Artes del Libro",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Centro de Interpretación de la Naturaleza de Cabezo de la Jara (Q5761842) for cells containing \"Centro de Interpretación de la Naturaleza Montecarmelo (Fuencarral - El Pardo)\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Centro de Interpretación de la Naturaleza Montecarmelo (Fuencarral - El Pardo)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5761842",
+      "name": "Centro de Interpretación de la Naturaleza de Cabezo de la Jara",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
   }
 ]

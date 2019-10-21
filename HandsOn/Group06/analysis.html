@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>analysis</title>
+	<style>
+
+	table tr {
+  	text-align: center;
+	}
+	</style>
+
+</head>
+
+<body>
+	<h1>ANÁLISIS</h1>
+	<h2>ANÁLISIS DE LOS CSV</h2>
+	<h3>1. CSV MUSEOS</h3>
+	
+	<table width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#000000">
+
+  <tr bgcolor="grey">
+    <th>NOMBRE</th>
+    <th>TIPO</th>
+    <th>RANGO</th>
+    <th>DESCRIPCIÓN</th>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">PK</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Identificación</td>
+  </tr>
+
+  <tr>
+    <th bgcolor="C8C3C2">NOMBRE</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Nombre del museo</td>
+  </tr>
+
+  <tr>
+    <th bgcolor="C8C3C2">DESCRIPCIÓN-ENTIDAD</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Pequeña descripción del museo que puede contener cualquier dato</td>
+  </tr>
+
+  <tr>
+    <th bgcolor="C8C3C2">HORARIO</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Dias de apertura con su horario de visitas</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">EQUIPAMIENTO</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Contenido de los museos como por ejemplo si tienen visitas guiadas</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">TRANSPORTE</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Como llegar al museo</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">DESCRIPCIÓN</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Datos sobre el museo</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">ACCESIBILIDAD</th>
+    <td>Integer</td>
+    <td>[0-3]</td>
+    <td>Grado de accesibilidad que tiene el museo</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">CONTENT-URL</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>URL del museo</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">NOMBRE-VIA</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Nombre que tiene una calle, vía o avenida entre otros</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">CLASE-VIAL</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Tipo de via</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">TIPO-NUM</th>
+    <td>Integer</td>
+    <td>[A-Z]</td>
+    <td>Tipo de la calle, vía o avenida entre otros</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">NUM</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Número de la calle, vía o avenida entre otros</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">PLANTA</th>
+    <td>String</td>
+    <td>[A-Z][0-9]</td>
+    <td>Número de piso del edificio</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">ESCALERA</th>
+    <td>Integer</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Número de escalera</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">ORIENTACIÓN</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Hacia que punto cardinal está orientado (NOrte, Sur, Este u Oeste)</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">LOCALIDAD</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Localidad del museo</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">PROVINCIA</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Provincia donde se encuentra el museo</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">CÓDIGO-POSTAL</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Código postal al que pertenece el museo</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">BARRIO</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Barrio al que pertenece dentro de su localidad</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">DISTRITO</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Parte de la localidad del museo</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">COORDENADA-X</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Coordenada x del museo</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">COORDENADA-Y</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Coordenada y del museo</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">LATITUD</th>
+    <td>Coordinate</td>
+    <td>N/A</td>
+    <td>Latitud con respecto a la tierra</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">LONGITUD</th>
+    <td>Coordinate</td>
+    <td>N/A</td>
+    <td>LOngitud con respecto a la tierra</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">TELÉFONO</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Número de teléfono del museo</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">FAX</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Número de fax del museo</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">EMAIL</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Email que corresponde de cada museo</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">TIPO</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Dentro de que entidad u organismo pertenece</td>
+  </tr>
+
+</table>
+
+<h3>2. CSV MONUMENTOS EDIFICIOS</h3>
+
+	<table width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#000000">
+
+  <tr bgcolor="grey">
+    <th>NOMBRE</th>
+    <th>TIPO</th>
+    <th>RANGO</th>
+    <th>DESCRIPCIÓN</th>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">PK</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Identificación</td>
+  </tr>
+
+  <tr>
+    <th bgcolor="C8C3C2">NOMBRE</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Nombre del edificio</td>
+  </tr>
+
+  <tr>
+    <th bgcolor="C8C3C2">DESCRIPCIÓN-ENTIDAD</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Pequeña descripción del edificio que puede contener cualquier dato</td>
+  </tr>
+
+  <tr>
+    <th bgcolor="C8C3C2">HORARIO</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Dias de apertura con su horario de visitas</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">EQUIPAMIENTO</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Contenido de los edificio como por ejemplo si tienen visitas guiadas</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">TRANSPORTE</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Como llegar al edificio</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">DESCRIPCIÓN</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Datos sobre el edificio</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">ACCESIBILIDAD</th>
+    <td>Integer</td>
+    <td>[0-3]</td>
+    <td>Grado de accesibilidad que tiene el edificio</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">CONTENT-URL</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>URL del edificio</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">NOMBRE-VIA</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Nombre que tiene una calle, vía o avenida entre otros</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">CLASE-VIAL</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Tipo de via</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">TIPO-NUM</th>
+    <td>Integer</td>
+    <td>[A-Z]</td>
+    <td>Tipo de la calle, vía o avenida entre otros</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">NUM</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Número de la calle, vía o avenida entre otros</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">PLANTA</th>
+    <td>String</td>
+    <td>[A-Z][0-9]</td>
+    <td>Número de piso del edificio</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">ESCALERA</th>
+    <td>Integer</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Número de escalera</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">ORIENTACIÓN</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Hacia que punto cardinal está orientado (Norte, Sur, Este u Oeste)</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">LOCALIDAD</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Localidad del edificio</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">PROVINCIA</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Provincia donde se encuentra el edificio</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">CÓDIGO-POSTAL</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Código postal al que pertenece el edificio</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">BARRIO</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Barrio al que pertenece dentro de su localidad</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">DISTRITO</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Parte de la localidad del edificio</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">COORDENADA-X</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Coordenada x del edificio</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">COORDENADA-Y</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Coordenada y del edificio</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">LATITUD</th>
+    <td>Coordinate</td>
+    <td>N/A</td>
+    <td>Latitud con respecto a la tierra</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">LONGITUD</th>
+    <td>Coordinate</td>
+    <td>N/A</td>
+    <td>Longitud con respecto a la tierra</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">TELÉFONO</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Número de teléfono del edificio</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">FAX</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Número de fax del edificio</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">EMAIL</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Email que corresponde de cada edificio</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">TIPO</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Dentro de que entidad u organismo pertenece</td>
+  </tr>
+
+</table>
+
+<h3>3. CSV BIBLIOTECAS UNIVERSITARIAS</h3>
+
+	<table width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#000000">
+
+  <tr bgcolor="grey">
+    <th>NOMBRE</th>
+    <th>TIPO</th>
+    <th>RANGO</th>
+    <th>DESCRIPCIÓN</th>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">PK</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Identificación</td>
+  </tr>
+
+  <tr>
+    <th bgcolor="C8C3C2">NOMBRE</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Nombre de la biblioteca</td>
+  </tr>
+
+  <tr>
+    <th bgcolor="C8C3C2">DESCRIPCIÓN-ENTIDAD</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Pequeña descripción de la biblioteca que puede contener cualquier dato</td>
+  </tr>
+
+  <tr>
+    <th bgcolor="C8C3C2">HORARIO</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Dias de apertura con su horario de visitas</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">EQUIPAMIENTO</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Contenido de la biblioteca como por ejemplo los préstamos</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">TRANSPORTE</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Como llegar a la biblioteca </td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">DESCRIPCIÓN</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Datos sobre la biblioteca</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">ACCESIBILIDAD</th>
+    <td>Integer</td>
+    <td>[0-3]</td>
+    <td>Grado de accesibilidad que tiene la biblioteca</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">CONTENT-URL</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>URL de la biblioteca</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">NOMBRE-VIA</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Nombre que tiene una calle, vía o avenida entre otros</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">CLASE-VIAL</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Tipo de via</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">TIPO-NUM</th>
+    <td>Integer</td>
+    <td>[A-Z]</td>
+    <td>Tipo de la calle, vía o avenida entre otros</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">NUM</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Número de la calle, vía o avenida entre otros</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">PLANTA</th>
+    <td>String</td>
+    <td>[A-Z][0-9]</td>
+    <td>Número de piso de la biblioteca</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">ESCALERA</th>
+    <td>Integer</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Número de escalera</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">ORIENTACIÓN</th>
+    <td>String</td>
+    <td>[a-z][A-Z][0-9]</td>
+    <td>Hacia que punto cardinal está orientado (Norte, Sur, Este u Oeste)</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">LOCALIDAD</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Localidad de la biblioteca</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">PROVINCIA</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Provincia donde se encuentra la biblioteca</td>
+  </tr>
+
+   <tr>
+    <th bgcolor="C8C3C2">CÓDIGO-POSTAL</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Código postal al que pertenece la biblioteca</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">BARRIO</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Barrio al que pertenece dentro de su localidad</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">DISTRITO</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Parte de la localidad de la biblioteca</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">COORDENADA-X</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Coordenada x de la biblioteca</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">COORDENADA-Y</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Coordenada y de la biblioteca</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">LATITUD</th>
+    <td>Coordinate</td>
+    <td>N/A</td>
+    <td>Latitud con respecto a la tierra</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">LONGITUD</th>
+    <td>Coordinate</td>
+    <td>N/A</td>
+    <td>Longitud con respecto a la tierra</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">TELÉFONO</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Número de teléfono de la biblioteca</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">FAX</th>
+    <td>Integer</td>
+    <td>[0-9]</td>
+    <td>Número de fax de la biblioteca</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">EMAIL</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Email que corresponde de cada biblioteca</td>
+  </tr>
+
+    <tr>
+    <th bgcolor="C8C3C2">TIPO</th>
+    <td>String</td>
+    <td>[a-z][A-Z]</td>
+    <td>Dentro de que entidad u organismo pertenece</td>
+  </tr>
+</table>
+
+<h2>ANÁLISIS DE LA LICENCIA</h2>
+
+<p>Las condiciones generales permiten la reutilización de los documentos para fines comerciales y no comerciales. Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Madrid, siempre que dicho uso no constituya una actividad administrativa pública.</p>
+
+<h2>NOMBRAR LOS RECURSOS</h2>
+
+<ul>
+      <li><b> Dominio: </b>http://www.localizacion.es/</li>
+      <li><b> Camino para llegar a los términos ontológicos:</b>http://www.localizacion.es/ontology/localizacion#</li>
+      <li><b> Camino para llegar a los términos individuales: </b>http://www.localizacion.es/resource/</li>
+      <li><b> Patrón de términos ontológicos: </b>http://www.localizacion.es/ontology/localizacion#term</li>
+      <li><b> Patrón de términos individuales: </b>ttp://www.localizacion.es/resource/resource-type/resource-name</li>
+</ul>
+
+</body>
+
+</html>
