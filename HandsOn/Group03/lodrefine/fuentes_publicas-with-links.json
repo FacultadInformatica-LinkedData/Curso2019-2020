@@ -672,5 +672,592 @@
     "baseColumnName": "FECHA DATOS",
     "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
     "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DIRECCION to type http://dbpedia.org/ontology/Place",
+    "columnName": "DIRECCION",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://open-refine.oeg-upm.net/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Place",
+        "name": "dbo:Place"
+      },
+      "autoMatch": false,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item 1 August 2019 (Q57350400) for cells containing \"1 August 2019\" in column FECHA DATOS",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "FECHA DATOS",
+    "similarValue": "1 August 2019",
+    "judgment": "matched",
+    "match": {
+      "id": "Q57350400",
+      "name": "1 August 2019",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item 1 August 2019 (Q57350400) for cells containing \"1 August 2019\" in column FECHA DATOS",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "FECHA DATOS",
+    "similarValue": "1 August 2019",
+    "judgment": "matched",
+    "match": {
+      "id": "Q57350400",
+      "name": "1 August 2019",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://waterCH.es/Group03/ontology/resource/",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://waterCH.es/Group03/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "https://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://waterCH.es/Group03/ontology#Fountain",
+              "curie": "ont:Fountain"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://waterCH.es/Group03/ontology#hasCode",
+              "curie": "ont:hasCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO"
+              }
+            },
+            {
+              "uri": "http://waterCH.es/Group03/ontology#hasDate",
+              "curie": "ont:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "FECHA DATOS"
+              }
+            },
+            {
+              "uri": "http://waterCH.es/Group03/ontology#inService",
+              "curie": "ont:inService",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "ESTADO"
+              }
+            },
+            {
+              "uri": "http://waterCH.es/Group03/ontology#typeZone",
+              "curie": "ont:typeZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ZONA VERDE / \nVIA PUBLICA"
+              }
+            },
+            {
+              "uri": "isAtLocation",
+              "curie": ":isAtLocation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION",
+                "rdfTypes": [
+                  {
+                    "uri": "http://waterCH.es/Group03/ontology#Location",
+                    "curie": "ont:Location"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://waterCH.es/Group03/ontology#district",
+                    "curie": "ont:district",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "DISTRITO"
+                    }
+                  },
+                  {
+                    "uri": "http://waterCH.es/Group03/ontology#hasLongitud",
+                    "curie": "ont:hasLongitud",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "https://www.w3.org/2009/XMLSchema/datatypes.xsd",
+                      "columnName": "LONGITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://waterCH.es/Group03/ontology#hasLatitude",
+                    "curie": "ont:hasLatitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "https://www.w3.org/2009/XMLSchema/datatypes.xsd",
+                      "columnName": "LATITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://waterCH.es/Group03/ontology#address",
+                    "curie": "ont:address",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "DIRECCION"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "DISTRITO MADRID",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Wikidata URI fecha",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://waterCH.es/Group03/ontology/resource/",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://waterCH.es/Group03/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "https://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://waterCH.es/Group03/ontology#Fountain",
+              "curie": "ont:Fountain"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://waterCH.es/Group03/ontology#hasCode",
+              "curie": "ont:hasCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO"
+              }
+            },
+            {
+              "uri": "http://waterCH.es/Group03/ontology#hasDate",
+              "curie": "ont:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "FECHA DATOS"
+              }
+            },
+            {
+              "uri": "http://waterCH.es/Group03/ontology#inService",
+              "curie": "ont:inService",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "ESTADO"
+              }
+            },
+            {
+              "uri": "http://waterCH.es/Group03/ontology#typeZone",
+              "curie": "ont:typeZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ZONA VERDE / \nVIA PUBLICA"
+              }
+            },
+            {
+              "uri": "isAtLocation",
+              "curie": ":isAtLocation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION",
+                "rdfTypes": [
+                  {
+                    "uri": "http://waterCH.es/Group03/ontology#Location",
+                    "curie": "ont:Location"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://waterCH.es/Group03/ontology#district",
+                    "curie": "ont:district",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "DISTRITO"
+                    }
+                  },
+                  {
+                    "uri": "http://waterCH.es/Group03/ontology#hasLongitud",
+                    "curie": "ont:hasLongitud",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "https://www.w3.org/2009/XMLSchema/datatypes.xsd",
+                      "columnName": "LONGITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://waterCH.es/Group03/ontology#hasLatitude",
+                    "curie": "ont:hasLatitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "https://www.w3.org/2009/XMLSchema/datatypes.xsd",
+                      "columnName": "LATITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://waterCH.es/Group03/ontology#address",
+                    "curie": "ont:address",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "DIRECCION"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "DISTRITO MADRID",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Wikidata URI fecha",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://waterCH.es/Group03/ontology/resource/",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://waterCH.es/Group03/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "https://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://waterCH.es/Group03/ontology#Fountain",
+              "curie": "ont:Fountain"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://waterCH.es/Group03/ontology#hasCode",
+              "curie": "ont:hasCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO"
+              }
+            },
+            {
+              "uri": "http://waterCH.es/Group03/ontology#hasDate",
+              "curie": "ont:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "FECHA DATOS"
+              }
+            },
+            {
+              "uri": "http://waterCH.es/Group03/ontology#inService",
+              "curie": "ont:inService",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "ESTADO"
+              }
+            },
+            {
+              "uri": "http://waterCH.es/Group03/ontology#typeZone",
+              "curie": "ont:typeZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ZONA VERDE / \nVIA PUBLICA"
+              }
+            },
+            {
+              "uri": "isAtLocation",
+              "curie": ":isAtLocation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION",
+                "rdfTypes": [
+                  {
+                    "uri": "http://waterCH.es/Group03/ontology#Location",
+                    "curie": "ont:Location"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://waterCH.es/Group03/ontology#district",
+                    "curie": "ont:district",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "DISTRITO"
+                    }
+                  },
+                  {
+                    "uri": "http://waterCH.es/Group03/ontology#hasLongitud",
+                    "curie": "ont:hasLongitud",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "https://www.w3.org/2009/XMLSchema/datatypes.xsd",
+                      "columnName": "LONGITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://waterCH.es/Group03/ontology#hasLatitude",
+                    "curie": "ont:hasLatitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "https://www.w3.org/2009/XMLSchema/datatypes.xsd",
+                      "columnName": "LATITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://waterCH.es/Group03/ontology#address",
+                    "curie": "ont:address",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "DIRECCION"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "DISTRITO MADRID",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Wikidata URI fecha",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
