@@ -1,0 +1,234 @@
+@prefix : <http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas> .
+
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#hasDistrict
+:hasDistrict rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+             rdfs:range <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#hasEquipment
+:hasEquipment rdf:type owl:ObjectProperty ;
+              rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+              rdfs:range <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Equipment> .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#hasLocality
+:hasLocality rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+             rdfs:range <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#hasNeighborhood
+:hasNeighborhood rdf:type owl:ObjectProperty ;
+                 rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+                 rdfs:range <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#hasPostalCode
+:hasPostalCode rdf:type owl:ObjectProperty ;
+               rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+               rdfs:range <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#hasProvince
+:hasProvince rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+             rdfs:range <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#hasRoadName
+:hasRoadName rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+             rdfs:range <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#isAvailable
+:isAvailable rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+             rdfs:range <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Availability> .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasTransport
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasTransport> rdf:type owl:ObjectProperty ;
+                                                                                                 rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+                                                                                                 rdfs:range <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Transport> .
+
+
+###  http://www.w3.org/2002/07/owl#topObjectProperty
+owl:topObjectProperty rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+                      rdfs:range <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Availability> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#locality
+:locality rdf:type owl:DatatypeProperty ;
+          rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> ;
+          rdfs:range xsd:string .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#orientation
+:orientation rdf:type owl:DatatypeProperty ;
+             rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> ;
+             rdfs:range xsd:string .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#province
+:province rdf:type owl:DatatypeProperty ;
+          rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> ;
+          rdfs:range xsd:string .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#roadClass
+:roadClass rdf:type owl:DatatypeProperty ;
+           rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> ;
+           rdfs:range xsd:string .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#roadName
+:roadName rdf:type owl:DatatypeProperty ;
+          rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> ;
+          rdfs:range xsd:string .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#typeNum
+:typeNum rdf:type owl:DatatypeProperty ;
+         rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> ;
+         rdfs:range xsd:string .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InsalacionesDeportivas#urlContent
+:urlContent rdf:type owl:DatatypeProperty ;
+            rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+            rdfs:range xsd:string .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#accesibility
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#accesibility> rdf:type owl:DatatypeProperty ;
+                                                                                                 rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+                                                                                                 rdfs:range xsd:integer .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordinate_x
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordinate_x> rdf:type owl:DatatypeProperty ;
+                                                                                                 rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> ;
+                                                                                                 rdfs:range xsd:integer .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordinate_y
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordinate_y> rdf:type owl:DatatypeProperty ;
+                                                                                                 rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> ;
+                                                                                                 rdfs:range xsd:integer .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#description
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#description> rdf:type owl:DatatypeProperty ;
+                                                                                                rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+                                                                                                rdfs:range xsd:string .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#district
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#district> rdf:type owl:DatatypeProperty ;
+                                                                                             rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> ;
+                                                                                             rdfs:range xsd:string .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#equipment
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#equipment> rdf:type owl:DatatypeProperty ;
+                                                                                              rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Equipment> ;
+                                                                                              rdfs:range xsd:string .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#latitude
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#latitude> rdf:type owl:DatatypeProperty ;
+                                                                                             rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> ;
+                                                                                             rdfs:range xsd:double .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#longitude
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#longitude> rdf:type owl:DatatypeProperty ;
+                                                                                              rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> ;
+                                                                                              rdfs:range xsd:double .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#name
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#name> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+                                                                                         rdfs:range xsd:string .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#neighborhood
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#neighborhood> rdf:type owl:DatatypeProperty ;
+                                                                                                 rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> ;
+                                                                                                 rdfs:range xsd:string .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#pk
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#pk> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+                                                                                       rdfs:range xsd:integer .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#postalCode
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#postalCode> rdf:type owl:DatatypeProperty ;
+                                                                                               rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> ;
+                                                                                               rdfs:range xsd:integer .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#telefono
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#telefono> rdf:type owl:DatatypeProperty ;
+                                                                                             rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+                                                                                             rdfs:range xsd:string .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#transport
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#transport> rdf:type owl:DatatypeProperty ;
+                                                                                              rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Transport> ;
+                                                                                              rdfs:range xsd:string .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#type
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#type> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:domain <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> ;
+                                                                                         rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Availability
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Availability> rdf:type owl:Class .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Equipment
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Equipment> rdf:type owl:Class .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Location> rdf:type owl:Class .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#SportsCenter> rdf:type owl:Class .
+
+
+###  http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Transport
+<http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#Transport> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

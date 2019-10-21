@@ -1,0 +1,1464 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO using expression grel:replace(value,\"/contenido/actividades/\",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "grel:replace(value,\"/contenido/actividades/\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column AUDIENCIA using expression grel:replace(value,\"/usuario/\",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "AUDIENCIA",
+    "expression": "grel:replace(value,\"/usuario/\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column FECHA using expression grel:value.toDate('yyyy-mm-dd').toString('dd/mm/yyyy')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "FECHA",
+    "expression": "grel:value.toDate('yyyy-mm-dd').toString('dd/mm/yyyy')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column FECHA-FIN using expression grel:value.toDate('yyyy-mm-dd').toString('dd/mm/yyyy')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "FECHA-FIN",
+    "expression": "grel:value.toDate('yyyy-mm-dd').toString('dd/mm/yyyy')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PRECIO using expression grel:if(cells[\"GRATUITO\"].value==1, 0,value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PRECIO",
+    "expression": "grel:if(cells[\"GRATUITO\"].value==1, 0,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column GRATUITO",
+    "columnName": "GRATUITO"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PRECIO using expression grel:if(value==null, \"buscar informacion\",value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PRECIO",
+    "expression": "grel:if(value==null, \"buscar informacion\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group18.org/hands-on/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.org/hands-on/ontology#Event",
+              "curie": "http://group18.org/hands-on/ontology#Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasId",
+              "curie": "http://group18.org/hands-on/ontology#hasId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasPrice",
+              "curie": "http://group18.org/hands-on/ontology#hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasDate",
+              "curie": "http://group18.org/hands-on/ontology#hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasDescription",
+              "curie": "http://group18.org/hands-on/ontology#hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasUrlEvent",
+              "curie": "http://group18.org/hands-on/ontology#hasUrlEvent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://schema.org/url",
+                "columnName": "URL-ACTIVIDAD"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasLatitude",
+              "curie": "http://group18.org/hands-on/ontology#hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasLongitude",
+              "curie": "http://group18.org/hands-on/ontology#hasLongitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasType",
+              "curie": "http://group18.org/hands-on/ontology#hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO"
+              }
+            },
+            {
+              "uri": " http://group18.org/hands-on/ontology#hasTitle",
+              "curie": ": http://group18.org/hands-on/ontology#hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column FECHA using expression grel:value.toDate('dd/mm/yyyy').toString('yyyy-mm-dd')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "FECHA",
+    "expression": "grel:value.toDate('dd/mm/yyyy').toString('yyyy-mm-dd')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column FECHA-FIN using expression grel:value.toDate('dd/mm/yyyy').toString('yyyy-mm-dd')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "FECHA-FIN",
+    "expression": "grel:value.toDate('dd/mm/yyyy').toString('yyyy-mm-dd')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group18.org/hands-on/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"event/\"+replaceChars(value,' ','')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.org/hands-on/ontology#Event",
+              "curie": "http://group18.org/hands-on/ontology#Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasId",
+              "curie": "http://group18.org/hands-on/ontology#hasId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasPrice",
+              "curie": "http://group18.org/hands-on/ontology#hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasDate",
+              "curie": "http://group18.org/hands-on/ontology#hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasDescription",
+              "curie": "http://group18.org/hands-on/ontology#hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasUrlEvent",
+              "curie": "http://group18.org/hands-on/ontology#hasUrlEvent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://schema.org/url",
+                "columnName": "URL-ACTIVIDAD"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasType",
+              "curie": "http://group18.org/hands-on/ontology#hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasTitle",
+              "curie": "http://group18.org/hands-on/ontology#hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasInstallation",
+              "curie": "http://group18.org/hands-on/ontology#hasInstallation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"installation/\"+replaceChars(value,' ','')",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION",
+                "rdfTypes": [
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#Installation",
+                    "curie": "http://group18.org/hands-on/ontology#Installation"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasUrlInstallation",
+                    "curie": "http://group18.org/hands-on/ontology#hasUrlInstallation",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://schema.org/url",
+                      "columnName": "URL-INSTALACION"
+                    }
+                  },
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasLongitude",
+                    "curie": "http://group18.org/hands-on/ontology#hasLongitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://schema.org/longitude",
+                      "columnName": "LONGITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasLatitude",
+                    "curie": "http://group18.org/hands-on/ontology#hasLatitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://schema.org/latitude",
+                      "columnName": "LATITUD"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasAudience",
+              "curie": "http://group18.org/hands-on/ontology#hasAudience",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AUDIENCIA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TITULO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TITULO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Antología de la Rabia",
+          "Antología de la rabia"
+        ],
+        "to": "Antología de la Rabia"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TITULO",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TITULO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cuentos de la casa grande, de Alicia Mohíno",
+          "Cuentos de la Casa Grande, de Alicia Mohino",
+          "Cuentos de la Casa Grande, de Alicia Mohíno",
+          "Cuentos de la casa grande, de Alicia Mohino"
+        ],
+        "to": "Cuentos de la casa grande, de Alicia Mohíno"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Dos Palabras",
+          "Dos palabras"
+        ],
+        "to": "Dos Palabras"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Qué ruina de función",
+          "Qué ruina de función."
+        ],
+        "to": "Qué ruina de función"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cinco lobitos, de Légolas",
+          "Cinco Lobitos, de Légolas"
+        ],
+        "to": "Cinco lobitos, de Légolas"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "El botiquin de Montecarmelo",
+          "El botiquín de Montecarmelo"
+        ],
+        "to": "El botiquin de Montecarmelo"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "El circo de Rotundifolia, de Estrella Ortiz",
+          "El Circo de Rotundifolia, de Estrella Ortiz"
+        ],
+        "to": "El circo de Rotundifolia, de Estrella Ortiz"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "¡Fabuloso! Historias de aventuras, de Cristina Verbena",
+          "¡Fabuloso! HIstorias de aventuras, de Cristina Verbena"
+        ],
+        "to": "¡Fabuloso! Historias de aventuras, de Cristina Verbena"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Mamá no quiero ser normal",
+          "Mamá, no quiero ser normal"
+        ],
+        "to": "Mamá no quiero ser normal"
+      }
+    ]
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group18.org/hands-on/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"event/\"+replaceChars(value,' ','')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.org/hands-on/ontology#Event",
+              "curie": "http://group18.org/hands-on/ontology#Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasId",
+              "curie": "http://group18.org/hands-on/ontology#hasId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasPrice",
+              "curie": "http://group18.org/hands-on/ontology#hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasDate",
+              "curie": "http://group18.org/hands-on/ontology#hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasDescription",
+              "curie": "http://group18.org/hands-on/ontology#hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasUrlEvent",
+              "curie": "http://group18.org/hands-on/ontology#hasUrlEvent",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URL-ACTIVIDAD",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasType",
+              "curie": "http://group18.org/hands-on/ontology#hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasTitle",
+              "curie": "http://group18.org/hands-on/ontology#hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasInstallation",
+              "curie": "http://group18.org/hands-on/ontology#hasInstallation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"installation/\"+replaceChars(value,' ','')",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION",
+                "rdfTypes": [
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#Installation",
+                    "curie": "http://group18.org/hands-on/ontology#Installation"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasUrlInstallation",
+                    "curie": "http://group18.org/hands-on/ontology#hasUrlInstallation",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "URL-INSTALACION",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasLongitude",
+                    "curie": "http://group18.org/hands-on/ontology#hasLongitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "LONGITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasLatitude",
+                    "curie": "http://group18.org/hands-on/ontology#hasLatitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "LATITUD"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasAudience",
+              "curie": "http://group18.org/hands-on/ontology#hasAudience",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AUDIENCIA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group18.org/hands-on/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"event/\"+replaceChars(value,' ','')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [
+            {
+              "uri": "http://group18.org/hands-on/ontology#Event",
+              "curie": "http://group18.org/hands-on/ontology#Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasId",
+              "curie": "http://group18.org/hands-on/ontology#hasId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasPrice",
+              "curie": "http://group18.org/hands-on/ontology#hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasDate",
+              "curie": "http://group18.org/hands-on/ontology#hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasDescription",
+              "curie": "http://group18.org/hands-on/ontology#hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasUrlEvent",
+              "curie": "http://group18.org/hands-on/ontology#hasUrlEvent",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URL-ACTIVIDAD",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/url",
+                    "curie": "http://schema.org/url"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasType",
+              "curie": "http://group18.org/hands-on/ontology#hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasTitle",
+              "curie": "http://group18.org/hands-on/ontology#hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasInstallation",
+              "curie": "http://group18.org/hands-on/ontology#hasInstallation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"installation/\"+replaceChars(value,' ','')",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION",
+                "rdfTypes": [
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#Installation",
+                    "curie": "http://group18.org/hands-on/ontology#Installation"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasUrlInstallation",
+                    "curie": "http://group18.org/hands-on/ontology#hasUrlInstallation",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "URL-INSTALACION",
+                      "rdfTypes": [
+                        {
+                          "uri": "http://schema.org/url",
+                          "curie": "http://schema.org/url"
+                        }
+                      ],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasLongitude",
+                    "curie": "http://group18.org/hands-on/ontology#hasLongitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "LONGITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://group18.org/hands-on/ontology#hasLatitude",
+                    "curie": "http://group18.org/hands-on/ontology#hasLatitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                      "columnName": "LATITUD"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://group18.org/hands-on/ontology#hasAudience",
+              "curie": "http://group18.org/hands-on/ontology#hasAudience",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AUDIENCIA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE-INSTALACION to type null",
+    "columnName": "NOMBRE-INSTALACION",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/museos",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": null,
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "museo",
+          "name": "NOMBRE-INSTALACION",
+          "type": "text",
+          "columnName": "NOMBRE-INSTALACION"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE-INSTALACION to type null",
+    "columnName": "NOMBRE-INSTALACION",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia.es",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": null,
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "madrid",
+          "name": "NOMBRE-INSTALACION",
+          "type": "text",
+          "columnName": "NOMBRE-INSTALACION"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE-INSTALACION to type Q1329623",
+    "columnName": "NOMBRE-INSTALACION",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q1329623",
+        "name": "cultural centre"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITO to type Q3032114",
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column TITULO to type Q11424",
+    "columnName": "TITULO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q11424",
+        "name": "film"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Centro Cultural Conde Duque (Q56426480) for cells containing \"Conde Duque\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Conde Duque",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56426480",
+      "name": "Centro Cultural Conde Duque",
+      "score": 58,
+      "types": [
+        "Q1329623"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Centro Cultural Conde Duque (Q56426480) for cells containing \"Conde Duque\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Conde Duque",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56426480",
+      "name": "Centro Cultural Conde Duque",
+      "score": 58,
+      "types": [
+        "Q1329623"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE-INSTALACION to type null",
+    "columnName": "NOMBRE-INSTALACION",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": null,
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE-INSTALACION to type Q1329623",
+    "columnName": "NOMBRE-INSTALACION",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q1329623",
+        "name": "cultural centre"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Centro Cultural Conde Duque (Q56426480) for cells containing \"Conde Duque\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Conde Duque",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56426480",
+      "name": "Centro Cultural Conde Duque",
+      "score": 58,
+      "types": [
+        "Q1329623"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Naves Matadero (Q57196155) for cells containing \"Naves Matadero. Centro Internacional Artes Vivas\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Naves Matadero. Centro Internacional Artes Vivas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q57196155",
+      "name": "Naves Matadero",
+      "score": 46,
+      "types": [
+        "Q2190251",
+        "Q3469910"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Teatro Circo Price\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Teatro Circo Price",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new item for all cells containing \"Teatro Circo Price\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Teatro Circo Price",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Teatro Español (Q3891573) for cells containing \"Teatro Español\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Teatro Español",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3891573",
+      "name": "Teatro Español",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Matadero Madrid (Q56427524) for cells containing \"Matadero Madrid\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Matadero Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56427524",
+      "name": "Matadero Madrid",
+      "score": 100,
+      "types": [
+        "Q1329623"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE-INSTALACION to type Q24699794",
+    "columnName": "NOMBRE-INSTALACION",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q24699794",
+        "name": "museum building"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Centro Cultural Conde Duque (Q56426480) for cells containing \"Conde Duque\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Conde Duque",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56426480",
+      "name": "Centro Cultural Conde Duque",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Matadero Madrid (Q56427524) for cells containing \"Cineteca Madrid\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Cineteca Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56427524",
+      "name": "Matadero Madrid",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cineteca Madrid"
+        ],
+        "to": "Cineteca Madrid"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Conde Duque"
+        ],
+        "to": "Conde Duque"
+      }
+    ]
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Medialab-Prado (Q6008551) for cells containing \"Medialab - Prado\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Medialab - Prado",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6008551",
+      "name": "Medialab-Prado",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Medialab - Prado"
+        ],
+        "to": "Medialab - Prado"
+      }
+    ]
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Casa de Vacas (Q21155850) for cells containing \"Centro Cultural Casa de Vacas (Retiro)\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Centro Cultural Casa de Vacas (Retiro)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q21155850",
+      "name": "Casa de Vacas",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Centro Cultural Casa de Vacas (Retiro)"
+        ],
+        "to": "Centro Cultural Casa de Vacas (Retiro)"
+      }
+    ]
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Quinta de los Molinos park (Q6062479) for cells containing \"Espacio Abierto Quinta de los Molinos\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Espacio Abierto Quinta de los Molinos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6062479",
+      "name": "Quinta de los Molinos park",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Matadero Madrid (Q56427524) for cells containing \"Naves Matadero. Centro Internacional Artes Vivas\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Naves Matadero. Centro Internacional Artes Vivas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56427524",
+      "name": "Matadero Madrid",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Matadero Madrid (Q56427524) for cells containing \"Intermediae Matadero Madrid\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Intermediae Matadero Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56427524",
+      "name": "Matadero Madrid",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Imprenta Municipal-Artes del Libro (Q19453318) for cells containing \"Imprenta Municipal - Artes del libro\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Imprenta Municipal - Artes del libro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q19453318",
+      "name": "Imprenta Municipal-Artes del Libro",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Centro de Interpretación de la Naturaleza de Cabezo de la Jara (Q5761842) for cells containing \"Centro de Interpretación de la Naturaleza Montecarmelo (Fuencarral - El Pardo)\" in column NOMBRE-INSTALACION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "similarValue": "Centro de Interpretación de la Naturaleza Montecarmelo (Fuencarral - El Pardo)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5761842",
+      "name": "Centro de Interpretación de la Naturaleza de Cabezo de la Jara",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  }
+]
