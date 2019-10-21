@@ -1,0 +1,40 @@
+prefix db: <http://dbpedia.org/ontology/>
+
+SELECT distinct ?x WHERE {
+?instance a db:Politician .
+?instance ?propiedades ?x .
+FILTER (?propiedades != rdf:type)
+} LIMIT 30
+
+;-------------------------------------------------------------------------------------------------------------------------
+
+"Axel Oxenstierna"@en
+"أكسل أكسنسترنا"@ar
+"Axel Oxenstierna"@de
+"Axel Oxenstierna"@es
+"Axel Oxenstierna"@fr
+"Axel Oxenstierna"@it
+"アクセル・オクセンシェルナ"@ja
+"Axel Oxenstierna"@nl
+"Axel Oxenstierna"@pl
+"Axel Oxenstierna"@pt
+"Оксеншерна, Аксель"@ru
+"Brothers Grimm"@en
+"الأخوان غريم"@ar
+"Brüder Grimm"@de
+"Hermanos Grimm"@es
+"Frères Grimm"@fr
+"Fratelli Grimm"@it
+"グリム兄弟"@ja
+"Gebroeders Grimm"@nl
+"Bracia Grimm"@pl
+"Irmãos Grimm"@pt
+"Братья Гримм"@ru
+"格林兄弟"@zh
+"Carlos Menem"@en
+"كارلوس منعم"@ar
+"Carlos Menem"@de
+"Carlos Menem"@es
+"Carlos Menem"@fr
+"Carlos Saúl Menem"@it
+"カルロス・メネム"@ja

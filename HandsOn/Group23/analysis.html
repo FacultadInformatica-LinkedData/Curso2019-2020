@@ -1,0 +1,159 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+ 	<title>analysis</title>
+  </head>
+  <body>
+ <h3>
+   Group 23
+  </h3>
+    <div>
+      <h4>Calidad del aire en relación al tráfico en la ciudad de Madrid</h4>
+    </div>
+    <h1>Análisis de los campos y sus rangos</h1>
+    <h2>
+        Datos del aire en tiempo real
+    </h2>
+    <table name="Datos del aire en tiempo real" style="width:100%;text-align: center;border: 1px solid black;">
+        <tr>
+          <th>Nombre</th>
+          <th>Tipo</th>
+          <th>Ejemplo</th>
+          <th>Descripcion</th>
+          <th>Relacionable</th>
+        </tr>
+        <tr>
+          <td>Provincia</td>
+          <td>Integer</td>
+          <td>28</td>
+          <td>Código de provincia</td>
+        </tr> 
+        <tr>
+            <td>Municipio</td>
+            <td>Integer</td>
+            <td>79</td>
+            <td>Código del Municipio</td>
+        </tr>
+        <tr>
+            <td>Estación</td>
+            <td>Integer</td>
+            <td>4</td>
+            <td>Código de Estación</td>
+            <td bgcolor="green"></td>
+        </tr>
+        <tr>
+            <td>Magnitud</td>
+            <td>Integer</td>
+            <td>1</td>
+            <td>Tipo de medida que se realiza (C02,NOH)</td>
+        </tr> 
+        <tr>
+            <td>Punto de muestreo</td>
+            <td>String</td>
+            <td>28079004_1_38</td>
+            <td>Código de provincia, municipio, estación, magnitud y técnica de muestreo</td>
+        </tr>
+        <tr>
+            <td>Año</td>
+            <td>Integer</td>
+            <td>2019</td>
+            <td>Año en el que se tomó la medida</td>
+        </tr>
+        <tr>
+            <td>Mes</td>
+            <td>Integer</td>
+            <td>2</td>
+            <td>Mes en el que tomó la medida</td>
+        </tr>
+        <tr>
+            <td>Dia</td>
+            <td>Integer</td>
+            <td>6</td>
+            <td>Dia en el que se tomó la medida</td>
+        </tr>
+        <tr>
+            <td>HX</td>
+            <td>Integer</td>
+            <td>38</td>
+            <td>Medida de la hora X entre 01 y 24 de la magnitud especificada anteriormente</td>
+        </tr>
+        <tr>
+            <td>VX</td>
+            <td>String</td>
+            <td>V</td>
+            <td>Validacion de la hora X entre 01 y 24 de la magnitud especificada anteriormente</td>
+        </tr>
+
+    </table>
+        <h2>
+            Estaciones de medida de calidad del aire Comunidad de Madrid
+        </h2>
+        <table name="Estaciones de medida de calidad del aire Comunidad de Madrid" style="width:100%;text-align: center;border: 1px solid black;">
+            <tr>
+              <th>Nombre</th>
+              <th>Tipo</th>
+              <th>Ejemplo</th>
+              <th>Descripcion</th>
+              <th>Relacionable</th>
+            </tr>
+            <tr>
+                <td>Estacion</td>
+                <td>Integer</td>
+                <td>4</td>
+                <td>Código de estación de estación</td>
+                <td bgcolor="green"></td>
+            </tr>
+            <tr>
+                <td>Vía</td>
+                <td>Integer</td>
+                <td>23600</td>
+                <td>Código de la vía en que se encuentra la estación</td>
+                <td bgcolor="green"></td>
+            </tr>
+            
+    </table>
+    <h2>
+        Viales vigentes del ayuntamiento de Madrid
+    </h2>
+    <table name=" Viales vigentes del ayuntamiento de Madrid" style="width:100%;text-align: center;border: 1px solid black;">
+        <tr>
+          <th>Nombre</th>
+          <th>Tipo</th>
+          <th>Ejemplo</th>
+          <th>Descripcion</th>
+          <th>Relacionable</th>
+        </tr>
+        <tr>
+            <td>Distrito</td>
+            <td>Integer</td>
+            <td>14</td>
+            <td>Código de del distrito madrileño asociado</td>
+        </tr>
+        <tr>
+            <td>Vía</td>
+            <td>Integer</td>
+            <td>23600</td>
+            <td>Código de la vía en que se encuentra la estación</td>
+            <td bgcolor="green"></td>
+        </tr>
+        
+</table>
+<h1>Análisis de la licencia de los datos, condiciones de uso:</h1>
+<p>
+  Las condiciones generales permiten la reutilización de los documentos para fines comerciales y no comerciales. Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Madrid, siempre que dicho uso no constituya una actividad administrativa pública.
+  <br>
+  Licencia:
+    <a href="https://datos.madrid.es/egob/catalogo/aviso-legal">Datos Madrid-Aviso Legal</a>
+</p>
+
+<h1>Estrategia de nombrado</h1>
+<ul>
+    <li><b> Domain: </b>http://www.calidadaireMAD.es </li>
+    <li><b> Ontological terms path:</b>http://www.calidadaireMAD.es/EstacionMedida </li>
+    <li><b> Individuals path: </b>http://www.calidadaireMAD.es/resource</li>
+    <li><b> Ontological terms pattern: </b>http://www.calidadaireMAD.es/EstacionMedida#[term_name]</li>
+    <li><b> Individual pattern: </b>http://www.calidadaireMAD.es/[resource_type]/[resource_name]</li>
+  </ul>     
+
+</body>
+</html>
