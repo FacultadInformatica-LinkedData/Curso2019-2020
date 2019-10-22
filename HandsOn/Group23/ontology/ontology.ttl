@@ -1,0 +1,83 @@
+@prefix : <http://www.calidadaireMAD.es/ontology/MStation#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.calidadaireMAD.es/ontology/MStation#> .
+
+: rdf:type owl:ontology .
+
+#Classes and subclasses
+
+:Station rdf:type owl:Class .
+
+:Measurement rdf:type owl:Class .
+
+:Location rdf:type owl:Class .
+
+
+#Object properties
+
+:hasLocation rdf:type owl:ObjectProperty;
+             rdf:domain :MStation;
+             rdfs:range  :Station .
+
+:hasStreet   rdf:type owl:ObjectProperty;
+             rdf:domain :MStation;
+             rdfs:range  :Location .
+
+:hasDistrict rdf:type owl:ObjectProperty;
+             rdf:domain :MStation;
+             rdfs:range  :Location .
+
+:hasId rdf:type owl:ObjectProperty;
+       rdf:domain :MStation;
+       rdfs:range :Station .
+
+:isValid rdf:type owl:ObjectProperty;
+         rdf:domain :MStation;
+         rdfs:range :Measurement .
+
+:hasTime rdf:type owl:ObjectProperty;
+         rdf:domain :MStation;
+         rdfs:range :Measurement .
+
+:hasMagnitude rdf:type owl:ObjectProperty;
+              rdf:domain :MStation;
+              rdfs:range :Measurement .
+
+:hasValue rdf:type owl:ObjectProperty;
+          rdf:domain :MStation;
+          rdfs:range :Measurement .
+
+#Data properties
+
+:district rdf:type owl:DatatypeProperty;
+          rdfs:domain :Location;
+          rdfs:range xsd:Integer .
+
+:street   rdf:type owl:DatatypeProperty;
+          rdfs:domain :Location;
+          rdfs:range xsd:Integer .
+
+:time     rdf:type owl:DatatypeProperty;
+          rdfs:domain :Measurement;
+          rdfs:range xsd:dateTime .
+
+:validness rdf:type owl:DatatypeProperty;
+           rdfs:domain :Measurement;
+           rdfs:range xsd:boolean .
+
+:magnitude rdf:type owl:DatatypeProperty;
+           rdfs:domain :Measurement;
+           rdfs:range xsd:Integer .
+
+:value     rdf:type owl:DatatypeProperty;
+           rdfs:domain :Measurement;
+           rdfs:range xsd:Integer .
+    
+
+
+
+
+
