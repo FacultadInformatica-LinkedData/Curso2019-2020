@@ -1,0 +1,2263 @@
+[
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "_",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column PUNTO_MUESTREO by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PUNTO_MUESTREO 1",
+    "description": "Remove column PUNTO_MUESTREO 1"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PUNTO_MUESTREO 2",
+    "description": "Remove column PUNTO_MUESTREO 2"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "MAGNITUD",
+    "newColumnName": "AGENTE CONTAMINANTE",
+    "description": "Rename column MAGNITUD to AGENTE CONTAMINANTE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "PUNTO_MUESTREO 3",
+    "newColumnName": "TECNICA MEDICION",
+    "description": "Rename column PUNTO_MUESTREO 3 to TECNICA MEDICION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "AGENTE CONTAMINANTE",
+    "newColumnName": "CONTAMINANTE MEDIDO",
+    "description": "Rename column AGENTE CONTAMINANTE to CONTAMINANTE MEDIDO"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b1\\b/,\"Dióxido de Azufre\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b1\\b/,\"Dióxido de Azufre\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b6\\b/,\"Monóxido de carbono\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b6\\b/,\"Monóxido de carbono\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b7\\b/,\"Monóxido de Nitrógeno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b7\\b/,\"Monóxido de Nitrógeno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(\"8\",\"Dióxido de Nitrógeno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(\"8\",\"Dióxido de Nitrógeno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b9\\b/,\"Partículas < 2.5 μm\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b9\\b/,\"Partículas < 2.5 μm\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b10\\b/,\"Partículas < 10 μm\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b10\\b/,\"Partículas < 10 μm\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b12\\b/,\"Óxidos de Nitrógeno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b12\\b/,\"Óxidos de Nitrógeno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b14\\b/,\"Ozono\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b14\\b/,\"Ozono\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b20\\b/,\"Tolueno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b20\\b/,\"Tolueno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b30\\b/,\"Benceno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b30\\b/,\"Benceno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b35\\b/,\"Etilbenceno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b35\\b/,\"Etilbenceno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b37\\b/,\"Metaxileno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b37\\b/,\"Metaxileno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b38\\b/,\"Paraxileno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b38\\b/,\"Paraxileno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b39\\b/,\"Ortoxileno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b39\\b/,\"Ortoxileno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b42\\b/,\"Hexano\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b42\\b/,\"Hexano\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b43\\b/,\"Metano\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b43\\b/,\"Metano\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONTAMINANTE MEDIDO",
+    "expression": "value.replace(/\\b44\\b/,\"Hidrocarburos no metánicos\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CONTAMINANTE MEDIDO using expression value.replace(/\\b44\\b/,\"Hidrocarburos no metánicos\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TECNICA MEDICION",
+    "expression": "value.replace(/\\b38\\b/,\"Fluorescencia ultravioleta\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TECNICA MEDICION using expression value.replace(/\\b38\\b/,\"Fluorescencia ultravioleta\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TECNICA MEDICION",
+    "expression": "value.replace(/\\b48\\b/,\"Absorción infrarroja\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TECNICA MEDICION using expression value.replace(/\\b48\\b/,\"Absorción infrarroja\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TECNICA MEDICION",
+    "expression": "value.replace(/\\b8\\b/,\"Quimioluminiscencia\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TECNICA MEDICION using expression value.replace(/\\b8\\b/,\"Quimioluminiscencia\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TECNICA MEDICION",
+    "expression": "value.replace(\"47\",\"Microbalanza\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TECNICA MEDICION using expression value.replace(\"47\",\"Microbalanza\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TECNICA MEDICION",
+    "expression": "value.replace(\"6\",\"Absorción ultravioleta\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TECNICA MEDICION using expression value.replace(\"6\",\"Absorción ultravioleta\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TECNICA MEDICION",
+    "expression": "value.replace(/\\b59\\b/,\"Cromatografía de gases\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TECNICA MEDICION using expression value.replace(/\\b59\\b/,\"Cromatografía de gases\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TECNICA MEDICION",
+    "expression": "value.replace(/\\b2\\b/,\"Ionización de llama\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TECNICA MEDICION using expression value.replace(/\\b2\\b/,\"Ionización de llama\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ESTACION",
+    "newColumnName": "COD_CORTO_ESTACION",
+    "description": "Rename column ESTACION to COD_CORTO_ESTACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H01",
+    "newColumnName": "MEDICION1",
+    "description": "Rename column H01 to MEDICION1"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H02",
+    "newColumnName": "MEDICION2",
+    "description": "Rename column H02 to MEDICION2"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H03",
+    "newColumnName": "MEDICION3",
+    "description": "Rename column H03 to MEDICION3"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H04",
+    "newColumnName": "MEDICION4",
+    "description": "Rename column H04 to MEDICION4"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H05",
+    "newColumnName": "MEDICION5",
+    "description": "Rename column H05 to MEDICION5"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H06",
+    "newColumnName": "MEDICION6",
+    "description": "Rename column H06 to MEDICION6"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H07",
+    "newColumnName": "MEDICION7",
+    "description": "Rename column H07 to MEDICION7"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H08",
+    "newColumnName": "MEDICION8",
+    "description": "Rename column H08 to MEDICION8"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H09",
+    "newColumnName": "MEDICION9",
+    "description": "Rename column H09 to MEDICION9"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H10",
+    "newColumnName": "MEDICION10",
+    "description": "Rename column H10 to MEDICION10"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H11",
+    "newColumnName": "MEDICION11",
+    "description": "Rename column H11 to MEDICION11"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H12",
+    "newColumnName": "MEDICION12",
+    "description": "Rename column H12 to MEDICION12"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H13",
+    "newColumnName": "MEDICION13",
+    "description": "Rename column H13 to MEDICION13"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H14",
+    "newColumnName": "MEDICION14",
+    "description": "Rename column H14 to MEDICION14"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H15",
+    "newColumnName": "MEDICION15",
+    "description": "Rename column H15 to MEDICION15"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H16",
+    "newColumnName": "MEDICION16",
+    "description": "Rename column H16 to MEDICION16"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H17",
+    "newColumnName": "MEDICION17",
+    "description": "Rename column H17 to MEDICION17"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H18",
+    "newColumnName": "MEDICION18",
+    "description": "Rename column H18 to MEDICION18"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H19",
+    "newColumnName": "MEDICION19",
+    "description": "Rename column H19 to MEDICION19"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H20",
+    "newColumnName": "MEDICION20",
+    "description": "Rename column H20 to MEDICION20"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H21",
+    "newColumnName": "MEDICION21",
+    "description": "Rename column H21 to MEDICION21"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H22",
+    "newColumnName": "MEDICION22",
+    "description": "Rename column H22 to MEDICION22"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H23",
+    "newColumnName": "MEDICION23",
+    "description": "Rename column H23 to MEDICION23"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H24",
+    "newColumnName": "MEDICION24",
+    "description": "Rename column H24 to MEDICION24"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V01",
+    "description": "Remove column V01"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V02",
+    "description": "Remove column V02"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V03",
+    "description": "Remove column V03"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V04",
+    "description": "Remove column V04"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V05",
+    "description": "Remove column V05"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V06",
+    "description": "Remove column V06"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V07",
+    "description": "Remove column V07"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V08",
+    "description": "Remove column V08"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V09",
+    "description": "Remove column V09"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V10",
+    "description": "Remove column V10"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V11",
+    "description": "Remove column V11"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V12",
+    "description": "Remove column V12"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V13",
+    "description": "Remove column V13"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V14",
+    "description": "Remove column V14"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V15",
+    "description": "Remove column V15"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V16",
+    "description": "Remove column V16"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V17",
+    "description": "Remove column V17"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V18",
+    "description": "Remove column V18"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V19",
+    "description": "Remove column V19"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V20",
+    "description": "Remove column V20"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V21",
+    "description": "Remove column V21"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V22",
+    "description": "Remove column V22"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V23",
+    "description": "Remove column V23"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V24",
+    "description": "Remove column V24"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TECNICA MEDICION",
+    "newColumnName": "TECNICA_MEDICION",
+    "description": "Rename column TECNICA MEDICION to TECNICA_MEDICION"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology/AirPollution# "
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "COD_CORTO_ESTACION",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "ID_ESTACION",
+    "columnInsertIndex": 3,
+    "description": "Create column ID_ESTACION at index 3 based on column COD_CORTO_ESTACION using expression grel:value"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "ID_ESTACION",
+    "index": 2,
+    "description": "Move column ID_ESTACION to position 2"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(/\\b4\\b/,\"28079004\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(/\\b4\\b/,\"28079004\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(/\\b8\\b/,\"28079008\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(/\\b8\\b/,\"28079008\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(/\\b11\\b/,\"28079011\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(/\\b11\\b/,\"28079011\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(/\\b16\\b/,\"28079016\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(/\\b16\\b/,\"28079016\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(/\\b17\\b/,\"28079017\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(/\\b17\\b/,\"28079017\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(/\\b18\\b/,\"28079018\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(/\\b18\\b/,\"28079018\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(/\\b24\\b/,\"28079024\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(/\\b24\\b/,\"28079024\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"27\",\"28079027\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"27\",\"28079027\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"35\",\"28079035\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"35\",\"28079035\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"36\",\"28079036\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"36\",\"28079036\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"38\",\"28079038\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"38\",\"28079038\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"39\",\"28079039\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"39\",\"28079039\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"40\",\"28079040\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"40\",\"28079040\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"47\",\"28079047\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"47\",\"28079047\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"48\",\"28079048\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"48\",\"28079048\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"49\",\"28079049\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"49\",\"28079049\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"50\",\"28079050\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"50\",\"28079050\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"54\",\"28079054\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"54\",\"28079054\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"55\",\"28079055\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"55\",\"28079055\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"56\",\"28079056\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"56\",\"28079056\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"57\",\"28079057\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"57\",\"28079057\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"58\",\"28079058\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"58\",\"28079058\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"59\",\"28079059\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"59\",\"28079059\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.replace(\"60\",\"28079060\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.replace(\"60\",\"28079060\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COD_CORTO_ESTACION",
+    "description": "Remove column COD_CORTO_ESTACION"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#AirMeasurement",
+              "curie": "aqm:AirMeasurement"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#AirMeasurement",
+              "curie": "aqm:AirMeasurement"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#AirMeasurement",
+              "curie": "aqm:AirMeasurement"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+              "curie": "rdf:subject",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": true
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#AirMeasurement",
+              "curie": "aqm:AirMeasurement"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#id_estacion",
+              "curie": "aqm:id_estacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID_ESTACION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#Measurement",
+              "curie": "aqm:Measurement"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#id_estacion",
+              "curie": "aqm:id_estacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID_ESTACION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#contaminante",
+              "curie": "aqm:contaminante",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE MEDIDO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#tecnica_medicion",
+              "curie": "aqm:tecnica_medicion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TECNICA_MEDICION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion1",
+              "curie": "aqm:medicion1",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION1",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion2",
+              "curie": "aqm:medicion2",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION2",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion3",
+              "curie": "aqm:medicion3",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION3",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion4",
+              "curie": "aqm:medicion4",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION4",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion5",
+              "curie": "aqm:medicion5",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION5",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion6",
+              "curie": "aqm:medicion6",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION6",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion7",
+              "curie": "aqm:medicion7",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION7",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion8",
+              "curie": "aqm:medicion8",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION8",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion9",
+              "curie": "aqm:medicion9",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION9",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion10",
+              "curie": "aqm:medicion10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION10",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion11",
+              "curie": "aqm:medicion11",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION11",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion12",
+              "curie": "aqm:medicion12",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION12",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion13",
+              "curie": "aqm:medicion13",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION13",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion14",
+              "curie": "aqm:medicion14",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION14",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion15",
+              "curie": "aqm:medicion15",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION15",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion16",
+              "curie": "aqm:medicion16",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION16",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion17",
+              "curie": "aqm:medicion17",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION17",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion18",
+              "curie": "aqm:medicion18",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION18",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion19",
+              "curie": "aqm:medicion19",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION19",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion20",
+              "curie": "aqm:medicion20",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION20",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion21",
+              "curie": "aqm:medicion21",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION21",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion22",
+              "curie": "aqm:medicion22",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION22",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion23",
+              "curie": "aqm:medicion23",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION23",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion24",
+              "curie": "aqm:medicion24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION24",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#anio",
+              "curie": "aqm:anio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ANIO",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#mes",
+              "curie": "aqm:mes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MES",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#dia",
+              "curie": "aqm:dia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DIA",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#municipio",
+              "curie": "aqm:municipio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MUNICIPIO",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#provincia",
+              "curie": "aqm:provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#Measurement",
+              "curie": "aqm:Measurement"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#id_estacion",
+              "curie": "aqm:id_estacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID_ESTACION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#contaminante",
+              "curie": "aqm:contaminante",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE MEDIDO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#tecnica_medicion",
+              "curie": "aqm:tecnica_medicion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TECNICA_MEDICION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion1",
+              "curie": "aqm:medicion1",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION1",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion2",
+              "curie": "aqm:medicion2",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION2",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion3",
+              "curie": "aqm:medicion3",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION3",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion4",
+              "curie": "aqm:medicion4",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION4",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion5",
+              "curie": "aqm:medicion5",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION5",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion6",
+              "curie": "aqm:medicion6",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION6",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion7",
+              "curie": "aqm:medicion7",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION7",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion8",
+              "curie": "aqm:medicion8",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION8",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion9",
+              "curie": "aqm:medicion9",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION9",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion10",
+              "curie": "aqm:medicion10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION10",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion11",
+              "curie": "aqm:medicion11",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION11",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion12",
+              "curie": "aqm:medicion12",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION12",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion13",
+              "curie": "aqm:medicion13",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION13",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion14",
+              "curie": "aqm:medicion14",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION14",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion15",
+              "curie": "aqm:medicion15",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION15",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion16",
+              "curie": "aqm:medicion16",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION16",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion17",
+              "curie": "aqm:medicion17",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION17",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion18",
+              "curie": "aqm:medicion18",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION18",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion19",
+              "curie": "aqm:medicion19",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION19",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion20",
+              "curie": "aqm:medicion20",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION20",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion21",
+              "curie": "aqm:medicion21",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION21",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion22",
+              "curie": "aqm:medicion22",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION22",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion23",
+              "curie": "aqm:medicion23",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION23",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#medicion24",
+              "curie": "aqm:medicion24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MEDICION24",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#anio",
+              "curie": "aqm:anio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ANIO",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#mes",
+              "curie": "aqm:mes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MES",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#dia",
+              "curie": "aqm:dia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DIA",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#municipio",
+              "curie": "aqm:municipio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "MUNICIPIO",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#provincia",
+              "curie": "aqm:provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology/AirPollution#Measurement",
+              "curie": "aqm:Measurement"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]
