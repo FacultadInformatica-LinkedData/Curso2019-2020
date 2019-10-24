@@ -32,6 +32,7 @@ geo:long rdf:type rdfs:Datatype .
          rdfs:range :FuelType .
 
 
+
 #################################################################
 #    Data properties
 #################################################################
@@ -86,6 +87,10 @@ geo:long rdf:type rdfs:Datatype .
              rdfs:domain :Station ;
              rdfs:range xsd:string .
 
+###  http://www.semweb19-20/G11/fullstation#dedicatedTo
+:dedicatedTo rdf:type owl:DatatypeProperty ;
+	    rdfs:domain :Street ;
+	    rdfs:range :string .
 
 #################################################################
 #    Classes
@@ -94,9 +99,11 @@ geo:long rdf:type rdfs:Datatype .
 ###  http://www.semweb19-20/G11/fullstation#FuelType
 :FuelType rdf:type owl:Class .
 
-
 ###  http://www.semweb19-20/G11/fullstation#Station
 :Station rdf:type owl:Class .
+
+###  http://www.semweb19-20/G11/fullstation#Street
+:Street rdf:type owl:Class .
 
 
 #################################################################
