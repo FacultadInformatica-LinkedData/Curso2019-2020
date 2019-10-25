@@ -7,8 +7,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://www.semweb19-20/G11> .
 
+
 <http://www.semweb19-20/G11/ontology> rdf:type owl:Ontology ;
 rdfs:comment "An Alcobendas's fuel station ontology that describe the location, opening hours and fuel prices of every station." .
+
 
 #################################################################
 #    Datatypes
