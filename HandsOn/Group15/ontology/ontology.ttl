@@ -43,15 +43,30 @@
              rdfs:domain :Station , :Measurement ;
              rdfs:range xsd:integer .
 			 
-###  http://www.airQualityMadrid.com/ontology#ID_ESTACION
+###  http://www.airQualityMadrid.com/ontology#NOMBRE
 :nombre rdf:type owl:DatatypeProperty ;
              rdfs:domain :Station;
              rdfs:range xsd:string .
 			 
-###  http://www.airQualityMadrid.com/ontology#ID_ESTACION
+###  http://www.airQualityMadrid.com/ontology#DIRECCION
 :direccion rdf:type owl:DatatypeProperty ;
              rdfs:domain :Station;
              rdfs:range xsd:string .
+			 
+###  http://www.airQualityMadrid.com/ontology#TIPO
+:tipo rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Station;
+             rdfs:range xsd:string .
+			 
+###  http://www.airQualityMadrid.com/ontology#LATITUD
+:latitud rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Station;
+             rdfs:range xsd:float .
+			 
+###  http://www.airQualityMadrid.com/ontology#LONGITUD
+:longitud rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Station;
+             rdfs:range xsd:float .
 			 
 ###  http://www.airQualityMadrid.com/ontology#CONTAMINANTE
 :contaminante rdf:type owl:DatatypeProperty ;
