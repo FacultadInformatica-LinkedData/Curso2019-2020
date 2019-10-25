@@ -1,0 +1,9 @@
+Codigo de la aplicacion
+Init -> Main
+Buscador -> Interfaz buscador
+Resultado -> Interfaz de los resultados de la busqueda
+Seleccion -> Interfaz de los datos del resultado elegido
+Site -> Objeto Java
+wifi.db -> Base de datos (csv)
+carpeta icons -> imagenes de la app
+

@@ -1,0 +1,8 @@
+La aplicacion debe estar en el mismo directorio que la base de datos para que funcione
+Se puede ejecutar tanto con el .exe como con el .jar
+
+Uso:
+En la pantalla de busqueda se puede elegir donde se va a buscar filtrando por nombre del sitio, distrito, barrio, calle y codigo postal.
+Si se eligen valores que no tienen nada que ver, por ejemplo, un distrito y una calle que no se encuentra en dicho distrito, obviamente no se van a encontrar ningún resultado.
+Cuando se haga la busqueda con éxito, se mostrarán todas las diferentes coincidencias, y se podrá elegir la que guste.
+Una vez elegida, se mostrarán sus características, y además, hay botones habilitados que al pulsarlos nos podrán redirigir en nuestro navegador al sitio en Google Maps, al sitio web del lugar y al sitio web de wikidata del distrito y barrio.
