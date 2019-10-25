@@ -1,0 +1,3516 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "Gis_X",
+    "description": "Remove column Gis_X"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Gis_Y",
+    "description": "Remove column Gis_Y"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Distrito",
+    "keyColumnName": "Número",
+    "mode": "lengths",
+    "fieldLengths": [
+      3
+    ],
+    "description": "Split multi-valued cells in column Distrito"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Distrito",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "lengths",
+    "fieldLengths": [
+      3,
+      20
+    ],
+    "description": "Split column Distrito by field lengths"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Distrito 1",
+    "description": "Remove column Distrito 1"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "lengths",
+    "fieldLengths": [
+      6,
+      30
+    ],
+    "description": "Split column Barrio by field lengths"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Barrio 1",
+    "description": "Remove column Barrio 1"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Distrito 2",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Distrito 2 using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Distrito 2",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Distrito 2 using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio 2",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Barrio 2 using expression value.trim()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Distrito 2",
+    "newColumnName": "Distrito",
+    "description": "Rename column Distrito 2 to Distrito"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Número",
+    "newColumnName": "Id",
+    "description": "Rename column Número to Id"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Fecha de Alta",
+    "newColumnName": "date",
+    "description": "Rename column Fecha de Alta to date"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Distrito",
+    "newColumnName": "district",
+    "description": "Rename column Distrito to district"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Barrio 2",
+    "newColumnName": "neighborhood",
+    "description": "Rename column Barrio 2 to neighborhood"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Calle",
+    "newColumnName": "street",
+    "description": "Rename column Calle to street"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nº Finca",
+    "newColumnName": "street number",
+    "description": "Rename column Nº Finca to street number"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "street number",
+    "newColumnName": "street_number",
+    "description": "Rename column street number to street_number"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Tipo de Reserva",
+    "newColumnName": "booking_type",
+    "description": "Rename column Tipo de Reserva to booking_type"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Número de Plazas",
+    "newColumnName": "availability",
+    "description": "Rename column Número de Plazas to availability"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Longitud",
+    "newColumnName": "Longitude",
+    "description": "Rename column Longitud to Longitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Latitud",
+    "newColumnName": "Latitude",
+    "description": "Rename column Latitud to Latitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Direccion",
+    "newColumnName": "address",
+    "description": "Rename column Direccion to address"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Id",
+    "expression": "grel:\"BiciMAD_Station\" +'_'+value",
+    "onError": "set-to-blank",
+    "newColumnName": "uri",
+    "columnInsertIndex": 1,
+    "description": "Create column uri at index 1 based on column Id using expression grel:\"BiciMAD_Station\" +'_'+value"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10267336",
+        "name": "neighborhood of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column neighborhood to type Q10267336"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q79007",
+        "name": "street"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column street to type Q79007"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "similarValue": "JUSTICIA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1992319",
+      "name": "Justicia",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Justicia (Q1992319) for cells containing \"JUSTICIA\" in column neighborhood"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "MANUELA MALASAÑA, CALLE, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27044275",
+      "name": "Manuela Malasaña calle de",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manuela Malasaña calle de (Q27044275) for cells containing \"MANUELA MALASAÑA, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "PRIM, CALLE, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28916366",
+      "name": "Prim, calle de",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Prim, calle de (Q28916366) for cells containing \"PRIM, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "MAYOR, CALLE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1149052",
+      "name": "Calle Mayor",
+      "types": [
+        "Q79007"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Calle Mayor (Q1149052) for cells containing \"MAYOR, CALLE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "CONDE DEL VALLE DE SUCHIL, PLAZA, DEL",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27244013",
+      "name": "Conde del Valle del Súchil, plaza de",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Conde del Valle del Súchil, plaza de (Q27244013) for cells containing \"CONDE DEL VALLE DE SUCHIL, PLAZA, DEL\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "SAN MIGUEL, PLAZA, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q52051752",
+      "name": "San Miguel, plaza de",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item San Miguel, plaza de (Q52051752) for cells containing \"SAN MIGUEL, PLAZA, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "PUERTA DEL SOL, PLAZA, DE LA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q427163",
+      "name": "Puerta del Sol",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Puerta del Sol (Q427163) for cells containing \"PUERTA DEL SOL, PLAZA, DE LA\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "PRIM, CALLE, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28916366",
+      "name": "Prim, calle de",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Prim, calle de (Q28916366) for cells containing \"PRIM, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "RED DE SAN LUIS, PLAZA, DE LA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6103179",
+      "name": "Red de San Luis",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Red de San Luis (Q6103179) for cells containing \"RED DE SAN LUIS, PLAZA, DE LA\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "PROVINCIA, PLAZA, DE LA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q12344133",
+      "name": "plaza de la Provincia",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de la Provincia (Q12344133) for cells containing \"PROVINCIA, PLAZA, DE LA\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "SALESAS, PLAZA, DE LAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28916480",
+      "name": "plaza de las Salesas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de las Salesas (Q28916480) for cells containing \"SALESAS, PLAZA, DE LAS\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "CELENQUE, PLAZA, DEL",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6079939",
+      "name": "plaza de Celenque",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de Celenque (Q6079939) for cells containing \"CELENQUE, PLAZA, DEL\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "PEDRO ZEROLO, PLAZA, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6080146",
+      "name": "plaza de Pedro Zerolo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de Pedro Zerolo (Q6080146) for cells containing \"PEDRO ZEROLO, PLAZA, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "JACINTO BENAVENTE, PLAZA, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6080004",
+      "name": "Plaza de Jacinto Benavente",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Plaza de Jacinto Benavente (Q6080004) for cells containing \"JACINTO BENAVENTE, PLAZA, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "VISTILLAS, TRAVESIA, DE LAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27644226",
+      "name": "plaza de Gabriel Miró",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de Gabriel Miró (Q27644226) for cells containing \"VISTILLAS, TRAVESIA, DE LAS\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "MIGUEL SERVET, CALLE, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q52158635",
+      "name": "calle de Miguel Servet",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle de Miguel Servet (Q52158635) for cells containing \"MIGUEL SERVET, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "VALENCIA, CALLE, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q26810468",
+      "name": "calle de Valencia",
+      "types": [
+        "Q79007"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle de Valencia (Q26810468) for cells containing \"VALENCIA, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "MANUELA MALASAÑA, CALLE, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27044275",
+      "name": "calle de Manuela Malasaña",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle de Manuela Malasaña (Q27044275) for cells containing \"MANUELA MALASAÑA, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "EMBAJADORES, GLORIETA, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16571874",
+      "name": "glorieta de Embajadores",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item glorieta de Embajadores (Q16571874) for cells containing \"EMBAJADORES, GLORIETA, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "CEBADA, PLAZA, DE LA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9060972",
+      "name": "plaza de la Cebada",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de la Cebada (Q9060972) for cells containing \"CEBADA, PLAZA, DE LA\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "RAMALES, PLAZA, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2839150",
+      "name": "plaza de Ramales",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de Ramales (Q2839150) for cells containing \"RAMALES, PLAZA, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "ALONSO MARTINEZ, PLAZA, DE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"ALONSO MARTINEZ, PLAZA, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "EMPERADOR CARLOS V, PLAZA, DEL",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7203711",
+      "name": "Plaza del Emperador Carlos V",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Plaza del Emperador Carlos V (Q7203711) for cells containing \"EMPERADOR CARLOS V, PLAZA, DEL\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "SANTA ANA, PLAZA, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q740210",
+      "name": "Plaza de Santa Ana",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Plaza de Santa Ana (Q740210) for cells containing \"SANTA ANA, PLAZA, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "ALFONSO XII, CALLE, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5659170",
+      "name": "Calle de Alfonso XII",
+      "types": [
+        "Q79007"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Calle de Alfonso XII (Q5659170) for cells containing \"ALFONSO XII, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "PRADO, PASEO, DEL",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2079615",
+      "name": "Paseo del Prado",
+      "types": [
+        "Q787113",
+        "Q54114",
+        "Q79007"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paseo del Prado (Q2079615) for cells containing \"PRADO, PASEO, DEL\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "RECOLETOS, PASEO, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2550870",
+      "name": "Paseo de Recoletos",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paseo de Recoletos (Q2550870) for cells containing \"RECOLETOS, PASEO, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "PUERTA DE TOLEDO, GLORIETA, DE LA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6111946",
+      "name": "Ronda de Toledo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ronda de Toledo (Q6111946) for cells containing \"PUERTA DE TOLEDO, GLORIETA, DE LA\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "CARMEN, PLAZA, DEL",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6080406",
+      "name": "plaza del Carmen",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza del Carmen (Q6080406) for cells containing \"CARMEN, PLAZA, DEL\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "FLORIDA, PASEO, DE LA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5576961",
+      "name": "Paseo de la Florida",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paseo de la Florida (Q5576961) for cells containing \"FLORIDA, PASEO, DE LA\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "neighborhood: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "neighborhood",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "similarValue": "ADELFAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3774001",
+      "name": "Adelfas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Adelfas (Q3774001) for cells containing \"ADELFAS\" in column neighborhood"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "neighborhood: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "neighborhood",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "street: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "street",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "similarValue": "NIÑO JESÚS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3773746",
+      "name": "Niño Jesús",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Niño Jesús (Q3773746) for cells containing \"NIÑO JESÚS\" in column neighborhood"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "street: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "street",
+          "from": 22,
+          "to": 101,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "SAN ILDEFONSO, PLAZA, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6080070",
+      "name": "plaza de San Ildefonso",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de San Ildefonso (Q6080070) for cells containing \"SAN ILDEFONSO, PLAZA, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "street: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "street",
+          "from": 22,
+          "to": 101,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "CONDE DE CASAL, PLAZA, DEL",
+    "judgment": "matched",
+    "match": {
+      "id": "Q30342082",
+      "name": "Conde de Casal, plaza del",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Conde de Casal, plaza del (Q30342082) for cells containing \"CONDE DE CASAL, PLAZA, DEL\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "street: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "street",
+          "from": 22,
+          "to": 101,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "SAN JUAN DE LA CRUZ, PLAZA, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27345106",
+      "name": "Square of San Juan de la Cruz",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Square of San Juan de la Cruz (Q27345106) for cells containing \"SAN JUAN DE LA CRUZ, PLAZA, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "street: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "street",
+          "from": 22,
+          "to": 101,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "REPUBLICA ARGENTINA, PLAZA, DE LA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q29200152",
+      "name": "República Argentina, plaza de la",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item República Argentina, plaza de la (Q29200152) for cells containing \"REPUBLICA ARGENTINA, PLAZA, DE LA\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "street: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "street",
+          "from": 22,
+          "to": 101,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "ESPERANZA, PASEO, DE LA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55947011",
+      "name": "paseo de la Esperanza",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item paseo de la Esperanza (Q55947011) for cells containing \"ESPERANZA, PASEO, DE LA\" in column street"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "district",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column district to type Q3032114"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "CARLOS III, CALLE, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q29004341",
+      "name": "calle de Carlos III",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle de Carlos III (Q29004341) for cells containing \"CARLOS III, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "PAVIA, CALLE, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q30816733",
+      "name": "calle de Pavía",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle de Pavía (Q30816733) for cells containing \"PAVIA, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "JESUS, CALLE, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27051182",
+      "name": "calle de Jesús",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle de Jesús (Q27051182) for cells containing \"JESUS, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "CONDE DE ROMANONES, CALLE, DEL",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28026494",
+      "name": "cai Conde de Romanones",
+      "types": [
+        "Q79007"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item cai Conde de Romanones (Q28026494) for cells containing \"CONDE DE ROMANONES, CALLE, DEL\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "MIGUEL MOYA, CALLE, DE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"MIGUEL MOYA, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "CARLOS CAMBRONERO, PLAZA, DE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"CARLOS CAMBRONERO, PLAZA, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "MARIA FRANCISCA, CALLE, DE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"MARIA FRANCISCA, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "similarValue": "ADELFAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3774001",
+      "name": "Adelfas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Adelfas (Q3774001) for cells containing \"ADELFAS\" in column neighborhood"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "similarValue": "NIÑO JESÚS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3773746",
+      "name": "Niño Jesús",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Niño Jesús (Q3773746) for cells containing \"NIÑO JESÚS\" in column neighborhood"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "similarValue": "CHOPERA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3773750",
+      "name": "La Chopera",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item La Chopera (Q3773750) for cells containing \"CHOPERA\" in column neighborhood"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "similarValue": "DELICIAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5970392",
+      "name": "Las Delicias",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Las Delicias (Q5970392) for cells containing \"DELICIAS\" in column neighborhood"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhood",
+    "similarValue": "DELICIAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3773736",
+      "name": "Las Delicias (Madrid)",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Las Delicias (Madrid) (Q3773736) for cells containing \"DELICIAS\" in column neighborhood"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "MIGUEL MOYA, CALLE, DE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"MIGUEL MOYA, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "ALONSO MARTINEZ, PLAZA, DE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"ALONSO MARTINEZ, PLAZA, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "CORDON, CALLE, DEL",
+    "judgment": "matched",
+    "match": {
+      "id": "Q32454791",
+      "name": "calle del Cordón",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle del Cordón (Q32454791) for cells containing \"CORDON, CALLE, DEL\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "ALMADEN, CALLE, DE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"ALMADEN, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "DOCE DE OCTUBRE, CALLE, DEL",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"DOCE DE OCTUBRE, CALLE, DEL\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "PIO BAROJA, CALLE, DE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"PIO BAROJA, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "FELIPE II, AVENIDA, DE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"FELIPE II, AVENIDA, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "ESPALTER, CALLE, DE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"ESPALTER, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "CERRO DE LA PLATA, CALLE, DEL",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"CERRO DE LA PLATA, CALLE, DEL\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "MARTIRES CONCEPCIONISTAS, CALLE, DE LOS",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"MARTIRES CONCEPCIONISTAS, CALLE, DE LOS\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "ESPAÑA, PLAZA, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1326261",
+      "name": "plaza de España",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de España (Q1326261) for cells containing \"ESPAÑA, PLAZA, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "ASTROS, PLAZA, DE LOS",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"ASTROS, PLAZA, DE LOS\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "MARQUES DE CERRALBO, PLAZA, DEL",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"MARQUES DE CERRALBO, PLAZA, DEL\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "JUAN MARTIN EL EMPECINADO, CALLE, DE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"JUAN MARTIN EL EMPECINADO, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "PALOS DE LA FRONTERA, CALLE, DE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"PALOS DE LA FRONTERA, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "DULCINEA, CALLE, DE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"DULCINEA, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "JUAN BRAVO, CALLE, DE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28054647",
+      "name": "calle Juan Bravo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle Juan Bravo (Q28054647) for cells containing \"JUAN BRAVO, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "JOSE GUTIERREZ ABASCAL, CALLE, DE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"JOSE GUTIERREZ ABASCAL, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "COLOMBIA, CALLE, DE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"COLOMBIA, CALLE, DE\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "OLMOS, PASEO, DE LOS",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"OLMOS, PASEO, DE LOS\" in column street"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "BS",
+          "uri": "http://www.biciMad.com/ontology"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "sch",
+          "uri": "https://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.biciMad.com/BikeStation/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "uri",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "uri",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://www.biciMAD.com/ontology/BikeStation",
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasNeighborhood",
+              "curie": "BS:/hasNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "neighborhood",
+                "expression": "\"addressRegion/\"+value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "neighborhood",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/addressRegion",
+                    "curie": "sch:addressRegion"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasStreet",
+              "curie": "BS:/hasStreet",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "street",
+                "expression": "\"place/\"+escape(value,\"url\")",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "street",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/Place",
+                    "curie": "sch:Place"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasDistrict",
+              "curie": "BS:/hasDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "district",
+                "expression": "\"areaServed/\"+value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "district",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/areaServed",
+                    "curie": "sch:areaServed"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasAvailability",
+              "curie": "BS:/hasAvailability",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "availability",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasStreetNumber",
+              "curie": "BS:/hasStreetNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "street_number",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasLongitude",
+              "curie": "BS:/hasLongitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Longitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasLatitude",
+              "curie": "BS:/hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Latitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasAddress",
+              "curie": "BS:/hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "address",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasDate",
+              "curie": "BS:/hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "date",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"/resources/serviceArea/\"+value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "BS",
+          "uri": "http://www.biciMad.com/ontology"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "sch",
+          "uri": "https://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.biciMad.com/BikeStation/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "uri",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "uri",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://www.biciMAD.com/ontology/BikeStation",
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasNeighborhood",
+              "curie": "BS:/hasNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "neighborhood",
+                "expression": "\"addressRegion/\"+value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "neighborhood",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/addressRegion",
+                    "curie": "sch:addressRegion"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasStreet",
+              "curie": "BS:/hasStreet",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "street",
+                "expression": "\"place/\"+escape(value,\"url\")",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "street",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/Place",
+                    "curie": "sch:Place"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasDistrict",
+              "curie": "BS:/hasDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "district",
+                "expression": "\"areaServed/\"+value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "district",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/areaServed",
+                    "curie": "sch:areaServed"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasAvailability",
+              "curie": "BS:/hasAvailability",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "availability",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasStreetNumber",
+              "curie": "BS:/hasStreetNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "street_number",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasLongitude",
+              "curie": "BS:/hasLongitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Longitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasLatitude",
+              "curie": "BS:/hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Latitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasAddress",
+              "curie": "BS:/hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "address",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasDate",
+              "curie": "BS:/hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "date",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"/resources/serviceArea/\"+value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "district",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "sch:areaServed",
+    "columnInsertIndex": 4,
+    "description": "Create column sch:areaServed at index 4 based on column district using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "neighborhood",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "sch:addressRegion",
+    "columnInsertIndex": 6,
+    "description": "Create column sch:addressRegion at index 6 based on column neighborhood using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "BS",
+          "uri": "http://www.biciMad.com/ontology"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "sch",
+          "uri": "https://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.biciMad.com/BikeStation/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "uri",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "uri",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://www.biciMAD.com/ontology/BikeStation",
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasNeighborhood",
+              "curie": "BS:/hasNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "neighborhood",
+                "expression": "\"addressRegion/\"+value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "neighborhood",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/addressRegion",
+                    "curie": "sch:addressRegion"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasStreet",
+              "curie": "BS:/hasStreet",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "street",
+                "expression": "\"place/\"+escape(value,\"url\")",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "street",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/Place",
+                    "curie": "sch:Place"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasDistrict",
+              "curie": "BS:/hasDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "district",
+                "expression": "\"areaServed/\"+value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "district",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/areaServed",
+                    "curie": "sch:areaServed"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasAvailability",
+              "curie": "BS:/hasAvailability",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "availability",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasStreetNumber",
+              "curie": "BS:/hasStreetNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "street_number",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasLongitude",
+              "curie": "BS:/hasLongitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Longitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasLatitude",
+              "curie": "BS:/hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Latitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasAddress",
+              "curie": "BS:/hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "address",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasDate",
+              "curie": "BS:/hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "date",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"/resources/serviceArea/\"+value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "street",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "sch:Place",
+    "columnInsertIndex": 8,
+    "description": "Create column sch:Place at index 8 based on column street using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "BS",
+          "uri": "http://www.biciMad.com/ontology"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "sch",
+          "uri": "https://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.biciMad.com/BikeStation/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "uri",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "uri",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://www.biciMAD.com/ontology/BikeStation",
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasNeighborhood",
+              "curie": "BS:/hasNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "neighborhood",
+                "expression": "\"addressRegion/\"+value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "neighborhood",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/addressRegion",
+                    "curie": "sch:addressRegion"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasStreet",
+              "curie": "BS:/hasStreet",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "street",
+                "expression": "\"place/\"+escape(value,\"url\")",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "street",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/Place",
+                    "curie": "sch:Place"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasDistrict",
+              "curie": "BS:/hasDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "district",
+                "expression": "\"areaServed/\"+value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "district",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/areaServed",
+                    "curie": "sch:areaServed"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasAvailability",
+              "curie": "BS:/hasAvailability",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "availability",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasStreetNumber",
+              "curie": "BS:/hasStreetNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "street_number",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasLongitude",
+              "curie": "BS:/hasLongitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Longitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasLatitude",
+              "curie": "BS:/hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Latitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasAddress",
+              "curie": "BS:/hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "address",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasDate",
+              "curie": "BS:/hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "date",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"/resources/serviceArea/\"+value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "BS",
+          "uri": "http://www.biciMad.com/ontology"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "sch",
+          "uri": "https://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.biciMad.com/BikeStation/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "uri",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "uri",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://www.biciMAD.com/ontology/BikeStation",
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasNeighborhood",
+              "curie": "BS:/hasNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "neighborhood",
+                "expression": "\"addressRegion/\"+value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "neighborhood",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "sch:addressRegion",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/addressRegion",
+                    "curie": "sch:addressRegion"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasStreet",
+              "curie": "BS:/hasStreet",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "street",
+                "expression": "\"place/\"+escape(value,\"url\")",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "street",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "sch:Place",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/Place",
+                    "curie": "sch:Place"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasDistrict",
+              "curie": "BS:/hasDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "district",
+                "expression": "\"areaServed/\"+value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "district",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "sch:areaServed",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/areaServed",
+                    "curie": "sch:areaServed"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasAvailability",
+              "curie": "BS:/hasAvailability",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "availability",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasStreetNumber",
+              "curie": "BS:/hasStreetNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "street_number",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasLongitude",
+              "curie": "BS:/hasLongitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Longitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasLatitude",
+              "curie": "BS:/hasLatitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Latitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasAddress",
+              "curie": "BS:/hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "address",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.biciMad.com/ontology/hasDate",
+              "curie": "BS:/hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "date",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"/resources/serviceArea/\"+value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]
