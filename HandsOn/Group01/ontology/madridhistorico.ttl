@@ -1,4 +1,4 @@
-@prefix : <http://www.madridhistorico.es/linkedData/ontology#> .
+@prefix : <http://www.madridhistorico.es/linkeddata/ontology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -70,28 +70,28 @@
                                  rdfs:range xsd:float .
 
 
-###  http://www.madridhistorico.es/linkeddata/ontology#address
-:address rdf:type owl:DatatypeProperty ;
-         rdfs:domain <http://dbpedia.org/ontology/Monument> ;
-         rdfs:range xsd:string .
+###  http://www.madridhistorico.es/linkedData/ontology#address
+<http://www.madridhistorico.es/linkedData/ontology#address> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:domain <http://dbpedia.org/ontology/Monument> ;
+                                                            rdfs:range xsd:string .
 
 
-###  http://www.madridhistorico.es/linkeddata/ontology#coordinate_X
-:coordinate_X rdf:type owl:DatatypeProperty ;
-              rdfs:domain <http://dbpedia.org/ontology/Monument> ;
-              rdfs:range xsd:int .
+###  http://www.madridhistorico.es/linkedData/ontology#coordinate_X
+<http://www.madridhistorico.es/linkedData/ontology#coordinate_X> rdf:type owl:DatatypeProperty ;
+                                                                 rdfs:domain <http://dbpedia.org/ontology/Monument> ;
+                                                                 rdfs:range xsd:int .
 
 
-###  http://www.madridhistorico.es/linkeddata/ontology#coordinate_Y
-:coordinate_Y rdf:type owl:DatatypeProperty ;
-              rdfs:domain <http://dbpedia.org/ontology/Monument> ;
-              rdfs:range xsd:int .
+###  http://www.madridhistorico.es/linkedData/ontology#coordinate_Y
+<http://www.madridhistorico.es/linkedData/ontology#coordinate_Y> rdf:type owl:DatatypeProperty ;
+                                                                 rdfs:domain <http://dbpedia.org/ontology/Monument> ;
+                                                                 rdfs:range xsd:int .
 
 
-###  http://www.madridhistorico.es/linkeddata/ontology#year
-:year rdf:type owl:DatatypeProperty ;
-      rdfs:domain <http://dbpedia.org/ontology/Monument> ;
-      rdfs:range xsd:int .
+###  http://www.madridhistorico.es/linkedData/ontology#year
+<http://www.madridhistorico.es/linkedData/ontology#year> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:domain <http://dbpedia.org/ontology/Monument> ;
+                                                         rdfs:range xsd:int .
 
 
 ###  ttp://dbpedia.org/ontology/description
@@ -131,29 +131,33 @@
                                                 rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
 
 
-###  http://www.madridhistorico.es/linkeddata/ontology#Conceptual_Statue
-:Conceptual_Statue rdf:type owl:Class ;
-                   rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+###  http://www.madridhistorico.es/linkedData/ontology#Conceptual_Statue
+<http://www.madridhistorico.es/linkedData/ontology#Conceptual_Statue> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
 
 
-###  http://www.madridhistorico.es/linkeddata/ontology#Ornamentation
-:Ornamentation rdf:type owl:Class ;
-               rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+###  http://www.madridhistorico.es/linkedData/ontology#Ornamentation
+<http://www.madridhistorico.es/linkedData/ontology#Ornamentation> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
 
 
-###  http://www.madridhistorico.es/linkeddata/ontology#Sculptural_Group
-:Sculptural_Group rdf:type owl:Class ;
-                  rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+###  http://www.madridhistorico.es/linkedData/ontology#Sculptural_Group
+<http://www.madridhistorico.es/linkedData/ontology#Sculptural_Group> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
 
 
-###  http://www.madridhistorico.es/linkeddata/ontology#Singular_Building
-:Singular_Building rdf:type owl:Class ;
-                   rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+###  http://www.madridhistorico.es/linkedData/ontology#Singular_Building
+<http://www.madridhistorico.es/linkedData/ontology#Singular_Building> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
 
 
-###  http://www.madridhistorico.es/linkeddata/ontology#Water_Construction
-:Water_Construction rdf:type owl:Class ;
-                    rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+###  http://www.madridhistorico.es/linkedData/ontology#Water_Construction
+<http://www.madridhistorico.es/linkedData/ontology#Water_Construction> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###  http://www.madridhistorico.es/linkeddata/ontology#Neighborhood
+:Neighborhood rdf:type owl:Class .
 
 
 ###  http://www.ontotext.com/proton/protonext#Arch

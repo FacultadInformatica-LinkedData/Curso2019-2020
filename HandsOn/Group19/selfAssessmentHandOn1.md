@@ -1,5 +1,5 @@
 #Hands-on assignment 1 – Self assessment#
-
+The whole group worked in this part
 ##Checklist##
 
 **The “README.md” file:**
