@@ -1,0 +1,559 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix mc: <http://www.madridcen.es/group30/ontologia#> .
+@prefix sch: <https://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/MaríaJesúsRosa(LaVaguada)> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "FUENCARRAL-EL PARDO" ;
+	mc:provincia "MADRID" ;
+	mc:via "MONFORTE DE LEMOS" ;
+	mc:codigoPostal "28029" ;
+	mc:telefono "914 800 476" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Alcántara> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "SALAMANCA" ;
+	mc:provincia "MADRID" ;
+	mc:via "ALCANTARA" ;
+	mc:codigoPostal "28006" ;
+	mc:email "alcantara@viding.es" ;
+	mc:telefono "917 373 641" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/AlfredoGoyeneche> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "MONCLOA-ARAVACA" ;
+	mc:via "ARROYO DE POZUELO" ;
+	mc:codigoPostal "28023" ;
+	mc:telefono "913 571 228" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Aluche> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "LATINA" ;
+	mc:provincia "MADRID" ;
+	mc:via "DE LAS AGUILAS" ;
+	mc:codigoPostal "28044" ;
+	mc:email "idmaluche@madrid.es" ;
+	mc:telefono "917 062 868" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/AntiguoCanódromo> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "CARABANCHEL" ;
+	mc:provincia "MADRID" ;
+	mc:via "VIA CARPETANA" ;
+	mc:codigoPostal "28047" ;
+	mc:telefono "685534621" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/AntonioDíazMiguel> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "TETUAN" ;
+	mc:provincia "MADRID" ;
+	mc:via "JOAQUIN DICENTA" ;
+	mc:codigoPostal "28029" ;
+	mc:telefono "913 145 437" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Barajas> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "BARAJAS" ;
+	mc:provincia "MADRID" ;
+	mc:via "LOGROÑO" ;
+	mc:codigoPostal "28042" ;
+	mc:telefono "913 294 219 / 913 290 602" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Barceló> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "DISTRITO" ;
+	mc:provincia "MADRID" ;
+	mc:via "BARCELO" ;
+	mc:codigoPostal "28004" ;
+	mc:email "infobarcelo@forus.es" ;
+	mc:telefono "910 285 389" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/CasadeCampo> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "MONCLOA-ARAVACA" ;
+	mc:provincia "MADRID" ;
+	mc:via "PUERTA DEL ANGEL" ;
+	mc:codigoPostal "28011" ;
+	mc:telefono "914 630 050 / 914 649 889" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/CentroIntegradoArganzuela> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "ARGANZUELA" ;
+	mc:provincia "MADRID" ;
+	mc:via "CANARIAS" ;
+	mc:codigoPostal "28045" ;
+	mc:email "idmestacionsur@madrid.es" ;
+	mc:telefono "915 063 616" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/CerroAlmodóvar> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "VILLA DE VALLECAS" ;
+	mc:provincia "MADRID" ;
+	mc:via "CERRO DE ALMODOVAR" ;
+	mc:codigoPostal "28007" ;
+	mc:telefono "913 314 047" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Chamartín> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "CHAMARTIN" ;
+	mc:provincia "MADRID" ;
+	mc:via "PIO XII" ;
+	mc:codigoPostal "28016" ;
+	mc:email "infochamartin@forus.es" ;
+	mc:telefono "91 359 33 39" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/CircuitoBMX> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "ARGANZUELA" ;
+	mc:provincia "MADRID" ;
+	mc:via "EMBAJADORES" ;
+	mc:codigoPostal "28045" ;
+	mc:email "idmcircuitobmx@madrid.es" ;
+	mc:telefono "915 279 704" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/CiudaddelosPoetas> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "MONCLOA-ARAVACA" ;
+	mc:provincia "MADRID" ;
+	mc:via "ANTONIO MACHADO" ;
+	mc:codigoPostal "28035" ;
+	mc:email "idmcpoetas@madrid.es" ;
+	mc:telefono "91 373 27 39" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Concepción> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "CIUDAD LINEAL" ;
+	mc:provincia "MADRID" ;
+	mc:via "JOSE DEL HIERRO" ;
+	mc:codigoPostal "28027" ;
+	mc:telefono """914 039 020                                                                                     
+914 039 021""" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/DaoízyVelarde1> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "RETIRO" ;
+	mc:provincia "MADRID" ;
+	mc:via "CIUDAD DE BARCELONA" ;
+	mc:codigoPostal "28007" ;
+	mc:telefono """914 338 950                                                                                  
+914 338 770""" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/DaoízyVelarde2> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "RETIRO" ;
+	mc:provincia "MADRID" ;
+	mc:via "ALBERCHE" ;
+	mc:codigoPostal "28007" ;
+	mc:telefono "91 433 27 58" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/ElEspinillo> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "VILLAVERDE" ;
+	mc:provincia "MADRID" ;
+	mc:via "VILLAVERDE A VALLECAS" ;
+	mc:codigoPostal "28041" ;
+	mc:email "idmespinillo@madrid.es" ;
+	mc:telefono """913 172 966                                                          
+913 172 957""" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/ElOlivillo> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "LATINA" ;
+	mc:provincia "MADRID" ;
+	mc:via "OLIVILLO" ;
+	mc:codigoPostal "28011" ;
+	mc:telefono "914 790 212" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Entrevías> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "PUENTE DE VALLECAS" ;
+	mc:provincia "MADRID" ;
+	mc:via "SUR" ;
+	mc:codigoPostal "28053" ;
+	mc:telefono "917 854 214 / 917 867 064" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/EscuelasdeSanAntón> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "CENTRO" ;
+	mc:provincia "MADRID" ;
+	mc:via "FARMACIA" ;
+	mc:codigoPostal "28004" ;
+	mc:email "info@cdmescuelassananton.com" ;
+	mc:telefono "918 289 006" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/EstanquedelRetiro> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "RETIRO" ;
+	mc:provincia "MADRID" ;
+	mc:via "COLOMBIA" ;
+	mc:codigoPostal "28009" ;
+	mc:telefono """915 744 024                      
+915 571 994""" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/FabiánRoncero> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "SAN BLAS-CANILLEJAS" ;
+	mc:provincia "MADRID" ;
+	mc:via "SEPTIMA" ;
+	mc:codigoPostal "28022" ;
+	mc:email "info@cdmfabianroncero.es" ;
+	mc:telefono "917 462 995" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/FaustinaValladolid(antiguoValdebernardo)> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "VICALVARO" ;
+	mc:provincia "MADRID" ;
+	mc:via "LADERA DE LOS ALMENDROS" ;
+	mc:codigoPostal "28032" ;
+	mc:email "idmvaldebernardo@madrid.es" ;
+	mc:telefono "917 723 591" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/FernandoMartín> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "MONCLOA-ARAVACA" ;
+	mc:provincia "MADRID" ;
+	mc:via "SANTO ANGEL DE LA GUARDA" ;
+	mc:codigoPostal "28039" ;
+	mc:email "idmfmartin@madrid.es" ;
+	mc:telefono "914 507 344 - 914 505 530" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/FranciscoFernándezOchoa> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "CARABANCHEL" ;
+	mc:provincia "MADRID" ;
+	mc:via "CATORCE OLIVAS" ;
+	mc:codigoPostal "28054" ;
+	mc:email "idmffochoa@madrid.es" ;
+	mc:telefono """915 883 623 
+915 883 731""" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/FrancosRodríguez> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "MONCLOA-ARAVACA" ;
+	mc:provincia "MADRID" ;
+	mc:via "NUMANCIA" ;
+	mc:codigoPostal "28039" ;
+	mc:telefono "914 599 871" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/FuentedelBerro> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "SALAMANCA" ;
+	mc:provincia "MADRID" ;
+	mc:via "ELVIRA" ;
+	mc:codigoPostal "28028" ;
+	mc:email "idmfuentedelberro@madrid.es" ;
+	mc:telefono "915 881 369" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/FélixRubio> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "VILLAVERDE" ;
+	mc:provincia "MADRID" ;
+	mc:via "ALIANZA" ;
+	mc:codigoPostal "28041" ;
+	mc:telefono "913 180 435" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Gallur> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "LATINA" ;
+	mc:provincia "MADRID" ;
+	mc:via "GALLUR" ;
+	mc:codigoPostal "28047" ;
+	mc:telefono "915 251 059" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/GimnasioMoscardó> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "SALAMANCA" ;
+	mc:provincia "MADRID" ;
+	mc:via "PILAR DE ZARAGOZA" ;
+	mc:codigoPostal "28028" ;
+	mc:email "idmgmoscardo@madrid.es" ;
+	mc:telefono "913 553 201" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Hortaleza> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "HORTALEZA" ;
+	mc:provincia "MADRID" ;
+	mc:via "ESTACION DE HORTALEZA" ;
+	mc:codigoPostal "28033" ;
+	mc:email "idmhortaleza@madrid.es" ;
+	mc:telefono "913 821 965 / 913 818 260" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/JoséMaríaCagigal> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "MONCLOA-ARAVACA" ;
+	mc:provincia "MADRID" ;
+	mc:via "SANTA POLA" ;
+	mc:codigoPostal "28008" ;
+	mc:telefono """915 413 716                                                         
+915 413 746""" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/LaAlmudena> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "CIUDAD LINEAL" ;
+	mc:provincia "MADRID" ;
+	mc:via "NICOLAS SALMERÓN" ;
+	mc:codigoPostal "28017" ;
+	mc:telefono """915 882 355
+915 886 956""" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/LaBombilla> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "MONCLOA-ARAVACA" ;
+	mc:provincia "MADRID" ;
+	mc:via "SENDA DEL REY" ;
+	mc:codigoPostal "28040" ;
+	mc:telefono "917 588 677" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/LaChopera> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "RETIRO" ;
+	mc:provincia "MADRID" ;
+	mc:via "FERNAN NU&amp;Ntilde;EZ" ;
+	mc:codigoPostal "28009" ;
+	mc:telefono "914 201 154" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/LaElipa> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "MORATALAZ" ;
+	mc:provincia "MADRID" ;
+	mc:via "ALCALDE GARRIDO JUARISTI" ;
+	mc:codigoPostal "28030" ;
+	mc:telefono "914 303 511" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/LaFundi> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "ARGANZUELA" ;
+	mc:provincia "MADRID" ;
+	mc:via "ALICANTE" ;
+	mc:codigoPostal "28045" ;
+	mc:email "idmarganzuela@madrid.es" ;
+	mc:telefono "915 288 879" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/LaMasó> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "FUENCARRAL-EL PARDO" ;
+	mc:provincia "MADRID" ;
+	mc:via "MASO" ;
+	mc:codigoPostal "28034" ;
+	mc:telefono "917 397 555" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/LaMina> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "CARABANCHEL" ;
+	mc:provincia "MADRID" ;
+	mc:via "MONSEÑOR OSCAR ROMERO" ;
+	mc:codigoPostal "28025" ;
+	mc:telefono """914 661 278                                                                     
+914 661 732""" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/LagoCasadeCampo> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "MONCLOA-ARAVACA" ;
+	mc:provincia "MADRID" ;
+	mc:via "EMBARCADERO" ;
+	mc:codigoPostal "28011" ;
+	mc:telefono "91 464 46 10" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/LasCruces> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "LATINA" ;
+	mc:provincia "MADRID" ;
+	mc:via "POBLADOS" ;
+	mc:codigoPostal "28044" ;
+	mc:email "idmlascruces@madrid.es" ;
+	mc:telefono "915 888 600" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/LosPrunos> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "HORTALEZA" ;
+	mc:provincia "MADRID" ;
+	mc:via "PETUNIAS" ;
+	mc:codigoPostal "28042" ;
+	mc:telefono "917 432 001" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/LuisAragonés> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "HORTALEZA" ;
+	mc:provincia "MADRID" ;
+	mc:via "EL PROVENCIO" ;
+	mc:codigoPostal "28043" ;
+	mc:telefono "913 003 612" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/MargotMoles(Vicálvaro)> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "VICALVARO" ;
+	mc:provincia "MADRID" ;
+	mc:via "POLIDEPORTIVO" ;
+	mc:codigoPostal "28032" ;
+	mc:email "idmvicalvaro@madrid.es" ;
+	mc:telefono "917 769 874" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/MarquésdeSamaranch> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "ARGANZUELA" ;
+	mc:provincia "MADRID" ;
+	mc:via "IMPERIAL" ;
+	mc:codigoPostal "28005" ;
+	mc:telefono "913 642 240" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/MiguelGuillénPrim> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "VILLA DE VALLECAS" ;
+	mc:provincia "MADRID" ;
+	mc:via "FUENTIDUEÑA" ;
+	mc:codigoPostal "28031" ;
+	mc:telefono "913 053 451" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Moratalaz> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "MORATALAZ" ;
+	mc:provincia "MADRID" ;
+	mc:via "VALDEBERNARDO" ;
+	mc:codigoPostal "28030" ;
+	mc:email "idmmoratalaz@madrid.es" ;
+	mc:telefono """917 727 100                                                                                                                                     
+- 917 727 121                                            
+- Verano: 914 801 853""" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Moscardó> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "USERA" ;
+	mc:provincia "MADRID" ;
+	mc:via "ANDRES ARTEAGA" ;
+	mc:codigoPostal "28026" ;
+	mc:telefono "915 003 940" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Orcasitas> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "USERA" ;
+	mc:provincia "MADRID" ;
+	mc:via "RAFAELA YBARRA" ;
+	mc:codigoPostal "28026" ;
+	mc:telefono "914 692 374" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Orcasur> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "USERA" ;
+	mc:provincia "MADRID" ;
+	mc:via "MOREJA" ;
+	mc:codigoPostal "28041" ;
+	mc:telefono "913 171 062" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/PabellónVilladeMadrid> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "BARAJAS" ;
+	mc:provincia "MADRID" ;
+	mc:via "BREZOS" ;
+	mc:codigoPostal "28042" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Palomeras> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "PUENTE DE VALLECAS" ;
+	mc:provincia "MADRID" ;
+	mc:via "TRANVIA DE ARGANDA" ;
+	mc:codigoPostal "28031" ;
+	mc:telefono "917 774 901" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/PepuHernández> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "SAN BLAS-CANILLEJAS" ;
+	mc:provincia "MADRID" ;
+	mc:via "NIZA" ;
+	mc:codigoPostal "28022" ;
+	mc:telefono "917 755 866" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Peñagrande> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "FUENCARRAL-EL PARDO" ;
+	mc:provincia "MADRID" ;
+	mc:via "Monforte de Lemos" ;
+	mc:codigoPostal "28029" ;
+	mc:telefono "910 884 262" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Peñuelas> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "ARGANZUELA" ;
+	mc:provincia "MADRID" ;
+	mc:via "ARGANDA" ;
+	mc:codigoPostal "28005" ;
+	mc:telefono """915881264
+915883465""" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/PlatayCastañar> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "VILLAVERDE" ;
+	mc:provincia "MADRID" ;
+	mc:via "PLATA Y CASTAÑAR" ;
+	mc:codigoPostal "28021" ;
+	mc:telefono """915 051 532                                                                 
+915 051 195""" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/PlayaVictoria> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "TETUAN" ;
+	mc:provincia "MADRID" ;
+	mc:via "HIERBABUENA" ;
+	mc:codigoPostal "28039" ;
+	mc:telefono "915 701 841" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Pradillo> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "CHAMARTIN" ;
+	mc:provincia "MADRID" ;
+	mc:via "PRADILLO" ;
+	mc:codigoPostal "28002" ;
+	mc:email "idmpradillo@madrid.es" ;
+	mc:telefono "914 137 105" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/PuebloNuevo> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "CIUDAD LINEAL" ;
+	mc:provincia "MADRID" ;
+	mc:via "FRANCISCO RIOJA" ;
+	mc:codigoPostal "28017" ;
+	mc:telefono "913 770 251" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/RaúlGonzález> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "VILLAVERDE" ;
+	mc:provincia "MADRID" ;
+	mc:via "BENIMAMET" ;
+	mc:codigoPostal "28021" ;
+	mc:telefono "917 953 792" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/SanBlas> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "SAN BLAS-CANILLEJAS" ;
+	mc:provincia "MADRID" ;
+	mc:via "ARCOS DE JALON" ;
+	mc:codigoPostal "28037" ;
+	mc:telefono "913 209 818" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/SanCristóbal> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "VILLAVERDE" ;
+	mc:provincia "MADRID" ;
+	mc:via "PINAZO" ;
+	mc:codigoPostal "28021" ;
+	mc:email "idmsancristobal@madrid.es" ;
+	mc:telefono "917 950 911" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/SanFermín> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "USERA" ;
+	mc:provincia "MADRID" ;
+	mc:via "SAN MARIO" ;
+	mc:codigoPostal "28041" ;
+	mc:email "idmsanfermin@madrid.es" ;
+	mc:telefono "917 922 102" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/SanJuanBautista> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "CIUDAD LINEAL" ;
+	mc:provincia "MADRID" ;
+	mc:via "TREVIANA" ;
+	mc:codigoPostal "28043" ;
+	mc:email "idmsjbautista@madrid.es" ;
+	mc:telefono "914 164 259" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/SantaAna> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "FUENCARRAL-EL PARDO" ;
+	mc:provincia "MADRID" ;
+	mc:via "ALAMEDILLAS" ;
+	mc:codigoPostal "28034" ;
+	mc:email "idmsantaana@madrid.es" ;
+	mc:telefono "913 721 138" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/TenisCasadeCampo> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "MONCLOA-ARAVACA" ;
+	mc:provincia "MADRID" ;
+	mc:via "PRINCIPE" ;
+	mc:codigoPostal "28011" ;
+	mc:email "idmteniscc@madrid.es" ;
+	mc:telefono "914 649 617" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/TriángulodeOro> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "TETUAN" ;
+	mc:provincia "MADRID" ;
+	mc:via "BRAVO MURILLO" ;
+	mc:codigoPostal "28020" ;
+	mc:email "idmtoro@madrid.es" ;
+	mc:telefono "915 714 117" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Vallecas> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "PUENTE DE VALLECAS" ;
+	mc:provincia "MADRID" ;
+	mc:via "ARROYO DEL OLIVAR" ;
+	mc:codigoPostal "28018" ;
+	mc:email "idmvallecas@madrid.es" ;
+	mc:telefono "91 513 36 23" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/Vallehermoso> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "CHAMBERI" ;
+	mc:provincia "MADRID" ;
+	mc:via "FILIPINAS" ;
+	mc:codigoPostal "28003" ;
+	mc:email "vallehermoso@gofit.es" ;
+	mc:telefono "917 589 615" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/VicentedelBosque> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "FUENCARRAL-EL PARDO" ;
+	mc:provincia "MADRID" ;
+	mc:via "MONFORTE DE LEMOS" ;
+	mc:codigoPostal "28029" ;
+	mc:email "idmbpilar@madrid.es" ;
+	mc:telefono "913 147 943" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/WilfredAgbonavbare(antiguoAlbertoGarcía)> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "PUENTE DE VALLECAS" ;
+	mc:provincia "MADRID" ;
+	mc:via "REGUERA DE TOMATEROS, 39B" ;
+	mc:codigoPostal "28053" ;
+	mc:email "idmagarcia@madrid.es" ;
+	mc:telefono "917 854 751" .
+
+<http://www.madridcen.es/group30/recursos/CentrosDeportivos/ÁngelNieto(antiguoPuentedeVallecas)> a <http://www.madridcen.es/group30/ontologia#> ;
+	mc:distrito "PUENTE DE VALLECAS" ;
+	mc:provincia "MADRID" ;
+	mc:via "PAYASO FOFO" ;
+	mc:codigoPostal "28018" ;
+	mc:email "idmpvallecas@madrid.es" ;
+	mc:telefono "914 781 492" .
