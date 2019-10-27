@@ -60,8 +60,8 @@ public class Init {
 			while(res.next()) {
 				cont++;
 				String coord = "https://www.google.es/maps/search/"+res.getString("lat") + "," + res.getString("lon") + "?ved=2ahUKEwjX3Y7H0YbfAhUTW8AKHWLLDzIQ8gEwAHoECAAQAQ";
-				s = new Site(res.getString("rotulo"),res.getString("horario"),res.getString("direccion"),res.getString("cp"),
-						res.getString("precio_A"),res.getString("precio_95"),res.getString("precio_98"),res.getString("precio_NA"), coord);
+				s = new Site(res.getString("rotulo"),res.getString("horario"),res.getString("direccion"),res.getString("dedicatoria"),res.getString("dedicatoriawikidata"),
+				res.getString("cp"),res.getString("precio_A"),res.getString("precio_95"),res.getString("precio_98"),res.getString("precio_NA"), coord);
 				lista.add(s);
 			}
 			close();

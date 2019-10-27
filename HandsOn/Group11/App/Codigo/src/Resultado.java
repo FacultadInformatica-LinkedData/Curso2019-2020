@@ -57,14 +57,14 @@ public class Resultado extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-		lblRegistro = new JLabel("RESULTADOS:    "+num);
+		lblRegistro = new JLabel("Resultados:  "+num);
 		contentPane.add(lblRegistro, BorderLayout.CENTER);
 		lblRegistro.setBounds(169,20,200,20);
 
 		Iterator<Site> it = lista.iterator();
 		if(num >= 1) {
 			Site aux = it.next();
-			JLabel label = new JLabel(aux.rotulo);
+			JLabel label = new JLabel(aux.rotulo + " - " + aux.direccion);
 			label.setBounds(25, 60, 300, 14);
 			contentPane.add(label);
 
@@ -78,7 +78,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelect);
 		} if(num >= 2) {
 			Site aux = it.next();
-			JLabel label1 = new JLabel(aux.rotulo);
+			JLabel label1 = new JLabel(aux.rotulo + " - " + aux.direccion);
 			label1.setBounds(25, 100, 300, 14);
 			contentPane.add(label1);
 
@@ -92,7 +92,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelect1);
 		} if(num >= 3) {
 			Site aux = it.next();
-			JLabel label2 = new JLabel(aux.rotulo);
+			JLabel label2 = new JLabel(aux.rotulo + " - " + aux.direccion);
 			label2.setBounds(25, 140, 300, 14);
 			contentPane.add(label2);
 
@@ -106,7 +106,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelect2);
 		} if(num >= 4) {
 			Site aux = it.next();
-			JLabel label3 = new JLabel(aux.rotulo);
+			JLabel label3 = new JLabel(aux.rotulo + " - " + aux.direccion);
 			label3.setBounds(25, 180, 300, 14);
 			contentPane.add(label3);
 
@@ -120,7 +120,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelect3);
 		} if(num >= 5) {
 			Site aux = it.next();
-			JLabel label4 = new JLabel(aux.rotulo);
+			JLabel label4 = new JLabel(aux.rotulo + " - " + aux.direccion);
 			label4.setBounds(25, 220, 300, 14);
 			contentPane.add(label4);
 
@@ -134,7 +134,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelect4);
 		} if(num >= 6) {
 			Site aux = it.next();
-			JLabel label5 = new JLabel(aux.rotulo);
+			JLabel label5 = new JLabel(aux.rotulo + " - " + aux.direccion);
 			label5.setBounds(25, 260, 300, 14);
 			contentPane.add(label5);
 
@@ -148,7 +148,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelect5);
 		} if(num >= 7) {
 			Site aux = it.next();
-			JLabel label6 = new JLabel(aux.rotulo);
+			JLabel label6 = new JLabel(aux.rotulo + " - " + aux.direccion);
 			label6.setBounds(25, 300, 300, 14);
 			contentPane.add(label6);
 
@@ -162,7 +162,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelect6);
 		} if(num >= 8) {
 			Site aux = it.next();
-			JLabel label7 = new JLabel(aux.rotulo);
+			JLabel label7 = new JLabel(aux.rotulo + " - " + aux.direccion);
 			label7.setBounds(25, 340, 300, 14);
 			contentPane.add(label7);
 
@@ -176,7 +176,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelect7);
 		} if(num >= 9) {
 			Site aux = it.next();
-			JLabel label8 = new JLabel(aux.rotulo);
+			JLabel label8 = new JLabel(aux.rotulo + " - " + aux.direccion);
 			label8.setBounds(25, 380, 300, 14);
 			contentPane.add(label8);
 
@@ -190,7 +190,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelect8);
 		} if(num >= 10) {
 			Site aux = it.next();
-			JLabel label9 = new JLabel(aux.rotulo);
+			JLabel label9 = new JLabel(aux.rotulo + " - " + aux.direccion);
 			label9.setBounds(25, 420, 300, 14);
 			contentPane.add(label9);
 
@@ -204,7 +204,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelect9);
 		} if(num >= 11) {
 			Site aux = it.next();
-			JLabel labe0l = new JLabel(aux.rotulo);
+			JLabel labe0l = new JLabel(aux.rotulo + " - " + aux.direccion);
 			labe0l.setBounds(25, 460, 300, 14);
 			contentPane.add(labe0l);
 
@@ -218,7 +218,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelec0t);
 		} if(num >= 12) {
 			Site aux = it.next();
-			JLabel labe1l = new JLabel(aux.rotulo);
+			JLabel labe1l = new JLabel(aux.rotulo + " - " + aux.direccion);
 			labe1l.setBounds(25, 500, 300, 14);
 			contentPane.add(labe1l);
 
@@ -232,7 +232,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelec1t);
 		} if(num >= 13) {
 			Site aux = it.next();
-			JLabel labe2l = new JLabel(aux.rotulo);
+			JLabel labe2l = new JLabel(aux.rotulo + " - " + aux.direccion);
 			labe2l.setBounds(25, 540, 300, 14);
 			contentPane.add(labe2l);
 
@@ -246,7 +246,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelec2t);
 		} if(num >= 14) {
 			Site aux = it.next();
-			JLabel labe3l = new JLabel(aux.rotulo);
+			JLabel labe3l = new JLabel(aux.rotulo + " - " + aux.direccion);
 			labe3l.setBounds(25, 580, 300, 14);
 			contentPane.add(labe3l);
 
@@ -260,7 +260,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelec3t);
 		} if(num >= 15) {
 			Site aux = it.next();
-			JLabel labe4l = new JLabel(aux.rotulo);
+			JLabel labe4l = new JLabel(aux.rotulo + " - " + aux.direccion);
 			labe4l.setBounds(25, 620, 300, 14);
 			contentPane.add(labe4l);
 
@@ -274,7 +274,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelec4t);
 		} if(num >= 16) {
 			Site aux = it.next();
-			JLabel labe5l = new JLabel(aux.rotulo);
+			JLabel labe5l = new JLabel(aux.rotulo + " - " + aux.direccion);
 			labe5l.setBounds(25, 660, 300, 14);
 			contentPane.add(labe5l);
 
@@ -288,7 +288,7 @@ public class Resultado extends JFrame {
 			contentPane.add(btnSelec5t);
 		} if(num >= 17) {
 			Site aux = it.next();
-			JLabel labe6l = new JLabel(aux.rotulo);
+			JLabel labe6l = new JLabel(aux.rotulo + " - " + aux.direccion);
 			labe6l.setBounds(25, 700, 300, 14);
 			contentPane.add(labe6l);
 

@@ -4,6 +4,8 @@ public class Site {
 	public String rotulo;
 	public String horario;
 	public String direccion;
+	public String dedicatoria;
+	public String dedicatoriawikidata;
 	public String cp;
 	public String precioA;
 	public String precio95;
@@ -11,21 +13,19 @@ public class Site {
 	public String precioNA;
 	public String coordenadas;
 
-	public Site(String rotulo, String horario, String direccion, String cp, String precioA,	String precio95, String precio98, String precioNA, String coordenadas) {
+	public Site(String rotulo, String horario, String direccion, String dedicatoria, String dedicatoriawikidata, String cp, String precioA,
+						String precio95, String precio98, String precioNA, String coordenadas) {
 		this.rotulo = rotulo;
 		this.horario = horario;
 		this.direccion = direccion;
+		this.dedicatoria = dedicatoria;
+		this.dedicatoriawikidata = dedicatoriawikidata;
 		this.cp = cp;
 		this.precioA = precioA;
 		this.precio95 = precio95;
 		this.precio98 = precio98;
 		this.precioNA = precioNA;
 		this.coordenadas = coordenadas;
-	}
-
-	public String toString() {
-		return rotulo + "\n" + horario + "\n" + direccion + "\n" + cp + "\n" + precioA + "\n" + precio95 + "\n" +
-				precio98 + "\n" + precioNA;
 	}
 
 	public String getRotulo() {
@@ -38,6 +38,14 @@ public class Site {
 
 	public String getDireccion() {
 		return this.direccion;
+	}
+
+	public String getDedicatoria() {
+		return this.dedicatoria;
+	}
+
+	public String getDedicatoriaWikiData() {
+		return this.dedicatoriawikidata;
 	}
 
 	public String getCP() {

@@ -41,7 +41,7 @@ public class Seleccion extends JFrame {
 	 * @throws IOException
 	 */
 	public Seleccion() throws IOException {
-		setTitle(sitio.getRotulo());
+		setTitle(sitio.getRotulo() + " - " + sitio.getDireccion());
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(500, 100, 500, 300);
 		contentPane = new JPanel();
@@ -59,8 +59,8 @@ public class Seleccion extends JFrame {
 		});
 		contentPane.add(btnVolver);
 
-		JLabel lblHola = new JLabel(sitio.getRotulo());
-		lblHola.setBounds(21, 18, 373, 14);
+		JLabel lblHola = new JLabel(sitio.getRotulo() + " - " + sitio.getDireccion());
+		lblHola.setBounds(25, 18, 450, 14);
 		contentPane.add(lblHola);
 
 		JButton btnNewButton = new JButton();
@@ -71,71 +71,94 @@ public class Seleccion extends JFrame {
 				openWebPage(sitio.getCoord());
 			}
 		});
-		btnNewButton.setBounds(435, 60, 27, 27);
+		btnNewButton.setBounds(430, 60, 30, 30);
 		contentPane.add(btnNewButton);
 
+		if(!sitio.getDedicatoriaWikiData().equals("")){
+			JButton button = new JButton();
+			ImageIcon site = new ImageIcon(getClass().getResource("/icons/wikidata.png"));
+			button.setIcon(site);
+			button.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent arg0) {
+					openWebPage(sitio.getDedicatoriaWikiData());
+				}
+			});
+			button.setBounds(430, 98, 30, 30);
+			contentPane.add(button);
+		}
+
 		JLabel lblHorario = new JLabel("Horario:");
-		lblHorario.setBounds(21, 45, 46, 14);
+		lblHorario.setBounds(25, 45, 100, 14);
 		contentPane.add(lblHorario);
 
 		JLabel lblHorario2 = new JLabel(sitio.getHorario());
-		lblHorario2.setBounds(79, 45, 450, 14);
+		lblHorario2.setBounds(175, 45, 450, 14);
 		contentPane.add(lblHorario2);
 
 		JLabel lblDireccion = new JLabel("Direccion:");
-		lblDireccion.setBounds(21, 70, 46, 14);
+		lblDireccion.setBounds(25, 70, 100, 14);
 		contentPane.add(lblDireccion);
 
 		JLabel lblDireccion2 = new JLabel(sitio.getDireccion());
-		lblDireccion2.setBounds(79, 70, 450, 14);
+		lblDireccion2.setBounds(175, 70, 450, 14);
 		contentPane.add(lblDireccion2);
 
+		JLabel lblDedicatoria = new JLabel("Dedicatoria:");
+		lblDedicatoria.setBounds(25, 95, 100, 14);
+		contentPane.add(lblDedicatoria);
+
+		JLabel lblDedicatoria2;
+		if(sitio.getDedicatoria().equals("")) lblDedicatoria2 = new JLabel("No disponible.");
+		else lblDedicatoria2 = new JLabel(sitio.getDedicatoria());
+		lblDedicatoria2.setBounds(175, 95, 450, 14);
+		contentPane.add(lblDedicatoria2);
+
 		JLabel lblCP = new JLabel("Codigo Postal:");
-		lblCP.setBounds(21, 95, 46, 14);
+		lblCP.setBounds(25, 120, 100, 14);
 		contentPane.add(lblCP);
 
 		JLabel lblCp = new JLabel(sitio.getCP());
-		lblCp.setBounds(108, 95, 450, 14);
+		lblCp.setBounds(175, 120, 450, 14);
 		contentPane.add(lblCp);
 
 		JLabel lblPrecioA = new JLabel("Precio gasoleo A:");
-		lblPrecioA.setBounds(21, 120, 46, 14);
+		lblPrecioA.setBounds(25, 145, 150, 14);
 		contentPane.add(lblPrecioA);
 
 		JLabel lblPrecioA2;
 		if(sitio.getPrecioA().equals("")) lblPrecioA2 = new JLabel("No disponible.");
-		else lblPrecioA2 = new JLabel(sitio.getPrecioA());
-		lblPrecioA2.setBounds(63, 120, 450, 14);
+		else lblPrecioA2 = new JLabel(sitio.getPrecioA() + " Eur/l");
+		lblPrecioA2.setBounds(175, 145, 450, 14);
 		contentPane.add(lblPrecioA2);
 
-		JLabel lblPrecio95 = new JLabel("Precio gasolina 95 protección:");
-		lblPrecio95.setBounds(21, 145, 46, 14);
+		JLabel lblPrecio95 = new JLabel("Precio gasolina 95:");
+		lblPrecio95.setBounds(25, 170, 150, 14);
 		contentPane.add(lblPrecio95);
 
 		JLabel lblPrecio952;
 		if(sitio.getPrecio95().equals("")) lblPrecio952 = new JLabel("No disponible.");
-		else lblPrecio952 = new JLabel(sitio.getPrecio95());
-		lblPrecio952.setBounds(79, 145, 450, 14);
+		else lblPrecio952 = new JLabel(sitio.getPrecio95() + " Eur/l");
+		lblPrecio952.setBounds(175, 170, 450, 14);
 		contentPane.add(lblPrecio952);
 
 		JLabel lblPrecio98 = new JLabel("Precio gasolina 98:");
-		lblPrecio98.setBounds(21, 170, 46, 14);
+		lblPrecio98.setBounds(25, 195, 150, 14);
 		contentPane.add(lblPrecio98);
 
 		JLabel lblPrecio982;
 		if(sitio.getPrecio98().equals("")) lblPrecio982 = new JLabel("No disponible.");
-		else lblPrecio982 = new JLabel(sitio.getPrecio98());
-		lblPrecio982.setBounds(79, 170, 450, 14);
+		else lblPrecio982 = new JLabel(sitio.getPrecio98() + " Eur/l");
+		lblPrecio982.setBounds(175, 195, 450, 14);
 		contentPane.add(lblPrecio982);
 
 		JLabel lblPrecioNA = new JLabel("Precio nuevo gasoleo A:");
-		lblPrecioNA.setBounds(21, 195, 46, 14);
+		lblPrecioNA.setBounds(25, 220, 150, 14);
 		contentPane.add(lblPrecioNA);
 
 		JLabel lblPrecioNA2;
 		if(sitio.getPrecioNA().equals("")) lblPrecioNA2 = new JLabel("No disponible.");
-		else lblPrecioNA2 = new JLabel(sitio.getPrecioNA());
-		lblPrecioNA2.setBounds(79, 195, 450, 14);
+		else lblPrecioNA2 = new JLabel(sitio.getPrecioNA() + " Eur/l");
+		lblPrecioNA2.setBounds(175, 220, 450, 14);
 		contentPane.add(lblPrecioNA2);
 
 	}
