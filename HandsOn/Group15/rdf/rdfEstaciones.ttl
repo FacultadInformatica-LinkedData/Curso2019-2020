@@ -1,3 +1,4 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace#> .
@@ -9,191 +10,191 @@
 <http://www.airQualityMadrid.com/resource/Station/28079004> a aqm:Station;
   aqm:direccion "Plaza de España";
   aqm:id_estacion "28079004"^^xsd:int;
-  aqm:latitud "40.4238823"^^<xsd:float>;
-  aqm:longitud "-3.7122567"^^<xsd:float>;
   aqm:nombre "Pza. de España";
-  aqm:tipo "Urbana tráfico" .
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4238823"^^<xsd:float>;
+  geo:long "-3.7122567"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079008> a aqm:Station;
   aqm:direccion "Entre C/ Alcalá y C/ O’ Donell ";
   aqm:id_estacion "28079008"^^xsd:int;
-  aqm:latitud "40.4215533"^^<xsd:float>;
-  aqm:longitud "-3.6823158"^^<xsd:float>;
   aqm:nombre "Escuelas Aguirre";
-  aqm:tipo "Urbana tráfico" .
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4215533"^^<xsd:float>;
+  geo:long "-3.6823158"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079011> a aqm:Station;
   aqm:direccion "Avda. Ramón y Cajal  esq. C/ Príncipe de Vergara";
   aqm:id_estacion "28079011"^^xsd:int;
-  aqm:latitud "40.4514734"^^<xsd:float>;
-  aqm:longitud "-3.6773491"^^<xsd:float>;
   aqm:nombre "Avda. Ramón y Cajal";
-  aqm:tipo "Urbana tráfico" .
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4514734"^^<xsd:float>;
+  geo:long "-3.6773491"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079016> a aqm:Station;
   aqm:direccion "C/ Arturo Soria  esq. C/  Vizconde de los Asilos ";
   aqm:id_estacion "28079016"^^xsd:int;
-  aqm:latitud "40.4400457"^^<xsd:float>;
-  aqm:longitud "-3.6392422"^^<xsd:float>;
   aqm:nombre "Arturo Soria";
-  aqm:tipo "Urbana fondo" .
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.4400457"^^<xsd:float>;
+  geo:long "-3.6392422"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079017> a aqm:Station;
   aqm:direccion "C/. Juan Peñalver";
   aqm:id_estacion "28079017"^^xsd:int;
-  aqm:latitud "40.347147"^^<xsd:float>;
-  aqm:longitud "-3.7133167"^^<xsd:float>;
   aqm:nombre "Villaverde";
-  aqm:tipo "Urbana fondo" .
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.347147"^^<xsd:float>;
+  geo:long "-3.7133167"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079018> a aqm:Station;
   aqm:direccion "Calle Farolillo - C/Ervigio";
   aqm:id_estacion "28079018"^^xsd:int;
-  aqm:latitud "40.3947825"^^<xsd:float>;
-  aqm:longitud "-3.7318356"^^<xsd:float>;
   aqm:nombre "Farolillo";
-  aqm:tipo "Urbana fondo" .
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.3947825"^^<xsd:float>;
+  geo:long "-3.7318356"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079024> a aqm:Station;
   aqm:direccion "Casa de Campo  (Terminal del Teleférico)";
   aqm:id_estacion "28079024"^^xsd:int;
-  aqm:latitud "40.4193577"^^<xsd:float>;
-  aqm:longitud "-3.7473445"^^<xsd:float>;
   aqm:nombre "Casa de Campo";
-  aqm:tipo "Suburbana" .
+  aqm:tipo "Suburbana";
+  geo:lat "40.4193577"^^<xsd:float>;
+  geo:long "-3.7473445"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079027> a aqm:Station;
   aqm:direccion "C/. Júpiter, 21 (Barajas) ";
   aqm:id_estacion "28079027"^^xsd:int;
-  aqm:latitud "40.4769179"^^<xsd:float>;
-  aqm:longitud "-3.5800258"^^<xsd:float>;
   aqm:nombre "Barajas Pueblo";
-  aqm:tipo "Urbana fondo" .
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.4769179"^^<xsd:float>;
+  geo:long "-3.5800258"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079035> a aqm:Station;
   aqm:direccion "Plaza del Carmen esq. Tres Cruces. ";
   aqm:id_estacion "28079035"^^xsd:int;
-  aqm:latitud "40.4192091"^^<xsd:float>;
-  aqm:longitud "-3.7031662"^^<xsd:float>;
   aqm:nombre "Pza. del Carmen";
-  aqm:tipo "Urbana fondo" .
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.4192091"^^<xsd:float>;
+  geo:long "-3.7031662"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079036> a aqm:Station;
   aqm:direccion "Avd. Moratalaz  esq. Camino de los Vinateros";
   aqm:id_estacion "28079036"^^xsd:int;
-  aqm:latitud "40.4079517"^^<xsd:float>;
-  aqm:longitud "-3.6453104"^^<xsd:float>;
   aqm:nombre "Moratalaz";
-  aqm:tipo "Urbana tráfico" .
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4079517"^^<xsd:float>;
+  geo:long "-3.6453104"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079038> a aqm:Station;
   aqm:direccion "Avda. Pablo Iglesias esq. C/ Marqués de Lema";
   aqm:id_estacion "28079038"^^xsd:int;
-  aqm:latitud "40.4455439"^^<xsd:float>;
-  aqm:longitud "-3.7071303"^^<xsd:float>;
   aqm:nombre "Cuatro Caminos";
-  aqm:tipo "Urbana tráfico" .
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4455439"^^<xsd:float>;
+  geo:long "-3.7071303"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079039> a aqm:Station;
   aqm:direccion "Avd. Betanzos esq. C/  Monforte de Lemos ";
   aqm:id_estacion "28079039"^^xsd:int;
-  aqm:latitud "40.4782322"^^<xsd:float>;
-  aqm:longitud "-3.7115364"^^<xsd:float>;
   aqm:nombre "Barrio del Pilar";
-  aqm:tipo "Urbana tráfico" .
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4782322"^^<xsd:float>;
+  geo:long "-3.7115364"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079040> a aqm:Station;
   aqm:direccion "C/ Arroyo del Olivar  esq. C/  Río Grande. ";
   aqm:id_estacion "28079040"^^xsd:int;
-  aqm:latitud "40.3881478"^^<xsd:float>;
-  aqm:longitud "-3.6515286"^^<xsd:float>;
   aqm:nombre "Vallecas";
-  aqm:tipo "Urbana fondo" .
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.3881478"^^<xsd:float>;
+  geo:long "-3.6515286"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079047> a aqm:Station;
   aqm:direccion "C/ Juan de Mariana / Pza. Amanecer Mendez Alvaro";
   aqm:id_estacion "28079047"^^xsd:int;
-  aqm:latitud "40.3980991"^^<xsd:float>;
-  aqm:longitud "-3.6868138"^^<xsd:float>;
   aqm:nombre "Mendez Alvaro";
-  aqm:tipo "Urbana fondo" .
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.3980991"^^<xsd:float>;
+  geo:long "-3.6868138"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079048> a aqm:Station;
   aqm:direccion "C/ Jose Gutierrez Abascal";
   aqm:id_estacion "28079048"^^xsd:int;
-  aqm:latitud "40.4398904"^^<xsd:float>;
-  aqm:longitud "-3.6903729"^^<xsd:float>;
   aqm:nombre "Castellana";
-  aqm:tipo "Urbana tráfico" .
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4398904"^^<xsd:float>;
+  geo:long "-3.6903729"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079049> a aqm:Station;
   aqm:direccion "Paseo Venezuela- Casa de Vacas";
   aqm:id_estacion "28079049"^^xsd:int;
-  aqm:latitud "40.41444444444440"^^<xsd:float>;
-  aqm:longitud "-3.6824999999999900"^^<xsd:float>;
   aqm:nombre "Parque del Retiro";
-  aqm:tipo "Urbana fondo" .
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.41444444444440"^^<xsd:float>;
+  geo:long "-3.6824999999999900"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079050> a aqm:Station;
   aqm:direccion "Plaza Castilla (Canal)";
   aqm:id_estacion "28079050"^^xsd:int;
-  aqm:latitud "40.4655841"^^<xsd:float>;
-  aqm:longitud "-3.6887449"^^<xsd:float>;
   aqm:nombre "Plaza Castilla";
-  aqm:tipo "Urbana tráfico" .
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4655841"^^<xsd:float>;
+  geo:long "-3.6887449"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079054> a aqm:Station;
   aqm:direccion "Avda La Gavia / Avda. Las Suertes";
   aqm:id_estacion "28079054"^^xsd:int;
-  aqm:latitud "40.3730118"^^<xsd:float>;
-  aqm:longitud "-3.6121394"^^<xsd:float>;
   aqm:nombre "Ensanche de Vallecas";
-  aqm:tipo "Urbana fondo" .
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.3730118"^^<xsd:float>;
+  geo:long "-3.6121394"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079055> a aqm:Station;
   aqm:direccion "C/ Riaño (Barajas) ";
   aqm:id_estacion "28079055"^^xsd:int;
-  aqm:latitud "40.4623628"^^<xsd:float>;
-  aqm:longitud "-3.5805649"^^<xsd:float>;
   aqm:nombre "Urb. Embajada";
-  aqm:tipo "Urbana fondo" .
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.4623628"^^<xsd:float>;
+  geo:long "-3.5805649"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079056> a aqm:Station;
   aqm:direccion " Pza. Elíptica - Avda. Oporto";
   aqm:id_estacion "28079056"^^xsd:int;
-  aqm:latitud "40.3850336"^^<xsd:float>;
-  aqm:longitud "-3.7187679"^^<xsd:float>;
   aqm:nombre "Pza. Elíptica";
-  aqm:tipo "Urbana tráfico" .
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.3850336"^^<xsd:float>;
+  geo:long "-3.7187679"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079057> a aqm:Station;
   aqm:direccion "C/ Princesa de Eboli esq C/ Maria Tudor";
   aqm:id_estacion "28079057"^^xsd:int;
-  aqm:latitud "40.4942012"^^<xsd:float>;
-  aqm:longitud "-3.6605173"^^<xsd:float>;
   aqm:nombre "Sanchinarro";
-  aqm:tipo "Urbana fondo" .
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.4942012"^^<xsd:float>;
+  geo:long "-3.6605173"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079058> a aqm:Station;
   aqm:direccion "Avda. La Guardia";
   aqm:id_estacion "28079058"^^xsd:int;
-  aqm:latitud "40.5180701"^^<xsd:float>;
-  aqm:longitud "-3.7746101"^^<xsd:float>;
   aqm:nombre "El Pardo";
-  aqm:tipo "Suburbana" .
+  aqm:tipo "Suburbana";
+  geo:lat "40.5180701"^^<xsd:float>;
+  geo:long "-3.7746101"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079059> a aqm:Station;
   aqm:direccion "Parque Juan Carlos I (frente oficinas mantenimiento)";
   aqm:id_estacion "28079059"^^xsd:int;
-  aqm:latitud "40.4607255"^^<xsd:float>;
-  aqm:longitud "-3.6163407"^^<xsd:float>;
   aqm:nombre "Juan Carlos I";
-  aqm:tipo "Suburbana" .
+  aqm:tipo "Suburbana";
+  geo:lat "40.4607255"^^<xsd:float>;
+  geo:long "-3.6163407"^^<xsd:float> .
 
 <http://www.airQualityMadrid.com/resource/Station/28079060> a aqm:Station;
   aqm:direccion "Plaza Tres Olivos ";
   aqm:id_estacion "28079060"^^xsd:int;
-  aqm:latitud "40.5005477"^^<xsd:float>;
-  aqm:longitud "-3.6897308"^^<xsd:float>;
   aqm:nombre "Tres Olivos";
-  aqm:tipo "Urbana fondo" .
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.5005477"^^<xsd:float>;
+  geo:long "-3.6897308"^^<xsd:float> .
