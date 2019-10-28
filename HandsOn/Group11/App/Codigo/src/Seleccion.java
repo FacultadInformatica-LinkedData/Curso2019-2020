@@ -41,7 +41,7 @@ public class Seleccion extends JFrame {
 	 * @throws IOException
 	 */
 	public Seleccion() throws IOException {
-		setTitle(sitio.getRotulo() + " - " + sitio.getDireccion());
+		setTitle("Full Station");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(500, 100, 500, 300);
 		contentPane = new JPanel();

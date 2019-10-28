@@ -49,7 +49,7 @@ public class Resultado extends JFrame {
 	 * Create the frame.
 	 */
 	public Resultado() {
-		setTitle("Resultados");
+		setTitle("Full Station");
 		int alt = 60+40*(num+1);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(500, 100, 500, alt);
