@@ -4,7 +4,10 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @base <http://www.airQualityMadrid.com/ontology#> .
+
 
 <http://www.airQualityMadrid.com/ontology#> rdf:type owl:Ontology .
 
@@ -58,13 +61,13 @@
              rdfs:domain :Station;
              rdfs:range xsd:string .
 			 
-###  http://www.airQualityMadrid.com/ontology#LATITUD
-:latitud rdf:type owl:DatatypeProperty ;
+###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
+geo:lat rdf:type owl:DatatypeProperty ;
              rdfs:domain :Station;
              rdfs:range xsd:float .
 			 
-###  http://www.airQualityMadrid.com/ontology#LONGITUD
-:longitud rdf:type owl:DatatypeProperty ;
+###  http://www.w3.org/2003/01/geo/wgs84_pos#long
+geo:long rdf:type owl:DatatypeProperty ;
              rdfs:domain :Station;
              rdfs:range xsd:float .
 			 
@@ -211,19 +214,4 @@
 ###  http://www.airQualityMadrid.com/ontology#LOCALIZACION
 :localizacion rdf:type owl:DatatypeProperty ;
              rdfs:domain :Station ;
-             rdfs:range xsd:string .
-			 
-###  http://www.airQualityMadrid.com/ontology#NOMBRE
-<http://dbpedia.org/ontology/name> rdf:type owl:DatatypeProperty ;
-				 rdfs:domain :Station ;
-				 rdfs:range xsd:string .
-
-###  http://www.airQualityMadrid.com/ontology#LATITUD
-:latitud rdf:type owl:DatatypeProperty ;
-				 rdfs:domain :Station ;
-				 rdfs:range xsd:float .
-
-###  http://www.airQualityMadrid.com/ontology#LATITUD
-:longitud rdf:type owl:DatatypeProperty ;
-				 rdfs:domain :Station ;
-				 rdfs:range xsd:float .				 
+             rdfs:range xsd:string .			 
