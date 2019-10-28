@@ -16,8 +16,8 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author monts
  */
-@WebServlet(urlPatterns = {"/PrincipalPage"})
-public class PrincipalPage extends HttpServlet {
+@WebServlet(urlPatterns = {"/EventsSearch"})
+public class EventsSearch extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -31,18 +31,6 @@ public class PrincipalPage extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet NewServlet</title>");            
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet NewServlet at " + request.getContextPath() + "</h1>");
-            out.println("</body>");
-            out.println("</html>");
-        }
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
@@ -55,10 +43,9 @@ public class PrincipalPage extends HttpServlet {
      * @throws IOException if an I/O error occurs
      */
     @Override
-   protected void doGet(HttpServletRequest request, HttpServletResponse response) 
-			throws ServletException, IOException {
-	}
-
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+    }
 
     /**
      * Handles the HTTP <code>POST</code> method.
@@ -69,19 +56,25 @@ public class PrincipalPage extends HttpServlet {
      * @throws IOException if an I/O error occurs
      */
     @Override
-   protected void doPost(HttpServletRequest request, HttpServletResponse response) 
-			throws ServletException, IOException {
-		String user = request.getParameter("Type");
-		
-		response.setContentType("text/html");
-		response.setCharacterEncoding("UTF-8");
-		
-		// create HTML response
-		PrintWriter writer = response.getWriter();
-                response.sendRedirect("principalPage.jsp");
-     
-     	}	
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
 
+        String dateIn = request.getParameter("datein");
+        String dateOut = request.getParameter("dateout");
+
+        response.setContentType("text/html");
+        response.setCharacterEncoding("UTF-8");
+
+        // create HTML response
+        PrintWriter writer = response.getWriter();
+        writer.println(dateIn + " " + dateOut);
+        String types[] = {"Cultura","Deporte","Juegos"};
+
+        request.setAttribute("types", types);
+       request.getRequestDispatcher("principalPage.jsp").forward(request, response);
+      
+
+    }
 
     /**
      * Returns a short description of the servlet.
