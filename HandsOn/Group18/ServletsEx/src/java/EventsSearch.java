@@ -31,6 +31,8 @@ public class EventsSearch extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
+        response.sendRedirect("home.jsp");  
+        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
@@ -45,6 +47,7 @@ public class EventsSearch extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        response.sendRedirect("home.jsp");  
     }
 
     /**
@@ -58,19 +61,23 @@ public class EventsSearch extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
-        String dateIn = request.getParameter("datein");
-        String dateOut = request.getParameter("dateout");
-
         response.setContentType("text/html");
         response.setCharacterEncoding("UTF-8");
+        
+        String dateIn = request.getParameter("datein");
+        String dateOut = request.getParameter("dateout");
+        request.setAttribute("datein", dateIn);
+        request.setAttribute("dateout", dateOut);
+        
+        //Obtener todos los tipos de evento
+        String Etypes[] = {"Cultura","Deporte","Juegos"};
+        request.setAttribute("Etypes", Etypes);
+        //Obtener todos los tipos de auiencia
+        String Atypes[] = {"Niños","Familia","Otros"};
+        request.setAttribute("Atypes", Atypes);
 
-        // create HTML response
-        PrintWriter writer = response.getWriter();
-        writer.println(dateIn + " " + dateOut);
-        String types[] = {"Cultura","Deporte","Juegos"};
-
-        request.setAttribute("types", types);
+       ///FOR MULTIPLE CHECKBOX
+     //  String hobbise [] = request.getParameterValues(“hobbies“) ; 
        request.getRequestDispatcher("principalPage.jsp").forward(request, response);
       
 

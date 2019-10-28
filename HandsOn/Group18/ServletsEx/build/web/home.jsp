@@ -40,6 +40,7 @@
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
                     <h1 class="mx-auto my-0 ">Madrid</h1>
+                    
 
                     <form class="form-inline" method="post" id="dateFilterS" action="EventsSearch" autocomplete="off">
                         <div class="form-group mb-2">.
