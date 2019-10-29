@@ -1,0 +1,6 @@
+Institucion=dbpedia-owl:institution | tmo:TMO_0025
+Direccion = vcard:adr
+CodigoPostal = vcard:postal-code
+Localidad = dbpedia-owl:city | vcard:locality
+Provincia = vcard:locality
+Pais = pext:Territory
