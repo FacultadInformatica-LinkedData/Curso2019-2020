@@ -21,6 +21,12 @@
 ###  http://www.airQualityMadrid.com/ontology#Measurement
 :Measurement rdf:type owl:Class .
 
+###  http://www.airQualityMadrid.com/ontology#Contaminante
+:Contaminante rdf:type owl:Class .
+
+###  http://www.airQualityMadrid.com/ontology#Tecnica
+:Tecnica rdf:type owl:Class .
+
 #################################################################
 #    Object Properties
 #################################################################
