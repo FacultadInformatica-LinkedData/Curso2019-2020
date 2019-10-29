@@ -1,5 +1,6 @@
 package bMad;
 
+import org.apache.jena.sparql.resultset.XMLInput;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -12,8 +13,10 @@ public class server {
     @RequestMapping("/BikeStations")
     public String getBikeStations(@RequestParam(defaultValue="") String neighborhood,
                                   @RequestParam(defaultValue = "") String district) {
-
-        return "";
+        String json="";
+        app a = new app();
+        json = a.getStations(neighborhood,district);
+        return json;
     }
 
     /*
