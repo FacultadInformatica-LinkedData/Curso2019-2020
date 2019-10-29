@@ -1,4 +1,3 @@
-@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace#> .
@@ -8,11 +7,11 @@
 
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079004_1_38> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Azufre";
+  aqm:contaminante_medido "Dióxido de Azufre";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079004";
   aqm:id_medicion "28079004_1_38";
-  aqm:tecnica "Fluorescencia ultravioleta";
+  aqm:tecnica_medicion "Fluorescencia ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00012"^^<xsd:double>;
   aqm:valor_a_las_10 "00009"^^<xsd:double>;
@@ -48,11 +47,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q191807" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079004_6_48> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Carbono";
+  aqm:contaminante_medido "Monóxido de Carbono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079004";
   aqm:id_medicion "28079004_6_48";
-  aqm:tecnica "Absorción infrarroja";
+  aqm:tecnica_medicion "Absorción infrarroja";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "000.2"^^<xsd:double>;
   aqm:valor_a_las_10 "000.4"^^<xsd:double>;
@@ -87,11 +86,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q70906" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079004_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079004";
   aqm:id_medicion "28079004_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00023"^^<xsd:double>;
@@ -126,11 +125,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079004_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079004";
   aqm:id_medicion "28079004_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00013"^^<xsd:double>;
   aqm:valor_a_las_10 "00057"^^<xsd:double>;
@@ -162,11 +161,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q207895" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079004_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079004";
   aqm:id_medicion "28079004_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00015"^^<xsd:double>;
   aqm:valor_a_las_10 "00092"^^<xsd:double>;
@@ -198,11 +197,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q424418" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079008_1_38> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Azufre";
+  aqm:contaminante_medido "Dióxido de Azufre";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079008";
   aqm:id_medicion "28079008_1_38";
-  aqm:tecnica "Fluorescencia ultravioleta";
+  aqm:tecnica_medicion "Fluorescencia ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00005"^^<xsd:double>;
   aqm:valor_a_las_10 "00005"^^<xsd:double>;
@@ -238,11 +237,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q191807" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079008_6_48> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Carbono";
+  aqm:contaminante_medido "Monóxido de Carbono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079008";
   aqm:id_medicion "28079008_6_48";
-  aqm:tecnica "Absorción infrarroja";
+  aqm:tecnica_medicion "Absorción infrarroja";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "000.2"^^<xsd:double>;
   aqm:valor_a_las_10 "000.4"^^<xsd:double>;
@@ -277,11 +276,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q70906" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079008_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079008";
   aqm:id_medicion "28079008_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00002"^^<xsd:double>;
   aqm:valor_a_las_10 "00024"^^<xsd:double>;
@@ -316,11 +315,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079008_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079008";
   aqm:id_medicion "28079008_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00017"^^<xsd:double>;
   aqm:valor_a_las_10 "00057"^^<xsd:double>;
@@ -352,11 +351,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q207895" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079008_9_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 2.5 μm";
+  aqm:contaminante_medido "Partículas < 2.5 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079008";
   aqm:id_medicion "28079008_9_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00006"^^<xsd:double>;
   aqm:valor_a_las_10 "00011"^^<xsd:double>;
@@ -390,11 +389,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q629569" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079008_10_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 10 μm";
+  aqm:contaminante_medido "Partículas < 10 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079008";
   aqm:id_medicion "28079008_10_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00013"^^<xsd:double>;
   aqm:valor_a_las_10 "00022"^^<xsd:double>;
@@ -425,11 +424,11 @@
   a aqm:Contaminante .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079008_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079008";
   aqm:id_medicion "28079008_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00020"^^<xsd:double>;
   aqm:valor_a_las_10 "00094"^^<xsd:double>;
@@ -464,11 +463,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079008_14_6> a aqm:Measurement;
-  aqm:contaminante "Ozono";
+  aqm:contaminante_medido "Ozono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079008";
   aqm:id_medicion "28079008_14_6";
-  aqm:tecnica "Absorción ultravioleta";
+  aqm:tecnica_medicion "Absorción ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "68.97"^^<xsd:double>;
   aqm:valor_a_las_10 "26.21"^^<xsd:double>;
@@ -503,11 +502,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q332828" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079008_20_59> a aqm:Measurement;
-  aqm:contaminante "Tolueno";
+  aqm:contaminante_medido "Tolueno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079008";
   aqm:id_medicion "28079008_20_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "002.1"^^<xsd:double>;
   aqm:valor_a_las_10 "004.7"^^<xsd:double>;
@@ -542,11 +541,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q677065" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079008_30_59> a aqm:Measurement;
-  aqm:contaminante "Benceno";
+  aqm:contaminante_medido "Benceno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079008";
   aqm:id_medicion "28079008_30_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "000.5"^^<xsd:double>;
   aqm:valor_a_las_10 "001.0"^^<xsd:double>;
@@ -577,11 +576,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2270" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079008_35_59> a aqm:Measurement;
-  aqm:contaminante "Etilbenceno";
+  aqm:contaminante_medido "Etilbenceno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079008";
   aqm:id_medicion "28079008_35_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "004.2"^^<xsd:double>;
   aqm:valor_a_las_10 "002.8"^^<xsd:double>;
@@ -612,11 +611,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q409184" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079008_42_2> a aqm:Measurement;
-  aqm:contaminante "Hidrocarburos totales (hexano)";
+  aqm:contaminante_medido "Hidrocarburos totales (hexano)";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079008";
   aqm:id_medicion "28079008_42_2";
-  aqm:tecnica "Ionización de llama";
+  aqm:tecnica_medicion "Ionización de llama";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "01.60"^^<xsd:double>;
   aqm:valor_a_las_10 "01.65"^^<xsd:double>;
@@ -650,11 +649,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q873305" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079008_43_2> a aqm:Measurement;
-  aqm:contaminante "Metano";
+  aqm:contaminante_medido "Metano";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079008";
   aqm:id_medicion "28079008_43_2";
-  aqm:tecnica "Ionización de llama";
+  aqm:tecnica_medicion "Ionización de llama";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "01.48"^^<xsd:double>;
   aqm:valor_a_las_10 "01.49"^^<xsd:double>;
@@ -685,11 +684,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q37129" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079008_44_2> a aqm:Measurement;
-  aqm:contaminante "Hidrocarburos no metánicos (hexano)";
+  aqm:contaminante_medido "Hidrocarburos no metánicos (hexano)";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079008";
   aqm:id_medicion "28079008_44_2";
-  aqm:tecnica "Ionización de llama";
+  aqm:tecnica_medicion "Ionización de llama";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "00.12"^^<xsd:double>;
   aqm:valor_a_las_10 "00.17"^^<xsd:double>;
@@ -720,11 +719,11 @@
   a aqm:Contaminante .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079011_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079011";
   aqm:id_medicion "28079011_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00043"^^<xsd:double>;
@@ -759,11 +758,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079011_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079011";
   aqm:id_medicion "28079011_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00013"^^<xsd:double>;
   aqm:valor_a_las_10 "00075"^^<xsd:double>;
@@ -795,11 +794,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q207895" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079011_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079011";
   aqm:id_medicion "28079011_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00015"^^<xsd:double>;
   aqm:valor_a_las_10 "00141"^^<xsd:double>;
@@ -831,11 +830,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q424418" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079011_20_59> a aqm:Measurement;
-  aqm:contaminante "Tolueno";
+  aqm:contaminante_medido "Tolueno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079011";
   aqm:id_medicion "28079011_20_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "001.0"^^<xsd:double>;
   aqm:valor_a_las_10 "005.8"^^<xsd:double>;
@@ -870,11 +869,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q677065" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079011_30_59> a aqm:Measurement;
-  aqm:contaminante "Benceno";
+  aqm:contaminante_medido "Benceno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079011";
   aqm:id_medicion "28079011_30_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "000.1"^^<xsd:double>;
   aqm:valor_a_las_10 "000.8"^^<xsd:double>;
@@ -905,11 +904,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2270" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079011_35_59> a aqm:Measurement;
-  aqm:contaminante "Etilbenceno";
+  aqm:contaminante_medido "Etilbenceno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079011";
   aqm:id_medicion "28079011_35_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "000.2"^^<xsd:double>;
   aqm:valor_a_las_10 "000.5"^^<xsd:double>;
@@ -940,11 +939,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q409184" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079016_6_48> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Carbono";
+  aqm:contaminante_medido "Monóxido de Carbono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079016";
   aqm:id_medicion "28079016_6_48";
-  aqm:tecnica "Absorción infrarroja";
+  aqm:tecnica_medicion "Absorción infrarroja";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "000.1"^^<xsd:double>;
   aqm:valor_a_las_10 "000.4"^^<xsd:double>;
@@ -979,11 +978,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q70906" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079016_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079016";
   aqm:id_medicion "28079016_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00020"^^<xsd:double>;
@@ -1018,11 +1017,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079016_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079016";
   aqm:id_medicion "28079016_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00009"^^<xsd:double>;
   aqm:valor_a_las_10 "00068"^^<xsd:double>;
@@ -1054,11 +1053,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q207895" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079016_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079016";
   aqm:id_medicion "28079016_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00010"^^<xsd:double>;
   aqm:valor_a_las_10 "00099"^^<xsd:double>;
@@ -1090,11 +1089,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q424418" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079016_14_6> a aqm:Measurement;
-  aqm:contaminante "Ozono";
+  aqm:contaminante_medido "Ozono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079016";
   aqm:id_medicion "28079016_14_6";
-  aqm:tecnica "Absorción ultravioleta";
+  aqm:tecnica_medicion "Absorción ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "46.65"^^<xsd:double>;
   aqm:valor_a_las_10 "03.99"^^<xsd:double>;
@@ -1129,11 +1128,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q332828" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079017_1_38> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Azufre";
+  aqm:contaminante_medido "Dióxido de Azufre";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079017";
   aqm:id_medicion "28079017_1_38";
-  aqm:tecnica "Fluorescencia ultravioleta";
+  aqm:tecnica_medicion "Fluorescencia ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00009"^^<xsd:double>;
   aqm:valor_a_las_10 "00010"^^<xsd:double>;
@@ -1169,11 +1168,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q191807" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079017_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079017";
   aqm:id_medicion "28079017_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00002"^^<xsd:double>;
   aqm:valor_a_las_10 "00010"^^<xsd:double>;
@@ -1208,11 +1207,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079017_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079017";
   aqm:id_medicion "28079017_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00013"^^<xsd:double>;
   aqm:valor_a_las_10 "00036"^^<xsd:double>;
@@ -1244,11 +1243,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q207895" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079017_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079017";
   aqm:id_medicion "28079017_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00016"^^<xsd:double>;
   aqm:valor_a_las_10 "00052"^^<xsd:double>;
@@ -1280,11 +1279,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q424418" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079017_14_6> a aqm:Measurement;
-  aqm:contaminante "Ozono";
+  aqm:contaminante_medido "Ozono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079017";
   aqm:id_medicion "28079017_14_6";
-  aqm:tecnica "Absorción ultravioleta";
+  aqm:tecnica_medicion "Absorción ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "64.59"^^<xsd:double>;
   aqm:valor_a_las_10 "36.56"^^<xsd:double>;
@@ -1319,11 +1318,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q332828" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079018_1_38> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Azufre";
+  aqm:contaminante_medido "Dióxido de Azufre";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079018";
   aqm:id_medicion "28079018_1_38";
-  aqm:tecnica "Fluorescencia ultravioleta";
+  aqm:tecnica_medicion "Fluorescencia ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00006"^^<xsd:double>;
   aqm:valor_a_las_10 "00006"^^<xsd:double>;
@@ -1359,11 +1358,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q191807" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079018_6_48> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Carbono";
+  aqm:contaminante_medido "Monóxido de Carbono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079018";
   aqm:id_medicion "28079018_6_48";
-  aqm:tecnica "Absorción infrarroja";
+  aqm:tecnica_medicion "Absorción infrarroja";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "000.3"^^<xsd:double>;
   aqm:valor_a_las_10 "000.4"^^<xsd:double>;
@@ -1398,11 +1397,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q70906" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079018_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079018";
   aqm:id_medicion "28079018_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00006"^^<xsd:double>;
@@ -1437,11 +1436,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079018_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079018";
   aqm:id_medicion "28079018_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00010"^^<xsd:double>;
   aqm:valor_a_las_10 "00028"^^<xsd:double>;
@@ -1473,11 +1472,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q207895" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079018_10_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 10 μm";
+  aqm:contaminante_medido "Partículas < 10 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079018";
   aqm:id_medicion "28079018_10_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00007"^^<xsd:double>;
   aqm:valor_a_las_10 "00011"^^<xsd:double>;
@@ -1511,11 +1510,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q629569" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079018_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079018";
   aqm:id_medicion "28079018_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00012"^^<xsd:double>;
   aqm:valor_a_las_10 "00037"^^<xsd:double>;
@@ -1550,11 +1549,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079018_14_6> a aqm:Measurement;
-  aqm:contaminante "Ozono";
+  aqm:contaminante_medido "Ozono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079018";
   aqm:id_medicion "28079018_14_6";
-  aqm:tecnica "Absorción ultravioleta";
+  aqm:tecnica_medicion "Absorción ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "66.45"^^<xsd:double>;
   aqm:valor_a_las_10 "39.09"^^<xsd:double>;
@@ -1589,11 +1588,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q332828" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079018_20_59> a aqm:Measurement;
-  aqm:contaminante "Tolueno";
+  aqm:contaminante_medido "Tolueno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079018";
   aqm:id_medicion "28079018_20_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "001.0"^^<xsd:double>;
   aqm:valor_a_las_10 "001.4"^^<xsd:double>;
@@ -1628,11 +1627,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q677065" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079018_30_59> a aqm:Measurement;
-  aqm:contaminante "Benceno";
+  aqm:contaminante_medido "Benceno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079018";
   aqm:id_medicion "28079018_30_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "000.1"^^<xsd:double>;
   aqm:valor_a_las_10 "000.2"^^<xsd:double>;
@@ -1663,11 +1662,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2270" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079018_35_59> a aqm:Measurement;
-  aqm:contaminante "Etilbenceno";
+  aqm:contaminante_medido "Etilbenceno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079018";
   aqm:id_medicion "28079018_35_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "000.1"^^<xsd:double>;
   aqm:valor_a_las_10 "000.2"^^<xsd:double>;
@@ -1702,11 +1701,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q677065" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079024_1_38> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Azufre";
+  aqm:contaminante_medido "Dióxido de Azufre";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079024";
   aqm:id_medicion "28079024_1_38";
-  aqm:tecnica "Fluorescencia ultravioleta";
+  aqm:tecnica_medicion "Fluorescencia ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00004"^^<xsd:double>;
   aqm:valor_a_las_10 "00004"^^<xsd:double>;
@@ -1742,11 +1741,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q191807" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079024_6_48> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Carbono";
+  aqm:contaminante_medido "Monóxido de Carbono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079024";
   aqm:id_medicion "28079024_6_48";
-  aqm:tecnica "Absorción infrarroja";
+  aqm:tecnica_medicion "Absorción infrarroja";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "000.1"^^<xsd:double>;
   aqm:valor_a_las_10 "000.2"^^<xsd:double>;
@@ -1781,11 +1780,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q70906" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079024_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079024";
   aqm:id_medicion "28079024_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00003"^^<xsd:double>;
@@ -1820,11 +1819,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079024_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079024";
   aqm:id_medicion "28079024_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00003"^^<xsd:double>;
   aqm:valor_a_las_10 "00019"^^<xsd:double>;
@@ -1856,11 +1855,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q207895" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079024_9_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 2.5 μm";
+  aqm:contaminante_medido "Partículas < 2.5 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079024";
   aqm:id_medicion "28079024_9_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00000"^^<xsd:double>;
   aqm:valor_a_las_10 "00000"^^<xsd:double>;
@@ -1894,11 +1893,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q629569" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079024_10_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 10 μm";
+  aqm:contaminante_medido "Partículas < 10 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079024";
   aqm:id_medicion "28079024_10_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00000"^^<xsd:double>;
   aqm:valor_a_las_10 "00000"^^<xsd:double>;
@@ -1929,11 +1928,11 @@
   a aqm:Contaminante .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079024_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079024";
   aqm:id_medicion "28079024_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00004"^^<xsd:double>;
   aqm:valor_a_las_10 "00023"^^<xsd:double>;
@@ -1968,11 +1967,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079024_14_6> a aqm:Measurement;
-  aqm:contaminante "Ozono";
+  aqm:contaminante_medido "Ozono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079024";
   aqm:id_medicion "28079024_14_6";
-  aqm:tecnica "Absorción ultravioleta";
+  aqm:tecnica_medicion "Absorción ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "80.48"^^<xsd:double>;
   aqm:valor_a_las_10 "52.17"^^<xsd:double>;
@@ -2007,11 +2006,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q332828" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079024_20_59> a aqm:Measurement;
-  aqm:contaminante "Tolueno";
+  aqm:contaminante_medido "Tolueno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079024";
   aqm:id_medicion "28079024_20_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "000.1"^^<xsd:double>;
   aqm:valor_a_las_10 "000.4"^^<xsd:double>;
@@ -2046,11 +2045,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q677065" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079024_30_59> a aqm:Measurement;
-  aqm:contaminante "Benceno";
+  aqm:contaminante_medido "Benceno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079024";
   aqm:id_medicion "28079024_30_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "000.1"^^<xsd:double>;
   aqm:valor_a_las_10 "000.1"^^<xsd:double>;
@@ -2081,11 +2080,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2270" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079024_35_59> a aqm:Measurement;
-  aqm:contaminante "Etilbenceno";
+  aqm:contaminante_medido "Etilbenceno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079024";
   aqm:id_medicion "28079024_35_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "000.1"^^<xsd:double>;
   aqm:valor_a_las_10 "000.1"^^<xsd:double>;
@@ -2120,11 +2119,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q677065" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079024_42_2> a aqm:Measurement;
-  aqm:contaminante "Hidrocarburos totales (hexano)";
+  aqm:contaminante_medido "Hidrocarburos totales (hexano)";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079024";
   aqm:id_medicion "28079024_42_2";
-  aqm:tecnica "Ionización de llama";
+  aqm:tecnica_medicion "Ionización de llama";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "01.16"^^<xsd:double>;
   aqm:valor_a_las_10 "01.17"^^<xsd:double>;
@@ -2158,11 +2157,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q873305" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079024_43_2> a aqm:Measurement;
-  aqm:contaminante "Metano";
+  aqm:contaminante_medido "Metano";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079024";
   aqm:id_medicion "28079024_43_2";
-  aqm:tecnica "Ionización de llama";
+  aqm:tecnica_medicion "Ionización de llama";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "01.10"^^<xsd:double>;
   aqm:valor_a_las_10 "01.09"^^<xsd:double>;
@@ -2193,11 +2192,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q37129" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079024_44_2> a aqm:Measurement;
-  aqm:contaminante "Hidrocarburos no metánicos (hexano)";
+  aqm:contaminante_medido "Hidrocarburos no metánicos (hexano)";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079024";
   aqm:id_medicion "28079024_44_2";
-  aqm:tecnica "Ionización de llama";
+  aqm:tecnica_medicion "Ionización de llama";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "00.06"^^<xsd:double>;
   aqm:valor_a_las_10 "00.08"^^<xsd:double>;
@@ -2231,11 +2230,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q873305" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079027_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079027";
   aqm:id_medicion "28079027_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00033"^^<xsd:double>;
@@ -2270,11 +2269,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079027_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079027";
   aqm:id_medicion "28079027_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00052"^^<xsd:double>;
   aqm:valor_a_las_10 "00073"^^<xsd:double>;
@@ -2306,11 +2305,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q207895" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079027_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079027";
   aqm:id_medicion "28079027_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00054"^^<xsd:double>;
   aqm:valor_a_las_10 "00123"^^<xsd:double>;
@@ -2345,11 +2344,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079027_14_6> a aqm:Measurement;
-  aqm:contaminante "Ozono";
+  aqm:contaminante_medido "Ozono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079027";
   aqm:id_medicion "28079027_14_6";
-  aqm:tecnica "Absorción ultravioleta";
+  aqm:tecnica_medicion "Absorción ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "35.55"^^<xsd:double>;
   aqm:valor_a_las_10 "16.90"^^<xsd:double>;
@@ -2384,11 +2383,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q332828" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079035_1_38> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Azufre";
+  aqm:contaminante_medido "Dióxido de Azufre";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079035";
   aqm:id_medicion "28079035_1_38";
-  aqm:tecnica "Fluorescencia ultravioleta";
+  aqm:tecnica_medicion "Fluorescencia ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00009"^^<xsd:double>;
   aqm:valor_a_las_10 "00012"^^<xsd:double>;
@@ -2424,11 +2423,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q191807" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079035_6_48> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Carbono";
+  aqm:contaminante_medido "Monóxido de Carbono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079035";
   aqm:id_medicion "28079035_6_48";
-  aqm:tecnica "Absorción infrarroja";
+  aqm:tecnica_medicion "Absorción infrarroja";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "000.8"^^<xsd:double>;
   aqm:valor_a_las_10 "000.9"^^<xsd:double>;
@@ -2463,11 +2462,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q70906" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079035_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079035";
   aqm:id_medicion "28079035_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00015"^^<xsd:double>;
@@ -2502,11 +2501,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079035_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079035";
   aqm:id_medicion "28079035_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00016"^^<xsd:double>;
   aqm:valor_a_las_10 "00049"^^<xsd:double>;
@@ -2538,11 +2537,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q207895" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079035_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079035";
   aqm:id_medicion "28079035_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00019"^^<xsd:double>;
   aqm:valor_a_las_10 "00072"^^<xsd:double>;
@@ -2577,11 +2576,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079035_14_6> a aqm:Measurement;
-  aqm:contaminante "Ozono";
+  aqm:contaminante_medido "Ozono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079035";
   aqm:id_medicion "28079035_14_6";
-  aqm:tecnica "Absorción ultravioleta";
+  aqm:tecnica_medicion "Absorción ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "63.05"^^<xsd:double>;
   aqm:valor_a_las_10 "26.21"^^<xsd:double>;
@@ -2616,11 +2615,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q332828" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079036_1_38> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Azufre";
+  aqm:contaminante_medido "Dióxido de Azufre";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079036";
   aqm:id_medicion "28079036_1_38";
-  aqm:tecnica "Fluorescencia ultravioleta";
+  aqm:tecnica_medicion "Fluorescencia ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00004"^^<xsd:double>;
   aqm:valor_a_las_10 "00004"^^<xsd:double>;
@@ -2656,11 +2655,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q191807" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079036_6_48> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Carbono";
+  aqm:contaminante_medido "Monóxido de Carbono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079036";
   aqm:id_medicion "28079036_6_48";
-  aqm:tecnica "Absorción infrarroja";
+  aqm:tecnica_medicion "Absorción infrarroja";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "000.2"^^<xsd:double>;
   aqm:valor_a_las_10 "000.4"^^<xsd:double>;
@@ -2695,11 +2694,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q70906" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079036_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079036";
   aqm:id_medicion "28079036_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00003"^^<xsd:double>;
   aqm:valor_a_las_10 "00025"^^<xsd:double>;
@@ -2734,11 +2733,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079036_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079036";
   aqm:id_medicion "28079036_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00009"^^<xsd:double>;
   aqm:valor_a_las_10 "00056"^^<xsd:double>;
@@ -2770,11 +2769,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q207895" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079036_10_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 10 μm";
+  aqm:contaminante_medido "Partículas < 10 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079036";
   aqm:id_medicion "28079036_10_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00012"^^<xsd:double>;
   aqm:valor_a_las_10 "00021"^^<xsd:double>;
@@ -2808,11 +2807,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q629569" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079036_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079036";
   aqm:id_medicion "28079036_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00013"^^<xsd:double>;
   aqm:valor_a_las_10 "00094"^^<xsd:double>;
@@ -2847,11 +2846,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079038_1_38> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Azufre";
+  aqm:contaminante_medido "Dióxido de Azufre";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079038";
   aqm:id_medicion "28079038_1_38";
-  aqm:tecnica "Fluorescencia ultravioleta";
+  aqm:tecnica_medicion "Fluorescencia ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00007"^^<xsd:double>;
   aqm:valor_a_las_10 "00009"^^<xsd:double>;
@@ -2887,11 +2886,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q191807" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079038_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079038";
   aqm:id_medicion "28079038_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00003"^^<xsd:double>;
   aqm:valor_a_las_10 "00039"^^<xsd:double>;
@@ -2926,11 +2925,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079038_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079038";
   aqm:id_medicion "28079038_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00011"^^<xsd:double>;
   aqm:valor_a_las_10 "00061"^^<xsd:double>;
@@ -2962,11 +2961,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q207895" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079038_9_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 2.5 μm";
+  aqm:contaminante_medido "Partículas < 2.5 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079038";
   aqm:id_medicion "28079038_9_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00002"^^<xsd:double>;
   aqm:valor_a_las_10 "00009"^^<xsd:double>;
@@ -3000,11 +2999,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q629569" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079038_10_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 10 μm";
+  aqm:contaminante_medido "Partículas < 10 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079038";
   aqm:id_medicion "28079038_10_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00008"^^<xsd:double>;
   aqm:valor_a_las_10 "00018"^^<xsd:double>;
@@ -3035,11 +3034,11 @@
   a aqm:Contaminante .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079038_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079038";
   aqm:id_medicion "28079038_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00015"^^<xsd:double>;
   aqm:valor_a_las_10 "00121"^^<xsd:double>;
@@ -3074,11 +3073,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079038_20_59> a aqm:Measurement;
-  aqm:contaminante "Tolueno";
+  aqm:contaminante_medido "Tolueno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079038";
   aqm:id_medicion "28079038_20_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "000.7"^^<xsd:double>;
   aqm:valor_a_las_10 "001.4"^^<xsd:double>;
@@ -3113,11 +3112,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q677065" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079038_30_59> a aqm:Measurement;
-  aqm:contaminante "Benceno";
+  aqm:contaminante_medido "Benceno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079038";
   aqm:id_medicion "28079038_30_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "000.3"^^<xsd:double>;
   aqm:valor_a_las_10 "000.5"^^<xsd:double>;
@@ -3148,11 +3147,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2270" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079038_35_59> a aqm:Measurement;
-  aqm:contaminante "Etilbenceno";
+  aqm:contaminante_medido "Etilbenceno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079038";
   aqm:id_medicion "28079038_35_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "004.0"^^<xsd:double>;
   aqm:valor_a_las_10 "004.0"^^<xsd:double>;
@@ -3187,11 +3186,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q677065" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079039_6_48> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Carbono";
+  aqm:contaminante_medido "Monóxido de Carbono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079039";
   aqm:id_medicion "28079039_6_48";
-  aqm:tecnica "Absorción infrarroja";
+  aqm:tecnica_medicion "Absorción infrarroja";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "000.2"^^<xsd:double>;
   aqm:valor_a_las_10 "000.3"^^<xsd:double>;
@@ -3226,11 +3225,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q70906" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079039_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079039";
   aqm:id_medicion "28079039_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00010"^^<xsd:double>;
@@ -3265,11 +3264,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079039_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079039";
   aqm:id_medicion "28079039_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00005"^^<xsd:double>;
   aqm:valor_a_las_10 "00044"^^<xsd:double>;
@@ -3301,11 +3300,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q207895" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079039_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079039";
   aqm:id_medicion "28079039_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00007"^^<xsd:double>;
   aqm:valor_a_las_10 "00060"^^<xsd:double>;
@@ -3340,11 +3339,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079039_14_6> a aqm:Measurement;
-  aqm:contaminante "Ozono";
+  aqm:contaminante_medido "Ozono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079039";
   aqm:id_medicion "28079039_14_6";
-  aqm:tecnica "Absorción ultravioleta";
+  aqm:tecnica_medicion "Absorción ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "89.28"^^<xsd:double>;
   aqm:valor_a_las_10 "40.92"^^<xsd:double>;
@@ -3379,11 +3378,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q332828" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079040_1_38> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Azufre";
+  aqm:contaminante_medido "Dióxido de Azufre";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079040";
   aqm:id_medicion "28079040_1_38";
-  aqm:tecnica "Fluorescencia ultravioleta";
+  aqm:tecnica_medicion "Fluorescencia ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00009"^^<xsd:double>;
   aqm:valor_a_las_10 "00009"^^<xsd:double>;
@@ -3419,11 +3418,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q191807" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079040_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079040";
   aqm:id_medicion "28079040_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00002"^^<xsd:double>;
   aqm:valor_a_las_10 "00021"^^<xsd:double>;
@@ -3458,11 +3457,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079040_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079040";
   aqm:id_medicion "28079040_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00013"^^<xsd:double>;
   aqm:valor_a_las_10 "00060"^^<xsd:double>;
@@ -3494,11 +3493,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q207895" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079040_10_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 10 μm";
+  aqm:contaminante_medido "Partículas < 10 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079040";
   aqm:id_medicion "28079040_10_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00008"^^<xsd:double>;
   aqm:valor_a_las_10 "00025"^^<xsd:double>;
@@ -3532,11 +3531,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q629569" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079040_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079040";
   aqm:id_medicion "28079040_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00015"^^<xsd:double>;
   aqm:valor_a_las_10 "00092"^^<xsd:double>;
@@ -3571,11 +3570,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079047_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079047";
   aqm:id_medicion "28079047_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00005"^^<xsd:double>;
@@ -3607,11 +3606,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q207843" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079047_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079047";
   aqm:id_medicion "28079047_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00016"^^<xsd:double>;
   aqm:valor_a_las_10 "00045"^^<xsd:double>;
@@ -3646,11 +3645,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079047_9_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 2.5 μm";
+  aqm:contaminante_medido "Partículas < 2.5 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079047";
   aqm:id_medicion "28079047_9_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00014"^^<xsd:double>;
   aqm:valor_a_las_10 "00009"^^<xsd:double>;
@@ -3684,11 +3683,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q629569" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079047_10_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 10 μm";
+  aqm:contaminante_medido "Partículas < 10 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079047";
   aqm:id_medicion "28079047_10_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00020"^^<xsd:double>;
   aqm:valor_a_las_10 "00017"^^<xsd:double>;
@@ -3719,11 +3718,11 @@
   a aqm:Contaminante .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079047_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079047";
   aqm:id_medicion "28079047_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00017"^^<xsd:double>;
   aqm:valor_a_las_10 "00053"^^<xsd:double>;
@@ -3758,11 +3757,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079048_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079048";
   aqm:id_medicion "28079048_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00020"^^<xsd:double>;
@@ -3794,11 +3793,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q207843" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079048_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079048";
   aqm:id_medicion "28079048_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00009"^^<xsd:double>;
   aqm:valor_a_las_10 "00047"^^<xsd:double>;
@@ -3833,11 +3832,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079048_9_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 2.5 μm";
+  aqm:contaminante_medido "Partículas < 2.5 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079048";
   aqm:id_medicion "28079048_9_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00006"^^<xsd:double>;
   aqm:valor_a_las_10 "00005"^^<xsd:double>;
@@ -3871,11 +3870,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q629569" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079048_10_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 10 μm";
+  aqm:contaminante_medido "Partículas < 10 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079048";
   aqm:id_medicion "28079048_10_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00010"^^<xsd:double>;
   aqm:valor_a_las_10 "00014"^^<xsd:double>;
@@ -3906,11 +3905,11 @@
   a aqm:Contaminante .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079048_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079048";
   aqm:id_medicion "28079048_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00011"^^<xsd:double>;
   aqm:valor_a_las_10 "00078"^^<xsd:double>;
@@ -3945,11 +3944,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079049_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079049";
   aqm:id_medicion "28079049_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00005"^^<xsd:double>;
@@ -3984,11 +3983,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079049_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079049";
   aqm:id_medicion "28079049_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00006"^^<xsd:double>;
   aqm:valor_a_las_10 "00034"^^<xsd:double>;
@@ -4023,11 +4022,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079049_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079049";
   aqm:id_medicion "28079049_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00008"^^<xsd:double>;
   aqm:valor_a_las_10 "00042"^^<xsd:double>;
@@ -4062,11 +4061,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079049_14_6> a aqm:Measurement;
-  aqm:contaminante "Ozono";
+  aqm:contaminante_medido "Ozono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079049";
   aqm:id_medicion "28079049_14_6";
-  aqm:tecnica "Absorción ultravioleta";
+  aqm:tecnica_medicion "Absorción ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "75.97"^^<xsd:double>;
   aqm:valor_a_las_10 "34.15"^^<xsd:double>;
@@ -4101,11 +4100,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q332828" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079050_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079050";
   aqm:id_medicion "28079050_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00003"^^<xsd:double>;
   aqm:valor_a_las_10 "00056"^^<xsd:double>;
@@ -4140,11 +4139,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079050_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079050";
   aqm:id_medicion "28079050_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00008"^^<xsd:double>;
   aqm:valor_a_las_10 "00066"^^<xsd:double>;
@@ -4179,11 +4178,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079050_9_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 2.5 μm";
+  aqm:contaminante_medido "Partículas < 2.5 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079050";
   aqm:id_medicion "28079050_9_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00005"^^<xsd:double>;
   aqm:valor_a_las_10 "00007"^^<xsd:double>;
@@ -4219,11 +4218,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q629569" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079050_10_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 10 μm";
+  aqm:contaminante_medido "Partículas < 10 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079050";
   aqm:id_medicion "28079050_10_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00013"^^<xsd:double>;
   aqm:valor_a_las_10 "00021"^^<xsd:double>;
@@ -4254,11 +4253,11 @@
   a aqm:Contaminante .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079050_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079050";
   aqm:id_medicion "28079050_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00012"^^<xsd:double>;
   aqm:valor_a_las_10 "00153"^^<xsd:double>;
@@ -4293,11 +4292,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079054_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079054";
   aqm:id_medicion "28079054_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00023"^^<xsd:double>;
@@ -4332,11 +4331,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079054_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079054";
   aqm:id_medicion "28079054_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00016"^^<xsd:double>;
   aqm:valor_a_las_10 "00077"^^<xsd:double>;
@@ -4371,11 +4370,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079054_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079054";
   aqm:id_medicion "28079054_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00018"^^<xsd:double>;
   aqm:valor_a_las_10 "00112"^^<xsd:double>;
@@ -4410,11 +4409,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079054_14_6> a aqm:Measurement;
-  aqm:contaminante "Ozono";
+  aqm:contaminante_medido "Ozono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079054";
   aqm:id_medicion "28079054_14_6";
-  aqm:tecnica "Absorción ultravioleta";
+  aqm:tecnica_medicion "Absorción ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "71.27"^^<xsd:double>;
   aqm:valor_a_las_10 "19.32"^^<xsd:double>;
@@ -4449,11 +4448,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q332828" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079055_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079055";
   aqm:id_medicion "28079055_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00003"^^<xsd:double>;
   aqm:valor_a_las_10 "00075"^^<xsd:double>;
@@ -4488,11 +4487,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079055_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079055";
   aqm:id_medicion "28079055_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00043"^^<xsd:double>;
   aqm:valor_a_las_10 "00071"^^<xsd:double>;
@@ -4527,11 +4526,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079055_10_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 10 μm";
+  aqm:contaminante_medido "Partículas < 10 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079055";
   aqm:id_medicion "28079055_10_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00002"^^<xsd:double>;
@@ -4565,11 +4564,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q629569" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079055_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079055";
   aqm:id_medicion "28079055_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00048"^^<xsd:double>;
   aqm:valor_a_las_10 "00185"^^<xsd:double>;
@@ -4604,11 +4603,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079055_20_59> a aqm:Measurement;
-  aqm:contaminante "Tolueno";
+  aqm:contaminante_medido "Tolueno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079055";
   aqm:id_medicion "28079055_20_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "000.4"^^<xsd:double>;
   aqm:valor_a_las_10 "001.7"^^<xsd:double>;
@@ -4643,11 +4642,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q677065" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079055_30_59> a aqm:Measurement;
-  aqm:contaminante "Benceno";
+  aqm:contaminante_medido "Benceno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079055";
   aqm:id_medicion "28079055_30_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "000.1"^^<xsd:double>;
   aqm:valor_a_las_10 "000.3"^^<xsd:double>;
@@ -4682,11 +4681,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q677065" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079055_35_59> a aqm:Measurement;
-  aqm:contaminante "Etilbenceno";
+  aqm:contaminante_medido "Etilbenceno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079055";
   aqm:id_medicion "28079055_35_59";
-  aqm:tecnica "Cromatografía de gases";
+  aqm:tecnica_medicion "Cromatografía de gases";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "000.1"^^<xsd:double>;
   aqm:valor_a_las_10 "000.1"^^<xsd:double>;
@@ -4721,11 +4720,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q677065" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079055_42_2> a aqm:Measurement;
-  aqm:contaminante "Hidrocarburos totales (hexano)";
+  aqm:contaminante_medido "Hidrocarburos totales (hexano)";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079055";
   aqm:id_medicion "28079055_42_2";
-  aqm:tecnica "Ionización de llama";
+  aqm:tecnica_medicion "Ionización de llama";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "01.53"^^<xsd:double>;
   aqm:valor_a_las_10 "01.85"^^<xsd:double>;
@@ -4759,11 +4758,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q873305" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079055_43_2> a aqm:Measurement;
-  aqm:contaminante "Metano";
+  aqm:contaminante_medido "Metano";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079055";
   aqm:id_medicion "28079055_43_2";
-  aqm:tecnica "Ionización de llama";
+  aqm:tecnica_medicion "Ionización de llama";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "01.39"^^<xsd:double>;
   aqm:valor_a_las_10 "01.60"^^<xsd:double>;
@@ -4799,11 +4798,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q873305" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079055_44_2> a aqm:Measurement;
-  aqm:contaminante "Hidrocarburos no metánicos (hexano)";
+  aqm:contaminante_medido "Hidrocarburos no metánicos (hexano)";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079055";
   aqm:id_medicion "28079055_44_2";
-  aqm:tecnica "Ionización de llama";
+  aqm:tecnica_medicion "Ionización de llama";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "00.13"^^<xsd:double>;
   aqm:valor_a_las_10 "00.24"^^<xsd:double>;
@@ -4834,11 +4833,11 @@
   a aqm:Contaminante .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079056_6_48> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Carbono";
+  aqm:contaminante_medido "Monóxido de Carbono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079056";
   aqm:id_medicion "28079056_6_48";
-  aqm:tecnica "Absorción infrarroja";
+  aqm:tecnica_medicion "Absorción infrarroja";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "000.1"^^<xsd:double>;
   aqm:valor_a_las_10 "000.2"^^<xsd:double>;
@@ -4873,11 +4872,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q70906" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079056_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079056";
   aqm:id_medicion "28079056_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00006"^^<xsd:double>;
   aqm:valor_a_las_10 "00021"^^<xsd:double>;
@@ -4912,11 +4911,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079056_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079056";
   aqm:id_medicion "28079056_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00018"^^<xsd:double>;
   aqm:valor_a_las_10 "00045"^^<xsd:double>;
@@ -4951,11 +4950,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079056_9_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 2.5 μm";
+  aqm:contaminante_medido "Partículas < 2.5 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079056";
   aqm:id_medicion "28079056_9_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00005"^^<xsd:double>;
   aqm:valor_a_las_10 "00008"^^<xsd:double>;
@@ -4991,11 +4990,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q629569" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079056_10_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 10 μm";
+  aqm:contaminante_medido "Partículas < 10 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079056";
   aqm:id_medicion "28079056_10_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00009"^^<xsd:double>;
   aqm:valor_a_las_10 "00014"^^<xsd:double>;
@@ -5026,11 +5025,11 @@
   a aqm:Contaminante .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079056_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079056";
   aqm:id_medicion "28079056_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00027"^^<xsd:double>;
   aqm:valor_a_las_10 "00077"^^<xsd:double>;
@@ -5065,11 +5064,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079056_14_6> a aqm:Measurement;
-  aqm:contaminante "Ozono";
+  aqm:contaminante_medido "Ozono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079056";
   aqm:id_medicion "28079056_14_6";
-  aqm:tecnica "Absorción ultravioleta";
+  aqm:tecnica_medicion "Absorción ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "72.41"^^<xsd:double>;
   aqm:valor_a_las_10 "37.03"^^<xsd:double>;
@@ -5104,11 +5103,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q332828" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079057_1_38> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Azufre";
+  aqm:contaminante_medido "Dióxido de Azufre";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079057";
   aqm:id_medicion "28079057_1_38";
-  aqm:tecnica "Fluorescencia ultravioleta";
+  aqm:tecnica_medicion "Fluorescencia ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00006"^^<xsd:double>;
   aqm:valor_a_las_10 "00008"^^<xsd:double>;
@@ -5144,11 +5143,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q191807" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079057_6_48> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Carbono";
+  aqm:contaminante_medido "Monóxido de Carbono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079057";
   aqm:id_medicion "28079057_6_48";
-  aqm:tecnica "Absorción infrarroja";
+  aqm:tecnica_medicion "Absorción infrarroja";
   aqm:unidad "mg/m^3";
   aqm:valor_a_las_1 "000.2"^^<xsd:double>;
   aqm:valor_a_las_10 "000.3"^^<xsd:double>;
@@ -5183,11 +5182,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q70906" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079057_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079057";
   aqm:id_medicion "28079057_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00014"^^<xsd:double>;
@@ -5222,11 +5221,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079057_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079057";
   aqm:id_medicion "28079057_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00006"^^<xsd:double>;
   aqm:valor_a_las_10 "00050"^^<xsd:double>;
@@ -5261,11 +5260,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079057_10_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 10 μm";
+  aqm:contaminante_medido "Partículas < 10 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079057";
   aqm:id_medicion "28079057_10_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00006"^^<xsd:double>;
   aqm:valor_a_las_10 "00015"^^<xsd:double>;
@@ -5299,11 +5298,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q629569" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079057_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079057";
   aqm:id_medicion "28079057_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00008"^^<xsd:double>;
   aqm:valor_a_las_10 "00071"^^<xsd:double>;
@@ -5338,11 +5337,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079058_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079058";
   aqm:id_medicion "28079058_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00003"^^<xsd:double>;
@@ -5377,11 +5376,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079058_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079058";
   aqm:id_medicion "28079058_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00004"^^<xsd:double>;
   aqm:valor_a_las_10 "00021"^^<xsd:double>;
@@ -5416,11 +5415,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079058_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079058";
   aqm:id_medicion "28079058_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00005"^^<xsd:double>;
   aqm:valor_a_las_10 "00025"^^<xsd:double>;
@@ -5455,11 +5454,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079058_14_6> a aqm:Measurement;
-  aqm:contaminante "Ozono";
+  aqm:contaminante_medido "Ozono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079058";
   aqm:id_medicion "28079058_14_6";
-  aqm:tecnica "Absorción ultravioleta";
+  aqm:tecnica_medicion "Absorción ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "86.09"^^<xsd:double>;
   aqm:valor_a_las_10 "50.13"^^<xsd:double>;
@@ -5494,11 +5493,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q332828" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079059_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079059";
   aqm:id_medicion "28079059_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00029"^^<xsd:double>;
@@ -5533,11 +5532,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079059_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079059";
   aqm:id_medicion "28079059_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00006"^^<xsd:double>;
   aqm:valor_a_las_10 "00064"^^<xsd:double>;
@@ -5572,11 +5571,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079059_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079059";
   aqm:id_medicion "28079059_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00007"^^<xsd:double>;
   aqm:valor_a_las_10 "00109"^^<xsd:double>;
@@ -5611,11 +5610,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079059_14_6> a aqm:Measurement;
-  aqm:contaminante "Ozono";
+  aqm:contaminante_medido "Ozono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079059";
   aqm:id_medicion "28079059_14_6";
-  aqm:tecnica "Absorción ultravioleta";
+  aqm:tecnica_medicion "Absorción ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "78.17"^^<xsd:double>;
   aqm:valor_a_las_10 "18.61"^^<xsd:double>;
@@ -5650,11 +5649,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q332828" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079060_7_8> a aqm:Measurement;
-  aqm:contaminante "Monóxido de Nitrógeno";
+  aqm:contaminante_medido "Monóxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079060";
   aqm:id_medicion "28079060_7_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00001"^^<xsd:double>;
   aqm:valor_a_las_10 "00006"^^<xsd:double>;
@@ -5689,11 +5688,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079060_8_8> a aqm:Measurement;
-  aqm:contaminante "Dióxido de Nitrógeno";
+  aqm:contaminante_medido "Dióxido de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079060";
   aqm:id_medicion "28079060_8_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00009"^^<xsd:double>;
   aqm:valor_a_las_10 "00017"^^<xsd:double>;
@@ -5728,11 +5727,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079060_10_47> a aqm:Measurement;
-  aqm:contaminante "Partículas < 10 μm";
+  aqm:contaminante_medido "Partículas < 10 μm";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079060";
   aqm:id_medicion "28079060_10_47";
-  aqm:tecnica "Microbalanza";
+  aqm:tecnica_medicion "Microbalanza";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00009"^^<xsd:double>;
   aqm:valor_a_las_10 "00011"^^<xsd:double>;
@@ -5766,11 +5765,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q629569" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079060_12_8> a aqm:Measurement;
-  aqm:contaminante "Óxidos de Nitrógeno";
+  aqm:contaminante_medido "Óxidos de Nitrógeno";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079060";
   aqm:id_medicion "28079060_12_8";
-  aqm:tecnica "Quimioluminiscencia";
+  aqm:tecnica_medicion "Quimioluminiscencia";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "00010"^^<xsd:double>;
   aqm:valor_a_las_10 "00027"^^<xsd:double>;
@@ -5805,11 +5804,11 @@
   owl:sameAs "https://www.wikidata.org/wiki/Q2931725" .
 
 <http://www.airQualityMadrid.com/resource/Measurement/28079060_14_6> a aqm:Measurement;
-  aqm:contaminante "Ozono";
+  aqm:contaminante_medido "Ozono";
   aqm:fecha "2019-10-2"^^xsd:date;
   aqm:id_estacion "28079060";
   aqm:id_medicion "28079060_14_6";
-  aqm:tecnica "Absorción ultravioleta";
+  aqm:tecnica_medicion "Absorción ultravioleta";
   aqm:unidad "μg/m^3";
   aqm:valor_a_las_1 "91.40"^^<xsd:double>;
   aqm:valor_a_las_10 "47.16"^^<xsd:double>;

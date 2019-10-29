@@ -5024,5 +5024,849 @@
       ]
     },
     "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology#"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_MEDICION",
+          "expression": "\"Measurement/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#id_medicion",
+              "curie": "aqm:id_medicion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID_MEDICION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#id_estacion",
+              "curie": "aqm:id_estacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID_ESTACION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#contaminante_medido",
+              "curie": "aqm:contaminante_medido",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#tecnica_medicion",
+              "curie": "aqm:tecnica_medicion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TECNICA",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#unidad",
+              "curie": "aqm:unidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "UNIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#fecha",
+              "curie": "aqm:fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "FECHA",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_1",
+              "curie": "aqm:valor_a_las_1",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H01",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_2",
+              "curie": "aqm:valor_a_las_2",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H02",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_3",
+              "curie": "aqm:valor_a_las_3",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H03",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_4",
+              "curie": "aqm:valor_a_las_4",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H04",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_5",
+              "curie": "aqm:valor_a_las_5",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H05",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_6",
+              "curie": "aqm:valor_a_las_6",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H06",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_7",
+              "curie": "aqm:valor_a_las_7",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H07",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_8",
+              "curie": "aqm:valor_a_las_8",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H08",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_9",
+              "curie": "aqm:valor_a_las_9",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H09",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_10",
+              "curie": "aqm:valor_a_las_10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H10",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_11",
+              "curie": "aqm:valor_a_las_11",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H11",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_12",
+              "curie": "aqm:valor_a_las_12",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H12",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_13",
+              "curie": "aqm:valor_a_las_13",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H13",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_14",
+              "curie": "aqm:valor_a_las_14",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H14",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_15",
+              "curie": "aqm:valor_a_las_15",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H15",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_16",
+              "curie": "aqm:valor_a_las_16",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H16",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_17",
+              "curie": "aqm:valor_a_las_17",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H17",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_18",
+              "curie": "aqm:valor_a_las_18",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H18",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_19",
+              "curie": "aqm:valor_a_las_19",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H19",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_20",
+              "curie": "aqm:valor_a_las_20",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H20",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_21",
+              "curie": "aqm:valor_a_las_21",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H21",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_22",
+              "curie": "aqm:valor_a_las_22",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H22",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_23",
+              "curie": "aqm:valor_a_las_23",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H23",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_24",
+              "curie": "aqm:valor_a_las_24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H24",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#Measurement",
+              "curie": "aqm:Measurement"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "CONTAMINANTE",
+          "expression": "\"Contaminante/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Chemical Compound",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#Contaminante",
+              "curie": "aqm:Contaminante"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "TECNICA",
+          "expression": "\"Tecnica/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Technique",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#Tecnica",
+              "curie": "aqm:Tecnica"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology#"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_MEDICION",
+          "expression": "\"Measurement/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#id_medicion",
+              "curie": "aqm:id_medicion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID_MEDICION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#id_estacion",
+              "curie": "aqm:id_estacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID_ESTACION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#contaminante_medido",
+              "curie": "aqm:contaminante_medido",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#tecnica_medicion",
+              "curie": "aqm:tecnica_medicion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TECNICA",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#unidad",
+              "curie": "aqm:unidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "UNIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#fecha",
+              "curie": "aqm:fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "FECHA",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_1",
+              "curie": "aqm:valor_a_las_1",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H01",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_2",
+              "curie": "aqm:valor_a_las_2",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H02",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_3",
+              "curie": "aqm:valor_a_las_3",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H03",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_4",
+              "curie": "aqm:valor_a_las_4",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H04",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_5",
+              "curie": "aqm:valor_a_las_5",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H05",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_6",
+              "curie": "aqm:valor_a_las_6",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H06",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_7",
+              "curie": "aqm:valor_a_las_7",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H07",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_8",
+              "curie": "aqm:valor_a_las_8",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H08",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_9",
+              "curie": "aqm:valor_a_las_9",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H09",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_10",
+              "curie": "aqm:valor_a_las_10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H10",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_11",
+              "curie": "aqm:valor_a_las_11",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H11",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_12",
+              "curie": "aqm:valor_a_las_12",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H12",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_13",
+              "curie": "aqm:valor_a_las_13",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H13",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_14",
+              "curie": "aqm:valor_a_las_14",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H14",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_15",
+              "curie": "aqm:valor_a_las_15",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H15",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_16",
+              "curie": "aqm:valor_a_las_16",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H16",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_17",
+              "curie": "aqm:valor_a_las_17",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H17",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_18",
+              "curie": "aqm:valor_a_las_18",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H18",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_19",
+              "curie": "aqm:valor_a_las_19",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H19",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_20",
+              "curie": "aqm:valor_a_las_20",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H20",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_21",
+              "curie": "aqm:valor_a_las_21",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H21",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_22",
+              "curie": "aqm:valor_a_las_22",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H22",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_23",
+              "curie": "aqm:valor_a_las_23",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H23",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#valor_a_las_24",
+              "curie": "aqm:valor_a_las_24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "H24",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#Measurement",
+              "curie": "aqm:Measurement"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "CONTAMINANTE",
+          "expression": "\"Contaminante/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Chemical Compound",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#Contaminante",
+              "curie": "aqm:Contaminante"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "TECNICA",
+          "expression": "\"Tecnica/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Technique",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#Tecnica",
+              "curie": "aqm:Tecnica"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
   }
 ]

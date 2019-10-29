@@ -77,13 +77,13 @@ geo:long rdf:type owl:DatatypeProperty ;
              rdfs:domain :Station;
              rdfs:range xsd:float .
 			 
-###  http://www.airQualityMadrid.com/ontology#CONTAMINANTE
-:contaminante rdf:type owl:DatatypeProperty ;
+###  http://www.airQualityMadrid.com/ontology#CONTAMINANTE_MEDIDO
+:contaminante_medido rdf:type owl:DatatypeProperty ;
              rdfs:domain :Measurement ;
              rdfs:range xsd:string .
 			 
-###  http://www.airQualityMadrid.com/ontology#TECNICA
-:tecnica rdf:type owl:DatatypeProperty ;
+###  http://www.airQualityMadrid.com/ontology#TECNICA_MEDICION
+:tecnica_medicion rdf:type owl:DatatypeProperty ;
              rdfs:domain :Measurement ;
              rdfs:range xsd:string .
 			 
