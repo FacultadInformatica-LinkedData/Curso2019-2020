@@ -1,5 +1,5 @@
 #Hands-on assignment 2 – Self assessment#
-
+The whole group worked in this part
 ##Checklist##
 
 **The “analysis.html” file**

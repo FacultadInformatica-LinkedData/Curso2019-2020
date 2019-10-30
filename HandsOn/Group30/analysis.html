@@ -1,0 +1,178 @@
+<html> 
+  <body>
+    <h3>Analisis del dataset</h3>
+	<table class="table table-bordered table-hover table-condensed">
+		<tbody><tr>
+		<td>Columna</td>
+		<td>Tipo</td>
+		<td>Descripcion</td>
+		</tr>
+		<tr>
+		<td>PK</td>
+		<td>int</td>
+		<td>Identificador único para los distintos polideportivos.</td>
+		</tr>
+		<tr>
+		<td>NOMBRE</td>
+		<td>String</td>
+		<td> Nombre del polideportivo.</td>
+		</tr>
+		<tr>
+		<td>DESCRIPCIÓN-ENTIDAD</td>
+		<td>String</td>
+		<td>En el dataset este campo se encuentra sin rellenar. </td>
+		</tr>
+		<tr>
+		<td>HORARIO</td>
+		<td>String</td>
+		<td>Explicación del horario de la instalación deportiva. </td>
+		</tr>
+		<tr>
+		<td>EQUIPAMIENTO</td>
+		<td>String</td>
+		<td>Descripción del equipamiento del centro.</td>
+		</tr>
+		<tr>
+		<td>TRANSPORTE</td>
+		<td>String</td>
+		<td>Formas de llegar al centro deportivo. </td>
+		</tr>
+		<tr>
+		<td>DESCRIPCION</td>
+		<td>String</td>
+		<td>Descripción. </td>
+		</tr>
+		<tr>
+		<td>ACCESIBILIDAD</td>
+		<td>String</td>
+		<td>Tipos de acceso del centro deportivo. </td>
+		</tr>
+		<tr>
+		<td>CONTENT-URL</td>
+		<td>String</td>
+		<td>Nombre del recurso del centro deportivo. </td>
+		</tr>
+		<tr>
+		<td>NOMBRE-VIA</td>
+		<td>String</td>
+		<td>Nombre de la vía donde se encuentra el centro deportivo.</td>
+		</tr>
+		<tr>
+		<td>CLASE-VIAL</td>
+		<td>String</td>
+		<td>Tipo de via en la que se encuentra el centro deportivo.</td>
+		</tr>
+		<tr>
+		<td>TIPO-NUM</td>
+		<td>String</td>
+		<td>Distintos tipos de numero (S/N, V, T, NUM) </td>
+		</tr>
+		<tr>
+		<td>NUM</td>
+		<td>int</td>
+		<td>Numero dentro de la vía del centro deportivo. </td>
+		</tr>
+		<tr>
+		<td>PLANTA</td>
+		<td>String</td>
+		<td>Planta donde se encuentra el centro deportivo </td>
+		</tr>
+		<tr>
+		<td>PUERTA</td>
+		<td>String</td>
+		<td>Puerta donde se encuetra el centro deportivo</td>
+		</tr>
+		<tr>
+		<td>ESCALERAS</td>
+		<td>String</td>
+		<td>Escaleras donde se encuentra la entrada al centro deportivo. </td>
+		</tr>
+		<tr>
+		<td>ORIENTACIÓN</td>
+		<td>String</td>
+		<td>Orientación del centro. </td>
+		</tr>
+		<tr>
+		<td>LOCALIDAD</td>
+		<td>String</td>
+		<td>Localidad del centro deportivo.</td>
+		</tr>
+		<tr>
+		<td>PROVINCIA</td>
+		<td>String</td>
+		<td>Provincia del centro deportivo.</td>
+		</tr>
+		<tr>
+		<td>CODIGO-POSTAL</td>
+		<td>int</td>
+		<td>Código postal del centro deportivo. </td>
+		</tr>
+		<tr>
+		<td>BARRIO</td>
+		<td>String</td>
+		<td>Barrio donde se encuentra el centro deportivo. </td>
+		</tr>
+		<tr>
+		<td>DISTRITO</td>
+		<td>String</td>
+		<td>Distrito donde se encuentra el centro deportivo.</td>
+		</tr>
+		<tr>
+		<td>COORDENADA-X</td>
+		<td>int</td>
+		<td>Coordenada x del centro. </td>
+		</tr>
+		<tr>
+		<td>COORDENADA-Y</td>
+		<td>int</td>
+		<td>Coordenada y del centro. </td>
+		</tr>
+		<tr>
+		<td>LATITUD</td>
+		<td>float</td>
+		<td>Latitud del centro deportivo. </td>
+		</tr>
+		<tr>
+		<td>LONGITUD</td>
+		<td>float</td>
+		<td>Longitud del centro deportivo. </td>
+		</tr>
+		<tr>
+		<td>TELEFONO</td>
+		<td>String</td>
+		<td>Teléfono del centro deportivo. </td>
+		</tr>
+		<tr>
+		<td>FAX</td>
+		<td>String</td>
+		<td>Fax del centro deportivo. </td>
+		</tr>
+		<tr>
+		<td>EMAIL</td>
+		<td>String</td>
+		<td>Email del centro deportivo. </td>
+		</tr>
+		<tr>
+		<td>TIPO</td>
+		<td>String</td>
+		<td>Tipo de centro deportivo. </td>
+		<td> </td>
+		</tr>
+		</tbody></table>
+
+	<h3>Análisis de la licencia</h3>
+	<p>	
+		La licencia especifica que se debe citar el origen de los datos, citar la fecha de última actualización de los datos, conservar los datos originales, mantener el anonimato, usar los datos en el contexto al que corresponden y mantener al ayuntamiento de Madrid al margen del uso de los datos.
+		Los datos se pueden utilizar para fines comerciales y no comerciales. https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
+	</p>
+	
+
+	<h3>Estrategia para el nombrado</h3>
+	<p>
+		El nombre base para los recursos es: http://www.madridcen.es/group30/recursos/(Nombre del recurso)/(id del recurso) 
+	</p>
+	<p>
+		El nombre base para los elementos de la ontología es: http://www.madridcen.es/group30/ontologia#
+	</p>
+  </body>
+</html>

@@ -1,0 +1,3452 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PK",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "134929"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": 134929
+      }
+    ],
+    "description": "Mass edit cells in column PK"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": false,
+    "description": "Unstar rows"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "PK",
+          "expression": "value",
+          "columnName": "PK",
+          "from": 134929,
+          "to": 134930,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PK",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PK using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 76Renfe: Cercanías Puente AlcocerBicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 76Bicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 103, 24, 111Renfe: Asamblea de Madrid-Entrevias (líneas C2, C7, Regional)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 103, 24, 111"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 150, 174Cercanías Renfe: Fuente de la Mora (líneas C1, C10)Metro Ligero: Fuente de la Mora (línea ML1)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 150, 174"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 34, 17  Cercanías Renfe: Las Aguilas (línea C5)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 34, 17  "
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 39, 117, 139Cercanías Renfe: Las Águilas (Línea C5)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 39, 117, 139"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 712, 713, 716.Cercanías Renfe: Cantoblanco Universidad (línea C4)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 712, 713, 716."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 76Cercanías Renfe: Puente Alcocer (línea C5)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 76"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 79  Renfe: San Cristóbal de Los Ángeles (línea C3)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 79"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro : Aluche (línea 5).Bus: 121, 131, 139. Cercanías Renfe: Aluche (línea C5)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro : Aluche (línea 5).Bus: 121, 131, 139. "
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Begoña (línea 10),  Chamartín (línea 1, 10)Bus: 67, 124, 134, 135, 147Renfe: Chamartin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Begoña (línea 10),  Chamartín (línea 1, 10)Bus: 67, 124, 134, 135, 147"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Begoña (línea 10).Bus: 125, 135, SE722.Cercanías Renfe: Ramón y Cajal (líneas C3, C7, C8, Regional)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Begoña (línea 10).Bus: 125, 135, SE722."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ciudad de los Ángeles salida calle Tertulia (L 3)Bus: 22, 23, 59, 85, 79 y 123Renfe: Villaverde BajoBicicletas: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ciudad de los Ángeles salida calle Tertulia (L 3)Bus: 22, 23, 59, 85, 79 y 123"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Cuatro Caminos (línea 1, 2, 6), Nuevos Ministerios (línea 6, 8 y 10)Renfe: Nuevos MinisteriosBus: C1, 149"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Cuatro Caminos (línea 1, 2, 6), Nuevos Ministerios (línea 6, 8 y 10)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Delicias (línea 3).Bus: 8, 19, 45, 47, 59, 85, 86, 247Cercanías Renfe: Delicias (Líneas C1, C5, C10, Regional)Bicimad: Estación 164 (Paseo Delicias 92-94)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Delicias (línea 3).Bus: 8, 19, 45, 47, 59, 85, 86, 247"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Delicias (línea 3)Bus: 6, 78, 148, 59, 85, 8, 19, 45, 47, 86, 247Renfe: Delicias (líneas C1, C7, C10, Regional)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Delicias (línea 3)Bus: 6, 78, 148, 59, 85, 8, 19, 45, 47, 86, 247"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Embajadores (línea 3)Bus: 60, 78, 148, 116, 118Cercanías Renfe: Embajadores (línea C5)Bicimad: Estación 46 (glorieta de Embajadores, 6) estación 48 (glorieta de Embajadores, 2)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Embajadores (línea 3)Bus: 60, 78, 148, 116, 118"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Embajadores (línea 3)Bus: 60, 78, 148, 6, 55, 59, 85, E1Renfe: Embajadores (línea C5)Bicimad: Estación 121 (Paseo Santa María de la Cabeza, 58)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Embajadores (línea 3)Bus: 60, 78, 148, 6, 55, 59, 85, E1"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Hospital 12 octubre (línea 3)Bus: 18, 22, 59, 76, 79, 85, 86, 81, 121Renfe: Doce de Octubre"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Hospital 12 octubre (línea 3)Bus: 18, 22, 59, 76, 79, 85, 86, 81, 121"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Lucero (línea 6)Bus: 55, 138Cercanías Renfe: Laguna (Línea C5)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Lucero (línea 6)Bus: 55, 138"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Palos de la Frontera (línea 3) Bus: 19, 45, 86, 27, 55, 8, 47, 247, 6, 59, 85, 102  Cercanías Renfe: Atocha (líneas C1, C2, C3, C4, C5, C7, C8, C10).  Bicimad: Estación 120 (calle Palos de la Frontera 40)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Palos de la Frontera (línea 3) Bus: 19, 45, 86, 27, 55, 8, 47, 247, 6, 59, 85, 102 Bicimad: Estación 120 (calle Palos de la Frontera 40)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Pirámides (línea 5)Bus: 23, 35Renfe: Pirámides (líneas C1, C7, C10)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Pirámides (línea 5)Bus: 23, 35"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Plaza de Castilla (línea 1, 9, 10), Chamartín (1, 10).Bus: 5, 66, 70, 107, 129, 174.Renfe: Chamartín (líneas C1, C2, C3, C4, C7, C8, C10, Regional)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Plaza de Castilla (línea 1, 9, 10), Chamartín (1, 10).Bus: 5, 66, 70, 107, 129, 174."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Puerta de Toledo, Acacias, Pirámides, EmbajadoresBus: 3, 6, 17, 18, 23, 34, 35, 36, 41, 60, 62, 116, 118, 119, 148 y circularRenfe: Pirámides, Embajadores"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Puerta de Toledo, Acacias, Pirámides, EmbajadoresBus: 3, 6, 17, 18, 23, 34, 35, 36, 41, 60, 62, 116, 118, 119, 148 y circular"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: San Fermín - Orcasur (línea 3)Bus: 116, 76Cercanías Renfe: Orcasitas (línea C5)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: San Fermín - Orcasur (línea 3)Bus: 116, 76 "
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Villaverde Alto (línea 3)Bus: 79, 22, T41Renfe: Villaverde Alto (líneas C4, C5, Regional)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Villaverde Alto (línea 3)Bus: 79, 22, T41"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TRANSPORTE",
+          "columnName": "TRANSPORTE",
+          "query": "Renfe:",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Villaverde Bajo Cruce (línea 3)Bus: 123, 130, 23, 85Cercanías Renfe: Villaverde Bajo (líneas C3, C4, Intercity, Regional)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Villaverde Bajo Cruce (línea 3)Bus: 123, 130, 23, 85"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TRANSPORTE",
+          "expression": "isBlank(value)",
+          "columnName": "TRANSPORTE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Metro",
+    "regex": true,
+    "maxColumns": 2,
+    "description": "Split column TRANSPORTE by separator"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TRANSPORTE 1",
+          "expression": "isBlank(value)",
+          "columnName": "TRANSPORTE 1",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 1",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Bicicletas",
+    "regex": true,
+    "maxColumns": 2,
+    "description": "Split column TRANSPORTE 1 by separator"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TRANSPORTE 2",
+          "expression": "isBlank(value)",
+          "columnName": "TRANSPORTE 2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Bus",
+    "regex": true,
+    "maxColumns": 2,
+    "description": "Split column TRANSPORTE 2 by separator"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TRANSPORTE 2 1",
+          "expression": "isBlank(value)",
+          "columnName": "TRANSPORTE 2 1",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 2 1",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Bicicletas",
+    "regex": true,
+    "maxColumns": 2,
+    "description": "Split column TRANSPORTE 2 1 by separator"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TRANSPORTE 2 2",
+          "expression": "isBlank(value)",
+          "columnName": "TRANSPORTE 2 2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Bici",
+    "regex": true,
+    "maxColumns": 2,
+    "description": "Split column TRANSPORTE 2 2 by separator"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TRANSPORTE 2 2 1",
+          "expression": "isBlank(value)",
+          "columnName": "TRANSPORTE 2 2 1",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 2 2 1",
+    "expression": "grel:replace(value,\":\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TRANSPORTE 2 2 1 using expression grel:replace(value,\":\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TRANSPORTE 2 1 1",
+          "expression": "isBlank(value)",
+          "columnName": "TRANSPORTE 2 1 1",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 2 1 1",
+    "expression": "grel:replace(value,\":\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TRANSPORTE 2 1 1 using expression grel:replace(value,\":\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TRANSPORTE 2 1 2",
+          "expression": "isBlank(value)",
+          "columnName": "TRANSPORTE 2 1 2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 2 1 2",
+    "expression": "grel:replace(value,\":\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TRANSPORTE 2 1 2 using expression grel:replace(value,\":\",\"\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TRANSPORTE 2 2 1",
+    "newColumnName": "BusAux",
+    "description": "Rename column TRANSPORTE 2 2 1 to BusAux"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TRANSPORTE 1 1",
+    "newColumnName": "Bus",
+    "description": "Rename column TRANSPORTE 1 1 to Bus"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TRANSPORTE 1 2",
+    "newColumnName": "Bike",
+    "description": "Rename column TRANSPORTE 1 2 to Bike"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TRANSPORTE 2 1 1",
+    "newColumnName": "Subway",
+    "description": "Rename column TRANSPORTE 2 1 1 to Subway"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TRANSPORTE 2 1 2",
+    "newColumnName": "BikeAux",
+    "description": "Rename column TRANSPORTE 2 1 2 to BikeAux"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TRANSPORTE 2 2 2",
+    "newColumnName": "BikeAux1",
+    "description": "Rename column TRANSPORTE 2 2 2 to BikeAux1"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Bus",
+          "expression": "isBlank(value)",
+          "columnName": "Bus",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "BusAux",
+          "expression": "isBlank(value)",
+          "columnName": "BusAux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Bus",
+    "expression": "grel:\"Bus:\" + cells['BusAux'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Bus using expression grel:\"Bus:\" + cells['BusAux'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Bike",
+          "expression": "isBlank(value)",
+          "columnName": "Bike",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "BikeAux",
+          "expression": "isBlank(value)",
+          "columnName": "BikeAux",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Bike",
+    "expression": "grel:\"Bicicletas:\" + cells['BikeAux'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Bike using expression grel:\"Bicicletas:\" + cells['BikeAux'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Bike",
+          "expression": "isBlank(value)",
+          "columnName": "Bike",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "BikeAux1",
+          "expression": "isBlank(value)",
+          "columnName": "BikeAux1",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Bike",
+    "expression": "grel:\"Bici\" + cells['BikeAux1'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Bike using expression grel:\"Bici\" + cells['BikeAux1'].value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "BikeAux",
+    "description": "Remove column BikeAux"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "BusAux",
+    "description": "Remove column BusAux"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "BikeAux1",
+    "description": "Remove column BikeAux1"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PK",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "134929"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": 134929
+      }
+    ],
+    "description": "Mass edit cells in column PK"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": false,
+    "description": "Unstar rows"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "PK",
+          "expression": "value",
+          "columnName": "PK",
+          "from": 134929,
+          "to": 134930,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PK",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PK using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CLASE-VIAL",
+    "expression": "grel:value + \" ; \" + cells['NOMBRE-VIA'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CLASE-VIAL using expression grel:value + \" ; \" + cells['NOMBRE-VIA'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CLASE-VIAL",
+    "expression": "grel:value + \"; Num \" + cells['TIPO-NUM'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CLASE-VIAL using expression grel:value + \"; Num \" + cells['TIPO-NUM'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NUM",
+          "expression": "isBlank(value)",
+          "columnName": "NUM",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "CLASE-VIAL",
+    "expression": "grel:value + \" \" + cells['NUM'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CLASE-VIAL using expression grel:value + \" \" + cells['NUM'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PLANTA",
+          "expression": "isBlank(value)",
+          "columnName": "PLANTA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "CLASE-VIAL",
+    "expression": "grel:value + \" ; Planta: \"+ cells['PLANTA'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CLASE-VIAL using expression grel:value + \" ; Planta: \"+ cells['PLANTA'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PUERTA",
+          "expression": "isBlank(value)",
+          "columnName": "PUERTA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "CLASE-VIAL",
+    "expression": "grel:value + \" ; Puerta \" + cells['PUERTA'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CLASE-VIAL using expression grel:value + \" ; Puerta \" + cells['PUERTA'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ORIENTACION",
+          "expression": "isBlank(value)",
+          "columnName": "ORIENTACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "CLASE-VIAL",
+    "expression": "grel:value + \"; Orientacion: \" + cells['ORIENTACION'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CLASE-VIAL using expression grel:value + \"; Orientacion: \" + cells['ORIENTACION'].value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CLASE-VIAL",
+    "newColumnName": "Address",
+    "description": "Rename column CLASE-VIAL to Address"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE",
+    "newColumnName": "Name",
+    "description": "Rename column NOMBRE to Name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DESCRIPCION-ENTIDAD",
+    "newColumnName": "Description",
+    "description": "Rename column DESCRIPCION-ENTIDAD to Description"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "HORARIO",
+    "newColumnName": "Schedule",
+    "description": "Rename column HORARIO to Schedule"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "EQUIPAMIENTO",
+    "newColumnName": "Equipmet",
+    "description": "Rename column EQUIPAMIENTO to Equipmet"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Bus",
+    "newColumnName": "BusTrip",
+    "description": "Rename column Bus to BusTrip"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NOMBRE-VIA",
+    "description": "Remove column NOMBRE-VIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO-NUM",
+    "description": "Remove column TIPO-NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NUM",
+    "description": "Remove column NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PLANTA",
+    "description": "Remove column PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PUERTA",
+    "description": "Remove column PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ESCALERAS",
+    "description": "Remove column ESCALERAS"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ORIENTACION",
+    "description": "Remove column ORIENTACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "PROVINCIA",
+    "newColumnName": "Province",
+    "description": "Rename column PROVINCIA to Province"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LOCALIDAD",
+    "newColumnName": "City",
+    "description": "Rename column LOCALIDAD to City"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CODIGO-POSTAL",
+    "newColumnName": "PostalCode",
+    "description": "Rename column CODIGO-POSTAL to PostalCode"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "BARRIO",
+    "newColumnName": "Borough",
+    "description": "Rename column BARRIO to Borough"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DISTRITO",
+    "newColumnName": "District",
+    "description": "Rename column DISTRITO to District"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COORDENADA-X",
+    "newColumnName": "Coordinate-X",
+    "description": "Rename column COORDENADA-X to Coordinate-X"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COORDENADA-Y",
+    "newColumnName": "Coordinate-Y",
+    "description": "Rename column COORDENADA-Y to Coordinate-Y"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LATITUD",
+    "newColumnName": "Latitude",
+    "description": "Rename column LATITUD to Latitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LONGITUD",
+    "newColumnName": "Longitude",
+    "description": "Rename column LONGITUD to Longitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TELEFONO",
+    "newColumnName": "Telephone",
+    "description": "Rename column TELEFONO to Telephone"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "FAX",
+    "description": "Remove column FAX"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "EMAIL",
+    "newColumnName": "Email",
+    "description": "Rename column EMAIL to Email"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DESCRIPCION",
+    "description": "Remove column DESCRIPCION"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ACCESIBILIDAD",
+    "description": "Remove column ACCESIBILIDAD"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Latitude",
+    "expression": "grel:value[0,5]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Latitude using expression grel:value[0,5]"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Longitude",
+    "expression": "grel:value[0,6]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Longitude using expression grel:value[0,6]"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Latitude",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Latitude using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Longitude",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Longitude using expression value.toNumber()"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q515",
+        "name": "city"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column City to type Q515"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "MADRID",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2807",
+      "name": "Madrid",
+      "types": [
+        "Q2074737",
+        "Q515"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid (Q2807) for cells containing \"MADRID\" in column City"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Borough",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10267336",
+        "name": "neighborhood of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Borough to type Q10267336"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Borough: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Borough",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Borough",
+    "similarValue": "EL SALVADOR",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10367095",
+      "name": "Salvador",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Salvador (Q10367095) for cells containing \"EL SALVADOR\" in column Borough"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Borough: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Borough",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Borough",
+    "similarValue": "CASCO H.VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16544370",
+      "name": "Casco Histórico de Vallecas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Casco Histórico de Vallecas (Q16544370) for cells containing \"CASCO H.VALLECAS\" in column Borough"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Borough: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Borough",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Borough",
+    "similarValue": "PEÑA GRANDE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3319582",
+      "name": "Peñagrande",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Peñagrande (Q3319582) for cells containing \"PEÑA GRANDE\" in column Borough"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Borough: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Borough",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Borough",
+    "similarValue": "CASCO H.VICALVARO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16544374",
+      "name": "Casco Histórico de Vicálvaro",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Casco Histórico de Vicálvaro (Q16544374) for cells containing \"CASCO H.VICALVARO\" in column Borough"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Borough: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Borough",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Borough",
+    "similarValue": "AMBROZ",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16544374",
+      "name": "Casco Histórico de Vicálvaro",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Casco Histórico de Vicálvaro (Q16544374) for cells containing \"AMBROZ\" in column Borough"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Borough: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Borough",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Borough",
+    "similarValue": "CASCO H.BARAJAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9701730",
+      "name": "Casco Histórico de Barajas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Casco Histórico de Barajas (Q9701730) for cells containing \"CASCO H.BARAJAS\" in column Borough"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "District",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column District to type Q3032114"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "District: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "District",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "District",
+    "similarValue": "DISTRITO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1773521",
+      "name": "Salamanca",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Salamanca (Q1773521) for cells containing \"DISTRITO\" in column District"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "City",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "schema:city",
+    "columnInsertIndex": 11,
+    "description": "Create column schema:city at index 11 based on column City using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Borough",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "schema:Borough",
+    "columnInsertIndex": 15,
+    "description": "Create column schema:Borough at index 15 based on column Borough using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "District",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "schema:District",
+    "columnInsertIndex": 17,
+    "description": "Create column schema:District at index 17 based on column District using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "esdbo",
+          "uri": "http://es.dbpedia.org/ontology/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "sch",
+          "uri": "https://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "mdc",
+          "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.medicalCentersMadrid.org/Group22/Individuals/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "PK",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://dbpedia.org/ontology/Name",
+              "curie": "dbo:Name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Name",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/description",
+              "curie": "dbo:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Description",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#schedule",
+              "curie": "mdc:schedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Schedule",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/BusTrip",
+              "curie": "sch:BusTrip",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "BusTrip",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#BikeTrip",
+              "curie": "mdc:BikeTrip",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Bike",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/SubwayStation",
+              "curie": "sch:SubwayStation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Subway",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/address",
+              "curie": "dbo:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Address",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/ontology/city",
+              "curie": "esdbo:city",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "City",
+                "expression": "\"City/\" + value.trim()",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "City",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "schema:city",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/City",
+                    "curie": "sch:City"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/postalCode",
+              "curie": "dbo:postalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/borough",
+              "curie": "dbo:borough",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Borough",
+                "expression": "\"Borough/\" +value.escape('html')",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Borough",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "schema:Borough",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/Borough",
+                    "curie": "sch:Borough"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/district",
+              "curie": "dbo:district",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "District",
+                "expression": "value.trim()",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "District",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "schema:District",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/District",
+                    "curie": "sch:District"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/Latitude",
+              "curie": "dbo:Latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Latitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/Longitude",
+              "curie": "dbo:Longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Longitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/telephone",
+              "curie": "sch:telephone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Telephone",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#MedicalCenter",
+              "curie": "mdc:MedicalCenter"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "esdbo",
+          "uri": "http://es.dbpedia.org/ontology/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "sch",
+          "uri": "https://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "mdc",
+          "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.medicalCentersMadrid.org/Group22/Individuals/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "PK",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://dbpedia.org/ontology/Name",
+              "curie": "dbo:Name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Name",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/description",
+              "curie": "dbo:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Description",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#schedule",
+              "curie": "mdc:schedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Schedule",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/BusTrip",
+              "curie": "sch:BusTrip",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "BusTrip",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#BikeTrip",
+              "curie": "mdc:BikeTrip",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Bike",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/SubwayStation",
+              "curie": "sch:SubwayStation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Subway",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/address",
+              "curie": "dbo:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Address",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/ontology/city",
+              "curie": "esdbo:city",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "City",
+                "expression": "\"City/\" + value.trim()",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "City",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "schema:city",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/City",
+                    "curie": "sch:City"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/postalCode",
+              "curie": "dbo:postalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/borough",
+              "curie": "dbo:borough",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Borough",
+                "expression": "\"Borough/\" +value.escape('html')",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Borough",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "schema:Borough",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/Borough",
+                    "curie": "sch:Borough"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/district",
+              "curie": "dbo:district",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "District",
+                "expression": "value.trim()",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "District",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "schema:District",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/District",
+                    "curie": "sch:District"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/Latitude",
+              "curie": "dbo:Latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Latitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/Longitude",
+              "curie": "dbo:Longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Longitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/telephone",
+              "curie": "sch:telephone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Telephone",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#MedicalCenter",
+              "curie": "mdc:MedicalCenter"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "esdbo",
+          "uri": "http://es.dbpedia.org/ontology/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "sch",
+          "uri": "https://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "mdc",
+          "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.medicalCentersMadrid.org/Group22/Individuals/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "PK",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://dbpedia.org/ontology/Name",
+              "curie": "dbo:Name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Name",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/description",
+              "curie": "dbo:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Description",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#schedule",
+              "curie": "mdc:schedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Schedule",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/BusTrip",
+              "curie": "sch:BusTrip",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "BusTrip",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#BikeTrip",
+              "curie": "mdc:BikeTrip",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Bike",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/SubwayStation",
+              "curie": "sch:SubwayStation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Subway",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/address",
+              "curie": "dbo:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Address",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/ontology/city",
+              "curie": "esdbo:city",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "City",
+                "expression": "\"City/\" + value.trim()",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "City",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "schema:city",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/City",
+                    "curie": "sch:City"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/postalCode",
+              "curie": "dbo:postalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/borough",
+              "curie": "dbo:borough",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Borough",
+                "expression": "\"Borough/\" +value.escape('url')",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Borough",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "schema:Borough",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/Borough",
+                    "curie": "sch:Borough"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/district",
+              "curie": "dbo:district",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "District",
+                "expression": "\"District/\" + value.escape('url')",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "District",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "schema:District",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/District",
+                    "curie": "sch:District"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/Latitude",
+              "curie": "dbo:Latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Latitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/Longitude",
+              "curie": "dbo:Longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Longitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/telephone",
+              "curie": "sch:telephone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Telephone",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#MedicalCenter",
+              "curie": "mdc:MedicalCenter"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "esdbo",
+          "uri": "http://es.dbpedia.org/ontology/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "sch",
+          "uri": "https://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "mdc",
+          "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.medicalCentersMadrid.org/Group22/Individuals/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "PK",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://dbpedia.org/ontology/Name",
+              "curie": "dbo:Name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Name",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/description",
+              "curie": "dbo:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Description",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#schedule",
+              "curie": "mdc:schedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Schedule",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/BusTrip",
+              "curie": "sch:BusTrip",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "BusTrip",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#BikeTrip",
+              "curie": "mdc:BikeTrip",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Bike",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/SubwayStation",
+              "curie": "sch:SubwayStation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Subway",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/address",
+              "curie": "dbo:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Address",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/ontology/city",
+              "curie": "esdbo:city",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "City",
+                "expression": "\"City/\" + value.trim()",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "City",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "schema:city",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/City",
+                    "curie": "sch:City"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/postalCode",
+              "curie": "dbo:postalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PostalCode",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/borough",
+              "curie": "dbo:borough",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Borough",
+                "expression": "\"Borough/\" +value.escape('url')",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Borough",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "schema:Borough",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/Borough",
+                    "curie": "sch:Borough"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/district",
+              "curie": "dbo:district",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "District",
+                "expression": "\"District/\" + value.escape('url')",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "District",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "schema:District",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "https://schema.org/District",
+                    "curie": "sch:District"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/Latitude",
+              "curie": "dbo:Latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Latitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/Longitude",
+              "curie": "dbo:Longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Longitude",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://schema.org/telephone",
+              "curie": "sch:telephone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Telephone",
+                "expression": "value.trim()",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.medicalCentersMadrid.org/Group22/ontology#MedicalCenter",
+              "curie": "mdc:MedicalCenter"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]

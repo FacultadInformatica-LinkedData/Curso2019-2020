@@ -1,0 +1,394 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "Column 14",
+    "description": "Remove column Column 14"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column 15",
+    "description": "Remove column Column 15"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column 16",
+    "description": "Remove column Column 16"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column 17",
+    "description": "Remove column Column 17"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column 28",
+    "description": "Remove column Column 28"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 30",
+    "expression": "grel:substring(value,lastIndexOf(value,\"/\")+1,value.length)",
+    "onError": "set-to-blank",
+    "newColumnName": "TIPO",
+    "columnInsertIndex": 25,
+    "description": "Create column TIPO at index 25 based on column Column 30 using expression grel:substring(value,lastIndexOf(value,\"/\")+1,value.length)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column",
+    "newColumnName": "ID",
+    "description": "Rename column Column to ID"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 2",
+    "newColumnName": "NOMBRE",
+    "description": "Rename column Column 2 to NOMBRE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 3",
+    "newColumnName": "DESCRIPCION-ENTIDAD",
+    "description": "Rename column Column 3 to DESCRIPCION-ENTIDAD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 4",
+    "newColumnName": "HORARIO",
+    "description": "Rename column Column 4 to HORARIO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 5",
+    "newColumnName": "EQUIPAMIENTO",
+    "description": "Rename column Column 5 to EQUIPAMIENTO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 6",
+    "newColumnName": "TRANSPORTE",
+    "description": "Rename column Column 6 to TRANSPORTE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 7",
+    "newColumnName": "DESCRIPCION",
+    "description": "Rename column Column 7 to DESCRIPCION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 8",
+    "newColumnName": "ACCESIBILIDAD",
+    "description": "Rename column Column 8 to ACCESIBILIDAD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 9",
+    "newColumnName": "CONTENT-URL",
+    "description": "Rename column Column 9 to CONTENT-URL"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 10",
+    "newColumnName": "NOMBRE-VIA",
+    "description": "Rename column Column 10 to NOMBRE-VIA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 11",
+    "newColumnName": "CLASE-VIAL",
+    "description": "Rename column Column 11 to CLASE-VIAL"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 12",
+    "newColumnName": "TIPO-NUM",
+    "description": "Rename column Column 12 to TIPO-NUM"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 13",
+    "newColumnName": "NUM",
+    "description": "Rename column Column 13 to NUM"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 18",
+    "newColumnName": "LOCALIDAD",
+    "description": "Rename column Column 18 to LOCALIDAD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 19",
+    "newColumnName": "PROVINCIA",
+    "description": "Rename column Column 19 to PROVINCIA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 20",
+    "newColumnName": "CODIGO-POSTAL",
+    "description": "Rename column Column 20 to CODIGO-POSTAL"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 21",
+    "newColumnName": "BARRIO",
+    "description": "Rename column Column 21 to BARRIO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 22",
+    "newColumnName": "DISTRITO",
+    "description": "Rename column Column 22 to DISTRITO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 23",
+    "newColumnName": "COORDENADA-X",
+    "description": "Rename column Column 23 to COORDENADA-X"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 24",
+    "newColumnName": "COORDENADA-Y",
+    "description": "Rename column Column 24 to COORDENADA-Y"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 25",
+    "newColumnName": "LATITUD",
+    "description": "Rename column Column 25 to LATITUD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 26",
+    "newColumnName": "LONGITUD",
+    "description": "Rename column Column 26 to LONGITUD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 27",
+    "newColumnName": "TELEFONO",
+    "description": "Rename column Column 27 to TELEFONO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 29",
+    "newColumnName": "EMAIL",
+    "description": "Rename column Column 29 to EMAIL"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column 30",
+    "description": "Remove column Column 30"
+  },
+  {
+    "op": "core/blank-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID",
+    "description": "Blank down cells in column ID"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Blank Rows",
+          "expression": "(filter(row.columnNames,cn,isNonBlank(cells[cn].value)).length()==0).toString()",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Blank Rows",
+          "expression": "(filter(row.columnNames,cn,isNonBlank(cells[cn].value)).length()==0).toString()",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Flagged Rows",
+          "expression": "row.flagged",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column 31",
+    "description": "Remove column Column 31"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column DISTRITO to type Q3032114"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DISTRITO",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "ont:distrito",
+    "columnInsertIndex": 18,
+    "description": "Create column ont:distrito at index 18 based on column DISTRITO using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]

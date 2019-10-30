@@ -1,0 +1,420 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q1329623",
+        "name": "cultural centre"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Column 16 to type Q1329623"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Biblioteca Pública Municipal La Elipa (Ciudad Lineal)",
+    "description": "Clear recon data for cells containing \"Biblioteca Pública Municipal La Elipa (Ciudad Lineal)\" in column Column 16"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Centro Cultural Casa de Vacas (Retiro)",
+    "description": "Clear recon data for cells containing \"Centro Cultural Casa de Vacas (Retiro)\" in column Column 16"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "NOMBRE-INSTALACION",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"NOMBRE-INSTALACION\" in column Column 16"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Cineteca Madrid",
+    "description": "Clear recon data for cells containing \"Cineteca Madrid\" in column Column 16"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Centro Cultural Buero Vallejo (San Blas - Canillejas)",
+    "description": "Clear recon data for cells containing \"Centro Cultural Buero Vallejo (San Blas - Canillejas)\" in column Column 16"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Centro Cultural Francisco Fatou (Villa de Vallecas)",
+    "description": "Clear recon data for cells containing \"Centro Cultural Francisco Fatou (Villa de Vallecas)\" in column Column 16"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Teatro Español",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28662866",
+      "name": "Teatro español del Siglo de Oro",
+      "types": [
+        ""
+      ],
+      "score": 31
+    },
+    "shareNewTopics": false,
+    "description": "Match item Teatro español del Siglo de Oro (Q28662866) for cells containing \"Teatro Español\" in column Column 16"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Biblioteca Pública Municipal Portazgo (Puente de Vallecas)",
+    "description": "Clear recon data for cells containing \"Biblioteca Pública Municipal Portazgo (Puente de Vallecas)\" in column Column 16"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Naves Matadero. Centro Internacional Artes Vivas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q57196155",
+      "name": "Naves Matadero",
+      "types": [
+        "Q2190251",
+        "Q3469910"
+      ],
+      "score": 46
+    },
+    "shareNewTopics": false,
+    "description": "Match item Naves Matadero (Q57196155) for cells containing \"Naves Matadero. Centro Internacional Artes Vivas\" in column Column 16"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Biblioteca Pública Municipal Pablo Neruda (Ciudad Lineal)",
+    "description": "Clear recon data for cells containing \"Biblioteca Pública Municipal Pablo Neruda (Ciudad Lineal)\" in column Column 16"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Biblioteca Pública Municipal Miguel Delibes (Moratalaz)",
+    "description": "Clear recon data for cells containing \"Biblioteca Pública Municipal Miguel Delibes (Moratalaz)\" in column Column 16"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Biblioteca Pública Municipal Mario Vargas Llosa (Centro)",
+    "description": "Clear recon data for cells containing \"Biblioteca Pública Municipal Mario Vargas Llosa (Centro)\" in column Column 16"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Centro Juvenil Hontalbilla (Fuencarral - El Pardo)",
+    "description": "Clear recon data for cells containing \"Centro Juvenil Hontalbilla (Fuencarral - El Pardo)\" in column Column 16"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Biblioteca Pública Municipal Canillejas (San Blas-Canillejas)",
+    "description": "Clear recon data for cells containing \"Biblioteca Pública Municipal Canillejas (San Blas-Canillejas)\" in column Column 16"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Centro Sociocultural Santa Petronila (Villaverde)",
+    "description": "Clear recon data for cells containing \"Centro Sociocultural Santa Petronila (Villaverde)\" in column Column 16"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Biblioteca Pública Municipal Pozo del Tío Raimundo (Puente de Vallecas)",
+    "description": "Clear recon data for cells containing \"Biblioteca Pública Municipal Pozo del Tío Raimundo (Puente de Vallecas)\" in column Column 16"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Biblioteca Pública Municipal Conde Duque (Centro)",
+    "description": "Clear recon data for cells containing \"Biblioteca Pública Municipal Conde Duque (Centro)\" in column Column 16"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Centro Cultural Antonio Machado (San Blas - Canillejas)",
+    "description": "Clear recon data for cells containing \"Centro Cultural Antonio Machado (San Blas - Canillejas)\" in column Column 16"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Conde Duque",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56426480",
+      "name": "Centro Cultural Conde Duque",
+      "types": [
+        "Q1329623"
+      ],
+      "score": 58
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Cultural Conde Duque (Q56426480) for cells containing \"Conde Duque\" in column Column 16"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Teatro Circo Price",
+    "judgment": "matched",
+    "match": {
+      "id": "Q48868396",
+      "name": "Teatro Circo Price",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item Teatro Circo Price (Q48868396) for cells containing \"Teatro Circo Price\" in column Column 16"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Casa Árabe",
+    "judgment": "matched",
+    "match": {
+      "id": "Q170544",
+      "name": "tent",
+      "types": [
+        ""
+      ],
+      "score": 29.5
+    },
+    "shareNewTopics": false,
+    "description": "Match item tent (Q170544) for cells containing \"Casa Árabe\" in column Column 16"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column 16",
+    "similarValue": "Sala de Exposiciones Maruja Mallo (Retiro)",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Sala de Exposiciones Maruja Mallo (Retiro)\" in column Column 16"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 16",
+    "expression": "grel:\"https://www.wikidata.org/wiki\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "schema:Nombreinstalacion",
+    "columnInsertIndex": 16,
+    "description": "Create column schema:Nombreinstalacion at index 16 based on column Column 16 using expression grel:\"https://www.wikidata.org/wiki\"+cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "https://www.eventosmadrid.es/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "schema:Nombreinstalacion",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "https://www.eventosmadrid.es/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "schema:Nombreinstalacion",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]
