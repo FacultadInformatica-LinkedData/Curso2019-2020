@@ -10,7 +10,6 @@ import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.vocabulary.VCARD;
-
 public class Task06
 {
 	public static String ns = "http://somewhere#";
