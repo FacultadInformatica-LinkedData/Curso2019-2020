@@ -1,7 +1,16 @@
 package bMad;
 
+import org.apache.jena.query.QuerySolution;
+import org.apache.jena.query.ResultSet;
+import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.sparql.resultset.XMLInput;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 public class server {
@@ -11,12 +20,15 @@ public class server {
         return JSON with BikeStations Searched
     */
     @RequestMapping("/BikeStations")
-    public String getBikeStations(@RequestParam(defaultValue="") String neighborhood,
+    public ResponseEntity<String> getBikeStations(@RequestParam(defaultValue="") String neighborhood,
                                   @RequestParam(defaultValue = "") String district) {
         String json="";
         app a = new app();
         json = a.getStations(neighborhood,district);
-        return json;
+        if(json.isEmpty()){
+            return new ResponseEntity<>("No BikeStations Found", HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(json,HttpStatus.ACCEPTED);
     }
 
     /*
@@ -24,9 +36,14 @@ public class server {
         return JSON with BikeStation Selected Info (id, district, street.. etc)
     */
     @GetMapping("/BikeStations/{id}")
-    public String getBikeStation(@PathVariable String id){
-
-        return "";
+    public ResponseEntity<String> getBikeStation(@PathVariable String id){
+        String json="";
+        app a = new app();
+        json = a.getStation(id);
+        if(json.isEmpty()){
+            return new ResponseEntity<>("No BikeStations Found", HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(json, HttpStatus.ACCEPTED);
     }
 
 
@@ -50,9 +67,22 @@ public class server {
             "neighborhood" -> se filtra por barrio
     */
     @GetMapping("/BikeStations/{id}/interestPoints")
-    public String getPoints(@PathVariable String id, @RequestParam(defaultValue = "") String filtro){
+    public ResponseEntity<String> getPoints(@PathVariable String id, @RequestParam(defaultValue = "") String filtro){
+        String json="";
+        app a = new app();
+        app b = new app(); //nueva instancia para evitar problemas con fichero abierto (se cambiara implementacion)
+        ResultSet bs = a.getStationRS(id);
+        QuerySolution binding = bs.nextSolution();
 
-        return "";
+        //barrio
+        Literal subj =  binding.getLiteral("neighborhood");
+
+        json = b.getInterestPoints("","");
+        if(json.isEmpty()){
+            return new ResponseEntity<>("No BikeStations Found", HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(json, HttpStatus.ACCEPTED);
+
     }
 
 

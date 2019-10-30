@@ -1,13 +1,20 @@
 package bMad;
+import com.bordercloud.sparql.EndpointException;
 import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.*;
 import org.apache.jena.sparql.vocabulary.FOAF;
 import org.apache.jena.util.FileManager;
+import com.bordercloud.sparql.Endpoint;
+
 
 import javax.security.auth.Subject;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.InputStream;
+import java.io.*;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.ProtocolException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class app {
 
@@ -29,76 +36,101 @@ public class app {
     }
 
     public String getStations(String neighborhoodFilter, String districtFilter){
-
         // Read the RDF/XML file
         model =  ModelFactory.createDefaultModel();
         model.read(file, null);
         String queryString = "";
 
-        //query
+        //query Selection
         if(!neighborhoodFilter.isEmpty() && districtFilter.isEmpty()) {
-             queryString =
-                    "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
-                            "SELECT ?Subject ?street ?label ?district ?neighborhood ?availability " +
-                            "WHERE { ?Subject <http://www.biciMad.com/ontology/hasNeighborhood> " +
-                            "<http://www.biciMad.com/BikeStation/resource/addressRegion/" + neighborhoodFilter + ">. " +
-                            "?Subject <http://www.biciMad.com/ontology/hasStreet> ?st. " +
-                            "?Subject rdfs:label ?label. " +
-                            "?Subject <http://www.biciMad.com/ontology/hasDistrict> ?dist. " +
-                            "?Subject <http://www.biciMad.com/ontology/hasNeighborhood> ?neigh. " +
-                            "<http://www.biciMad.com/BikeStation/resource/addressRegion/" + neighborhoodFilter + "> rdfs:label ?neighborhood. " +
-                            "?st rdfs:label ?street. " +
-                            "?dist rdfs:label ?district. " +
-                            "?Subject <http://www.biciMad.com/ontology/hasAvailability> ?availability} ";
-
+             queryString = queries.query2(neighborhoodFilter);
         }
         else if (neighborhoodFilter.isEmpty() && !districtFilter.isEmpty()){
-            queryString =
-                    "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
-                            "SELECT ?Subject ?street ?label ?district ?neighborhood ?availability " +
-                            "WHERE { ?Subject <http://www.biciMad.com/ontology/hasDistrict> " +
-                            "<http://www.biciMad.com/BikeStation/resource/areaServed/" + districtFilter + ">. " +
-                            "?Subject <http://www.biciMad.com/ontology/hasStreet> ?st. " +
-                            "?Subject rdfs:label ?label. " +
-                            "?Subject <http://www.biciMad.com/ontology/hasDistrict> ?dist. " +
-                            "?Subject <http://www.biciMad.com/ontology/hasNeighborhood> ?neigh. " +
-                            "?neigh rdfs:label ?neighborhood. " +
-                            "?st rdfs:label ?street. " +
-                            "?dist rdfs:label ?district. " +
-                            "?Subject <http://www.biciMad.com/ontology/hasAvailability> ?availability} ";
+            queryString = queries.query1(districtFilter);
+        }
+        else{
+            queryString = queries.query3();
         }
 
-        else{
-            queryString =
-                    "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
-                            "SELECT ?Subject ?street ?label ?district ?neighborhood ?availability " +
-                            "WHERE { ?Subject <http://www.biciMad.com/ontology/hasStreet> ?st. " +
-                            "?Subject rdfs:label ?label. " +
-                            "?Subject <http://www.biciMad.com/ontology/hasDistrict> ?dist. " +
-                            "?Subject <http://www.biciMad.com/ontology/hasNeighborhood> ?neigh. " +
-                            "?neigh rdfs:label ?neighborhood. " +
-                            "?st rdfs:label ?street. " +
-                            "?dist rdfs:label ?district. " +
-                            "?Subject <http://www.biciMad.com/ontology/hasAvailability> ?availability} ";
+        return execution(queryString);
+
+    }
+
+
+    public String getStation(String label){
+        model =  ModelFactory.createDefaultModel();
+        model.read(file, null);
+        String queryString = queries.query4(label);
+        return execution(queryString);
+    }
+
+    public ResultSet getStationRS(String label){
+        model =  ModelFactory.createDefaultModel();
+        model.read(file, null);
+        String queryString = queries.query4(label);
+        Query query = QueryFactory.create(queryString);
+        QueryExecution qexec = QueryExecutionFactory.create(query, model) ;
+        return  qexec.execSelect();
+    }
+
+    public String getInterestPoints(String neighborhoodFilter, String districtFilter )  {
+        model =  ModelFactory.createDefaultModel();
+        model.read(file, null);
+        try {
+            return peticionHttpGet(queries.query5());
+        } catch (Exception e) {
+            return "";
         }
+    }
+
+
+
+
+
+    //-----------------------------------PRIVATE METHODS--------------------------------------------------
+
+    private String execution(String queryString){
         //execution
         Query query = QueryFactory.create(queryString);
         QueryExecution qexec = QueryExecutionFactory.create(query, model) ;
         ResultSet results = qexec.execSelect() ;
+// if no results then return  empty string
+        if(!results.hasNext())
+            return "";
 
 // write to a ByteArrayOutputStream
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-
         ResultSetFormatter.outputAsJSON(outputStream, results);
 
 // and turn that into a String
         String json = new String(outputStream.toByteArray());
-
-// and turn that into a String
-
-
-
         return json;
     }
 
+
+
+
+    private static String peticionHttpGet(String urlParaVisitar) throws Exception {
+        // Esto es lo que vamos a devolver
+        StringBuilder resultado = new StringBuilder();
+        // Crear un objeto de tipo URL
+        URL url = new URL(urlParaVisitar);
+
+        // Abrir la conexión e indicar que será de tipo GET
+        HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
+        conexion.setRequestMethod("GET");
+        conexion.setRequestProperty("Content-Type", "application/json");
+        conexion.setRequestProperty("Accept", "application/json");
+        // Búferes para leer
+        BufferedReader rd = new BufferedReader(new InputStreamReader(conexion.getInputStream()));
+        String linea;
+        // Mientras el BufferedReader se pueda leer, agregar contenido a resultado
+        while ((linea = rd.readLine()) != null) {
+            resultado.append(linea);
+        }
+        // Cerrar el BufferedReader
+        rd.close();
+        // Regresar resultado, pero como cadena, no como StringBuilder
+        return resultado.toString();
+    }
 }
