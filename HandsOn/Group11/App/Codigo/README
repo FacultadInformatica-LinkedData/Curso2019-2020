@@ -1,9 +1,14 @@
 Codigo de la aplicacion
-Init -> Main
-Buscador -> Interfaz buscador
-Resultado -> Interfaz de los resultados de la busqueda
-Seleccion -> Interfaz de los datos del resultado elegido
-Site -> Objeto Java
-wifi.db -> Base de datos (csv)
-carpeta icons -> imagenes de la app
+bin: 
+  - icons: carpeta que contiene los iconos de google map y wikidata que se muestra en la acplicación.
+  - sqlite-jdbc-3.27.2.1: libreria de sqlite.
+
+scr: 
+  - Init: main del proyecto.
+  - Buscador: interfaz buscador con los campos de rótulo, dirección y codigo postal.
+  - Resultado: interfaz de las estaciones que coinciden con los campos de la búsqueda.
+  - Seleccion: interfaz de los datos de la estación seleccionado.
+  - Site: objeto Java.
+
+database: Base de datos (csv).
 
