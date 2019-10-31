@@ -1,69 +1,151 @@
-@prefix : <http://www.centrodeartealcobendas.org/ontology#> .
+@prefix : <http://www.datosmadrid.es/edificiosprotegidos/ontology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base < http://www.datosmadrid.es/edificiosprotegidos/ontology#> .
 
-@base  <http://www.centrodeartealcobendas.org/ontology#> .
+< http://www.datosmadrid.es/edificiosprotegidos/ontology#> rdf:type owl:Ontology .
 
-<http://www.centrodeartealcobendas.org/ontology#> rdf:type owl:Ontology .
+#################################################################
+#    Object Properties
+#################################################################
 
-
-#    Classes & SubClasses
-
-
-###  
-
-:Actividad rdf:type owl:Class .
-
-:WhenTookPlace rdf:type owl:Class .
-
-:Attendants rdf:type owl:Class .
-
-:Identifier rdf:type owl:Class .
-		
+###  http://dbpedia.org/ontology/author
+<http://dbpedia.org/ontology/author> rdf:type owl:ObjectProperty ;
+                                     rdfs:domain <http://dbpedia.org/ontology/Monument> ;
+                                     rdfs:range <http://dbpedia.org/ontology/person> .
 
 
+###  http://dbpedia.org/ontology/borough
+<http://dbpedia.org/ontology/borough> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain <http://dbpedia.org/ontology/Monument> ;
+                                      rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
 
 
-#object properties
-
-:hasId rdf:type owl:ObjectProperty ;
-		rdfs:domain :Actividad;
-		rdfs:range :Identifier . 
-		
-:tookPlace rdf:type owl:ObjectProperty ;
-           rdfs:domain :Actividad ;
-           rdfs:range :Date .
-		   
-		   
-:howManyAttendants rdf:type owl:ObjectProperty ;
-           rdfs:domain :Actividad ;
-           rdfs:range :Attendants .
-		   
-		   
-		   
-#Data properties
-
-:id rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Identifier ;
-			rdfs:range xsd:string .
-
-:year rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Date ;
-			rdfs:range  xsd:integer .
-			
-:attendants rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Attendants ;
-			rdfs:range  xsd:integer .
-			
-
-			
-			
-			
+###  http://dbpedia.org/ontology/city
+<http://dbpedia.org/ontology/city> rdf:type owl:ObjectProperty ;
+                                   rdfs:domain <http://dbpedia.org/ontology/Monument> ;
+                                   rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
 
 
+###  http://dbpedia.org/ontology/district
+<http://dbpedia.org/ontology/district> rdf:type owl:ObjectProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Monument> ;
+                                       rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+
+
+###  http://dbpedia.org/ontology/province
+<http://dbpedia.org/ontology/province> rdf:type owl:ObjectProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Monument> ;
+                                       rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://dbpedia.org/ontology/Name
+<http://dbpedia.org/ontology/Name> rdf:type owl:DatatypeProperty ;
+                                   rdfs:range xsd:string .
+
+
+###  http://dbpedia.org/ontology/postalCode
+<http://dbpedia.org/ontology/postalCode> rdf:type owl:DatatypeProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Monument> ;
+                                         rdfs:range xsd:string .
+
+
+###  http://dbpedia.org/page/Latitude
+<http://dbpedia.org/page/Latitude> rdf:type owl:DatatypeProperty ;
+                                   rdfs:domain <http://dbpedia.org/ontology/Monument> ;
+                                   rdfs:range xsd:float .
+
+
+###  http://dbpedia.org/page/Length
+<http://dbpedia.org/page/Length> rdf:type owl:DatatypeProperty ;
+                                 rdfs:domain <http://dbpedia.org/ontology/Monument> ;
+                                 rdfs:range xsd:float .
+
+
+###   http://www.datosmadrid.es/edificiosprotegidos/ontology#address
+< http://www.datosmadrid.es/edificiosprotegidos/ontology#address> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:domain <http://dbpedia.org/ontology/Monument> ;
+                                                            rdfs:range xsd:string .
 
 
 
+###  ttp://dbpedia.org/ontology/description
+<ttp://dbpedia.org/ontology/description> rdf:type owl:DatatypeProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Monument> ;
+                                         rdfs:range xsd:string .
 
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/ontology/Bridge
+<http://dbpedia.org/ontology/Bridge> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###  http://dbpedia.org/ontology/Monument
+<http://dbpedia.org/ontology/Monument> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/PopulatedPlace
+<http://dbpedia.org/ontology/PopulatedPlace> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/person
+<http://dbpedia.org/ontology/person> rdf:type owl:Class .
+
+
+###  http://linkedgeodata.org/ontology/Statue
+<http://linkedgeodata.org/ontology/Statue> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###  http://linkedgeodata.org/ontology/Stone#Stone
+<http://linkedgeodata.org/ontology/Stone#Stone> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###   http://www.datosmadrid.es/edificiosprotegidos/ontology#Conceptual_Statue
+< http://www.datosmadrid.es/edificiosprotegidos/ontology#Conceptual_Statue> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###   http://www.datosmadrid.es/edificiosprotegidos/ontology#Ornamentation
+< http://www.datosmadrid.es/edificiosprotegidos/ontology#Ornamentation> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###   http://www.datosmadrid.es/edificiosprotegidos/ontology#Sculptural_Group
+< http://www.datosmadrid.es/edificiosprotegidos/ontology#Sculptural_Group> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###   http://www.datosmadrid.es/edificiosprotegidos/ontology#Singular_Building
+< http://www.datosmadrid.es/edificiosprotegidos/ontology#Singular_Building> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###   http://www.datosmadrid.es/edificiosprotegidos/ontology#Water_Construction
+< http://www.datosmadrid.es/edificiosprotegidos/ontology#Water_Construction> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###   http://www.datosmadrid.es/edificiosprotegidos/ontology#Neighborhood
+:Neighborhood rdf:type owl:Class .
+
+
+###  http://www.ontotext.com/proton/protonext#Arch
+<http://www.ontotext.com/proton/protonext#Arch> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://dbpedia.org/ontology/Monument> .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
