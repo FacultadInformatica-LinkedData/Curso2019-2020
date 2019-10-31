@@ -360,9 +360,359 @@
     "baseColumnName": "DISTRITO",
     "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
     "onError": "set-to-blank",
-    "newColumnName": "ont:distrito",
+    "newColumnName": "schema:District",
     "columnInsertIndex": 18,
-    "description": "Create column ont:distrito at index 18 based on column DISTRITO using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+    "description": "Create column schema:District at index 18 based on column DISTRITO using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10267336",
+        "name": "neighborhood of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column BARRIO to type Q10267336"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "BARRIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "BARRIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "similarValue": "CASCO HISTORICO VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16544370",
+      "name": "Casco Histórico de Vallecas",
+      "types": [
+        "Q10267336"
+      ],
+      "score": 94
+    },
+    "shareNewTopics": false,
+    "description": "Match item Casco Histórico de Vallecas (Q16544370) for cells containing \"CASCO HISTORICO VALLECAS\" in column BARRIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "BARRIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "BARRIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "similarValue": "LA ELIPA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5963222",
+      "name": "La Elipa",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item La Elipa (Q5963222) for cells containing \"LA ELIPA\" in column BARRIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "BARRIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "BARRIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "similarValue": "CASCO HISTORICO VICALVARO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16544374",
+      "name": "Casco Histórico de Vicálvaro",
+      "types": [
+        "Q10267336"
+      ],
+      "score": 94
+    },
+    "shareNewTopics": false,
+    "description": "Match item Casco Histórico de Vicálvaro (Q16544374) for cells containing \"CASCO HISTORICO VICALVARO\" in column BARRIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "BARRIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "BARRIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "similarValue": "CASCO H.VICALVARO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16544374",
+      "name": "Casco Histórico de Vicálvaro",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Casco Histórico de Vicálvaro (Q16544374) for cells containing \"CASCO H.VICALVARO\" in column BARRIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "BARRIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "BARRIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "similarValue": "CASCO H.BARAJAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9701730",
+      "name": "Casco Histórico de Barajas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Casco Histórico de Barajas (Q9701730) for cells containing \"CASCO H.BARAJAS\" in column BARRIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "BARRIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "BARRIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "similarValue": "CASCO H.VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16544370",
+      "name": "Casco Histórico de Vallecas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Casco Histórico de Vallecas (Q16544370) for cells containing \"CASCO H.VALLECAS\" in column BARRIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "BARRIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "BARRIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "similarValue": "PEÑA GRANDE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q23935593",
+      "name": "Peña Grande",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Peña Grande (Q23935593) for cells containing \"PEÑA GRANDE\" in column BARRIO"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "BARRIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "BARRIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "BARRIO",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "ont:Barrio",
+    "columnInsertIndex": 17,
+    "description": "Create column ont:Barrio at index 17 based on column BARRIO using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "schema:District",
+    "newColumnName": "ont:distrito",
+    "description": "Rename column schema:District to ont:distrito"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
@@ -376,18 +726,708 @@
   {
     "op": "rdf-extension/save-rdf-schema",
     "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "sch",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://puntoswifimadrid.com/ontology/puntosWifi/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#ID",
+              "curie": "ont:ID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#descripcion",
+              "curie": "ont:descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#horario",
+              "curie": "ont:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "HORARIO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#equipamiento",
+              "curie": "ont:equipamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "EQUIPAMIENTO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#transporte",
+              "curie": "ont:transporte",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TRANSPORTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#descripcion",
+              "curie": "ont:descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#accesibilidad",
+              "curie": "ont:accesibilidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESIBILIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#content",
+              "curie": "ont:content",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#calle",
+              "curie": "ont:calle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE-VIA",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#clase",
+              "curie": "ont:clase",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CLASE-VIAL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#tipo",
+              "curie": "ont:tipo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TIPO-NUM",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#numero",
+              "curie": "ont:numero",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NUM",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#localidad",
+              "curie": "ont:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LOCALIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#provincia",
+              "curie": "ont:provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#CP",
+              "curie": "ont:CP",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CODIGO-POSTAL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#barrio",
+              "curie": "ont:barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "BARRIO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#distrito",
+              "curie": "ont:distrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DISTRITO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#coordenadaX",
+              "curie": "ont:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "COORDENADA-X",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#coordenadaY",
+              "curie": "ont:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "COORDENADA-Y",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#latitud",
+              "curie": "ont:latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#longitud",
+              "curie": "ont:longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#telefono",
+              "curie": "ont:telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TELEFONO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#email",
+              "curie": "ont:email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "EMAIL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#tipo",
+              "curie": "ont:tipo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TIPO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#",
+              "curie": "ont:"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "DISTRITO",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:distrito",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#distrito",
+              "curie": "ont:distrito"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "BARRIO",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:Barrio",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#barrio",
+              "curie": "ont:barrio"
+            }
+          ]
+        }
+      ]
     },
     "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
     "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "sch",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://puntoswifimadrid.com/ontology/puntosWifi/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#ID",
+              "curie": "ont:ID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#descripcion",
+              "curie": "ont:descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#horario",
+              "curie": "ont:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "HORARIO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#equipamiento",
+              "curie": "ont:equipamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "EQUIPAMIENTO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#transporte",
+              "curie": "ont:transporte",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TRANSPORTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#descripcion",
+              "curie": "ont:descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#accesibilidad",
+              "curie": "ont:accesibilidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESIBILIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#content",
+              "curie": "ont:content",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#calle",
+              "curie": "ont:calle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE-VIA",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#clase",
+              "curie": "ont:clase",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CLASE-VIAL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#tipo",
+              "curie": "ont:tipo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TIPO-NUM",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#numero",
+              "curie": "ont:numero",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NUM",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#localidad",
+              "curie": "ont:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LOCALIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#provincia",
+              "curie": "ont:provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "PROVINCIA",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#CP",
+              "curie": "ont:CP",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CODIGO-POSTAL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#barrio",
+              "curie": "ont:barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "BARRIO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#distrito",
+              "curie": "ont:distrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DISTRITO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#coordenadaX",
+              "curie": "ont:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "COORDENADA-X",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#coordenadaY",
+              "curie": "ont:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "COORDENADA-Y",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#latitud",
+              "curie": "ont:latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#longitud",
+              "curie": "ont:longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#telefono",
+              "curie": "ont:telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TELEFONO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#email",
+              "curie": "ont:email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "EMAIL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#tipo",
+              "curie": "ont:tipo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TIPO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#",
+              "curie": "ont:"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "DISTRITO",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:distrito",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#distrito",
+              "curie": "ont:distrito"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "BARRIO",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:Barrio",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#barrio",
+              "curie": "ont:barrio"
+            }
+          ]
+        }
+      ]
     },
     "description": "Save RDF schema skeleton"
   }
