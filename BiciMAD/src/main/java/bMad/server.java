@@ -1,11 +1,12 @@
 package bMad;
 
+
+
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Literal;
-import org.apache.jena.rdf.model.Resource;
-import org.apache.jena.sparql.resultset.XMLInput;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,7 +20,8 @@ public class server {
         Shows Bikes Stations by filtering or not
         return JSON with BikeStations Searched
     */
-    @RequestMapping("/BikeStations")
+    @RequestMapping(value = "/BikeStations", method = RequestMethod.GET,
+            produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> getBikeStations(@RequestParam(defaultValue="") String neighborhood,
                                   @RequestParam(defaultValue = "") String district) {
         String json="";
@@ -35,7 +37,8 @@ public class server {
         Shows Bikes Station selected
         return JSON with BikeStation Selected Info (id, district, street.. etc)
     */
-    @GetMapping("/BikeStations/{id}")
+    @RequestMapping(value = "/BikeStations/{id}", method = RequestMethod.GET,
+            produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> getBikeStation(@PathVariable String id){
         String json="";
         app a = new app();
@@ -47,16 +50,6 @@ public class server {
     }
 
 
-    /*
-        Shows Interest Point selected
-        return JSON with Interest Point Info (id, district, street.. etc)
-    */
-    @GetMapping("/BikeStations/{id}/interestPoints/{id2}")
-    public String getPoint(@PathVariable String id, @PathVariable String id2){
-
-        return "";
-    }
-
 
     /*
         Shows Interest Points by filtering or not
@@ -66,23 +59,44 @@ public class server {
             "district" -> se filtra por distrito
             "neighborhood" -> se filtra por barrio
     */
-    @GetMapping("/BikeStations/{id}/interestPoints")
-    public ResponseEntity<String> getPoints(@PathVariable String id, @RequestParam(defaultValue = "") String filtro){
-        String json="";
+    //@GetMapping("/BikeStations/{id}/interestPoints")
+    // PRE: filters = districts ( by default )
+    // filter = neighborhoods (to filter interest points by neighborhoods
+    @RequestMapping(value = "/BikeStations/{id}/interestPoints", method = RequestMethod.GET,
+            produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<String> getPoints(@PathVariable String id, @RequestParam(defaultValue = "districts") String filter){
+
         app a = new app();
         app b = new app(); //nueva instancia para evitar problemas con fichero abierto (se cambiara implementacion)
+
+        // Se devuelve el resulset para acceder al barrio o distrito de una parada concreta
         ResultSet bs = a.getStationRS(id);
         QuerySolution binding = bs.nextSolution();
+        String filterCode ="";
 
-        //barrio
-        Literal subj =  binding.getLiteral("neighborhood");
+        // if filter by neighborhood get the neighborhood wikidata code
+        if(filter.equals("neighborhoods")){
+            Literal literalNeigh =  binding.getLiteral("neighborhood");
+            Neighborhood neigClass = new Neighborhood();
+            filterCode = neigClass.get(literalNeigh.getString());
+        }
 
-        json = b.getInterestPoints("","");
+        //else get district wikidata code
+
+        else{
+            Literal literalDis = binding.getLiteral("district");
+            Districts districtsClass = new Districts();
+            filterCode = districtsClass.get(literalDis.getString());
+        }
+
+
+        //get InterestPoints as String format
+        String json = b.getInterestPoints(filterCode);
+
         if(json.isEmpty()){
             return new ResponseEntity<>("No BikeStations Found", HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(json, HttpStatus.ACCEPTED);
-
     }
 
 

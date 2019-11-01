@@ -42,8 +42,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1 B</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.025.753</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.417.016</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7025753</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.417016</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">PUERTA DEL SOL, PLAZA, DE LA, 1 B</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -83,8 +83,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.024.621</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.170.785</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7024621</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4170785</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALCALA, CALLE, DE, 1</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -123,8 +123,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.056.739</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4.042.058</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7056739</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.42058</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MIGUEL MOYA, CALLE, DE, 1</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -164,8 +164,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">2</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.072.122</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.303.224</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7072122</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4303224</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CONDE DEL VALLE DE SUCHIL, PLAZA, DEL, 2</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -205,8 +205,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">3</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.026.739</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.285.905</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7026739</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4285905</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MANUELA MALASAÑA, CALLE, DE, 3</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -246,8 +246,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">106</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.020.762</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.283.628</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7020762</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4283628</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">FUENCARRAL, CALLE, DE, 106</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -287,8 +287,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">63</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.984.093</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.241.633</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6984093</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4241633</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">HORTALEZA, CALLE, DE, 63</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -328,8 +328,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">75</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.977.399</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.252.161</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6977399</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4252161</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">HORTALEZA, CALLE, DE, 75</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -368,8 +368,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">6</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.953.067</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.277.143</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6953067</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4277143</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALONSO MARTINEZ, PLAZA, DE, 6</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -409,8 +409,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">9</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.094.093</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.156.134</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7094093</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4156134</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SAN MIGUEL, PLAZA, DE, 9</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -450,8 +450,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">16</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.920.816</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.254.027</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6920816</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4254027</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MARQUES DE LA ENSENADA, CALLE, DEL, 16</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -491,8 +491,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">20</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.036.192</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.270.517</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7036192</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4270517</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SAN ANDRES, CALLE, DE, 20</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -532,8 +532,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">87</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.062.202</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.285.271</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7062202</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4285271</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SAN BERNARDO, CALLE, DE, 87</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -573,8 +573,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">22</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.104.727</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.273.652</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7104727</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4273652</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CONDE DUQUE, CALLE, DEL, 22</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -614,8 +614,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">2</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.134.644</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.260.035</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7134644</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4260035</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">VENTURA RODRIGUEZ, CALLE, DE, 2</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -655,8 +655,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">62</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.707.242</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.261.226</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.707242</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4261226</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SAN VICENTE FERRER, CALLE, DE, 62</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -696,8 +696,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">22</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.074.931</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.229.357</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7074931</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4229357</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SAN BERNARDO, CALLE, DE, 22</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -736,8 +736,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">2</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.041.859</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.231.675</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7041859</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4231675</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CARLOS CAMBRONERO, PLAZA, DE, 2</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -777,8 +777,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.995.679</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.209.206</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6995679</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4209206</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">PEDRO ZEROLO, PLAZA, DE, 1</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -818,8 +818,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">4</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.953.948</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.219.023</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6953948</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4219023</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">PRIM, CALLE, DE, 4</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -859,8 +859,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">49</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.952.095</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.191.989</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6952095</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4191989</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALCALA, CALLE, DE, 49</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -900,8 +900,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">49</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.952.901</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.191.858</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6952901</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4191858</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALCALA, CALLE, DE, 49</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10-07-18</hasDate>
 </rdf:Description>
@@ -941,8 +941,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.015.608</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.197.804</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7015608</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4197804</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">RED DE SAN LUIS, PLAZA, DE LA, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -982,8 +982,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.014.962</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.198.857</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7014962</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4198857</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">RED DE SAN LUIS, PLAZA, DE LA, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1023,8 +1023,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.064.995</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.201.452</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7064995</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4201452</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">JACOMETREZO, CALLE, DE, 1</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1064,8 +1064,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.082.901</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.202.137</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7082901</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4202137</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SANTO DOMINGO, CUESTA, DE, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1105,8 +1105,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.105.866</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.417.906</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7105866</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.417906</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CARLOS III, CALLE, DE, 1</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1146,8 +1146,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.059.978</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.173.416</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7059978</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4173416</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CELENQUE, PLAZA, DEL, 1</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1187,8 +1187,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.060.243</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.172.593</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7060243</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4172593</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CELENQUE, PLAZA, DEL, 1</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1228,8 +1228,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">8</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.945.535</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.238.321</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6945535</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4238321</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SALESAS, PLAZA, DE LAS, 8</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1269,8 +1269,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.955.929</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.132.828</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6955929</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4132828</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">JESUS, CALLE, DE, 1</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1310,8 +1310,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">25</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.988.356</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.181.752</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6988356</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4181752</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALCALA, CALLE, DE, 25</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1351,8 +1351,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">25</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.958.008</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.416.244</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6958008</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.416244</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MARQUES DE CUBAS, CALLE, DEL, 25</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1392,8 +1392,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">6</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.115.428</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.193.355</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7115428</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4193355</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">PAVIA, CALLE, DE, 6</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1433,8 +1433,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">18</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.706.625</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.163.446</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.706625</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4163446</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MAYOR, CALLE, 18</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1474,8 +1474,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.061.355</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.148.511</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7061355</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4148511</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">PROVINCIA, PLAZA, DE LA, 1</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1515,8 +1515,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">23</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.032.626</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.415.496</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7032626</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.415496</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CARRETAS, CALLE, DE LAS, 23</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1556,8 +1556,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.035.044</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.144.117</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7035044</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4144117</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">JACINTO BENAVENTE, PLAZA, DE, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1597,8 +1597,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">4</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.103.676</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.141.792</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7103676</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4141792</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CORDON, CALLE, DEL, 4</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1638,8 +1638,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.116.215</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.416.885</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7116215</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.416885</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">RAMALES, PLAZA, DE, 1</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1679,8 +1679,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.141.234</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.108.606</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7141234</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4108606</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">VISTILLAS, TRAVESIA, DE LAS, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1720,8 +1720,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.114.443</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.112.961</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7114443</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4112961</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SAN FRANCISCO, CARRERA, DE, 1</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1761,8 +1761,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">16</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.090.043</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.112.662</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7090043</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4112662</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CEBADA, PLAZA, DE LA, 16</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1802,8 +1802,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">2</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.047.463</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.137.865</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7047463</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4137865</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CONDE DE ROMANONES, CALLE, DEL, 2</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1843,8 +1843,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">54</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.990.517</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.122.423</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6990517</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4122423</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ATOCHA, CALLE, DE, 54</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1884,8 +1884,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">32</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.982.068</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.410.744</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6982068</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.410744</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SANTA ISABEL, CALLE, DE, 32</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1925,8 +1925,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">36</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.025.446</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.100.889</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7025446</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4100889</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">LAVAPIES, CALLE, DE, 36</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -1966,8 +1966,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">35</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.039.138</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.098.162</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7039138</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4098162</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MESON DE PAREDES, CALLE, DEL, 35</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2007,8 +2007,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.111.363</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.069.547</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7111363</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4069547</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">PUERTA DE TOLEDO, GLORIETA, DE LA, 1</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2048,8 +2048,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/ARGANZUELA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">28</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.071.322</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.055.087</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7071322</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4055087</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">RIBERA DE CURTIDORES, CALLE, DE LA, 28</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2089,8 +2089,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/ARGANZUELA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">7 B</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.702.755</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.046.233</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.702755</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4046233</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">EMBAJADORES, GLORIETA, DE, 7 B</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2130,8 +2130,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">25</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.020.997</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.054.473</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7020997</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4054473</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MIGUEL SERVET, CALLE, DE, 25</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2171,8 +2171,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">36</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.992.427</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.060.497</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6992427</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4060497</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ATOCHA, RONDA, DE, 36</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2212,8 +2212,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">57</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-369.322</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.083.102</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.69322</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4083102</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SANTA ISABEL, CALLE, DE, 57</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2253,8 +2253,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">7</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.935.934</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.077.234</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6935934</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4077234</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">EMPERADOR CARLOS V, PLAZA, DEL, 7</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2294,8 +2294,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">9</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.007.838</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.145.181</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7007838</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4145181</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SANTA ANA, PLAZA, DE, 9</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2335,8 +2335,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">4</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.007.295</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.082.802</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7007295</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4082802</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">VALENCIA, CALLE, DE, 4</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2376,8 +2376,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">7</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.003.435</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.266.233</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7003435</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4266233</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">BARCELO, CALLE, DE, 7</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2417,8 +2417,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">8</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.019.295</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.240.716</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7019295</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4240716</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SAN ILDEFONSO, PLAZA, DE, 8</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2458,8 +2458,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.032.875</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.418.484</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7032875</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.418484</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CARMEN, PLAZA, DEL, 1</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2470,7 +2470,7 @@
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_57">
 	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/UNIVERSIDAD"/>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.128.181</hasLongitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7128181</hasLongitude>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/SANTA+CRUZ+DE+MARCENADO%2C+CALLE%2C+DE">
@@ -2500,7 +2500,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_57">
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.296.363</hasLatitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4296363</hasLatitude>
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<rdfs:label>BiciMAD_Station_57</rdfs:label>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
@@ -2546,8 +2546,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">33</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.979.411</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.222.585</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6979411</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4222585</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">AUGUSTO FIGUEROA, CALLE, DE, 33</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2587,8 +2587,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">30</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.041.167</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.254.802</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7041167</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4254802</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ESPIRITU SANTO, CALLE, DEL, 30</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2628,8 +2628,8 @@
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_60">
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.881.994</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.194.508</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6881994</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4194508</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALFONSO XII, CALLE, DE, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2669,16 +2669,16 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">30</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.675.206</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.214.379</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.675206</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4214379</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">O'DONNELL, CALLE, DE, 30</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_62">
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">O'DONNELL, CALLE, DE, S/N</hasAddress>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.212.152</hasLatitude>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.706.664</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4212152</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6706664</hasLongitude>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
@@ -2760,8 +2760,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">64</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.706.803</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.178.874</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6706803</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4178874</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">IBIZA, CALLE, DE, 64</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2804,8 +2804,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">15</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.893.825</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.166.952</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6893825</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4166952</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ANTONIO MAURA, CALLE, DE, 15</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -2831,7 +2831,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_67">
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.931.349</hasLongitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6931349</hasLongitude>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 	<rdfs:label>BiciMAD_Station_67</rdfs:label>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">28</hasStreetNumber>
@@ -2856,7 +2856,7 @@
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_68">
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ESPALTER, CALLE, DE, 1</hasAddress>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.412.781</hasLatitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.412781</hasLatitude>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ESPALTER%2C+CALLE%2C+DE">
@@ -2865,7 +2865,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_68">
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.911.649</hasLongitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6911649</hasLongitude>
 	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/JERÓNIMOS"/>
 </rdf:Description>
 
@@ -2896,8 +2896,8 @@
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_69">
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALFONSO XII, CALLE, DE, 54</hasAddress>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.100.609</hasLatitude>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.888.669</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4100609</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6888669</hasLongitude>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">54</hasStreetNumber>
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
@@ -2937,8 +2937,8 @@
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_70">
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MENENDEZ PELAYO, AVENIDA, DE, S/N</hasAddress>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.151.635</hasLatitude>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.777.776</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4151635</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6777776</hasLongitude>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
@@ -3015,8 +3015,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">28</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.674.021</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.160.054</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.674021</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4160054</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">DOCE DE OCTUBRE, CALLE, DEL, 28</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3056,8 +3056,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">99</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.692.614</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.159.135</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6692614</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4159135</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">DOCTOR ESQUERDO, CALLE, DEL, 99</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3096,8 +3096,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.669.099</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.411.463</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.669099</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.411463</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ASTROS, PLAZA, DE LOS, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3137,8 +3137,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.765.768</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.117.601</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6765768</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4117601</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MENENDEZ PELAYO, AVENIDA, DE, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3178,8 +3178,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.784.149</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.083.387</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6784149</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4083387</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MENENDEZ PELAYO, AVENIDA, DE, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3219,8 +3219,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">48</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.751.544</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.072.851</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6751544</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4072851</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">JUAN DE URBIETA, CALLE, DE, 48</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3260,8 +3260,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">8</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.707.742</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.063.347</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6707742</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4063347</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CONDE DE CASAL, PLAZA, DEL, 8</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3300,8 +3300,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">2</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.745.783</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.005.704</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6745783</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4005704</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CERRO DE LA PLATA, CALLE, DEL, 2</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3341,8 +3341,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">38</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.805.524</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.050.482</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6805524</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4050482</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MENENDEZ PELAYO, AVENIDA, DE, 38</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3382,8 +3382,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.904.197</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.074.558</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6904197</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4074558</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CIUDAD DE BARCELONA, AVENIDA, DE LA, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3423,8 +3423,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.906.904</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.076.554</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6906904</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4076554</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CIUDAD DE BARCELONA, AVENIDA, DE LA, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3464,8 +3464,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.919.663</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.095.758</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6919663</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4095758</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">PRADO, PASEO, DEL, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3505,8 +3505,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">2</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.669.683</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.084.793</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.669683</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4084793</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">LIRA, CALLE, DE LA, 2</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3545,8 +3545,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">8 B</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.745.339</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.132.589</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6745339</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4132589</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">PIO BAROJA, CALLE, DE, 8 B</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3586,8 +3586,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">191</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.726.923</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.033.695</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6726923</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4033695</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">DOCTOR ESQUERDO, CALLE, DEL, 191</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3627,8 +3627,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.799.299</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.211.415</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6799299</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4211415</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MENENDEZ PELAYO, AVENIDA, DE, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3668,8 +3668,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.933.298</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.185.779</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6933298</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4185779</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">PRADO, PASEO, DEL, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">22-09-14</hasDate>
 </rdf:Description>
@@ -3709,8 +3709,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">44</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.835.631</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.276.717</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6835631</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4276717</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">AYALA, CALLE, DE, 44</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3750,8 +3750,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">73</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.837.471</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.312.077</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6837471</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4312077</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">VELAZQUEZ, CALLE, DE, 73</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3791,8 +3791,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">102</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.751.716</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.272.628</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6751716</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4272628</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">AYALA, CALLE, DE, 102</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3832,8 +3832,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">18</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.837.297</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.250.878</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6837297</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4250878</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">GOYA, CALLE, DE, 18</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3873,8 +3873,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">73</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.788.203</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.261.113</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6788203</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4261113</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">HERMOSILLA, CALLE, DE, 73</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3914,8 +3914,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">45</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.864.821</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.262.237</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6864821</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4262237</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CLAUDIO COELLO, CALLE, DE, 45</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3955,8 +3955,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">3</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.894.124</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.256.984</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6894124</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4256984</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">GOYA, CALLE, DE, 3</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -3996,8 +3996,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.907.044</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.233.686</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6907044</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4233686</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">RECOLETOS, PASEO, DE, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4037,8 +4037,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">19</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.869.914</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.226.634</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6869914</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4226634</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CLAUDIO COELLO, CALLE, DE, 19</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4069,7 +4069,7 @@
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALCALA, CALLE, DE, 111</hasAddress>
 	<rdfs:label>BiciMAD_Station_96</rdfs:label>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">111</hasStreetNumber>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.220.516</hasLatitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4220516</hasLatitude>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/RECOLETOS">
@@ -4077,7 +4077,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_96">
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.820.471</hasLongitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6820471</hasLongitude>
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/ALCALA%2C+CALLE%2C+DE"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
 </rdf:Description>
@@ -4105,7 +4105,7 @@
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_97">
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MENENDEZ PELAYO, AVENIDA, DE, 1</hasAddress>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.224.846</hasLatitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4224846</hasLatitude>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/GOYA">
@@ -4124,7 +4124,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_97">
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.801.515</hasLongitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6801515</hasLongitude>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/MENENDEZ+PELAYO%2C+AVENIDA%2C+DE">
@@ -4165,7 +4165,7 @@
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_98">
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">FELIPE II, AVENIDA, DE, 5</hasAddress>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.241.911</hasLatitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4241911</hasLatitude>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/FELIPE+II%2C+AVENIDA%2C+DE">
@@ -4182,7 +4182,7 @@
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_98">
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/FELIPE+II%2C+AVENIDA%2C+DE"/>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.754.079</hasLongitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6754079</hasLongitude>
 	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/GOYA"/>
 </rdf:Description>
 
@@ -4239,8 +4239,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_99">
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.739.638</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.261.048</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6739638</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4261048</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALCANTARA, CALLE, DE, 2</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4280,8 +4280,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">99</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.738.777</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.247.843</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6738777</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4247843</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">GOYA, CALLE, DE, 99</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4321,8 +4321,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">131</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.694.246</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.231.223</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6694246</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4231223</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">JORGE JUAN, CALLE, DE, 131</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4362,8 +4362,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">95</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.840.806</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.211.552</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6840806</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4211552</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALCALA, CALLE, DE, 95</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4403,8 +4403,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">4</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.865.351</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.303.733</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6865351</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4303733</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">JOSE ORTEGA Y GASSET, CALLE, DE, 4</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4444,8 +4444,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">4</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.895.792</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.267.658</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6895792</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4267658</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CASTELLANA, PASEO, DE LA, 4</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4485,8 +4485,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">46</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.874.745</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.270.684</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6874745</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4270684</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SERRANO, CALLE, DE, 46</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4526,8 +4526,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">32</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.687.876</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.249.335</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.687876</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4249335</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SERRANO, CALLE, DE, 32</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4567,8 +4567,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">8</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.884.243</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.215.952</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6884243</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4215952</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SERRANO, CALLE, DE, 8</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4607,8 +4607,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">2</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.670.653</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.274.425</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.670653</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4274425</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MARTIRES CONCEPCIONISTAS, CALLE, DE LOS, 2</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4648,8 +4648,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">32</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.815.253</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.301.281</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6815253</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4301281</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">JOSE ORTEGA Y GASSET, CALLE, DE, 32</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4689,8 +4689,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.201.316</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.347.654</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7201316</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4347654</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MORET, PASEO, DE, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4730,8 +4730,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">8</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.174.896</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.335.742</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7174896</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4335742</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ARCIPRESTE DE HITA, CALLE, DEL, 8</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4771,8 +4771,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">10</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.177.783</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.433.982</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7177783</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.433982</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ARCIPRESTE DE HITA, CALLE, DEL, 10</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4812,8 +4812,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">11</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.248.727</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.326.267</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7248727</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4326267</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MORET, PASEO, DE, 11</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4853,8 +4853,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.207.145</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.277.472</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7207145</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4277472</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">PINTOR ROSALES, PASEO, DEL, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4894,8 +4894,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">13</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.174.108</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.278.199</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7174108</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4278199</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">QUINTANA, CALLE, DE, 13</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -4922,7 +4922,7 @@
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MARQUES DE CERRALBO, PLAZA, DEL, S/N</hasAddress>
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA"/>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.253.802</hasLatitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4253802</hasLatitude>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA">
@@ -4930,7 +4930,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_115">
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.169.626</hasLongitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7169626</hasLongitude>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/ARGÜELLES">
@@ -4996,8 +4996,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.118.199</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.241.079</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7118199</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4241079</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ESPAÑA, PLAZA, DE, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -5055,8 +5055,8 @@
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_116b">
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.118.905</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.241.996</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7118905</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4241996</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ESPAÑA, PLAZA, DE, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -5096,8 +5096,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">24</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.189.152</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.309.046</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7189152</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4309046</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALTAMIRANO, CALLE, DE, 24</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">26-06-14</hasDate>
 </rdf:Description>
@@ -5139,8 +5139,8 @@
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/JUAN+MARTIN+EL+EMPECINADO%2C+CALLE%2C+DE"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">16</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.881.393</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.007.979</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6881393</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4007979</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">JUAN MARTIN EL EMPECINADO, CALLE, DE, 16</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -5180,8 +5180,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/ARGANZUELA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">7</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.865.777</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.014.567</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6865777</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4014567</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MENDEZ ALVARO, CALLE, DE, 7</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -5220,8 +5220,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/ARGANZUELA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">27</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.946.097</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.030.247</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6946097</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4030247</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">PALOS DE LA FRONTERA, CALLE, DE, 27</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -5261,8 +5261,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/ARGANZUELA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">58</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.986.046</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.018.356</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6986046</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4018356</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SANTA MARIA DE LA CABEZA, PASEO, DE, 58</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -5302,8 +5302,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">16</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.962.626</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.429.524</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6962626</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.429524</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SANTA ENGRACIA, CALLE, DE, 16</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -5343,8 +5343,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">2</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.134.685</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.306.386</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7134685</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4306386</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">GUZMAN EL BUENO, CALLE, DE, 2</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -5384,8 +5384,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">18</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.993.182</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.308.173</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6993182</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4308173</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MANUEL SILVELA, CALLE, DE, 18</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -5425,8 +5425,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">29</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.948.375</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.353.145</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6948375</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4353145</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">FERNANDEZ DE LA HOZ, CALLE, DE, 29</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -5466,8 +5466,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">4</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.017.424</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.345.672</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7017424</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4345672</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">GENERAL ALVAREZ DE CASTRO, CALLE, DEL, 4</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -5507,8 +5507,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">19</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.083.987</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.433.908</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7083987</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.433908</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">FERNANDO EL CATOLICO, CALLE, DE, 19</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -5548,8 +5548,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">59</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.155.889</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.390.413</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7155889</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4390413</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CEA BERMUDEZ, CALLE, DE, 59</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -5589,8 +5589,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">33</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.982.986</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.384.622</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6982986</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4384622</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">JOSE ABASCAL, CALLE, DE, 33</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -5630,8 +5630,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">129</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.017.555</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.417.512</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7017555</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4417512</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SANTA ENGRACIA, CALLE, DE, 129</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21-06-17</hasDate>
 </rdf:Description>
@@ -5671,8 +5671,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">44</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.040.233</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.417.479</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7040233</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4417479</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">BRAVO MURILLO, CALLE, DE, 44</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -5712,8 +5712,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">168</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.035.911</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.463.889</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7035911</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4463889</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SANTA ENGRACIA, CALLE, DE, 168</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -5752,8 +5752,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/TETUÁN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">3</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.000.292</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.471.673</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7000292</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4471673</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">DULCINEA, CALLE, DE, 3</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -5793,8 +5793,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">58</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.955.092</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.440.317</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6955092</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4440317</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MARIA DE GUZMAN, CALLE, DE, 58</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -5834,8 +5834,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.928.896</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.441.484</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6928896</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.441484</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SAN JUAN DE LA CRUZ, PLAZA, DE, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-04-15</hasDate>
 </rdf:Description>
@@ -5875,8 +5875,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">106</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.908.127</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.452.833</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6908127</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4452833</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CASTELLANA, PASEO, DE LA, 106</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -5916,8 +5916,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">6</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.852.925</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.454.958</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6852925</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4454958</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">REPUBLICA ARGENTINA, PLAZA, DE LA, 6</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -5957,8 +5957,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.915.818</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.456.884</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6915818</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4456884</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CASTELLANA, PASEO, DE LA, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -5997,8 +5997,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.904.495</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.393.558</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6904495</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4393558</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">JOSE GUTIERREZ ABASCAL, CALLE, DE, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6038,8 +6038,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">134</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.829.088</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.386.081</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6829088</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4386081</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">VELAZQUEZ, CALLE, DE, 134</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6079,8 +6079,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">43</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.892.902</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.354.253</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6892902</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4354253</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CASTELLANA, PASEO, DE LA, 43</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6120,8 +6120,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.880.402</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.335.262</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6880402</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4335262</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CASTELLANA, PASEO, DE LA, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6161,8 +6161,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">54</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.782.355</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.434.616</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6782355</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.434616</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">DIEGO DE LEON, CALLE, DE, 54</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6202,8 +6202,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">50</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.754.628</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.323.192</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6754628</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4323192</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">JUAN BRAVO, CALLE, DE, 50</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">20-06-15</hasDate>
 </rdf:Description>
@@ -6243,8 +6243,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">87</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.671.401</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.297.717</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.671401</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4297717</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">JOSE ORTEGA Y GASSET, CALLE, DE, 87</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6283,8 +6283,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.787.983</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.442.372</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6787983</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4442372</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">MARIA FRANCISCA, CALLE, DE, 1</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">20-06-15</hasDate>
 </rdf:Description>
@@ -6302,7 +6302,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_147">
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.483.353</hasLatitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4483353</hasLatitude>
 	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO"/>
 </rdf:Description>
 
@@ -6327,7 +6327,7 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">45</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.795.811</hasLongitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6795811</hasLongitude>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN">
@@ -6348,7 +6348,7 @@
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_148">
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SERRANO, CALLE, DE, 210</hasAddress>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.510.228</hasLatitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4510228</hasLatitude>
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/SERRANO%2C+CALLE%2C+DE"/>
 </rdf:Description>
 
@@ -6366,7 +6366,7 @@
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_148">
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.817.012</hasLongitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6817012</hasLongitude>
 	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO"/>
 </rdf:Description>
 
@@ -6404,7 +6404,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_149">
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.449.845</hasLatitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.449845</hasLatitude>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">42</hasStreetNumber>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 </rdf:Description>
@@ -6423,7 +6423,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_149">
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.878.481</hasLongitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6878481</hasLongitude>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
@@ -6495,8 +6495,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.905.376</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.491.555</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6905376</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4491555</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CASTELLANA, PASEO, DE LA, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6536,8 +6536,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/TETUÁN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">10</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.952.117</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.488.617</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6952117</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4488617</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ORENSE, CALLE, DE, 10</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6577,8 +6577,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/TETUÁN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.989.497</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.527.163</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6989497</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4527163</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">GENERAL PERON, AVENIDA, DEL, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6618,8 +6618,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/TETUÁN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.930.944</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.523.394</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6930944</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4523394</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">GENERAL PERON, AVENIDA, DEL, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6659,8 +6659,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/TETUÁN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">36</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.946.897</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.454.776</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6946897</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.454776</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ORENSE, CALLE, DE, 36</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6700,8 +6700,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/TETUÁN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">55</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.008.905</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.572.961</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7008905</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4572961</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SAN GERMÁN, CALLE, DE, 55</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6741,8 +6741,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/TETUÁN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.913.229</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.592.406</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6913229</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4592406</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SOR ANGELA DE LA CRUZ, CALLE, DE, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6782,8 +6782,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.893.305</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.459.282</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6893305</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.459282</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CASTELLANA, PASEO, DE LA, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6823,8 +6823,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">22 A</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.847.049</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4.045.862</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6847049</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.45862</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALBERTO ALCOCER, AVENIDA, DE, 22 A</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6864,8 +6864,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">63</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.837.348</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.542.549</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6837348</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4542549</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">LA HABANA, PASEO, DE, 63</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6904,8 +6904,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">7</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.765.407</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.571.887</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6765407</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4571887</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">COLOMBIA, CALLE, DE, 7</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6945,8 +6945,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">8</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.722.035</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.221.254</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.722035</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4221254</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">FLORIDA, PASEO, DE LA, 8</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -6985,8 +6985,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/ARGANZUELA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">28</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.107.559</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.035.176</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7107559</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4035176</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">OLMOS, PASEO, DE LOS, 28</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -7026,8 +7026,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/ARGANZUELA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">0,083333333</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.064.372</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.036.349</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7064372</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4036349</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ESPERANZA, PASEO, DE LA, 0,0833333333333333</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -7067,8 +7067,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/ARGANZUELA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">92</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.944.786</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">403.971.621</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6944786</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.3971621</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">DELICIAS, PASEO, DE LAS, 92</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -7108,8 +7108,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/ARGANZUELA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">47</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-36.977.928</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">403.929.735</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6977928</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.3929735</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">CHOPERA, PASEO, DE LA, 47</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
@@ -7149,8 +7149,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">26</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.133.497</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.139.487</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7133497</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4139487</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SEGOVIA, CALLE, DE, 26</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-16</hasDate>
 </rdf:Description>
@@ -7190,8 +7190,8 @@
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/ARGANZUELA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">45</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-37.175.955</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">404.137.262</hasLatitude>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7175955</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4137262</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">SEGOVIA, CALLE, DE, 45</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">22-05-17</hasDate>
 </rdf:Description>

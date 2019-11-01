@@ -1,10 +1,21 @@
 package bMad;
 import com.bordercloud.sparql.EndpointException;
+import org.apache.http.Header;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpHeaders;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.util.EntityUtils;
+import org.apache.jena.atlas.json.JsonObject;
+import org.apache.jena.atlas.json.io.parser.JSONParser;
 import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.*;
 import org.apache.jena.sparql.vocabulary.FOAF;
 import org.apache.jena.util.FileManager;
 import com.bordercloud.sparql.Endpoint;
+import org.json.JSONObject;
 
 
 import javax.security.auth.Subject;
@@ -73,15 +84,46 @@ public class app {
         return  qexec.execSelect();
     }
 
-    public String getInterestPoints(String neighborhoodFilter, String districtFilter )  {
+    public String getInterestPoints(String filter )  {
+        CloseableHttpClient httpClient = HttpClients.createDefault();
         model =  ModelFactory.createDefaultModel();
+        String result="";
         model.read(file, null);
         try {
-            return peticionHttpGet(queries.query5());
+            String res = queries.query5(filter);
+            HttpGet request = new HttpGet(res);
+
+            // add request headers
+            request.setHeader("Accept", "application/json");
+            request.addHeader(HttpHeaders.USER_AGENT, "Googlebot");
+            request.setHeader("Content-Type", "application/json");
+
+            try (CloseableHttpResponse response = httpClient.execute(request)) {
+
+                // Get HttpResponse Status
+                System.out.println(response.getStatusLine().toString());
+
+                HttpEntity entity = response.getEntity();
+                Header headers = entity.getContentType();
+                System.out.println(headers);
+
+                if (entity != null) {
+                    // return it as a String
+                     result = EntityUtils.toString(entity);
+                }
+
+            }
+            //return peticionHttpGet(res);
+
+            return result;
         } catch (Exception e) {
-            return "";
+            e.getMessage();
+            System.err.println("error peticion http: " +e.getMessage());
+            return result;
         }
     }
+
+
 
 
 
@@ -107,30 +149,4 @@ public class app {
         return json;
     }
 
-
-
-
-    private static String peticionHttpGet(String urlParaVisitar) throws Exception {
-        // Esto es lo que vamos a devolver
-        StringBuilder resultado = new StringBuilder();
-        // Crear un objeto de tipo URL
-        URL url = new URL(urlParaVisitar);
-
-        // Abrir la conexión e indicar que será de tipo GET
-        HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
-        conexion.setRequestMethod("GET");
-        conexion.setRequestProperty("Content-Type", "application/json");
-        conexion.setRequestProperty("Accept", "application/json");
-        // Búferes para leer
-        BufferedReader rd = new BufferedReader(new InputStreamReader(conexion.getInputStream()));
-        String linea;
-        // Mientras el BufferedReader se pueda leer, agregar contenido a resultado
-        while ((linea = rd.readLine()) != null) {
-            resultado.append(linea);
-        }
-        // Cerrar el BufferedReader
-        rd.close();
-        // Regresar resultado, pero como cadena, no como StringBuilder
-        return resultado.toString();
-    }
 }
