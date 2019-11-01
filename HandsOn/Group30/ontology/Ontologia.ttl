@@ -19,6 +19,11 @@
 
 #    Data properties
 
+#  http://madridcen.es/group30/ontologia/CentroDeportivo#barrio
+:barrio rdf:type owl:DatatypeProperty ;
+        rdfs:domain    <http://madridcen.es/group30/ontologia/CentroDeportivo#Localizacion>;
+        rdfs:range xsd:string .
+
 #  http://madridcen.es/group30/ontologia/CentroDeportivo#distrito
 :distrito rdf:type owl:DatatypeProperty ;
         rdfs:domain    <http://madridcen.es/group30/ontologia/CentroDeportivo#Localizacion>;
