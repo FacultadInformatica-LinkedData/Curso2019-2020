@@ -10,72 +10,72 @@
 
 #    Object Properties
 
-#  http://madridcen.es/group30/ontologia#tieneLocalizacion
-<http://madridcen.es/group30/ontologia#tieneLocalizacion>
+#  http://madridcen.es/group30/ontologia/CentroDeportivo#tieneLocalizacion
+<http://madridcen.es/group30/ontologia/CentroDeportivo#tieneLocalizacion>
 				  rdf:type owl:ObjectProperty ;
-                  rdfs:domain <http://madridcen.es/group30/ontologia#CentroDeportivo> ;
-                  rdfs:range <http://madridcen.es/group30/ontologia#Localizacion> .
+                  rdfs:domain <http://madridcen.es/group30/ontologia/CentroDeportivo#CentroDeportivo> ;
+                  rdfs:range <http://madridcen.es/group30/ontologia/CentroDeportivo#Localizacion> .
 				  
 
 #    Data properties
 
-#  http://madridcen.es/group30/ontologia#distrito
+#  http://madridcen.es/group30/ontologia/CentroDeportivo#distrito
 :distrito rdf:type owl:DatatypeProperty ;
-        rdfs:domain    <http://madridcen.es/group30/ontologia#Localizacion>;
+        rdfs:domain    <http://madridcen.es/group30/ontologia/CentroDeportivo#Localizacion>;
         rdfs:range xsd:string .
 		
-#  http://madridcen.es/group30/ontologia#provincia
+#  http://madridcen.es/group30/ontologia/CentroDeportivo#provincia
 :provincia rdf:type owl:DatatypeProperty ;
-        rdfs:domain    <http://madridcen.es/group30/ontologia#Localizacion>;
+        rdfs:domain    <http://madridcen.es/group30/ontologia/CentroDeportivo#Localizacion>;
         rdfs:range xsd:string .
 		
-#  http://madridcen.es/group30/ontologia#via
+#  http://madridcen.es/group30/ontologia/CentroDeportivo#via
 :via rdf:type owl:DatatypeProperty ;
-        rdfs:domain    <http://madridcen.es/group30/ontologia#Localizacion>;
+        rdfs:domain    <http://madridcen.es/group30/ontologia/CentroDeportivo#Localizacion>;
         rdfs:range xsd:string .
 		
-#  http://madridcen.es/group30/ontologia#numero
+#  http://madridcen.es/group30/ontologia/CentroDeportivo#numero
 :numero rdf:type owl:DatatypeProperty ;
-        rdfs:domain    <http://madridcen.es/group30/ontologia#CentroDeportivo>;
+        rdfs:domain    <http://madridcen.es/group30/ontologia/CentroDeportivo#CentroDeportivo>;
         rdfs:range xsd:int .		
 		
-#  http://madridcen.es/group30/ontologia#codigoPostal
+#  http://madridcen.es/group30/ontologia/CentroDeportivo#codigoPostal
 :codigoPostal rdf:type owl:DatatypeProperty ;
-        rdfs:domain    <http://madridcen.es/group30/ontologia#Localizacion>;
+        rdfs:domain    <http://madridcen.es/group30/ontologia/CentroDeportivo#Localizacion>;
         rdfs:range xsd:string .
 
-#  http://madridcen.es/group30/ontologia#email
+#  http://madridcen.es/group30/ontologia/CentroDeportivo#email
 :email rdf:type owl:DatatypeProperty ;
-        rdfs:domain    <http://madridcen.es/group30/ontologia#CentroDeportivo>;
+        rdfs:domain    <http://madridcen.es/group30/ontologia/CentroDeportivo#CentroDeportivo>;
         rdfs:range xsd:string .
 		
-#  http://madridcen.es/group30/ontologia#horario
+#  http://madridcen.es/group30/ontologia/CentroDeportivo#horario
 :horario rdf:type owl:DatatypeProperty ;
-        rdfs:domain    <http://madridcen.es/group30/ontologia#CentroDeportivo>;
+        rdfs:domain    <http://madridcen.es/group30/ontologia/CentroDeportivo#CentroDeportivo>;
         rdfs:range xsd:string .
 
-#  http://madridcen.es/group30/ontologia#equipamiento
+#  http://madridcen.es/group30/ontologia/CentroDeportivo#equipamiento
 :equipamiento rdf:type owl:DatatypeProperty ;
-        rdfs:domain    <http://madridcen.es/group30/ontologia#CentroDeportivo>;
+        rdfs:domain    <http://madridcen.es/group30/ontologia/CentroDeportivo#CentroDeportivo>;
         rdfs:range xsd:string .		
 		
-#  http://madridcen.es/group30/ontologia#transporte
+#  http://madridcen.es/group30/ontologia/CentroDeportivo#transporte
 :transporte rdf:type owl:DatatypeProperty ;
-        rdfs:domain    <http://madridcen.es/group30/ontologia#CentroDeportivo>;
+        rdfs:domain    <http://madridcen.es/group30/ontologia/CentroDeportivo#CentroDeportivo>;
         rdfs:range xsd:string .
 		
-#  http://madridcen.es/group30/ontologia#telefono
+#  http://madridcen.es/group30/ontologia/CentroDeportivo#telefono
 :telefono rdf:type owl:DatatypeProperty ;
-        rdfs:domain    <http://madridcen.es/group30/ontologia#CentroDeportivo>;
+        rdfs:domain    <http://madridcen.es/group30/ontologia/CentroDeportivo#CentroDeportivo>;
         rdfs:range xsd:string .
 	
 	   
 #    Classes
 
 
-#  http://madridcen.es/group30/ontologia#Localizacion
-<http://madridcen.es/group30/ontologia#Localizacion> rdf:type owl:Class .
+#  http://madridcen.es/group30/ontologia/CentroDeportivo#Localizacion
+<http://madridcen.es/group30/ontologia/CentroDeportivo#Localizacion> rdf:type owl:Class .
 
-#  http://madridcen.es/group30/ontologia#CentroDeportivo
-<http://madridcen.es/group30/ontologia#CentroDeportivo> rdf:type owl:Class .
+#  http://madridcen.es/group30/ontologia/CentroDeportivo#CentroDeportivo
+<http://madridcen.es/group30/ontologia/CentroDeportivo#CentroDeportivo> rdf:type owl:Class .
 
