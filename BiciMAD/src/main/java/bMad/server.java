@@ -33,6 +33,31 @@ public class server {
         return new ResponseEntity<>(json,HttpStatus.ACCEPTED);
     }
 
+    @RequestMapping(value = "/Neighborhoods", method = RequestMethod.GET,
+            produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<String> getNeighborhoods(){
+        String json="";
+        app a = new app();
+        json = a.getNeighborhoods();
+        if(json.isEmpty()){
+            return new ResponseEntity<>("BAD REQUEST", HttpStatus.BAD_REQUEST);
+        }
+        return new ResponseEntity<>(json,HttpStatus.ACCEPTED);
+    }
+
+
+    @RequestMapping(value = "/Districts", method = RequestMethod.GET,
+            produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<String> getDistricts(){
+        String json="";
+        app a = new app();
+        json = a.getDistricts();
+        if(json.isEmpty()){
+            return new ResponseEntity<>("BAD REQUEST", HttpStatus.BAD_REQUEST);
+        }
+        return new ResponseEntity<>(json,HttpStatus.ACCEPTED);
+    }
+
     /*
         Shows Bikes Station selected
         return JSON with BikeStation Selected Info (id, district, street.. etc)

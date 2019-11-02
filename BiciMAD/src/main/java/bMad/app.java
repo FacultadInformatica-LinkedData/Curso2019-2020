@@ -123,6 +123,22 @@ public class app {
         }
     }
 
+    public String getNeighborhoods(){
+        model =  ModelFactory.createDefaultModel();
+        model.read(file, null);
+        String queryString = "";
+        queryString = queries.query6();
+        return execution(queryString);
+    }
+
+    public String getDistricts(){
+        model =  ModelFactory.createDefaultModel();
+        model.read(file, null);
+        String queryString = "";
+        queryString = queries.query7();
+        return execution(queryString);
+    }
+
 
 
 
