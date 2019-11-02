@@ -1,0 +1,4645 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q756",
+        "name": "plant"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column ESPECIE to type Q756"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Aesculus hippocastanum",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55741076",
+      "name": "ippocastano",
+      "types": [
+        "Q811534"
+      ],
+      "score": 96
+    },
+    "shareNewTopics": false,
+    "description": "Match item ippocastano (Q55741076) for cells containing \"Aesculus hippocastanum\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Platanus hispanica",
+    "judgment": "matched",
+    "match": {
+      "id": "Q42418555",
+      "name": "Plataan (Platanus x hispanica)",
+      "types": [
+        "Q811534",
+        "Q161374"
+      ],
+      "score": 78
+    },
+    "shareNewTopics": false,
+    "description": "Match item Plataan (Platanus x hispanica) (Q42418555) for cells containing \"Platanus hispanica\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Cupressus sempervirens",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55741021",
+      "name": "cipresso comune",
+      "types": [
+        "Q811534"
+      ],
+      "score": 96
+    },
+    "shareNewTopics": false,
+    "description": "Match item cipresso comune (Q55741021) for cells containing \"Cupressus sempervirens\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Gleditsia triacanthos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q26790934",
+      "name": "7 kusů dřezovce trojtrnného",
+      "types": [
+        "Q811534",
+        "Q207934",
+        "Q157650"
+      ],
+      "score": 33
+    },
+    "shareNewTopics": false,
+    "description": "Match item 7 kusů dřezovce trojtrnného (Q26790934) for cells containing \"Gleditsia triacanthos\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Pinus pinea",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55740907",
+      "name": "pino domestico",
+      "types": [
+        "Q811534"
+      ],
+      "score": 92
+    },
+    "shareNewTopics": false,
+    "description": "Match item pino domestico (Q55740907) for cells containing \"Pinus pinea\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Celtis australis",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55741413",
+      "name": "bagolaro",
+      "types": [
+        "Q811534"
+      ],
+      "score": 94
+    },
+    "shareNewTopics": false,
+    "description": "Match item bagolaro (Q55741413) for cells containing \"Celtis australis\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Ulmus minor",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7879516",
+      "name": "Ulmus minor 'Biltii'",
+      "types": [
+        "Q4886"
+      ],
+      "score": 76
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ulmus minor 'Biltii' (Q7879516) for cells containing \"Ulmus minor\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Ligustrum lucidum",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55741861",
+      "name": "ligustro",
+      "types": [
+        "Q811534"
+      ],
+      "score": 77
+    },
+    "shareNewTopics": false,
+    "description": "Match item ligustro (Q55741861) for cells containing \"Ligustrum lucidum\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Cedrus deodara",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55741072",
+      "name": "cedro dell'Himalaya",
+      "types": [
+        "Q811534"
+      ],
+      "score": 70
+    },
+    "shareNewTopics": false,
+    "description": "Match item cedro dell'Himalaya (Q55741072) for cells containing \"Cedrus deodara\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Acacia dealbata",
+    "judgment": "matched",
+    "match": {
+      "id": "Q18468972",
+      "name": "Acacia dealbata 'Virginia'",
+      "types": [
+        ""
+      ],
+      "score": 38.5
+    },
+    "shareNewTopics": false,
+    "description": "Match item Acacia dealbata 'Virginia' (Q18468972) for cells containing \"Acacia dealbata\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Robinia pseudoacacia",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55742077",
+      "name": "robinia",
+      "types": [
+        "Q811534"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item robinia (Q55742077) for cells containing \"Robinia pseudoacacia\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Quercus robur",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55741189",
+      "name": "farnia",
+      "types": [
+        "Q811534"
+      ],
+      "score": 93
+    },
+    "shareNewTopics": false,
+    "description": "Match item farnia (Q55741189) for cells containing \"Quercus robur\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Fraxinus angustifolia",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5494008",
+      "name": "Fraxinus angustifolia 'Pendula Vera'",
+      "types": [
+        "Q4886"
+      ],
+      "score": 76
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fraxinus angustifolia 'Pendula Vera' (Q5494008) for cells containing \"Fraxinus angustifolia\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Acer campestre",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4673144",
+      "name": "Acer campestre 'Elegant'",
+      "types": [
+        "Q4886"
+      ],
+      "score": 78
+    },
+    "shareNewTopics": false,
+    "description": "Match item Acer campestre 'Elegant' (Q4673144) for cells containing \"Acer campestre\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Pinus halepensis",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55740954",
+      "name": "pino d'Aleppo",
+      "types": [
+        "Q811534"
+      ],
+      "score": 86
+    },
+    "shareNewTopics": false,
+    "description": "Match item pino d'Aleppo (Q55740954) for cells containing \"Pinus halepensis\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Quercus ilex",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16565349",
+      "name": "Ilice Di Carrinu",
+      "types": [
+        "Q811534",
+        "Q218155"
+      ],
+      "score": 92
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ilice Di Carrinu (Q16565349) for cells containing \"Quercus ilex\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Platanus orientalis",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55740869",
+      "name": "platano orientale",
+      "types": [
+        "Q811534"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item platano orientale (Q55740869) for cells containing \"Platanus orientalis\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Ulmus pumila",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7879623",
+      "name": "Ulmus pumila 'Aurea'",
+      "types": [
+        "Q4886"
+      ],
+      "score": 80
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ulmus pumila 'Aurea' (Q7879623) for cells containing \"Ulmus pumila\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Prunus dulcis",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55742913",
+      "name": "mandorlo",
+      "types": [
+        "Q811534"
+      ],
+      "score": 84
+    },
+    "shareNewTopics": false,
+    "description": "Match item mandorlo (Q55742913) for cells containing \"Prunus dulcis\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Platanus hybrida",
+    "judgment": "matched",
+    "match": {
+      "id": "Q26785972",
+      "name": "Platan javorolistý - Platanus x hybrida",
+      "types": [
+        "Q811534",
+        "Q2438638",
+        "Q161374"
+      ],
+      "score": 60
+    },
+    "shareNewTopics": false,
+    "description": "Match item Platan javorolistý - Platanus x hybrida (Q26785972) for cells containing \"Platanus hybrida\" in column ESPECIE"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Populus alba",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55741331",
+      "name": "pioppo bianco",
+      "types": [
+        "Q811534"
+      ],
+      "score": 92
+    },
+    "shareNewTopics": false,
+    "description": "Match item pioppo bianco (Q55741331) for cells containing \"Populus alba\" in column ESPECIE"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(blank)",
+                "l": "(blank)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Olea europaea",
+    "judgment": "matched",
+    "match": {
+      "id": "Q35417711",
+      "name": "olive tree",
+      "types": [
+        "Q978",
+        "Q10884"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item olive tree (Q35417711) for cells containing \"Olea europaea\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Arbutus unedo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55741474",
+      "name": "corbezzolo",
+      "types": [
+        "Q811534"
+      ],
+      "score": 93
+    },
+    "shareNewTopics": false,
+    "description": "Match item corbezzolo (Q55741474) for cells containing \"Arbutus unedo\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Fraxinus excelsior",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55743514",
+      "name": "frassino maggiore",
+      "types": [
+        "Q811534"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item frassino maggiore (Q55743514) for cells containing \"Fraxinus excelsior\" in column ESPECIE"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": " Liquidambar styraciflua",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55742446",
+      "name": "noce satinato",
+      "types": [
+        "Q811534"
+      ],
+      "score": 68
+    },
+    "shareNewTopics": false,
+    "description": "Match item noce satinato (Q55742446) for cells containing \" Liquidambar styraciflua\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Catalpa bignonioides",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2073370",
+      "name": "Catalpa bignonioides ‘Nana’",
+      "types": [
+        "Q4886"
+      ],
+      "score": 89
+    },
+    "shareNewTopics": false,
+    "description": "Match item Catalpa bignonioides ‘Nana’ (Q2073370) for cells containing \"Catalpa bignonioides\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Morus alba",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55740868",
+      "name": "gelso bianco",
+      "types": [
+        "Q811534"
+      ],
+      "score": 91
+    },
+    "shareNewTopics": false,
+    "description": "Match item gelso bianco (Q55740868) for cells containing \"Morus alba\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Vitis vinifera",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1713890",
+      "name": "Nero d'Avola",
+      "types": [
+        "Q958314"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nero d'Avola (Q1713890) for cells containing \"Vitis vinifera\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Pinus pinea (Pino piñonero)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q69426632",
+      "name": "Pino piñonero del Olivar",
+      "types": [
+        "Q811534",
+        "Q106094"
+      ],
+      "score": 65
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pino piñonero del Olivar (Q69426632) for cells containing \"Pinus pinea (Pino piñonero)\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Liquidambar styraciflua",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55742446",
+      "name": "noce satinato",
+      "types": [
+        "Q811534"
+      ],
+      "score": 68
+    },
+    "shareNewTopics": false,
+    "description": "Match item noce satinato (Q55742446) for cells containing \"Liquidambar styraciflua\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Populus nigra",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55740887",
+      "name": "pioppo nero",
+      "types": [
+        "Q811534"
+      ],
+      "score": 93
+    },
+    "shareNewTopics": false,
+    "description": "Match item pioppo nero (Q55740887) for cells containing \"Populus nigra\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Cupressus macrocarpa",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55741472",
+      "name": "cipresso di Monterey",
+      "types": [
+        "Q811534"
+      ],
+      "score": 87
+    },
+    "shareNewTopics": false,
+    "description": "Match item cipresso di Monterey (Q55741472) for cells containing \"Cupressus macrocarpa\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Magnolia grandiflora",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55741444",
+      "name": "magnolia",
+      "types": [
+        "Q811534"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item magnolia (Q55741444) for cells containing \"Magnolia grandiflora\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Acer negundo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55741905",
+      "name": "negundo",
+      "types": [
+        "Q811534"
+      ],
+      "score": 92
+    },
+    "shareNewTopics": false,
+    "description": "Match item negundo (Q55741905) for cells containing \"Acer negundo\" in column ESPECIE"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Thuja occidentalis",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55741886",
+      "name": "tuia occidentale",
+      "types": [
+        "Q811534"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item tuia occidentale (Q55741886) for cells containing \"Thuja occidentalis\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Crataegus monogyna",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55741600",
+      "name": "biancospino comune",
+      "types": [
+        "Q811534"
+      ],
+      "score": 88
+    },
+    "shareNewTopics": false,
+    "description": "Match item biancospino comune (Q55741600) for cells containing \"Crataegus monogyna\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Taxus baccata",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55740900",
+      "name": "tasso",
+      "types": [
+        "Q811534"
+      ],
+      "score": 93
+    },
+    "shareNewTopics": false,
+    "description": "Match item tasso (Q55740900) for cells containing \"Taxus baccata\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Acer pseudoplatanus",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55740885",
+      "name": "acero di monte",
+      "types": [
+        "Q811534"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item acero di monte (Q55740885) for cells containing \"Acer pseudoplatanus\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Tilia platyphyllos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q33040885",
+      "name": "Vecchio Tiglio",
+      "types": [
+        "Q811534"
+      ],
+      "score": 88
+    },
+    "shareNewTopics": false,
+    "description": "Match item Vecchio Tiglio (Q33040885) for cells containing \"Tilia platyphyllos\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Abies nordmanniana",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55741507",
+      "name": "abete del Caucaso",
+      "types": [
+        "Q811534"
+      ],
+      "score": 73
+    },
+    "shareNewTopics": false,
+    "description": "Match item abete del Caucaso (Q55741507) for cells containing \"Abies nordmanniana\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Sambucus nigra",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55742816",
+      "name": "sambuco",
+      "types": [
+        "Q811534"
+      ],
+      "score": 93
+    },
+    "shareNewTopics": false,
+    "description": "Match item sambuco (Q55742816) for cells containing \"Sambucus nigra\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
+    "similarValue": "Betula utilis",
+    "judgment": "matched",
+    "match": {
+      "id": "Q62471258",
+      "name": "Betula utilis subsp. utilis",
+      "types": [
+        ""
+      ],
+      "score": 33.5
+    },
+    "shareNewTopics": false,
+    "description": "Match item Betula utilis subsp. utilis (Q62471258) for cells containing \"Betula utilis\" in column ESPECIE"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "ESPECIE",
+    "expression": "jython:import re\nresult = cells[\"ESPECIE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result",
+    "onError": "set-to-blank",
+    "newColumnName": "Especie_URL",
+    "columnInsertIndex": 2,
+    "description": "Create column Especie_URL at index 2 based on column ESPECIE using expression jython:import re\nresult = cells[\"ESPECIE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "PARQUE",
+    "expression": "jython:import re\nresult = cells[\"PARQUE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result",
+    "onError": "set-to-blank",
+    "newColumnName": "Park_URL",
+    "columnInsertIndex": 1,
+    "description": "Create column Park_URL at index 1 based on column PARQUE using expression jython:import re\nresult = cells[\"PARQUE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies#hasQuantity",
+                    "curie": "gr07Plants:hasQuantity",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "UNIDADES",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies#hasQuantity",
+                    "curie": "gr07Plants:hasQuantity",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "UNIDADES",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies#hasQuantity",
+                    "curie": "gr07Plants:hasQuantity",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "UNIDADES",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "PARQUE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies#hasQuantity",
+                    "curie": "gr07Plants:hasQuantity",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "UNIDADES",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "PARQUE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies#hasQuantity",
+                    "curie": "gr07Plants:hasQuantity",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "UNIDADES",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "PARQUE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies#hasQuantity",
+                    "curie": "gr07Plants:hasQuantity",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "UNIDADES",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "PARQUE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "PARQUE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "PARQUE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "ESPECIE",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value + \"_\" + row.index",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "ESPECIE",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "ESPECIE",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "ESPECIE",
+                      "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "ESPECIE",
+                      "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "ESPECIE",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "ESPECIE",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "ESPECIE",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "ESPECIE",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Especie_recon",
+    "columnInsertIndex": 3,
+    "description": "Create column Especie_recon at index 3 based on column ESPECIE using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "Especie_recon",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "Especie_recon",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "Especie_recon",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "Especie_recon",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "Especie_recon",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "gr07Plants",
+          "uri": ""
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "Especie_recon",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "gr07Park",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "Especie_recon",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "gr07Park",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "Especie_recon",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "gr07Park",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies#hasEspecie",
+              "curie": "gr07Plants:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "Especie_recon",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Plants:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Plants:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "gr07Park",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://127.0.0.1:3333/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
+              "curie": "gr07Park:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Especie_URL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Park:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "gr07Park",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://127.0.0.1:3333/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
+              "curie": "gr07Park:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Especie_URL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Park:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "gr07Park",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://127.0.0.1:3333/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
+              "curie": "gr07Park:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "Especie_recon",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Park:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Park:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "gr07Park",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
+              "curie": "gr07Park:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "Especie_recon",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Park:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Park:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "gr07Park",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
+              "curie": "gr07Park:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "Especie_recon",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Park:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Park:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "gr07Park",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/grupo07/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Park/\" + cells['Park_URL'].value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
+              "curie": "gr07Park:hasEspecie",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ESPECIE",
+                "expression": "\"Especie/\" + cells['Especie_URL'].value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "Especie_URL",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "columnName": "Especie_recon",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "links": [],
+                      "rdfTypes": []
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
+                    "curie": "gr07Park:Especie"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
+              "curie": "gr07Park:Park"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]
