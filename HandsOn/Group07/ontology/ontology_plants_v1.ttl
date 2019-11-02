@@ -17,7 +17,19 @@
 ###  http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie
 <http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie> rdf:type owl:DatatypeProperty ;
                                                                     rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
-                                                                    rdfs:range xsd:Url .
+                                                                    rdfs:range <http://www.semanticweb.org/grupo07/ontologies/class#Especie> .
+
+
+
+###  http://www.semanticweb.org/grupo07/ontologies/property#hasParkName
+<http://www.semanticweb.org/grupo07/ontologies/property#hasParkName> rdf:type owl:DatatypeProperty ;
+                                                                 rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Park> ;
+                                                                 rdfs:range xsd:string .
+
+###  http://www.semanticweb.org/grupo07/ontologies/property#hasPlantName
+<http://www.semanticweb.org/grupo07/ontologies/property#hasPlantName> rdf:type owl:DatatypeProperty ;
+                                                                 rdfs:domain <http://www.semanticweb.org/grupo07/ontologies/class#Especie> ;
+                                                                 rdfs:range xsd:string .
 
 
 #################################################################
