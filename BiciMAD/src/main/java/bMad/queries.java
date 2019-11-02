@@ -84,14 +84,14 @@ public class queries {
 
     public static String query6(){
         return  "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
-                "SELECT  ?neighborhood ?neighborhoodUri " +
+                "SELECT distinct ?neighborhood " +
                 "WHERE { ?Subject <http://www.biciMad.com/ontology/hasNeighborhood> ?neighborhoodUri. " +
                 "?neighborhoodUri rdfs:label ?neighborhood. } ";
     }
 
     public static String query7(){
         return  "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
-                "SELECT  ?district ?districtUri " +
+                "SELECT distinct ?district " +
                 "WHERE { ?Subject <http://www.biciMad.com/ontology/hasDistrict> ?districtUri. " +
                 "?districtUri rdfs:label ?district. } ";
     }
