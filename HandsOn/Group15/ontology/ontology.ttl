@@ -3,8 +3,11 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @base <http://www.airQualityMadrid.com/ontology#> .
+
 
 <http://www.airQualityMadrid.com/ontology#> rdf:type owl:Ontology .
 
@@ -12,36 +15,50 @@
 #    Classes & SubClasses
 #################################################################
 
-###  http://www.airQualityMadrid.com/ontology#Station
-:Station rdf:type owl:Class .
+###  http://www.w3.org/ns/sosa/Sensor
+sosa:Sensor rdf:type owl:Class .
 
-###  http://www.airQualityMadrid.com/ontology#Measurement
-:Measurement rdf:type owl:Class .
+###  http://www.w3.org/ns/sosa/Observation
+sosa:Observation rdf:type owl:Class .
+
+###  http://www.w3.org/ns/sosa/ObservableProperty
+sosa:ObservableProperty rdf:type owl:Class .
+
+###  http://www.w3.org/ns/sosa/Result
+sosa:Result rdf:type owl:Class .
+
+###  http://www.w3.org/ns/sosa/Procedure
+sosa:Procedure rdf:type owl:Class .
+
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://www.airQualityMadrid.com/ontology#hasMeasurement
-:hasMeasurement rdf:type owl:ObjectProperty ;
-                rdfs:domain :Station ;
-                rdfs:range :Measurement .
-				
+###  http://www.w3.org/ns/sosa/hasResult
+sosa:hasResult rdf:type owl:ObjectProperty ;
+               rdfs:domain sosa:Observation ;
+               rdfs:range sosa:Result .
 
+###  http://www.w3.org/ns/sosa/madeBySensor
+sosa:madeBySensor rdf:type owl:ObjectProperty ;
+                  rdfs:domain sosa:Observation ;
+                  rdfs:range sosa:Sensor .
+
+###  http://www.w3.org/ns/sosa/observedProperty
+sosa:observedProperty rdf:type owl:ObjectProperty ;
+                      rdfs:domain sosa:Observation ;
+                      rdfs:range sosa:ObservableProperty .
+					  
+###  http://www.w3.org/ns/sosa/usedProcedure
+sosa:usedProcedure rdf:type owl:ObjectProperty ;
+                      rdfs:domain sosa:Observation ;
+                      rdfs:range sosa:Procedure .
+				
 
 #################################################################
 #    Data properties
 #################################################################
-
-###  http://www.airQualityMadrid.com/ontology#ID_MEDICION
-:id_medicion rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Measurement;
-             rdfs:range xsd:string .
-
-###  http://www.airQualityMadrid.com/ontology#ID_ESTACION
-:id_estacion rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Station , :Measurement ;
-             rdfs:range xsd:integer .
 			 
 ###  http://www.airQualityMadrid.com/ontology#NOMBRE
 :nombre rdf:type owl:DatatypeProperty ;
@@ -56,174 +73,26 @@
 ###  http://www.airQualityMadrid.com/ontology#TIPO
 :tipo rdf:type owl:DatatypeProperty ;
              rdfs:domain :Station;
-             rdfs:range xsd:string .
+             rdfs:range xsd:string .	
 			 
-###  http://www.airQualityMadrid.com/ontology#LATITUD
-:latitud rdf:type owl:DatatypeProperty ;
+###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
+geo:lat rdf:type owl:DatatypeProperty ;
              rdfs:domain :Station;
              rdfs:range xsd:float .
 			 
-###  http://www.airQualityMadrid.com/ontology#LONGITUD
-:longitud rdf:type owl:DatatypeProperty ;
+###  http://www.w3.org/2003/01/geo/wgs84_pos#long
+geo:long rdf:type owl:DatatypeProperty ;
              rdfs:domain :Station;
              rdfs:range xsd:float .
-			 
-###  http://www.airQualityMadrid.com/ontology#CONTAMINANTE
-:contaminante rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Measurement ;
-             rdfs:range xsd:string .
-			 
-###  http://www.airQualityMadrid.com/ontology#TECNICA
-:tecnica rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Measurement ;
-             rdfs:range xsd:string .
 			 
 ###  http://www.airQualityMadrid.com/ontology#UNIDAD
 :unidad rdf:type owl:DatatypeProperty ;
              rdfs:domain :Measurement ;
              rdfs:range xsd:string .
 			 
-###  http://www.airQualityMadrid.com/ontology#FECHA
-:fecha rdf:type owl:DatatypeProperty ;
-      rdfs:domain :Measurement ;
-      rdfs:range xsd:string .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_1
-:valor_a_las_1 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_2
-:valor_a_las_2 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_3
-:valor_a_las_3 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_4
-:valor_a_las_4 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_5
-:valor_a_las_5 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_6
-:valor_a_las_6 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_7
-:valor_a_las_7 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_8
-:valor_a_las_8 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_9
-:valor_a_las_9 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_10
-:valor_a_las_10 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_11
-:valor_a_las_11 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_12
-:valor_a_las_12 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_13
-:valor_a_las_13 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_14
-:valor_a_las_14 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_15
-:valor_a_las_15 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_16
-:valor_a_las_16 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_17
-:valor_a_las_17 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_18
-:valor_a_las_18 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_19
-:valor_a_las_19 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_20
-:valor_a_las_20 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_21
-:valor_a_las_21 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_22
-:valor_a_las_22 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_23
-:valor_a_las_23 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
-
-###  http://www.airQualityMadrid.com/ontology#VALOR_A_LAS_24
-:valor_a_las_24 rdf:type owl:DatatypeProperty ;
-			rdfs:domain :Measurement ;
-			rdfs:range xsd:double .
+###  http://www.w3.org/ns/sosa/resultTime
+sosa:resultTime rdf:type owl:DatatypeProperty ;
+                rdfs:domain sosa:Observation ;
+                rdfs:range xsd:dateTime .
 			
-###  http://www.airQualityMadrid.com/ontology#LOCALIZACION
-:localizacion rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Station ;
-             rdfs:range xsd:string .
-			 
-###  http://www.airQualityMadrid.com/ontology#NOMBRE
-<http://dbpedia.org/ontology/name> rdf:type owl:DatatypeProperty ;
-				 rdfs:domain :Station ;
-				 rdfs:range xsd:string .
-
-###  http://www.airQualityMadrid.com/ontology#LATITUD
-:latitud rdf:type owl:DatatypeProperty ;
-				 rdfs:domain :Station ;
-				 rdfs:range xsd:float .
-
-###  http://www.airQualityMadrid.com/ontology#LATITUD
-:longitud rdf:type owl:DatatypeProperty ;
-				 rdfs:domain :Station ;
-				 rdfs:range xsd:float .				 
+		 
