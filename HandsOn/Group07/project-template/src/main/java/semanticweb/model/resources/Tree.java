@@ -8,7 +8,7 @@ public class Tree {
     private String family;
     private String quantity;
 
-    public String getName() {
+  public String getName() {
         return name;
     }
 
@@ -47,4 +47,5 @@ public class Tree {
     public void setFamily(String family) {
         this.family = family;
     }
+
 }

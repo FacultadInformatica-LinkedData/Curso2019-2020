@@ -1,4 +1,5 @@
 package semanticweb.model.resources;
+
 import java.util.ArrayList;
 
 public class Park {
@@ -6,9 +7,27 @@ public class Park {
     private String description;
     private String transport;
     private ArrayList<Tree> trees;
+    private String latitude;
+    private String longitude;
 
     public Park() {
         this.trees = new ArrayList<>();
+    }
+
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
+    }
+
+    public String getLatitude() {
+        return latitude;
+    }
+
+    public String getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
     }
 
     public String getName() {
