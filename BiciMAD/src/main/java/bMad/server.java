@@ -26,6 +26,7 @@ public class server {
                                   @RequestParam(defaultValue = "") String district) {
         String json="";
         app a = new app();
+
         json = a.getStations(neighborhood,district);
         if(json.isEmpty()){
             return new ResponseEntity<>("No BikeStations Found", HttpStatus.NOT_FOUND);
