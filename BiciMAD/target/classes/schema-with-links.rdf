@@ -170,19 +170,19 @@
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/UNIVERSIDAD">
+	<rdfs:label>UNIVERSIDAD</rdfs:label>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_4">
-	<rdfs:label>BiciMAD_Station_4</rdfs:label>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
+	<rdfs:label>BiciMAD_Station_4</rdfs:label>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/UNIVERSIDAD"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/UNIVERSIDAD">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>UNIVERSIDAD</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10387767"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_4">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/UNIVERSIDAD"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/MANUELA+MALASA%C3%91A%2C+CALLE%2C+DE">
@@ -293,9 +293,20 @@
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO">
+	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+	<rdfs:label>CENTRO</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1763376"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_7">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">75</hasStreetNumber>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6977399</hasLongitude>
 	<rdfs:label>BiciMAD_Station_7</rdfs:label>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4252161</hasLatitude>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/JUSTICIA">
@@ -316,20 +327,6 @@
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_7">
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/HORTALEZA%2C+CALLE%2C+DE"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO">
-	<rdf:type rdf:resource="https://schema.org/areaServed"/>
-	<rdfs:label>CENTRO</rdfs:label>
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1763376"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_7">
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</hasAvailability>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">75</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6977399</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4252161</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">HORTALEZA, CALLE, DE, 75</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
@@ -374,19 +371,19 @@
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/PALACIO">
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2136510"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_9">
 	<rdfs:label>BiciMAD_Station_9</rdfs:label>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/PALACIO"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/PALACIO">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
 	<rdfs:label>PALACIO</rdfs:label>
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2136510"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_9">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/PALACIO"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/SAN+MIGUEL%2C+PLAZA%2C+DE">
@@ -1030,12 +1027,21 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_23">
-	<rdfs:label>BiciMAD_Station_23</rdfs:label>
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
+	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO">
+	<rdfs:label>CENTRO</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1763376"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_23">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/PALACIO">
-	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
 	<rdfs:label>PALACIO</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2136510"/>
 </rdf:Description>
@@ -1052,22 +1058,19 @@
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_23">
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/SANTO+DOMINGO%2C+CUESTA%2C+DE"/>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4202137</hasLatitude>
+	<rdfs:label>BiciMAD_Station_23</rdfs:label>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7082901</hasLongitude>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">SANTO DOMINGO, CUESTA, DE, S/N</hasAddress>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/PALACIO">
+	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO">
 	<rdf:type rdf:resource="https://schema.org/areaServed"/>
-	<rdfs:label>CENTRO</rdfs:label>
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1763376"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_23">
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7082901</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4202137</hasLatitude>
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">SANTO DOMINGO, CUESTA, DE, S/N</hasAddress>
-	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_24">
@@ -1159,12 +1162,15 @@
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/SOL">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>SOL</rdfs:label>
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2465181"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_025b">
 	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/SOL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/SOL">
+	<rdfs:label>SOL</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2465181"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/CELENQUE%2C+PLAZA%2C+DEL">
@@ -1357,7 +1363,14 @@
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO">
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1763376"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_30">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">6</hasStreetNumber>
 	<rdfs:label>BiciMAD_Station_30</rdfs:label>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
@@ -1385,13 +1398,9 @@
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO">
 	<rdf:type rdf:resource="https://schema.org/areaServed"/>
 	<rdfs:label>CENTRO</rdfs:label>
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1763376"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_30">
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">6</hasStreetNumber>
 	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7115428</hasLongitude>
 	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4193355</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">PAVIA, CALLE, DE, 6</hasAddress>
@@ -1808,11 +1817,6 @@
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_41">
-	<rdfs:label>BiciMAD_Station_41</rdfs:label>
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/EMBAJADORES">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
 	<rdfs:label>EMBAJADORES</rdfs:label>
@@ -1821,6 +1825,8 @@
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_41">
 	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/EMBAJADORES"/>
+	<rdfs:label>BiciMAD_Station_41</rdfs:label>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ATOCHA%2C+CALLE%2C+DE">
@@ -2464,13 +2470,19 @@
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_57">
+	<rdfs:label>BiciMAD_Station_57</rdfs:label>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/UNIVERSIDAD">
+	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+	<rdfs:label>UNIVERSIDAD</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10387767"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_57">
 	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/UNIVERSIDAD"/>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7128181</hasLongitude>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/SANTA+CRUZ+DE+MARCENADO%2C+CALLE%2C+DE">
@@ -2480,35 +2492,23 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_57">
-	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">24</hasStreetNumber>
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/SANTA+CRUZ+DE+MARCENADO%2C+CALLE%2C+DE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO">
 	<rdf:type rdf:resource="https://schema.org/areaServed"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_57">
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">SANTA CRUZ DE MARCENADO, CALLE, DE, 24</hasAddress>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO">
 	<rdfs:label>CENTRO</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1763376"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_57">
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4296363</hasLatitude>
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
-	<rdfs:label>BiciMAD_Station_57</rdfs:label>
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/UNIVERSIDAD">
-	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>UNIVERSIDAD</rdfs:label>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">24</hasStreetNumber>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7128181</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4296363</hasLatitude>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">SANTA CRUZ DE MARCENADO, CALLE, DE, 24</hasAddress>
+	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_58">
@@ -2594,7 +2594,6 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_60">
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
 	<rdfs:label>BiciMAD_Station_60</rdfs:label>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
@@ -2628,6 +2627,7 @@
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_60">
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
 	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6881994</hasLongitude>
 	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4194508</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALFONSO XII, CALLE, DE, S/N</hasAddress>
@@ -2676,21 +2676,23 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_62">
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">O'DONNELL, CALLE, DE, S/N</hasAddress>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4212152</hasLatitude>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6706664</hasLongitude>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
+	<rdfs:label>BiciMAD_Station_62</rdfs:label>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2002296"/>
-	<rdfs:label>RETIRO</rdfs:label>
-	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/IBIZA">
+	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+	<rdfs:label>IBIZA</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15249910"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_62">
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/IBIZA"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/O%27DONNELL%2C+CALLE%2C+DE">
+	<rdf:type rdf:resource="https://schema.org/Place"/>
+	<rdfs:label>O'DONNELL, CALLE, DE</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5740859"/>
 </rdf:Description>
 
@@ -2698,30 +2700,19 @@
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/O%27DONNELL%2C+CALLE%2C+DE"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/O%27DONNELL%2C+CALLE%2C+DE">
-	<rdfs:label>O'DONNELL, CALLE, DE</rdfs:label>
-	<rdf:type rdf:resource="https://schema.org/Place"/>
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO">
+	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+	<rdfs:label>RETIRO</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2002296"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_62">
-	<rdfs:label>BiciMAD_Station_62</rdfs:label>
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/IBIZA">
-	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_62">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/IBIZA"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/IBIZA">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15249910"/>
-	<rdfs:label>IBIZA</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_62">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6706664</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4212152</hasLatitude>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">O'DONNELL, CALLE, DE, S/N</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
@@ -2766,36 +2757,33 @@
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO">
-	<rdf:type rdf:resource="https://schema.org/areaServed"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_65">
-	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/ANTONIO+MAURA%2C+CALLE%2C+DE"/>
+	<rdfs:label>BiciMAD_Station_65</rdfs:label>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ANTONIO+MAURA%2C+CALLE%2C+DE">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q29566726"/>
-	<rdfs:label>ANTONIO MAURA, CALLE, DE</rdfs:label>
-	<rdf:type rdf:resource="https://schema.org/Place"/>
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/JERÓNIMOS">
+	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+	<rdfs:label>JERÓNIMOS</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10306766"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_65">
 	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/JERÓNIMOS"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/JERÓNIMOS">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10306766"/>
-	<rdfs:label>JERÓNIMOS</rdfs:label>
-	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ANTONIO+MAURA%2C+CALLE%2C+DE">
+	<rdf:type rdf:resource="https://schema.org/Place"/>
+	<rdfs:label>ANTONIO MAURA, CALLE, DE</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q29566726"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_65">
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
-	<rdfs:label>BiciMAD_Station_65</rdfs:label>
+	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/ANTONIO+MAURA%2C+CALLE%2C+DE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO">
+	<rdf:type rdf:resource="https://schema.org/areaServed"/>
 	<rdfs:label>RETIRO</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2002296"/>
 </rdf:Description>
@@ -2811,134 +2799,128 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_67">
-	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
+	<rdfs:label>BiciMAD_Station_67</rdfs:label>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/CORTES">
+	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+	<rdfs:label>CORTES</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2535637"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_67">
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/CORTES"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ALMADEN%2C+CALLE%2C+DE">
 	<rdf:type rdf:resource="https://schema.org/Place"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_67">
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALMADEN, CALLE, DE, 28</hasAddress>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.410.829</hasLatitude>
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/CORTES"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/CORTES">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2535637"/>
-	<rdfs:label>CORTES</rdfs:label>
-	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_67">
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6931349</hasLongitude>
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
-	<rdfs:label>BiciMAD_Station_67</rdfs:label>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">28</hasStreetNumber>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">67</hasAvailability>
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1763376"/>
-	<rdfs:label>CENTRO</rdfs:label>
-	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+	<rdfs:label>ALMADEN, CALLE, DE</rdfs:label>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_67">
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/ALMADEN%2C+CALLE%2C+DE"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ALMADEN%2C+CALLE%2C+DE">
-	<rdfs:label>ALMADEN, CALLE, DE</rdfs:label>
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO">
+	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+	<rdfs:label>CENTRO</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1763376"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_68">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_67">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CENTRO"/>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">67</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">28</hasStreetNumber>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6931349</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.410829</hasLatitude>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALMADEN, CALLE, DE, 28</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">ESPALTER, CALLE, DE, 1</hasAddress>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.412781</hasLatitude>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ESPALTER%2C+CALLE%2C+DE">
-	<rdfs:label>ESPALTER, CALLE, DE</rdfs:label>
-	<rdf:type rdf:resource="https://schema.org/Place"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_68">
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6911649</hasLongitude>
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/JERÓNIMOS"/>
+	<rdfs:label>BiciMAD_Station_68</rdfs:label>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/JERÓNIMOS">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10306766"/>
-	<rdfs:label>JERÓNIMOS</rdfs:label>
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+	<rdfs:label>JERÓNIMOS</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10306766"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_68">
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</hasAvailability>
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
-	<rdfs:label>BiciMAD_Station_68</rdfs:label>
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/JERÓNIMOS"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2002296"/>
-	<rdfs:label>RETIRO</rdfs:label>
-	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ESPALTER%2C+CALLE%2C+DE">
+	<rdf:type rdf:resource="https://schema.org/Place"/>
+	<rdfs:label>ESPALTER, CALLE, DE</rdfs:label>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_68">
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/ESPALTER%2C+CALLE%2C+DE"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_69">
-	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALFONSO XII, CALLE, DE, 54</hasAddress>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4100609</hasLatitude>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6888669</hasLongitude>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">54</hasStreetNumber>
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2002296"/>
-	<rdfs:label>RETIRO</rdfs:label>
 	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+	<rdfs:label>RETIRO</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2002296"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_68">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6911649</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.412781</hasLatitude>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">ESPALTER, CALLE, DE, 1</hasAddress>
+	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_69">
-	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/ALFONSO+XII%2C+CALLE%2C+DE"/>
+	<rdfs:label>BiciMAD_Station_69</rdfs:label>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ALFONSO+XII%2C+CALLE%2C+DE">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5659170"/>
-	<rdfs:label>ALFONSO XII, CALLE, DE</rdfs:label>
-	<rdf:type rdf:resource="https://schema.org/Place"/>
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/JERÓNIMOS">
+	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+	<rdfs:label>JERÓNIMOS</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10306766"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_69">
 	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/JERÓNIMOS"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/JERÓNIMOS">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10306766"/>
-	<rdfs:label>JERÓNIMOS</rdfs:label>
-	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ALFONSO+XII%2C+CALLE%2C+DE">
+	<rdf:type rdf:resource="https://schema.org/Place"/>
+	<rdfs:label>ALFONSO XII, CALLE, DE</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5659170"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_69">
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
-	<rdfs:label>BiciMAD_Station_69</rdfs:label>
+	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/ALFONSO+XII%2C+CALLE%2C+DE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO">
+	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+	<rdfs:label>RETIRO</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2002296"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_69">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">54</hasStreetNumber>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6888669</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4100609</hasLatitude>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALFONSO XII, CALLE, DE, 54</hasAddress>
+	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_70">
-	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">MENENDEZ PELAYO, AVENIDA, DE, S/N</hasAddress>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4151635</hasLatitude>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6777776</hasLongitude>
+	<rdfs:label>BiciMAD_Station_70</rdfs:label>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
@@ -2960,40 +2942,37 @@
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_70">
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/MENENDEZ+PELAYO%2C+AVENIDA%2C+DE"/>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO">
 	<rdf:type rdf:resource="https://schema.org/areaServed"/>
 	<rdfs:label>RETIRO</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_70">
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO">
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2002296"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_70">
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/RETIRO"/>
-	<rdfs:label>BiciMAD_Station_70</rdfs:label>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6777776</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4151635</hasLatitude>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">MENENDEZ PELAYO, AVENIDA, DE, S/N</hasAddress>
+	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_71">
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 	<rdfs:label>BiciMAD_Station_71</rdfs:label>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FNI%C3%91O+JES%C3%9AS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/NIÑO_JESÚS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>NIÑO JESÚS</rdfs:label>
+	<rdfs:label>NIÑO_JESÚS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3773746"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_71">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FNI%C3%91O+JES%C3%9AS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/NIÑO_JESÚS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/DOCE+DE+OCTUBRE%2C+CALLE%2C+DEL">
@@ -3189,14 +3168,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FNI%C3%91O+JES%C3%9AS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/NIÑO_JESÚS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>NIÑO JESÚS</rdfs:label>
+	<rdfs:label>NIÑO_JESÚS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3773746"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_76">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FNI%C3%91O+JES%C3%9AS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/NIÑO_JESÚS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/JUAN+DE+URBIETA%2C+CALLE%2C+DE">
@@ -3516,14 +3495,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FNI%C3%91O+JES%C3%9AS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/NIÑO_JESÚS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>NIÑO JESÚS</rdfs:label>
+	<rdfs:label>NIÑO_JESÚS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3773746"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_83">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FNI%C3%91O+JES%C3%9AS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/NIÑO_JESÚS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/PIO+BAROJA%2C+CALLE%2C+DE">
@@ -3551,11 +3530,6 @@
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_84">
-	<rdfs:label>BiciMAD_Station_84</rdfs:label>
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/ADELFAS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
 	<rdfs:label>ADELFAS</rdfs:label>
@@ -3569,6 +3543,14 @@
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/DOCTOR+ESQUERDO%2C+CALLE%2C+DEL">
 	<rdf:type rdf:resource="https://schema.org/Place"/>
 	<rdfs:label>DOCTOR ESQUERDO, CALLE, DEL</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_84">
+	<rdfs:label>BiciMAD_Station_84</rdfs:label>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/DOCTOR+ESQUERDO%2C+CALLE%2C+DEL">
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5741005"/>
 </rdf:Description>
 
@@ -4043,69 +4025,50 @@
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
-	<rdfs:label>SALAMANCA</rdfs:label>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_96">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/RECOLETOS"/>
-	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ALCALA%2C+CALLE%2C+DE">
-	<rdf:type rdf:resource="https://schema.org/Place"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/RECOLETOS">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3814551"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
-	<rdf:type rdf:resource="https://schema.org/areaServed"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_96">
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALCALA, CALLE, DE, 111</hasAddress>
 	<rdfs:label>BiciMAD_Station_96</rdfs:label>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">111</hasStreetNumber>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4220516</hasLatitude>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/RECOLETOS">
-	<rdfs:label>RECOLETOS</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_96">
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6820471</hasLongitude>
-	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/ALCALA%2C+CALLE%2C+DE"/>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ALCALA%2C+CALLE%2C+DE">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2424746"/>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/RECOLETOS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+	<rdfs:label>RECOLETOS</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3814551"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_96">
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/RECOLETOS"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ALCALA%2C+CALLE%2C+DE">
+	<rdf:type rdf:resource="https://schema.org/Place"/>
+	<rdfs:label>ALCALA, CALLE, DE</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2424746"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_96">
+	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/ALCALA%2C+CALLE%2C+DE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
+	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+	<rdfs:label>SALAMANCA</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1773521"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_96">
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1773521"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ALCALA%2C+CALLE%2C+DE">
-	<rdfs:label>ALCALA, CALLE, DE</rdfs:label>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">111</hasStreetNumber>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6820471</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4220516</hasLatitude>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALCALA, CALLE, DE, 111</hasAddress>
+	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_97">
-	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">MENENDEZ PELAYO, AVENIDA, DE, 1</hasAddress>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4224846</hasLatitude>
+	<rdfs:label>BiciMAD_Station_97</rdfs:label>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/GOYA">
@@ -4116,18 +4079,10 @@
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_97">
 	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/GOYA"/>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/MENENDEZ+PELAYO%2C+AVENIDA%2C+DE">
 	<rdf:type rdf:resource="https://schema.org/Place"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_97">
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6801515</hasLongitude>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/MENENDEZ+PELAYO%2C+AVENIDA%2C+DE">
 	<rdfs:label>MENENDEZ PELAYO, AVENIDA, DE</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q28936960"/>
 </rdf:Description>
@@ -4138,107 +4093,95 @@
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
 	<rdf:type rdf:resource="https://schema.org/areaServed"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_97">
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
 	<rdfs:label>SALAMANCA</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1773521"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_97">
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
-	<rdfs:label>BiciMAD_Station_97</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_98">
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6801515</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4224846</hasLatitude>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">MENENDEZ PELAYO, AVENIDA, DE, 1</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
-	<rdfs:label>SALAMANCA</rdfs:label>
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_98">
+	<rdfs:label>BiciMAD_Station_98</rdfs:label>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/GOYA">
+	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+	<rdfs:label>GOYA</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3814578"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_98">
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">FELIPE II, AVENIDA, DE, 5</hasAddress>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4241911</hasLatitude>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/FELIPE+II%2C+AVENIDA%2C+DE">
-	<rdfs:label>FELIPE II, AVENIDA, DE</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
-	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/GOYA"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/FELIPE+II%2C+AVENIDA%2C+DE">
 	<rdf:type rdf:resource="https://schema.org/Place"/>
+	<rdfs:label>FELIPE II, AVENIDA, DE</rdfs:label>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_98">
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/FELIPE+II%2C+AVENIDA%2C+DE"/>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6754079</hasLongitude>
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/GOYA"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/GOYA">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3814578"/>
-	<rdfs:label>GOYA</rdfs:label>
-	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
+	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+	<rdfs:label>SALAMANCA</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1773521"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_98">
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">5</hasStreetNumber>
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
-	<rdfs:label>BiciMAD_Station_98</rdfs:label>
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1773521"/>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">5</hasStreetNumber>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6754079</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4241911</hasLatitude>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">FELIPE II, AVENIDA, DE, 5</hasAddress>
+	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_99">
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">2</hasStreetNumber>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 	<rdfs:label>BiciMAD_Station_99</rdfs:label>
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1773521"/>
-	<rdfs:label>SALAMANCA</rdfs:label>
-	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/GOYA">
+	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+	<rdfs:label>GOYA</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3814578"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_99">
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/GOYA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ALCANTARA%2C+CALLE%2C+DE">
+	<rdf:type rdf:resource="https://schema.org/Place"/>
+	<rdfs:label>ALCANTARA, CALLE, DE</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q28070781"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_99">
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/ALCANTARA%2C+CALLE%2C+DE"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ALCANTARA%2C+CALLE%2C+DE">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q28070781"/>
-	<rdfs:label>ALCANTARA, CALLE, DE</rdfs:label>
-	<rdf:type rdf:resource="https://schema.org/Place"/>
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
+	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+	<rdfs:label>SALAMANCA</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1773521"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_99">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/GOYA"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/GOYA">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3814578"/>
-	<rdfs:label>GOYA</rdfs:label>
-	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_99">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">2</hasStreetNumber>
 	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6739638</hasLongitude>
 	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4261048</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">ALCANTARA, CALLE, DE, 2</hasAddress>
@@ -4368,14 +4311,38 @@
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/JOSE+ORTEGA+Y+GASSET%2C+CALLE%2C+DE">
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q16540548"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_103">
+	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/JOSE+ORTEGA+Y+GASSET%2C+CALLE%2C+DE"/>
 	<rdfs:label>BiciMAD_Station_103</rdfs:label>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
+	<rdfs:label>SALAMANCA</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_103">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1773521"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/CASTELLANA">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
 	<rdfs:label>CASTELLANA</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_103">
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/CASTELLANA">
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4781"/>
 </rdf:Description>
 
@@ -4386,22 +4353,13 @@
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/JOSE+ORTEGA+Y+GASSET%2C+CALLE%2C+DE">
 	<rdf:type rdf:resource="https://schema.org/Place"/>
 	<rdfs:label>JOSE ORTEGA Y GASSET, CALLE, DE</rdfs:label>
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q16540548"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_103">
-	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/JOSE+ORTEGA+Y+GASSET%2C+CALLE%2C+DE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
 	<rdf:type rdf:resource="https://schema.org/areaServed"/>
-	<rdfs:label>SALAMANCA</rdfs:label>
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1773521"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_103">
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">4</hasStreetNumber>
 	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6865351</hasLongitude>
 	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4303733</hasLatitude>
@@ -4409,24 +4367,7 @@
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_104">
-	<rdfs:label>BiciMAD_Station_104</rdfs:label>
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/RECOLETOS">
-	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>RECOLETOS</rdfs:label>
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3814551"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_104">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/RECOLETOS"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/CASTELLANA%2C+PASEO%2C+DE+LA">
-	<rdf:type rdf:resource="https://schema.org/Place"/>
-	<rdfs:label>CASTELLANA, PASEO, DE LA</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1473674"/>
 </rdf:Description>
 
@@ -4442,11 +4383,43 @@
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_104">
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">CASTELLANA, PASEO, DE LA, 4</hasAddress>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">4</hasStreetNumber>
 	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6895792</hasLongitude>
 	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4267658</hasLatitude>
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">CASTELLANA, PASEO, DE LA, 4</hasAddress>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/RECOLETOS">
+	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/CASTELLANA%2C+PASEO%2C+DE+LA">
+	<rdf:type rdf:resource="https://schema.org/Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_104">
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/RECOLETOS"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/RECOLETOS">
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3814551"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_104">
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
+	<rdfs:label>BiciMAD_Station_104</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/RECOLETOS">
+	<rdfs:label>RECOLETOS</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/CASTELLANA%2C+PASEO%2C+DE+LA">
+	<rdfs:label>CASTELLANA, PASEO, DE LA</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_104">
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
@@ -4659,14 +4632,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCASA+DE+CAMPO">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/CASA_DE_CAMPO">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>CASA DE CAMPO</rdfs:label>
+	<rdfs:label>CASA_DE_CAMPO</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q16302441"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_110">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCASA+DE+CAMPO"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/CASA_DE_CAMPO"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/MORET%2C+PASEO%2C+DE">
@@ -4823,14 +4796,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCASA+DE+CAMPO">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/CASA_DE_CAMPO">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>CASA DE CAMPO</rdfs:label>
+	<rdfs:label>CASA_DE_CAMPO</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q16302441"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_113">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCASA+DE+CAMPO"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/CASA_DE_CAMPO"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/PINTOR+ROSALES%2C+PASEO%2C+DEL">
@@ -4901,39 +4874,13 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_115">
-	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/MARQUES+DE+CERRALBO%2C+PLAZA%2C+DEL">
-	<rdf:type rdf:resource="https://schema.org/Place"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_115">
-	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/MARQUES+DE+CERRALBO%2C+PLAZA%2C+DEL"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/ARGÜELLES">
-	<rdfs:label>ARGÜELLES</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_115">
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 	<rdfs:label>BiciMAD_Station_115</rdfs:label>
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">MARQUES DE CERRALBO, PLAZA, DEL, S/N</hasAddress>
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA"/>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4253802</hasLatitude>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2017682"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_115">
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7169626</hasLongitude>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/ARGÜELLES">
+	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+	<rdfs:label>ARGÜELLES</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q64874"/>
 </rdf:Description>
 
@@ -4941,29 +4888,34 @@
 	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/ARGÜELLES"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/ARGÜELLES">
-	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA">
-	<rdf:type rdf:resource="https://schema.org/areaServed"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/MARQUES+DE+CERRALBO%2C+PLAZA%2C+DEL">
+	<rdf:type rdf:resource="https://schema.org/Place"/>
 	<rdfs:label>MARQUES DE CERRALBO, PLAZA, DEL</rdfs:label>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_115">
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
+	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/MARQUES+DE+CERRALBO%2C+PLAZA%2C+DEL"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA">
+	<rdf:type rdf:resource="https://schema.org/areaServed"/>
 	<rdfs:label>MONCLOA-ARAVACA</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2017682"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_115">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA"/>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7169626</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4253802</hasLatitude>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">MARQUES DE CERRALBO, PLAZA, DEL, S/N</hasAddress>
+	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_116a">
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 	<rdfs:label>BiciMAD_Station_116a</rdfs:label>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/ARGÜELLES">
@@ -5002,7 +4954,14 @@
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_116b">
+	<rdfs:label>BiciMAD_Station_116b</rdfs:label>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/ARGÜELLES">
+	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+	<rdfs:label>ARGÜELLES</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q64874"/>
 </rdf:Description>
 
@@ -5012,47 +4971,22 @@
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ESPA%C3%91A%2C+PLAZA%2C+DE">
 	<rdf:type rdf:resource="https://schema.org/Place"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA">
-	<rdfs:label>MONCLOA-ARAVACA</rdfs:label>
+	<rdfs:label>ESPAÑA, PLAZA, DE</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1326261"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_116b">
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/ESPA%C3%91A%2C+PLAZA%2C+DE"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ESPA%C3%91A%2C+PLAZA%2C+DE">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1326261"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA">
 	<rdf:type rdf:resource="https://schema.org/areaServed"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_116b">
-	<rdfs:label>BiciMAD_Station_116b</rdfs:label>
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/ARGÜELLES">
-	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>ARGÜELLES</rdfs:label>
+	<rdfs:label>MONCLOA-ARAVACA</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2017682"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_116b">
 	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/MONCLOA-ARAVACA">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2017682"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ESPA%C3%91A%2C+PLAZA%2C+DE">
-	<rdfs:label>ESPAÑA, PLAZA, DE</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_116b">
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">S/N</hasStreetNumber>
 	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7118905</hasLongitude>
@@ -5103,21 +5037,18 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_118">
+	<rdfs:label>BiciMAD_Station_118</rdfs:label>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/ARGANZUELA">
-	<rdfs:label>ARGANZUELA</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FPALOS+DE+MOGUER">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/PALOS_DE_MOGUER">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>PALOS DE MOGUER</rdfs:label>
+	<rdfs:label>PALOS_DE_MOGUER</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q521009"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_118">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FPALOS+DE+MOGUER"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/PALOS_DE_MOGUER"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/JUAN+MARTIN+EL+EMPECINADO%2C+CALLE%2C+DE">
@@ -5126,17 +5057,17 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_118">
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/ARGANZUELA"/>
+	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/JUAN+MARTIN+EL+EMPECINADO%2C+CALLE%2C+DE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/ARGANZUELA">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2000929"/>
 	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+	<rdfs:label>ARGANZUELA</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2000929"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_118">
-	<rdfs:label>BiciMAD_Station_118</rdfs:label>
-	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/JUAN+MARTIN+EL+EMPECINADO%2C+CALLE%2C+DE"/>
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/ARGANZUELA"/>
 	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">16</hasStreetNumber>
 	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6881393</hasLongitude>
@@ -5191,14 +5122,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FPALOS+DE+MOGUER">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/PALOS_DE_MOGUER">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>PALOS DE MOGUER</rdfs:label>
+	<rdfs:label>PALOS_DE_MOGUER</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q521009"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_120">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FPALOS+DE+MOGUER"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/PALOS_DE_MOGUER"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/PALOS+DE+LA+FRONTERA%2C+CALLE%2C+DE">
@@ -5231,14 +5162,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FPALOS+DE+MOGUER">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/PALOS_DE_MOGUER">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>PALOS DE MOGUER</rdfs:label>
+	<rdfs:label>PALOS_DE_MOGUER</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q521009"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_121">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FPALOS+DE+MOGUER"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/PALOS_DE_MOGUER"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/SANTA+MARIA+DE+LA+CABEZA%2C+PASEO%2C+DE">
@@ -5308,7 +5239,14 @@
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">23-06-14</hasDate>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ">
+	<rdfs:label>CHAMBERÍ</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1763370"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_123">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
 	<rdfs:label>BiciMAD_Station_123</rdfs:label>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
@@ -5330,19 +5268,15 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_123">
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">2</hasStreetNumber>
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/GUZMAN+EL+BUENO%2C+CALLE%2C+DE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ">
 	<rdf:type rdf:resource="https://schema.org/areaServed"/>
-	<rdfs:label>CHAMBERÍ</rdfs:label>
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1763370"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_123">
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMBERÍ"/>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">2</hasStreetNumber>
 	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7134685</hasLongitude>
 	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4306386</hasLatitude>
 	<hasAddress xmlns="http://www.biciMad.com/ontology/">GUZMAN EL BUENO, CALLE, DE, 2</hasAddress>
@@ -5559,14 +5493,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FR%C3%8DOS+ROSAS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/RÍOS_ROSAS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>RÍOS ROSAS</rdfs:label>
+	<rdfs:label>RÍOS_ROSAS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10366270"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_129">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FR%C3%8DOS+ROSAS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/RÍOS_ROSAS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/JOSE+ABASCAL%2C+CALLE%2C+DE">
@@ -5600,14 +5534,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FR%C3%8DOS+ROSAS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/RÍOS_ROSAS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>RÍOS ROSAS</rdfs:label>
+	<rdfs:label>RÍOS_ROSAS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10366270"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_130">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FR%C3%8DOS+ROSAS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/RÍOS_ROSAS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/SANTA+ENGRACIA%2C+CALLE%2C+DE">
@@ -5641,14 +5575,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FR%C3%8DOS+ROSAS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/RÍOS_ROSAS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>RÍOS ROSAS</rdfs:label>
+	<rdfs:label>RÍOS_ROSAS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10366270"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_131">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FR%C3%8DOS+ROSAS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/RÍOS_ROSAS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/BRAVO+MURILLO%2C+CALLE%2C+DE">
@@ -5682,14 +5616,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FR%C3%8DOS+ROSAS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/RÍOS_ROSAS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>RÍOS ROSAS</rdfs:label>
+	<rdfs:label>RÍOS_ROSAS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10366270"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_132">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FR%C3%8DOS+ROSAS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/RÍOS_ROSAS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/SANTA+ENGRACIA%2C+CALLE%2C+DE">
@@ -5723,14 +5657,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCUATRO+CAMINOS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/CUATRO_CAMINOS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>CUATRO CAMINOS</rdfs:label>
+	<rdfs:label>CUATRO_CAMINOS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5824684"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_133">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCUATRO+CAMINOS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/CUATRO_CAMINOS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/DULCINEA%2C+CALLE%2C+DE">
@@ -5763,14 +5697,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FR%C3%8DOS+ROSAS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/RÍOS_ROSAS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>RÍOS ROSAS</rdfs:label>
+	<rdfs:label>RÍOS_ROSAS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10366270"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_134">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FR%C3%8DOS+ROSAS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/RÍOS_ROSAS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/MARIA+DE+GUZMAN%2C+CALLE%2C+DE">
@@ -5804,14 +5738,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FR%C3%8DOS+ROSAS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/RÍOS_ROSAS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>RÍOS ROSAS</rdfs:label>
+	<rdfs:label>RÍOS_ROSAS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10366270"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_135">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FR%C3%8DOS+ROSAS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/RÍOS_ROSAS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/SAN+JUAN+DE+LA+CRUZ%2C+PLAZA%2C+DE">
@@ -5845,14 +5779,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>EL VISO</rdfs:label>
+	<rdfs:label>EL_VISO</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4778"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_136">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/CASTELLANA%2C+PASEO%2C+DE+LA">
@@ -5886,14 +5820,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>EL VISO</rdfs:label>
+	<rdfs:label>EL_VISO</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4778"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_137">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/REPUBLICA+ARGENTINA%2C+PLAZA%2C+DE+LA">
@@ -5927,14 +5861,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FR%C3%8DOS+ROSAS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/RÍOS_ROSAS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>RÍOS ROSAS</rdfs:label>
+	<rdfs:label>RÍOS_ROSAS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10366270"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_138">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FR%C3%8DOS+ROSAS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/RÍOS_ROSAS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/CASTELLANA%2C+PASEO%2C+DE+LA">
@@ -5968,14 +5902,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>EL VISO</rdfs:label>
+	<rdfs:label>EL_VISO</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4778"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_139">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/JOSE+GUTIERREZ+ABASCAL%2C+CALLE%2C+DE">
@@ -6008,14 +5942,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>EL VISO</rdfs:label>
+	<rdfs:label>EL_VISO</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4778"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_140">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/VELAZQUEZ%2C+CALLE%2C+DE">
@@ -6209,6 +6143,45 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_145">
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/LISTA"/>
+	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">87</hasStreetNumber>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/JOSE+ORTEGA+Y+GASSET%2C+CALLE%2C+DE">
+	<rdf:type rdf:resource="https://schema.org/Place"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_145">
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/JOSE+ORTEGA+Y+GASSET%2C+CALLE%2C+DE">
+	<rdfs:label>JOSE ORTEGA Y GASSET, CALLE, DE</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q16540548"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_145">
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.671401</hasLongitude>
+	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/JOSE+ORTEGA+Y+GASSET%2C+CALLE%2C+DE"/>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">JOSE ORTEGA Y GASSET, CALLE, DE, 87</hasAddress>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
+	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_145">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1773521"/>
+	<rdfs:label>SALAMANCA</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_145">
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4297717</hasLatitude>
 	<rdfs:label>BiciMAD_Station_145</rdfs:label>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
@@ -6219,49 +6192,40 @@
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4779"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_145">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/LISTA"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/JOSE+ORTEGA+Y+GASSET%2C+CALLE%2C+DE">
-	<rdf:type rdf:resource="https://schema.org/Place"/>
-	<rdfs:label>JOSE ORTEGA Y GASSET, CALLE, DE</rdfs:label>
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q16540548"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_145">
-	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/JOSE+ORTEGA+Y+GASSET%2C+CALLE%2C+DE"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA">
-	<rdf:type rdf:resource="https://schema.org/areaServed"/>
-	<rdfs:label>SALAMANCA</rdfs:label>
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1773521"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_145">
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/SALAMANCA"/>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">87</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.671401</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4297717</hasLatitude>
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">JOSE ORTEGA Y GASSET, CALLE, DE, 87</hasAddress>
-	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_146">
+	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">20-06-15</hasDate>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">MARIA FRANCISCA, CALLE, DE, 1</hasAddress>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4442372</hasLatitude>
 	<rdfs:label>BiciMAD_Station_146</rdfs:label>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>EL VISO</rdfs:label>
+	<rdfs:label>EL_VISO</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN">
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1766348"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_146">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN">
+	<rdfs:label>CHAMARTÍN</rdfs:label>
+	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO">
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4778"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_146">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/MARIA+FRANCISCA%2C+CALLE%2C+DE">
@@ -6271,192 +6235,147 @@
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_146">
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/MARIA+FRANCISCA%2C+CALLE%2C+DE"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN">
-	<rdf:type rdf:resource="https://schema.org/areaServed"/>
-	<rdfs:label>CHAMARTÍN</rdfs:label>
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1766348"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_146">
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">1</hasStreetNumber>
 	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6787983</hasLongitude>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4442372</hasLatitude>
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">MARIA FRANCISCA, CALLE, DE, 1</hasAddress>
-	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">20-06-15</hasDate>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_147">
 	<rdfs:label>BiciMAD_Station_147</rdfs:label>
-	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
-	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6795811</hasLongitude>
+	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/DOCTOR+ARCE%2C+AVENIDA%2C+DEL"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO">
-	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>EL VISO</rdfs:label>
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/DOCTOR+ARCE%2C+AVENIDA%2C+DEL">
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q29199638"/>
+	<rdfs:label>DOCTOR ARCE, AVENIDA, DEL</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_147">
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO">
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4778"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_147">
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4483353</hasLatitude>
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO"/>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">45</hasStreetNumber>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO">
+	<rdfs:label>EL_VISO</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_147">
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO">
+	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_147">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN">
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1766348"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/DOCTOR+ARCE%2C+AVENIDA%2C+DEL">
 	<rdf:type rdf:resource="https://schema.org/Place"/>
-	<rdfs:label>DOCTOR ARCE, AVENIDA, DEL</rdfs:label>
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q29199638"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_147">
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">DOCTOR ARCE, AVENIDA, DEL, 45</hasAddress>
-	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/DOCTOR+ARCE%2C+AVENIDA%2C+DEL"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN">
-	<rdf:type rdf:resource="https://schema.org/areaServed"/>
-	<rdfs:label>CHAMARTÍN</rdfs:label>
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1766348"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_147">
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">45</hasStreetNumber>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6795811</hasLongitude>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN">
 	<rdfs:label>CHAMARTÍN</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_148">
-	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN">
 	<rdf:type rdf:resource="https://schema.org/areaServed"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO">
-	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_148">
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">SERRANO, CALLE, DE, 210</hasAddress>
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4510228</hasLatitude>
-	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/SERRANO%2C+CALLE%2C+DE"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/SERRANO%2C+CALLE%2C+DE">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5740879"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_148">
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">210</hasStreetNumber>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/SERRANO%2C+CALLE%2C+DE">
-	<rdfs:label>SERRANO, CALLE, DE</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_148">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_147">
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6817012</hasLongitude>
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/SERRANO%2C+CALLE%2C+DE">
-	<rdf:type rdf:resource="https://schema.org/Place"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4778"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_148">
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO">
-	<rdfs:label>EL VISO</rdfs:label>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4483353</hasLatitude>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">DOCTOR ARCE, AVENIDA, DEL, 45</hasAddress>
+	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_148">
 	<rdfs:label>BiciMAD_Station_148</rdfs:label>
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1766348"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_149">
-	<hasAddress xmlns="http://www.biciMad.com/ontology/">LA HABANA, PASEO, DE, 42</hasAddress>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO">
-	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_149">
-	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.449845</hasLatitude>
-	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">42</hasStreetNumber>
-	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/LA+HABANA%2C+PASEO%2C+DE">
-	<rdf:type rdf:resource="https://schema.org/Place"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_149">
-	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1766348"/>
-	<rdfs:label>CHAMARTÍN</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_149">
-	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6878481</hasLongitude>
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO">
+	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+	<rdfs:label>EL_VISO</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4778"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_148">
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/SERRANO%2C+CALLE%2C+DE">
+	<rdf:type rdf:resource="https://schema.org/Place"/>
+	<rdfs:label>SERRANO, CALLE, DE</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5740879"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_148">
+	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/SERRANO%2C+CALLE%2C+DE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN">
 	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+	<rdfs:label>CHAMARTÍN</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1766348"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_148">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">210</hasStreetNumber>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6817012</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4510228</hasLatitude>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">SERRANO, CALLE, DE, 210</hasAddress>
+	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_149">
 	<rdfs:label>BiciMAD_Station_149</rdfs:label>
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO"/>
+	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO">
+	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
+	<rdfs:label>EL_VISO</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4778"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_149">
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/LA+HABANA%2C+PASEO%2C+DE">
+	<rdf:type rdf:resource="https://schema.org/Place"/>
+	<rdfs:label>LA HABANA, PASEO, DE</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q28059068"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_149">
 	<hasStreet xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/place/LA+HABANA%2C+PASEO%2C+DE"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/LA+HABANA%2C+PASEO%2C+DE">
-	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q28059068"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO">
-	<rdfs:label>EL VISO</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/LA+HABANA%2C+PASEO%2C+DE">
-	<rdfs:label>LA HABANA, PASEO, DE</rdfs:label>
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN">
+	<rdf:type rdf:resource="https://schema.org/areaServed"/>
+	<rdfs:label>CHAMARTÍN</rdfs:label>
+	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1766348"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_149">
+	<hasDistrict xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/areaServed/CHAMARTÍN"/>
+	<hasAvailability xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</hasAvailability>
+	<hasStreetNumber xmlns="http://www.biciMad.com/ontology/">42</hasStreetNumber>
+	<hasLongitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6878481</hasLongitude>
+	<hasLatitude xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.449845</hasLatitude>
+	<hasAddress xmlns="http://www.biciMad.com/ontology/">LA HABANA, PASEO, DE, 42</hasAddress>
 	<hasDate xmlns="http://www.biciMad.com/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01-07-15</hasDate>
 </rdf:Description>
 
@@ -6465,14 +6384,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>EL VISO</rdfs:label>
+	<rdfs:label>EL_VISO</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4778"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_150">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FEL+VISO"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/EL_VISO"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/CASTELLANA%2C+PASEO%2C+DE+LA">
@@ -6506,14 +6425,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCUATRO+CAMINOS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/CUATRO_CAMINOS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>CUATRO CAMINOS</rdfs:label>
+	<rdfs:label>CUATRO_CAMINOS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5824684"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_151">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCUATRO+CAMINOS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/CUATRO_CAMINOS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ORENSE%2C+CALLE%2C+DE">
@@ -6547,14 +6466,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCUATRO+CAMINOS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/CUATRO_CAMINOS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>CUATRO CAMINOS</rdfs:label>
+	<rdfs:label>CUATRO_CAMINOS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5824684"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_152">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCUATRO+CAMINOS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/CUATRO_CAMINOS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/GENERAL+PERON%2C+AVENIDA%2C+DEL">
@@ -6588,14 +6507,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCUATRO+CAMINOS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/CUATRO_CAMINOS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>CUATRO CAMINOS</rdfs:label>
+	<rdfs:label>CUATRO_CAMINOS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5824684"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_153">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCUATRO+CAMINOS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/CUATRO_CAMINOS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/GENERAL+PERON%2C+AVENIDA%2C+DEL">
@@ -6629,14 +6548,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCUATRO+CAMINOS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/CUATRO_CAMINOS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>CUATRO CAMINOS</rdfs:label>
+	<rdfs:label>CUATRO_CAMINOS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5824684"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_154">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCUATRO+CAMINOS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/CUATRO_CAMINOS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/ORENSE%2C+CALLE%2C+DE">
@@ -6670,14 +6589,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCUATRO+CAMINOS">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/CUATRO_CAMINOS">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>CUATRO CAMINOS</rdfs:label>
+	<rdfs:label>CUATRO_CAMINOS</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5824684"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_155">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCUATRO+CAMINOS"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/CUATRO_CAMINOS"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/SAN+GERM%C3%81N%2C+CALLE%2C+DE">
@@ -6752,14 +6671,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FNUEVA+ESPA%C3%91A">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/NUEVA_ESPAÑA">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>NUEVA ESPAÑA</rdfs:label>
+	<rdfs:label>NUEVA_ESPAÑA</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10338128"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_157">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FNUEVA+ESPA%C3%91A"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/NUEVA_ESPAÑA"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/CASTELLANA%2C+PASEO%2C+DE+LA">
@@ -6915,14 +6834,14 @@
 	<rdf:type rdf:resource="http://www.biciMAD.com/ontology/BikeStation"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCASA+DE+CAMPO">
+<rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/addressRegion/CASA_DE_CAMPO">
 	<rdf:type rdf:resource="https://schema.org/addressRegion"/>
-	<rdfs:label>CASA DE CAMPO</rdfs:label>
+	<rdfs:label>CASA_DE_CAMPO</rdfs:label>
 	<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q16302441"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/BiciMAD_Station_161">
-	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion%2FCASA+DE+CAMPO"/>
+	<hasNeighborhood xmlns="http://www.biciMad.com/ontology/" rdf:resource="http://www.biciMad.com/BikeStation/resource/addressRegion/CASA_DE_CAMPO"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.biciMad.com/BikeStation/resource/place/FLORIDA%2C+PASEO%2C+DE+LA">
