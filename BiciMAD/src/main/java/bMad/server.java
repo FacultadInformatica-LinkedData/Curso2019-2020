@@ -20,6 +20,7 @@ public class server {
         Shows Bikes Stations by filtering or not
         return JSON with BikeStations Searched
     */
+    @CrossOrigin
     @RequestMapping(value = "/BikeStations", method = RequestMethod.GET,
             produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> getBikeStations(@RequestParam(defaultValue="") String neighborhood,
@@ -34,6 +35,7 @@ public class server {
         return new ResponseEntity<>(json,HttpStatus.ACCEPTED);
     }
 
+    @CrossOrigin
     @RequestMapping(value = "/Neighborhoods", method = RequestMethod.GET,
             produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> getNeighborhoods(){
@@ -46,7 +48,7 @@ public class server {
         return new ResponseEntity<>(json,HttpStatus.ACCEPTED);
     }
 
-
+    @CrossOrigin
     @RequestMapping(value = "/Districts", method = RequestMethod.GET,
             produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> getDistricts(){
@@ -63,6 +65,7 @@ public class server {
         Shows Bikes Station selected
         return JSON with BikeStation Selected Info (id, district, street.. etc)
     */
+    @CrossOrigin
     @RequestMapping(value = "/BikeStations/{id}", method = RequestMethod.GET,
             produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> getBikeStation(@PathVariable String id){
@@ -88,6 +91,7 @@ public class server {
     //@GetMapping("/BikeStations/{id}/interestPoints")
     // PRE: filters = districts ( by default )
     // filter = neighborhoods (to filter interest points by neighborhoods
+    @CrossOrigin
     @RequestMapping(value = "/BikeStations/{id}/interestPoints", method = RequestMethod.GET,
             produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> getPoints(@PathVariable String id, @RequestParam(defaultValue = "districts") String filter){

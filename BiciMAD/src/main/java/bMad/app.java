@@ -1,5 +1,4 @@
 package bMad;
-import com.bordercloud.sparql.EndpointException;
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpHeaders;
@@ -14,7 +13,6 @@ import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.*;
 import org.apache.jena.sparql.vocabulary.FOAF;
 import org.apache.jena.util.FileManager;
-import com.bordercloud.sparql.Endpoint;
 import org.json.JSONObject;
 
 
