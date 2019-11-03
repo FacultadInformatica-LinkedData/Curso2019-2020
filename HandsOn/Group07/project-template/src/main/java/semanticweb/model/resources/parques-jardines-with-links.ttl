@@ -605,7 +605,7 @@
   rdfs:label "ARGANZUELA";
   owl:sameAs <https://www.wikidata.org/wiki/Q2000929> .
 
-<http://www.semanticweb.org/grupo07/Park/jardin_del_templo_de_debod> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
+<http://www.semanticweb.org/grupo07/Park/Q1140249> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
   <http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> "1 FERRAZ";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasBus> "25, 33, 39, 46, 74, 75, 148";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasDescription> "Conservación: Dirección General de Gestión del Agua y Zonas Verdes. Área de Gobierno de Medio Ambiente y Movilidad  Superficie: 58.512 m2   % Especies predominantes (nombre común) con respecto a especies principales:  Árboles. N&amp;ordm; total de unidades arbóreas: 731Plátano de sombra 33%Pino piñonero 18%Olmo de Siberia 8%Ciruelo rojo 6% Arbustos y Palmáceas. N&amp;ordm; total de unidades arbustivas: 280Palma de Fortune 46%Drácena indivisa 12%Palmera canaria 5% Macizos arbustivos. Superficie de macizos arbustivos: 4.023 m2  Pyracanthas 6%Espirea de Vanhoutte 5%Celinda 4%",
@@ -660,8 +660,7 @@
   rdfs:label "USERA";
   owl:sameAs <https://www.wikidata.org/wiki/Q953368> .
 
-<http://www.semanticweb.org/grupo07/Park/jardin_historico_el_capricho_de_la_alameda_osuna>
-  a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
+<http://www.semanticweb.org/grupo07/Park/Q2054035> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
   <http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> "25 ALAMEDA DE OSUNA";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasBus> "101, 105 y 151";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasDescription> "Conservación a cargo de: Dirección General de Gestión del Agua y Zonas Verdes. Área de Gobierno de Medio Ambiente y Movilidad. Superficie. 171.630 m&amp;sup2;   Especies predominantes (nombre común) con respecto a especies principales:   Árboles.  N&amp;ordm; total de unidades arbóreas: 3.875Árbol del amor 19%Ciprés común 9%Pino piñonero 7%Acacia de tres espinas 6% Arbustos.  N&amp;ordm; total de unidades arbustivas: 615Lilo 17%Majuelo 14%Celinda 12% Macizos arbustivos. Superficie de macizos arbustivos: 90.113 m&amp;sup2; Lilo 16%Rusco 12%Durillo 10%",
@@ -1043,6 +1042,10 @@
   rdfs:label "PUENTE DE VALLECAS";
   owl:sameAs <https://www.wikidata.org/wiki/Q2003054> .
 
+<http://semanticweb.org/Group07/District/LATINA> a <http://www.semanticweb.org/grupo07/ontologies/class#District>;
+  rdfs:label "LATINA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q794954> .
+
 <http://www.semanticweb.org/grupo07/Park/parque_caramuel> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
   <http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> "53 CARAMUEL";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasBus> "138";
@@ -1055,10 +1058,6 @@
   <http://www.semanticweb.org/grupo07/ontologies/property#hasRegion> "MADRID";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasUrl> <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=272fc45f7309e210VgnVCM1000000b205a0aRCRD>;
   <http://www.semanticweb.org/grupo07/ontologies/property#inDistrict> <http://semanticweb.org/Group07/District/LATINA> .
-
-<http://semanticweb.org/Group07/District/LATINA> a <http://www.semanticweb.org/grupo07/ontologies/class#District>;
-  rdfs:label "LATINA";
-  owl:sameAs <https://www.wikidata.org/wiki/Q794954> .
 
 <http://www.semanticweb.org/grupo07/Park/Q24024727> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
   <http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> "29 MARCELINO CASTILLO";
@@ -1109,6 +1108,10 @@
   rdfs:label "PUENTE DE VALLECAS";
   owl:sameAs <https://www.wikidata.org/wiki/Q2003054> .
 
+<http://semanticweb.org/Group07/District/MONCLOA-ARAVACA> a <http://www.semanticweb.org/grupo07/ontologies/class#District>;
+  rdfs:label "MONCLOA-ARAVACA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q2017682> .
+
 <http://www.semanticweb.org/grupo07/Park/parque_cerro_águila> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
   <http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> "1 CERRO DEL AGUILA";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasBus> "160";
@@ -1120,10 +1123,6 @@
   <http://www.semanticweb.org/grupo07/ontologies/property#hasRegion> "MADRID";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasUrl> <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=129b315b7b3be210VgnVCM2000000c205a0aRCRD>;
   <http://www.semanticweb.org/grupo07/ontologies/property#inDistrict> <http://semanticweb.org/Group07/District/MONCLOA-ARAVACA> .
-
-<http://semanticweb.org/Group07/District/MONCLOA-ARAVACA> a <http://www.semanticweb.org/grupo07/ontologies/class#District>;
-  rdfs:label "MONCLOA-ARAVACA";
-  owl:sameAs <https://www.wikidata.org/wiki/Q2017682> .
 
 <http://www.semanticweb.org/grupo07/Park/Q6062077> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
   <http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> "14 ANOETA";
@@ -1208,7 +1207,7 @@
   rdfs:label "SAN BLAS-CANILLEJAS";
   owl:sameAs <https://www.wikidata.org/wiki/Q2001937> .
 
-<http://www.semanticweb.org/grupo07/Park/Q24023283> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
+<http://www.semanticweb.org/grupo07/Park/Q4887686> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
   <http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> "1 DEHESA DE LA VILLA";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasBus> "44, 64, 82, 126, 127 y 132";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasDescription> "Conservación: Dirección General de Gestión del Agua y Zonas Verdes. Área de Gobierno de Medio Ambiente y Movilidad Superficie: 645.309  m2   % Especies predominantes (nombre común) con respecto a especies principales:   Árboles.    N&amp;ordm;     total de unidades arbóreas: 9240  Pino piñonero 56%Pino carrasco 8%Almendro 7%Olmo de Siberia 4% Arbustos. N&amp;ordm; total de unidades arbustivas: 481Espirea 12%Adelfa 9%Tuya 9% Macizos arbustivos. Superficie total de macizos arbustivos:17.580m2  Jara 10%Romero 9%Jara pringosa 7%",
@@ -1663,8 +1662,7 @@
   <http://www.semanticweb.org/grupo07/ontologies/property#hasUrl> <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d757e2fa26c6e210VgnVCM2000000c205a0aRCRD>;
   <http://www.semanticweb.org/grupo07/ontologies/property#inDistrict> <http://www.semanticweb.org/grupo07/http%3A%2F%2Fsemanticweb.org%2FGroup07%2FDistrict%2FPUENTE+DE+VALLECAS> .
 
-<http://www.semanticweb.org/grupo07/Park/parque_lineal_del_manzanares_(usera_-_pte_de_vallecas)>
-  a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
+<http://www.semanticweb.org/grupo07/Park/Q6062319> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
   <http://www.semanticweb.org/grupo07/ontologies/property#hasBus> "23 , 123 , 78";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasDescription> "Conservación: Dirección General de Gestión del Agua y Zonas Verdes. Área de Gobierno de Medio Ambiente y Movilidad Superficie: 447.342 m2   % Especies predominantes (nombre común)  con respecto a especies principales:  Árboles. N&amp;ordm; total de unidades arbóreas: 6.831Pino piñonero 150%Tilos 9%Olivo 9%Plátanos de sombra 7% Arbustos. N&amp;ordm; total de unidades arbustivas: 1.030Sauzgatillo 20%Abelia 19%Bambú dorado 13% Macizos arbustivos. Superficie de macizos arbustivos: 28.913 m&amp;sup2; Hiedra 46%Romero 19%Viburno 4%",
     "Este parque comienza sus obras de urbanización a finales del año 2000, dándose por finalizadas a mediados del 2003. El taller de arquitectura de Bofill es el encargado del Plan Director para transformar esta zona, dotada inicialmente con las necesarias infraestructuras de saneamiento, abastecimiento y electricidad, en una zona de paseo y de expansión para el ciudadano. En el riego del parque se utiliza agua regenerada procedente de la estación regeneradora de aguas residuales de La China.  Tres elementos vertebran el parque en su conjunto: el trazado del río propiamentedicho, un eje peatonal que atraviesa el parque en línea recta como alternativa al río y una trama ortogonal de caminos.Recorriendo el parque de norte a sur podemos encontrar una Plaza Verde, con forma de media luna; el Paseo de los Sentidos, bordeado de grandes árboles con una pasarela peatonal de grandes dimensiones, plazas cuadradas con laberintos, un umbráculo frondoso y dos fuentes con juegos de agua; una Pérgola; La Atalaya, montaña de escombros transformada que se corona con una escultura de Manuel Valdés 'La Dama del Manzanares'; el Área de los Deportes con dos campos de fútbol, pistas polivalentes, una zona de juegos infantiles, vestuarios y aseos; la Pradera, un gran césped de grandes dimensiones y el Parque del Belvedere, con juegos infantiles y de petanca.";
@@ -2908,7 +2906,7 @@
   rdfs:label "MONCLOA-ARAVACA";
   owl:sameAs <https://www.wikidata.org/wiki/Q2017682> .
 
-<http://www.semanticweb.org/grupo07/Park/parque_de_la_casa_de_campo> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
+<http://www.semanticweb.org/grupo07/Park/Q1046524> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
   <http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> "1 PUERTA DEL ANGEL";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasDescription> "Conservación:Dirección General de Gestión del Agua y Zonas Verdes. Área de Gobierno de Medio Ambiente y Movilidad. Superficie: 1.535,52 Ha  Porcentaje de especies predominantes (nombre común) con respecto a especies principales:  Árboles. Pino piñonero 66% Encina 14%  Ciprés de Arizona 3%  Fresno2% Olmo 2%  Macizos arbustivos: Superficie de macizos arbustivos: 19.860.000 m&amp;sup2;",
     "La Casa de Campo de Madrid fue Real Sitio destinado a la caza y el recreo de la Monarquía desde la adquisición de la primitiva finca de la familia Vargas por Felipe II    en 1562 hasta la incautación de los bienes de la Corona por Decreto del Gobierno de la Segunda  República de 20 de abril de 1931. En virtud de dicho Decreto, los terrenos de la Casa de Campo y del Campo del Moro fueron cedidos al Ayuntamiento de Madrid para ser destinados a parques de recreo e instrucción.  En 2010 se declara Bien de Interés Cultural, en la categoría de Sitio Histórico.La Casa de Campo constituye actualmente el principal pulmón de la ciudad y alberga numerosas actividades ligadas a su finalidad como lugar de recreo e instrucción de los ciudadanos. A su valor ecológico y paisajístico se suma una importante carga histórica, materializada en significativos restos arqueológicos, un conjunto de edificaciones y obra civil de carácter histórico-monumental, testimonio de su etapa como Real Sitio y una amplia representación de arquitecturas contemporáneas de su etapa como parque público. Parque histórico de carácter principalmente forestal de gran extensión con un relieve ondulado de suaves pendientes en el que sobresalen pequeños cerros, surcado por pequeños valles por donde discurren algunos arroyos permanentes y otros estacionales que confluyen en el río Manzanares. La mayoría tienen su nacimiento dentro del Parque, si bien los dos más importantes, Antequina y Meaques, nacen fuera del mismo. Entre las láminas de agua cabe destacar la del Lago y varias charcas artificiales para hábitat y alimentación de la fauna. Varios recintos de gestión independiente se encuentran en su interior: entre otros el Parque de Atracciones, Parque Zoológico, Recinto Ferial, Venta del Batán y el Club de Campo. En su vegetación destacan encinares, vegetación potencial del Parque, retamares, fresnedas, olmedas, bosquetes de ribera y las repoblaciones de pinos y arizónicas. En algunas zonas la encina empieza a emerger iniciando un proceso natural de sustitución del pinar.Este parque se incluye entre las visitas recomendadas a turistas que visitan la ciudad, según la web oficial de turismo de Madrid.";
@@ -2939,7 +2937,7 @@
   rdfs:label "LATINA";
   owl:sameAs <https://www.wikidata.org/wiki/Q794954> .
 
-<http://www.semanticweb.org/grupo07/Park/parque_de_la_cuna_verde_de_o´donnell> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
+<http://www.semanticweb.org/grupo07/Park/parque_de_la_cuna_verde_de_odonnell> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
   <http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> "61 FUENTE CARRANTONA";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasBus> "140";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasDescription> "Conservación: Dirección General de Gestión del Agua y Zonas Verdes. Área de Gobierno de Medio Ambiente y Movilidad Superficie. 413.588 m2   Especies predominantes (% con respecto a especies principales)  Árboles.  N&amp;ordm; total de unidades arbóreas: 11.802Pinos 22%Robles 11%Almez 9%Encinas 3% Arbustos N&amp;ordm; total de unidades arbustivas: 132.000Escalonias 24%Photineas 22%Viburnum 20% Macizos arbustivos. Superficie de macizos arbustivos: 33.000 m2",
@@ -2973,6 +2971,11 @@
   rdfs:label "VILLAVERDE";
   owl:sameAs <https://www.wikidata.org/wiki/Q919536> .
 
+<http://www.semanticweb.org/grupo07/http%3A%2F%2Fsemanticweb.org%2FGroup07%2FDistrict%2FVILLA+DE+VALLECAS>
+  a <http://www.semanticweb.org/grupo07/ontologies/class#District>;
+  rdfs:label "VILLA DE VALLECAS";
+  owl:sameAs <https://www.wikidata.org/wiki/Q1947988> .
+
 <http://www.semanticweb.org/grupo07/Park/parque_de_la_gavia> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
   <http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> "26 MAYORAZGO";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasBus> "línea 103";
@@ -2986,11 +2989,6 @@
   <http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground> "la gavia, congosto (linea 1)auto";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasUrl> <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=48a88d736701a410VgnVCM1000000b205a0aRCRD>;
   <http://www.semanticweb.org/grupo07/ontologies/property#inDistrict> <http://www.semanticweb.org/grupo07/http%3A%2F%2Fsemanticweb.org%2FGroup07%2FDistrict%2FVILLA+DE+VALLECAS> .
-
-<http://www.semanticweb.org/grupo07/http%3A%2F%2Fsemanticweb.org%2FGroup07%2FDistrict%2FVILLA+DE+VALLECAS>
-  a <http://www.semanticweb.org/grupo07/ontologies/class#District>;
-  rdfs:label "VILLA DE VALLECAS";
-  owl:sameAs <https://www.wikidata.org/wiki/Q1947988> .
 
 <http://www.semanticweb.org/grupo07/Park/parque_de_la_maceta> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
   <http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> "301 DAROCA";
@@ -3307,7 +3305,7 @@
   rdfs:label "SAN BLAS-CANILLEJAS";
   owl:sameAs <https://www.wikidata.org/wiki/Q2001937> .
 
-<http://www.semanticweb.org/grupo07/Park/quinta_de_la_fuente_del_berro> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
+<http://www.semanticweb.org/grupo07/Park/Q5411839> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
   <http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> "1 ENRIQUE D'ALMONTE";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasDescription> "Conservación: Dirección General de Gestión del Agua y Zonas Verdes. Área de Gobierno de Medio Ambiente y Movilidad. Superficie: 74.200 m2   % Especies predominantes (nombre común) con respecto a especies principales:  Árboles. Cedros 14% Pino Pissardii 11% Ciprés común 6 % Platanos 5 %  Arbustos: Aligustres 15% Boj 6% Madroños 4%",
     "Jardín histórico del siglo XVII que pasa a ser propiedad municipal en 1954. El jardín de la Quinta de la Fuente del Berro dispone de espléndidos ejemplares arbóreos y arbustivos, así como de elementos singulares de gran valor, como es el monumento de la Fuente del Berro cuyas aguas en sus orígenes proveyeron a la casa real.  Se inscribe dentro de las villas suburbanas de huerta jardín del XVIII y el XIX y su estilo es básicamente paisajista. Tiene en la actualidad 6 puertas: 2 al oeste que conectan el jardín con la colonia de la Fuente del Berro, 3 al norte que lo comunican con el parque de Sancho Dávila y 1 al sur en la C/ O&amp;acute;Donnell.";
@@ -3324,7 +3322,7 @@
   rdfs:label "SALAMANCA";
   owl:sameAs <https://www.wikidata.org/wiki/Q1773521> .
 
-<http://www.semanticweb.org/grupo07/Park/rosaleda_de_madrid_parque_del_oeste> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
+<http://www.semanticweb.org/grupo07/Park/Q16626568> a <http://www.semanticweb.org/grupo07/ontologies/class#Park>;
   <http://www.semanticweb.org/grupo07/ontologies/property#hasAddress> "1 ROSALEDA";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasBus> "41, 46, 75 también puedes acceder desde metro: arg&amp;uuml;elles príncipe pí";
   <http://www.semanticweb.org/grupo07/ontologies/property#hasDescription> "Conservación: Dirección General de Gestión del Agua y Zonas Verdes. Área de Gobierno de Medio Ambiente y Movilidad.Superficie: 32.000 m2 Especie predominante: rosal 100 % Actividades no permitidas: jugar a la pelota, montar en bicicleta y entrar con perros.",
