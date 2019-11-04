@@ -16,16 +16,6 @@ import java.io.InputStream;
 import java.util.ArrayList;
 
 public class JenaRequest {
-    private static String ns = "http://www.semanticweb.org/grupo07/ontologies#";
-    public static String topo = "http://data.ign.fr/def/topo#";
-    private static String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
-    private static String owl = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
-    private static String xsd = "http://www.w3.org/2001/XMLSchema#";
-    private static String rdfs = "http://www.w3.org/2000/01/rdf-schema#";
-    private static String stringTypeURI = "http://www.w3.org/2001/XMLSchema#string";
-    private static String schema = "http://schema.org/";
-    private static String lat = "<http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude>";
-    private static String lon = "<http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud>";
 
     public static Park ParkRequest(String latitude, String longitude) {
 
@@ -47,7 +37,6 @@ public class JenaRequest {
         modelTree.read("src/main/java/semanticweb/model/resources/ArboladoParquesHistoricoSingularesForestales.ttl");
 
 
-
         String queryString = "SELECT ?park ?name ?description ?bus ?under " +
                 "WHERE { ?park a <http://www.semanticweb.org/grupo07/ontologies/class#Park> ; " +
                 "<http://www.semanticweb.org/grupo07/ontologies/property#hasName> ?name ; " +
@@ -64,6 +53,7 @@ public class JenaRequest {
         String transport = "";
         String description = "";
         Resource Subject = null;
+
         while (results.hasNext()) {
             QuerySolution binding = results.nextSolution();
             Subject = binding.getResource("park");
@@ -73,47 +63,55 @@ public class JenaRequest {
             transport += "METRO: " + binding.getLiteral("under").getString();
             description += binding.getLiteral("description").getString() + "\n";
         }
-        String queryTrees = "SELECT ?espcie ?uri " +
-                " WHERE {" +
-                " ?uri a <http://www.semanticweb.org/grupo07/ontologies/class#Park> ; " +
-                " <http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie> ?espcie ;" +
-                "     FILTER (?uri = <" + Subject.getURI() + ">) }";
-        Query queryTree = QueryFactory.create(queryTrees);
-        QueryExecution qexecTree = QueryExecutionFactory.create(queryTree, modelTree);
-        ResultSet result = qexecTree.execSelect();
         ArrayList<String> trees = new ArrayList<>();
+        ArrayList<Tree> parkTrees = new ArrayList<>();
 
-        while (result.hasNext()) {
-            QuerySolution binding = result.nextSolution();
-            Subject = binding.getResource("espcie");
-            trees.add(Subject.getURI());
-        }
-        for (String tree : trees) {
-            String queryEscpecie = "SELECT ?especie ?sameas " +
+        try {
+            String queryTrees = "SELECT ?espcie ?uri " +
                     " WHERE {" +
-                    " ?especie a <http://www.semanticweb.org/grupo07/ontologies/class#Especie> ; " +
-                    " <http://www.w3.org/2002/07/owl#sameAs> ?sameas ; " +
-                    "     FILTER (?especie = <" + tree + ">) }";
-            Query queryEspecie = QueryFactory.create(queryEscpecie);
-            QueryExecution qexecEspecie = QueryExecutionFactory.create(queryEspecie, modelTree);
-            ResultSet resultEspecie = qexecEspecie.execSelect();
-            ArrayList<String> especies = new ArrayList<>();
-
-            while (resultEspecie.hasNext()) {
-                QuerySolution binding = resultEspecie.nextSolution();
-                especies.add(binding.getResource("sameas").getURI());
+                    " ?uri a <http://www.semanticweb.org/grupo07/ontologies/class#Park> ; " +
+                    " <http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie> ?espcie ;" +
+                    "     FILTER (?uri = <" + Subject.getURI() + ">) }";
+            Query queryTree = QueryFactory.create(queryTrees);
+            QueryExecution qexecTree = QueryExecutionFactory.create(queryTree, modelTree);
+            ResultSet result = qexecTree.execSelect();
+            while (result.hasNext()) {
+                QuerySolution binding = result.nextSolution();
+                Subject = binding.getResource("espcie");
+                trees.add(Subject.getURI());
             }
-            for (String especie : especies) {
+            for (String tree : trees) {
+                String queryEscpecie = "SELECT ?especie ?sameas " +
+                        " WHERE {" +
+                        " ?especie a <http://www.semanticweb.org/grupo07/ontologies/class#Especie> ; " +
+                        " <http://www.w3.org/2002/07/owl#sameAs> ?sameas ; " +
+                        "     FILTER (?especie = <" + tree + ">) }";
+                Query queryEspecie = QueryFactory.create(queryEscpecie);
+                QueryExecution qexecEspecie = QueryExecutionFactory.create(queryEspecie, modelTree);
+                ResultSet resultEspecie = qexecEspecie.execSelect();
+                ArrayList<String> especies = new ArrayList<>();
 
+                while (resultEspecie.hasNext()) {
+                    QuerySolution binding = resultEspecie.nextSolution();
+                    especies.add(binding.getResource("sameas").getURI());
+                }
+                for (String especie : especies) {
+                    //TODO:execute query
+                    //TODO: parkTrees.append each result
+                    System.out.println(especie);
+                }
             }
+        } catch (Exception ex) {
+            parkTrees = new ArrayList<>();
+
         }
-
         Park park = new Park();
         park.setName(name);
         park.setDescription(description);
         park.setTransport(transport);
         park.setLatitude(latitude);
         park.setLongitude(longitude);
+        park.setTrees(parkTrees);
         return park;
     }
 
@@ -123,6 +121,7 @@ public class JenaRequest {
 
         Park p = ParkRequest("40.45999848510341", "-3.6148888706303586");
         System.out.println(p.getTrees());
+
 
     }
 }
