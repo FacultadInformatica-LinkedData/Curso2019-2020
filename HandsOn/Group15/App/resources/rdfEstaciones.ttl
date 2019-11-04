@@ -1,0 +1,177 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix aqm: <http://www.airQualityMadrid.com/ontology#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+
+
+<http://www.airQualityMadrid.com/resource/Station/28079004> a sosa:Sensor;
+  aqm:direccion "Plaza de España";
+  aqm:nombre "Pza. de España";
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4238823"^^xsd:float;
+  geo:long "-3.7122567"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079008> a sosa:Sensor;
+  aqm:direccion "Entre C/ Alcalá y C/ O’ Donell ";
+  aqm:nombre "Escuelas Aguirre";
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4215533"^^xsd:float;
+  geo:long "-3.6823158"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079011> a sosa:Sensor;
+  aqm:direccion "Avda. Ramón y Cajal  esq. C/ Príncipe de Vergara";
+  aqm:nombre "Avda. Ramón y Cajal";
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4514734"^^xsd:float;
+  geo:long "-3.6773491"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079016> a sosa:Sensor;
+  aqm:direccion "C/ Arturo Soria  esq. C/  Vizconde de los Asilos ";
+  aqm:nombre "Arturo Soria";
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.4400457"^^xsd:float;
+  geo:long "-3.6392422"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079017> a sosa:Sensor;
+  aqm:direccion "C/. Juan Peñalver";
+  aqm:nombre "Villaverde";
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.347147"^^xsd:float;
+  geo:long "-3.7133167"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079018> a sosa:Sensor;
+  aqm:direccion "Calle Farolillo - C/Ervigio";
+  aqm:nombre "Farolillo";
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.3947825"^^xsd:float;
+  geo:long "-3.7318356"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079024> a sosa:Sensor;
+  aqm:direccion "Casa de Campo  (Terminal del Teleférico)";
+  aqm:nombre "Casa de Campo";
+  aqm:tipo "Suburbana";
+  geo:lat "40.4193577"^^xsd:float;
+  geo:long "-3.7473445"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079027> a sosa:Sensor;
+  aqm:direccion "C/. Júpiter, 21 (Barajas) ";
+  aqm:nombre "Barajas Pueblo";
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.4769179"^^xsd:float;
+  geo:long "-3.5800258"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079035> a sosa:Sensor;
+  aqm:direccion "Plaza del Carmen esq. Tres Cruces. ";
+  aqm:nombre "Pza. del Carmen";
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.4192091"^^xsd:float;
+  geo:long "-3.7031662"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079036> a sosa:Sensor;
+  aqm:direccion "Avd. Moratalaz  esq. Camino de los Vinateros";
+  aqm:nombre "Moratalaz";
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4079517"^^xsd:float;
+  geo:long "-3.6453104"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079038> a sosa:Sensor;
+  aqm:direccion "Avda. Pablo Iglesias esq. C/ Marqués de Lema";
+  aqm:nombre "Cuatro Caminos";
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4455439"^^xsd:float;
+  geo:long "-3.7071303"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079039> a sosa:Sensor;
+  aqm:direccion "Avd. Betanzos esq. C/  Monforte de Lemos ";
+  aqm:nombre "Barrio del Pilar";
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4782322"^^xsd:float;
+  geo:long "-3.7115364"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079040> a sosa:Sensor;
+  aqm:direccion "C/ Arroyo del Olivar  esq. C/  Río Grande. ";
+  aqm:nombre "Vallecas";
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.3881478"^^xsd:float;
+  geo:long "-3.6515286"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079047> a sosa:Sensor;
+  aqm:direccion "C/ Juan de Mariana / Pza. Amanecer Mendez Alvaro";
+  aqm:nombre "Mendez Alvaro";
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.3980991"^^xsd:float;
+  geo:long "-3.6868138"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079048> a sosa:Sensor;
+  aqm:direccion "C/ Jose Gutierrez Abascal";
+  aqm:nombre "Castellana";
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4398904"^^xsd:float;
+  geo:long "-3.6903729"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079049> a sosa:Sensor;
+  aqm:direccion "Paseo Venezuela- Casa de Vacas";
+  aqm:nombre "Parque del Retiro";
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.41444444444440"^^xsd:float;
+  geo:long "-3.6824999999999900"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079050> a sosa:Sensor;
+  aqm:direccion "Plaza Castilla (Canal)";
+  aqm:nombre "Plaza Castilla";
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.4655841"^^xsd:float;
+  geo:long "-3.6887449"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079054> a sosa:Sensor;
+  aqm:direccion "Avda La Gavia / Avda. Las Suertes";
+  aqm:nombre "Ensanche de Vallecas";
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.3730118"^^xsd:float;
+  geo:long "-3.6121394"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079055> a sosa:Sensor;
+  aqm:direccion "C/ Riaño (Barajas) ";
+  aqm:nombre "Urb. Embajada";
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.4623628"^^xsd:float;
+  geo:long "-3.5805649"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079056> a sosa:Sensor;
+  aqm:direccion " Pza. Elíptica - Avda. Oporto";
+  aqm:nombre "Pza. Elíptica";
+  aqm:tipo "Urbana tráfico";
+  geo:lat "40.3850336"^^xsd:float;
+  geo:long "-3.7187679"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079057> a sosa:Sensor;
+  aqm:direccion "C/ Princesa de Eboli esq C/ Maria Tudor";
+  aqm:nombre "Sanchinarro";
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.4942012"^^xsd:float;
+  geo:long "-3.6605173"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079058> a sosa:Sensor;
+  aqm:direccion "Avda. La Guardia";
+  aqm:nombre "El Pardo";
+  aqm:tipo "Suburbana";
+  geo:lat "40.5180701"^^xsd:float;
+  geo:long "-3.7746101"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079059> a sosa:Sensor;
+  aqm:direccion "Parque Juan Carlos I (frente oficinas mantenimiento)";
+  aqm:nombre "Juan Carlos I";
+  aqm:tipo "Suburbana";
+  geo:lat "40.4607255"^^xsd:float;
+  geo:long "-3.6163407"^^xsd:float .
+
+<http://www.airQualityMadrid.com/resource/Station/28079060> a sosa:Sensor;
+  aqm:direccion "Plaza Tres Olivos ";
+  aqm:nombre "Tres Olivos";
+  aqm:tipo "Urbana fondo";
+  geo:lat "40.5005477"^^xsd:float;
+  geo:long "-3.6897308"^^xsd:float .
