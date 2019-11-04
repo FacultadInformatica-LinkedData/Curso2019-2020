@@ -6,10 +6,13 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 
-<http://localhost:3333/AVENIDA+VALDELAPARRA> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "SHELL" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-S: 06:00-00:00; D: 09:00-17:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "AVENIDA VALDELAPARRA" ;
+<http://www.semweb19-20/40.537250-3.643194> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "SHELL" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-S: 06:00-00:00; D: 09:00-17:00" .
+
+<http://www.semweb19-20/AVENIDA+VALDELAPARRA> a <http://www.semweb19-20/G11#Street> .
+
+<http://www.semweb19-20/40.537250-3.643194> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/AVENIDA+VALDELAPARRA> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28100"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1279"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1369"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -18,10 +21,13 @@
 	geo:long "-3.643194"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.537250"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CARRETERA+M-603> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "SHELL" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-22:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "CARRETERA M-603" ;
+<http://www.semweb19-20/40.528806-3.651583> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "SHELL" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-22:00" .
+
+<http://www.semweb19-20/CARRETERA+M-603> a <http://www.semweb19-20/G11#Street> .
+
+<http://www.semweb19-20/40.528806-3.651583> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/CARRETERA+M-603> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28100"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1279"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1369"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -30,10 +36,13 @@
 	geo:long "-3.651583"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.528806"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CARRETERA+A-1> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "CARREFOUR" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "CARRETERA A-1" ;
+<http://www.semweb19-20/40.528194-3.649417> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "CARREFOUR" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" .
+
+<http://www.semweb19-20/CARRETERA+A-1> a <http://www.semweb19-20/G11#Street> .
+
+<http://www.semweb19-20/40.528194-3.649417> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/CARRETERA+A-1> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28100"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1249"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1339"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -42,20 +51,26 @@
 	geo:long "-3.649417"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.528194"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CALLE+VALGRANDE+%28DE%29> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "BP" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-22:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "CALLE VALGRANDE (DE)" ;
+<http://www.semweb19-20/40.536583-3.649778> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "BP" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-22:00" .
+
+<http://www.semweb19-20/CALLE+VALGRANDE> a <http://www.semweb19-20/G11#Street> .
+
+<http://www.semweb19-20/40.536583-3.649778> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/CALLE+VALGRANDE> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28100"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1259"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1359"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:long "-3.649778"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.536583"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/AVENIDA+MONTE+DE+VALDELATAS> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "BP EL SAPO-ALCOBENDAS" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-13:59 y 14:00-22:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "AVENIDA MONTE DE VALDELATAS" ;
+<http://www.semweb19-20/40.528722-3.659667> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "BP" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-13:59 y 14:00-22:00" .
+
+<http://www.semweb19-20/AVENIDA+MONTE+DE+VALDELATAS> a <http://www.semweb19-20/G11#Street> .
+
+<http://www.semweb19-20/40.528722-3.659667> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/AVENIDA+MONTE+DE+VALDELATAS> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28100"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1259"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1359"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -64,23 +79,29 @@
 	geo:long "-3.659667"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.528722"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CALLE+MARQUES+DE+LA+VALDAVIA+%28DEL%29> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "BP VALDAVIA" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "CALLE MARQUES DE LA VALDAVIA (DEL)" ;
+<http://www.semweb19-20/40.546944-3.653944> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "BP" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" .
+
+<http://www.semweb19-20/CALLE+MARQUES+DE+LA+VALDAVIA> a <http://www.semweb19-20/G11#Street> ;
+	<http://www.semweb19-20/G11#dedicatedTo> "MARQUES DE LA VALDAVIA" .
+
+<http://www.semweb19-20/40.546944-3.653944> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/CALLE+MARQUES+DE+LA+VALDAVIA> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28100"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1259"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1359"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas98> "1501"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceNewA> "1349"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:long "-3.653944"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	geo:lat "40.546944"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	owl:sameAs <https://www.wikidata.org/wiki/Q41285010> .
+	geo:lat "40.546944"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CARRETERA+BARAJAS> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "BP JUNCAL" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "CARRETERA BARAJAS" ;
+<http://www.semweb19-20/40.534083-3.618944> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "BP" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" .
+
+<http://www.semweb19-20/CARRETERA+BARAJAS> a <http://www.semweb19-20/G11#Street> .
+
+<http://www.semweb19-20/40.534083-3.618944> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/CARRETERA+BARAJAS> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28100"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1259"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1359"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -89,10 +110,14 @@
 	geo:long "-3.618944"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.534083"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/AVENIDA+EUROPA+%28C.C.+LA+MORALEJA%29> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "CEPSA" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 07:00-23:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "AVENIDA EUROPA (C.C. LA MORALEJA)" ;
+<http://www.semweb19-20/40.520111-3.657528> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "CEPSA" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 07:00-23:00" .
+
+<http://www.semweb19-20/AVENIDA+EUROPA> a <http://www.semweb19-20/G11#Street> ;
+	<http://www.semweb19-20/G11#dedicatedTo> "EUROPA" .
+
+<http://www.semweb19-20/40.520111-3.657528> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/AVENIDA+EUROPA> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28100"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1289"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1374"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -101,10 +126,10 @@
 	geo:long "-3.657528"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.520111"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CALLE+VALGRANDE> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "BALLENOIL" ;
+<http://www.semweb19-20/40.539583-3.654139> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "BALLENOIL" ;
 	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "CALLE VALGRANDE" ;
+	<http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/CALLE+VALGRANDE> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28100"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1177"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1299"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -112,8 +137,11 @@
 	geo:long "-3.654139"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.539583"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CARRETERA+M-603> rdfs:label "REPSOL" ;
+<http://www.semweb19-20/40.525778-3.654889> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "REPSOL" ;
 	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-00:00" ;
+	<http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/CARRETERA+M-603> ;
+	<http://www.semweb19-20/G11#hasPostalCode> "28100"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1275"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1385"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas98> "1525"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -121,10 +149,14 @@
 	geo:long "-3.654889"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.525778"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CL+AVENIDA+DE+ESPANA> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "REPSOL" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "CL AVENIDA DE ESPANA" ;
+<http://www.semweb19-20/40.546167-3.634639> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "REPSOL" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" .
+
+<http://www.semweb19-20/AVENIDA+DE+ESPANA> a <http://www.semweb19-20/G11#Street> ;
+	<http://www.semweb19-20/G11#dedicatedTo> "ESPAÑA" .
+
+<http://www.semweb19-20/40.546167-3.634639> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/AVENIDA+DE+ESPANA> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28100"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1259"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1375"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -133,10 +165,14 @@
 	geo:long "-3.634639"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.546167"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/PASEO+ALCOBENDAS+%28DE%29> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "CEPSA" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-22:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "PASEO ALCOBENDAS (DE)" ;
+<http://www.semweb19-20/40.527889-3.622306> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "CEPSA" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-22:00" .
+
+<http://www.semweb19-20/PASEO+ALCOBENDAS> a <http://www.semweb19-20/G11#Street> ;
+	<http://www.semweb19-20/G11#dedicatedTo> "ALCOBENDAS" .
+
+<http://www.semweb19-20/40.527889-3.622306> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/PASEO+ALCOBENDAS> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28100"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1319"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas98> "1524"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -144,10 +180,13 @@
 	geo:long "-3.622306"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.527889"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CARRETERA+ANTIGUA+NACIONAL+I> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "GALP" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "CARRETERA ANTIGUA NACIONAL I" ;
+<http://www.semweb19-20/40.532806-3.642250> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "GALP" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" .
+
+<http://www.semweb19-20/CARRETERA+ANTIGUA+NACIONAL+I> a <http://www.semweb19-20/G11#Street> .
+
+<http://www.semweb19-20/40.532806-3.642250> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/CARRETERA+ANTIGUA+NACIONAL+I> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28100"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1249"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1369"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -156,10 +195,10 @@
 	geo:long "-3.642250"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.532806"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/AVENIDA+VALDELAPARRA+%28DE%29> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "GALP" ;
+<http://www.semweb19-20/40.548306-3.662056> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "GALP" ;
 	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "AVENIDA VALDELAPARRA (DE)" ;
+	<http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/AVENIDA+VALDELAPARRA> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28100"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1249"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1369"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -168,20 +207,28 @@
 	geo:long "-3.662056"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.548306"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/AVENIDA+MARQUES+DE+LA+VALDAVIA> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "REPOSTA ALCOBENDAS" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "AVENIDA MARQUES DE LA VALDAVIA" ;
+<http://www.semweb19-20/40.546556-3.651861> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "REPOSTA" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" .
+
+<http://www.semweb19-20/AVENIDA+MARQUES+DE+LA+VALDAVIA> a <http://www.semweb19-20/G11#Street> ;
+	<http://www.semweb19-20/G11#dedicatedTo> "MARQUES DE LA VALDAVIA" .
+
+<http://www.semweb19-20/40.546556-3.651861> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/AVENIDA+MARQUES+DE+LA+VALDAVIA> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28100"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1219"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1319"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:long "-3.651861"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.546556"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CL+BOULEVARD+SALVADOR+ALLENDE> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "REPSOL" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-23:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "CL BOULEVARD SALVADOR ALLENDE" ;
+<http://www.semweb19-20/40.537500-3.633944> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "REPSOL" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-23:00" .
+
+<http://www.semweb19-20/BULEVAR+SALVADOR+ALLENDE> a <http://www.semweb19-20/G11#Street> ;
+	<http://www.semweb19-20/G11#dedicatedTo> "SALVADOR ALLENDE" .
+
+<http://www.semweb19-20/40.537500-3.633944> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/BULEVAR+SALVADOR+ALLENDE> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28108"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1249"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1365"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -190,10 +237,10 @@
 	geo:long "-3.633944"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.537500"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/BULEVAR+SALVADOR+ALLENDE+%28DE%29> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "REPSOL" ;
+<http://www.semweb19-20/40.537750-3.634389> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "REPSOL" ;
 	<http://www.semweb19-20/G11#hasSchedule> "L-S: 06:00-22:00; D: 08:00-22:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "BULEVAR SALVADOR ALLENDE (DE)" ;
+	<http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/BULEVAR+SALVADOR+ALLENDE> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28108"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1249"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1365"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -202,23 +249,30 @@
 	geo:long "-3.634389"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.537750"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CALLE+FRANCISCO+GERVAS> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "REPSOL" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-V: 06:00-22:00; S: 07:00-14:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "CALLE FRANCISCO GERVAS" ;
+<http://www.semweb19-20/40.533722-3.652250> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "REPSOL" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-V: 06:00-22:00; S: 07:00-14:00" .
+
+<http://www.semweb19-20/CALLE+FRANCISCO+GERVAS> a <http://www.semweb19-20/G11#Street> ;
+	<http://www.semweb19-20/G11#dedicatedTo> "FRANCISCO GERVAS" .
+
+<http://www.semweb19-20/40.533722-3.652250> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/CALLE+FRANCISCO+GERVAS> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28108"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1259"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1349"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas98> "1489"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceNewA> "1339"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:long "-3.652250"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	geo:lat "40.533722"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	owl:sameAs <https://www.wikidata.org/wiki/Q55956437> .
+	geo:lat "40.533722"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/AVENIDA+OLIMPICA> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "ALCAMPO" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "AVENIDA OLIMPICA" ;
+<http://www.semweb19-20/40.535194-3.636806> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "ALCAMPO" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" .
+
+<http://www.semweb19-20/AVENIDA+OLIMPICA> a <http://www.semweb19-20/G11#Street> ;
+	<http://www.semweb19-20/G11#dedicatedTo> "OLIMPIADAS" .
+
+<http://www.semweb19-20/40.535194-3.636806> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/AVENIDA+OLIMPICA> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28108"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1177"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1299"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -227,20 +281,26 @@
 	geo:long "-3.636806"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.535194"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/PLAZA+MORALEJA+S%2FN> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "REPSOL" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-S: 07:00-22:00; D: 09:00-15:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "PLAZA MORALEJA S/N" ;
+<http://www.semweb19-20/40.515639-3.651083> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "REPSOL" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-S: 07:00-22:00; D: 09:00-15:00" .
+
+<http://www.semweb19-20/PLAZA+MORALEJA> a <http://www.semweb19-20/G11#Street> .
+
+<http://www.semweb19-20/40.515639-3.651083> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/PLAZA+MORALEJA> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28109"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1279"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1389"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:long "-3.651083"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.515639"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/AVENIDA+FUENTENUEVA> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "SHELL" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "AVENIDA FUENTENUEVA" ;
+<http://www.semweb19-20/40.547750-3.610750> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "SHELL" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" .
+
+<http://www.semweb19-20/AVENIDA+FUENTENUEVA> a <http://www.semweb19-20/G11#Street> .
+
+<http://www.semweb19-20/40.547750-3.610750> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/AVENIDA+FUENTENUEVA> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1259"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1359"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -249,10 +309,13 @@
 	geo:long "-3.610750"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.547750"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CARRETERA+ANTIGUA+N-I+CV+CAMINO+REDESA> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "SHELL" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-00:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "CARRETERA ANTIGUA N-I CV CAMINO REDESA" ;
+<http://www.semweb19-20/40.565556-3.605472> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "SHELL" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-00:00" .
+
+<http://www.semweb19-20/CARRETERA+N-1> a <http://www.semweb19-20/G11#Street> .
+
+<http://www.semweb19-20/40.565556-3.605472> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/CARRETERA+N-1> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1259"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1359"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -261,10 +324,10 @@
 	geo:long "-3.605472"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.565556"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CARRETERA+N-1> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "SETOR" ;
+<http://www.semweb19-20/40.590944-3.583417> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "SETOR" ;
 	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-00:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "CARRETERA N-1" ;
+	<http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/CARRETERA+N-1> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1209"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1309"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -272,10 +335,14 @@
 	geo:long "-3.583417"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.590944"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CTRA.+BURGOS> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "CEPSA" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "CTRA. BURGOS" ;
+<http://www.semweb19-20/40.590500-3.582583> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "CEPSA" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" .
+
+<http://www.semweb19-20/CARRETERA+BURGOS> a <http://www.semweb19-20/G11#Street> ;
+	<http://www.semweb19-20/G11#dedicatedTo> "BURGOS" .
+
+<http://www.semweb19-20/40.590500-3.582583> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/CARRETERA+BURGOS> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1269"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1349"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -284,10 +351,14 @@
 	geo:long "-3.582583"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.590500"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CL+AVDA.+EINSTEIN> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "REPSOL" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 07:00-23:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "CL AVDA. EINSTEIN" ;
+<http://www.semweb19-20/40.544417-3.610167> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "REPSOL" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 07:00-23:00" .
+
+<http://www.semweb19-20/AVENIDA+EINSTEIN> a <http://www.semweb19-20/G11#Street> ;
+	<http://www.semweb19-20/G11#dedicatedTo> "EINSTEIN" .
+
+<http://www.semweb19-20/40.544417-3.610167> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/AVENIDA+EINSTEIN> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1249"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1355"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -296,8 +367,11 @@
 	geo:long "-3.610167"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.544417"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CARRETERA+N-1> rdfs:label "REPSOL" ;
+<http://www.semweb19-20/40.545778-3.606500> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "REPSOL" ;
 	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
+	<http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/CARRETERA+N-1> ;
+	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1249"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1355"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas98> "1495"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -305,10 +379,10 @@
 	geo:long "-3.606500"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.545778"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CL+REAL++%28ANTIGUA+N-1%29> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "REPSOL" ;
+<http://www.semweb19-20/40.552500-3.618861> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "REPSOL" ;
 	<http://www.semweb19-20/G11#hasSchedule> "L-V: 06:00-23:00; S-D: 07:00-23:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "CL REAL  (ANTIGUA N-1)" ;
+	<http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/CARRETERA+N-1> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1249"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1349"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -317,10 +391,14 @@
 	geo:long "-3.618861"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.552500"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CL+AVDA+TENERIFE> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "REPSOL" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-V: 06:30-00:30; S-D: 07:00-23:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "CL AVDA TENERIFE" ;
+<http://www.semweb19-20/40.560250-3.620056> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "REPSOL" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-V: 06:30-00:30; S-D: 07:00-23:00" .
+
+<http://www.semweb19-20/AVENIDA+TENERIFE> a <http://www.semweb19-20/G11#Street> ;
+	<http://www.semweb19-20/G11#dedicatedTo> "TENERIFE" .
+
+<http://www.semweb19-20/40.560250-3.620056> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/AVENIDA+TENERIFE> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1219"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1329"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -329,10 +407,10 @@
 	geo:long "-3.620056"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.560250"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/AVENIDA+TENERIFE+%28DE%29> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "CEPSA" ;
+<http://www.semweb19-20/40.559528-3.621750> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "CEPSA" ;
 	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "AVENIDA TENERIFE (DE)" ;
+	<http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/AVENIDA+TENERIFE> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1199"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1309"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -341,41 +419,52 @@
 	geo:long "-3.621750"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.559528"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/PASEO+EUROPA> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "BALLENOIL" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "PASEO EUROPA" ;
+<http://www.semweb19-20/40.545917-3.622917> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "BALLENOIL" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" .
+
+<http://www.semweb19-20/PASEO+EUROPA> a <http://www.semweb19-20/G11#Street> ;
+	<http://www.semweb19-20/G11#dedicatedTo> "EUROPA" .
+
+<http://www.semweb19-20/40.545917-3.622917> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/PASEO+EUROPA> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1189"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1297"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:long "-3.622917"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.545917"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/AVENIDA+PIRINEOS+%28DE+LOS%29> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "BALLENOIL" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "AVENIDA PIRINEOS (DE LOS)" ;
+<http://www.semweb19-20/40.551972-3.610083> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "BALLENOIL" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" .
+
+<http://www.semweb19-20/AVENIDA+PIRINEOS+%28DE+LOS%29> a <http://www.semweb19-20/G11#Street> ;
+	<http://www.semweb19-20/G11#dedicatedTo> "PIRINEOS" .
+
+<http://www.semweb19-20/40.551972-3.610083> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/AVENIDA+PIRINEOS+%28DE+LOS%29> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1169"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1287"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:long "-3.610083"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	geo:lat "40.551972"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	owl:sameAs <https://www.wikidata.org/wiki/Q54487563> .
+	geo:lat "40.551972"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/AVENIDA+TENERIFE> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "BALLENOIL" ;
+<http://www.semweb19-20/40.559389-3.622861> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "BALLENOIL" ;
 	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "AVENIDA TENERIFE" ;
+	<http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/AVENIDA+TENERIFE> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1167"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1287"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:long "-3.622861"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.559389"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/GLORIETA+ANTONIO+GAUDI> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "BP APADIS" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-00:00" ;
-	<http://www.semweb19-20/G11#hasAddress> "GLORIETA ANTONIO GAUDI" ;
+<http://www.semweb19-20/40.557833-3.612611> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "BP" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 06:00-00:00" .
+
+<http://www.semweb19-20/GLORIETA+ANTONIO+GAUDI> a <http://www.semweb19-20/G11#Street> ;
+	<http://www.semweb19-20/G11#dedicatedTo> "ANTONIO GAUDI" .
+
+<http://www.semweb19-20/40.557833-3.612611> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/GLORIETA+ANTONIO+GAUDI> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1249"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1359"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -384,20 +473,26 @@
 	geo:long "-3.612611"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.557833"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/AVENIDA+FUENTE+NUEVA> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "PETROPRIX" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "AVENIDA FUENTE NUEVA" ;
+<http://www.semweb19-20/40.547667-3.612472> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "PETROPRIX" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" .
+
+<http://www.semweb19-20/AVENIDA+FUENTE+NUEVA> a <http://www.semweb19-20/G11#Street> .
+
+<http://www.semweb19-20/40.547667-3.612472> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/AVENIDA+FUENTE+NUEVA> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1167"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1287"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:long "-3.612472"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.547667"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/AUTOVIA+NACIONAL+I> a <http://www.semweb19-20/G11#Station> ;
-	rdfs:label "GALP" ;
-	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
-	<http://www.semweb19-20/G11#hasAddress> "AUTOVIA NACIONAL I" ;
+<http://www.semweb19-20/40.608694-3.579000> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "GALP" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" .
+
+<http://www.semweb19-20/AUTOVIA+NACIONAL+I> a <http://www.semweb19-20/G11#Street> .
+
+<http://www.semweb19-20/40.608694-3.579000> <http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/AUTOVIA+NACIONAL+I> ;
 	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semweb19-20/G11#hasPriceDiesA> "1259"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://www.semweb19-20/G11#hasPriceGas95> "1339"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -406,6 +501,11 @@
 	geo:long "-3.579000"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.608694"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://localhost:3333/CARRETERA+N-1> rdfs:label "CEPSA" ;
+<http://www.semweb19-20/40.590889-3.581778> a <http://www.semweb19-20/G11#Station> ;
+	<http://www.semweb19-20/G11#hasLabel> "CEPSA" ;
+	<http://www.semweb19-20/G11#hasSchedule> "L-D: 24H" ;
+	<http://www.semweb19-20/G11#hasAddress> <http://www.semweb19-20/CARRETERA+N-1> ;
+	<http://www.semweb19-20/G11#hasPostalCode> "28700"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semweb19-20/G11#hasPriceDiesA> "1249"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:long "-3.581778"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	geo:lat "40.590889"^^<http://www.w3.org/2001/XMLSchema#double> .
