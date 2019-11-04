@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JenaRequest",
+            "request": "launch",
+            "mainClass": "semanticweb.model.resources.JenaRequest",
+            "projectName": "parks"
+        }
+    ]
+}
