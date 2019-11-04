@@ -16,6 +16,9 @@ body {
 .form{
     text-align: center
 }
+h1{
+        text-align: center;
+}
 h2{
     padding-left: 15%;
     padding-right: 15%

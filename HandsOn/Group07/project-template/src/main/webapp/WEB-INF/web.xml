@@ -4,14 +4,7 @@
 	<!-- Servlets -->
 	
 	<!-- Servlet mappings -->
-  <servlet>
-    <servlet-name>HelloWorld</servlet-name>
-    <servlet-class>semanticweb.HelloWorldServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>HelloWorld</servlet-name>
-    <url-pattern>/helloworld</url-pattern>
-  </servlet-mapping>
+
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>

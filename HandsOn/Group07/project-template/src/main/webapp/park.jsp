@@ -17,7 +17,7 @@
 <!-- Body -->
 <div class="bg">
   <!-- Logo -->
-  <img class="img-responsive img-responsive-index" src="img/logo.png"/>
+  <a href="/parks/index.html"><img class="img-responsive img-responsive-index" src="img/logo.png"/></a>
   <div class="table">
     <table class="table table-hover">
       <tr>
