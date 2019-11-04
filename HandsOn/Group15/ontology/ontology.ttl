@@ -24,9 +24,6 @@ sosa:Observation rdf:type owl:Class .
 ###  http://www.w3.org/ns/sosa/ObservableProperty
 sosa:ObservableProperty rdf:type owl:Class .
 
-###  http://www.w3.org/ns/sosa/Result
-sosa:Result rdf:type owl:Class .
-
 ###  http://www.w3.org/ns/sosa/Procedure
 sosa:Procedure rdf:type owl:Class .
 
@@ -34,11 +31,6 @@ sosa:Procedure rdf:type owl:Class .
 #################################################################
 #    Object Properties
 #################################################################
-
-###  http://www.w3.org/ns/sosa/hasResult
-sosa:hasResult rdf:type owl:ObjectProperty ;
-               rdfs:domain sosa:Observation ;
-               rdfs:range sosa:Result .
 
 ###  http://www.w3.org/ns/sosa/madeBySensor
 sosa:madeBySensor rdf:type owl:ObjectProperty ;
@@ -54,8 +46,12 @@ sosa:observedProperty rdf:type owl:ObjectProperty ;
 sosa:usedProcedure rdf:type owl:ObjectProperty ;
                       rdfs:domain sosa:Observation ;
                       rdfs:range sosa:Procedure .
-				
-
+					  
+###  http://www.w3.org/ns/sosa/observes
+sosa:observes rdf:type owl:ObjectProperty ;
+                      rdfs:domain sosa:Sensor ;
+                      rdfs:range sosa:ObservableProperty.
+					  
 #################################################################
 #    Data properties
 #################################################################
@@ -94,5 +90,10 @@ geo:long rdf:type owl:DatatypeProperty ;
 sosa:resultTime rdf:type owl:DatatypeProperty ;
                 rdfs:domain sosa:Observation ;
                 rdfs:range xsd:dateTime .
+				
+###  http://www.w3.org/ns/sosa/hasSimpleResult
+sosa:hasSimpleResult rdf:type owl:DatatypeProperty ;
+               rdfs:domain sosa:Observation ;
+               rdfs:range rdfs:literal.
 			
 		 

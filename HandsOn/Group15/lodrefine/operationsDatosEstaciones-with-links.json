@@ -8529,5 +8529,1529 @@
       ]
     },
     "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology#"
+        },
+        {
+          "name": "sosa",
+          "uri": "http://www.w3.org/ns/sosa/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Measurement/\" + \"000000\" + value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/madeBySensor",
+              "curie": "sosa:madeBySensor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID_ESTACION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/hasResult",
+              "curie": "sosa:hasResult",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "RESULTADO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/observedProperty",
+              "curie": "sosa:observedProperty",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/resultTime",
+              "curie": "sosa:resultTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "FECHA",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/usedProcedure",
+              "curie": "sosa:usedProcedure",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TECNICA",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#unidad",
+              "curie": "aqm:unidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "UNIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Observation",
+              "curie": "sosa:Observation"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "CONTAMINANTE",
+          "expression": "\"Contaminante/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Chemical Compound",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/ObservableProperty",
+              "curie": "sosa:ObservableProperty"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "TECNICA",
+          "expression": "\"Tecnica/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Technique",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Procedure",
+              "curie": "sosa:Procedure"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology#"
+        },
+        {
+          "name": "sosa",
+          "uri": "http://www.w3.org/ns/sosa/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_MEDICION",
+          "expression": "\"Measurement/\" + value + row.index",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/madeBySensor",
+              "curie": "sosa:madeBySensor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID_ESTACION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/hasSimpleResult",
+              "curie": "sosa:hasSimpleResult",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "RESULTADO",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/observedProperty",
+              "curie": "sosa:observedProperty",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/resultTime",
+              "curie": "sosa:resultTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "FECHA",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/usedProcedure",
+              "curie": "sosa:usedProcedure",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TECNICA",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#unidad",
+              "curie": "aqm:unidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "UNIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Observation",
+              "curie": "sosa:Observation"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "CONTAMINANTE",
+          "expression": "\"Contaminante/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Chemical Compound",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/ObservableProperty",
+              "curie": "sosa:ObservableProperty"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "TECNICA",
+          "expression": "\"Tecnica/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Technique",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Procedure",
+              "curie": "sosa:Procedure"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_ESTACION",
+          "expression": "\"Station/\" + value + row.index",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/observes",
+              "curie": "sosa:observes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology#"
+        },
+        {
+          "name": "sosa",
+          "uri": "http://www.w3.org/ns/sosa/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_MEDICION",
+          "expression": "\"Measurement/\" + value + row.index",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/madeBySensor",
+              "curie": "sosa:madeBySensor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID_ESTACION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/hasSimpleResult",
+              "curie": "sosa:hasSimpleResult",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "RESULTADO",
+                "expression": "value",
+                "valueType": "xsd:double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/observedProperty",
+              "curie": "sosa:observedProperty",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/resultTime",
+              "curie": "sosa:resultTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "FECHA",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/usedProcedure",
+              "curie": "sosa:usedProcedure",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TECNICA",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#unidad",
+              "curie": "aqm:unidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "UNIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Observation",
+              "curie": "sosa:Observation"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "CONTAMINANTE",
+          "expression": "\"Contaminante/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Chemical Compound",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/ObservableProperty",
+              "curie": "sosa:ObservableProperty"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "TECNICA",
+          "expression": "\"Tecnica/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Technique",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Procedure",
+              "curie": "sosa:Procedure"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_ESTACION",
+          "expression": "\"Station/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/observes",
+              "curie": "sosa:observes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology#"
+        },
+        {
+          "name": "sosa",
+          "uri": "http://www.w3.org/ns/sosa/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_MEDICION",
+          "expression": "\"Measurement/\" + value + row.index",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/madeBySensor",
+              "curie": "sosa:madeBySensor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID_ESTACION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/hasSimpleResult",
+              "curie": "sosa:hasSimpleResult",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "RESULTADO",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2000/01/rdf-schema#literal",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/observedProperty",
+              "curie": "sosa:observedProperty",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/resultTime",
+              "curie": "sosa:resultTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "FECHA",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/usedProcedure",
+              "curie": "sosa:usedProcedure",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TECNICA",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#unidad",
+              "curie": "aqm:unidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "UNIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Observation",
+              "curie": "sosa:Observation"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "CONTAMINANTE",
+          "expression": "\"Contaminante/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Chemical Compound",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/ObservableProperty",
+              "curie": "sosa:ObservableProperty"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "TECNICA",
+          "expression": "\"Tecnica/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Technique",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Procedure",
+              "curie": "sosa:Procedure"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_ESTACION",
+          "expression": "\"Station/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/observes",
+              "curie": "sosa:observes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Sensor",
+              "curie": "sosa:Sensor"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology#"
+        },
+        {
+          "name": "sosa",
+          "uri": "http://www.w3.org/ns/sosa/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_MEDICION",
+          "expression": "\"Measurement/\" + value + row.index",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/madeBySensor",
+              "curie": "sosa:madeBySensor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID_ESTACION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/hasSimpleResult",
+              "curie": "sosa:hasSimpleResult",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "RESULTADO",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2000/01/rdf-schema#literal",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/observedProperty",
+              "curie": "sosa:observedProperty",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/resultTime",
+              "curie": "sosa:resultTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "FECHA",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/usedProcedure",
+              "curie": "sosa:usedProcedure",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TECNICA",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#unidad",
+              "curie": "aqm:unidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "UNIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Observation",
+              "curie": "sosa:Observation"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "CONTAMINANTE",
+          "expression": "\"Contaminante/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Chemical Compound",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/ObservableProperty",
+              "curie": "sosa:ObservableProperty"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "TECNICA",
+          "expression": "\"Tecnica/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Technique",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Procedure",
+              "curie": "sosa:Procedure"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_ESTACION",
+          "expression": "\"Station/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/observes",
+              "curie": "sosa:observes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Sensor",
+              "curie": "sosa:Sensor"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology#"
+        },
+        {
+          "name": "sosa",
+          "uri": "http://www.w3.org/ns/sosa/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_MEDICION",
+          "expression": "\"Measurement/\" + value + row.index",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/madeBySensor",
+              "curie": "sosa:madeBySensor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID_ESTACION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/hasSimpleResult",
+              "curie": "sosa:hasSimpleResult",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "RESULTADO",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/observedProperty",
+              "curie": "sosa:observedProperty",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/resultTime",
+              "curie": "sosa:resultTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "FECHA",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/usedProcedure",
+              "curie": "sosa:usedProcedure",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TECNICA",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#unidad",
+              "curie": "aqm:unidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "UNIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Observation",
+              "curie": "sosa:Observation"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "CONTAMINANTE",
+          "expression": "\"Contaminante/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Chemical Compound",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/ObservableProperty",
+              "curie": "sosa:ObservableProperty"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "TECNICA",
+          "expression": "\"Tecnica/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Technique",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Procedure",
+              "curie": "sosa:Procedure"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_ESTACION",
+          "expression": "\"Station/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/observes",
+              "curie": "sosa:observes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Sensor",
+              "curie": "sosa:Sensor"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology#"
+        },
+        {
+          "name": "sosa",
+          "uri": "http://www.w3.org/ns/sosa/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_MEDICION",
+          "expression": "\"Measurement/\" + value + row.index",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/madeBySensor",
+              "curie": "sosa:madeBySensor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID_ESTACION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/hasSimpleResult",
+              "curie": "sosa:hasSimpleResult",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "RESULTADO",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/observedProperty",
+              "curie": "sosa:observedProperty",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/resultTime",
+              "curie": "sosa:resultTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "FECHA",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/usedProcedure",
+              "curie": "sosa:usedProcedure",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TECNICA",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#unidad",
+              "curie": "aqm:unidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "UNIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Observation",
+              "curie": "sosa:Observation"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "CONTAMINANTE",
+          "expression": "\"Contaminante/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Chemical Compound",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/ObservableProperty",
+              "curie": "sosa:ObservableProperty"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "TECNICA",
+          "expression": "\"Tecnica/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Technique",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Procedure",
+              "curie": "sosa:Procedure"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_ESTACION",
+          "expression": "\"Station/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/observes",
+              "curie": "sosa:observes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Sensor",
+              "curie": "sosa:Sensor"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology#"
+        },
+        {
+          "name": "sosa",
+          "uri": "http://www.w3.org/ns/sosa/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_MEDICION",
+          "expression": "\"Measurement/\" + value + row.index",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/madeBySensor",
+              "curie": "sosa:madeBySensor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID_ESTACION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/hasSimpleResult",
+              "curie": "sosa:hasSimpleResult",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "RESULTADO",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/observedProperty",
+              "curie": "sosa:observedProperty",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/resultTime",
+              "curie": "sosa:resultTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "FECHA",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/usedProcedure",
+              "curie": "sosa:usedProcedure",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TECNICA",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#unidad",
+              "curie": "aqm:unidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "UNIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Observation",
+              "curie": "sosa:Observation"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "CONTAMINANTE",
+          "expression": "\"Contaminante/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Chemical Compound",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/ObservableProperty",
+              "curie": "sosa:ObservableProperty"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "TECNICA",
+          "expression": "\"Tecnica/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Technique",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Procedure",
+              "curie": "sosa:Procedure"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_ESTACION",
+          "expression": "\"Station/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/observes",
+              "curie": "sosa:observes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CONTAMINANTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Sensor",
+              "curie": "sosa:Sensor"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
   }
 ]
