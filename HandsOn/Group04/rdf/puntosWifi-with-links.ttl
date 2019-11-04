@@ -28,7 +28,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "010 (desde fuera del municipio de Madrid: 915 298 210)";
   ont:tipo <https://www.wikidata.org/wiki/Q745221>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Delicias (línea 3), Palos de la Frontera (línea 3)Bus: 6, 8, 19, 45, 47, 55, 59, 85, 86, 102Renfe: Delicias, Atocha";
   rdfs:label "Agencia de Actividades. Registro" .
 
@@ -69,7 +68,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 719 89 96";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Laguna, Casa de Campo, Aluche RENFE: Laguna, Aluche  Bus: 25, 31, 138";
   rdfs:label "Biblioteca Pública Municipal Aluche (Latina)" .
 
@@ -106,7 +104,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 588 08 30";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Marqués de Vadillo Bus: 34, 35, 50, 118 y 119.";
   rdfs:label "Biblioteca Pública Municipal Ana María Matute (Carabanchel)" .
 
@@ -140,7 +137,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 512 35 42";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Campamento  Bus: 25, 36, 39, 65, 121, 131, 138, H";
   rdfs:label "Biblioteca Pública Municipal Ángel González (Latina)" .
 
@@ -172,7 +168,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 724 08 04";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Diego de León, Manuel Becerra Bus: 1, 12, 43, 48, 56, 74, Circular BICIMAD: Estación 193 (Avenida de los toreros 49)";
   rdfs:label "Biblioteca Pública Municipal Buenavista (Salamanca)" .
 
@@ -210,7 +205,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 741 11 34";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "NUM";
   ont:transporte "Metro: Canillejas, Torre Arias (Línea 5). Bus: 77, 105, 140";
   rdfs:label "Biblioteca Pública Municipal Canillejas (San Blas-Canillejas)" .
 
@@ -245,7 +239,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "915 887 566";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Ciudad Lineal  Bus: 4, 38, 48, 70, 77, 105, 109";
   rdfs:label "Biblioteca Pública Municipal Ciudad Lineal (Ciudad Lineal)" .
 
@@ -259,8 +252,7 @@
   a ont:NombreVia;
   owl:sameAs <https://www.wikidata.org/wiki/Q5740959> .
 
-<http://puntoswifimadrid.com/ontology/puntosWifi/MADRID> a ont:Localidad, ont:Provincia,
-    ont:Provincia;
+<http://puntoswifimadrid.com/ontology/puntosWifi/MADRID> a ont:Localidad, ont:Provincia;
   owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
 
 <http://puntoswifimadrid.com/ontology/puntosWifi/1882> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
@@ -286,7 +278,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 588 59 10";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Ventura Rodríguez, Plaza de España, San Bernardo y Noviciado. Bus: 1, 2, 7, 21, 44, 74, 147, Circular, Minibús M-2 BICIMAD: Estación 13 (calle Conde Duque 22)";
   rdfs:label "Biblioteca Pública Municipal Conde Duque (Centro)" .
 
@@ -324,7 +315,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 350 31 50";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Plaza de Castilla , Duque de Pastrana  Bus: 70, 107, 129, 174";
   rdfs:label "Biblioteca Pública Municipal Dámaso Alonso (Chamartín)" .
 
@@ -362,7 +352,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 480 48 38";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Ibiza Bus: 20, 26, 63, 152 y Circular BICIMAD: Estación 69 (Avenida Alfonso XII n&amp;ordm; 54)";
   rdfs:label "Biblioteca Pública Municipal Eugenio Trías. Casa de Fieras de El Retiro" .
 
@@ -400,7 +389,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 301 64 66";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Valdebernardo  Bus: 8, 71, 130";
   rdfs:label "Biblioteca Pública Municipal Francisco Ayala (Vicálvaro)" .
 
@@ -438,7 +426,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 510 37 56";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Concha Espina, Prosperidad  Bus: 9, 16, 29, 52";
   rdfs:label "Biblioteca Pública Municipal Francisco Ibáñez (Chamartín)" .
 
@@ -476,7 +463,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 318 86 91";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "NUM";
   ont:transporte "Bus: 78, 116  Metro: San Fermín - Orcasur Renfe: Orcasitas";
   rdfs:label "Biblioteca Pública Municipal Gabriel García Márquez (Usera)" .
 
@@ -513,7 +499,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 380 66 33";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "NUM";
   ont:transporte "Metro: Villa de Vallecas (línea 1) Bus: 54, 58, 103, 130, 142";
   rdfs:label "Biblioteca Pública Municipal Gerardo Diego (Villa de Vallecas)" .
 
@@ -550,7 +535,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 312 02 58";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Alameda de Osuna  Bus: 105, 112, 115";
   rdfs:label "Biblioteca Pública Municipal Gloria Fuertes (Barajas)" .
 
@@ -587,7 +571,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 764 52 43";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Parque de Santa María  Bus: 9, 72, 107, 201";
   rdfs:label "Biblioteca Pública Municipal Huerta de la Salud (Hortaleza)" .
 
@@ -625,7 +608,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "917 586 211";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Sol, Latina y Ópera Bus: 3, 17, 18, 23, 31, 50, 65 Renfe: Sol BICIMAD: Estación 35 (Plaza del Cordón 1)";
   rdfs:label "Biblioteca Pública Municipal Iván de Vargas (Centro)" .
 
@@ -664,7 +646,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 313 55 28";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Las Musas  Bus: 38, 48, 140, 153  Autobuses interurbanos: 286, 288, 289";
   rdfs:label "Biblioteca Pública Municipal José Hierro (San Blas-Canillejas)" .
 
@@ -706,7 +687,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 588 68 91";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Barrio del Pilar, Peñagrande  Bus: 49, 83, 128, 132, 134, 137";
   rdfs:label "Biblioteca Pública Municipal José Saramago (Fuencarral-El Pardo)" .
 
@@ -750,7 +730,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 422 05 33";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "NUM";
   ont:transporte "Metro: Eugenia de Montijo, Carabanchel  Bus: 34 , 35";
   rdfs:label "Biblioteca Pública Municipal La Chata (Carabanchel)" .
 
@@ -791,7 +770,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 403 63 22";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "NUM";
   ont:transporte "Bus: líneas 15, 28, 110, 113, 210 Metro: La Elipa (línea 2)";
   rdfs:label "Biblioteca Pública Municipal La Elipa (Ciudad Lineal)" .
 
@@ -834,7 +812,6 @@
   ont:telefono """91 398 07 23                                                                                                                                     
 91 398 07 26""";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Francos Rodríguez  Bus: 44, 64, 126, 127, 128, 132";
   rdfs:label "Biblioteca Pública Municipal Manuel Vázquez Montalbán (Tetuán)" .
 
@@ -875,7 +852,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 513 33 83";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Tren Ligero de Vicente Blasco Ibáñez y Virgen del Cortijo Bus: 174, 173, 172L, 172 SF.";
   rdfs:label "Biblioteca Pública Municipal María Lejárraga (Hortaleza)" .
 
@@ -916,7 +892,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 733 90 43";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Ventilla Bus: 42";
   rdfs:label "Biblioteca Pública Municipal María Zambrano (Tetuán)" .
 
@@ -958,7 +933,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "914 802 433";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Alonso Martínez, Tribunal. Bus: 3, 21, 37, 40, 147, 149 BICIMAD: Estación 54 (Calle Barceló 7)";
   rdfs:label "Biblioteca Pública Municipal Mario Vargas Llosa (Centro)" .
 
@@ -999,7 +973,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 328 73 00";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "NUM";
   ont:transporte "Metro: Vinateros  Bus: 20, 30, 32, 71, 113";
   rdfs:label "Biblioteca Pública Municipal Miguel Delibes (Moratalaz)" .
 
@@ -1040,7 +1013,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 406 14 72";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Ascao  Bus: 28, 109";
   rdfs:label "Biblioteca Pública Municipal Pablo Neruda (Ciudad Lineal)" .
 
@@ -1081,7 +1053,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 474 16 03";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "NUM";
   ont:transporte "Metro: Pirámides (Línea 5). Bus: 18, 23, 34, 35, 36, 116, 118, 119  Renfe: Pirámides BICIMAD: Estación 162 (Paseo de los Olmos 28)";
   rdfs:label "Biblioteca Pública Municipal Pío Baroja (Arganzuela)" .
 
@@ -1121,7 +1092,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 757 03 23";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Portazgo, Buenos Aires (línea 1) Bus: 54, 57, 58, 103, 136, 141, 143";
   rdfs:label "Biblioteca Pública Municipal Portazgo (Puente de Vallecas)" .
 
@@ -1161,7 +1131,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 507 07 34";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "NUM";
   ont:transporte "Bus: 24, 102  Renfe: El Pozo";
   rdfs:label "Biblioteca Pública Municipal Pozo del Tío Raimundo (Puente de Vallecas)" .
 
@@ -1201,7 +1170,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 313 52 97";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "NUM";
   ont:transporte "Bus: 4, 38, 48, 70, 106, 140 Metro: Alsacia (Línea 2)";
   rdfs:label "Biblioteca Pública Municipal San Blas (San Blas-Canillejas)" .
 
@@ -1241,7 +1209,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 588 60 51";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Nueva Numancia  Bus: 10, 24, 54, 57, 58, 111, 136, 310";
   rdfs:label "Biblioteca Pública Municipal Vallecas (Puente de Vallecas)" .
 
@@ -1281,7 +1248,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "91 775 31 43";
   ont:tipo <https://www.wikidata.org/wiki/Q28564>;
-  ont:tipoNum "NUM";
   ont:transporte "Metro: Vicálvaro  Bus: 4, 100, 106, 130  Renfe: Vicálvaro";
   rdfs:label "Biblioteca Pública Municipal Vicálvaro" .
 
@@ -1318,7 +1284,6 @@
   ont:numero "3"^^sch:int;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "915 880 207";
-  ont:tipoNum "V";
   ont:transporte "Metro: Metro Nueva Numancia (salida Sierra Carbonera), Portazgo (línea 1)Bus: 10, 54, 57, 58, 136";
   rdfs:label "Casa del Empleo (Puente de Vallecas)" .
 
@@ -1355,7 +1320,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "913 767 085";
   ont:tipo <https://www.wikidata.org/wiki/Q1329623>;
-  ont:tipoNum "V";
   ont:transporte "Bus: 49 , 64";
   rdfs:label "Centro Cultural Alfredo Kraus (Fuencarral - El Pardo)" .
 
@@ -1393,7 +1357,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "917 400 882 / 917 401 596";
   ont:tipo <https://www.wikidata.org/wiki/Q1329623>;
-  ont:tipoNum "V";
   ont:transporte "Bus: 160, 161.";
   rdfs:label "Centro Cultural Aravaca (Moncloa - Aravaca)" .
 
@@ -1432,7 +1395,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "917 240 800 / 917 240 802";
   ont:tipo <https://www.wikidata.org/wiki/Q1329623>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Diego de León (líneas 4 , 5 , 6)Bus: 1, 74, 48, 12, 43, 56, C1, C2";
   rdfs:label "Centro Cultural Buenavista (Salamanca)" .
 
@@ -1471,7 +1433,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "917 411 182 / 917 411 013";
   ont:tipo <https://www.wikidata.org/wiki/Q1329623>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Torres Arias y Canillejas (línea 5)Bus: 77, 140";
   rdfs:label "Centro Cultural Buero Vallejo (San Blas - Canillejas)" .
 
@@ -1509,7 +1470,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "917 161 240";
   ont:tipo <https://www.wikidata.org/wiki/Q1329623>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Arturo Soria (línea 4)Bus: 9, 72, 73";
   rdfs:label "Centro Cultural Carril del Conde (Hortaleza)" .
 
@@ -1546,7 +1506,6 @@
   ont:numero "1"^^sch:int;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "914 095 819";
-  ont:tipoNum "V";
   ont:transporte "Metro: Retiro (línea 2)Bus: 2, 20, 28BICIMAD: Estación 102 (calle Alcalá, 95), estación 60 (Plaza Independencia, 6)";
   rdfs:label "Centro Cultural Casa de Vacas (Retiro)" .
 
@@ -1584,7 +1543,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "915 886 118 / 915 886 299";
   ont:tipo <https://www.wikidata.org/wiki/Q1329623>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Legazpi (líneas 3, 6).Bus: 148, 18, 6, 78, 62.BICIMAD: Estación 165 (Paseo Chopera, 14).";
   rdfs:label "Centro Cultural Casa del Reloj (Arganzuela)" .
 
@@ -1620,7 +1578,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "913 209 770 / 917 413 092";
   ont:tipo <https://www.wikidata.org/wiki/Q1329623>;
-  ont:tipoNum "V";
   ont:transporte "Bus: 77";
   rdfs:label "Centro Cultural Ciudad Pegaso (San Blas - Canillejas)" .
 
@@ -1657,7 +1614,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "915 063 610";
   ont:tipo <https://www.wikidata.org/wiki/Q1329623>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Palos de la Frontera (línea 3)Bus: 19, 247, 45, 47, 8, 86, 55, 6, E1, 59, 85.BICIMAD: Estación 120 (calle Palos de la Frontera, 40)Cercanías Renfe: Delicias (líneas C1, C7, C10, Regional).";
   rdfs:label "Centro Cultural Dotacional Integrado Arganzuela" .
 
@@ -1696,7 +1652,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "917 337 249";
   ont:tipo <https://www.wikidata.org/wiki/Q1329623>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Ventilla (línea 9)Bus: 177, 42";
   rdfs:label "Centro Cultural Eduardo Úrculo (Tetuán)" .
 
@@ -1715,16 +1670,16 @@
 <http://puntoswifimadrid.com/ontology/puntosWifi/CentrosCulturales> a ont:Tipo;
   owl:sameAs "https://www.wikidata.org/wiki/Q1329623" .
 
-<http://puntoswifimadrid.com/ontology/puntosWifi/1953> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
+<http://puntoswifimadrid.com/ontology/puntosWifi/1953> ont:CP "28032";
+  a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
   ont:ID "1953";
+  ont:barrio "https://www.wikidata.org/wiki/Q16544374";
+  ont:coordenadaX "448357";
+  ont:coordenadaY "4472920";
+  ont:distrito "https://www.wikidata.org/wiki/Q589403";
   ont:accesibilidad "1";
   ont:clase "CALLE";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=57b63d0b5e71c010VgnVCM1000000b205a0aRCRD>;
-  ont:CP "28032";
-  ont:barrio "https://www.wikidata.org/wiki/Q16544374";
-  ont:distrito "https://www.wikidata.org/wiki/Q589403";
-  ont:coordenadaX "448357";
-  ont:coordenadaY "4472920";
   ont:equipamiento "Sala de lectura y estudioSalón de actos / Auditorio (Aforo: 250 personas)7 AulasZona wifi";
   ont:horario "De lunes a viernes de 9 a 14.Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.";
   ont:latitud "40.405292721436055"^^sch:int;
@@ -1735,7 +1690,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "917 753 140";
   ont:tipo <https://www.wikidata.org/wiki/Q1329623>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Vicálvaro (línea 9)Bus: 4, 100, 106, 130, E3";
   rdfs:label "Centro Cultural el Madroño (Vicálvaro)" .
 
@@ -1774,7 +1728,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "913 287 385";
   ont:tipo <https://www.wikidata.org/wiki/Q1329623>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Artilleros (línea 9)Bus: 32, 71";
   rdfs:label "Centro Cultural el Torito (Moratalaz)" .
 
@@ -1792,10 +1745,10 @@
 
 <http://puntoswifimadrid.com/ontology/puntosWifi/1954> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
   ont:ID "1954";
+  ont:descripcion "En la misma sede: Biblioteca Pública Municipal de Aluche.Sala de Estudio Fernando de los Ríos de la Biblioteca.";
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3d973d0b5e71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:descripcion "En la misma sede: Biblioteca Pública Municipal de Aluche.Sala de Estudio Fernando de los Ríos de la Biblioteca.";
   ont:equipamiento "Sala de exposiciones.Salón de actos / auditorio (Aforo 194 personas).11 aulas.Cafetería.Zona wifi.";
   ont:horario "De lunes a viernes, de 9 a 14 y de 16 a 18 horas.Julio, de lunes a viernes, de 9 a 14 horas.Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.";
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
@@ -1811,7 +1764,6 @@
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:telefono "917 198 930 / 917 198 931 / 917 198 993";
   ont:tipo <https://www.wikidata.org/wiki/Q1329623>;
-  ont:tipoNum "V";
   ont:transporte "Bus: 25, 31, 138.";
   rdfs:label "Centro Cultural Fernando de los Ríos (Latina)" .
 
@@ -1831,10 +1783,10 @@
 
 <http://puntoswifimadrid.com/ontology/puntosWifi/4703628> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
   ont:ID "4703628";
+  ont:equipamiento "Sala de exposicionesSala de lectura y estudioSalón de actos / auditorio (aforo 238 personas)7 aulas4 gimnasiosZona wifi";
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=340ed2d6fe9a6110VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:equipamiento "Sala de exposicionesSala de lectura y estudioSalón de actos / auditorio (aforo 238 personas)7 aulas4 gimnasiosZona wifi";
   ont:horario "Lunes a jueves, de 10 a 13 y de 16:30 a 18:30 horas. Viernes, de 10 a 13 horas.Julio, de lunes a viernes, de 10 a 13 horas. Agosto cerrado. Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.";
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:numero "29"^^sch:int;
@@ -1849,7 +1801,6 @@
   ont:email "cclazaro@madrid.es";
   ont:telefono "914 690 895";
   ont:tipo <https://www.wikidata.org/wiki/Q1329623>;
-  ont:tipoNum "V";
   ont:transporte "Bus: 116";
   rdfs:label "Centro Cultural Fernando Lázaro Carreter (Carabanchel)" .
 
@@ -1861,7 +1812,7 @@
 
 <http://puntoswifimadrid.com/ontology/puntosWifi/VERDAD> a ont:NombreVia .
 
-<http://puntoswifimadrid.com/ontology/puntosWifi/MADRID> a ont:Localidad, ont:Provincia;
+<http://puntoswifimadrid.com/ontology/puntosWifi/MADRID> a ont:Provincia, ont:Localidad;
   owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
 
 <http://puntoswifimadrid.com/ontology/puntosWifi/CentrosCulturales> a ont:Tipo;
@@ -1870,11 +1821,11 @@
 <http://puntoswifimadrid.com/ontology/puntosWifi/1921> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
   ont:ID "1921";
   ont:equipamiento "Espacios Teatro Galileo y patio Servicios 2 Salas de exposiciones1 Salas de lectura y estudio1 Salón de actos / Auditorio (Aforo 175 personas)10 Aulas1 Sala de ensayoCafeteríaZona wifi";
+  ont:horario "De lunes a viernes, de 9 a 14 horas.  Verano: de lunes a viernes, de 9 a 13:30 horas. San Isidro: de lunes a viernes, de 9 a 13:30 horas. Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.";
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=30181e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q27031392";
   ont:clase "CALLE";
-  ont:horario "De lunes a viernes, de 9 a 14 horas.  Verano: de lunes a viernes, de 9 a 13:30 horas. San Isidro: de lunes a viernes, de 9 a 13:30 horas. Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.";
   ont:numero "39"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -1888,7 +1839,6 @@
   ont:telefono "915 913 901";
   ont:email "ccgalileo@madrid.es";
   ont:tipo <https://www.wikidata.org/wiki/Q1329623>;
-  ont:tipoNum "V";
   ont:transporte "Metro: Quevedo (línea 2)Bus: 2, 16, 61BICIMAD: Estación 127 (calle Fernando el Católico, 19)";
   rdfs:label "Centro Cultural Galileo (Chamberí)" .
 
@@ -1901,20 +1851,20 @@
 <http://puntoswifimadrid.com/ontology/puntosWifi/GALILEO> a ont:NombreVia;
   owl:sameAs <https://www.wikidata.org/wiki/Q27031392> .
 
-<http://puntoswifimadrid.com/ontology/puntosWifi/MADRID> a ont:Provincia, ont:Localidad;
-  owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
+<http://puntoswifimadrid.com/ontology/puntosWifi/MADRID> a ont:Provincia;
+  owl:sameAs <https://www.wikidata.org/wiki/Q2807>, <https://www.wikidata.org/wiki/Q2807>;
+  a ont:Localidad .
 
 <http://puntoswifimadrid.com/ontology/puntosWifi/CentrosCulturales> a ont:Tipo;
   owl:sameAs "https://www.wikidata.org/wiki/Q1329623" .
 
 <http://puntoswifimadrid.com/ontology/puntosWifi/70243> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
+  ont:accesibilidad "1";
+  ont:horario "De lunes a viernes, de 9 a 14 y de 17 a 19 horas.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.";
   ont:ID "70243";
   ont:equipamiento "Sala de exposiciones4 AulasCafeteríaZona wifi Sala de lectura y estudio";
-  ont:horario "De lunes a viernes, de 9 a 14 y de 17 a 19 horas.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.";
-  ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2e5068540e41c010VgnVCM2000000c205a0aRCRD>;
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "179"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -1953,7 +1903,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=86381e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "15"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -1993,7 +1942,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=dc581e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "8"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2026,14 +1974,13 @@
 <http://puntoswifimadrid.com/ontology/puntosWifi/CentrosCulturales> a ont:Tipo;
   owl:sameAs "https://www.wikidata.org/wiki/Q1329623" .
 
-<http://puntoswifimadrid.com/ontology/puntosWifi/6017747> ont:accesibilidad "1";
-  a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
+<http://puntoswifimadrid.com/ontology/puntosWifi/6017747> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
   ont:ID "6017747";
-  ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b790e37de110f210VgnVCM1000000b205a0aRCRD>;
-  ont:horario "De lunes a viernes, de 9 a 14 y de 15 a 18 horas.  Julio y agosto cerrado.Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.";
   ont:equipamiento "Sala de exposicionesSala de lectura y estudio Salón de actos / auditorio (aforo: 194 personas)1 sala de ensayo14 aulasZona wifi";
+  ont:horario "De lunes a viernes, de 9 a 14 y de 15 a 18 horas.  Julio y agosto cerrado.Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.";
+  ont:accesibilidad "1";
+  ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b790e37de110f210VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "4"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2074,7 +2021,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bd3fba61e681c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "4"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2115,7 +2061,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=79a81e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q26810988";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "100"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2142,8 +2087,9 @@
   owl:sameAs <https://www.wikidata.org/wiki/Q26810988> .
 
 <http://puntoswifimadrid.com/ontology/puntosWifi/MADRID> a ont:Provincia;
-  owl:sameAs <https://www.wikidata.org/wiki/Q2807>, <https://www.wikidata.org/wiki/Q2807>;
-  a ont:Localidad .
+  owl:sameAs <https://www.wikidata.org/wiki/Q2807>;
+  a ont:Localidad;
+  owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
 
 <http://puntoswifimadrid.com/ontology/puntosWifi/CentrosCulturales> a ont:Tipo;
   owl:sameAs "https://www.wikidata.org/wiki/Q1329623" .
@@ -2156,7 +2102,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cfc81e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q28793893";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "20"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2197,7 +2142,6 @@
   ont:accesibilidad "2";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6c191e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "39"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2238,7 +2182,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=09691e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q52683954";
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "38"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2279,7 +2222,6 @@
   ont:accesibilidad "1,4";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a6c875993dc63110VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "2"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2319,7 +2261,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4a273d0b5e71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "1"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2360,7 +2301,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a5b91e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q10319807";
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "133"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2402,7 +2342,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=dbeab973f50e7310VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q19266804";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "8"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2440,7 +2379,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fbd91e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "PLAZA";
-  ont:tipoNum "V";
   ont:numero "1"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2480,7 +2418,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=420a1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "13"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2513,28 +2450,27 @@
 <http://puntoswifimadrid.com/ontology/puntosWifi/CentrosCulturales> a ont:Tipo;
   owl:sameAs "https://www.wikidata.org/wiki/Q1329623" .
 
-<http://puntoswifimadrid.com/ontology/puntosWifi/1932> ont:calle "https://www.wikidata.org/wiki/Q27048291";
-  ont:latitud "40.44810636195716"^^sch:int;
-  ont:localidad <https://www.wikidata.org/wiki/Q2807>;
-  ont:barrio "https://www.wikidata.org/wiki/Q3773744";
-  a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
-  ont:coordenadaY "4477714";
+<http://puntoswifimadrid.com/ontology/puntosWifi/1932> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
   ont:ID "1932";
+  ont:equipamiento "1 Sala de exposiciones1 Salón de actos / auditorio (aforo 234 personas) 1 sala de ensayo 18 aulasCafeteríaZona wifi (parcial)";
+  ont:horario "De lunes a viernes, de 9 a 14 y de 16 a 18:30 horas. Julio, de lunes a viernes, de 9 a 14 horas.Agosto cerrado.Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.";
+  ont:accesibilidad "1";
+  ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ee4a1e79ee71c010VgnVCM1000000b205a0aRCRD>;
+  ont:calle "https://www.wikidata.org/wiki/Q27048291";
+  ont:clase "CALLE";
+  ont:numero "51"^^sch:int;
+  ont:localidad <https://www.wikidata.org/wiki/Q2807>;
+  ont:provincia "https://www.wikidata.org/wiki/Q2807";
+  ont:CP "28002";
+  ont:barrio "https://www.wikidata.org/wiki/Q3773744";
+  ont:distrito "https://www.wikidata.org/wiki/Q1766348";
+  ont:coordenadaX "442656";
+  ont:coordenadaY "4477714";
+  ont:latitud "40.44810636195716"^^sch:int;
+  ont:longitud "-3.6762309620097398"^^sch:int;
+  ont:telefono "915 103 751";
   ont:email "ccnsalmeron@madrid.es";
   ont:tipo <https://www.wikidata.org/wiki/Q1329623>;
-  ont:tipoNum "V";
-  ont:equipamiento "1 Sala de exposiciones1 Salón de actos / auditorio (aforo 234 personas) 1 sala de ensayo 18 aulasCafeteríaZona wifi (parcial)";
-  ont:CP "28002";
-  ont:accesibilidad "1";
-  ont:coordenadaX "442656";
-  ont:clase "CALLE";
-  ont:horario "De lunes a viernes, de 9 a 14 y de 16 a 18:30 horas. Julio, de lunes a viernes, de 9 a 14 horas.Agosto cerrado.Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.";
-  ont:telefono "915 103 751";
-  ont:numero "51"^^sch:int;
-  ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ee4a1e79ee71c010VgnVCM1000000b205a0aRCRD>;
-  ont:provincia "https://www.wikidata.org/wiki/Q2807";
-  ont:distrito "https://www.wikidata.org/wiki/Q1766348";
-  ont:longitud "-3.6762309620097398"^^sch:int;
   ont:transporte "Metro: Concha Espina (línea 9), Prosperidad (línea 4), Cruz del Rayo (línea 9)Bus: 16, 29, 52, 19BICIMAD: Estación 147 (Avenida Doctor Arce, 45)";
   rdfs:label "Centro Cultural Nicolás Salmerón (Chamartín)" .
 
@@ -2555,14 +2491,13 @@
 <http://puntoswifimadrid.com/ontology/puntosWifi/CentrosCulturales> a ont:Tipo;
   owl:sameAs "https://www.wikidata.org/wiki/Q1329623" .
 
-<http://puntoswifimadrid.com/ontology/puntosWifi/1934> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
+<http://puntoswifimadrid.com/ontology/puntosWifi/1934> ont:accesibilidad "1";
+  a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
   ont:ID "1934";
+  ont:clase "PLAZA";
+  ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8b9a1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:equipamiento "1 salón de actos / auditorio. Aforo 255 personas2 salas de ensayo (solo música)5 aulasZona wifi3 gimnasios Zona acristalada en el patio central del centro.";
   ont:horario "De lunes a viernes, de 10 a 13:30 y de 17 a 19:30 horas.  Agosto cerrado.San Isidro: de lunes a viernes, de 10 a 13:30 y de 17 a 19:30 horas.Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.";
-  ont:accesibilidad "1";
-  ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8b9a1e79ee71c010VgnVCM1000000b205a0aRCRD>;
-  ont:clase "PLAZA";
-  ont:tipoNum "V";
   ont:numero "2"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2602,7 +2537,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=add63d0b5e71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "19"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2643,7 +2577,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=28ea1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q32035437";
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "2"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2684,7 +2617,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bcc7cbf06c81c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "1"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2724,7 +2656,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5787e842ec9a6110VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "4"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2764,7 +2695,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=618b1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "4"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2805,7 +2735,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c957cbf06c81c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CARRETERA";
-  ont:tipoNum "V";
   ont:numero "40"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2845,7 +2774,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=54fb1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "49"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2885,7 +2813,6 @@
   ont:accesibilidad "2";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3cadb2cffdc15410VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "30"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2925,7 +2852,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=69188899fc81c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "BULEVAR";
-  ont:tipoNum "V";
   ont:numero "21"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -2965,7 +2891,6 @@
   ont:accesibilidad "2";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9d8c1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "4"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3005,7 +2930,6 @@
   ont:accesibilidad "2";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=476c1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "7"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3044,7 +2968,6 @@
   ont:accesibilidad "0";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0c8acba8e241b510VgnVCM2000001f4a900aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "41"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3080,7 +3003,6 @@
   ont:accesibilidad "0";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e73a0a47f441f010VgnVCM2000000c205a0aRCRD>;
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "6"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3118,7 +3040,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6b8d4b6faa61c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q28943619";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "14"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3162,7 +3083,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=67d966051361c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q28793893";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "22"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3206,7 +3126,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6c3c66051361c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "62"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3249,7 +3168,6 @@
   ont:accesibilidad "0";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bdf966051361c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "8"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3292,7 +3210,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f69a66051361c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "28"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3336,7 +3253,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4dba66051361c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q5740959";
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "160"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3381,7 +3297,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e90b66051361c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "NUM";
   ont:numero "8"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3424,7 +3339,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=41b3598d1351c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "NUM";
   ont:numero "10"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3468,7 +3382,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cfeb66051361c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q28943619";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "15"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3511,7 +3424,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=876e1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q5794006";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "4"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3555,7 +3467,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=86bb3d232e91f010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q20021470";
   ont:clase "CALLE";
-  ont:tipoNum "NUM";
   ont:numero "4"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3588,16 +3499,15 @@
 <http://puntoswifimadrid.com/ontology/puntosWifi/MADRID> a ont:Localidad;
   owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
 
-<http://puntoswifimadrid.com/ontology/puntosWifi/6166668> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
-  ont:ID "6166668";
-  ont:horario "Invierno: de 9 a 20,30 horas.Verano: de 9 a 20 horas.";
-  ont:equipamiento "Ofrece actividades socioculturales, ocupacionales, artísticas y recreativas.Biblioteca, bar-cafetería, comedor, talleres, sala polivalente, podología, peluquería, gimnasio y espacios preventivos.Zona wifi";
+<http://puntoswifimadrid.com/ontology/puntosWifi/6166668> ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c5a8ff0f9ae32310VgnVCM1000000b205a0aRCRD>;
   ont:transporte "Bus: 26, 32, 6Metro: Tirso de Molina, Antón Martín";
-  ont:descripcion "Requisitos para ser socio: Ser titular de la tarjeta madridmayor.es. Para solicitar esta tarjeta vea la información relacionada.";
   ont:accesibilidad "1";
-  ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c5a8ff0f9ae32310VgnVCM1000000b205a0aRCRD>;
+  ont:horario "Invierno: de 9 a 20,30 horas.Verano: de 9 a 20 horas.";
+  ont:descripcion "Requisitos para ser socio: Ser titular de la tarjeta madridmayor.es. Para solicitar esta tarjeta vea la información relacionada.";
+  ont:equipamiento "Ofrece actividades socioculturales, ocupacionales, artísticas y recreativas.Biblioteca, bar-cafetería, comedor, talleres, sala polivalente, podología, peluquería, gimnasio y espacios preventivos.Zona wifi";
+  a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
+  ont:ID "6166668";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "14"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3638,7 +3548,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c73d66051361c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "8"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3680,7 +3589,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bd5a8ed67151c010VgnVCM2000000c205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q2481405";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "6"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3723,7 +3631,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aa4268540e41c010VgnVCM2000000c205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q26831099";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "40"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3766,7 +3673,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=57fd66051361c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "1"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3807,7 +3713,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4eb1e35bba51c010VgnVCM2000000c205a0aRCRD>;
   ont:clase "CARRETERA";
-  ont:tipoNum "V";
   ont:numero "13"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3849,7 +3754,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4a6e66051361c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q27044458";
   ont:clase "PASEO";
-  ont:tipoNum "V";
   ont:numero "10"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3889,7 +3793,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=830f66051361c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q29648073";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "47"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3932,7 +3835,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=37a366051361c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q62107216";
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "342"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -3975,7 +3877,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d92f66051361c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q28793893";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "22"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4018,7 +3919,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=04941bc268e32310VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q29840780";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "4"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4053,7 +3953,6 @@
 
 <http://puntoswifimadrid.com/ontology/puntosWifi/5912581> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
   ont:ID "5912581";
-  ont:numero "62"^^sch:int;
   ont:horario "Lunes a Viernes: de 9 a 21 horasFines de semana: de 10 a 20:30 horas";
   ont:equipamiento "Servicios  Animación sociocultural Voluntariado Cafetería / comedor Biblioteca Podología Peluquería Talleres culturales  Cultura general Informática Aula libre Internet Alfabetización Karaoke Prevención de la dependencia  Talleres Manuales  Talleres manuales  Manualidades Pintura en tela  Pintura al óleo Bolillos  Talleres de ejercicio físico  Gimnasia Terapia ocupacional Sevillanas Taichi Senderismo Baile en línea Baile de salón  Actividades de turismo  Excursiones semanales  Actividades culturales  Jornadas / conferencias Visitas a museos, exposiciones Otras  Actividades de ocio  Fiestas Comidas Baile Zona wifi";
   ont:transporte "Metro: Villaverde Bajo CruceBus: 59, 79, 85, 123";
@@ -4061,7 +3960,7 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=603ff860f205d210VgnVCM2000000c205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
+  ont:numero "62"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:CP "28021";
@@ -4101,7 +4000,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f4c02f0875e9c110VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "6"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4142,7 +4040,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=205f66051361c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "AVENIDA";
-  ont:tipoNum "NUM";
   ont:numero "19"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4183,7 +4080,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=767f66051361c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "8"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4224,7 +4120,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=939fdef5ab41c010VgnVCM2000000c205a0aRCRD>;
   ont:clase "PASEO";
-  ont:tipoNum "V";
   ont:numero "3"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4265,7 +4160,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d34e8899fc81c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "NUM";
   ont:numero "6"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4307,7 +4201,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=373b79262ef5d010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "28"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4349,7 +4242,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a28066051361c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q52683954";
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "38"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4391,7 +4283,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=85e515a11a81c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "25"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4423,16 +4314,15 @@
 <http://puntoswifimadrid.com/ontology/puntosWifi/MADRID> a ont:Localidad;
   owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
 
-<http://puntoswifimadrid.com/ontology/puntosWifi/108513> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
+<http://puntoswifimadrid.com/ontology/puntosWifi/108513> ont:descripcion "Requisitos para ser socio: Ser titular de la tarjeta madridmayor.es. Para solicitar esta tarjeta vea la información relacionada.";
   ont:ID "108513";
-  ont:horario "Lunes a viernes: de 9 a 21 horas Fines de semana y festivos: de 10 a 14 horas y de 16 a 21 horas";
-  ont:equipamiento "Servicios  Animación sociocultural Peluquería Cafetería Podología Voluntariado  Talleres manuales  Manualidades Dibujo Pintura al óleo Bisutería Pintura en tela  Talleres culturales  Teatro Música coral  Talleres de ejercicio físico  Gimnasia Salud y cuidados personales Taichí Caminar / senderismo Yoga Terapia ocupacional Baile de salón  Actividades de turismo  Excursiones de un día  Actividades culturales  Jornadas / conferencias Otros Visitas a museos, exposiciones  Actividades de ocio  Baile FiestasZona Wifi";
   ont:transporte "Metro: LuceroBus: 31, 119, 138";
-  ont:descripcion "Requisitos para ser socio: Ser titular de la tarjeta madridmayor.es. Para solicitar esta tarjeta vea la información relacionada.";
+  ont:equipamiento "Servicios  Animación sociocultural Peluquería Cafetería Podología Voluntariado  Talleres manuales  Manualidades Dibujo Pintura al óleo Bisutería Pintura en tela  Talleres culturales  Teatro Música coral  Talleres de ejercicio físico  Gimnasia Salud y cuidados personales Taichí Caminar / senderismo Yoga Terapia ocupacional Baile de salón  Actividades de turismo  Excursiones de un día  Actividades culturales  Jornadas / conferencias Otros Visitas a museos, exposiciones  Actividades de ocio  Baile FiestasZona Wifi";
+  ont:horario "Lunes a viernes: de 9 a 21 horas Fines de semana y festivos: de 10 a 14 horas y de 16 a 21 horas";
+  a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=db0615a11a81c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "4"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4474,7 +4364,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3132e35bba51c010VgnVCM2000000c205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q5740959";
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "160"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4518,7 +4407,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=dd5b79262ef5d010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q29914631";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "6"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4560,7 +4448,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=adabae7cb2e4f010VgnVCM1000000b205a0aRCRD>;
   ont:clase "PLAZA";
-  ont:tipoNum "V";
   ont:numero "1"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4601,7 +4488,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=324166051361c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "190"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4642,7 +4528,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c6be8899fc81c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "26"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4683,7 +4568,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=886166051361c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "NUM";
   ont:numero "8"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4725,7 +4609,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2937de75fd187110VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q26820886";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "14"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4767,7 +4650,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c10266051361c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "8"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4809,7 +4691,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=182266051361c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q5740959";
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "14"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4843,29 +4724,28 @@
 <http://puntoswifimadrid.com/ontology/puntosWifi/MADRID> a ont:Localidad;
   owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
 
-<http://puntoswifimadrid.com/ontology/puntosWifi/11690> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
-  ont:ID "11690";
-  ont:horario "De lunes a domingo de 10 a 21 horas.";
-  ont:equipamiento "Servicios  Animación sociocultural Peluquería Cafetería Biblioteca Comedor Fisioterapia preventiva Podología Voluntariado Talleres manuales  Pintura al óleo Otros Talleres culturales  Historia de Madrid Otros Historia del arte   Talleres de ejercicio físico  Gimnasia Baile / sevillanas Taichí Memoria Relajación  Actividades de turismo  Excursiones quincenales  Actividades culturales  Jornadas / conferencias Visitas a museos, exposiciones Actividades de ocio  Baile Zona wifi";
-  ont:transporte "Bus: 9, 40, 43, 72, 73.";
-  ont:descripcion "Requisitos para ser socio: Ser titular de la tarjeta madridmayor.es. Para solicitar esta tarjeta vea la información relacionada.";
-  ont:accesibilidad "1";
-  ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6e4266051361c010VgnVCM1000000b205a0aRCRD>;
-  ont:calle "https://www.wikidata.org/wiki/Q28943619";
-  ont:clase "CALLE";
-  ont:tipoNum "V";
-  ont:numero "15"^^sch:int;
-  ont:localidad <https://www.wikidata.org/wiki/Q2807>;
-  ont:provincia "https://www.wikidata.org/wiki/Q2807";
-  ont:CP "28002";
-  ont:barrio "https://www.wikidata.org/wiki/Q4776";
-  ont:distrito "https://www.wikidata.org/wiki/Q1766348";
-  ont:coordenadaX "443360";
-  ont:coordenadaY "4477547";
-  ont:latitud "40.44476894081767"^^sch:int;
-  ont:longitud "-3.6691931472225465"^^sch:int;
+<http://puntoswifimadrid.com/ontology/puntosWifi/11690> ont:numero "15"^^sch:int;
   ont:telefono "915 106 862";
+  ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:tipo <https://www.wikidata.org/wiki/Q837142>;
+  ont:coordenadaX "443360";
+  ont:ID "11690";
+  ont:clase "CALLE";
+  ont:latitud "40.44476894081767"^^sch:int;
+  ont:CP "28002";
+  ont:accesibilidad "1";
+  ont:distrito "https://www.wikidata.org/wiki/Q1766348";
+  ont:localidad <https://www.wikidata.org/wiki/Q2807>;
+  ont:horario "De lunes a domingo de 10 a 21 horas.";
+  ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6e4266051361c010VgnVCM1000000b205a0aRCRD>;
+  ont:longitud "-3.6691931472225465"^^sch:int;
+  ont:equipamiento "Servicios  Animación sociocultural Peluquería Cafetería Biblioteca Comedor Fisioterapia preventiva Podología Voluntariado Talleres manuales  Pintura al óleo Otros Talleres culturales  Historia de Madrid Otros Historia del arte   Talleres de ejercicio físico  Gimnasia Baile / sevillanas Taichí Memoria Relajación  Actividades de turismo  Excursiones quincenales  Actividades culturales  Jornadas / conferencias Visitas a museos, exposiciones Actividades de ocio  Baile Zona wifi";
+  ont:calle "https://www.wikidata.org/wiki/Q28943619";
+  ont:barrio "https://www.wikidata.org/wiki/Q4776";
+  ont:descripcion "Requisitos para ser socio: Ser titular de la tarjeta madridmayor.es. Para solicitar esta tarjeta vea la información relacionada.";
+  ont:transporte "Bus: 9, 40, 43, 72, 73.";
+  ont:coordenadaY "4477547";
+  a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
   rdfs:label "Centro Municipal de Mayores 'Prosperidad Santa Hortensia'" .
 
 <http://puntoswifimadrid.com/ontology/puntosWifi/CHAMARTIN> a ont:distrito;
@@ -4895,7 +4775,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6cb4598d1351c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "NUM";
   ont:numero "10"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4937,7 +4816,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=443366051361c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q55942660";
   ont:clase "CALLE";
-  ont:tipoNum "NUM";
   ont:numero "8"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -4979,7 +4857,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=630f8899fc81c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "54"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5021,7 +4898,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9a5366051361c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q26728109";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "116"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5063,7 +4939,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0c07b3e42751c010VgnVCM2000000c205a0aRCRD>;
   ont:clase "PLAZA";
-  ont:tipoNum "V";
   ont:numero "4"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5104,7 +4979,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5237b3e42751c010VgnVCM2000000c205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "6"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5144,7 +5018,6 @@
   ont:accesibilidad "0";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1114c2c6e051c010VgnVCM2000000c205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "52"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5184,7 +5057,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d9743d0b5e71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "2"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5225,7 +5097,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=20a43d0b5e71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "14"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5268,7 +5139,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b7d168540e41c010VgnVCM2000000c205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q56121016";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "4"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5310,7 +5180,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=76c43d0b5e71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "72"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5351,7 +5220,6 @@
   ont:accesibilidad "2";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fb453d0b5e71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "44"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5392,7 +5260,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=42753d0b5e71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "1"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5433,7 +5300,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1087cbf06c81c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "10"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5466,15 +5332,14 @@
 <http://puntoswifimadrid.com/ontology/puntosWifi/MADRID> a ont:Localidad;
   owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
 
-<http://puntoswifimadrid.com/ontology/puntosWifi/1967> ont:ID "1967";
+<http://puntoswifimadrid.com/ontology/puntosWifi/1967> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
+  ont:ID "1967";
   ont:horario "De lunes a viernes, de 9 a 14 y de 15 a 18 horas.  Agosto cerrado. Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.";
   ont:equipamiento "Sala de lectura y estudio9 aulasZona wifiPatio";
   ont:transporte "Bus: 110, 113, 210";
   ont:accesibilidad "0";
-  a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=16f81e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "81"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5515,7 +5380,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bf388899fc81c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q28936137";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "10"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5557,7 +5421,6 @@
   ont:accesibilidad "2";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=01963d0b5e71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "9"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5598,7 +5461,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cae2b3e42751c010VgnVCM2000000c205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "29"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5640,7 +5502,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=23881e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q54564278";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "9"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5683,7 +5544,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a4ed8899fc81c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "50"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5725,7 +5585,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5f891e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q29561517";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "46"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5768,7 +5627,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ba8b3d232e91f010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q5741020";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "142"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5811,7 +5669,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=783f1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q29914631";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "6"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5852,7 +5709,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6cb0085f5181c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "ACCESO";
-  ont:tipoNum "V";
   ont:numero "4"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5893,7 +5749,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=24be1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "5"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5934,7 +5789,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=357a1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "78"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -5975,7 +5829,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7e0b1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "14"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6017,7 +5870,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2bae598d1351c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "65"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6058,7 +5910,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7f4a79262ef5d010VgnVCM1000000b205a0aRCRD>;
   ont:clase "PLAZA";
-  ont:tipoNum "V";
   ont:numero "9"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6100,7 +5951,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1b5b1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q8843006";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "33"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6142,7 +5992,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=03f7cbf06c81c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "12"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6183,7 +6032,6 @@
   ont:accesibilidad "0";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b7ab1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "74"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6224,7 +6072,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f50e1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "PLAZA";
-  ont:tipoNum "V";
   ont:numero "4"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6266,7 +6113,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0ecb1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q5740815";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "251"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6308,7 +6154,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aa1c1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "7"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6349,7 +6194,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f04c1e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "PLAZA";
-  ont:tipoNum "V";
   ont:numero "1"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6382,15 +6226,14 @@
 <http://puntoswifimadrid.com/ontology/puntosWifi/MADRID> a ont:Localidad;
   owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
 
-<http://puntoswifimadrid.com/ontology/puntosWifi/4679597> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
-  ont:ID "4679597";
+<http://puntoswifimadrid.com/ontology/puntosWifi/4679597> ont:ID "4679597";
+  a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
   ont:horario "De lunes a viernes, de 9 a 14 horas y de 17 a 19 horas. De 15 junio a 31 julio y de 1 a 15 septiembre, de lunes a viernes, de 9 a 14 horas.Semana San Isidro, de lunes a viernes, de 9 a 14 horas.Agosto cerrado.Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.";
   ont:equipamiento "4 aulasSala de lectura y estudioSala de estudio y trabajos colectivos (Lunes a viernes, de 9 a 14 horas, agosto cerrado)Zona wifi";
   ont:transporte "Metro: Vicálvaro (línea 9)Bus: 4, 100, 106, 130, E3";
   ont:accesibilidad "0";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=05ec3ef2c5ff5110VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "10"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6434,7 +6277,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5ff519cd7bcee210VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q1537446";
   ont:clase "PLAZA";
-  ont:tipoNum "V";
   ont:numero "1"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6479,7 +6321,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=64463d0b5e71c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q27031730";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "11"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6523,7 +6364,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=11951e79ee71c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q27031730";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "11"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6569,7 +6409,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8f3079262ef5d010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q5740840";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "78"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6604,16 +6443,15 @@
 <http://puntoswifimadrid.com/ontology/puntosWifi/MADRID> a ont:Localidad;
   owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
 
-<http://puntoswifimadrid.com/ontology/puntosWifi/2112> ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7b7aef4d7f71c010VgnVCM1000000b205a0aRCRD>;
-  ont:descripcion "Este espacio museográfico propone un viaje por la historia de la ciudad de Madrid desde la Prehistoria hasta el establecimiento de la Corte, a través de distintas salas como la de San Isidro, el Patio Renacentista, el Jardín Arqueobotánico o el Almacén Visitable.";
-  ont:transporte "Metro: Latina , Tirso de Molina Bus: 3 , 17 , 18 , 23 , 35 , 60 , 65 , 148 BICIMAD: Estación 38 (Carrera de San Francisco 1)";
+<http://puntoswifimadrid.com/ontology/puntosWifi/2112> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
   ont:ID "2112";
+  ont:descripcion "Este espacio museográfico propone un viaje por la historia de la ciudad de Madrid desde la Prehistoria hasta el establecimiento de la Corte, a través de distintas salas como la de San Isidro, el Patio Renacentista, el Jardín Arqueobotánico o el Almacén Visitable.";
   ont:horario "De martes a domingo y festivos de 10 a 20 horas.Último pase de visita 15 minutos antes del cierre. Verano, del 16 de junio al 15 de septiembre: de martes a domingo de 10 a 19 horas. Cerrado todos los lunes, el 1 y 6 de enero, el 1 de mayo y los días 24, 25 y 31 de diciembre.";
-  ont:accesibilidad "2";
   ont:equipamiento "Sala de investigadores.Biblioteca especializada en arqueología e historia madrileña.Archivo documental.Almacén visitable con más de 600 piezas arqueológicas.Jardín arqueobotánico, con información documentada sobre las especies de la ciudad. Investigadores: los fondos del Museo están a disposición de la comunidad científica y los investigadores podrán acceder tramitando su correspondiente solicitud.Visitas guiadas por voluntarios culturales.Talleres didácticos para grupos escolares.Zona wifi (Almacén visitable y salón de actos)";
-  a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
+  ont:transporte "Metro: Latina , Tirso de Molina Bus: 3 , 17 , 18 , 23 , 35 , 60 , 65 , 148 BICIMAD: Estación 38 (Carrera de San Francisco 1)";
+  ont:accesibilidad "2";
+  ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7b7aef4d7f71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "PLAZA";
-  ont:tipoNum "V";
   ont:numero "1"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6656,7 +6494,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=73210a47f441f010VgnVCM2000000c205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q56121016";
   ont:clase "PLAZA";
-  ont:tipoNum "V";
   ont:numero "2"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6695,7 +6532,6 @@
   ont:accesibilidad "1,4,6";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=76310a47f441f010VgnVCM2000000c205a0aRCRD>;
   ont:clase "PLAZA";
-  ont:tipoNum "V";
   ont:numero "1"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6738,7 +6574,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=67da8aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q27044458";
   ont:clase "PASEO";
-  ont:tipoNum "V";
   ont:numero "10"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6778,7 +6613,6 @@
   ont:accesibilidad "1,4,6";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7a0b8aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:clase "PLAZA";
-  ont:tipoNum "V";
   ont:numero "1"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6820,7 +6654,6 @@
   ont:accesibilidad "1,4,6";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9c8fa5a18b3c6110VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "8"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6863,7 +6696,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=70141da64ba49210VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q5492657";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "70"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6907,7 +6739,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=614b8aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q5741020";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "142"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6951,7 +6782,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=499b8aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q5714243";
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "7"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -6995,7 +6825,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=50eb8aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q5740959";
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "16"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7040,7 +6869,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=eb0c8aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q52683954";
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "40"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7084,7 +6912,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0a8c8aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q28973490";
   ont:clase "CARRETERA";
-  ont:tipoNum "V";
   ont:numero "2"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7125,7 +6952,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8bcc8aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q5971372";
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "2"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7167,7 +6993,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1d6607151bcf3110VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q2449141";
   ont:clase "PLAZA";
-  ont:tipoNum "V";
   ont:numero "1"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7211,7 +7036,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0ced8aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q5714221";
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "42"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7254,7 +7078,6 @@
   ont:accesibilidad "1,4,6";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a74e8aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:clase "PLAZA";
-  ont:tipoNum "V";
   ont:numero "1"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7297,7 +7120,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c3ae8aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q20031523";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "52"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7341,7 +7163,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e2fe8aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q56155322";
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "28"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7385,7 +7206,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=567c1b7dd5621110VgnVCM2000000c205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q10371626";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "6"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7428,7 +7248,6 @@
   ont:accesibilidad "1,4,6";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bf6f8aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:clase "AVENIDA";
-  ont:tipoNum "V";
   ont:numero "41"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7470,7 +7289,6 @@
   ont:accesibilidad "1,4,6";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1eef8aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:clase "PLAZA";
-  ont:tipoNum "V";
   ont:numero "18"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7512,7 +7330,6 @@
   ont:accesibilidad "1,4,6";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1e308aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:clase "PASEO";
-  ont:tipoNum "V";
   ont:numero "12"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7554,7 +7371,6 @@
   ont:accesibilidad "1,4,6";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=69a08aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "53"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7596,7 +7412,6 @@
   ont:accesibilidad "1,4,6";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7978b5ddd36cf110VgnVCM2000000c205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "14"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7638,7 +7453,6 @@
   ont:accesibilidad "1,4,6";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c2b3f5ae13d60110VgnVCM2000000c205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "29"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7681,7 +7495,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7e5d8aa6bd91f010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q28936137";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "8"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7723,7 +7536,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e25edf836af01210VgnVCM2000000c205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "27"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7765,7 +7577,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=401f5361e8b67210VgnVCM2000000c205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q26741180";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "32"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7808,7 +7619,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ce533233b8f32510VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "24"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7849,7 +7659,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b7313873fed02110VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "3"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7879,34 +7688,33 @@
 <http://puntoswifimadrid.com/ontology/puntosWifi/MADRID> a ont:Localidad;
   owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
 
-<http://puntoswifimadrid.com/ontology/puntosWifi/13834> ont:horario "Laborables de lunes a viernes de 8:30 a 14 horas. Cerrado los días 24 y 31 de diciembre.";
-  ont:tipo <https://www.wikidata.org/wiki/Q56061>;
-  ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7c365a0f8161c010VgnVCM1000000b205a0aRCRD>;
-  ont:accesibilidad "1";
+<http://puntoswifimadrid.com/ontology/puntosWifi/13834> a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
   ont:ID "13834";
   rdfs:label "Oficina de objetos perdidos del Ayuntamiento de Madrid.";
-  ont:tipoNum "V";
-  ont:clase "PASEO";
-  ont:email "objetosperdidos@madrid.es";
   ont:descripcion "La Oficina  de Objetos Perdidos del Ayuntamiento de Madrid gestiona la recepción y devolución de los objetos perdidos en la ciudad de Madrid que entregan particulares, taxistas, EMT, Metro de Madrid, AENA, RENFE y Correos.Los objetos perdidos en algún medio de transporte público los conservan en sus instalaciones durante un tiempo, para facilitar la recuperación por sus propietarios. Transcurridos los plazos fijados en cada medio de transporte, los objetos no reclamados se envían a la Oficina de Objetos Perdidos del Ayuntamiento de Madrid.  (Consultar contacto y tiempo de permanencia de los objetos perdidos en los diferentes transportes públicos) .";
+  ont:horario "Laborables de lunes a viernes de 8:30 a 14 horas. Cerrado los días 24 y 31 de diciembre.";
+  ont:equipamiento "Zona wifi.";
   ont:transporte "Metro: Legazpi (líneas 3 y 6).Bus: 62, 148, 156, 180, T32, 8, 45, 22, 79, 123, 19, 47, 59, 76, 85, 86, 247, 6, 18, 78.BICIMAD: Estación 165 (Paseo de la Chopera 14).";
-  ont:telefono "010 (915 298 210 desde dentro y fuera de la ciudad de Madrid)";
+  ont:descripcion "Mensualmente se publica en el  Tablón de Edictos  y en el  Boletín Oficial del Ayuntamiento de Madrid  una relación genérica de los objetos depositados en la Oficina el mes anterior (consultar Listado de Resoluciones en materia de objetos perdidos en Información Relacionada). El tiempo de permanencia de los objetos en la Oficina Municipal es de dos  años a partir de la fecha de publicación.";
+  ont:accesibilidad "1";
+  ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7c365a0f8161c010VgnVCM1000000b205a0aRCRD>;
+  ont:clase "PASEO";
   ont:numero "7"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:CP "28045";
   ont:barrio "https://www.wikidata.org/wiki/Q3773990";
   ont:distrito "https://www.wikidata.org/wiki/Q2000929";
-  ont:longitud "-3.6938716039760795"^^sch:int;
   ont:coordenadaX "441111";
   ont:coordenadaY "4471350";
   ont:latitud "40.39065926812701"^^sch:int;
-  ont:descripcion "Mensualmente se publica en el  Tablón de Edictos  y en el  Boletín Oficial del Ayuntamiento de Madrid  una relación genérica de los objetos depositados en la Oficina el mes anterior (consultar Listado de Resoluciones en materia de objetos perdidos en Información Relacionada). El tiempo de permanencia de los objetos en la Oficina Municipal es de dos  años a partir de la fecha de publicación.";
-  a <http://puntoswifimadrid.com/ontology/puntosWifi#>;
-  ont:equipamiento "Zona wifi." .
+  ont:longitud "-3.6938716039760795"^^sch:int;
+  ont:telefono "010 (915 298 210 desde dentro y fuera de la ciudad de Madrid)";
+  ont:email "objetosperdidos@madrid.es";
+  ont:tipo <https://www.wikidata.org/wiki/Q56061> .
 
-<http://puntoswifimadrid.com/ontology/puntosWifi/ARGANZUELA> owl:sameAs <https://www.wikidata.org/wiki/Q2000929>;
-  a ont:distrito .
+<http://puntoswifimadrid.com/ontology/puntosWifi/ARGANZUELA> a ont:distrito;
+  owl:sameAs <https://www.wikidata.org/wiki/Q2000929> .
 
 <http://puntoswifimadrid.com/ontology/puntosWifi/LEGAZPI> a ont:barrio;
   owl:sameAs <https://www.wikidata.org/wiki/Q3773990> .
@@ -7917,8 +7725,8 @@
   owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
 
 <http://puntoswifimadrid.com/ontology/puntosWifi/OtrasEntidadesAdministrativasAyto>
-  a ont:Tipo;
-  owl:sameAs "https://www.wikidata.org/wiki/Q56061" .
+  owl:sameAs "https://www.wikidata.org/wiki/Q56061";
+  a ont:Tipo .
 
 <http://puntoswifimadrid.com/ontology/puntosWifi/MADRID> a ont:Localidad;
   owl:sameAs <https://www.wikidata.org/wiki/Q2807> .
@@ -7933,7 +7741,6 @@
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ce42a328be81c010VgnVCM1000000b205a0aRCRD>;
   ont:calle "https://www.wikidata.org/wiki/Q27430098";
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "16"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -7975,7 +7782,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0d8def4d7f71c010VgnVCM1000000b205a0aRCRD>;
   ont:clase "PASEO";
-  ont:tipoNum "V";
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
   ont:CP "28009";
@@ -8015,7 +7821,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3ffc666934dda410VgnVCM2000000c205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "1"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -8051,7 +7856,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b10c750b1c058110VgnVCM2000000c205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "10"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -8091,7 +7895,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=62c0c0e48a558110VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "36"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -8131,7 +7934,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f5abe23a26bd7310VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "2"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -8171,7 +7973,6 @@
   ont:accesibilidad "0";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f2114531d18a4610VgnVCM1000001d4a900aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "13"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -8211,7 +8012,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1dc9c0e48a558110VgnVCM1000000b205a0aRCRD>;
   ont:clase "BULEVAR";
-  ont:tipoNum "V";
   ont:numero "21"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -8251,7 +8051,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6a6c61366ded5510VgnVCM1000001d4a900aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "65"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -8291,7 +8090,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5e0861366ded5510VgnVCM1000001d4a900aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "65"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
@@ -8331,7 +8129,6 @@
   ont:accesibilidad "1";
   ont:content <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=747e48136c558110VgnVCM1000000b205a0aRCRD>;
   ont:clase "CALLE";
-  ont:tipoNum "V";
   ont:numero "3"^^sch:int;
   ont:localidad <https://www.wikidata.org/wiki/Q2807>;
   ont:provincia "https://www.wikidata.org/wiki/Q2807";
