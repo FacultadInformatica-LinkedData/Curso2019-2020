@@ -63,7 +63,7 @@
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
-      "baseUri": "http://www.madridcen.es/group30/recursos/",
+      "baseUri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo/",
       "prefixes": [
         {
           "name": "rdf",
@@ -89,7 +89,7 @@
       "rootNodes": [
         {
           "nodeType": "cell-as-resource",
-          "expression": "\"CentrosDeportivos/\"+replaceChars(replaceChars(replaceChars(replaceChars(replaceChars(replaceChars(replace(replaceChars(value,\" \",\"\"),\"CentroDeportivoMunicipal\",\"\"),\"á\",\"a\"),\"í\",\"i\"),\"é\",\"e\"),\"ó\",\"o\"),\"ú\",\"u\"),\"ü\",\"u\")",
+          "expression": "replaceChars(replaceChars(replaceChars(replaceChars(replaceChars(replaceChars(replace(replaceChars(value,\" \",\"\"),\"CentroDeportivoMunicipal\",\"\"),\"á\",\"a\"),\"í\",\"i\"),\"é\",\"e\"),\"ó\",\"o\"),\"ú\",\"u\"),\"ü\",\"u\")",
           "isRowNumberCell": false,
           "columnName": "NOMBRE",
           "rdfTypes": [
@@ -187,6 +187,98 @@
                 "expression": "value",
                 "isRowNumberCell": false,
                 "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#barrio",
+              "curie": "mc:barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#localidad",
+              "curie": "mc:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#distrito",
+              "curie": "mc:distrito"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "mc:distrito"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "BARRIO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#barrio",
+              "curie": "mc:barrio"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "mc:barrio"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LOCALIDAD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#localidad",
+              "curie": "mc:localidad"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "mc:localidad"
               }
             }
           ]
