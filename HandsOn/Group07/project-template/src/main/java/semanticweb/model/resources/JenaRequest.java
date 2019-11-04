@@ -27,7 +27,26 @@ public class JenaRequest {
     private static String lat = "<http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude>";
     private static String lon = "<http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud>";
 
-    public static Park ParkRequest(String latitude, String longitude, Model modelPark, Model modelTree) {
+    public static Park ParkRequest(String latitude, String longitude) {
+
+        String filePark = "src/main/java/semanticweb/model/resources/parques-jardines-with-links.ttl";
+        Model modelPark = ModelFactory.createDefaultModel();
+        InputStream inPark = FileManager.get().open(filePark);
+
+        String fileTree = "src/main/java/semanticweb/model/resources/ArboladoParquesHistoricoSingularesForestales.ttl";
+        Model modelTree = ModelFactory.createDefaultModel();
+        InputStream inTree = FileManager.get().open(fileTree);
+
+        if (inPark == null)
+            throw new IllegalArgumentException("File: " + filePark + " not found");
+
+        if (inTree == null)
+            throw new IllegalArgumentException("File: " + fileTree + " not found");
+
+        modelPark.read("src/main/java/semanticweb/model/resources/parques-jardines-with-links.ttl");
+        modelTree.read("src/main/java/semanticweb/model/resources/ArboladoParquesHistoricoSingularesForestales.ttl");
+
+
 
         String queryString = "SELECT ?park ?name ?description ?bus ?under " +
                 "WHERE { ?park a <http://www.semanticweb.org/grupo07/ontologies/class#Park> ; " +
@@ -100,25 +119,10 @@ public class JenaRequest {
 
 
     public static void main(String[] args) {
-        String filePark = "src/main/java/semanticweb/model/resources/parques-jardines-with-links.ttl";
-        Model modelPark = ModelFactory.createDefaultModel();
-        InputStream inPark = FileManager.get().open(filePark);
 
-        String fileTree = "src/main/java/semanticweb/model/resources/ArboladoParquesHistoricoSingularesForestales.ttl";
-        Model modelTree = ModelFactory.createDefaultModel();
-        InputStream inTree = FileManager.get().open(fileTree);
 
-        if (inPark == null)
-            throw new IllegalArgumentException("File: " + filePark + " not found");
-
-        if (inTree == null)
-            throw new IllegalArgumentException("File: " + fileTree + " not found");
-
-        modelPark.read("src/main/java/semanticweb/model/resources/parques-jardines-with-links.ttl");
-        modelTree.read("src/main/java/semanticweb/model/resources/ArboladoParquesHistoricoSingularesForestales.ttl");
-
-        Park p = ParkRequest("40.45999848510341", "-3.6148888706303586", modelPark, modelTree);
-        System.out.println(p.getTransport());
+        Park p = ParkRequest("40.45999848510341", "-3.6148888706303586");
+        System.out.println(p.getTrees());
 
     }
 }
