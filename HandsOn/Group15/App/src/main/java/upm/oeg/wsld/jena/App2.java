@@ -6,6 +6,8 @@ import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.time.LocalDateTime;
+import java.util.Calendar;
 import java.util.Scanner;
 import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
@@ -35,9 +37,10 @@ public class App2 {
 	private static final int RED = 1;
 	private static final int ESTACION = 2;
 	private static final int TIPO = 3;
-	private static final int EXIT = 4;
-	private static final int ESTACION2 = 5;
-	private static final int TIPO2 = 6;
+	private static final int CONTAMINANTE = 4;
+	private static final int EXIT = 5;
+	private static final int ESTACION2 = 6;
+	private static final int TIPO2 = 7;
 	
 	/*rdfEstaciones.ttl*/
 	public static OntModel model1 = null;
@@ -55,17 +58,14 @@ public class App2 {
 			System.out.println("[1] Consultar la red de estaciones existente");
 			System.out.println("[2] Consultar la información y los datos medidos de una estación");
 			System.out.println("[3] Consultar todas las estaciones de un determinado tipo");
-			System.out.println("[4] Salir");
+			System.out.println("[4] Consultar todos los agentes contaminantes medidos y lás técnicas de medición utilizadas");
+			System.out.println("[5] Salir");
 			break;
 		case RED:
 			System.out.println("Estas son las estaciones que conforman la red en Madrid...");
 			break;
 		case ESTACION2:
-			System.out.println("¿Qué quieres consultar sobre la estación " + estacion + "?");
-			System.out.println("[1] Ver todos los datos de sus mediciones (según la hora actual)");
-			System.out.println("[2] Consultar que contaminantes mide");
-			System.out.println("[3] Consultar su localización");
-			System.out.println("[4] Volver");
+			System.out.println("Los datos y mediciones de la estación " + estacion + " son los siguientes: ");
 			break;
 		case ESTACION:
 			System.out.println("Introduce el nombre de la estacion: ");
@@ -87,6 +87,9 @@ public class App2 {
 			System.out.println("[2] Urbana fondo");
 			System.out.println("[3] Suburbana");
 			System.out.println("[4] Volver");
+			break;
+		case CONTAMINANTE:
+			System.out.println("Agentes contaminantes y técnicas de medición en la red de estaciones de Madrid: ");
 			break;
 		default:
 			System.out.println("Opción incorrecta");
@@ -119,7 +122,6 @@ public class App2 {
 	private static void queryRedEstaciones() {
 		String query =	"PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" +
 						"PREFIX aqm: <http://www.airQualityMadrid.com/ontology#>\r\n" + 
-						"PREFIX station: <http://www.airQualityMadrid.com/resource/Station/>\r\n" +
 						"PREFIX sosa: <http://www.w3.org/ns/sosa/>\r\n" + 
 						"PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>\r\n" +
 						"SELECT ?station ?nombre ?direccion ?tipo ?lat ?long WHERE {\r\n" + 
@@ -192,6 +194,99 @@ public class App2 {
 		System.out.println("\n");
 	}
 	
+	/*SACA TODA LA INFO Y MEDICIONES DE UNA ESTACION DADA*/
+	public static void queryEstacion(String nombreEstacion) {
+		String query =	"PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" +
+						"PREFIX aqm: <http://www.airQualityMadrid.com/ontology#>\r\n" + 
+						"PREFIX sosa: <http://www.w3.org/ns/sosa/>\r\n" + 
+						"SELECT ?station WHERE {\r\n" + 
+						"\t\t?station a sosa:Sensor .\r\n" +
+						"\t\t?station aqm:nombre ?nombre .\r\n" +
+						"\t\tFILTER (regex(str(?nombre), \""+ nombreEstacion +"\")) ." +
+						"}";
+		
+		Query queryTest = QueryFactory.create(query);
+		QueryExecution qexec1 = QueryExecutionFactory.create(queryTest, model1);
+		ResultSet results1 = qexec1.execSelect();//La query siempre saca un resultado (si es que existe)
+		if(results1.hasNext()) {
+			QuerySolution binding1 = results1.next();
+			RDFNode station = binding1.get("station");
+			String codEstacion = station.toString().substring(station.toString().length() - 8);
+			Calendar rightNow = Calendar.getInstance();
+			int hour = rightNow.get(Calendar.HOUR_OF_DAY);
+			int hourPlus = hour + 1;
+			String query2 =	"PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" +
+							"PREFIX aqm: <http://www.airQualityMadrid.com/ontology#>\r\n" + 
+							"PREFIX sosa: <http://www.w3.org/ns/sosa/>\r\n" + 
+							"PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\r\n" +
+							"SELECT ?measurement ?unidad ?hasSimpleResult ?madeBySensor ?observedProperty ?resultTime ?usedProcedure WHERE {\r\n" + 
+							"\t\t?measurement a sosa:Observation .\r\n" +
+							"\t\t?measurement aqm:unidad ?unidad .\r\n" +
+							"\t\t?measurement sosa:hasSimpleResult ?hasSimpleResult .\r\n" +
+							"\t\t?measurement sosa:madeBySensor ?madeBySensor .\r\n" +
+							"\t\t?measurement sosa:observedProperty ?observedProperty .\r\n" +
+							"\t\t?measurement sosa:resultTime ?resultTime .\r\n" +
+							"\t\t?measurement sosa:usedProcedure ?usedProcedure .\r\n" +
+							"\t\tFILTER (regex(str(?madeBySensor), \""+ codEstacion +"\") && ?resultTime >= xsd:dateTime(\"2019-10-02T" + hour + ":00:00\") && ?resultTime < xsd:dateTime(\"2019-10-02T" + hourPlus + ":00:00\")) ." +
+							"}";
+			
+			Query queryTest2 = QueryFactory.create(query2);
+			QueryExecution qexec2 = QueryExecutionFactory.create(queryTest2, model2);
+			ResultSet results2 = qexec2.execSelect();
+			
+			LocalDateTime now = LocalDateTime.now();
+			System.out.print("Datos a las ");
+			System.out.printf("%02d:%02d:%02d", now.getHour(), now.getMinute(), now.getSecond());
+			System.out.print("\n");
+			while(results2.hasNext()) {
+				QuerySolution binding2 = results2.next();
+				RDFNode measurement = binding2.get("measurement");
+				RDFNode unidad = binding2.get("unidad");
+				Literal hasSimpleResult = binding2.getLiteral("hasSimpleResult");
+				RDFNode madeBySensor = binding2.get("madeBySensor");
+				RDFNode observedProperty = binding2.get("observedProperty");
+				Literal resultTime = binding2.getLiteral("resultTime");
+				RDFNode usedProcedure = binding2.get("usedProcedure");
+				System.out.println("\tMedición de " + observedProperty.toString() + " es de " + hasSimpleResult.toString().replace("^^http://www.w3.org/2000/01/rdf-schema#Literal", "") + unidad.toString() + ", se usó la técnica " + usedProcedure.toString());
+			}
+			System.out.println("\nLa query generada -> \n" + query2);
+			System.out.println("\n");
+		}
+		else {
+			System.out.println("Nombre de estación incorrecto");
+		}
+	}
+	
+	public static void queryContaminantes() {
+		String query =	"PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" +
+						"PREFIX aqm: <http://www.airQualityMadrid.com/ontology#>\r\n" + 
+						"PREFIX sosa: <http://www.w3.org/ns/sosa/>\r\n" + 
+						"SELECT ?observableProperty ?contaminante WHERE {\r\n" + 
+						"\t\t?observableProperty a sosa:ObservableProperty .\r\n" +
+						"\t\t?observableProperty owl:sameAs ?contaminante .\r\n" +
+						"}";
+		
+		Query queryTest1= QueryFactory.create(query);
+		QueryExecution qexec1 = QueryExecutionFactory.create(queryTest1, model2);
+		ResultSet results1 = qexec1.execSelect();
+		
+		while(results1.hasNext()) {
+			QuerySolution binding1 = results1.next();
+			
+			RDFNode contaminante = binding1.get("contaminante");
+			URL url = null;
+			try {
+				url = new URL(contaminante.toString());
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
+			openWebpage(url);
+		}
+		System.out.println("Abriendo recursos de wikidata asociados...");
+		System.out.println("\n");
+		System.out.println("La query generada -> \n" + query);
+	}
+	
 	public static void main(String[] args) {
 		
 		try {
@@ -237,13 +332,17 @@ public class App2 {
 				reader.nextLine();
 				estacion = reader.nextLine();
 				gui(ESTACION2, estacion, 0);
-				//queryEstacion(estacion);
+				queryEstacion(estacion);
 			}
 			else if(numeroEscogido == TIPO) {
 				gui(TIPO, "", 0);
 				tipo = reader.nextInt();
 				gui(TIPO2, "", tipo);
 				queryTipo(tipo);
+			}
+			else if(numeroEscogido == CONTAMINANTE) {
+				gui(CONTAMINANTE, "", 0);
+				queryContaminantes();
 			}
 			else if(numeroEscogido == EXIT) {
 				System.out.println("DIN del hilo...");
@@ -255,9 +354,10 @@ public class App2 {
 		catch(Exception exc) {
 			System.out.println("Opción incorrecta");
 			String[] argumentos = null;
+			System.out.flush();
 			main(argumentos);
 		}
-		/* FIN DEL CLIENTE*/
+		/*FIN DEL CLIENTE*/
 	}
 
 }
