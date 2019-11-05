@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page import="java.util.LinkedList" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -30,11 +31,11 @@
                 <div class="sidebar-heading">Eventos Madrid   </div>
                 <div class="list-group list-group-flush">
                     <%
-
-                        //for () {
+						LinkedList <String> titles = (LinkedList <String>)request.getAttribute("titles");
+                        for (String s : titles) {
                     %>
-                    <a href="#" class="list-group-item list-group-item-action bg-light"><%= (String)request.getAttribute("titleO") %></a>
-                    <%                        //}
+                    <a href="#" class="list-group-item list-group-item-action bg-light"><%= s %></a>
+                    <%                        }
                     %>
                 </div>
             </div>
@@ -124,10 +125,14 @@
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);
-
-            L.marker([51.5, -0.09]).addTo(map)
-                    .bindPopup('Tittle Event')
+			<% 
+			LinkedList <String> latitudes = (LinkedList <String>)request.getAttribute("latitudes");
+			LinkedList <String> longitudes = (LinkedList <String>)request.getAttribute("longitudes");
+			for(String sr : titles){%>
+            L.marker([<%= latitudes.pop()%>, <%= longitudes.pop()%>]).addTo(map)
+                    .bindPopup('<%= sr%>')
                     .openPopup();
+			<%}%>
         </script>
         <script>
             $("#menu-toggle").click(function (e) {

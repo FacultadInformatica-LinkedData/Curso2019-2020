@@ -6,6 +6,8 @@
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.LinkedList;
+
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
@@ -119,24 +121,27 @@ public class EventsSearch extends HttpServlet {
                         "?Event <http://group18.org/hands-on/ontology#hasTitle> ?Title . " +
                         "?Event <http://group18.org/hands-on/ontology#hasInstallation> ?Installation . " +
                         "?Installation <http://group18.org/hands-on/ontology#hasLongitude> ?Longitude . " +
-                        "?Installation <http://group18.org/hands-on/ontology#hasLatitude> ?Latitude}LIMIT 1 ";
+                        "?Installation <http://group18.org/hands-on/ontology#hasLatitude> ?Latitude}LIMIT 5 ";
         
         Query query = QueryFactory.create(queryString);
         QueryExecution qexec = QueryExecutionFactory.create(query, model) ;
         ResultSet results = qexec.execSelect() ;
+        LinkedList <String>titles = new LinkedList<String>();
+        LinkedList <String>latitudes = new LinkedList<String>();
+        LinkedList <String>longitudes = new LinkedList<String>();
         while (results.hasNext())
         {
             QuerySolution binding = results.nextSolution();
             Resource Subject=binding.getResource("Event");
             Resource Installation=binding.getResource("Installation");
-            String longitude = binding.getLiteral("Longitude").getString();
-            String latitude = binding.getLiteral("Latitude").getString();
-            String title = binding.getLiteral("Title").getString();
-            System.out.println(title);
-            request.setAttribute("titleO", title);
+            longitudes.addLast(binding.getLiteral("Longitude").getString());
+            latitudes.addLast(binding.getLiteral("Latitude").getString());
+            titles.addLast(binding.getLiteral("Title").getString());
         }
         
-        
+        request.setAttribute("titles", titles);
+        request.setAttribute("latitudes", latitudes);
+        request.setAttribute("longitudes", longitudes);
         //////////////////////////////////////////////////////////////
        ///FOR MULTIPLE CHECKBOX
      //  String hobbise [] = request.getParameterValues(“hobbies“) ; 
