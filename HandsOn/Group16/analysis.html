@@ -1,54 +1,84 @@
+<!DOCTYPE html>
 <html>
-<head>
- 	<meta charset="UTF-8">
- 	<title>applicationRequirements</title>
- </head>
-
- <body>
- <h1>Centro de arte, Alcobendas. Asistencia a las actividades de este centro cultural</h1>
- <p class="p1">El Dataset “Centro de arte, Alcobendas” se compone por un total de 25 instancias,<span class="Apple-converted-space">  </span>cada una de ellas se corresponde con una actividad impartida en dicho centro. Para cada instancia se dispone de un total de 3 atributos, a saber:</p>
- <table style="width:100%;text-align: center;border: 1px solid black;">
-   <tr >
-     <th>Nombre</th>
-     <th>Tipo</th>
-     <th>Ejemplo</th>
-     <th>Descripcion</th>
-   </tr>
-   <tr>
-     <td>Evento</td>
-     <td>Id</td>
-     <td>Conferencias de artes plásticas</td>
-     <td>Nombre de la actividad</td>
-   </tr>
-   <tr>
-     <td>Año</td>
-     <td>Coordinante</td>
-     <td>2012</td>
-     <td>Año en el cual se realizó la actividad</td>
-   </tr>
-   <tr>
-     <td>Número de asitentes</td>
-     <td>Coordinante</td>
-     <td>3777</td>
-     <td>Número de personas que asitieron al evento</td>
-   </tr>
- </table>
- <h3> Tras el análisis no necesitamos más datos del csv para satisfacer los requisitos de la aplicación </h3>
-
- <h3>Análisis de la licencia de los datos, condiciones de Uso:</h3>
- <p>
-   Las condiciones generales permiten la reutilización de los documentos para fines comerciales y no comerciales. Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Alcobendas, siempre que dicho uso no constituya una actividad administrativa pública.
-   Licencia:
-	"https://opendatacommons.org/licenses/by/1.0/"
- </p>
- <h2> Definición de la estrategia de nombrado </h2>
-     <ul>
-       <li><b> Domain: </b>http://www.centrodeartealcobendas.org </li>
-       <li><b> Ontological terms path:</b>http://www.centrodeartealcobendas.org/ontology </li>
-       <li><b> Individuals path: </b>http://www.centrodeartealcobendas.org/resource</li>
-       <li><b> Ontological terms pattern: </b>http://www.centrodeartealcobendas.org/ontology#term</li>
-       <li><b> Individual pattern: </b>http://www.centrodeartealcobendas.org/resource/type/name</li>
-     </ul>
- </body>
-
+	<body>
+		<strong style="font-size: 30px;">Analisis del data set:</strong>
+		<table class="get">
+			<tr>
+				<td><strong style="font-size: 24px;">Termino</strong></td>
+				<td><strong style="font-size: 24px;">Tipo</strong></td>
+				<td><strong style="font-size: 24px;">Descripcion</strong></td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">NUMCATALOGO</strong></td>
+				<td>int</td>
+				<td>Número del catálogo que identifica a cada uno de los edificios contenidos en dicho catálogo.</td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">TIPOVIA</strong></td>
+				<td>String</td>
+				<td>Tipo de la vía de la dirección correspondiente a cada edificio del catálogo.</td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">DIRECCION</strong></td>
+				<td>String</td>
+				<td>Direccion correspondiente a cada edificio del catálogo.</td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">NUMVIA</strong></td>
+				<td>int</td>
+				<td>Número de la vía de la dirección de cada edificio (opcional).</td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">DENOMINACION</strong></td>
+				<td>String</td>
+				<td>Nombre específico del edificio protegido (en caso de tenerlo) en la actualidad.</td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">DISTRITO</strong></td>
+				<td>int</td>
+				<td>Número del distrito donde cada edificio protegido se encuentra.td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">CATALOGACION97</strong></td>
+				<td>String</td>
+				<td>Catalogación que recibieron los edificios protegidos en el año 1997 (cuando se creó el dataset).</td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">CATALOGACIONACTUAL</strong></td>
+				<td>String</td>
+				<td>Catalogacion que tienen los edificios protegidos en la actualidad.</td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">CATALOGOGEO</strong></td>
+				<td>String</td>
+				<td>Indica si un edificio ha sido reconocido como uno de los principales atractivos turísticos, y si es así, de qué tipo de atracción turística se trata. </td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">AMBITO97</strong></td>
+				<td>String</td>
+				<td>Protocolo de condiciones de protección del patrimonio histórico aplicado en 1997.</td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">DENOMINACION97</strong></td>
+				<td>String</td>
+				<td>Nombre específico del edificio protegido (en caso de tenerlo) que tenía en el año 1997.</td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">MODIFICACIONES</strong></td>
+				<td>String</td>
+				<td>Modificaciones que estos edificios protegidos han ido adquiriendo desde el año 1997. </td>
+			</tr>
+		</table>
+	</body>
+	<body>
+		<h2>Analisis de la licencia:</h2>
+		<text>El propietario del data set es el ayuntamiento de Madrid, que otorga el data set bajo una licencia que permite la reutilización del mismo para fines comerciales y no comerciales. El concepto de la licencia es el establecido en el apartado 2 del artículo 3 de la Ley 37/2017 de 16 de noviembre que obliga a citarse la fuente de los documentos como "orgien de los datos: Ayuntamiento de Madrid", debe mencionarse la fecha de la última actualización de los documentos y deben conservarse, no alterarse ni suprimirse los metadatos de la fecha de actualización.</text>
+		<text>Como los datos son del Ayuntamiento de Madrid, vamos a emplear la misma licencia que proporcionan junto al dataset:</text>
+		<text>https://datos.madrid.es/egob/catalogo/aviso-legal</text>
+	</body>
+	<body>
+		<h2>Definir una estrategia de nombrado de recursos:</h2>
+		<text>Ontological terms pattern: http://www.datosmadrid.es/edificiosprotegidos/ontology</text><br/>
+		<text>Individuals pattern: http://www.datosmadrid.es/eidificiosprotegidos/resource</text>
+	</body>
 </html>

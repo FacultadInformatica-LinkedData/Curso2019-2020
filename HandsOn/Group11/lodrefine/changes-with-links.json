@@ -1,0 +1,3554 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Dirección",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Dirección",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CR M-603"
+        ],
+        "to": "CARRETERA M-603"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Dirección",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Dirección",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CR N-1"
+        ],
+        "to": "CARRETERA N-1"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Dirección",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Dirección",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "N-I  (BURGOS-MADRID)"
+        ],
+        "to": "CARRETERA N-1"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Dirección",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Dirección",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "N-I (MADRID-BURGOS)"
+        ],
+        "to": "CARRETERA N-1"
+      }
+    ]
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Dirección to type Q79007",
+    "columnName": "Dirección",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q79007",
+        "name": "street"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Gasolinera_id",
+    "columnName": "Gasolinera_id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Dirección",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Dirección",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CL AVENIDA DE ESPA¿A"
+        ],
+        "to": "CL AVENIDA DE ESPANA"
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column wiki-direction at index 3 based on column Dirección using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "wiki-direction",
+    "columnInsertIndex": 3,
+    "baseColumnName": "Dirección",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "wiki-direction",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Dedicada a at index 5 based on column Código postal using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Dedicada a",
+    "columnInsertIndex": 5,
+    "baseColumnName": "Código postal",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column Dedicada a to position 4",
+    "columnName": "Dedicada a",
+    "index": 4
+  },
+  {
+    "op": "core/blank-down",
+    "description": "Blank down cells in column Dedicada a",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Dedicada a"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column wiki-direction",
+    "columnName": "wiki-direction"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Dedicada a to type null",
+    "columnName": "Dedicada a",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": null,
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semweb19-20/G11",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "wiki-direction",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Street",
+              "curie": "sem:Street"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semweb19-20/G11#dedicatedTo",
+              "curie": "sem:dedicatedTo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dedicada a"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semweb19-20/G11",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "wiki-direction",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Street",
+              "curie": "sem:Street"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semweb19-20/G11#dedicatedTo",
+              "curie": "sem:dedicatedTo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dedicada a"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semweb19-20/G11",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "wiki-direction",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Dirección",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Dirección",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLAZA MORALEJA S/N"
+        ],
+        "to": "PLAZA MORALEJA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Dirección",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Dirección",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE VALGRANDE (DE)"
+        ],
+        "to": "CALLE VALGRANDE"
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Dirección using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Dirección",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semweb19-20/G11",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#Street",
+                    "curie": "sem:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#dedicatedTo",
+                    "curie": "sem:dedicatedTo",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Dedicada a"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "wiki-direction",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semweb19-20/G11",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#Street",
+                    "curie": "sem:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#dedicatedTo",
+                    "curie": "sem:dedicatedTo",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Dedicada a",
+                      "rdfTypes": [
+                        {
+                          "uri": "http://www.semweb19-20/G11#Dedication",
+                          "curie": "sem:Dedication"
+                        }
+                      ],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "wiki-direction",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semweb19-20/G11",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#Street",
+                    "curie": "sem:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#dedicatedTo",
+                    "curie": "sem:dedicatedTo",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Dedicada a"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "wiki-direction",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Dedicada a to Dedicatoria",
+    "oldColumnName": "Dedicada a",
+    "newColumnName": "Dedicatoria"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semweb19-20/G11",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#Street",
+                    "curie": "sem:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#dedicatedTo",
+                    "curie": "sem:dedicatedTo",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Dedicada a"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semweb19-20/G11",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "lat",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semweb19-20/G11#hasLabel",
+              "curie": "sem:hasLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#Street",
+                    "curie": "sem:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#dedicatedTo",
+                    "curie": "sem:dedicatedTo",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Dedicada a"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Rótulo using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Rótulo",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semweb19-20/G11",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "lat",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semweb19-20/G11#hasLabel",
+              "curie": "sem:hasLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#Street",
+                    "curie": "sem:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#dedicatedTo",
+                    "curie": "sem:dedicatedTo",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Dedicatoria"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column latlon at index 10 based on column lat using expression grel:cell.value+ cells['lon'].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "latlon",
+    "columnInsertIndex": 10,
+    "baseColumnName": "lat",
+    "expression": "grel:cell.value+ cells['lon'].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column lon to position 10",
+    "columnName": "lon",
+    "index": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semweb19-20/G11",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "latlon",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semweb19-20/G11#hasLabel",
+              "curie": "sem:hasLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#Street",
+                    "curie": "sem:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#dedicatedTo",
+                    "curie": "sem:dedicatedTo",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Dedicatoria"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semweb19-20/G11",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "latlon",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semweb19-20/G11#hasLabel",
+              "curie": "sem:hasLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#Street",
+                    "curie": "sem:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#dedicatedTo",
+                    "curie": "sem:dedicatedTo",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Dedicatoria",
+                      "rdfTypes": [],
+                      "links": [
+                        {
+                          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                          "curie": "rdfs:label",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "Dedicatoria"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semweb19-20/G11",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "latlon",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semweb19-20/G11#hasLabel",
+              "curie": "sem:hasLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#Street",
+                    "curie": "sem:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#dedicatedTo",
+                    "curie": "sem:dedicatedTo",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Dedicatoria",
+                      "rdfTypes": [],
+                      "links": [
+                        {
+                          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                          "curie": "rdfs:label",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "Dedicatoria"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semweb19-20/G11",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "latlon",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semweb19-20/G11#hasLabel",
+              "curie": "sem:hasLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#Street",
+                    "curie": "sem:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#dedicatedTo",
+                    "curie": "sem:dedicatedTo",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Dedicatoria",
+                      "rdfTypes": [],
+                      "links": [
+                        {
+                          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                          "curie": "rdfs:label",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "Dedicatoria"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semweb19-20/G11",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "latlon",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semweb19-20/G11#hasLabel",
+              "curie": "sem:hasLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#Street",
+                    "curie": "sem:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#dedicatedTo",
+                    "curie": "sem:dedicatedTo",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Dedicatoria",
+                      "rdfTypes": [
+                        {
+                          "uri": "http://www.semweb19-20/G11#Dedication",
+                          "curie": "sem:Dedication"
+                        }
+                      ],
+                      "links": [
+                        {
+                          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                          "curie": "rdfs:label",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "Dedicatoria"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semweb19-20/G11",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sem",
+          "uri": "http://www.semweb19-20/G11"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "latlon",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semweb19-20/G11#Station",
+              "curie": "sem:Station"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semweb19-20/G11#hasLabel",
+              "curie": "sem:hasLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Rótulo"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasSchedule",
+              "curie": "sem:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Horario"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasAddress",
+              "curie": "sem:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#Street",
+                    "curie": "sem:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semweb19-20/G11#dedicatedTo",
+                    "curie": "sem:dedicatedTo",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Dedicatoria",
+                      "rdfTypes": [
+                        {
+                          "uri": "http://www.semweb19-20/G11#Dedication",
+                          "curie": "sem:Dedication"
+                        }
+                      ],
+                      "links": [
+                        {
+                          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                          "curie": "rdfs:label",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "Dedicatoria"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPostalCode",
+              "curie": "sem:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Código postal"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceDiesA",
+              "curie": "sem:hasPriceDiesA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas95",
+              "curie": "sem:hasPriceGas95",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 95 protección"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceGas98",
+              "curie": "sem:hasPriceGas98",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio gasolina 98"
+              }
+            },
+            {
+              "uri": "http://www.semweb19-20/G11#hasPriceNewA",
+              "curie": "sem:hasPriceNewA",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Precio nuevo gasoleo A"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": false,
+          "columnName": "Dirección",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Precio gasoleo A using expression grel:value.substring(0,1)+\".\"+value.substring(1)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Precio gasoleo A",
+    "expression": "grel:value.substring(0,1)+\".\"+value.substring(1)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Precio gasolina 95 protección using expression grel:value.substring(0,1)+\".\"+value.substring(1)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Precio gasolina 95 protección",
+    "expression": "grel:value.substring(0,1)+\".\"+value.substring(1)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Precio gasolina 98 using expression grel:value.substring(0,1)+\".\"+value.substring(1)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Precio gasolina 98",
+    "expression": "grel:value.substring(0,1)+\".\"+value.substring(1)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Precio nuevo gasoleo A using expression grel:value.substring(0,1)+\".\"+value.substring(1)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Precio nuevo gasoleo A",
+    "expression": "grel:value.substring(0,1)+\".\"+value.substring(1)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]

@@ -7,8 +7,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://www.semweb19-20/G11> .
 
-<http://www.semweb19-20/G11> rdf:type owl:Ontology ;
-rdfs:comment "An Alcobendas gas station ontology that describe the location, opening hours and fuel prices of every station." .
+
+<http://www.semweb19-20/G11/ontology> rdf:type owl:Ontology ;
+rdfs:comment "An Alcobendas's fuel station ontology that describe the location, opening hours and fuel prices of every station." .
+
 
 #################################################################
 #    Datatypes
@@ -26,99 +28,108 @@ geo:long rdf:type rdfs:Datatype .
 #    Object Properties
 #################################################################
 
-###  http://www.semweb19-20/G11/fullstation#hasFuel
+###  http://www.semweb19-20/G11#hasFuel
 :hasFuel rdf:type owl:ObjectProperty ;
          rdfs:domain :Station ;
          rdfs:range :FuelType .
+
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.semweb19-20/G11/fullstation#hasAddress
+###  http://www.semweb19-20/G11#hasAddress
 :hasAddress rdf:type owl:DatatypeProperty ;
            rdfs:domain :Station ;
            rdfs:range xsd:string .
 
 
-###  http://www.semweb19-20/G11/fullstation#hasLabel
+###  http://www.semweb19-20/G11#hasLabel
 :hasLabel rdf:type owl:DatatypeProperty ;
           rdfs:domain :Station ;
           rdfs:range xsd:string .
 
 
-###  http://www.semweb19-20/G11/fullstation#hasLatitude
+###  http://www.semweb19-20/G11#hasLatitude
 :hasLatitude rdf:type owl:DatatypeProperty ;
              rdfs:domain :Station ;
              rdfs:range geo:lat .
 
 
-###  http://www.semweb19-20/G11/fullstation#hasLongitude
+###  http://www.semweb19-20/G11#hasLongitude
 :hasLongitude rdf:type owl:DatatypeProperty ;
               rdfs:domain :Station ;
               rdfs:range geo:long .
 
 
-###  http://www.semweb19-20/G11/fullstation#hasPostalCode
+###  http://www.semweb19-20/G11#hasPostalCode
 :hasPostalCode rdf:type owl:DatatypeProperty ;
                rdfs:domain :Station ;
                rdfs:range xsd:int .
 
-###  http://www.semweb19-20/G11/fullstation#hasPriceDiesA
+###  http://www.semweb19-20/G11#hasPriceDiesA
 :hasPriceDiesA rdf:type owl:DatatypeProperty ;
           rdfs:range xsd:double .
 
-###  http://www.semweb19-20/G11/fullstation#hasPriceGas95
+###  http://www.semweb19-20/G11#hasPriceGas95
 :hasPriceGas95 rdf:type owl:DatatypeProperty ;
           rdfs:range xsd:double .
 
-###  http://www.semweb19-20/G11/fullstation#hasPriceGas98
+###  http://www.semweb19-20/G11#hasPriceGas98
 :hasPriceGas98 rdf:type owl:DatatypeProperty ;
           rdfs:range xsd:double .
 
-###  http://www.semweb19-20/G11/fullstation#hasPriceNewA
+###  http://www.semweb19-20/G11#hasPriceNewA
 :hasPriceNewA rdf:type owl:DatatypeProperty ;
           rdfs:range xsd:double .
 
-###  http://www.semweb19-20/G11/fullstation#hasSchedule
+###  http://www.semweb19-20/G11#hasSchedule
 :hasSchedule rdf:type owl:DatatypeProperty ;
              rdfs:domain :Station ;
              rdfs:range xsd:string .
 
+###  http://www.semweb19-20/G11#dedicatedTo
+:dedicatedTo rdf:type owl:DatatypeProperty ;
+	    rdfs:domain :Street ;
+	    rdfs:range :string .
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semweb19-20/G11/fullstation#FuelType
+###  http://www.semweb19-20/G11#FuelType
 :FuelType rdf:type owl:Class .
 
-
-###  http://www.semweb19-20/G11/fullstation#Station
+###  http://www.semweb19-20/G11#Station
 :Station rdf:type owl:Class .
 
+###  http://www.semweb19-20/G11#Street
+:Street rdf:type owl:Class .
+
+###  http://www.semweb19-20/G11#Dedication
+:Dedication rdf:type owl:Class .
 
 #################################################################
 #    Individuals
 #################################################################
 
-###  http://www.semweb19-20/G11/fullstation#DieselA
+###  http://www.semweb19-20/G11#DieselA
 :DieselA rdf:type owl:NamedIndividual ,
                   :FuelType .
 
 
-###  http://www.semweb19-20/G11/fullstation#Gasoline95
+###  http://www.semweb19-20/G11#Gasoline95
 :Gasoline95 rdf:type owl:NamedIndividual ,
                      :FuelType .
 
 
-###  http://www.semweb19-20/G11/fullstation#Gasoline98
+###  http://www.semweb19-20/G11#Gasoline98
 :Gasoline98 rdf:type owl:NamedIndividual ,
                      :FuelType .
 
 
-###  http://www.semweb19-20/G11/fullstation#NewDieselA
+###  http://www.semweb19-20/G11#NewDieselA
 :NewDieselA rdf:type owl:NamedIndividual ,
                      :FuelType .
 
