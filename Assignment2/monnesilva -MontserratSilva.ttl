@@ -1,0 +1,10 @@
+@base <http://www.ontogrid.net/Assigment2>
+@prefix asg: <http://www.ontogrid.net/Assigment2#>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+	:Class01  asg:includes :Sensor029 ; 
+			 asg:includes :Computer101 . 
+	:Sensor029 asg:hasMeasurement :Measurement8401. 
+	:Computer101 asg:hasOwner :User10A.
+	:Measurement8401 asg:hasTemperature  "29"^^xsd:integer; # xsd:integer 
+		            asg:atTime  "2010-06-12T12:00:12"^^xsd:dateTime. # xsd:dateTime
+    asg:User10A asg:hasName  "Pedro"^^xsd:string . # xsd:String

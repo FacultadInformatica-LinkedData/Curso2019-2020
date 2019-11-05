@@ -1,0 +1,149 @@
+# 1. Obtenga todas las propiedades que se pueden aplicar a las instancias de la clase Politician (<http://dbpedia.org/ontology/Politician>)
+
+select distinct ?propiedades where {   
+	?instan a <http://dbpedia.org/ontology/Politician>;
+	?propiedades ?something
+} LIMIT 20 
+
+propiedades
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://es.dbpedia.org/property/dead
+http://es.dbpedia.org/property/enelcargo
+http://es.dbpedia.org/property/equipoDebut
+http://es.dbpedia.org/property/equipoRetiro
+http://es.dbpedia.org/property/fortuna
+http://es.dbpedia.org/property/oponentes
+http://es.dbpedia.org/property/relaciones
+http://es.dbpedia.org/property/retiro
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://www.w3.org/2002/07/owl#sameAs
+http://purl.org/dc/terms/subject
+http://dbpedia.org/ontology/thumbnail
+http://xmlns.com/foaf/0.1/depiction
+http://es.dbpedia.org/property/3data
+http://es.dbpedia.org/property/abreviaturaBot
+http://es.dbpedia.org/property/afiliaciones
+http://es.dbpedia.org/property/almaMater
+
+
+# 2. Obtenga todas las propiedades, excepto rdf: type, que se pueden aplicar a instancias de la clase Politician
+
+select distinct ?propiedades where {
+	?instan a <http://dbpedia.org/ontology/Politician>;
+	?propiedades ?something
+	FILTER (?propiedades != rdf:type)
+} LIMIT 20
+
+propiedades
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://es.dbpedia.org/property/dead
+http://es.dbpedia.org/property/enelcargo
+http://es.dbpedia.org/property/equipoDebut
+http://es.dbpedia.org/property/equipoRetiro
+http://es.dbpedia.org/property/fortuna
+http://es.dbpedia.org/property/oponentes
+http://es.dbpedia.org/property/relaciones
+http://es.dbpedia.org/property/retiro
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://www.w3.org/2002/07/owl#sameAs
+http://purl.org/dc/terms/subject
+http://dbpedia.org/ontology/thumbnail
+http://xmlns.com/foaf/0.1/depiction
+http://es.dbpedia.org/property/3data
+http://es.dbpedia.org/property/abreviaturaBot
+http://es.dbpedia.org/property/afiliaciones
+http://es.dbpedia.org/property/almaMater
+http://es.dbpedia.org/property/almaMáter
+
+# 3. ¿Qué valores diferentes existen para las propiedades, excepto rdf: type, de las instancias de la clase Politician?
+
+select distinct ?propiedades ?something where {
+	?instan a <http://dbpedia.org/ontology/Politician>;
+	?propiedades ?something
+	FILTER (?propiedades != rdf:type)
+} LIMIT 20
+
+propiedades	                                something
+http://www.w3.org/2000/01/rdf-schema#label	"Marcia Alicia Fernández Piña"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Argentina Rubiera"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Francisco Pizano de Brigard"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Barceló"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Cruz"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Guillermo Novara"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Gustavo Oliva"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Mario Alberto Dávila Delgado"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Raquel Barajas"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Rodrigo Hermosilla Gatica"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Sergio Sepúlveda Corvalán"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Albert Botran"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Antoni Castellà"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Benet Salellas"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Clemente Agosto"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Diego García de García Vilas"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Gabriela Serra"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Gian Nicola Berti"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Ingrid Schemelensky"@es
+http://www.w3.org/2000/01/rdf-schema#label	"Isabel Muradàs"@es
+
+# 4. Para cada una de las propiedades, excepto rdf: type, que se puede aplicar a instancias de la clase Político, ¿qué valores diferentes toman en esas instancias?
+
+select distinct ?instan ?propiedades ?something where {
+	?instan a <http://dbpedia.org/ontology/Politician>;
+	?propiedades ?something
+	FILTER (?propiedades != rdf:type)
+} LIMIT 20
+
+instan	                                                      propiedades									something
+http://es.dbpedia.org/resource/Marcia_Alicia_Fernández_Piña	http://www.w3.org/2000/01/rdf-schema#label	"Marcia Alicia Fernández Piña"@es
+http://es.dbpedia.org/resource/Argentina_Rubiera			http://www.w3.org/2000/01/rdf-schema#label	"Argentina Rubiera"@es
+http://es.dbpedia.org/resource/Francisco_Pizano_de_Brigard	http://www.w3.org/2000/01/rdf-schema#label	"Francisco Pizano de Brigard"@es
+http://es.dbpedia.org/resource/Gabriel_Barceló				http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Barceló"@es
+http://es.dbpedia.org/resource/Gabriel_Cruz					http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Cruz"@es
+http://es.dbpedia.org/resource/Guillermo_Novara				http://www.w3.org/2000/01/rdf-schema#label	"Guillermo Novara"@es
+http://es.dbpedia.org/resource/Gustavo_Oliva				http://www.w3.org/2000/01/rdf-schema#label	"Gustavo Oliva"@es
+http://es.dbpedia.org/resource/Mario_Alberto_Dávila_Delgado	http://www.w3.org/2000/01/rdf-schema#label	"Mario Alberto Dávila Delgado"@es
+http://es.dbpedia.org/resource/Raquel_Barajas				http://www.w3.org/2000/01/rdf-schema#label	"Raquel Barajas"@es
+http://es.dbpedia.org/resource/Rodrigo_Hermosilla_Gatica	http://www.w3.org/2000/01/rdf-schema#label	"Rodrigo Hermosilla Gatica"@es
+http://es.dbpedia.org/resource/Sergio_Sepúlveda_Corvalán	http://www.w3.org/2000/01/rdf-schema#label	"Sergio Sepúlveda Corvalán"@es
+http://es.dbpedia.org/resource/Albert_Botran				http://www.w3.org/2000/01/rdf-schema#label	"Albert Botran"@es
+http://es.dbpedia.org/resource/Antoni_Castellà				http://www.w3.org/2000/01/rdf-schema#label	"Antoni Castellà"@es
+http://es.dbpedia.org/resource/Benet_Salellas				http://www.w3.org/2000/01/rdf-schema#label	"Benet Salellas"@es
+http://es.dbpedia.org/resource/Clemente_Agosto				http://www.w3.org/2000/01/rdf-schema#label	"Clemente Agosto"@es
+http://es.dbpedia.org/resource/Diego_García_de_García_Vilas	http://www.w3.org/2000/01/rdf-schema#label	"Diego García de García Vilas"@es
+http://es.dbpedia.org/resource/Gabriela_Serra				http://www.w3.org/2000/01/rdf-schema#label	"Gabriela Serra"@es
+http://es.dbpedia.org/resource/Gian_Nicola_Berti			http://www.w3.org/2000/01/rdf-schema#label	"Gian Nicola Berti"@es
+http://es.dbpedia.org/resource/Ingrid_Schemelensky			http://www.w3.org/2000/01/rdf-schema#label	"Ingrid Schemelensky"@es
+http://es.dbpedia.org/resource/Isabel_Muradàs				http://www.w3.org/2000/01/rdf-schema#label	"Isabel Muradàs"@es
+
+# 5. Para cada una de las propiedades, excepto rdf: type, que se puede aplicar a instancias de la clase Político, ¿cuántos valores distintos toman en esas instancias?
+
+select distinct ?instan ?propiedades count(?something)as ?numero where {
+	?instan a <http://dbpedia.org/ontology/Politician>;
+	?propiedades ?something
+	FILTER (?propiedades != rdf:type)
+} LIMIT 20
+
+instan													propiedades											numero
+http://es.dbpedia.org/resource/Khondakar_Mostaq_Ahmad	http://xmlns.com/foaf/0.1/gender					1
+http://es.dbpedia.org/resource/Wilma_Pastrana			http://dbpedia.org/ontology/party					1
+http://es.dbpedia.org/resource/Maurice_Yaméogo			http://dbpedia.org/ontology/deathPlace				2
+http://es.dbpedia.org/resource/Francisco_Humeres_Arcaya	http://es.dbpedia.org/property/fechaDeNacimiento	1
+http://es.dbpedia.org/resource/Pat_Quinn				http://xmlns.com/foaf/0.1/gender					1
+http://es.dbpedia.org/resource/Jadranka_Kosor			http://dbpedia.org/ontology/abstract				1
+http://es.dbpedia.org/resource/Armando_Chavarría_Barrera http://xmlns.com/foaf/0.1/givenName				1
+http://es.dbpedia.org/resource/Lizbeth_Song_Encalada	http://dbpedia.org/ontology/wikiPageExternalLink	10
+http://es.dbpedia.org/resource/Absalón_Castellanos_Domínguez http://dbpedia.org/ontology/birthDate			1
+http://es.dbpedia.org/resource/Mariano_Mendizábal		http://dbpedia.org/ontology/deathPlace				2
+http://es.dbpedia.org/resource/Dávid_Ibolya				http://xmlns.com/foaf/0.1/givenName					1
+http://es.dbpedia.org/resource/Edgardo_Seoane_Corrales	http://xmlns.com/foaf/0.1/isPrimaryTopicOf			1
+http://es.dbpedia.org/resource/Massimo_Andrea_Ugolini	http://dbpedia.org/ontology/birthDate				1
+http://es.dbpedia.org/resource/María_de_los_Ángeles_Duarte	http://es.dbpedia.org/property/final			2
+http://es.dbpedia.org/resource/Rafael_Tovar_y_de_Teresa	http://es.dbpedia.org/property/período				4
+http://es.dbpedia.org/resource/Joe-Fio_Neenyann_Meyer	http://dbpedia.org/ontology/abstract				1
+http://es.dbpedia.org/resource/Juan_de_Dios_Vial_Larraín http://xmlns.com/foaf/0.1/givenName				1
+http://es.dbpedia.org/resource/Carlos_Ramón_Fort		http://es.dbpedia.org/property/nombre				2
+http://es.dbpedia.org/resource/Oswaldo_López_Arellano	http://dbpedia.org/ontology/deathDate				1
+http://es.dbpedia.org/resource/Rafael_Guillermo_Urdaneta_Vargas	http://dbpedia.org/ontology/deathDate		1

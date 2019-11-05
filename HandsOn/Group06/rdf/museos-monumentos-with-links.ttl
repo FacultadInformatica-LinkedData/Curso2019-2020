@@ -1,0 +1,1345 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://culturalrace.es/0> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Banco de España" ;
+	<http://culturalrace.es/Imagen> "Madrid - Metro - Estación de Banco de España (7187847138).jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "El Banco de España es el banco central nacional y, en el marco del Mecanismo Único de Supervisión (MUS)  el supervisor del sistema bancario español junta al Banco Centra Europeo. Su actividad está regulada por la Ley de Autonomía del Banco de España." ;
+	<http://culturalrace.es/Horario> "De lunes a viernes: 8.30 a 14.00 horas. Sábados, domingos y festivos: cerrado." ;
+	<http://culturalrace.es/Transporte> "Metro: Banco de España (línea 2).Bus: 10, 34, 5, 9, 51, 52, 53, 146, 150, 1, 2, 15, 20, 74, 203, 14, 27, 37, 45, 46." ;
+	<http://culturalrace.es/NombreVia> "ALCALA" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "48" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.4188339187439" ;
+	<http://culturalrace.es/Longitud> "-3.69482107480432" ;
+	<http://culturalrace.es/Telefono> "913 385 000 (centralita)" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/1> <http://culturalrace.es/NombreVia> "SAN JUSTO" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Basílica Pontificia de San Miguel" ;
+	<http://culturalrace.es/Imagen> "Basílica of San Miguel.jpg" ;
+	<http://culturalrace.es/Transporte> "Metro: Sol (líneas 1, 2 y 3), Tirso de Molina (línea 1), La Latina (línea 5)Renfe: Sol (líneas 3 y 4)Bus: 3, 17, 18, 23, 31, 35, 50, 65, 148" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "4" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28005" ;
+	<http://culturalrace.es/Latitud> "40.414203159177625" ;
+	<http://culturalrace.es/Longitud> "-3.7096715906562716" ;
+	<http://culturalrace.es/Telefono> "915 484 011" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/2> <http://culturalrace.es/Nombre> "Biblioteca Nacional de España" ;
+	<http://culturalrace.es/DescripcionEntidad> "Fundada por Felipe V en 1712 como Biblioteca Pública de Palacio. En 1836 dejó de ser propiedad de la Corona y pasó a depender del Ministerio de la Gobernación y recibió por primera vez el nombre de Biblioteca Nacional y en 1896 se abrió al público." ;
+	<http://culturalrace.es/Imagen> "Biblioteca-Nacional-271112.jpg" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Horario> "Salas de lectura y servicios: de lunes a viernes, de 9 a 21 horas.Consultar días de cierre." ;
+	<http://culturalrace.es/Transporte> "Metro: Colón, (línea 4), Retiro (Línea 2)Bus: 5, 14, 27, 45, 53, 150, 37, 21, 1, 9, 19, 51, 74Cercanías Renfe: Recoletos (líneas C1, C2, C7, C8  y C10)Bicimad: Estación 94 (Paseo Recoletos, 32-34)" ;
+	<http://culturalrace.es/NombreVia> "RECOLETOS" ;
+	<http://culturalrace.es/TipoVia> "PASEO" ;
+	<http://culturalrace.es/NumVia> "20" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28001" ;
+	<http://culturalrace.es/Latitud> "40.423001908945956" ;
+	<http://culturalrace.es/Longitud> "-3.69084423390357" ;
+	<http://culturalrace.es/Telefono> "915 807 800 (Centralita) / 915 807 823 /  915 807 805 (Información)" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/3> <http://culturalrace.es/Imagen> "Bolsa de Madrid edited.jpg" ;
+	<http://culturalrace.es/Nombre> "Bolsa de Madrid" ;
+	<http://culturalrace.es/DescripcionEntidad> "Visitas guiadas al Palacio de la Bolsa Todos los días laborables, en horario de mañana, la Bolsa de Madrid abre sus puertas al público para que puedan recorrer el Palacio de la Bolsa. Todas las visitas son guiadas por personal de la Bolsa de Madrid, con objeto de poder aclarar las preguntas del público, ofreciendo así una visita dinámica y participativa.La visita tiene una duración aproximada de 60 minutos. Visitas individuales Todos los Jueves a las 12 horas.Reservas: visitas@grupobme.es  Visitas de grupos Centros de Bachiller (colegios, Institutos, etc).Otros grupos: profesionales, universidades, centros de formación profesional, asociaciones, etc. Horario: Desde las 10 horas de lunes a viernesGrupos de 30 personas como máximo.Edad mínima: 16 años." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Transporte> "Metro: Banco de España (línea 2).Bus: 203, 10, 14, 27, 34, 37, 45.Bicimad: Estación 65 (calle Antonio Maura, 15)." ;
+	<http://culturalrace.es/NombreVia> "LEALTAD" ;
+	<http://culturalrace.es/TipoVia> "PLAZA" ;
+	<http://culturalrace.es/NumVia> "1" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.41688576337496" ;
+	<http://culturalrace.es/Longitud> "-3.692184322678944" ;
+	<http://culturalrace.es/Telefono> "917 095 000 / 915 891 184 (Protector del inversor)" ;
+	<http://culturalrace.es/Email> "infobolsamadrid@grupobme.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+
+<http://culturalrace.es/5> <http://culturalrace.es/DescripcionEntidad> "Es uno de los pocos palacios renacentistas del siglo XVI conservados en Madrid, aunque con muchas modificaciones." ;
+	<http://culturalrace.es/Imagen> "Casa de Cisneros (Madrid) 02.jpg" ;
+	<http://culturalrace.es/Nombre> "Casa de Cisneros" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Transporte> "Metro: Sol (líneas 1, 2, 3), Ópera (líneas R, 2, 5)Bus: 3, 5, 20, 25, 33, 39, 50, 51, 52, 53, 150" ;
+	<http://culturalrace.es/NombreVia> "VILLA" ;
+	<http://culturalrace.es/TipoVia> "PLAZA" ;
+	<http://culturalrace.es/NumVia> "4" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28005" ;
+	<http://culturalrace.es/Latitud> "40.41490075227339" ;
+	<http://culturalrace.es/Longitud> "-3.7105039839947347" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/6> <http://culturalrace.es/DescripcionEntidad> "Iniciada por Diego Sillero en 1590 para el gremio del pan, será acabada y transformada en 1617 por Gómez de Mora al integrarla en el conjunto de la Plaza Mayor. La planta baja era completamente libre permitiendo el paso entre la calle Mayor y la Plaza. A finales del siglo XVIII  Juan de Villanueva la restauró tras el incendio de la plaza en 1672. Es de destacar el balcón y Escudo Real de la fachada, así como sus pinturas." ;
+	<http://culturalrace.es/Imagen> "Visita turística guiada por la Plaza Mayor con motivo de su IV Centenario (01).jpg" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Casa de La Panadería" ;
+	<http://culturalrace.es/Transporte> "Metro: Sol (líneas 1, 2, 3).Bus: 3, 50.Renfe: Sol (líneas C3, C4)." ;
+	<http://culturalrace.es/NombreVia> "MAYOR" ;
+	<http://culturalrace.es/TipoVia> "PLAZA" ;
+	<http://culturalrace.es/NumVia> "27" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28012" ;
+	<http://culturalrace.es/Latitud> "40.41583855082183" ;
+	<http://culturalrace.es/Longitud> "-3.7074257084323636" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/7> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "Visita turística guiada por la Plaza Mayor con motivo de su IV Centenario (02).jpg" .
+
+<http://culturalrace.es/8> <http://culturalrace.es/NombreVia> "VILLA" ;
+	<http://culturalrace.es/TipoVia> "PLAZA" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Casa de La Villa. Ayuntamiento de Madrid" ;
+	<http://culturalrace.es/Transporte> "Metro: Sol (líneas 1, 2, 3), Ópera (líneas R, 2, 5)Bus: 3, 5, 20, 25, 33, 39, 50, 51, 52, 53, 150" ;
+	<http://culturalrace.es/NumVia> "5" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28005" ;
+	<http://culturalrace.es/Latitud> "40.41518829867041" ;
+	<http://culturalrace.es/Longitud> "-3.7106248754622504" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/9> <http://culturalrace.es/Nombre> "Casa de Velázquez" ;
+	<http://culturalrace.es/DescripcionEntidad> "La Casa de Velázquez es, a la vez, un centro de creación artística y un centro de investigación. Esto es lo que constituye su singularidad en el conjunto de las cinco Escuelas Francesas en el Extranjero bajo la tutela del Ministerio de Enseñanza Superior, Investigación e Innovación.Establecimiento público de carácter científico, cultural y profesional, la Casa de Velázquez tiene la misión de desarrollar actividades creadoras e investigaciones relacionadas con las artes, las lenguas, las literaturas y las sociedades de los países ibéricos, iberoamericanos y del Magreb." ;
+	<http://culturalrace.es/Imagen> "CasaVelazquez-01.jpg" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Transporte> "Bus: 83 , 133, 162.Metro: Ciudad Universitaria (línea 6)." ;
+	<http://culturalrace.es/NombreVia> "PAUL GUINARD" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "3" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28040" ;
+	<http://culturalrace.es/Latitud> "40.441013640676644" ;
+	<http://culturalrace.es/Longitud> "-3.7299866834370903" ;
+	<http://culturalrace.es/Telefono> "914 551 580" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/10> <http://culturalrace.es/Horario> "Mañanas De lunes a jueves, de 9 a 15 horas (Servicio de libros y otros materiales hasta las 14:30 horas)Viernes, de 9 a 14:30 horas (Servicio de libros y otros materiales hasta las 14 h) Tardes Lunes y miércoles, de 15 a 18 horas (Servicio de libros y otros materiales hasta las 17:30 horas) Horario de verano  Desde el 16 de junio al 15 de septiembre, de lunes a viernes, de 9 a 14:30 horas" ;
+	<http://culturalrace.es/Nombre> "Casón del Buen Retiro" ;
+	<http://culturalrace.es/DescripcionEntidad> "Edificio que forma parte del Museo Nacional del Prado, donde pueden consultarse fondos de la Biblioteca, del Archivo y del Servicio de Documentación de la colección del Museo y de otras fuentes relativas a la historia del arte." ;
+	<http://culturalrace.es/Imagen> "Cason del Buen Retiro-Front side.jpg" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Transporte> "Metro: Estación del Arte (Atocha) (línea 1)Bus: 19Renfe: AtochaBicimad: Estación 65 (calle Antonio Maura, 15)" ;
+	<http://culturalrace.es/NombreVia> "ALFONSO XII" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "28" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.415263749471535" ;
+	<http://culturalrace.es/Longitud> "-3.689232811717636" ;
+	<http://culturalrace.es/Telefono> "913 302 821" ;
+	<http://culturalrace.es/Email> "biblioteca@museodelprado.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/11> <http://culturalrace.es/Horario> "Abierto solo en fin de semana (sábado y domingo) y festivos (lunes festivos incluidos)Del 1 de abril al 15 de junio de 10 a 21 horas.Del 16 de junio al 15 de septiembre de 10 a 20 horas.Del 15 al 30 de septiembre de 10 a 21 horas.De octubre a marzo de 10 a 18 horas.Cerrado: 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre." ;
+	<http://culturalrace.es/Nombre> "Castillo de la Alameda" ;
+	<http://culturalrace.es/Imagen> "Castillo de La Alameda (Madrid) 02.jpg" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/DescripcionEntidad> "El Castillo de la Alameda o de Barajas se trata de uno de los escasos vestigios de la arquitectura militar del pasado siglo XV y uno de los pocos castillos que ha sobrevivido al paso del tiempo. Bajo él y su entorno, existen restos de asentamientos antiguos desde la Edad del Bronce hasta la Época Romana.En el edificio se realizan talleres para escolares y actividades en verano." ;
+	<http://culturalrace.es/Transporte> "Metro: Alameda de Osuna y El Capricho (línea 5) Bus: 101, 105, 112, 114, 115 y 151" ;
+	<http://culturalrace.es/NombreVia> "ANTONIO SANCHA" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "1" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28042" ;
+	<http://culturalrace.es/Latitud> "40.45835460563491" ;
+	<http://culturalrace.es/Longitud> "-3.5932903820278788" ;
+	<http://culturalrace.es/Telefono> "913 667 415" ;
+	<http://culturalrace.es/Email> "castilloalameda@madrid.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/12> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Catedral Santa María la Real de la Almudena" ;
+	<http://culturalrace.es/Imagen> "Catedral de la Almudena (Madrid) 25.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "Su construcción comienza a finales del siglo XIX por el Marqués de Cubas, sobre el primer recinto amurallado del Madrid musulmán, y finaliza en el año 1993." ;
+	<http://culturalrace.es/Transporte> "Metro: Ópera (líneas 2, 5, Ramal), Sol (Línea 1, 2, 3), Príncipe Pío (línea 6, 10, Ramal), Tirso de Molina (línea 1), Latina (línea 5)Bus: 3, 25, 31, 39, 50 65, 148" ;
+	<http://culturalrace.es/NombreVia> "BAILEN" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "10" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28013" ;
+	<http://culturalrace.es/Latitud> "40.415547923977506" ;
+	<http://culturalrace.es/Longitud> "-3.713669638684312" ;
+	<http://culturalrace.es/Telefono> "915 422 200" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+
+<http://culturalrace.es/14> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Centro Social y Cultural La Casa Encendida" ;
+	<http://culturalrace.es/DescripcionEntidad> "Edificio de carácter monumental. De estilo neomudéjar, fue diseñado por el arquitecto Fernando Arbós e inaugurado en el año 1913. Cuenta con más de 6.000 metros cuadrados de instalaciones divididas en 4 plantas y una azotea." ;
+	<http://culturalrace.es/Imagen> "Casa Encendida, patio interior, Madrid, 2018 01.jpg" ;
+	<http://culturalrace.es/Horario> "De martes a domingo de 10 a 22 horas (todos los días del año, excepto festividades nacionales y de la Comunidad de Madrid)Exposiciones: de 10 a 21:45 horas" ;
+	<http://culturalrace.es/Transporte> "Metro: Embajadores (línea 3), Lavapies (línea 3), Estación del Arte (Atocha) (línea 1), Palos de la Frontera (línea 3)Bus: 27, 34, 36, 41, 119, C1, C2Renfe: Embajadores (C5), Atocha ( C1, C2, C3, C4, C5, C7, C8, C10)" ;
+	<http://culturalrace.es/NombreVia> "VALENCIA" ;
+	<http://culturalrace.es/TipoVia> "RONDA" ;
+	<http://culturalrace.es/NumVia> "2" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28012" ;
+	<http://culturalrace.es/Latitud> "40.40595710517701" ;
+	<http://culturalrace.es/Longitud> "-3.699779793558763" ;
+	<http://culturalrace.es/Telefono> "902 430 322" ;
+	<http://culturalrace.es/Email> "lacasaencendida@montemadrid.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/15> <http://culturalrace.es/Transporte> "Metro: Banco de España (línea 2).Bus: 1, 2, 3, 5, 9, 14, 15, 20, 27, 45, 46, , 51, 52, 53, 74, 146, 147, 150.Bicimad: Estación 20 a (calle Alcalá 49), estación 28 (calle Alcalá 27)." ;
+	<http://culturalrace.es/Imagen> "Círculo de Bellas Artes (Madrid) 06.jpg" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Círculo de Bellas Artes" ;
+	<http://culturalrace.es/Horario> "Salas de exposiciones: martes a domingo de 11 a 14 y de 17 a 21 horas. Lunes cerrado. Azotea: de lunes a viernes de 9 a 21 horas. Sábados y domingos de 11 a 21 horas (venta de entradas finaliza a las 20:30 horas. Horario sujeto a cambios. Taquilla (cine y espectáculos): miércoles a domingo de 16 a 22 horas. Horario sujeto a cambios. Cafetería 'La Pecera': De 8 a 1 horas (viernes, sábado y domingo hasta las 3 horas)." ;
+	<http://culturalrace.es/NombreVia> "ALCALÁ" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "42" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.41842683569739" ;
+	<http://culturalrace.es/Longitud> "-3.6965967618484465" ;
+	<http://culturalrace.es/Telefono> "913 605 400" ;
+	<http://culturalrace.es/Email> "info@circulobellasartes.com" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Consorcios" .
+
+<http://culturalrace.es/16> <http://culturalrace.es/DescripcionEntidad> "Conde Duque es un espacio cultural vinculado a la memoria y a la la difusión de Madrid.Entre sus fines se encuentran: la difusión de la historia de Madrid, el intercambio de conocimientos históricos con la sociedad, la conservación de  los fondos históricos y artísticos del Ayuntamiento y la producción y exhibición de manifestaciones artísticas relacionadas con el mundo de la escena y de la música." ;
+	<http://culturalrace.es/Imagen> "Llega la tercera edición de LaborArte, una mirada al mundo del trabajo desde la cultura (03).jpg" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Conde Duque" ;
+	<http://culturalrace.es/Horario> "Exposiciones (entrada gratuita) De martes a sábado de 10 a 14 y de 17:30 a 21 horas.Domingos y festivos de 10:30 a 14 horas." ;
+	<http://culturalrace.es/Transporte> "Metro: Ventura Rodríguez (línea 3), San Bernardo (línea 2 y 4) y Noviciado (línea 2).Bus: 1, 2, 44, 74, 133, 202, 749, Minibús M-2BICIMAD: Estación 13 (calle Conde Duque, 22)" ;
+	<http://culturalrace.es/NombreVia> "CONDE DUQUE" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "11" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28015" ;
+	<http://culturalrace.es/Latitud> "40.42802889001877" ;
+	<http://culturalrace.es/Longitud> "-3.710182353581842" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+
+<http://culturalrace.es/20> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "Edificio Metrópolis, calle de Alcalá, Madrid, España, 2017-05-18, DD 08.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "Arquitectos: Jules y Reymond Fevrier y Luis Esteve (1906 - 1910) Edificio de carácter monumental de estilo clasicista - francés de fin de siglo, aporta una buena solución de esquina para el arranque de la Gran Vía en la rotonda de columnas corintias de orden gigante que sostienen un tercer piso profuso en grupos escultóricos de Saint Marceux, Landousky, Lambert y Benlliure.  La Compañía Metrópolis sustituyó en 1975 el grupo escultórico de la Unión y el Fénix que coronaba la cúpula por una victoria alada de Federico Coullaut Valera." ;
+	<http://culturalrace.es/Nombre> "Edificio Metrópolis" ;
+	<http://culturalrace.es/Transporte> "Metro: Sevilla (línea 2), Banco de España (línea 2) Bus: 1, 2, 5, 9, 15, 20, 51, 52, 53, 74, 146, 150, 202" ;
+	<http://culturalrace.es/NombreVia> "ALCALA" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "39" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.41866416622284" ;
+	<http://culturalrace.es/Longitud> "-3.6975775550486154" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+
+<http://culturalrace.es/22> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Ermita de San Isidro" ;
+	<http://culturalrace.es/Horario> "Ermita: sábados de 11 a 13 horas (celebración de la Eucaristía a las 12 horas). Fuente del Santo: sólo permanece abierta desde la semana anterior a la fiesta de San Isidro hasta la semana posterior. Oficio en rito hispano mozárabe: los días 2 de enero a las 18 horas (comienzo del año Caput anni) y 11 de mayo a las 18,30 horas (aniversario de la dedicación)." ;
+	<http://culturalrace.es/Imagen> "Ermita-san-isidro.jpg" ;
+	<http://culturalrace.es/Transporte> "Metro: Marqués de Vadillo (línea 5) Bus: 17, 25, 50" ;
+	<http://culturalrace.es/NombreVia> "QUINCE DE MAYO" ;
+	<http://culturalrace.es/TipoVia> "PASEO" ;
+	<http://culturalrace.es/NumVia> "62" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28019" ;
+	<http://culturalrace.es/Latitud> "40.39949832410487" ;
+	<http://culturalrace.es/Longitud> "-3.73168274610084" ;
+	<http://culturalrace.es/Telefono> "913 650 841" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/23> <http://culturalrace.es/Nombre> "Ermita de Santa María la Antigua" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "Ermita de Santa María de la Antigua. Lateral..jpg" ;
+	<http://culturalrace.es/Transporte> "Bus: 34, 108" ;
+	<http://culturalrace.es/NombreVia> "MONSE&amp;Ntilde;OR OSCAR ROMERO" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "92" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28047" ;
+	<http://culturalrace.es/Latitud> "40.382490632700176" ;
+	<http://culturalrace.es/Longitud> "-3.75251593492415" ;
+	<http://culturalrace.es/Telefono> "914 628 536 (Parroquia de San Sebastián Mártir)" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/24> <http://culturalrace.es/Nombre> "Ermita Virgen del Puerto" ;
+	<http://culturalrace.es/Imagen> "Ermita de la Virgen del Puerto (Madrid) 02b.jpg" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Transporte> "Metro: Príncipe Pio (líneas 6 y 10)Bus: 25, 31, 33, 36, 39, 41, 50, 62, 65, 138, C2 Renfe: Príncipe Pío (líneas 1, 7 y 10)" ;
+	<http://culturalrace.es/NombreVia> "VIRGEN DEL PUERTO" ;
+	<http://culturalrace.es/TipoVia> "PASEO" ;
+	<http://culturalrace.es/NumVia> "4" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28005" ;
+	<http://culturalrace.es/Latitud> "40.41556461689203" ;
+	<http://culturalrace.es/Longitud> "-3.7211426105677465" ;
+	<http://culturalrace.es/Telefono> "648 841 991 / 637 388 244" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+
+<http://culturalrace.es/32> <http://culturalrace.es/Imagen> "Iglesia de San Antonio de los Alemanes (Madrid) 01.jpg" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Iglesia San Antonio de los Alemanes" ;
+	<http://culturalrace.es/Transporte> "Metro: Callao (líneas 3, 5), Gran Vía (líneas 1, 5), Noviciado (línea 2), Santo Domingo (línea 2), Chueca (línea 5)Bus: 1, 2, 3, 46, 74, 146, 147, 202, M2" ;
+	<http://culturalrace.es/NombreVia> "PUEBLA" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "20" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28004" ;
+	<http://culturalrace.es/Latitud> "40.422294329828986" ;
+	<http://culturalrace.es/Longitud> "-3.703603319643193" ;
+	<http://culturalrace.es/Telefono> "915 223 774" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+
+
+<http://culturalrace.es/37> <http://culturalrace.es/Nombre> "Jardines del Campo del Moro" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/DescripcionEntidad> "Jardín declarado Histórico Artístico en 1931. Los jardines salvan un pronunciado desnivel que comunica el Palacio Real con las riberas del Río Manzanares.Este parque se incluye entre las visitas recomendadas a turistas que visitan la ciudad, según la web oficial de turismo de Madrid.El parque es accesible a personas con movilidad reducida en las partes principales del mismo." ;
+	<http://culturalrace.es/Horario> "Horario de invierno (octubre a marzo): todos los días de 10 a 18 horasHorario de verano (abril a septiembre): todos los días 10 a 20 horas" ;
+	<http://culturalrace.es/Transporte> "Metro: Ópera (líneas 2, 5, ramal), Principe Pío (líneas 6, 10, ramal)Bus: 25, 33, 39, 41, 46, 62, 75, 138, 148, CRenfe: Príncipe Pío Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." ;
+	<http://culturalrace.es/NombreVia> "VIRGEN DEL PUERTO" ;
+	<http://culturalrace.es/TipoVia> "PASEO" ;
+	<http://culturalrace.es/NumVia> "0" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28005" ;
+	<http://culturalrace.es/Latitud> "40.41898630733354" ;
+	<http://culturalrace.es/Longitud> "-3.719976836914711" ;
+	<http://culturalrace.es/Telefono> "914 548 800 (Información de Palacio Real)" ;
+	<http://culturalrace.es/Email> "info@patrimonionacional.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/38> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/DescripcionEntidad> "Edificio declarado bien de interés cultural, con categoría de monumento.Construido por Francisco Sabatini en 1769 para Real Casa de Aduanas. Es uno de los primeros edificios neoclásicos de Madrid. Destaca su fachada romana y escalera que forma el núcleo del edificio, lugar de intersección de toda la circulación dentro de la organización de los tres patios." ;
+	<http://culturalrace.es/Nombre> "Ministerio de Hacienda. Sede calle Alcalá" ;
+	<http://culturalrace.es/Transporte> "Metro: Sol (líneas 1, 2, 3), Sevilla (línea 5)Bus: 15, 20, 5, 150, 51, 51, 52, 53, M1, 3Renfe: SolBICIMAD: Estación 1 a y b (Plaza Puerta del Sol, 1)" ;
+	<http://culturalrace.es/NombreVia> "ALCALA" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "9" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.417489335230385" ;
+	<http://culturalrace.es/Longitud> "-3.7011604823997892" ;
+	<http://culturalrace.es/Telefono> "915 958 000" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/39> <http://culturalrace.es/Nombre> "Ministerio de Justicia" ;
+	<http://culturalrace.es/DescripcionEntidad> "Edificio construido por el arquitecto Evaristo del Castillo para la Marquesa de Sonora en 1797, sobre el solar donde se encontraba la casa de Don Bernardo Grimaldo, destruida en un incendio en 1789. En 1851 pasa a ser propiedad del Estado y entre 1942 y 1947 es transformado por Javier Barroso, que le da el estilo nacionalista - herreriano, introduciendo las torres con sus chapiteles y revistiendo éstas con piedra." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Transporte> "Metro: Noviciado (línea 2), Plaza de España (líneas 3, 10)Bus: M2, 3, 147BICIMAD: Estación 16 (calle San Bernardo, 22)" ;
+	<http://culturalrace.es/NombreVia> "SAN BERNARDO" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "45" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28015" ;
+	<http://culturalrace.es/Latitud> "40.42412618887789" ;
+	<http://culturalrace.es/Longitud> "-3.707536103996874" ;
+	<http://culturalrace.es/Telefono> "918 372 295 / 902 007 214" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/40> <http://culturalrace.es/Nombre> "Monasterio de Benedictinas" ;
+	<http://culturalrace.es/Imagen> "Jaca - Monasterio de San Salvador y San Ginés (Benedictinas) 13.jpg" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Transporte> "Metro: Noviciado (línea 2), Gran Vía (línea 1, 5), Callao (línea 3, 5), Tribunal (línea 1, 10)Bus: 1, 2, 3, 44, 46, 74, 75, 133, 146, 148, M2, 147, 148" ;
+	<http://culturalrace.es/NombreVia> "SAN ROQUE" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "9" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28004" ;
+	<http://culturalrace.es/Latitud> "40.422820373636355" ;
+	<http://culturalrace.es/Longitud> "-3.704504689941362" ;
+	<http://culturalrace.es/Telefono> "915 317 999" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/41> <http://culturalrace.es/Nombre> "Monasterio de las Descalzas Reales" ;
+	<http://culturalrace.es/DescripcionEntidad> "Convento fundado por la Princesa Juana de Austria, transformando un antiguo palacio de su madre Isabel de Portugal." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "Monasterio de las Descalzas Reales (Madrid) 07.jpg" ;
+	<http://culturalrace.es/Horario> "Sólo con visita guiada .  De martes a sábado de 10 a 14 horas y de 16 a 18:30 horas.Domingos y festivos, de 10 a 15 horas. Cerrado los lunes.Cierre taquillas y acceso al Monasterio una hora antes.Días de cierre: 17 a 20 abril, 1 mayo, 24, 25 y 31 diciembre.Además de los cierres previstos, puede haber cierres motivados por la celebración de actos oficiales o festividad en el municipio, en estos casos consultar la web o telefónicamente." ;
+	<http://culturalrace.es/Transporte> "Metro: Callao (líneas 3, 5) , Santo Domingo (línea 2) , Sol (líneas 1, 2, 3) Gran Vía (líneas 1, 5).Bus: 1, 2, 3, 5, 15, 20, 25, 39, 40, 44, 46, 50, 51, 52, 53, 74, 75, 133, 146, 147, 148, 149, 150, 202.Bicimad: Estación 25 a y b (Plaza de Celenque)." ;
+	<http://culturalrace.es/NombreVia> "DESCALZAS" ;
+	<http://culturalrace.es/TipoVia> "PLAZA" ;
+	<http://culturalrace.es/NumVia> "3" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28013" ;
+	<http://culturalrace.es/Latitud> "40.418233359889484" ;
+	<http://culturalrace.es/Longitud> "-3.706213134639163" ;
+	<http://culturalrace.es/Telefono> "914 548 700" ;
+	<http://culturalrace.es/Email> "info@patrimonionacional.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/42> <http://culturalrace.es/Horario> "De martes a domingos, de 11 a 14 horas y de 17 a 19 horas. Lunes Cerrado." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Monumento Homenaje a las Víctimas del 11 de marzo" ;
+	<http://culturalrace.es/NombreVia> "Emperador Carlos V" ;
+	<http://culturalrace.es/TipoVia> "GLORIETA" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.40774080279238" ;
+	<http://culturalrace.es/Longitud> "-3.6892974870165984" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/43> <http://culturalrace.es/TipoVia> "PASEO" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/NumVia> "40" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Museo de Escultura al Aire Libre de la Castellana" ;
+	<http://culturalrace.es/DescripcionEntidad> "El Museo de Escultura al Aire Libre de La Castellana, está situado bajo el paso elevado que une las calles de Juan Bravo y Eduardo Dato, contiene una excelente colección de escultura abstracta española." ;
+	<http://culturalrace.es/Horario> "Entrada libre. Espacio urbano abiertoAbierto 24 horas al día los 365 días del año." ;
+	<http://culturalrace.es/Transporte> "Transporte público más próximo  Metro: Rubén Darío (línea 5) Bus: 5, 14, 27, 45, 150 BICIMAD: Estación 142 (Paseo de la Castellana n&amp;ordm;42)" ;
+	<http://culturalrace.es/NombreVia> "CASTELLANA" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28046" ;
+	<http://culturalrace.es/Latitud> "40.433219398671156" ;
+	<http://culturalrace.es/Longitud> "-3.6876122680805956" ;
+	<http://culturalrace.es/Telefono> "915 885 921" ;
+	<http://culturalrace.es/Email> "mmacmdifusion@madrid.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/44> <http://culturalrace.es/Nombre> "Museo de Historia de Madrid" ;
+	<http://culturalrace.es/DescripcionEntidad> "Creado como Museo Municipal en 1929 y rebautizado como Museo de Historia de Madrid en 2007, tras una profunda remodelación, el año 2014 reabre sus puertas con un montaje moderno y una puesta al día de sus colecciones." ;
+	<http://culturalrace.es/Imagen> "Museo de Historia de Madrid (España) 03.jpg" ;
+	<http://culturalrace.es/Horario> "De martes a domingos de 10 a 20 horas. Verano: de martes a domingos de 10 a 19 horas. Cerrado: lunes y los días 1 y 6 de enero, 1 de mayo,  24, 25 y 31 de diciembre. El desalojo de las salas se hará diez minutos antes del cierre." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Transporte> "Metro: Tribunal, Bilbao y Alonso Martínez. Bus: 3, 21, 37, 40, 147 y 149. BICIMAD: Estación 54 (Calle Barceló 7) Aparcamiento público: Barceló." ;
+	<http://culturalrace.es/NombreVia> "FUENCARRAL" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "78" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28004" ;
+	<http://culturalrace.es/Latitud> "40.42577054821346" ;
+	<http://culturalrace.es/Longitud> "-3.700845660719608" ;
+	<http://culturalrace.es/Telefono> "917 011 863" ;
+	<http://culturalrace.es/Email> "smuseosm@madrid.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/45> <http://culturalrace.es/Transporte> "Metro: Sol (líneas 1, 2, 3), Sevilla (línea 2)Bus: 3, 15, 20, 53, 150, M1, 3Renfe Cercanías: SolBicimad: Estación 28 (calle Alcalá, 27)" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Horario> "Colección permanente:De martes a domingos y festivos de 10 a 15 horasCerrado: todos los lunes y el mes de agostoExposiciones temporales: consultar el apartado específico de la exposición temporal.Días cerrados: 1 y 6 de enero; 1 y 30 de mayo; 9 de noviembre; 24, 25 y 31 de diciembre. En periodos vacacionales pueden sufrir cambios." ;
+	<http://culturalrace.es/Nombre> "Museo de la Real Academia de Bellas Artes de San Fernando" ;
+	<http://culturalrace.es/DescripcionEntidad> "Construido inicialmente para palacio de Don Juan de Goyeneche, el edificio fue adquirido por la Academia de Bellas Artes en 1773 y reformado bajo la dirección de Fernando Chueca Goitia en 1973 y la fachada por Diego de Villanueva en 1774." ;
+	<http://culturalrace.es/NombreVia> "ALCALA" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "13" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.41765456031193" ;
+	<http://culturalrace.es/Longitud> "-3.7006553517170633" ;
+	<http://culturalrace.es/Telefono> "915 240 864 (Centralita)" ;
+	<http://culturalrace.es/Email> "museo@rabasf.org" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/46> <http://culturalrace.es/DescripcionEntidad> "Edificio de caracter monumental. Construido como cabecera de la línea Madrid - Extremadura - Portugal en el año 1880 por E. Cachelievre." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Museo del Ferrocarril de Madrid" ;
+	<http://culturalrace.es/Horario> "De octubre a mayo:  Lunes a viernes, de 9.30 a 15.00 horas. Sábados, domingos y festivos de 10.00 a 19.00 horas  De junio a septiembre:  Lunes a domingo, de 10.00 a 15.00 horas. Cerrado: 25 de diciembre, 1 y 6 de enero." ;
+	<http://culturalrace.es/Transporte> "Metro: Delicias (línea 3)Bus: 19, 45, 47, 59, 85, 86, 247, 8, 6, 55Renfe: Delicias" ;
+	<http://culturalrace.es/NombreVia> "DELICIAS" ;
+	<http://culturalrace.es/TipoVia> "PASEO" ;
+	<http://culturalrace.es/NumVia> "61" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28045" ;
+	<http://culturalrace.es/Latitud> "40.400281290485566" ;
+	<http://culturalrace.es/Longitud> "-3.693817192160563" ;
+	<http://culturalrace.es/Telefono> "915 390 085" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/47> <http://culturalrace.es/Nombre> "Museo Lázaro Galdiano" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "Museo Lázaro Galdiano (Madrid) 08.jpg" ;
+	<http://culturalrace.es/Horario> "Martes a sábados de 10 a 16:30 horas.Domingos de 10 a 15 horas.Cerrado todos los lunes, 1 y 6 de enero, 18 y 19 de abril, 1 de mayo, 15 de agosto, 1 de noviembre y 9, 24, 25 y 31 de diciembre de 2019.Grupos y visitas guiadas consultar." ;
+	<http://culturalrace.es/Transporte> "Metro: Gregorio Marañón (línea 7 y 10).Bus: 12, 16, 9, 19, 51, 61" ;
+	<http://culturalrace.es/NombreVia> "SERRANO" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "122" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28006" ;
+	<http://culturalrace.es/Latitud> "40.436750328725985" ;
+	<http://culturalrace.es/Longitud> "-3.6861980129207894" ;
+	<http://culturalrace.es/Telefono> "915 616 084" ;
+	<http://culturalrace.es/Email> "info@museolazarogaldiano.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/48> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Horario> "Martes a sábados de 9:30 a 15 horas.Domingo y festivos: de 10 a 15 horas.Jueves tarde de 17 a 20 horas (excepto julio y agosto) Cerrado:  todos los lunes, 1 y 6 de enero, 1 y 15 de mayo, 24, 25 y 31 de diciembre." ;
+	<http://culturalrace.es/DescripcionEntidad> "Inaugurado en 1912, su sede es un típico palacete madrileño del último tercio del siglo XIX. El museo posee muebles, cerámicas, vidrios, joyas, tejidos, arte oriental, y hasta 30 000 objetos distintos que a lo largo de la historia han servido para embellecer las casas, palacios y los monumentos de distintas culturas.El museo posee muestras como el Jarrón de Sevres regalo de Napoleón III, la Cocina Valenciana del siglo XVIII compuesta por más de 1500 azulejos de Manises, la Mesa de plata del siglo XVI o la colección de alfombras españolas de los siglos XV al XVII." ;
+	<http://culturalrace.es/Nombre> "Museo Nacional de Artes Decorativas" ;
+	<http://culturalrace.es/Imagen> "Museo Nacional de Artes Decorativas (Madrid) 01.jpg" ;
+	<http://culturalrace.es/Transporte> "Metro: Retiro (línea 2).Bus: 1, 2, 9, 10, 14, 15, 19, 20, 27,  28, 34, 37, 45 51, 52, 74, 146, 203.Cercanías Renfe: Recoletos (líneas C1, C2, C7, C8 Y C10)." ;
+	<http://culturalrace.es/NombreVia> "MONTALBAN" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "12" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.417891279015194" ;
+	<http://culturalrace.es/Longitud> "-3.689754685481908" ;
+	<http://culturalrace.es/Telefono> "915 326 499 / 915 326 845 / 910 505 755 (Reserva actividades infantiles) / 910 505 768 (Biblioteca) / 910 505 763 (Atención a investigadores)" ;
+	<http://culturalrace.es/Email> "mnad@cultura.gob.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/49> <http://culturalrace.es/Nombre> "Museo Nacional de Ciencias Naturales" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "Escuela de industriales de Madrid (ETSIIM) DavidDaguerro 95331.jpg" ;
+	<http://culturalrace.es/Horario> "De martes a viernes de 10 a 17 horas.Sábados, domingos y festivos de 10 a 20 horas.Sábados, domingos y festivos de agosto de 10 a 15 horas.   Cerrado: todos los lunes no festivos, 1 y 6 de enero, 1 de mayo y 25 de diciembre." ;
+	<http://culturalrace.es/Transporte> "Metro: Gregorio Marañón (líneas 7, 10).Bus: 12, 45, 7, 14, 27, 40, 147, 150.Bicimad: Estación 139 (Calle José Gutiérrez Abascal, 2)." ;
+	<http://culturalrace.es/NombreVia> "JOSE GUTIERREZ ABASCAL" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "2" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28006" ;
+	<http://culturalrace.es/Latitud> "40.44042007613476" ;
+	<http://culturalrace.es/Longitud> "-3.690220716379925" ;
+	<http://culturalrace.es/Telefono> "914 111 328" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/52> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Palacio de Cibeles" ;
+	<http://culturalrace.es/Imagen> "Palacio de Comunicaciones - 46.jpg" ;
+	<http://culturalrace.es/Transporte> "Metro: Banco de España (línea 2)Bus: 1 , 2 , 5 , 9 , 10 , 15 , 20 , 27 , 34 , 45 , 51 , 52 , 53 , 74 , 146 , 150Renfe: Recoletos" ;
+	<http://culturalrace.es/NombreVia> "CIBELES" ;
+	<http://culturalrace.es/TipoVia> "PLAZA" ;
+	<http://culturalrace.es/NumVia> "1" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.419011767401095" ;
+	<http://culturalrace.es/Longitud> "-3.692206111679657" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/53> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Palacio de Liria" ;
+	<http://culturalrace.es/DescripcionEntidad> "El PalacioPalacio Palacio de Liria es uno de los losPalaciosPalacios Palacios más importantes importantes de España y el único de Madrid.Entre sus muros alberga alberga unade las colecciones privadas de arte más exclusivas de España,una colección que muy pocos privilegiados han podido ver y disfrutar.250 años años después de su construcción por primera vez abre sus puertas al público.El itinerario incluye estancias como la biblioteca, que contiene más de 18.000 volúmenes y donde se exhiben joyas  como la Biblia de la Casa de Alba, la primera traducida al castellano, una colecciónde cartas de Cristóbal Colón,el último testamento de  Fernando El Católico, la primera edición de 'ElQuijote Quijote' (1605 ).El Palacio de Liria no es un palacio - museo al uso, es especial, es el único único palacio habitado de Madrid.Las visitas se realizarán en grupos, con inicio cada 30 minutos y una duración de 65 minut os.Cada entrada llevará asignada una hora de visita. Una vez dé comienzo la visita, no se podrá acceder al Palacio. Se debe llegar con 10 minutos de antelación." ;
+	<http://culturalrace.es/Imagen> "Palacio de Liria (Madrid) 02.jpg" ;
+	<http://culturalrace.es/Horario> "Horario de visitas De noviembre a febreroLunes de 09:45 a 14 horas.De martes a domingo de 9:45 a 14 horas y de 15:45 a 18:30 horas.De marzo a octubreLunes de 09:45 a 14 horas.De martes a domingo de 9:45 a 14 horas y de 15:45 a 19:30 horas.Horario reducido días 31 diciembre y 5 enero de 9:45 a 13 horas.Horario para grupos gratuito: lunes no festivos a las 9:45 y a las 10:15 horas.Cerrado los días 1 y 6 enero, 24 y 25 diciembre." ;
+	<http://culturalrace.es/NombreVia> "PRINCESA" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "20" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28008" ;
+	<http://culturalrace.es/Latitud> "40.426837593736934" ;
+	<http://culturalrace.es/Longitud> "-3.7126361453494083" ;
+	<http://culturalrace.es/Telefono> "912 302 200 (desde el 19 de septiembre de 2019 de lunes a domingo de 9 a 20 horas, festivos incluidos) / 649 671 643 (solo para Whatsapp)" ;
+	<http://culturalrace.es/Email> "info@palaciodeliria.com / visitas@palaciodeliria.com (información para grupos y eventos privados)" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/54> <http://culturalrace.es/Imagen> "Palacio de los Duques de Santoña (Madrid) 01.jpg" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Palacio de Santoña" ;
+	<http://culturalrace.es/DescripcionEntidad> "Es una construcción del siglo XVI, reformada posteriormente en el siglo XVIII  por el arquitecto Pedro de Ribera, y en el siglo XIX por Antonio Ruiz de Salces." ;
+	<http://culturalrace.es/Transporte> "Metro: Antón Martín (línea 1) Bus: 6, 26, 32, 50, 65" ;
+	<http://culturalrace.es/NombreVia> "HUERTAS" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "13" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28012" ;
+	<http://culturalrace.es/Latitud> "40.413979743685495" ;
+	<http://culturalrace.es/Longitud> "-3.700511154527751" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/55> <http://culturalrace.es/Nombre> "Palacio Real de El Pardo" ;
+	<http://culturalrace.es/DescripcionEntidad> "Recinto en el que se conserva el Palacio, construido sobre el castillo del siglo XV, la Casita del Príncipe, del siglo XVIII y la Quinta del Duque de Arco (Palacete que fue Casa de Labor y sus tierras). Desde 1983 ha sido adecuado para residencia de Jefes de Estado extranjeros en visita oficial." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "El Palacio de El Pardo.JPG" ;
+	<http://culturalrace.es/Horario> "Horario (Palacio y Casa del Príncipe Don Carlos) De octubre a marzo: todos los días de 10 a 18 horas. De abril a septiembre: todos los días de 10 a 20 horas.  Cierre taquillas y acceso a Palacio una hora antes.  Pradera de San Francisco: todos los días de 8 a 21 horas.  Días de cierre: 9 y 10 enero, 1 mayo, 24, 25 y 31 diciembre.  Además de los cierres previstos, puede haber cierres motivados por la celebración de actos oficiales o festividad en el municipio, en estos casos consultar la web o telefónicamente." ;
+	<http://culturalrace.es/Transporte> "Bus: 601 (Madrid - Colonia Mingorrubio)." ;
+	<http://culturalrace.es/NombreVia> "MANUEL ALONSO" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "8" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28048" ;
+	<http://culturalrace.es/Latitud> "40.520522342970146" ;
+	<http://culturalrace.es/Longitud> "-3.7762390614462853" ;
+	<http://culturalrace.es/Telefono> "914 548 700 (Información general)" ;
+	<http://culturalrace.es/Email> "info@patrimonionacional.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/56> <http://culturalrace.es/Nombre> "Palacio Real de Madrid" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "Madrid Palacio Real 079.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "Construido sobre el solar del antiguo Alcázar tras un incendio en 1734. Proyectado por Juvara en 1735 y construido por Sachet de 1738 a 1764 bajo las influencias del clasicismo barroco. A partir de 1770, Sabatini añadió el ala sudeste y realizó la gran escalera. Es de destacar el gran patio que articula el edificio y la fachada principal que aloja el balcón y Escudo Real." ;
+	<http://culturalrace.es/Horario> "Horario De octubre a marzo: de 10 a 18 horas.De abril a septiembre: de 10 a 20 horas.Cierre taquillas y acceso a Palacio una hora antes.Días de cierre: 16, 21, 22, 23 y 24 enero, 1 mayo, 25 diciembre.Además de los cierres previstos, puede haber cierres motivados por la celebración de actos oficiales o festividad en el municipio, en estos casos consultar la web o telefónicamente. Jardines del Campo del Moro De octubre a marzo: de 10 a 18 horas.De abril a septiembre: de 10 a 20 horas." ;
+	<http://culturalrace.es/Transporte> "Metro: Ópera (líneas 2, 5 y Ramal Ópera Norte).Bus: 25, 39.Cercanías: Príncipe Pío.Bicimad: Estación 36 (Plaza de Ramales, 1)." ;
+	<http://culturalrace.es/NombreVia> "BAILEN" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "0" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28013" ;
+	<http://culturalrace.es/Latitud> "40.42075212551193" ;
+	<http://culturalrace.es/Longitud> "-3.712699107286406" ;
+	<http://culturalrace.es/Telefono> "914 548 700 (Información general)" ;
+	<http://culturalrace.es/Email> "info@patrimonionacional.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/71> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Plaza Monumental de Toros de las Ventas" ;
+	<http://culturalrace.es/Imagen> "Plaza de Toros de Las Ventas (Madrid) 04.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "De estilo neomudéjar se terminó de construir en el año 1931. Basada en un proyecto de José Espelius, quien murió antes de la conclusión de las obras, fue terminada por Manuel Muñoz Monasterio. El terreno se presenta en talud, salvado desde la Avenida de los Toreros mediante escalinatas que interrumpen el trazado ajardinado." ;
+	<http://culturalrace.es/Transporte> "Metro: Ventas (líneas 2, 5)Bus: 12, 21, 38, 53, 74, 106, 110, 146, 210." ;
+	<http://culturalrace.es/NombreVia> "ALCALA" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "237" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28028" ;
+	<http://culturalrace.es/Latitud> "40.431580111585106" ;
+	<http://culturalrace.es/Longitud> "-3.6628728693917627" ;
+	<http://culturalrace.es/Telefono> "913 562 200 (ver pestaña más información)" ;
+	<http://culturalrace.es/Email> "comunicacion@plazauno.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/72> <http://culturalrace.es/Nombre> "Puerta del Sol" ;
+	<http://culturalrace.es/DescripcionEntidad> "Toma su nombre de un postigo de la antigua muralla medieval que estaba decorado con un Sol y que se derribó en el siglo XVII, el lugar conservó el nombre. En origen fue un punto exterior de la ciudad, aunque debido al crecimiento de Madrid y a su  situación fue convirtiéndose poco a poco en el centro de la capital. En 1857 ,el Ministerio de Fomento  convoca un concurso quedando aprobada la reforma de Lucio del Valle, Juan Rivera y José Morer, que conservaba la alineación de la antigua Casa de Correos en uno de los lados, mientras que el otro adoptaba una forma semicircular." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "Real Casa de Correos (Madrid) 05b.jpg" ;
+	<http://culturalrace.es/Transporte> "Metro: Sol (líneas 1, 2, 3) Bus: 15, 20, 51, 52, 53" ;
+	<http://culturalrace.es/NombreVia> "PUERTA DEL SOL" ;
+	<http://culturalrace.es/TipoVia> "PLAZA" ;
+	<http://culturalrace.es/NumVia> "1" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28013" ;
+	<http://culturalrace.es/Latitud> "40.416887979993966" ;
+	<http://culturalrace.es/Longitud> "-3.7022740027977377" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/74> <http://culturalrace.es/Nombre> "Real Academia de Jurisprudencia y Legislación" ;
+	<http://culturalrace.es/Imagen> "Real Academia de Jurisprudencia y Legislación (España) 01.jpg" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Horario> "De lunes a jueves  9:30 a 14 y de 17 a 20 horas. Viernes de 9:30 a 14 horas." ;
+	<http://culturalrace.es/Transporte> "Metro: Banco de España (línea 2)Bus: 1, 2, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 46, 51, 52, 53, 74, 146, 150, M2BICIMAD: Estación 29 (calle Marqués de Cubas, 25)" ;
+	<http://culturalrace.es/NombreVia> "MARQUÉS DE CUBAS" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "13" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.41749648159225" ;
+	<http://culturalrace.es/Longitud> "-3.6955027540085243" ;
+	<http://culturalrace.es/Telefono> "915 222 069" ;
+	<http://culturalrace.es/Email> "secretaria@rajyl.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/77> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Real Basílica San Francisco el Grande" ;
+	<http://culturalrace.es/Imagen> "Madrid Real Basílica de San Francisco el Grande 16-03-2010 16-35-14.JPG" ;
+	<http://culturalrace.es/DescripcionEntidad> "Conjunto conventual que sustituyó al monasterio franciscano medieval, construido por Francisco de las Cabezas entre 1761 y 1768, que fue relevado por Antonio Polo y que concluye Francisco Sabatini en 1784 donde se exponen colecciones de pinturas de los siglos XVII al XIX." ;
+	<http://culturalrace.es/Horario> "Museo:  De martes a viernes de 10:30 a 12:30 y de 16 a 18 horasSábados de 10:30 a 12:30 y de 16 a 18 horas (si no se ofician actos religiosos).Julio, agosto y septiembre: de martes a domingo de 10:30 a 12:30 y de 17 a 19 horas." ;
+	<http://culturalrace.es/Transporte> "Metro: La Latina (línea 5) , Puerta de Toledo (línea 5)Bus:  3, 60, 148" ;
+	<http://culturalrace.es/NombreVia> "SAN BUENAVENTURA" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "1" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28005" ;
+	<http://culturalrace.es/Latitud> "40.41084005024222" ;
+	<http://culturalrace.es/Longitud> "-3.714503845728281" ;
+	<http://culturalrace.es/Telefono> "913 653 800" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/78> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Real Colegio Santa Isabel - La Asunción" ;
+	<http://culturalrace.es/Imagen> "Real Monasterio de Santa Isabel (Madrid) 02.jpg" ;
+	<http://culturalrace.es/Transporte> "Metro: Atocha , Antón Martín  Bus: 6 , 19 , 26 , 27 , 32 , 34 , 37 , 41 , 45 , 119 , C  Renfe: Atocha" ;
+	<http://culturalrace.es/NombreVia> "SANTA ISABEL" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "46" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28012" ;
+	<http://culturalrace.es/Latitud> "40.40962511552305" ;
+	<http://culturalrace.es/Longitud> "-3.6965767139076444" ;
+	<http://culturalrace.es/Telefono> "915 273 183 - 915 273 181" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/79> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "Real Fabrica de Tapices de Madrid.jpg" ;
+	<http://culturalrace.es/Nombre> "Real Fábrica de Tapices" ;
+	<http://culturalrace.es/Horario> "Visitas guiadas: Lunes a viernes a las 10, 11, 12 y 13 horas (duración de la visita 45 minutos).Se recomienda realizar una reserva antes de la llegada al museo." ;
+	<http://culturalrace.es/Transporte> "Metro: Menéndez Pelayo (línea 1).Bus: 10, 14, 26, 32, C1, C2, 24, 37, 54, 57, 141.Bicimad: Estación 79 (Avenida de Menéndez Pelayo, 38)." ;
+	<http://culturalrace.es/NombreVia> "FUENTERRABIA" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "2" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.406087329011655" ;
+	<http://culturalrace.es/Longitud> "-3.682515969574079" ;
+	<http://culturalrace.es/Telefono> "914 340 550" ;
+	<http://culturalrace.es/Email> "informacion@realfabricadetapices.com" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/81> <http://culturalrace.es/Nombre> "Real Monasterio de la Encarnación" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "Real Monasterio de la Encarnación (Madrid) 01.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "Edificio construído por Juan Gómez de Mora de 1611 a 1616 como monasterio anejo al Alcázar Real, modelo de lo que se ha dado en llamar barroco madrileño. Cuenta con la reliquia de San Pantaleón." ;
+	<http://culturalrace.es/Horario> "De martes a sábado: de 10 a 14 horas y de 16 a 18:30 horasDomingos y festivos: de 10 a 15 horas. Tardes cerradoCerrado todos los lunes del año Días de cierre: 25 enero, 17 a 20 abril, 1 mayo, 24 y 31 diciembre.  Además de los cierres previstos, puede haber cierres motivados por la celebración de actos oficiales o festividad en el municipio, en estos casos consultar la web o telefónicamente." ;
+	<http://culturalrace.es/Transporte> "Metro:  Ópera (líneas 2, 5 y Ramal Ópera Príncipe Pío), Plaza de España (líneas 3, 10).Bus:  1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 147, 148, C1, C2." ;
+	<http://culturalrace.es/NombreVia> "ENCARNACION" ;
+	<http://culturalrace.es/TipoVia> "PLAZA" ;
+	<http://culturalrace.es/NumVia> "1" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28013" ;
+	<http://culturalrace.es/Latitud> "40.41967800877382" ;
+	<http://culturalrace.es/Longitud> "-3.711567962866152" ;
+	<http://culturalrace.es/Telefono> "914 548 700 (Información general)" ;
+	<http://culturalrace.es/Email> "info@patrimonionacional.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/82> <http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28012" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "48" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Real Monasterio de Santa Isabel" ;
+	<http://culturalrace.es/Imagen> "Real Monasterio de Santa Isabel (Madrid) 02.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "El Real Monasterio de Santa Isabel está situado en Madrid, dentro de la ciudad histórica, en una gran manzana, próxima a Atocha.Santa Isabel agrupa dos fundaciones, un colegio de niñas, establecido por Felipe II, y un convento de clausura de monjas agustinas recoletas, fundado por la esposa de Felipe III, doña Margarita de Austria.La arquitectura de la iglesia se debe a Gómez de Mora, de mediados del siglo XVIII. En la clausura se conservan numerosas obras pictóricas de los siglos XVII y XVIII." ;
+	<http://culturalrace.es/Horario> "El acceso al templo sólo es posible en horario de culto." ;
+	<http://culturalrace.es/Transporte> "Metro: Estación del Arte (Atocha) (línea 1).Bus: 6, 19, 26, 27, 32, 34, 45, 59, 85, 86, C1, E1.Renfe: Atocha." ;
+	<http://culturalrace.es/NombreVia> "SANTA ISABEL" ;
+	<http://culturalrace.es/Latitud> "40.41213027498252" ;
+	<http://culturalrace.es/Longitud> "-3.6994547941964946" ;
+	<http://culturalrace.es/Telefono> "914 548 700 (Información general)" ;
+	<http://culturalrace.es/Email> "info@patrimonionacional.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/83> <http://culturalrace.es/Nombre> "Real Oratorio del Caballero de Gracia" ;
+	<http://culturalrace.es/Imagen> "Real Oratorio del Caballero de Gracia (Madrid) 02.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "Construído por Juan de Villanueva entre 1786 y 1795 de planta basilical y en un sentir muy cercano al de las iglesias venecianas de Palladio. La fachada es de Custodio Moreno.Entre 1976 y 1981 el arquitecto Fernando Chueca Goitia emprendió un proyecto de restauración  con polémicos resultados. Los trabajos se interrumpieron durante largos años; convocándose finalmente un concurso de arquitectura que fue ganado en 1987 por Javier Feduchi Benlliure." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Transporte> "Metro: Sevilla (línea 2)Bus: 3, 46, M2, 1, 2, 74, 146" ;
+	<http://culturalrace.es/NombreVia> "CABALLERO DE GRACIA" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "5" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28013" ;
+	<http://culturalrace.es/Latitud> "40.41953675995833" ;
+	<http://culturalrace.es/Longitud> "-3.700769178078419" ;
+	<http://culturalrace.es/Telefono> "915 326 937" ;
+	<http://culturalrace.es/Email> "info@caballerodegracia.org / info.caballerodegracia@archimadrid.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/85> <http://culturalrace.es/Nombre> "Senado de España" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "Senado fachada Madrid.jpg" ;
+	<http://culturalrace.es/Transporte> "Metro: Plaza España (líneas 3, 10)Bus: 25, 39, 46, 68, 69, 74, 75, 138, 148, C2, 3" ;
+	<http://culturalrace.es/NombreVia> "BAILEN" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "3" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28013" ;
+	<http://culturalrace.es/Latitud> "40.42145565624762" ;
+	<http://culturalrace.es/Longitud> "-3.712565078821235" ;
+	<http://culturalrace.es/Telefono> "900 103 038 / 915 381 000" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/87> <http://culturalrace.es/Imagen> "Templo de Debod Madrid.JPG" ;
+	<http://culturalrace.es/DescripcionEntidad> "Templo egipcio dedicado a Amón de Debod y a Isis, construido entre 185 AC y el siglo I de la Era. Fue donado por Egipto a España en 1968, en agradecimiento por la ayuda en el salvamento de los templos de Abu Simbel. Egyptian temple dedicated to Amun of Debod and Isis. It was built between 185 BC and the 1st century. It was donated by Egypt to Spain in 1968 for its help in the rescue of the temples of Abu Simbel." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Templo de Debod" ;
+	<http://culturalrace.es/Horario> "Martes a domingos y festivos, de 10 a 20 horas / Tuesday to Sundays and holidays, from 10 a.m. to 8 p.m.  Cerrado los lunes y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre./ Closed Mondays and January 1 and 6, May 1, December 24, 25 and 31 Último pase de visita 30 minutos antes del cierre / Last visit pass 30 minutes before closing El horario y la apertura de salas pueden sufrir modificaciones. Ppor favor, confírmelo en el teléfono de información del museo./ The schedule  is subjects to change. Please, confirm it in the information telephone of the museum." ;
+	<http://culturalrace.es/Transporte> "Metro: Plaza de España (líneas 3 y 10) y Ventura Rodríguez (línea 3) Bus: 1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 148, C1 y C2 Renfe: Príncipe Pío  Bus turístico: Ruta 1. PARADA 10 - Templo de Debod Otras formas de acceso: Aparcamiento de coches: dentro del Área de Estacionamiento Regulado de la ciudad de Madrid. BICIMAD (Servicio público de bicicletas de la ciudad de Madrid): Estación 115 (calle Evaristo San Miguel s/n.,entre Paseo Pintor Rosales y calle Ferraz)" ;
+	<http://culturalrace.es/NombreVia> "FERRAZ" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "1" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28008" ;
+	<http://culturalrace.es/Latitud> "40.42425096551599" ;
+	<http://culturalrace.es/Longitud> "-3.716531855540272" ;
+	<http://culturalrace.es/Telefono> "913 667 415 (Museo de San Isidro / Templo de Debod)" ;
+	<http://culturalrace.es/Email> "templodebod@madrid.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/88> <http://culturalrace.es/Nombre> "Tribunal de Cuentas" ;
+	<http://culturalrace.es/Imagen> "Tribunal de Cuentas.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "Supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado, así como del Sector Público, sin perjuicio de su propia jurisdicción." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Transporte> "Metro: Manuel Becerra (líneas 2 y 6)Bus: 1, 12, 38, 43, 48, 56, 74, 110, 210, C1, C2" ;
+	<http://culturalrace.es/NombreVia> "JOSE ORTEGA Y GASSET" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "100" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28006" ;
+	<http://culturalrace.es/Latitud> "40.42952490187533" ;
+	<http://culturalrace.es/Longitud> "-3.670881135626959" ;
+	<http://culturalrace.es/Telefono> "914 478 701" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/89> <http://culturalrace.es/Nombre> "Tribunal Supremo" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "TRIBUNAL SUPREMO DE ESPAÑA.jpg" ;
+	<http://culturalrace.es/Transporte> "Metro: Colón (línea 4)Bus: 5, 14, 21 , 27, 37, 45, 53, 150 Cercanías: RecoletosBICIMAD:Estación 10 (calle Marqués de la Ensenada, 16)Estación 26 (Plaza Salesas, 7)" ;
+	<http://culturalrace.es/NombreVia> "VILLA DE PARIS" ;
+	<http://culturalrace.es/TipoVia> "PLAZA" ;
+	<http://culturalrace.es/NumVia> "0" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28004" ;
+	<http://culturalrace.es/Latitud> "40.4247497561406" ;
+	<http://culturalrace.es/Longitud> "-3.6933000719659024" ;
+	<http://culturalrace.es/Telefono> "913 971 245 / 913 973 230 / 913 971 004" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+
+<http://culturalrace.es/4847190> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Casa Museo Lope de Vega" ;
+	<http://culturalrace.es/Imagen> "Casa-Museo de Lope de Vega (Madrid) 01.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "'Mi casilla, mi quietud, mi g&amp;uuml;ertecillo y estudio'. Así define su casa Félix Lope de Vega (1562-1635) en una carta dirigida a un amigo. Situada en pleno centro histórico, en el Barrio de las Letras, la Casa Museo Lope de Vega se ubica en el edificio donde el escritor vivió sus últimos 25 años. La recreación de ambientes, cuyo objetivo es que se respire la presencia de Lope, evoca la vida cotidiana del Siglo de Oro y nos acerca a su intimidad. El equipamiento de la casa incorpora obras de arte, mobiliario, enseres y ediciones bibliográficas vinculadas al literato y su tiempo. Visitas Guiadas El acceso al museo se hace mediante visitas guiadas en grupo (máximo 15 personas). Imprescindible reservar con antelación, llamando al teléfono 914 299 216 o escribiendo un correo electrónico a casamuseolopedevega@madrid.org.Las visitas comienzan cada media hora y tienen una duración aproximada de 35 minutos (última visita a las 17 horas).También se realizan visitas en inglés y francés." ;
+	<http://culturalrace.es/Horario> "De martes a domingo de 10 a 18 horas (último pase a las 17 horas) Cerrado los lunes, días 1 y 6 de enero, 1 de mayo, 9 de noviembre y 24, 25 y 31 de diciembre." ;
+	<http://culturalrace.es/Transporte> "Metro: Antón Martín (línea 1).Bus: M1Bicimad:Estación 27 (calle Jesús)Estación 52 (Plaza de Santa Ana)Cercanías Renfe: Sol (líneas C3 y C4)" ;
+	<http://culturalrace.es/NombreVia> "CERVANTES" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "11" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.414358466555235" ;
+	<http://culturalrace.es/Longitud> "-3.6974741545860015" ;
+	<http://culturalrace.es/Telefono> "914 299 216" ;
+	<http://culturalrace.es/Email> "casamuseolopedevega@madrid.org" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+
+<http://culturalrace.es/2064> <http://culturalrace.es/Nombre> "Casón del Buen Retiro" ;
+	<http://culturalrace.es/Imagen> "Cason del Buen Retiro-Front side.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "Edificio que forma parte del Museo Nacional del Prado, donde pueden consultarse fondos de la Biblioteca, del Archivo y del Servicio de Documentación de la colección del Museo y de otras fuentes relativas a la historia del arte." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Horario> "Mañanas De lunes a jueves, de 9 a 15 horas (Servicio de libros y otros materiales hasta las 14:30 horas)Viernes, de 9 a 14:30 horas (Servicio de libros y otros materiales hasta las 14 h) Tardes Lunes y miércoles, de 15 a 18 horas (Servicio de libros y otros materiales hasta las 17:30 horas) Horario de verano  Desde el 16 de junio al 15 de septiembre, de lunes a viernes, de 9 a 14:30 horas" ;
+	<http://culturalrace.es/Transporte> "Metro: Estación del Arte (Atocha) (línea 1)Bus: 19Renfe: AtochaBicimad: Estación 65 (calle Antonio Maura, 15)" ;
+	<http://culturalrace.es/NombreVia> "ALFONSO XII" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "28" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.415263749471535" ;
+	<http://culturalrace.es/Longitud> "-3.689232811717636" ;
+	<http://culturalrace.es/Telefono> "913 302 821" ;
+	<http://culturalrace.es/Email> "biblioteca@museodelprado.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+
+
+<http://culturalrace.es/5873478> <http://culturalrace.es/Nombre> "Museo ABC" ;
+	<http://culturalrace.es/Imagen> "Museo ABC (Madrid) 01.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "Centro de arte, dibujo e ilustración." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Horario> "De martes a sábado de 11 a 20 horas.Domingos de 10 a 14 horas. Lunes cerrado. Durante 2019 el Museo ABC permanecerá cerrado los días:1 y 6 de enero.1 de mayo.24, 25 y 31 de diciembre." ;
+	<http://culturalrace.es/Transporte> "Metro: San Bernardo (líneas 2, 4), Noviciado (línea 2), Ventura Rodríguez (línea 3), Plaza de España (líneas 3, 10) Bus: M2.Bicimad: Estación 13 (calle Conde Duque 22)." ;
+	<http://culturalrace.es/NombreVia> "AMANIEL" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "29" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28015" ;
+	<http://culturalrace.es/Latitud> "40.42741121610518" ;
+	<http://culturalrace.es/Longitud> "-3.709539260414957" ;
+	<http://culturalrace.es/Telefono> "917 588 379" ;
+	<http://culturalrace.es/Email> "info_museo@abc.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+
+<http://culturalrace.es/2050> <http://culturalrace.es/DescripcionEntidad> "Fundado en 1867, el MAN se inauguró en 1895 en su actual sede, en el Palacio de Biblioteca y Museos, edificio proyectado por Francisco Jareño y terminado por Antonio Ruiz de Salces." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Museo Arqueológico Nacional" ;
+	<http://culturalrace.es/Imagen> "Museo Arqueológico Nacional de España 01.jpg" ;
+	<http://culturalrace.es/Horario> "De martes a sábados de 9:30 a 20 horas.Domingos y festivos de 9:30 a 15 horas. Cerrado Todos los lunes del año.1 y 6 de enero, 1 de mayo, 9 de noviembre y 24, 25 y 31 de diciembre. Horario de cierre de las taquillas: 15 minutos antes del cierre del Museo. Días festivos 2019. Horario 9.30 a 15 horas: 18 y 19 de abril; 2 y 15 de mayo; 15 de agosto; 12 de octubre; 1 y 9 de noviembre; 6 y 8 de diciembre." ;
+	<http://culturalrace.es/Transporte> "Metro: Serrano (línea 4).Bus: 1, 9, 19, 51, 74, 5, 14, 27, 45, 53, 150.Cercanías Renfe: Recoletos (línea C1, C2, C7, C-10 y Regional).Bicimad; Estación 95 (calle Claudio Coello 109)." ;
+	<http://culturalrace.es/NombreVia> "SERRANO" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "13" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28001" ;
+	<http://culturalrace.es/Latitud> "40.42327763947072" ;
+	<http://culturalrace.es/Longitud> "-3.688418705931963" ;
+	<http://culturalrace.es/Telefono> "915 777 912" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+<http://culturalrace.es/2072> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "Museo Casa de la Moneda.jpg" ;
+	<http://culturalrace.es/Nombre> "Museo Casa de la Moneda" ;
+	<http://culturalrace.es/Horario> "De martes a viernes ininterrumpidamente de 10 a 17:30 horas. Sábados, domingos y festivos de 10 a 14 horas.Cerrado los lunes (incluido festivos), y los días 1 y 6 de enero; 19 de marzo; 1 de mayo;  24, 25 y 31 de diciembre." ;
+	<http://culturalrace.es/Transporte> "Metro: O&amp;acute;Donnell (línea 6).Bus: 2, 30, 56, 71, 143, 156, E4, C2, 28, 203, E2, E3.Bicimad: Estación 101 (calle Jorge Juan, 131)." ;
+	<http://culturalrace.es/NombreVia> "DOCTOR ESQUERDO" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "36" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28028" ;
+	<http://culturalrace.es/Latitud> "40.42259797372905" ;
+	<http://culturalrace.es/Longitud> "-3.6691502061733674" ;
+	<http://culturalrace.es/Telefono> "915 666 544" ;
+	<http://culturalrace.es/Email> "museo@fnmt.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+<http://culturalrace.es/4112> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Museo Cerralbo" ;
+	<http://culturalrace.es/Imagen> "Palacio del Marqués de Cerralbo (Madrid) 01.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "Este Palacio, construido entre 1883 y 1893, fue concebido como vivienda y como museo para sede de las obras de arte reunidas por los Marqueses de Cerralbo y sus hijos, los Marqueses de Villa Huerta, durante los numerosos viajes que realizaron por España y Europa." ;
+	<http://culturalrace.es/Horario> "De martes a sábado de 9:30 a 15 horas.Jueves, apertura semanal extraordinaria, de 17 a 20 horas, excepto festivos.Domingos y festivos de 10 a 15 horas.Cerrado: todos los lunes, 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre, una fiesta local (9 noviembre para 2019)." ;
+	<http://culturalrace.es/Transporte> "Metro: Plaza de España (líneas 3, 10), Príncipe Pío (líneas 6 y 10)Bus: 74, 138Renfe: Príncipe Pio (líneas C1, C7 Y C10)" ;
+	<http://culturalrace.es/NombreVia> "VENTURA RODRIGUEZ" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "17" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28008" ;
+	<http://culturalrace.es/Latitud> "40.42376732078657" ;
+	<http://culturalrace.es/Longitud> "-3.7146170388153497" ;
+	<http://culturalrace.es/Telefono> "915 473 646 / 915 473 647" ;
+	<http://culturalrace.es/Email> "museo.cerralbo@cultura.gob.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+
+
+<http://culturalrace.es/2074> <http://culturalrace.es/Imagen> "Museo Geominero - main hall - Madrid Spain 01.jpg" ;
+	<http://culturalrace.es/Nombre> "Museo Geominero" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/DescripcionEntidad> "Construcción típica de la arquitectura en hierro y cristal de principios del siglo XX que alberga colecciones de minerales, rocas y fósiles procedentes de todas las regiones españolas y de antiguos territorios coloniales, así como de yacimientos significados del registro mundial. Objetivos del museo: conservar, investigar y difundir el patrimonio geológico, paleontológico y mineralógico" ;
+	<http://culturalrace.es/Horario> "De lunes a domingo y festivos de 9 a 14 horasCerrado los días 1 y 6 de enero y 24, 25 y 31 de diciembre" ;
+	<http://culturalrace.es/Transporte> "Metro: Ríos Rosas (línea 1) y Alonso Cano (línea 7)Bus: 3, 5, 12, 37, 45, 149Bicimad estación 130: calle Santa Engracia, 127" ;
+	<http://culturalrace.es/NombreVia> "RIOS ROSAS" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "23" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28003" ;
+	<http://culturalrace.es/Latitud> "40.442047952073665" ;
+	<http://culturalrace.es/Longitud> "-3.699670468881422" ;
+	<http://culturalrace.es/Telefono> "913 495 759" ;
+	<http://culturalrace.es/Email> "m.geominero@igme.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+<http://culturalrace.es/2075> <http://culturalrace.es/Imagen> "Museo de la Escuela de Minas de Madrid.jpg" ;
+	<http://culturalrace.es/Nombre> "Museo Histórico Minero Don Felipe de Borbón y Grecia" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/DescripcionEntidad> "Ubicado en la Escuela Técnica Superior de Ingenieros de Minas de Madrid" ;
+	<http://culturalrace.es/Horario> "De lunes a viernes, de 9 a 14 horas." ;
+	<http://culturalrace.es/Transporte> "Metro: Ríos Rosas (línea 1)Bus: 3, 12, 37, 45, 149Bicimad estación 130: calle Santa Engracia, 127" ;
+	<http://culturalrace.es/NombreVia> "RIOS ROSAS" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "21" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28003" ;
+	<http://culturalrace.es/Latitud> "40.44207963042673" ;
+	<http://culturalrace.es/Longitud> "-3.7003900716027776" ;
+	<http://culturalrace.es/Telefono> "913 367 017" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+<http://culturalrace.es/18176> <http://culturalrace.es/Imagen> "Museo Quijote.JPG" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Museo ICO" ;
+	<http://culturalrace.es/Horario> "De martes a sábados: de 11 a 20 horas  Domingos y festivos: de 10 a 14 horas  Cerrado: Todos los lunes del año (incluidos festivos)" ;
+	<http://culturalrace.es/Transporte> "Metro: Banco de España (línea 2) , Sevilla (línea 2)Bus: 3, 5, 9, 15, 20, 46, 51, 52, 53, 150, M1, M2BICIMAD estación 29: calle Marqués de Cubas, 25" ;
+	<http://culturalrace.es/NombreVia> "ZORRILLA" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "3" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.41675330128869" ;
+	<http://culturalrace.es/Longitud> "-3.6977346235068373" ;
+	<http://culturalrace.es/Telefono> "914 201 242" ;
+	<http://culturalrace.es/Email> "museoico@ico.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+<http://culturalrace.es/2053> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "Museo Lázaro Galdiano (Madrid) 05.jpg" ;
+	<http://culturalrace.es/Nombre> "Museo Lázaro Galdiano" ;
+	<http://culturalrace.es/Horario> "Martes a sábados de 10 a 16:30 horas.Domingos de 10 a 15 horas.Cerrado todos los lunes, 1 y 6 de enero, 18 y 19 de abril, 1 de mayo, 15 de agosto, 1 de noviembre y 9, 24, 25 y 31 de diciembre de 2019.Grupos y visitas guiadas consultar." ;
+	<http://culturalrace.es/Transporte> "Metro: Gregorio Marañón (línea 7 y 10).Bus: 12, 16, 9, 19, 51, 61" ;
+	<http://culturalrace.es/NombreVia> "SERRANO" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "122" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28006" ;
+	<http://culturalrace.es/Latitud> "40.436750328725985" ;
+	<http://culturalrace.es/Longitud> "-3.6861980129207894" ;
+	<http://culturalrace.es/Telefono> "915 616 084" ;
+	<http://culturalrace.es/Email> "info@museolazarogaldiano.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/5349304> <http://culturalrace.es/Nombre> "Museo Nacional Centro de Arte Reina Sofía (MNCARS)" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "MNCARS 05.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "Edificio Sabatini: calle Santa Isabel 52. Edificio Nouvel (ampliación): ronda de Atocha, esquina a plaza del Emperador Carlos V. Espacios en el parque del Retiro: Palacio de Velázquez y Palacio de Cristal." ;
+	<http://culturalrace.es/Horario> "De lunes a sábado de 10 a 21 horas y domingos de 10 a 19 horas.Martes cerrado (incluso festivos).Cerrado 1 y 6 enero, 1 y 15 de mayo, 9 de noviembre, 24, 25 y 31 de diciembre." ;
+	<http://culturalrace.es/Transporte> "Metro: Estación del Arte (Atocha) (línea 1)Bus: 6, 26, 32, E1, 27, 34, C1, 59, 85, C2, 10, 14, 37, 45, 36, 41, 119Cercanías Renfe: Atocha (líneas C1, C2, C3, C4, C5, C7, C8, C10)Bicimad: Estación 50 (calle Santa Isabel, 57)Estación 51 (Ronda de Atocha, 2)" ;
+	<http://culturalrace.es/NombreVia> "SANTA ISABEL" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "52" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28012" ;
+	<http://culturalrace.es/Latitud> "40.40854131574014" ;
+	<http://culturalrace.es/Longitud> "-3.6940316511856017" ;
+	<http://culturalrace.es/Telefono> "917 741 000" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+<http://culturalrace.es/2099> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Museo Nacional Thyssen-Bornemisza" ;
+	<http://culturalrace.es/DescripcionEntidad> "El Palacio donde se ubica la colección fue el antiguo palacio del duque de Villahermosa. Edificación neoclásica. Posteriormente se adapta como entidad bancaria perdiento sus espacios interiores. Más tarde, pasó a formar parte de los edificios del Museo del Prado. Desde principios de los 90 alberga la Colección Thyssen. El museo ofrece un recorrido por la historia de la pintura europea desde sus inicios en el siglo XIII, hasta finales del siglo XX." ;
+	<http://culturalrace.es/Imagen> "Museo Thyssen-Bornemisza (Madrid) 07.jpg" ;
+	<http://culturalrace.es/Horario> "Colecciones permanentes:  lunes de 12 a 16 horas (acceso gratuito gracias al patrocinio de MasterCard). Martes a domingos de 10 a 19 horas.  Exposiciones temporales: consultar horario específico en Museo.Último acceso 1 hora antes del cierre. El desalojo de todas las salas tendrá lugar 5 minutos antes del cierre. Avisos y aperturas extraordinarias: los días 1 de enero, 1 de mayo y 25 de diciembre el Museo permanecerá cerrado. El 24 y el 31 de diciembre el horario de apertura del Museo será de 10 a 15 horas." ;
+	<http://culturalrace.es/Transporte> "Metro: Banco de España (línea 2)Bus: 10, 14, 27, 34, 37, 45Cercanías Renfe: Recoletos" ;
+	<http://culturalrace.es/NombreVia> "PRADO" ;
+	<http://culturalrace.es/TipoVia> "PASEO" ;
+	<http://culturalrace.es/NumVia> "8" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.41600553697803" ;
+	<http://culturalrace.es/Longitud> "-3.694744831131079" ;
+	<http://culturalrace.es/Telefono> "917 911 370" ;
+	<http://culturalrace.es/Email> "cav@museothyssen.org" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/2057> <http://culturalrace.es/Imagen> "Sala Orígenes del Museo (27530162552).jpg" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Museo Nacional de Antropología" ;
+	<http://culturalrace.es/DescripcionEntidad> "El Museo está instalado en el edificio de estilo clasicista construido por el Marqués de Cubas en 1875 por encargo del Doctor González Velasco, fundador de la institución." ;
+	<http://culturalrace.es/Horario> "De martes a sábado de 9:30 a 20 horas.Domingos y festivos: de 10 a 15 horas.Cerrado todos los lunes del año y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y un festivo local." ;
+	<http://culturalrace.es/Transporte> "Metro: Estación del Arte (Atocha) (línea 1)Bus: 19,  C1, 10, 14, 26, 32, 37, 103, SE76, 86, C2, 203Cercanías Renfe: Atocha (líneas C1, C2, C3, C4, C5, C7, C8, C10)Bicimad: Estación 80 a y b (Paseo Infanta Isabel, 3)" ;
+	<http://culturalrace.es/NombreVia> "ALFONSO XII" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "68" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.407887537677716" ;
+	<http://culturalrace.es/Longitud> "-3.688862923660605" ;
+	<http://culturalrace.es/Telefono> "915 306 418 / 915 395 995" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+<http://culturalrace.es/2055> <http://culturalrace.es/Nombre> "Museo Nacional de Artes Decorativas" ;
+	<http://culturalrace.es/Imagen> "Museo Nacional de Artes Decorativas (Madrid) 01.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "Inaugurado en 1912, su sede es un típico palacete madrileño del último tercio del siglo XIX. El museo posee muebles, cerámicas, vidrios, joyas, tejidos, arte oriental, y hasta 30 000 objetos distintos que a lo largo de la historia han servido para embellecer las casas, palacios y los monumentos de distintas culturas.El museo posee muestras como el Jarrón de Sevres regalo de Napoleón III, la Cocina Valenciana del siglo XVIII compuesta por más de 1500 azulejos de Manises, la Mesa de plata del siglo XVI o la colección de alfombras españolas de los siglos XV al XVII." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Horario> "Martes a sábados de 9:30 a 15 horas.Domingo y festivos: de 10 a 15 horas.Jueves tarde de 17 a 20 horas (excepto julio y agosto) Cerrado:  todos los lunes, 1 y 6 de enero, 1 y 15 de mayo, 24, 25 y 31 de diciembre." ;
+	<http://culturalrace.es/Transporte> "Metro: Retiro (línea 2).Bus: 1, 2, 9, 10, 14, 15, 19, 20, 27,  28, 34, 37, 45 51, 52, 74, 146, 203.Cercanías Renfe: Recoletos (líneas C1, C2, C7, C8 Y C10)." ;
+	<http://culturalrace.es/NombreVia> "MONTALBAN" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "12" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.417891279015194" ;
+	<http://culturalrace.es/Longitud> "-3.689754685481908" ;
+	<http://culturalrace.es/Telefono> "915 326 499 / 915 326 845 / 910 505 755 (Reserva actividades infantiles) / 910 505 768 (Biblioteca) / 910 505 763 (Atención a investigadores)" ;
+	<http://culturalrace.es/Email> "mnad@cultura.gob.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/2056> <http://culturalrace.es/Horario> "De martes a viernes de 10 a 17 horas.Sábados, domingos y festivos de 10 a 20 horas.Sábados, domingos y festivos de agosto de 10 a 15 horas.   Cerrado: todos los lunes no festivos, 1 y 6 de enero, 1 de mayo y 25 de diciembre." ;
+	<http://culturalrace.es/NombreVia> "JOSE GUTIERREZ ABASCAL" ;
+	<http://culturalrace.es/Imagen> "Palacio de las Artes e Industrias (Madrid) 01.jpg" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Transporte> "Metro: Gregorio Marañón (líneas 7, 10).Bus: 12, 45, 7, 14, 27, 40, 147, 150.Bicimad: Estación 139 (Calle José Gutiérrez Abascal, 2)." ;
+	<http://culturalrace.es/Nombre> "Museo Nacional de Ciencias Naturales" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "2" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28006" ;
+	<http://culturalrace.es/Latitud> "40.44042007613476" ;
+	<http://culturalrace.es/Longitud> "-3.690220716379925" ;
+	<http://culturalrace.es/Telefono> "914 111 328" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/2076> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Museo Naval" ;
+	<http://culturalrace.es/Imagen> "Emblem of the Spanish Naval Museum.svg" ;
+	<http://culturalrace.es/DescripcionEntidad> "Temática: historia de la navegación española" ;
+	<http://culturalrace.es/Horario> "De martes a domingo de 10 a 19 horasCerrado los lunes y los festivos 1 y 6 de enero y 24, 25 y 31 de diciembreAgosto, martes a domingo de 10 a 15 horasPor motivos de seguridad el desalojo de las salas se realiza 15 minutos antes del cierre." ;
+	<http://culturalrace.es/Transporte> "Metro: Banco de España (línea 2)Bus: 14, 27, 34, 37, 45, 203Bicimad:Estación 65: Calle Antonio Maura, 15  Estación 86: Plaza de Cibeles" ;
+	<http://culturalrace.es/NombreVia> "PRADO" ;
+	<http://culturalrace.es/TipoVia> "PASEO" ;
+	<http://culturalrace.es/NumVia> "5" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.41751289873052" ;
+	<http://culturalrace.es/Longitud> "-3.692768317427539" ;
+	<http://culturalrace.es/Telefono> "915 238 516 (martes y viernes de 9 a 14 horas)" ;
+	<http://culturalrace.es/Email> "ohculturanaval@fn.mde.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+<http://culturalrace.es/2085> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Museo Postal y Telegráfico" ;
+	<http://culturalrace.es/DescripcionEntidad> "Recorrido temático y cronológico por la evolución de los medios de comunicación y colecciones filatélicas de gran valor histórico, temáticas y por países." ;
+	<http://culturalrace.es/Horario> "Museo: de lunes a viernes de 9 a 14 y de 16 a 18 horasBiblioteca: de lunes a viernes de 9 a 14" ;
+	<http://culturalrace.es/Imagen> "Día del Patrimonio - Representación del Correo Antinuo.JPG" ;
+	<http://culturalrace.es/Transporte> "Bus: 161" ;
+	<http://culturalrace.es/NombreVia> "TAPIA DE CASARIEGO" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "6" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28023" ;
+	<http://culturalrace.es/Latitud> "40.467706026917405" ;
+	<http://culturalrace.es/Longitud> "-3.7690721403206724" ;
+	<http://culturalrace.es/Telefono> "917 400 668 (Museo) / 917 400 664 (Biblioteca)" ;
+	<http://culturalrace.es/Email> "museopostaltelegrafico@correos.com" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+<http://culturalrace.es/4997114> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Museo Sorolla" ;
+	<http://culturalrace.es/Imagen> "Sala I in Museo Sorolla Madrid on 20161106.jpg" ;
+	<http://culturalrace.es/Horario> "De martes a sábado: de 9:30 a 20 horas Domingos y festivos: de 10 a 15 horasCerrado: todos los lunes del año, 1 de enero, 6 de enero, 1 de mayo, 9 noviembre, 24, 25 y 31 de diciembre" ;
+	<http://culturalrace.es/Transporte> "Metro: Rubén Darío (línea 5), Gregorio Marañón (líneas 7, 10), Iglesia (línea 1)Bus: 5, 7, 14, 16, 27, 40, 45, 61, 147 y 150Bicimad: Estación 125 (calle Fernández de la Hoz, 29)Estación 141 (Paseo Castellana, 43)" ;
+	<http://culturalrace.es/NombreVia> "GENERAL MARTINEZ CAMPOS" ;
+	<http://culturalrace.es/TipoVia> "PASEO" ;
+	<http://culturalrace.es/NumVia> "37" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28010" ;
+	<http://culturalrace.es/Latitud> "40.43557863874977" ;
+	<http://culturalrace.es/Longitud> "-3.6923288211390055" ;
+	<http://culturalrace.es/Telefono> "913 101 584" ;
+	<http://culturalrace.es/Email> "museo.sorolla@cultura.gob.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+
+<http://culturalrace.es/2068> <http://culturalrace.es/Imagen> "CASA C-207 Azor, Museo del Aire.jpg" ;
+	<http://culturalrace.es/Nombre> "Museo de Aeronáutica y Astronáutica" ;
+	<http://culturalrace.es/DescripcionEntidad> "Emplazado en Cuatro Vientos desde 1966, tiene como objetivo narrar la historia y el desarrollo científico - técnico de la Aeronáutica y Astronáutica españolas. Ocupa una superficie de 66.938 metros cuadrados, repartidos en una zona de exposición exterior y siete hangares que albergan más de 140 aeronaves, así como uniformes, condecoraciones, motores, maquetas y otros fondos relacionados con la aviación." ;
+	<http://culturalrace.es/Horario> "De martes a domingo de 10 a 14 horasCerrado los días 1 y 6 de enero, Jueves y Viernes Santos, 12 de octubre, 10 de diciembre (Patrona de Aviación), 24, 25 y 31 de diciembre y días establecidos en calendario anual." ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/NombreVia> "A-5" ;
+	<http://culturalrace.es/TipoVia> "AUTOVIA" ;
+	<http://culturalrace.es/NumVia> "10.700" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28024" ;
+	<http://culturalrace.es/Latitud> "40.3733013700739" ;
+	<http://culturalrace.es/Longitud> "-3.798200034372686" ;
+	<http://culturalrace.es/Telefono> "915 091 690 (centralita)" ;
+	<http://culturalrace.es/Email> "museodelaire@ea.mde.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+<http://culturalrace.es/2091> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Horario> "Horario: De martes a sábado, de 9:30 a 15 horas.Jueves, apertura continuada de 9:30 a 19 horas.Domingos y festivos de 10 a 15 horas. Cerrado: todos los lunes del año, días 1 y 6 de enero, 1 y 15 de mayo, 24, 25 y 31 de diciembre." ;
+	<http://culturalrace.es/Nombre> "Museo de América" ;
+	<http://culturalrace.es/Transporte> "Metro: Moncloa (líneas 3, 6), Islas Filipinas (línea 7).Autobús: 1, 2, 16, 44, 46, 61, 82, 113, 132, 133 y Circular. Aparcamiento gratuito durante los fines de semana y festivos." ;
+	<http://culturalrace.es/Imagen> "Museo de América de Madrid - 01.jpg" ;
+	<http://culturalrace.es/NombreVia> "REYES CATOLICOS" ;
+	<http://culturalrace.es/TipoVia> "AVENIDA" ;
+	<http://culturalrace.es/NumVia> "6" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28040" ;
+	<http://culturalrace.es/Latitud> "40.43792950973577" ;
+	<http://culturalrace.es/Longitud> "-3.72186494128936" ;
+	<http://culturalrace.es/Telefono> "915 492 641 / 915 439 437" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+<http://culturalrace.es/83922> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Museo de Arte Contemporáneo de Madrid" ;
+	<http://culturalrace.es/Horario> "De martes a sábado:mañanas de 10 a 14 horastardes de 17:30 a 21 horas Domingos y festivos de 10:30 a 14 horas Horario de Verano del 15 de junio al 15 de septiembre. De martes a sábado:mañanas de 10:00 a 13:30 horastardes de 17:30 a 20:00 horasDomingos y festivos de 10:30 a 13:30 horas Cerrado Todos los lunes, 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre.Las salas se desalojan 15 minutos antes del cierre." ;
+	<http://culturalrace.es/Imagen> "Madrid en 12 nuevas miradas 19.jpg" ;
+	<http://culturalrace.es/Transporte> "Metro: Ventura Rodríguez, Plaza de España, San Bernardo, Noviciado. Bus: 1, 2, 21, 44, 74, 133, C, M2 Bicimad: Estación 13, Calle Conde Duque n&amp;ordm;22. Parking:  Plaza de España" ;
+	<http://culturalrace.es/NombreVia> "CONDE DUQUE" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "9" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28015" ;
+	<http://culturalrace.es/Latitud> "40.42737760210632" ;
+	<http://culturalrace.es/Longitud> "-3.7106116887809817" ;
+	<http://culturalrace.es/Telefono> "915 885 921" ;
+	<http://culturalrace.es/Email> "mmacmdifusion@madrid.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+
+<http://culturalrace.es/5727435> <http://culturalrace.es/NombreVia> "BOADA" ;
+	<http://culturalrace.es/Horario> "Abierto todos los días de 09'30 a 14 horas, excepto 25 de diciembre, 1 enero, 6 de enero y 1 de mayo. Visitas Guiadas Se pueden concertar en el teléfono: 914 786 572 (Museo)Más información: 915 889 907 - 915 888 240" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Transporte> "Metro: L1- Buenos Aires Bus: 141 y 143" ;
+	<http://culturalrace.es/Nombre> "Museo de Bomberos" ;
+	<http://culturalrace.es/Imagen> "Zaragoza - Museo Bomberos - Turismo C-1 Citroën (1966) " ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "4" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28038" ;
+	<http://culturalrace.es/Latitud> "40.39453171263195" ;
+	<http://culturalrace.es/Longitud> "-3.6539313207612207" ;
+	<http://culturalrace.es/Telefono> "91 478 65 72 (Museo)," ;
+	<http://culturalrace.es/Email> "jcbomberos@madrid.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+
+
+<http://culturalrace.es/2054> <http://culturalrace.es/DescripcionEntidad> "Creado como Museo Municipal en 1929 y rebautizado como Museo de Historia de Madrid en 2007, tras una profunda remodelación, el año 2014 reabre sus puertas con un montaje moderno y una puesta al día de sus colecciones." ;
+	<http://culturalrace.es/Nombre> "Museo de Historia de Madrid" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "Museo de Historia de Madrid (España) 03.jpg" ;
+	<http://culturalrace.es/Horario> "De martes a domingos de 10 a 20 horas. Verano: de martes a domingos de 10 a 19 horas. Cerrado: lunes y los días 1 y 6 de enero, 1 de mayo,  24, 25 y 31 de diciembre. El desalojo de las salas se hará diez minutos antes del cierre." ;
+	<http://culturalrace.es/Transporte> "Metro: Tribunal, Bilbao y Alonso Martínez. Bus: 3, 21, 37, 40, 147 y 149. BICIMAD: Estación 54 (Calle Barceló 7) Aparcamiento público: Barceló." ;
+	<http://culturalrace.es/NombreVia> "FUENCARRAL" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "78" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28004" ;
+	<http://culturalrace.es/Latitud> "40.42577054821346" ;
+	<http://culturalrace.es/Longitud> "-3.700845660719608" ;
+	<http://culturalrace.es/Telefono> "917 011 863" ;
+	<http://culturalrace.es/Email> "smuseosm@madrid.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+
+<http://culturalrace.es/2112> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Museo de San Isidro. Los Orígenes de Madrid" ;
+	<http://culturalrace.es/Imagen> "Museo de San Isidro.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "Este espacio museográfico propone un viaje por la historia de la ciudad de Madrid desde la Prehistoria hasta el establecimiento de la Corte, a través de distintas salas como la de San Isidro, el Patio Renacentista, el Jardín Arqueobotánico o el Almacén Visitable." ;
+	<http://culturalrace.es/Horario> "De martes a domingo y festivos de 10 a 20 horas.Último pase de visita 15 minutos antes del cierre. Verano, del 16 de junio al 15 de septiembre: de martes a domingo de 10 a 19 horas. Cerrado todos los lunes, el 1 y 6 de enero, el 1 de mayo y los días 24, 25 y 31 de diciembre." ;
+	<http://culturalrace.es/Transporte> "Metro: Latina , Tirso de Molina Bus: 3 , 17 , 18 , 23 , 35 , 60 , 65 , 148 BICIMAD: Estación 38 (Carrera de San Francisco 1)" ;
+	<http://culturalrace.es/NombreVia> "SAN ANDRES" ;
+	<http://culturalrace.es/TipoVia> "PLAZA" ;
+	<http://culturalrace.es/NumVia> "1" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28005" ;
+	<http://culturalrace.es/Latitud> "40.41207900253883" ;
+	<http://culturalrace.es/Longitud> "-3.7108161027466378" ;
+	<http://culturalrace.es/Telefono> "913 667 415" ;
+	<http://culturalrace.es/Email> "museosanisidro@madrid.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+
+<http://culturalrace.es/2114> <http://culturalrace.es/DescripcionEntidad> "Construido inicialmente para palacio de Don Juan de Goyeneche, el edificio fue adquirido por la Academia de Bellas Artes en 1773 y reformado bajo la dirección de Fernando Chueca Goitia en 1973 y la fachada por Diego de Villanueva en 1774." ;
+	<http://culturalrace.es/Imagen> "Palacio de Goyeneche - Real Academia de Bellas Artes de San Fernando.jpg" ;
+	<http://culturalrace.es/Horario> "Colección permanente:De martes a domingos y festivos de 10 a 15 horasCerrado: todos los lunes y el mes de agostoExposiciones temporales: consultar el apartado específico de la exposición temporal.Días cerrados: 1 y 6 de enero; 1 y 30 de mayo; 9 de noviembre; 24, 25 y 31 de diciembre. En periodos vacacionales pueden sufrir cambios." ;
+	<http://culturalrace.es/Nombre> "Museo de la Real Academia de Bellas Artes de San Fernando" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Transporte> "Metro: Sol (líneas 1, 2, 3), Sevilla (línea 2)Bus: 3, 15, 20, 53, 150, M1, 3Renfe Cercanías: SolBicimad: Estación 28 (calle Alcalá, 27)" ;
+	<http://culturalrace.es/NombreVia> "ALCALA" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "13" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.41765456031193" ;
+	<http://culturalrace.es/Longitud> "-3.7006553517170633" ;
+	<http://culturalrace.es/Telefono> "915 240 864 (Centralita)" ;
+	<http://culturalrace.es/Email> "museo@rabasf.org" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/2066> <http://culturalrace.es/Horario> "De octubre a mayo:  Lunes a viernes, de 9.30 a 15.00 horas. Sábados, domingos y festivos de 10.00 a 19.00 horas  De junio a septiembre:  Lunes a domingo, de 10.00 a 15.00 horas. Cerrado: 25 de diciembre, 1 y 6 de enero." ;
+	<http://culturalrace.es/NumVia> "61" ;
+	<http://culturalrace.es/Transporte> "Metro: Delicias (línea 3)Bus: 19, 45, 47, 59, 85, 86, 247, 8, 6, 55Renfe: Delicias" ;
+	<http://culturalrace.es/NombreVia> "DELICIAS" ;
+	<http://culturalrace.es/Nombre> "Museo del Ferrocarril de Madrid" ;
+	<http://culturalrace.es/Imagen> "Delicias fachada.JPG" ;
+	<http://culturalrace.es/TipoVia> "PASEO" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/DescripcionEntidad> "Edificio de caracter monumental. Construido como cabecera de la línea Madrid - Extremadura - Portugal en el año 1880 por E. Cachelievre." ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28045" ;
+	<http://culturalrace.es/Latitud> "40.400281290485566" ;
+	<http://culturalrace.es/Longitud> "-3.693817192160563" ;
+	<http://culturalrace.es/Telefono> "915 390 085" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" .
+
+<http://culturalrace.es/2058> <http://culturalrace.es/Horario> "De lunes a sábado de 10 a 20 horasDomingos y festivos de 10 a 19 horasCerrado los días 1 de enero, 1 de mayo y 25 de diciembreHorario reducido, de 10 a 14 horas, los días 6 de enero, 24 y 31 de diciembreHorario gratuito, de lunes a sábado de 18 a 20 horas y domingos y festivos de 17 a 19 horas Durante las dos últimas horas de apertura, 50% de reducción en el precio de la entrada a las exposiciones temporales" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Nombre> "Museo del Prado" ;
+	<http://culturalrace.es/DescripcionEntidad> "Construido inicialmente como Museo de Ciencias Naturales, este edificio neoclásico fue transformado en pinacoteca de las Colecciones Reales en 1818 con colecciones de pintura, dibujos, grabados, monedas y medallas desde el Románico hasta el siglo XIX." ;
+	<http://culturalrace.es/Imagen> "Sala de Tiziano en el Museo del Prado.jpg" ;
+	<http://culturalrace.es/Transporte> "Metro: Estación del Arte (Atocha) (línea 1), Banco de España (línea 2), Retiro (línea 2)Bus: 9, 10, 14, 19, 27, 34, 37, 45Renfe: AtochaBicimad: Estación 68 (calle Espalter, 1)" ;
+	<http://culturalrace.es/NombreVia> "RUIZ DE ALARCON" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "23" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28014" ;
+	<http://culturalrace.es/Latitud> "40.41358458131178" ;
+	<http://culturalrace.es/Longitud> "-3.691325445518223" ;
+	<http://culturalrace.es/Telefono> "913 302 800" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+
+<http://culturalrace.es/2059> a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Transporte> "Metro: Tribunal (líneas 1, 10), Alonso Martínez (líneas 4, 5, 10)Bus: 3, 40, 149, 3Renfe: RecoletosBicimad: Estación 7 (calle Hortaleza, 75)" ;
+	<http://culturalrace.es/Nombre> "Museo del Romanticismo" ;
+	<http://culturalrace.es/Horario> "Horario de invierno (de noviembre a abril)De martes a sábado: de 9:30 a 18:30. Domingos y festivos: de 10 a 15 horas Horario de verano (de mayo a octubre)De martes a sábado: de 9:30 a 20:30. Domingos y festivos: de 10 a 15 horas Cerrado: Todos los lunes, 1 y 6 de enero, 1 y 15 de mayo, 24, 25 y 31 de diciembre." ;
+	<http://culturalrace.es/Imagen> "Museo del Romanticismo - Fachada - Fachada del Museo del Romanticismo.jpg" ;
+	<http://culturalrace.es/NombreVia> "SAN MATEO" ;
+	<http://culturalrace.es/TipoVia> "CALLE" ;
+	<http://culturalrace.es/NumVia> "13" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28004" ;
+	<http://culturalrace.es/Latitud> "40.42585510296794" ;
+	<http://culturalrace.es/Longitud> "-3.6987835425963063" ;
+	<http://culturalrace.es/Telefono> "914 481 045 / 914 480 163" ;
+	<http://culturalrace.es/Email> "informacion.romanticismo@mecd.es" ;
+	<http://culturalrace.es/Tipo> "/contenido/entidadesYorganismos/Museos" .
+
+
+<http://culturalrace.es/2213> <http://culturalrace.es/Nombre> "Planetario de Madrid" ;
+	a <http://culturalrace.es/EspaciosCulturales> ;
+	<http://culturalrace.es/Imagen> "Planetario de Madrid 01.jpg" ;
+	<http://culturalrace.es/DescripcionEntidad> "Inaugurado el 29 de septiembre de 1986, es un centro dependiente del Área de Cultura y Deportes del Ayuntamiento de Madrid. Durante los años 2016/2017 fue sometido a una profunda renovación tanto tecnológica como de las instalaciones y edificio, posible en virtud de un acuerdo de colaboración entre el Ayuntamiento de Madrid y la Obra Social &amp;ldquo;la Caixa&amp;rdquo; &amp;ndash; que incluye dotación de contenidos, renovación de exposiciones y la realización de actividades varias en el campo de la divulgación científica.Siempre con el fin de contribuir a la difusión de la astronomía y de la ciencia en general, tanto entre escolares como entre el público de cualquier edad y condición, posee una variada oferta de proyecciones audiovisuales, exposiciones y actividades (talleres, cursos, conferencias, observaciones públicas...)Las proyecciones que se ofrecen en el Planetario de Madrid se renuevan periódicamente, y tienen una duración aproximada de 30 minutos.Existen dos programaciones básicas diferentes: una activa durante el verano y época de vacaciones escolares, y otra durante el curso escolar. Durante el curso escolar, las proyecciones de las mañanas de los días lectivos se reservan a escolares. Video de presentación del centro    //     Folleto informativo (PDF)    //    Planetario en  Google Maps" ;
+	<http://culturalrace.es/Horario> "Horario del centro. De martes a viernes, de 9:30 a 13:45 horas (reservadas a escolares) y de 17 a 19:45 horas. Fin de semana y festivos, de 10 a 13:45 horas y de 17 a 19:45 horas. Cerrado: Todos los lunes del año. El día 1 y 6 de enero. El día 1 de mayo. Días 24, 25 y 31 de diciembre." ;
+	<http://culturalrace.es/Transporte> "Metro: Méndez Álvaro (línea 6) Bus: 148, 156 BICIMAD: Estación 177 (Calle Bolívar 3) Planetario en  Google Maps" ;
+	<http://culturalrace.es/NombreVia> "PLANETARIO" ;
+	<http://culturalrace.es/TipoVia> "AVENIDA" ;
+	<http://culturalrace.es/NumVia> "16" ;
+	<http://culturalrace.es/Localidad> "MADRID" ;
+	<http://culturalrace.es/Provincia> "MADRID" ;
+	<http://culturalrace.es/CodigoPostal> "28045" ;
+	<http://culturalrace.es/Latitud> "40.392279999540044" ;
+	<http://culturalrace.es/Longitud> "-3.684956957448299" ;
+	<http://culturalrace.es/Telefono> """914 673 461 (reserva grupos)                
