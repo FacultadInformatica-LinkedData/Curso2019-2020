@@ -1,0 +1,133 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PK using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PK",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE to type Q4989906",
+    "columnName": "NOMBRE",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q4989906",
+        "name": "monument"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "description": "Extend data at index 2 based on column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnInsertIndex": 2,
+    "baseColumnName": "NOMBRE",
+    "endpoint": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "name": "image",
+          "id": "P18"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE to type Q41176",
+    "columnName": "NOMBRE",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q41176",
+        "name": "building"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "description": "Extend data at index 2 based on column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnInsertIndex": 2,
+    "baseColumnName": "NOMBRE",
+    "endpoint": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "name": "image",
+          "id": "P18"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column image",
+    "columnName": "image"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column image2 to IMAGEN",
+    "oldColumnName": "image2",
+    "newColumnName": "IMAGEN"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Banco de España (Q2481227) for cells containing \"Banco de España\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Banco de España",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2481227",
+      "name": "Banco de España",
+      "score": 100,
+      "types": [
+        "Q928830",
+        "Q22808403"
+      ]
+    },
+    "shareNewTopics": false
+  }
+]
