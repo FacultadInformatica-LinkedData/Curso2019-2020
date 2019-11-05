@@ -2416,836 +2416,81 @@
     {
         "op": "rdf-extension/save-rdf-schema",
         "schema": {
-            "prefixes": [
-                {
-                    "name": "rdf",
-                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                },
-                {
-                    "name": "owl",
-                    "uri": "http://www.w3.org/2002/07/owl#"
-                },
-                {
-                    "name": "gr07Park",
-                    "uri": ""
-                },
-                {
-                    "name": "rdfs",
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
-                },
-                {
-                    "name": "foaf",
-                    "uri": "http://xmlns.com/foaf/0.1/"
-                }
-            ],
-            "baseUri": "http://www.semanticweb.org/grupo07/",
-            "rootNodes": [
-                {
-                    "nodeType": "cell-as-resource",
-                    "expression": "\"Park/\" + cells['Park_URL'].value",
-                    "isRowNumberCell": true,
-                    "links": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
-                            "curie": "gr07Park:hasEspecie",
-                            "target": {
-                                "nodeType": "cell-as-resource",
-                                "columnName": "ESPECIE",
-                                "expression": "\"Especie/\" + cells['Especie_URL'].value",
-                                "isRowNumberCell": false,
-                                "links": [
-                                    {
-                                        "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-                                        "curie": "rdfs:label",
-                                        "target": {
-                                            "nodeType": "cell-as-literal",
-                                            "columnName": "Especie_URL",
-                                            "expression": "value",
-                                            "isRowNumberCell": false
-                                        }
-                                    },
-                                    {
-                                        "uri": "http://www.w3.org/2002/07/owl#sameAs",
-                                        "curie": "owl:sameAs",
-                                        "target": {
-                                            "nodeType": "cell-as-resource",
-                                            "columnName": "Especie_recon",
-                                            "expression": "value",
-                                            "isRowNumberCell": false,
-                                            "links": [],
-                                            "rdfTypes": []
-                                        }
-                                    }
-                                ],
-                                "rdfTypes": [
-                                    {
-                                        "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
-                                        "curie": "gr07Park:Especie"
-                                    }
-                                ]
-                            }
-                        }
-                    ],
-                    "rdfTypes": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-                            "curie": "gr07Park:Park"
-                        }
-                    ]
-                }
-            ]
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
         },
         "description": "Save RDF schema skeleton"
     },
     {
         "op": "rdf-extension/save-rdf-schema",
         "schema": {
-            "prefixes": [
-                {
-                    "name": "gr07Plants",
-                    "uri": ""
-                },
-                {
-                    "name": "rdf",
-                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                },
-                {
-                    "name": "owl",
-                    "uri": "http://www.w3.org/2002/07/owl#"
-                },
-                {
-                    "name": "rdfs",
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
-                },
-                {
-                    "name": "foaf",
-                    "uri": "http://xmlns.com/foaf/0.1/"
-                }
-            ],
-            "baseUri": "http://www.semanticweb.org/grupo07/",
-            "rootNodes": [
-                {
-                    "nodeType": "cell-as-resource",
-                    "expression": "\"Park/\" + cells['Park_URL'].value",
-                    "isRowNumberCell": true,
-                    "links": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
-                            "curie": "gr07Park:hasEspecie",
-                            "target": {
-                                "nodeType": "cell-as-resource",
-                                "columnName": "ESPECIE",
-                                "expression": "\"Especie/\" + cells['Especie_URL'].value",
-                                "isRowNumberCell": false,
-                                "links": [
-                                    {
-                                        "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-                                        "curie": "rdfs:label",
-                                        "target": {
-                                            "nodeType": "cell-as-literal",
-                                            "columnName": "Especie_URL",
-                                            "expression": "value",
-                                            "isRowNumberCell": false
-                                        }
-                                    },
-                                    {
-                                        "uri": "http://www.w3.org/2002/07/owl#sameAs",
-                                        "curie": "owl:sameAs",
-                                        "target": {
-                                            "nodeType": "cell-as-resource",
-                                            "columnName": "Especie_recon",
-                                            "expression": "value",
-                                            "isRowNumberCell": false,
-                                            "links": [],
-                                            "rdfTypes": []
-                                        }
-                                    }
-                                ],
-                                "rdfTypes": [
-                                    {
-                                        "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
-                                        "curie": "gr07Park:Especie"
-                                    }
-                                ]
-                            }
-                        }
-                    ],
-                    "rdfTypes": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-                            "curie": "gr07Park:Park"
-                        }
-                    ]
-                }
-            ]
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
         },
         "description": "Save RDF schema skeleton"
     },
     {
         "op": "rdf-extension/save-rdf-schema",
         "schema": {
-            "prefixes": [
-                {
-                    "name": "gr07Plants",
-                    "uri": ""
-                },
-                {
-                    "name": "rdf",
-                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                },
-                {
-                    "name": "owl",
-                    "uri": "http://www.w3.org/2002/07/owl#"
-                },
-                {
-                    "name": "rdfs",
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
-                },
-                {
-                    "name": "foaf",
-                    "uri": "http://xmlns.com/foaf/0.1/"
-                }
-            ],
-            "baseUri": "http://www.semanticweb.org/grupo07/",
-            "rootNodes": [
-                {
-                    "nodeType": "cell-as-resource",
-                    "expression": "\"Park/\" + cells['Park_URL'].value",
-                    "isRowNumberCell": true,
-                    "links": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
-                            "curie": "gr07Plants:hasEspecie",
-                            "target": {
-                                "nodeType": "cell-as-resource",
-                                "columnName": "ESPECIE",
-                                "expression": "\"Especie/\" + cells['Especie_URL'].value",
-                                "isRowNumberCell": false,
-                                "links": [
-                                    {
-                                        "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-                                        "curie": "rdfs:label",
-                                        "target": {
-                                            "nodeType": "cell-as-literal",
-                                            "columnName": "Especie_URL",
-                                            "expression": "value",
-                                            "isRowNumberCell": false
-                                        }
-                                    },
-                                    {
-                                        "uri": "http://www.w3.org/2002/07/owl#sameAs",
-                                        "curie": "owl:sameAs",
-                                        "target": {
-                                            "nodeType": "cell-as-resource",
-                                            "columnName": "Especie_recon",
-                                            "expression": "value",
-                                            "isRowNumberCell": false,
-                                            "links": [],
-                                            "rdfTypes": []
-                                        }
-                                    }
-                                ],
-                                "rdfTypes": [
-                                    {
-                                        "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
-                                        "curie": "gr07Plants:Especie"
-                                    }
-                                ]
-                            }
-                        }
-                    ],
-                    "rdfTypes": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-                            "curie": "gr07Plants:Park"
-                        }
-                    ]
-                }
-            ]
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
         },
         "description": "Save RDF schema skeleton"
     },
     {
         "op": "rdf-extension/save-rdf-schema",
         "schema": {
-            "prefixes": [
-                {
-                    "name": "rdf",
-                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                },
-                {
-                    "name": "owl",
-                    "uri": "http://www.w3.org/2002/07/owl#"
-                },
-                {
-                    "name": "gr07Plant",
-                    "uri": ""
-                },
-                {
-                    "name": "rdfs",
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
-                },
-                {
-                    "name": "foaf",
-                    "uri": "http://xmlns.com/foaf/0.1/"
-                }
-            ],
-            "baseUri": "http://www.semanticweb.org/grupo07/",
-            "rootNodes": [
-                {
-                    "nodeType": "cell-as-resource",
-                    "expression": "\"Park/\" + cells['Park_URL'].value",
-                    "isRowNumberCell": true,
-                    "links": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
-                            "curie": "gr07Plants:hasEspecie",
-                            "target": {
-                                "nodeType": "cell-as-resource",
-                                "columnName": "ESPECIE",
-                                "expression": "\"Especie/\" + cells['Especie_URL'].value",
-                                "isRowNumberCell": false,
-                                "links": [
-                                    {
-                                        "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-                                        "curie": "rdfs:label",
-                                        "target": {
-                                            "nodeType": "cell-as-literal",
-                                            "columnName": "ESPECIE",
-                                            "expression": "value",
-                                            "isRowNumberCell": false
-                                        }
-                                    },
-                                    {
-                                        "uri": "http://www.w3.org/2002/07/owl#sameAs",
-                                        "curie": "owl:sameAs",
-                                        "target": {
-                                            "nodeType": "cell-as-resource",
-                                            "columnName": "Especie_recon",
-                                            "expression": "value",
-                                            "isRowNumberCell": false,
-                                            "links": [],
-                                            "rdfTypes": []
-                                        }
-                                    }
-                                ],
-                                "rdfTypes": [
-                                    {
-                                        "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
-                                        "curie": "gr07Plants:Especie"
-                                    }
-                                ]
-                            }
-                        }
-                    ],
-                    "rdfTypes": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-                            "curie": "gr07Plants:Park"
-                        }
-                    ]
-                }
-            ]
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
         },
         "description": "Save RDF schema skeleton"
     },
     {
         "op": "rdf-extension/save-rdf-schema",
         "schema": {
-            "prefixes": [
-                {
-                    "name": "rdf",
-                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                },
-                {
-                    "name": "owl",
-                    "uri": "http://www.w3.org/2002/07/owl#"
-                },
-                {
-                    "name": "gr07Plant",
-                    "uri": ""
-                },
-                {
-                    "name": "rdfs",
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
-                },
-                {
-                    "name": "foaf",
-                    "uri": "http://xmlns.com/foaf/0.1/"
-                }
-            ],
-            "baseUri": "http://www.semanticweb.org/grupo07/",
-            "rootNodes": [
-                {
-                    "nodeType": "cell-as-resource",
-                    "expression": "\"Park/\" + cells['Park_URL'].value",
-                    "isRowNumberCell": true,
-                    "links": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
-                            "curie": "gr07Plants:hasEspecie",
-                            "target": {
-                                "nodeType": "cell-as-resource",
-                                "columnName": "ESPECIE",
-                                "expression": "\"Especie/\" + cells['Especie_URL'].value",
-                                "isRowNumberCell": false,
-                                "links": [
-                                    {
-                                        "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-                                        "curie": "rdfs:label",
-                                        "target": {
-                                            "nodeType": "cell-as-literal",
-                                            "columnName": "ESPECIE",
-                                            "expression": "value",
-                                            "isRowNumberCell": false
-                                        }
-                                    },
-                                    {
-                                        "uri": "http://www.w3.org/2002/07/owl#sameAs",
-                                        "curie": "owl:sameAs",
-                                        "target": {
-                                            "nodeType": "cell-as-resource",
-                                            "columnName": "Especie_recon",
-                                            "expression": "value",
-                                            "isRowNumberCell": false,
-                                            "links": [],
-                                            "rdfTypes": []
-                                        }
-                                    }
-                                ],
-                                "rdfTypes": [
-                                    {
-                                        "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
-                                        "curie": "gr07Plants:Especie"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasName",
-                            "curie": "gr07Plant:hasName",
-                            "target": {
-                                "nodeType": "cell-as-literal",
-                                "columnName": "PARQUE",
-                                "expression": "value",
-                                "isRowNumberCell": false
-                            }
-                        }
-                    ],
-                    "rdfTypes": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-                            "curie": "gr07Plants:Park"
-                        }
-                    ]
-                }
-            ]
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
         },
         "description": "Save RDF schema skeleton"
     },
     {
         "op": "rdf-extension/save-rdf-schema",
         "schema": {
-            "prefixes": [
-                {
-                    "name": "gr07Plants",
-                    "uri": ""
-                },
-                {
-                    "name": "rdf",
-                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                },
-                {
-                    "name": "owl",
-                    "uri": "http://www.w3.org/2002/07/owl#"
-                },
-                {
-                    "name": "rdfs",
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
-                },
-                {
-                    "name": "foaf",
-                    "uri": "http://xmlns.com/foaf/0.1/"
-                }
-            ],
-            "baseUri": "http://www.semanticweb.org/grupo07/",
-            "rootNodes": [
-                {
-                    "nodeType": "cell-as-resource",
-                    "expression": "\"Park/\" + cells['Park_URL'].value",
-                    "isRowNumberCell": true,
-                    "links": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
-                            "curie": "gr07Plants:hasEspecie",
-                            "target": {
-                                "nodeType": "cell-as-resource",
-                                "columnName": "ESPECIE",
-                                "expression": "\"Especie/\" + cells['Especie_URL'].value",
-                                "isRowNumberCell": false,
-                                "links": [
-                                    {
-                                        "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-                                        "curie": "rdfs:label",
-                                        "target": {
-                                            "nodeType": "cell-as-literal",
-                                            "columnName": "ESPECIE",
-                                            "expression": "value",
-                                            "isRowNumberCell": false
-                                        }
-                                    },
-                                    {
-                                        "uri": "http://www.w3.org/2002/07/owl#sameAs",
-                                        "curie": "owl:sameAs",
-                                        "target": {
-                                            "nodeType": "cell-as-resource",
-                                            "columnName": "Especie_recon",
-                                            "expression": "value",
-                                            "isRowNumberCell": false,
-                                            "links": [],
-                                            "rdfTypes": []
-                                        }
-                                    }
-                                ],
-                                "rdfTypes": [
-                                    {
-                                        "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
-                                        "curie": "gr07Plants:Especie"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasName",
-                            "curie": "gr07Plant:hasName",
-                            "target": {
-                                "nodeType": "cell-as-literal",
-                                "columnName": "PARQUE",
-                                "expression": "value",
-                                "isRowNumberCell": false
-                            }
-                        }
-                    ],
-                    "rdfTypes": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-                            "curie": "gr07Plants:Park"
-                        }
-                    ]
-                }
-            ]
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
         },
         "description": "Save RDF schema skeleton"
     },
     {
         "op": "rdf-extension/save-rdf-schema",
         "schema": {
-            "prefixes": [
-                {
-                    "name": "gr07Plants",
-                    "uri": ""
-                },
-                {
-                    "name": "rdf",
-                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                },
-                {
-                    "name": "owl",
-                    "uri": "http://www.w3.org/2002/07/owl#"
-                },
-                {
-                    "name": "rdfs",
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
-                },
-                {
-                    "name": "foaf",
-                    "uri": "http://xmlns.com/foaf/0.1/"
-                }
-            ],
-            "baseUri": "http://www.semanticweb.org/grupo07/",
-            "rootNodes": [
-                {
-                    "nodeType": "cell-as-resource",
-                    "expression": "\"Park/\" + cells['Park_URL'].value",
-                    "isRowNumberCell": true,
-                    "links": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
-                            "curie": "gr07Plants:hasEspecie",
-                            "target": {
-                                "nodeType": "cell-as-resource",
-                                "columnName": "ESPECIE",
-                                "expression": "\"Especie/\" + cells['Especie_URL'].value",
-                                "isRowNumberCell": false,
-                                "links": [
-                                    {
-                                        "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-                                        "curie": "rdfs:label",
-                                        "target": {
-                                            "nodeType": "cell-as-literal",
-                                            "columnName": "ESPECIE",
-                                            "expression": "value",
-                                            "isRowNumberCell": false
-                                        }
-                                    },
-                                    {
-                                        "uri": "http://www.w3.org/2002/07/owl#sameAs",
-                                        "curie": "owl:sameAs",
-                                        "target": {
-                                            "nodeType": "cell-as-resource",
-                                            "columnName": "Especie_recon",
-                                            "expression": "value",
-                                            "isRowNumberCell": false,
-                                            "links": [],
-                                            "rdfTypes": []
-                                        }
-                                    }
-                                ],
-                                "rdfTypes": [
-                                    {
-                                        "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
-                                        "curie": "gr07Plants:Especie"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasParkName",
-                            "curie": "gr07Plants:hasParkName",
-                            "target": {
-                                "nodeType": "cell-as-literal",
-                                "columnName": "PARQUE",
-                                "expression": "value",
-                                "isRowNumberCell": false
-                            }
-                        },
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPlantName",
-                            "curie": "gr07Plants:hasPlantName",
-                            "target": {
-                                "nodeType": "cell-as-literal",
-                                "columnName": "ESPECIE",
-                                "expression": "value",
-                                "isRowNumberCell": false
-                            }
-                        }
-                    ],
-                    "rdfTypes": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-                            "curie": "gr07Plants:Park"
-                        }
-                    ]
-                }
-            ]
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
         },
         "description": "Save RDF schema skeleton"
     },
     {
         "op": "rdf-extension/save-rdf-schema",
         "schema": {
-            "prefixes": [
-                {
-                    "name": "gr07Plants",
-                    "uri": ""
-                },
-                {
-                    "name": "rdf",
-                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                },
-                {
-                    "name": "owl",
-                    "uri": "http://www.w3.org/2002/07/owl#"
-                },
-                {
-                    "name": "rdfs",
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
-                },
-                {
-                    "name": "foaf",
-                    "uri": "http://xmlns.com/foaf/0.1/"
-                }
-            ],
-            "baseUri": "http://www.semanticweb.org/grupo07/",
-            "rootNodes": [
-                {
-                    "nodeType": "cell-as-resource",
-                    "expression": "\"Park/\" + cells['Park_URL'].value",
-                    "isRowNumberCell": true,
-                    "links": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
-                            "curie": "gr07Plants:hasEspecie",
-                            "target": {
-                                "nodeType": "cell-as-resource",
-                                "columnName": "ESPECIE",
-                                "expression": "\"Especie/\" + cells['Especie_URL'].value",
-                                "isRowNumberCell": false,
-                                "links": [
-                                    {
-                                        "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-                                        "curie": "rdfs:label",
-                                        "target": {
-                                            "nodeType": "cell-as-literal",
-                                            "columnName": "ESPECIE",
-                                            "expression": "value",
-                                            "isRowNumberCell": false
-                                        }
-                                    },
-                                    {
-                                        "uri": "http://www.w3.org/2002/07/owl#sameAs",
-                                        "curie": "owl:sameAs",
-                                        "target": {
-                                            "nodeType": "cell-as-resource",
-                                            "columnName": "Especie_recon",
-                                            "expression": "value",
-                                            "isRowNumberCell": false,
-                                            "links": [],
-                                            "rdfTypes": []
-                                        }
-                                    },
-                                    {
-                                        "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPlantName",
-                                        "curie": "gr07Plants:hasPlantName",
-                                        "target": {
-                                            "nodeType": "cell-as-literal",
-                                            "columnName": "ESPECIE",
-                                            "expression": "value",
-                                            "isRowNumberCell": false
-                                        }
-                                    }
-                                ],
-                                "rdfTypes": [
-                                    {
-                                        "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
-                                        "curie": "gr07Plants:Especie"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasParkName",
-                            "curie": "gr07Plants:hasParkName",
-                            "target": {
-                                "nodeType": "cell-as-literal",
-                                "columnName": "PARQUE",
-                                "expression": "value",
-                                "isRowNumberCell": false
-                            }
-                        }
-                    ],
-                    "rdfTypes": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-                            "curie": "gr07Plants:Park"
-                        }
-                    ]
-                }
-            ]
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
         },
         "description": "Save RDF schema skeleton"
     },
     {
         "op": "rdf-extension/save-rdf-schema",
         "schema": {
-            "prefixes": [
-                {
-                    "name": "gr07Plants",
-                    "uri": ""
-                },
-                {
-                    "name": "rdf",
-                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                },
-                {
-                    "name": "owl",
-                    "uri": "http://www.w3.org/2002/07/owl#"
-                },
-                {
-                    "name": "rdfs",
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
-                },
-                {
-                    "name": "foaf",
-                    "uri": "http://xmlns.com/foaf/0.1/"
-                }
-            ],
-            "baseUri": "http://www.semanticweb.org/grupo07/",
-            "rootNodes": [
-                {
-                    "nodeType": "cell-as-resource",
-                    "expression": "\"Park/\" + cells['Park_URL'].value",
-                    "isRowNumberCell": true,
-                    "links": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
-                            "curie": "gr07Plants:hasEspecie",
-                            "target": {
-                                "nodeType": "cell-as-resource",
-                                "columnName": "ESPECIE",
-                                "expression": "\"Especie/\" + cells['Especie_URL'].value",
-                                "isRowNumberCell": false,
-                                "links": [
-                                    {
-                                        "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-                                        "curie": "rdfs:label",
-                                        "target": {
-                                            "nodeType": "cell-as-literal",
-                                            "columnName": "ESPECIE",
-                                            "expression": "value",
-                                            "isRowNumberCell": false
-                                        }
-                                    },
-                                    {
-                                        "uri": "http://www.w3.org/2002/07/owl#sameAs",
-                                        "curie": "owl:sameAs",
-                                        "target": {
-                                            "nodeType": "cell-as-resource",
-                                            "columnName": "Especie_recon",
-                                            "expression": "value",
-                                            "isRowNumberCell": false,
-                                            "links": [],
-                                            "rdfTypes": []
-                                        }
-                                    },
-                                    {
-                                        "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPlantName",
-                                        "curie": "gr07Plants:hasPlantName",
-                                        "target": {
-                                            "nodeType": "cell-as-literal",
-                                            "columnName": "ESPECIE",
-                                            "expression": "value",
-                                            "isRowNumberCell": false
-                                        }
-                                    }
-                                ],
-                                "rdfTypes": [
-                                    {
-                                        "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
-                                        "curie": "gr07Plants:Especie"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasParkName",
-                            "curie": "gr07Plants:hasParkName",
-                            "target": {
-                                "nodeType": "cell-as-literal",
-                                "columnName": "PARQUE",
-                                "expression": "value",
-                                "isRowNumberCell": false
-                            }
-                        }
-                    ],
-                    "rdfTypes": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-                            "curie": "gr07Plants:Park"
-                        }
-                    ]
-                }
-            ]
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
         },
         "description": "Save RDF schema skeleton"
     },
@@ -3601,104 +2846,9 @@
     {
         "op": "rdf-extension/save-rdf-schema",
         "schema": {
-            "prefixes": [
-                {
-                    "name": "gr07Plants",
-                    "uri": ""
-                },
-                {
-                    "name": "rdf",
-                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                },
-                {
-                    "name": "owl",
-                    "uri": "http://www.w3.org/2002/07/owl#"
-                },
-                {
-                    "name": "rdfs",
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
-                },
-                {
-                    "name": "foaf",
-                    "uri": "http://xmlns.com/foaf/0.1/"
-                }
-            ],
-            "baseUri": "http://www.semanticweb.org/grupo07/",
-            "rootNodes": [
-                {
-                    "nodeType": "cell-as-resource",
-                    "expression": "\"Park/\" + cells['Park_URL'].value",
-                    "isRowNumberCell": true,
-                    "links": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
-                            "curie": "gr07Plants:hasEspecie",
-                            "target": {
-                                "nodeType": "cell-as-resource",
-                                "columnName": "ESPECIE",
-                                "expression": "\"Especie/\" + cells['Especie_URL'].value",
-                                "isRowNumberCell": false,
-                                "links": [
-                                    {
-                                        "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-                                        "curie": "rdfs:label",
-                                        "target": {
-                                            "nodeType": "cell-as-literal",
-                                            "columnName": "ESPECIE",
-                                            "expression": "value",
-                                            "isRowNumberCell": false
-                                        }
-                                    },
-                                    {
-                                        "uri": "http://www.w3.org/2002/07/owl#sameAs",
-                                        "curie": "owl:sameAs",
-                                        "target": {
-                                            "nodeType": "cell-as-resource",
-                                            "columnName": "Especie_recon",
-                                            "expression": "value",
-                                            "isRowNumberCell": false,
-                                            "links": [],
-                                            "rdfTypes": []
-                                        }
-                                    },
-                                    {
-                                        "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPlantName",
-                                        "curie": "gr07Plants:hasPlantName",
-                                        "target": {
-                                            "nodeType": "cell-as-literal",
-                                            "columnName": "ESPECIE",
-                                            "expression": "value",
-                                            "isRowNumberCell": false
-                                        }
-                                    }
-                                ],
-                                "rdfTypes": [
-                                    {
-                                        "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
-                                        "curie": "gr07Plants:Especie"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasParkName",
-                            "curie": "gr07Plants:hasParkName",
-                            "target": {
-                                "nodeType": "cell-as-literal",
-                                "columnName": "PARQUE",
-                                "expression": "value",
-                                "isRowNumberCell": false
-                            }
-                        }
-                    ],
-                    "rdfTypes": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-                            "curie": "gr07Plants:Park"
-                        }
-                    ]
-                }
-            ]
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
         },
         "description": "Save RDF schema skeleton"
     },
@@ -4160,104 +3310,9 @@
     {
         "op": "rdf-extension/save-rdf-schema",
         "schema": {
-            "prefixes": [
-                {
-                    "name": "gr07Plants",
-                    "uri": ""
-                },
-                {
-                    "name": "rdf",
-                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                },
-                {
-                    "name": "owl",
-                    "uri": "http://www.w3.org/2002/07/owl#"
-                },
-                {
-                    "name": "rdfs",
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
-                },
-                {
-                    "name": "foaf",
-                    "uri": "http://xmlns.com/foaf/0.1/"
-                }
-            ],
-            "baseUri": "http://www.semanticweb.org/grupo07/",
-            "rootNodes": [
-                {
-                    "nodeType": "cell-as-resource",
-                    "expression": "\"Park/\" + cells['Park_URL'].value",
-                    "isRowNumberCell": true,
-                    "links": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie",
-                            "curie": "gr07Plants:hasEspecie",
-                            "target": {
-                                "nodeType": "cell-as-resource",
-                                "columnName": "ESPECIE",
-                                "expression": "\"Especie/\" + cells['Especie_URL'].value",
-                                "isRowNumberCell": false,
-                                "links": [
-                                    {
-                                        "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-                                        "curie": "rdfs:label",
-                                        "target": {
-                                            "nodeType": "cell-as-literal",
-                                            "columnName": "ESPECIE",
-                                            "expression": "value",
-                                            "isRowNumberCell": false
-                                        }
-                                    },
-                                    {
-                                        "uri": "http://www.w3.org/2002/07/owl#sameAs",
-                                        "curie": "owl:sameAs",
-                                        "target": {
-                                            "nodeType": "cell-as-resource",
-                                            "columnName": "Especie_recon",
-                                            "expression": "value",
-                                            "isRowNumberCell": false,
-                                            "links": [],
-                                            "rdfTypes": []
-                                        }
-                                    },
-                                    {
-                                        "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasPlantName",
-                                        "curie": "gr07Plants:hasPlantName",
-                                        "target": {
-                                            "nodeType": "cell-as-literal",
-                                            "columnName": "ESPECIE",
-                                            "expression": "value",
-                                            "isRowNumberCell": false
-                                        }
-                                    }
-                                ],
-                                "rdfTypes": [
-                                    {
-                                        "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Especie",
-                                        "curie": "gr07Plants:Especie"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/property#hasParkName",
-                            "curie": "gr07Plants:hasParkName",
-                            "target": {
-                                "nodeType": "cell-as-literal",
-                                "columnName": "PARQUE",
-                                "expression": "value",
-                                "isRowNumberCell": false
-                            }
-                        }
-                    ],
-                    "rdfTypes": [
-                        {
-                            "uri": "http://www.semanticweb.org/grupo07/ontologies/class#Park",
-                            "curie": "gr07Plants:Park"
-                        }
-                    ]
-                }
-            ]
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
         },
         "description": "Save RDF schema skeleton"
     },
@@ -4659,5 +3714,153 @@
             }
         ],
         "description": "Mass edit cells in column Park_URL"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "ESPECIE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "ESPECIE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "list",
+                    "name": "PARQUE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "PARQUE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "Park_URL",
+                    "columnName": "Park_URL",
+                    "query": "odon",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "Park_URL",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "cuña_verde_de_odonnell_y_p_f_fuente_carrantona"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "parque_de_la_cuna_verde_de_odonnell"
+            }
+        ],
+        "description": "Mass edit cells in column Park_URL"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "ESPECIE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "ESPECIE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "list",
+                    "name": "PARQUE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "PARQUE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "Park_URL",
+                    "columnName": "Park_URL",
+                    "query": "odon",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "nombreSinEspacios",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "cuña_verde_de_odonnell_y_p_f_fuente_carrantona"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "parque_de_la_cuna_verde_de_odonnell"
+            }
+        ],
+        "description": "Mass edit cells in column nombreSinEspacios"
     }
 ]

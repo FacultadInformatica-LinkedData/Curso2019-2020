@@ -1,51 +1,27 @@
 package semanticweb.model.resources;
 
+import java.net.MalformedURLException;
+
 public class Tree {
     private String name;
-    private String description;
-    private String clase;
-    private String division;
-    private String family;
-    private String quantity;
+    private String image;
 
-  public String getName() {
-        return name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public String getClase() {
-        return clase;
-    }
-
-    public String getDivision() {
-        return division;
-    }
-
-    public String getFamily() {
-        return family;
+    public Tree() {
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setImage(String image) {
+        this.image = image;
     }
 
-    public void setClase(String clase) {
-        this.clase = clase;
+    public String getName() {
+        return name;
     }
 
-    public void setDivision(String division) {
-        this.division = division;
+    public String getImage() {
+        return image;
     }
-
-    public void setFamily(String family) {
-        this.family = family;
-    }
-
 }

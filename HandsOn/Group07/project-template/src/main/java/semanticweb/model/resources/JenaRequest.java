@@ -1,58 +1,35 @@
 package semanticweb.model.resources;
 
-<<<<<<< HEAD
-import java.io.InputStream;
-
-import org.apache.jena.ontology.Individual;
-import org.apache.jena.ontology.OntClass;
-import org.apache.jena.ontology.OntModel;
-=======
-import org.apache.jena.ontology.*;
->>>>>>> upstream/master
-import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.query.*;
+import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.util.FileManager;
-import org.apache.jena.util.iterator.ExtendedIterator;
 
 import java.io.InputStream;
+import java.util.ArrayList;
 
 public class JenaRequest {
-    private static String ns = "http://www.semanticweb.org/grupo07/ontologies#";
-    public static String topo = "http://data.ign.fr/def/topo#";
-    private static String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
-    private static String owl = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
-    private static String xsd = "http://www.w3.org/2001/XMLSchema#";
-    private static String rdfs = "http://www.w3.org/2000/01/rdf-schema#";
-    private static String stringTypeURI = "http://www.w3.org/2001/XMLSchema#string";
-    private static String schema = "http://schema.org/";
-<<<<<<< HEAD
-    private static String lat=  "<http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude>";
-    private static String lon= "<http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud>";
-    private static  OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
 
+    public static Park ParkRequest(String latitude, String longitude) {
 
-    public static void main(String[] args) {
-        String filename = "/home/javier/universidad/4º curso/semantic_web_and_linked_data/curso2019-2020/Curso2019-2020/HandsOn/Group07/project-template/src/main/java/semanticweb/model/resources/parques-jardines-with-links.ttl";
-        OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
-        InputStream in = FileManager.get().open(filename);
-        if (in == null)
-            throw new IllegalArgumentException("File: "+filename+" not found");
+        String filePark = "src/main/java/semanticweb/model/resources/parques-jardines-with-links.ttl";
+        Model modelPark = ModelFactory.createDefaultModel();
+        InputStream inPark = FileManager.get().open(filePark);
 
-        model.read(in, null);
-        OntClass parkclass = model.getOntClass(ns+"Park");
-        ExtendedIterator parkInstances = parkclass.listInstances();
+        String fileTree = "src/main/java/semanticweb/model/resources/ArboladoParquesHistoricoSingularesForestales.ttl";
+        Model modelTree = ModelFactory.createDefaultModel();
+        InputStream inTree = FileManager.get().open(fileTree);
 
-        int i=0;
-        while (parkInstances.hasNext())
-        {
-            Individual instance = (Individual) parkInstances.next();
-            System.out.println("Instance of Person "+ ++i +": "+instance.getURI());
-        }
-=======
-    private static String lat = "<http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude>";
-    private static String lon = "<http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud>";
+        if (inPark == null)
+            throw new IllegalArgumentException("File: " + filePark + " not found");
 
-    public static Park ParkRequest(String latitude, String longitude, Model model) {
+        if (inTree == null)
+            throw new IllegalArgumentException("File: " + fileTree + " not found");
+
+        modelPark.read("src/main/java/semanticweb/model/resources/parques-jardines-with-links.ttl");
+        modelTree.read("src/main/java/semanticweb/model/resources/ArboladoParquesHistoricoSingularesForestales.ttl");
+
 
         String queryString = "SELECT ?park ?name ?description ?bus ?under " +
                 "WHERE { ?park a <http://www.semanticweb.org/grupo07/ontologies/class#Park> ; " +
@@ -64,19 +41,89 @@ public class JenaRequest {
                 "<http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude> \"" + latitude + "\" }";
 
         Query query = QueryFactory.create(queryString);
-        QueryExecution qexec = QueryExecutionFactory.create(query, model);
+        QueryExecution qexec = QueryExecutionFactory.create(query, modelPark);
         ResultSet results = qexec.execSelect();
         String name = "";
         String transport = "";
         String description = "";
+        Resource Subject = null;
+
         while (results.hasNext()) {
             QuerySolution binding = results.nextSolution();
-            Resource Subject = binding.getResource("park");
+            Subject = binding.getResource("park");
             System.out.println("Parque " + Subject.getURI());
             name = binding.getLiteral("name").getString();
-            transport= "BUS: "+ binding.getLiteral("bus").getString()+"\n";
-            transport+= "METRO: "+ binding.getLiteral("under").getString();
+            transport = "BUS: " + binding.getLiteral("bus").getString() + "\n";
+            transport += "METRO: " + binding.getLiteral("under").getString();
             description += binding.getLiteral("description").getString() + "\n";
+        }
+        ArrayList<String> trees = new ArrayList<>();
+        ArrayList<Tree> parkTrees = new ArrayList<>();
+
+        try {
+            String queryTrees = "SELECT ?espcie ?uri " +
+                    " WHERE {" +
+                    " ?uri a <http://www.semanticweb.org/grupo07/ontologies/class#Park> ; " +
+                    " <http://www.semanticweb.org/grupo07/ontologies/property#hasEspecie> ?espcie ;" +
+                    "     FILTER (?uri = <" + Subject.getURI() + ">) }";
+            Query queryTree = QueryFactory.create(queryTrees);
+            QueryExecution qexecTree = QueryExecutionFactory.create(queryTree, modelTree);
+            ResultSet result = qexecTree.execSelect();
+            while (result.hasNext()) {
+                QuerySolution binding = result.nextSolution();
+                Subject = binding.getResource("espcie");
+                trees.add(Subject.getURI());
+            }
+            for (String tree : trees) {
+                String queryEscpecie = "SELECT ?especie ?sameas " +
+                        " WHERE {" +
+                        " ?especie a <http://www.semanticweb.org/grupo07/ontologies/class#Especie> ; " +
+                        " <http://www.w3.org/2002/07/owl#sameAs> ?sameas ; " +
+                        "     FILTER (?especie = <" + tree + ">) }";
+                Query queryEspecie = QueryFactory.create(queryEscpecie);
+                QueryExecution qexecEspecie = QueryExecutionFactory.create(queryEspecie, modelTree);
+                ResultSet resultEspecie = qexecEspecie.execSelect();
+                ArrayList<String> especies = new ArrayList<>();
+
+                while (resultEspecie.hasNext()) {
+                    QuerySolution binding = resultEspecie.nextSolution();
+                    especies.add(binding.getResource("sameas").getURI());
+                }
+                for (String especie : especies) {
+                    String[] elements = especie.split("/");
+                    String element = elements[elements.length - 1];
+
+                    String queryEspecieResource =
+                            "PREFIX bd: <http://www.bigdata.com/rdf#>\n" +
+                                    "PREFIX wikibase: <http://wikiba.se/ontology#>\n" +
+                                    "PREFIX wdt: <http://www.wikidata.org/prop/direct/>\n" +
+                                    "PREFIX wd: <http://www.wikidata.org/entity/>\n" +
+                                    "SELECT distinct ?object ?image where { " +
+                                    "wd:" + element + " wdt:P225 ?object. " +
+                                    "wd:" + element + " wdt:P18 ?image. " +
+                                    "SERVICE wikibase:label { bd:serviceParam wikibase:language \"[AUTO_LANGUAGE]\". }}";
+                    System.out.println("Especie: " + especie);
+
+                    Query newquery = QueryFactory.create(queryEspecieResource);
+                    QueryExecution newqexec = QueryExecutionFactory.sparqlService("https://query.wikidata.org/sparql", newquery);
+                    ResultSet resultsEspecieR = null;
+                    Tree auxTree = new Tree();
+                    try {
+                        resultsEspecieR = newqexec.execSelect();
+                        QuerySolution binding = resultsEspecieR.nextSolution();
+                        String treeName = binding.getLiteral("object").getString();
+                        auxTree.setName(treeName);
+                        auxTree.setImage(binding.getResource("image").getURI());
+
+                    } catch (Exception ex) {
+                        auxTree.setImage("Not Found");
+                    }
+                    newqexec.close();
+                    parkTrees.add(auxTree);
+                }
+            }
+        } catch (Exception ex) {
+            parkTrees = new ArrayList<>();
         }
 
         Park park = new Park();
@@ -85,23 +132,15 @@ public class JenaRequest {
         park.setTransport(transport);
         park.setLatitude(latitude);
         park.setLongitude(longitude);
+        park.setTrees(parkTrees);
         return park;
 >>>>>>> upstream/master
     }
 
-/*
     public static void main(String[] args) {
-        String filename = "src/main/java/semanticweb/model/resources/parques-jardines-with-links.ttl";
-        Model model = ModelFactory.createDefaultModel();
-        InputStream in = FileManager.get().open(filename);
-        if (in == null)
-            throw new IllegalArgumentException("File: " + filename + " not found");
 
-        model.read("src/main/java/semanticweb/model/resources/parques-jardines-with-links.ttl");
+        Park p = ParkRequest("40.45999848510341", "-3.6148888706303586");
+        System.out.println(p.getTrees());
 
-        Park p = ParkRequest("40.43346186779773", "-3.6785954778654113", model);
-        System.out.println(p.getTransport());
-        System.out.println("Working Directory = " +
-                System.getProperty("user.dir"));
-    } */
+    }
 }

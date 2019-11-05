@@ -1,0 +1,144 @@
+html, body{
+	height:100%;
+}
+body {
+   background: linear-gradient(rgba(71, 216, 27, 0.1), rgba(91, 212, 21, 0.1));
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:100% 100%;
+   margin:0px !important;
+ }
+
+.footer{
+    text-align: center;
+    margin-top: 2%;
+}
+.form{
+    text-align: center
+}
+h1{
+        text-align: center;
+}
+h2{
+    padding-left: 15%;
+    padding-right: 15%
+  }
+.white{
+	color: white
+}
+.h1-about{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%
+  }
+  
+.h1-index{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+  }
+  .h2-index{
+    color: white;
+  }
+.h1-battle{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+    padding-bottom: 3%
+  }
+
+.vs{
+      max-width: 10%;
+      padding-top: 10%;
+  }
+.ta{
+    margin-left: 30%;
+    margin-right: 30%
+}
+.vs2{
+    max-width: 10%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 7%;
+}
+.title {
+    color: grey;
+    font-size: 18px;
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+button:hover, a:hover {
+    opacity: 0.7;
+}
+img.img-responsive-about{
+  padding-top: 4%;
+  max-width: 30%;
+  display:block;
+  margin:auto;
+}
+img.img-responsive-index{
+  max-width: 30%;
+  display:block;
+  margin:auto;
+}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
+    margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit
+}
+.h1,h1{
+    font-size:3.5rem
+}
+.h2,h2{
+    font-size:3rem
+}
+.h3,h3{
+    font-size:1.75rem
+}
+.h4,h4{
+    font-size:1.5rem
+}
+.h5,h5{
+    font-size:1.25rem
+}
+.h6,h6{
+    font-size:1rem
+}
+video {
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: -100;
+	background-size: cover
+}
+td, th{
+	 max-width: 25%;
+}
+
+#hiddenDiv{
+    display:none
+}
