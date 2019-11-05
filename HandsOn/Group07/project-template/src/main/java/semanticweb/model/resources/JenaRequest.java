@@ -1,17 +1,11 @@
 package semanticweb.model.resources;
 
-import org.apache.jena.query.Query;
-import org.apache.jena.query.QueryExecution;
-import org.apache.jena.query.QueryExecutionFactory;
-import org.apache.jena.query.QueryFactory;
-import org.apache.jena.query.QuerySolution;
-import org.apache.jena.query.ResultSet;
+import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.util.FileManager;
 
-import javax.security.auth.Subject;
 import java.io.InputStream;
 import java.util.ArrayList;
 
@@ -96,15 +90,42 @@ public class JenaRequest {
                     especies.add(binding.getResource("sameas").getURI());
                 }
                 for (String especie : especies) {
-                    //TODO:execute query
-                    //TODO: parkTrees.append each result
-                    System.out.println(especie);
+                    String[] elements = especie.split("/");
+                    String element = elements[elements.length - 1];
+
+                    String queryEspecieResource =
+                            "PREFIX bd: <http://www.bigdata.com/rdf#>\n" +
+                                    "PREFIX wikibase: <http://wikiba.se/ontology#>\n" +
+                                    "PREFIX wdt: <http://www.wikidata.org/prop/direct/>\n" +
+                                    "PREFIX wd: <http://www.wikidata.org/entity/>\n" +
+                                    "SELECT distinct ?object ?image where { " +
+                                    "wd:" + element + " wdt:P225 ?object. " +
+                                    "wd:" + element + " wdt:P18 ?image. " +
+                                    "SERVICE wikibase:label { bd:serviceParam wikibase:language \"[AUTO_LANGUAGE]\". }}";
+                    System.out.println("Especie: " + especie);
+
+                    Query newquery = QueryFactory.create(queryEspecieResource);
+                    QueryExecution newqexec = QueryExecutionFactory.sparqlService("https://query.wikidata.org/sparql", newquery);
+                    ResultSet resultsEspecieR = null;
+                    Tree auxTree = new Tree();
+                    try {
+                        resultsEspecieR = newqexec.execSelect();
+                        QuerySolution binding = resultsEspecieR.nextSolution();
+                        String treeName = binding.getLiteral("object").getString();
+                        auxTree.setName(treeName);
+                        auxTree.setImage(binding.getResource("image").getURI());
+
+                    } catch (Exception ex) {
+                        auxTree.setImage("Not Found");
+                    }
+                    newqexec.close();
+                    parkTrees.add(auxTree);
                 }
             }
         } catch (Exception ex) {
             parkTrees = new ArrayList<>();
-
         }
+
         Park park = new Park();
         park.setName(name);
         park.setDescription(description);
@@ -115,13 +136,10 @@ public class JenaRequest {
         return park;
     }
 
-
     public static void main(String[] args) {
-
 
         Park p = ParkRequest("40.45999848510341", "-3.6148888706303586");
         System.out.println(p.getTrees());
-
 
     }
 }
