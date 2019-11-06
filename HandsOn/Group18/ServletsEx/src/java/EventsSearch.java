@@ -19,6 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(urlPatterns = {"/EventsSearch"})
 public class EventsSearch extends HttpServlet {
 
+
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -31,8 +32,6 @@ public class EventsSearch extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        response.sendRedirect("home.jsp");  
-        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
@@ -47,7 +46,7 @@ public class EventsSearch extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.sendRedirect("home.jsp");  
+           
     }
 
     /**
@@ -63,23 +62,58 @@ public class EventsSearch extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html");
         response.setCharacterEncoding("UTF-8");
+       
+        //Obtener los filtros del request
         
-        String dateIn = request.getParameter("datein");
-        String dateOut = request.getParameter("dateout");
+        String dateIn = null;
+        String dateOut = null;
+
+         if (request.getParameter("datein") != null) {
+            dateIn = request.getParameter("datein");
+        }
+        if (request.getParameter("dateout") != null) {
+            dateOut = request.getParameter("dateout");
+        }
+        
+        
+        
+       String type[] = null;
+       String audience[]=null;
+       
+         if (request.getParameterValues("Tipo") != null) {
+            type = request.getParameterValues("Tipo");
+        }
+          if (request.getParameterValues("Audiencia") != null) {
+            audience = request.getParameterValues("Audiencia");
+        }
+ 
+          
+        //QUERY PARA OBTENER LOS TIPOS DE EVENTOS
+        
+        String Tipo[] = {"Cultura", "Deporte", "Juegos"};
+    
+        request.setAttribute("Tipo", Tipo);
+        
+       //QUERY PARA OBTENER LOS TIPOS DE AUDIENCIA
+        String Audiencia[] = {"Niños", "Familia", "Otros"};
+        
+        request.setAttribute("Audiencia", Audiencia);
+        
+        //AQUI QUERY PARA OBTENER LOS EVENTOS
+        String Eventos[] = {"Niños", "Familia", "Otros"};
+        
+        
+        request.setAttribute("Eventos", Eventos);
+ 
+        
+        
+        
         request.setAttribute("datein", dateIn);
         request.setAttribute("dateout", dateOut);
-        
-        //Obtener todos los tipos de evento
-        String Etypes[] = {"Cultura","Deporte","Juegos"};
-        request.setAttribute("Etypes", Etypes);
-        //Obtener todos los tipos de auiencia
-        String Atypes[] = {"Niños","Familia","Otros"};
-        request.setAttribute("Atypes", Atypes);
 
-       ///FOR MULTIPLE CHECKBOX
-     //  String hobbise [] = request.getParameterValues(“hobbies“) ; 
-       request.getRequestDispatcher("principalPage.jsp").forward(request, response);
-      
+        
+        
+        request.getRequestDispatcher("principalPage.jsp").forward(request, response);
 
     }
 

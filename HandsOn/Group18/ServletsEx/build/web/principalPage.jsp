@@ -31,10 +31,12 @@
                 <div class="list-group list-group-flush">
                     <%
 
-                        //for () {
+                       String Eventos[] = (String[]) request.getAttribute("Eventos");
+                                        
+                                            for (String t : Eventos) {
                     %>
-                    <a href="#" class="list-group-item list-group-item-action bg-light"><% %></a>
-                    <%                        //}
+                    <a href="#" class="list-group-item list-group-item-action bg-light"><%=t %></a>
+                    <%                        }
                     %>
                 </div>
             </div>
@@ -45,27 +47,25 @@
 
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <button class="btn btn-primary" id="menu-toggle">></button>
-
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <form class="" method="post" id="dateFilterS" action="EventsSearch" autocomplete="off">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item">
-                                    <input class="form-control" placeholder="Desde:" id="datein" width="270" value=<%=request.getParameter("datein") %>/>
+                                    <input class="form-control" placeholder="Desde:" id="datein" name="datein" width="270" value="<%=request.getParameter("datein") %>"/>
                                 </li>
                                 <li class="nav-item">
-                                    <input class="form-control" placeholder="Hasta:" id="dateout" width="270" value=<%=request.getParameter("dateout") %>/>
+                                    <input class="form-control" placeholder="Hasta:" id="dateout" name="dateout" width="270" value="<%=request.getParameter("dateout") %>"/>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Audiencia
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                        <% String Atypes[] = (String[]) request.getAttribute("Atypes");
-                                            for (String t : Atypes) {
+                                        <% 
+                                            
+                                            String Audiencia[] = (String[]) request.getAttribute("Audiencia");
+                                        
+                                            for (String t : Audiencia) {
                                         %>
                                         <div class="checkbox">
                                             <label><input type="checkbox" name="audience" value="<%=t%>"> <%=t%></label>
@@ -82,8 +82,8 @@
                                         Tipo
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                        <% String Etypes[] = (String[]) request.getAttribute("Etypes");
-                                            for (String t : Etypes) {
+                                        <% String Types[] = (String[]) request.getAttribute("Tipo");
+                                            for (String t : Types) {
                                         %>
                                         <div class="checkbox">
                                             <label><input type="checkbox" name="type" value="<%=t%>"> <%=t%></label>
@@ -92,7 +92,7 @@
                                         <%
                                             }
                                         %>
-                                        <!--<div class="dropdown-divider"></div>!-->
+                                       
 
                                     </div>
                                 </li>
