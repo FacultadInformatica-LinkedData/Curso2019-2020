@@ -134,6 +134,7 @@ public class JenaRequest {
         park.setLongitude(longitude);
         park.setTrees(parkTrees);
         return park;
+
     }
 
     public static void main(String[] args) {
