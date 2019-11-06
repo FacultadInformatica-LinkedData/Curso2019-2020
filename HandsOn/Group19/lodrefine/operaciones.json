@@ -1,0 +1,442 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "FECHA",
+    "expression": "grel:value + \" \" + cells[\"HORA\"].value",
+    "onError": "set-to-blank",
+    "newColumnName": "Fecha y hora",
+    "columnInsertIndex": 2,
+    "description": "Create column Fecha y hora at index 2 based on column FECHA using expression grel:value + \" \" + cells[\"HORA\"].value"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha y hora",
+    "expression": "grel:replaceChars(value,\"/\",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Fecha y hora using expression grel:replaceChars(value,\"/\",\"-\")"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha y hora",
+    "expression": "grel:value+\":00\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Fecha y hora using expression grel:value+\":00\""
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CALLE",
+    "expression": "grel:if (indexOf(value,\"/\") != -1, substring(value, 0, indexOf(value,\"/\")), value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CALLE using expression grel:if (indexOf(value,\"/\") != -1, substring(value, 0, indexOf(value,\"/\")), value)"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group19/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "baseUri": "http://www.semanticweb.org/group19/ontology/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Nº  EXPEDIENTE",
+          "expression": "\"http://www.semanticweb.org/group19/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group19/ontology/hasDistrict",
+              "curie": "ont:hasDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "DISTRITO",
+                "expression": "\"http://www.semanticweb.org/group19/ontology/\" + replaceChars(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/group19/ontology#District",
+                    "curie": "ont:District"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group19/ontologyhasDateTime",
+              "curie": "ont:hasDateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha y hora",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group19/ontology/hasType",
+              "curie": "ont:hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TIPO ACCIDENTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group19/ontology/hasWeather",
+              "curie": "ont:hasWeather",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ESTADO METEREOLÓGICO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group19/ontology/hasPersonType",
+              "curie": "ont:hasPersonType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TIPO PERSONA",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group19/ontology/hasAgeRange",
+              "curie": "ont:hasAgeRange",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "RANGO DE EDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group19/ontology/hasGenre",
+              "curie": "ont:hasGenre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "SEXO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group19/ontology/hasInjury",
+              "curie": "ont:hasInjury",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LESIVIDAD*",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group19/ontology/hasStreet",
+              "curie": "ont:hasStreet",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "CALLE",
+                "expression": "\"http://www.semanticweb.org/group19/ontology/\"+replaceChars(value,\" \",\"\")",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/group19/ontology#Street",
+                    "curie": "ont:Street"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group19/ontology#Accident",
+              "curie": "ont:Accident"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]

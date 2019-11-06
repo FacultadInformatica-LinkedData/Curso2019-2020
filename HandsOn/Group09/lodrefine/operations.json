@@ -1,0 +1,241 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "CATALOGOS_IMPRESOS",
+    "description": "Remove column CATALOGOS_IMPRESOS"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "OBSERVACIONES",
+    "description": "Remove column OBSERVACIONES"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PRESTAMO_INTERBIBLIOTECARIO",
+    "description": "Remove column PRESTAMO_INTERBIBLIOTECARIO"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "(",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column NOMBRE by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NOMBRE 2",
+    "description": "Remove column NOMBRE 2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NOMBRE 3",
+    "description": "Remove column NOMBRE 3"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE 1",
+    "newColumnName": "NOMBRE",
+    "description": "Rename column NOMBRE 1 to NOMBRE"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "INSTITUCION",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "(",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column INSTITUCION by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "INSTITUCION 2",
+    "description": "Remove column INSTITUCION 2"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "INSTITUCION 1",
+    "newColumnName": "INSTITUCION",
+    "description": "Rename column INSTITUCION 1 to INSTITUCION"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CODIGO",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CODIGO using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CODIGO",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CODIGO using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CODIGO",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CODIGO using expression value.toString()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TRANSPORTE",
+    "description": "Remove column TRANSPORTE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "AÑO_FUNDACION",
+    "newColumnName": "FECHA_FUNDACION",
+    "description": "Rename column AÑO_FUNDACION to FECHA_FUNDACION"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA_FUNDACION",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column FECHA_FUNDACION using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PROVINCIA",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PROVINCIA using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NOMBRE using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "INSTITUCION",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column INSTITUCION using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CODIGO_POSTAL",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CODIGO_POSTAL using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "INSTITUCION",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column INSTITUCION using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CODIGO",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CODIGO using expression value.toNumber()"
+  }
+]
