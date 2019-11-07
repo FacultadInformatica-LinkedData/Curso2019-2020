@@ -60,11 +60,56 @@
     "columnName": "TIPO"
   },
   {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITO to type Q3032114",
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Centro (Q1763376) for cells containing \"DISTRITO\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "DISTRITO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1763376",
+      "name": "Centro",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
-      "baseUri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo/",
+      "baseUri": "http://www.madridcen.es/group30/recurso/",
       "prefixes": [
+        {
+          "name": "mp",
+          "uri": "http://www.madridcen.es/group30/ontologia/propiedad#"
+        },
         {
           "name": "rdf",
           "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -75,7 +120,7 @@
         },
         {
           "name": "mc",
-          "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#"
+          "uri": "http://www.madridcen.es/group30/ontologia/clase#"
         },
         {
           "name": "sch",
@@ -89,29 +134,31 @@
       "rootNodes": [
         {
           "nodeType": "cell-as-resource",
-          "expression": "replaceChars(replaceChars(replaceChars(replaceChars(replaceChars(replaceChars(replace(replaceChars(value,\" \",\"\"),\"CentroDeportivoMunicipal\",\"\"),\"á\",\"a\"),\"í\",\"i\"),\"é\",\"e\"),\"ó\",\"o\"),\"ú\",\"u\"),\"ü\",\"u\")",
+          "expression": "\"CentroDeportivo/\"+replaceChars(replaceChars(replaceChars(replaceChars(replaceChars(replaceChars(replace(replaceChars(value,\" \",\"\"),\"CentroDeportivoMunicipal\",\"\"),\"á\",\"a\"),\"í\",\"i\"),\"é\",\"e\"),\"ó\",\"o\"),\"ú\",\"u\"),\"ü\",\"u\")",
           "isRowNumberCell": false,
           "columnName": "NOMBRE",
           "rdfTypes": [
             {
-              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#CentroDeportivo",
+              "uri": "http://www.madridcen.es/group30/ontologia/clase#CentroDeportivo",
               "curie": "mc:CentroDeportivo"
             }
           ],
           "links": [
             {
-              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#distrito",
-              "curie": "mc:distrito",
+              "uri": "http://www.madridcen.es/group30/ontologia/propiedad#tieneDistrito",
+              "curie": "mp:tieneDistrito",
               "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
+                "nodeType": "cell-as-resource",
+                "expression": "\"Distrito/\"+value",
                 "isRowNumberCell": false,
-                "columnName": "DISTRITO"
+                "columnName": "DISTRITO",
+                "rdfTypes": [],
+                "links": []
               }
             },
             {
-              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#provincia",
-              "curie": "mc:provincia",
+              "uri": "http://www.madridcen.es/group30/ontologia/propiedad#provincia",
+              "curie": "mp:provincia",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -120,8 +167,8 @@
               }
             },
             {
-              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#via",
-              "curie": "mc:via",
+              "uri": "http://www.madridcen.es/group30/ontologia/propiedad#via",
+              "curie": "mp:via",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -130,8 +177,8 @@
               }
             },
             {
-              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#codigoPostal",
-              "curie": "mc:codigoPostal",
+              "uri": "http://www.madridcen.es/group30/ontologia/propiedad#codigoPostal",
+              "curie": "mp:codigoPostal",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -140,8 +187,8 @@
               }
             },
             {
-              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#email",
-              "curie": "mc:email",
+              "uri": "http://www.madridcen.es/group30/ontologia/propiedad#email",
+              "curie": "mp:email",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -150,8 +197,8 @@
               }
             },
             {
-              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#telefono",
-              "curie": "mc:telefono",
+              "uri": "http://www.madridcen.es/group30/ontologia/propiedad#telefono",
+              "curie": "mp:telefono",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -160,8 +207,8 @@
               }
             },
             {
-              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#horario",
-              "curie": "mc:horario",
+              "uri": "http://www.madridcen.es/group30/ontologia/propiedad#horario",
+              "curie": "mp:horario",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -170,8 +217,8 @@
               }
             },
             {
-              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#equipamiento",
-              "curie": "mc:equipamiento",
+              "uri": "http://www.madridcen.es/group30/ontologia/propiedad#equipamiento",
+              "curie": "mp:equipamiento",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -180,8 +227,8 @@
               }
             },
             {
-              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#transporte",
-              "curie": "mc:transporte",
+              "uri": "http://www.madridcen.es/group30/ontologia/propiedad#transporte",
+              "curie": "mp:transporte",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -190,8 +237,8 @@
               }
             },
             {
-              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#barrio",
-              "curie": "mc:barrio",
+              "uri": "http://www.madridcen.es/group30/ontologia/propiedad#barrio",
+              "curie": "mp:barrio",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -200,8 +247,8 @@
               }
             },
             {
-              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#localidad",
-              "curie": "mc:localidad",
+              "uri": "http://www.madridcen.es/group30/ontologia/propiedad#localidad",
+              "curie": "mp:localidad",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -213,13 +260,13 @@
         },
         {
           "nodeType": "cell-as-resource",
-          "expression": "value",
+          "expression": "\"Distrito/\" +value",
           "isRowNumberCell": false,
           "columnName": "DISTRITO",
           "rdfTypes": [
             {
-              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#distrito",
-              "curie": "mc:distrito"
+              "uri": "http://www.madridcen.es/group30/ontologia/clase#Distrito",
+              "curie": "mc:Distrito"
             }
           ],
           "links": [
@@ -227,61 +274,27 @@
               "uri": "http://www.w3.org/2002/07/owl#sameAs",
               "curie": "owl:sameAs",
               "target": {
-                "nodeType": "cell-as-literal",
+                "nodeType": "cell-as-resource",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "mc:distrito"
+                "columnName": "mc:distrito",
+                "rdfTypes": [],
+                "links": []
               }
             }
           ]
         },
         {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "BARRIO",
-          "rdfTypes": [
-            {
-              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#barrio",
-              "curie": "mc:barrio"
-            }
-          ],
-          "links": [
-            {
-              "uri": "http://www.w3.org/2002/07/owl#sameAs",
-              "curie": "owl:sameAs",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "mc:barrio"
-              }
-            }
-          ]
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
         },
         {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "columnName": "LOCALIDAD",
-          "rdfTypes": [
-            {
-              "uri": "http://www.madridcen.es/group30/ontologia/CentroDeportivo#localidad",
-              "curie": "mc:localidad"
-            }
-          ],
-          "links": [
-            {
-              "uri": "http://www.w3.org/2002/07/owl#sameAs",
-              "curie": "owl:sameAs",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "mc:localidad"
-              }
-            }
-          ]
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
         }
       ]
     }
