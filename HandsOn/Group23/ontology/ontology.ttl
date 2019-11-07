@@ -1,0 +1,225 @@
+@prefix : <http://www.calidadaireMAD.es/ontology/MStation#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.calidadaireMAD.es/ontology/MStation#> .
+
+: rdf:type owl:ontology .
+
+#Classes and subclasses
+
+:Station rdf:type owl:Class .
+
+:Measurement rdf:type owl:Class .
+
+:Location rdf:type owl:Class .
+
+
+#Object properties
+
+:hasLocation rdf:type owl:ObjectProperty;
+             rdf:domain :Station;
+             rdfs:range  :Location .
+
+:hasStation rdf:type owl:ObjectProperty;
+              rdf:domain :Measurement;
+              rdfs:range :Station .
+
+#Data properties
+:codVia   rdf:type owl:DatatypeProperty;
+          rdfs:domain :Location;
+          rdfs:range xsd:Integer .
+
+:codDistrito rdf:type owl:DatatypeProperty;
+             rdfs:domain :Location;
+             rdfs:range xsd:Integer .
+
+:calle1   rdf:type owl:DatatypeProperty;
+          rdfs:domain :Location;
+          rdfs:range xsd:String .
+
+:calle2   rdf:type owl:DatatypeProperty;
+          rdfs:domain :Location;
+          rdfs:range xsd:String .
+
+:province    rdf:type owl:DatatypeProperty;
+             rdfs:domain :Location;
+             rdfs:range xsd:Integer .
+
+
+:city        rdf:type owl:DatatypeProperty;
+             rdfs:domain :Location;
+             rdfs:range xsd:Integer .
+
+
+:street   rdf:type owl:DatatypeProperty;
+          rdfs:domain :Location;
+          rdfs:range xsd:Integer .
+
+:time     rdf:type owl:DatatypeProperty;
+          rdfs:domain :Measurement;
+          rdfs:range xsd:dateTime .
+
+:magnitude rdf:type owl:DatatypeProperty;
+           rdfs:domain :Measurement;
+           rdfs:range xsd:Integer .
+
+##Validness of a measurement
+
+:validness01 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+
+:validness02 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+
+:validness03 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness04 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness05 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness06 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness07 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness08 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness09 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness10 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness11 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness12 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness13 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness14 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness15 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness16 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness17 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness18 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness19 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness20 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness21 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness22 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness23 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+:validness24 rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:boolean .
+
+#Values of the measurement
+
+:value01     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value02     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value03     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value04     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value05     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value06     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value07     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value08     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value09     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value10     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value11     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value12     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value13     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value14     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value15     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value16     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value17     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value18     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value19     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value20     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value21     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value22     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value23     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+:value24     rdf:type owl:DatatypeProperty;
+             rdfs:domain :Measurement;
+             rdfs:range xsd:Integer .
+                      
+    
+
+
+
+
+

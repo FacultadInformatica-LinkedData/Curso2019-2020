@@ -20,7 +20,7 @@
 - [X] Is serialized in the Turtle format
 - [X] Follows the resource naming strategy
 - [X] Contains at least one class
-- [ ] Contains at least one object property (where the value of the property is a resource)
+- [X] Contains at least one object property (where the value of the property is a resource)
 - [X] Contains at least one datatype property (where the value of the property is a string literal, usually typed)
 - [X] Defines the domain of all the properties (the origin of the property)
 - [X] Defines the range of all the properties (the destination of the property)
