@@ -43,7 +43,7 @@ public class Init {
 		queryString.setNsPrefix("insta", "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#");
 		queryString.setNsPrefix("clase", "http://www.instalacionesDeportivasMunicipales.es/ontology#");
 		queryString.setNsPrefix("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
-		queryString.append("SELECT DISTINCT ?name ?y WHERE{ ?x insta:name ?name . ?x ");
+		queryString.append("SELECT DISTINCT ?name ?query WHERE{ ?x insta:name ?name . ?x ");
 		switch(option) {
 		
 		case ("Distrito"): queryString.append("insta:hasDistrict"); break;
@@ -68,10 +68,9 @@ public class Init {
 			
 		}
 		
-		queryString.append(" ?y . ");
-//		queryString.append("FILTER regex(?label,");
-//		queryString.appendLiteral(query);
-//		queryString.append(",\"i\")");
+		queryString.append(" ?query . FILTER regex(str(?query),");
+		queryString.appendLiteral(query);
+		queryString.append(",\"i\")");
 		queryString.append("}");
 		
 		QueryExecution qExec = QueryExecutionFactory.create(queryString.asQuery(),obj.model);
@@ -85,6 +84,6 @@ public class Init {
 	}
 
 	public static void main(String[] args) {
-		consulta(new Init(),"Provincia","MADRID").forEach(element -> {System.out.println(element);});;
+		consulta(new Init(),"Código Postal","28029").forEach(element -> {System.out.println(element);});;
 	}
 }
