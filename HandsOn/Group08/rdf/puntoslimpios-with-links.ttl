@@ -1,0 +1,264 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix g08: <http://group08.data/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+<http://puntoslimpios/19960> rdfs:hasDistrito <http://puntoslimpios/ARGANZUELA> ;
+	g08:hasHorario "De lunes a sábados de 8 a 20 horas. Domingos y festivos de 9 a 14 horas. Los dí­as 24 y 31 de diciembre de 8 a 14 horas. Cerrado dí­as 25 de diciembre y 1 y 6 de enero." ;
+	g08:hasEstacionMetro "Méndez Álvaro (línea 6)" ;
+	g08:hasBus "148, 102, 152" ;
+	g08:hasDescripcion "El traslado de residuos correrá a cuenta de la persona interesada que solo podrá acceder con un  vehículo particular.No se permitirá el acceso a furgonetas  rotuladas o con publicidad, ya que éstas se consideran vehículos industriales, salvo previa autorización municipal (Información relacionada). Si tiene dudas puede contactar con el teléfono 010 Lí­nea Madrid (915 298 210 si llama desde fuera de la ciudad de Madrid)." ;
+	g08:hasURI <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8c3592355c51c010VgnVCM2000000c205a0aRCRD> ;
+	g08:hasVia "ESTRELLA DENEBOLA" ;
+	rdfs:label "CALLE" , "V" ;
+	g08:hasAddress "5"^^xsd:int ;
+	g08:hasLocalidad "MADRID" ;
+	g08:hasPostalCode "28045"^^xsd:int ;
+	geo:location "DELICIAS" ;
+	geo:lat "40.39419901357015"^^xsd:double ;
+	geo:long "-3.6834210425750737"^^xsd:double ;
+	g08:hasPk "19960"^^xsd:int .
+
+<http://puntoslimpios/ARGANZUELA> a g08:isDistrito ;
+	rdfs:label "ARGANZUELA" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://puntoslimpios/M%C3%A9ndez+%C3%81lvaro+%28l%C3%ADnea+6%29> a g08:hasMetro ;
+	rdfs:label <http://puntoslimpios/M%C3%A9ndez+%C3%81lvaro+%28l%C3%ADnea+6%29> ;
+	owl:sameAs <http://dbpedia.org/resource/Mendez_Alvaro_(Madrid_Metro)> .
+
+<http://puntoslimpios/DELICIAS> a g08:isBarrio ;
+	rdfs:label <http://puntoslimpios/DELICIAS> ;
+	owl:sameAs <http://dbpedia.org/resource/Las_Delicias_(Madrid)> .
+
+<http://puntoslimpios/138166> rdfs:hasDistrito <http://puntoslimpios/BARAJAS> ;
+	g08:hasHorario "De lunes a sábados de 8 a 20 horas. Domingos y festivos de 9 a 14 horas. Los dí­as 24 y 31 de diciembre de 8 a 14 horas. Cerrado dí­as 25 de diciembre y 1 y 6 de enero." ;
+	g08:hasEstacionMetro "Barajas (línea 8)" ;
+	g08:hasBus "105, 115" ;
+	g08:hasDescripcion "El traslado de residuos correrá a cuenta de la persona interesada que solo podrá acceder con un  vehí­culo particular.No se  permitirá el acceso a furgonetas  rotuladas o con publicidad, ya que éstas se consideran vehículos industriales, salvo previa autorización municipal (Información relacionada)." ;
+	g08:hasURI <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5fe55f463b81c010VgnVCM1000000b205a0aRCRD> ;
+	g08:hasVia "ALHAURIN" ;
+	rdfs:label "CALLE" , "V" ;
+	g08:hasAddress "5"^^xsd:int ;
+	g08:hasLocalidad "MADRID" ;
+	g08:hasPostalCode "28042"^^xsd:int ;
+	geo:location "TIMON" ;
+	geo:lat "40.473907649051704"^^xsd:double ;
+	geo:long "-3.5855350682202047"^^xsd:double ;
+	g08:hasPk "138166"^^xsd:int .
+
+<http://puntoslimpios/BARAJAS> a g08:isDistrito ;
+	rdfs:label "BARAJAS" ;
+	owl:sameAs <http://dbpedia.org/resource/Barajas_(Madrid)> .
+
+<http://puntoslimpios/Barajas+%28l%C3%ADnea+8%29> a g08:hasMetro ;
+	rdfs:label <http://puntoslimpios/Barajas+%28l%C3%ADnea+8%29> ;
+	owl:sameAs <http://dbpedia.org/resource/Barajas_(Madrid_Metro)> .
+
+<http://puntoslimpios/TIMON> a g08:isBarrio ;
+	rdfs:label <http://puntoslimpios/TIMON> ;
+	owl:sameAs <http://dbpedia.org/resource/Timón_(Madrid)> .
+
+<http://puntoslimpios/135224> rdfs:hasDistrito <http://puntoslimpios/CARABANCHEL> ;
+	g08:hasHorario "De lunes a sábados de 8 a 20 horas. Domingos y festivos de 9 a 14 horas. Los dí­as 24 y 31 de diciembre de 8 a 14 horas. Cerrado dí­as 25 de diciembre y 1 y 6 de enero." ;
+	g08:hasBus "47, 108, 118" ;
+	g08:hasDescripcion "El traslado de residuos correrá a cuenta de la persona interesada que solo podrá acceder con un  vehículo particular.No se permitirá el acceso a furgonetas rotuladas o con publicidad, ya que éstas se consideran vehí­culos industriales, salvo previa autorización municipal (Información relacionada)." ;
+	g08:hasURI <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a5165f463b81c010VgnVCM1000000b205a0aRCRD> ;
+	g08:hasVia "CIDRO" ;
+	rdfs:label "CALLE" , "V" ;
+	g08:hasAddress "5"^^xsd:int ;
+	g08:hasLocalidad "MADRID" ;
+	g08:hasPostalCode "28044"^^xsd:int ;
+	geo:location "BUENAVISTA" ;
+	geo:lat "40.36815527702884"^^xsd:double ;
+	geo:long "-3.7458547551539705"^^xsd:double ;
+	g08:hasPk "135224"^^xsd:int .
+
+<http://puntoslimpios/CARABANCHEL> a g08:isDistrito ;
+	rdfs:label "CARABANCHEL" ;
+	owl:sameAs <http://dbpedia.org/resource/Category:Carabanchel> .
+
+<http://puntoslimpios/BUENAVISTA> a g08:isBarrio ;
+	rdfs:label <http://puntoslimpios/BUENAVISTA> ;
+	owl:sameAs <http://dbpedia.org/resource/Buenavista_(Madrid)> .
+
+<http://puntoslimpios/13893> rdfs:hasDistrito <http://puntoslimpios/CHAMARTIN> ;
+	g08:hasHorario "De lunes a sábados de 8 a 20 horas. Domingos y festivos de 9 a 14 horas. Los dí­as 24 y 31 de diciembre de 8 a 14 horas. Cerrado dí­as 25 de diciembre y 1 y 6 de enero." ;
+	g08:hasBus "7, 11, 40, 52" ;
+	g08:hasDescripcion "El traslado de residuos correrá a cuenta de la persona interesada que solo podrá acceder con un  vehículo particular. No se permitirá el acceso a furgonetas rotuladas o con publicidad, ya que éstas se consideran vehículos industriales, salvo previa autorización municipal (Información relacionada)." ;
+	g08:hasURI <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e9e65a0f8161c010VgnVCM1000000b205a0aRCRD> ;
+	g08:hasVia "ALFONSO XIII" ;
+	rdfs:label "AVENIDA" , "V" ;
+	g08:hasAddress "128"^^xsd:int ;
+	g08:hasOrientacion "ENTRADA JUNTO GASOLINERA" ;
+	g08:hasLocalidad "MADRID" ;
+	g08:hasPostalCode "28016"^^xsd:int ;
+	geo:location "HISPANOAMERICA" ;
+	geo:lat "40.45887476564644"^^xsd:double ;
+	geo:long "-3.6664670709154676"^^xsd:double ;
+	g08:hasPk "13893"^^xsd:int .
+
+<http://puntoslimpios/CHAMARTIN> a g08:isDistrito ;
+	rdfs:label "CHAMARTIN" ;
+	owl:sameAs <http://dbpedia.org/resource/Chamartín_(Madrid)> .
+
+<http://puntoslimpios/HISPANOAMERICA> a g08:isBarrio ;
+	rdfs:label <http://puntoslimpios/HISPANOAMERICA> ;
+	owl:sameAs <http://dbpedia.org/resource/Hispanoamérica> .
+
+<http://puntoslimpios/43200> rdfs:hasDistrito <http://puntoslimpios/CIUDAD+LINEAL> ;
+	g08:hasHorario "De lunes a sábados de 8 a 20 horas. Domingos y festivos de 9 a 14 horas. Los dí­as 24 y 31 de diciembre de 8 a 14 horas. Cerrado dí­as 25 de diciembre y 1 y 6 de enero." ;
+	g08:hasBus "70, 106" ;
+	g08:hasDescripcion "El traslado de residuos correrá a cuenta de la persona interesada que solo podrá acceder con un  vehículo particular. No se permitirá el acceso a furgonetas rotuladas o con publicidad, ya que éstas se consideran vehículos industriales, salvo previa autorización municipal (Información relacionada)." ;
+	g08:hasURI <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0da9f0bde551c010VgnVCM2000000c205a0aRCRD> ;
+	g08:hasVia "DAROCA" ;
+	rdfs:label "AVENIDA" , "V" ;
+	g08:hasAddress "104"^^xsd:int ;
+	g08:hasOrientacion "JUNTO AL CEMENTERIO DE LA ALMUDENA" ;
+	g08:hasLocalidad "MADRID" ;
+	g08:hasPostalCode "28032"^^xsd:int ;
+	geo:location "VENTAS" ;
+	geo:lat "40.41826330408995"^^xsd:double ;
+	geo:long "-3.630928382853009"^^xsd:double ;
+	g08:hasPk "43200"^^xsd:int .
+
+<http://puntoslimpios/CIUDAD+LINEAL> a g08:isDistrito ;
+	rdfs:label "CIUDAD LINEAL" ;
+	owl:sameAs <http://dbpedia.org/resource/Ciudad_Lineal> .
+
+<http://puntoslimpios/VENTAS> a g08:isBarrio ;
+	rdfs:label <http://puntoslimpios/VENTAS> ;
+	owl:sameAs <http://dbpedia.org/resource/Ventas_(Madrid)> .
+
+<http://puntoslimpios/13890> rdfs:hasDistrito <http://puntoslimpios/FUENCARRAL-EL+PARDO> ;
+	g08:hasHorario "De lunes a sábados de 8 a 20 horas. Domingos y festivos de 9 a 14 horas. Los dí­as 24 y 31 de diciembre de 8 a 14 horas. Cerrado dí­as 25 de diciembre y 1 y 6 de enero." ;
+	g08:hasEstacionMetro "Avda. Ilustración" ;
+	g08:hasBus "67, 83, 133, 124" ;
+	g08:hasDescripcion "El traslado de residuos correrá a cuenta de la persona interesada que solo podrá acceder con un  vehículo particular. No se permitirá el acceso a furgonetas rotuladas o con publicidad, ya que éstas se consideran vehículos industriales, salvo previa autorización municipal (Información relacionada)." ;
+	g08:hasURI <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=30175a0f8161c010VgnVCM1000000b205a0aRCRD> ;
+	g08:hasVia "UBEDA" ;
+	rdfs:label "CALLE" , "V" ;
+	g08:hasAddress "6"^^xsd:int ;
+	g08:hasOrientacion "C/V ISLA DE AROSA" ;
+	g08:hasLocalidad "MADRID" ;
+	g08:hasPostalCode "28034"^^xsd:int ;
+	geo:location "PEÑA GRANDE" ;
+	geo:lat "40.48225121586361"^^xsd:double ;
+	geo:long "-3.71646391915977"^^xsd:double ;
+	g08:hasPk "13890"^^xsd:int .
+
+<http://puntoslimpios/FUENCARRAL-EL+PARDO> a g08:isDistrito ;
+	rdfs:label "FUENCARRAL-EL PARDO" ;
+	owl:sameAs <http://dbpedia.org/resource/Fuencarral-El_Pardo> .
+
+<http://puntoslimpios/Avda.+Ilustraci%C3%B3n> a g08:hasMetro ;
+	rdfs:label <http://puntoslimpios/Avda.+Ilustraci%C3%B3n> ;
+	owl:sameAs <http://dbpedia.org/resource/Avenida_de_la_Ilustración_(Madrid_Metro)> .
+
+<http://puntoslimpios/PE%C3%91A+GRANDE> a g08:isBarrio ;
+	rdfs:label <http://puntoslimpios/PE%C3%91A+GRANDE> ;
+	owl:sameAs <http://www.wikidata.org/entity/Q3319582> .
+
+<http://puntoslimpios/169981> rdfs:hasDistrito <http://puntoslimpios/HORTALEZA> ;
+	g08:hasHorario "De lunes a sábados de 8 a 20 horas. Domingos y festivos de 9 a 14 horas. Los dí­as 24 y 31 de diciembre de 8 a 14 horas. Cerrado dí­as 25 de diciembre y 1 y 6 de enero." ;
+	g08:hasBus "104" ;
+	g08:hasDescripcion "El traslado de residuos correrá a cuenta de la persona interesada que solo podrá acceder con un  vehículo particular. No se permitirá el acceso a furgonetas rotuladas o con publicidad, ya que éstas se consideran vehículos industriales, salvo previa autorización municipal (Información relacionada)." ;
+	g08:hasURI <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=494129ea9281c010VgnVCM1000000b205a0aRCRD> ;
+	g08:hasVia "TOMAS REDONDO" ;
+	rdfs:label "CALLE" , "V" ;
+	g08:hasAddress "8"^^xsd:int ;
+	g08:hasLocalidad "MADRID" ;
+	g08:hasPostalCode "28033"^^xsd:int ;
+	geo:location "VALDEFUENTES" ;
+	geo:lat "40.47006424276577"^^xsd:double ;
+	geo:long "-3.6277914577312402"^^xsd:double ;
+	g08:hasPk "169981"^^xsd:int .
+
+<http://puntoslimpios/HORTALEZA> a g08:isDistrito ;
+	rdfs:label "HORTALEZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Hortaleza> .
+
+<http://puntoslimpios/VALDEFUENTES> a g08:isBarrio ;
+	rdfs:label <http://puntoslimpios/VALDEFUENTES> ;
+	owl:sameAs <http://dbpedia.org/resource/Valdefuentes_(Madrid)> .
+
+<http://puntoslimpios/67093> rdfs:hasDistrito <http://puntoslimpios/BARRIO+DE+LA+LATINA> ;
+	g08:hasHorario "De lunes a sábados de 8 a 20 horas. Domingos y festivos de 9 a 14 horas. Los dí­as 24 y 31 de diciembre de 8 a 14 horas. Cerrado dí­as 25 de diciembre y 1 y 6 de enero." ;
+	g08:hasBus "119, 138" ;
+	g08:hasDescripcion "El traslado de residuos correrá a cuenta de la persona interesada que solo podrá acceder con un  vehículo particular. No se permitirá el acceso a furgonetas rotuladas o con publicidad, ya que éstas se consideran vehículos industriales, salvo previa autorización municipal (Información relacionada)." ;
+	g08:hasURI <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e2aa5cee4051c010VgnVCM2000000c205a0aRCRD> ;
+	g08:hasVia "CONCEJAL FRANCISCO JOSE JIMENEZ MARTIN" ;
+	rdfs:label "CALLE" , "V" ;
+	g08:hasAddress "5"^^xsd:int ;
+	g08:hasOrientacion "FRENTE A C/ GOTARRENDURA" ;
+	g08:hasLocalidad "MADRID" ;
+	g08:hasPostalCode "28047"^^xsd:int ;
+	geo:location "LOS CARMENES" ;
+	geo:lat "40.4016757685611"^^xsd:double ;
+	geo:long "-3.736372909535269"^^xsd:double ;
+	g08:hasPk "67093"^^xsd:int .
+
+<http://puntoslimpios/BARRIO+DE+LA+LATINA> a g08:isDistrito ;
+	rdfs:label "BARRIO DE LA LATINA" ;
+	owl:sameAs <http://dbpedia.org/resource/Barrio_de_La_Latina_(Madrid)> .
+
+<http://puntoslimpios/LOS+CARMENES> a g08:isBarrio ;
+	rdfs:label <http://puntoslimpios/LOS+CARMENES> ;
+	owl:sameAs <http://dbpedia.org/resource/Los_Cármenes> .
+
+<http://puntoslimpios/5568093> rdfs:hasDistrito <http://puntoslimpios/MONCLOA-ARAVACA> ;
+	g08:hasHorario "De lunes a sábados de 8 a 20 horas. Domingos y festivos de 9 a 14 horas. Los dí­as 24 y 31 de diciembre de 8 a 14 horas. Cerrado dí­as 25 de diciembre y 1 y 6 de enero." ;
+	g08:hasBus "83, 133" ;
+	g08:hasDescripcion "El traslado de residuos correrá a cuenta de la persona interesada que solo podrá acceder con un  vehículo particular. No se permitirá el acceso a furgonetas rotuladas o con publicidad, ya que éstas se consideran vehículos industriales, salvo previa autorización municipal (Información relacionada)." ;
+	g08:hasURI <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f6df1a8633e96210VgnVCM2000000c205a0aRCRD> ;
+	g08:hasVia "SENDA DEL REY" ;
+	rdfs:label "PASEO" , "V" ;
+	g08:hasAddress "0"^^xsd:int ;
+	g08:hasOrientacion "ACCESO AVDA. PUERTA DE HIERRO SALIDA 6 A-6 FACULTAD DE VETERINARIA" ;
+	g08:hasLocalidad "MADRID" ;
+	g08:hasPostalCode "28040"^^xsd:int ;
+	geo:location "CIUDAD UNIVERSITARIA" ;
+	geo:lat "40.451963071822604"^^xsd:double ;
+	geo:long "-3.7403391301631927"^^xsd:double ;
+	g08:hasPk "5568093"^^xsd:int .
+
+<http://puntoslimpios/MONCLOA-ARAVACA> a g08:isDistrito ;
+	rdfs:label "MONCLOA-ARAVACA" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://puntoslimpios/CIUDAD+UNIVERSITARIA> a g08:isBarrio ;
+	rdfs:label <http://puntoslimpios/CIUDAD+UNIVERSITARIA> ;
+	owl:sameAs <http://dbpedia.org/resource/University_City_of_Madrid> .
+
+<http://puntoslimpios/4910478> rdfs:hasDistrito <http://puntoslimpios/MORATALAZ> ;
+	g08:hasHorario "De lunes a sábados de 8 a 20 horas. Domingos y festivos de 9 a 14 horas. Los dí­as 24 y 31 de diciembre de 8 a 14 horas. Cerrado dí­as 25 de diciembre y 1 y 6 de enero." ;
+	g08:hasEstacionMetro "Vinateros (lí­nea 9)" ;
+	g08:hasBus "30, 32, 71, 113" ;
+	g08:hasDescripcion "El traslado de residuos correrá a cuenta de la persona interesada que solo podrá acceder con un  vehículo particular. No se permitirá el acceso a furgonetas rotuladas o con publicidad, ya que éstas se consideran vehículos industriales, salvo previa autorización municipal (Información relacionada)." ;
+	g08:hasURI <http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=67bc4d69197c9110VgnVCM1000000b205a0aRCRD> ;
+	g08:hasVia "ARROYO DE LA MEDIA LEGUA" ;
+	rdfs:label "CALLE" , "V" ;
+	g08:hasAddress "72"^^xsd:int ;
+	g08:hasLocalidad "MADRID" ;
+	g08:hasPostalCode "28030"^^xsd:int ;
+	geo:location "MARROQUINA" ;
+	geo:lat "40.414609663505665"^^xsd:double ;
+	geo:long "-3.6513204448781815"^^xsd:double ;
+	g08:hasPk "4910478"^^xsd:int .
+
+<http://puntoslimpios/MORATALAZ> a g08:isDistrito ;
+	rdfs:label "MORATALAZ" ;
+	owl:sameAs <http://dbpedia.org/resource/Moratalaz> .
+
+<http://puntoslimpios/Vinateros+%28l%C3%AD%C2%ADnea+9%29> a g08:hasMetro ;
+	rdfs:label <http://puntoslimpios/Vinateros+%28l%C3%AD%C2%ADnea+9%29> ;
+	owl:sameAs <http://dbpedia.org/resource/Vinateros_(Madrid_Metro)> .
+
+<http://puntoslimpios/MARROQUINA> a g08:isBarrio ;
+	rdfs:label <http://puntoslimpios/MARROQUINA> ;
+	owl:sameAs <http://dbpedia.org/resource/Marroquina> .
