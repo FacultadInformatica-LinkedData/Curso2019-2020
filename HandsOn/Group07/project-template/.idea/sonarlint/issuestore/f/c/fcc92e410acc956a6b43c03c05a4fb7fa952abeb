@@ -1,0 +1,26 @@
+
+Hsquid:S1444"*Make this "public static topo" field final(å‚ì‰8ºÅíâ-
+?squid:S1643<"Use a StringBuilder instead.(³µ«Íøÿÿÿÿ8ºÅíâ-
+msquid:UselessImportCheck"CRemove this unused import 'org.apache.jena.rdf.model.StmtIterator'.(„²ÂV8ºÅíâ-
+Fsquid:S1068"(Remove this unused "rdfs" private field.(™É÷8ºÅíâ-
+Hsquid:S1068 "*Remove this unused "schema" private field.(Á ±Ê8ºÅíâ-
+Tsquid:S1068"1Remove this unused "stringTypeURI" private field.(ïÑÉÓüÿÿÿÿ8ºÅíâ-
+Esquid:S1068!"'Remove this unused "lat" private field.(ÁåÕá8ºÅíâ-
+Jsquid:S1068""'Remove this unused "lon" private field.(´şÿåúÿÿÿÿ8ºÅíâ-
+rsquid:UselessImportCheck"BRemove this unused import 'org.apache.jena.ontology.OntModelSpec'.(‡ÛÌ¡úÿÿÿÿ8ºÅíâ-
+Jsquid:S1068"'Remove this unused "xsd" private field.(âÙûÿÿÿÿ8ºÅíâ-
+?squid:S1643;"Use a StringBuilder instead.(€À­Œúÿÿÿÿ8ºÅíâ-
+V
+squid:S1068"9Replace this use of System.out or System.err by a logger.(µáçç8ºÅíâ-
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(Îß¬Õ8ºÅíâ-
+Isquid:S1068"&Remove this unused "ns" private field.(èä–·úÿÿÿÿ8ºÅíâ-
+msquid:UselessImportCheck"=Remove this unused import 'org.apache.jena.vocabulary.VCARD'.(Ë—”ùÿÿÿÿ8ºÅíâ-
+jsquid:S20950"LUse try-with-resources or close this "QueryExecution" in a "finally" clause.(ìÅÚ†8ºÅíâ-
+isquid:CommentedOutCodeLineI"<This block of commented-out lines of code should be removed.(Çµí‘8ºÅíâ-
+nsquid:UselessImportCheck">Remove this unused import 'org.apache.jena.rdf.model.Literal'.(£ĞÒ›ÿÿÿÿÿ8ºÅíâ-
+isquid:UselessImportCheck">Remove this unused import 'org.apache.jena.rdf.model.RDFNode'.(ËëÍˆ8ºÅíâ-
+…"squid:ClassVariableVisibilityCheck"PMake topo a static final constant or non-public and provide accessors if needed.(å‚ì‰8ºÅíâ-
+msquid:S00100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³­ı×8ºÅíâ-
+Jsquid:S1068"'Remove this unused "owl" private field.(Óğîøÿÿÿÿ8ºÅíâ-
+ksquid:UselessImportCheck"@Remove this unused import 'org.apache.jena.rdf.model.Statement'.(ÏŒò¯8ºÅíâ-
+usquid:S001177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ä˜†ûÿÿÿÿ8ºÅíâ-
