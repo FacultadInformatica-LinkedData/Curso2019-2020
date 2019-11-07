@@ -726,356 +726,1410 @@
   {
     "op": "rdf-extension/save-rdf-schema",
     "schema": {
-      "prefixes": [
-        {
-          "name": "ont",
-          "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "sch",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "baseUri": "http://puntoswifimadrid.com/ontology/puntosWifi/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "ID",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#ID",
-              "curie": "ont:ID",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ID",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "NOMBRE",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#descripcion",
-              "curie": "ont:descripcion",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION-ENTIDAD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#horario",
-              "curie": "ont:horario",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "HORARIO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#equipamiento",
-              "curie": "ont:equipamiento",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "EQUIPAMIENTO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#transporte",
-              "curie": "ont:transporte",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "TRANSPORTE",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#descripcion",
-              "curie": "ont:descripcion",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DESCRIPCION",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#accesibilidad",
-              "curie": "ont:accesibilidad",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "ACCESIBILIDAD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#content",
-              "curie": "ont:content",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "CONTENT-URL",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#calle",
-              "curie": "ont:calle",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "NOMBRE-VIA",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#clase",
-              "curie": "ont:clase",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "CLASE-VIAL",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#tipo",
-              "curie": "ont:tipo",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "TIPO-NUM",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#numero",
-              "curie": "ont:numero",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "NUM",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#int",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#localidad",
-              "curie": "ont:localidad",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LOCALIDAD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#provincia",
-              "curie": "ont:provincia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PROVINCIA",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#CP",
-              "curie": "ont:CP",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "CODIGO-POSTAL",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#barrio",
-              "curie": "ont:barrio",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "BARRIO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#distrito",
-              "curie": "ont:distrito",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "DISTRITO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#coordenadaX",
-              "curie": "ont:coordenadaX",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "COORDENADA-X",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#coordenadaY",
-              "curie": "ont:coordenadaY",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "COORDENADA-Y",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#latitud",
-              "curie": "ont:latitud",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LATITUD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#longitud",
-              "curie": "ont:longitud",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LONGITUD",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#telefono",
-              "curie": "ont:telefono",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "TELEFONO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#email",
-              "curie": "ont:email",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "EMAIL",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#tipo",
-              "curie": "ont:tipo",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "TIPO",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#",
-              "curie": "ont:"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "DISTRITO",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2002/07/owl#sameAs",
-              "curie": "owl:sameAs",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "ont:distrito",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#distrito",
-              "curie": "ont:distrito"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "BARRIO",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2002/07/owl#sameAs",
-              "curie": "owl:sameAs",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "ont:Barrio",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#barrio",
-              "curie": "ont:barrio"
-            }
-          ]
-        }
-      ]
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
     },
     "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q79007",
+        "name": "street"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column NOMBRE-VIA to type Q79007"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "CAMARENA",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"CAMARENA\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "CAMARENA",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"CAMARENA\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "BOLTAÑA",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"BOLTAÑA\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "INSTITUCIÓN LIBRE DE ENSEÑANZA (ANTIGUA CALLE HERMANOS GARCÍA NOBLEJAS)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5740959",
+      "name": "Institución Libre de Enseñanza, avenida de la",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Institución Libre de Enseñanza, avenida de la (Q5740959) for cells containing \"INSTITUCIÓN LIBRE DE ENSEÑANZA (ANTIGUA CALLE HERMANOS GARCÍA NOBLEJAS)\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "MANUEL FERRERO",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"MANUEL FERRERO\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "INDALECIO PRIETO",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"INDALECIO PRIETO\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "PUEBLO",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"PUEBLO\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "MONTE AYA",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"MONTE AYA\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "LOGROÑO",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"LOGROÑO\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "NUESTRA SEÑORA DEL VILLAR",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"NUESTRA SEÑORA DEL VILLAR\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "ARGANDA",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"ARGANDA\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "MAR DE LAS ANTILLAS",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"MAR DE LAS ANTILLAS\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "PRINCESA DE EBOLI",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"PRINCESA DE EBOLI\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "BARCELO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27051120",
+      "name": "calle de Barceló",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle de Barceló (Q27051120) for cells containing \"BARCELO\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "CANTALAPIEDRA",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"CANTALAPIEDRA\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "GLORIETAS",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"GLORIETAS\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "SAN ROMAN DEL VALLE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"SAN ROMAN DEL VALLE\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "PUERTO DEL MONASTERIO",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"PUERTO DEL MONASTERIO\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "VILLARDONDIEGO",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"VILLARDONDIEGO\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "SIERRA MINISTRA",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"SIERRA MINISTRA\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "PRADERA DE VAQUERIZAS",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"PRADERA DE VAQUERIZAS\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "ARROYO BELINCOSO",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"ARROYO BELINCOSO\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "ASCAO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2481405",
+      "name": "Ascao",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ascao (Q2481405) for cells containing \"ASCAO\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "DE LA ZARZA",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"DE LA ZARZA\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "BOLTA&amp;Ntilde;A",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"BOLTA&amp;Ntilde;A\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "COLOMBIA",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"COLOMBIA\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "BOLTA&amp;Ntilde;A",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"BOLTA&amp;Ntilde;A\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "CARRIL DEL CONDE",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"CARRIL DEL CONDE\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "MORATALAZ",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2076109",
+      "name": "Moratalaz",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Moratalaz (Q2076109) for cells containing \"MORATALAZ\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "GALILEO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27031392",
+      "name": "calle de Galileo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle de Galileo (Q27031392) for cells containing \"GALILEO\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "LOS ROSALES",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10319807",
+      "name": "Los Rosales",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Los Rosales (Q10319807) for cells containing \"LOS ROSALES\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "INSTITUCION LIBRE DE ENSE&amp;Ntilde;ANZA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5740959",
+      "name": "Institución Libre de Enseñanza, avenida de la",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Institución Libre de Enseñanza, avenida de la (Q5740959) for cells containing \"INSTITUCION LIBRE DE ENSE&amp;Ntilde;ANZA\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "ALMANSA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q54564278",
+      "name": "calle Almansa",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle Almansa (Q54564278) for cells containing \"ALMANSA\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "ESTAFETA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q8843006",
+      "name": "Calle Estafeta",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Calle Estafeta (Q8843006) for cells containing \"ESTAFETA\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "CIBELES",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1537446",
+      "name": "plaza de Cibeles",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de Cibeles (Q1537446) for cells containing \"CIBELES\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "LAS AGUILAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5971372",
+      "name": "Las Águilas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Las Águilas (Q5971372) for cells containing \"LAS AGUILAS\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "SIMANCAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10371626",
+      "name": "Simancas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Simancas (Q10371626) for cells containing \"SIMANCAS\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "MONCLOA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2449141",
+      "name": "Moncloa",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Moncloa (Q2449141) for cells containing \"MONCLOA\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "NOMBRE-VIA",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "ont:NombreVia",
+    "columnInsertIndex": 10,
+    "description": "Create column ont:NombreVia at index 10 based on column NOMBRE-VIA using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PROVINCIA",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q2074737",
+        "name": "municipality of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column PROVINCIA to type Q2074737"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "PROVINCIA",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "ont:Provincia",
+    "columnInsertIndex": 16,
+    "description": "Create column ont:Provincia at index 16 based on column PROVINCIA using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q28564",
+        "name": "public library"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column TIPO to type Q28564"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "BibliotecasPublicas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9656764",
+      "name": "Biblioteca Pública",
+      "types": [
+        "Q28564",
+        "Q7075",
+        "Q1081138"
+      ],
+      "score": 92
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública (Q9656764) for cells containing \"BibliotecasPublicas\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "OficinasMunicipalesRegistro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6049251",
+      "name": "Oficina Municipal de Información Laboral",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Oficina Municipal de Información Laboral (Q6049251) for cells containing \"OficinasMunicipalesRegistro\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "CentrosCulturales",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1329623",
+      "name": "cultural center",
+      "types": [
+        ""
+      ],
+      "score": 48.5
+    },
+    "shareNewTopics": false,
+    "description": "Match item cultural center (Q1329623) for cells containing \"CentrosCulturales\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "SalasExposiciones",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"SalasExposiciones\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "SalasEstudioLectura",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1759167",
+      "name": "study",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item study (Q1759167) for cells containing \"SalasEstudioLectura\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "CentrosSalud",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5762167",
+      "name": "centro sanitario",
+      "types": [
+        ""
+      ],
+      "score": 28.5
+    },
+    "shareNewTopics": false,
+    "description": "Match item centro sanitario (Q5762167) for cells containing \"CentrosSalud\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "CentrosFormacionOcupacional",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"CentrosFormacionOcupacional\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "CentrosServiciosSociales",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16605260",
+      "name": "social service",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item social service (Q16605260) for cells containing \"CentrosServiciosSociales\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "CentrosServiciosSociales",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16605260",
+      "name": "social service",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item social service (Q16605260) for cells containing \"CentrosServiciosSociales\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "CentrosMayores",
+    "judgment": "matched",
+    "match": {
+      "id": "Q837142",
+      "name": "nursing home",
+      "types": [
+        ""
+      ],
+      "score": 24
+    },
+    "shareNewTopics": false,
+    "description": "Match item nursing home (Q837142) for cells containing \"CentrosMayores\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "MonumentosEdificiosArtisticos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q25503887",
+      "name": "artistic monument",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item artistic monument (Q25503887) for cells containing \"MonumentosEdificiosArtisticos\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "OficinasInformacionAtencionContribuyente",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"OficinasInformacionAtencionContribuyente\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "Museos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q33506",
+      "name": "museum",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item museum (Q33506) for cells containing \"Museos\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "BibliotecasEspecializadasUniversitarias",
+    "judgment": "matched",
+    "match": {
+      "id": "Q856234",
+      "name": "academic library",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item academic library (Q856234) for cells containing \"BibliotecasEspecializadasUniversitarias\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "OtrasEntidadesAdministrativasAyto",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56061",
+      "name": "administrative territorial entity",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item administrative territorial entity (Q56061) for cells containing \"OtrasEntidadesAdministrativasAyto\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "ParquesJardines",
+    "judgment": "matched",
+    "match": {
+      "id": "Q22698",
+      "name": "park",
+      "types": [
+        ""
+      ],
+      "score": 28.5
+    },
+    "shareNewTopics": false,
+    "description": "Match item park (Q22698) for cells containing \"ParquesJardines\" in column TIPO"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "TIPO",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" +cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "ont:Tipo",
+    "columnInsertIndex": 29,
+    "description": "Create column ont:Tipo at index 29 based on column TIPO using expression grel:\"https://www.wikidata.org/wiki/\" +cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOCALIDAD",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q2074737",
+        "name": "municipality of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column LOCALIDAD to type Q2074737"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "LOCALIDAD",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "ont:Localidad",
+    "columnInsertIndex": 15,
+    "description": "Create column ont:Localidad at index 15 based on column LOCALIDAD using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "BibliotecasPublicas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28564",
+      "name": "public library",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item public library (Q28564) for cells containing \"BibliotecasPublicas\" in column TIPO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ont:Tipo",
+    "description": "Remove column ont:Tipo"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "TIPO",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "ont:Tipo",
+    "columnInsertIndex": 30,
+    "description": "Create column ont:Tipo at index 30 based on column TIPO using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "OficinasMunicipalesRegistro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q745221",
+      "name": "register office",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item register office (Q745221) for cells containing \"OficinasMunicipalesRegistro\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "MonumentosEdificiosArtisticos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q907116",
+      "name": "National monument of Spain",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item National monument of Spain (Q907116) for cells containing \"MonumentosEdificiosArtisticos\" in column TIPO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "similarValue": "OficinasInformacionAtencionContribuyente",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"OficinasInformacionAtencionContribuyente\" in column TIPO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ont:Tipo",
+    "description": "Remove column ont:Tipo"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "TIPO",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "ont:Tipo",
+    "columnInsertIndex": 30,
+    "description": "Create column ont:Tipo at index 30 based on column TIPO using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "TOREROS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q29918658",
+      "name": "avenida de los Toreros",
+      "types": [
+        "Q7543083"
+      ],
+      "score": 54
+    },
+    "shareNewTopics": false,
+    "description": "Match item avenida de los Toreros (Q29918658) for cells containing \"TOREROS\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "BARCELO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27051120",
+      "name": "calle de Barceló",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle de Barceló (Q27051120) for cells containing \"BARCELO\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "MORATALAZ",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2076109",
+      "name": "Moratalaz",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Moratalaz (Q2076109) for cells containing \"MORATALAZ\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "GALILEO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27031392",
+      "name": "calle de Galileo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle de Galileo (Q27031392) for cells containing \"GALILEO\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "INSTITUCION LIBRE DE ENSE&amp;Ntilde;ANZA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5740959",
+      "name": "Institución Libre de Enseñanza, avenida de la",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Institución Libre de Enseñanza, avenida de la (Q5740959) for cells containing \"INSTITUCION LIBRE DE ENSE&amp;Ntilde;ANZA\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "ALMANSA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q54564278",
+      "name": "calle Almansa",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle Almansa (Q54564278) for cells containing \"ALMANSA\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "CIBELES",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1537446",
+      "name": "plaza de Cibeles",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de Cibeles (Q1537446) for cells containing \"CIBELES\" in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ont:NombreVia",
+    "description": "Remove column ont:NombreVia"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "NOMBRE-VIA",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "ont:NombreVia",
+    "columnInsertIndex": 10,
+    "description": "Create column ont:NombreVia at index 10 based on column NOMBRE-VIA using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
@@ -1210,10 +2264,12 @@
               "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#calle",
               "curie": "ont:calle",
               "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "NOMBRE-VIA",
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:NombreVia",
                 "expression": "value",
-                "isRowNumberCell": false
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
               }
             },
             {
@@ -1222,16 +2278,6 @@
               "target": {
                 "nodeType": "cell-as-literal",
                 "columnName": "CLASE-VIAL",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#tipo",
-              "curie": "ont:tipo",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "TIPO-NUM",
                 "expression": "value",
                 "isRowNumberCell": false
               }
@@ -1251,10 +2297,12 @@
               "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#localidad",
               "curie": "ont:localidad",
               "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "LOCALIDAD",
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:Localidad",
                 "expression": "value",
-                "isRowNumberCell": false
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
               }
             },
             {
@@ -1262,7 +2310,7 @@
               "curie": "ont:provincia",
               "target": {
                 "nodeType": "cell-as-literal",
-                "columnName": "PROVINCIA",
+                "columnName": "ont:Provincia",
                 "expression": "value",
                 "isRowNumberCell": false
               }
@@ -1282,7 +2330,7 @@
               "curie": "ont:barrio",
               "target": {
                 "nodeType": "cell-as-literal",
-                "columnName": "BARRIO",
+                "columnName": "ont:Barrio",
                 "expression": "value",
                 "isRowNumberCell": false
               }
@@ -1292,7 +2340,7 @@
               "curie": "ont:distrito",
               "target": {
                 "nodeType": "cell-as-literal",
-                "columnName": "DISTRITO",
+                "columnName": "ont:distrito",
                 "expression": "value",
                 "isRowNumberCell": false
               }
@@ -1324,6 +2372,7 @@
                 "nodeType": "cell-as-literal",
                 "columnName": "LATITUD",
                 "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
                 "isRowNumberCell": false
               }
             },
@@ -1334,6 +2383,7 @@
                 "nodeType": "cell-as-literal",
                 "columnName": "LONGITUD",
                 "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
                 "isRowNumberCell": false
               }
             },
@@ -1361,10 +2411,12 @@
               "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#tipo",
               "curie": "ont:tipo",
               "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "TIPO",
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:Tipo",
                 "expression": "value",
-                "isRowNumberCell": false
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
               }
             }
           ],
@@ -1424,6 +2476,587 @@
             {
               "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#barrio",
               "curie": "ont:barrio"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "NOMBRE-VIA",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:NombreVia",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#NombreVia",
+              "curie": "ont:NombreVia"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "PROVINCIA",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:Provincia",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#Provincia",
+              "curie": "ont:Provincia"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "TIPO",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ont:Tipo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#Tipo",
+              "curie": "ont:Tipo"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "LOCALIDAD",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:Localidad",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#Localidad",
+              "curie": "ont:Localidad"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO-NUM",
+    "description": "Remove column TIPO-NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ont:Tipo",
+    "description": "Remove column ont:Tipo"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "TIPO",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "ont:Tipo",
+    "columnInsertIndex": 29,
+    "description": "Create column ont:Tipo at index 29 based on column TIPO using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "sch",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://puntoswifimadrid.com/ontology/puntosWifi/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#ID",
+              "curie": "ont:ID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ID",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#descripcion",
+              "curie": "ont:descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION-ENTIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#horario",
+              "curie": "ont:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "HORARIO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#equipamiento",
+              "curie": "ont:equipamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "EQUIPAMIENTO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#transporte",
+              "curie": "ont:transporte",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TRANSPORTE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#descripcion",
+              "curie": "ont:descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DESCRIPCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#accesibilidad",
+              "curie": "ont:accesibilidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ACCESIBILIDAD",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#content",
+              "curie": "ont:content",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "CONTENT-URL",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#calle",
+              "curie": "ont:calle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:NombreVia",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#clase",
+              "curie": "ont:clase",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CLASE-VIAL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#numero",
+              "curie": "ont:numero",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NUM",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#localidad",
+              "curie": "ont:localidad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:Localidad",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#provincia",
+              "curie": "ont:provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ont:Provincia",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#CP",
+              "curie": "ont:CP",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "CODIGO-POSTAL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#barrio",
+              "curie": "ont:barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ont:Barrio",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#distrito",
+              "curie": "ont:distrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ont:distrito",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#coordenadaX",
+              "curie": "ont:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "COORDENADA-X",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#coordenadaY",
+              "curie": "ont:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "COORDENADA-Y",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#latitud",
+              "curie": "ont:latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#longitud",
+              "curie": "ont:longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#telefono",
+              "curie": "ont:telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TELEFONO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#email",
+              "curie": "ont:email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "EMAIL",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#tipo",
+              "curie": "ont:tipo",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:Tipo",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#",
+              "curie": "ont:"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "DISTRITO",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:distrito",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#distrito",
+              "curie": "ont:distrito"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "BARRIO",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:Barrio",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#barrio",
+              "curie": "ont:barrio"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "NOMBRE-VIA",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:NombreVia",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#NombreVia",
+              "curie": "ont:NombreVia"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "PROVINCIA",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:Provincia",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#Provincia",
+              "curie": "ont:Provincia"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "TIPO",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:Tipo",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#Tipo",
+              "curie": "ont:Tipo"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "LOCALIDAD",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ont:Localidad",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://puntoswifimadrid.com/ontology/puntosWifi#Localidad",
+              "curie": "ont:Localidad"
             }
           ]
         }

@@ -1,911 +1,837 @@
 [
-    {
-      "op": "core/column-removal",
-      "columnName": "* La correspondencia de los códigos se encuentra descrito en la estructura del fichero.",
-      "description": "Remove column * La correspondencia de los códigos se encuentra descrito en la estructura del fichero."
+  {
+    "op": "core/column-removal",
+    "columnName": "* La correspondencia de los códigos se encuentra descrito en la estructura del fichero.",
+    "description": "Remove column * La correspondencia de los códigos se encuentra descrito en la estructura del fichero."
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LESIVIDAD*",
+    "newColumnName": "LESIVIDAD",
+    "description": "Rename column LESIVIDAD* to LESIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/column-rename",
-      "oldColumnName": "LESIVIDAD*",
-      "newColumnName": "LESIVIDAD",
-      "description": "Rename column LESIVIDAD* to LESIVIDAD"
-    },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "LESIVIDAD",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            "01"
-          ],
-          "fromBlank": false,
-          "fromError": false,
-          "to": "Atención en urgencias sin posterior ingreso. - LEVE"
-        }
-      ],
-      "description": "Mass edit cells in column LESIVIDAD"
-    },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "LESIVIDAD",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            "03"
-          ],
-          "fromBlank": false,
-          "fromError": false,
-          "to": "Ingreso superior a 24 horas. - GRAVE"
-        }
-      ],
-      "description": "Mass edit cells in column LESIVIDAD"
-    },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "LESIVIDAD",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            "07"
-          ],
-          "fromBlank": false,
-          "fromError": false,
-          "to": "Asistencia sanitaria sólo en el lugar del accidente - LEVE"
-        }
-      ],
-      "description": "Mass edit cells in column LESIVIDAD"
-    },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "LESIVIDAD",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            "14"
-          ],
-          "fromBlank": false,
-          "fromError": false,
-          "to": "14"
-        }
-      ],
-      "description": "Mass edit cells in column LESIVIDAD"
-    },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "LESIVIDAD",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            "14"
-          ],
-          "fromBlank": false,
-          "fromError": false,
-          "to": "Sin asistencia sanitaria"
-        }
-      ],
-      "description": "Mass edit cells in column LESIVIDAD"
-    },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "LESIVIDAD",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            "02"
-          ],
-          "fromBlank": false,
-          "fromError": false,
-          "to": "Ingreso inferior o igual a 24 horas - LEVE"
-        }
-      ],
-      "description": "Mass edit cells in column LESIVIDAD"
-    },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "LESIVIDAD",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            "06"
-          ],
-          "fromBlank": false,
-          "fromError": false,
-          "to": "Asistencia sanitaria inmediata en centro de salud o mutua - LEVE"
-        }
-      ],
-      "description": "Mass edit cells in column LESIVIDAD"
-    },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "LESIVIDAD",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            "05"
-          ],
-          "fromBlank": false,
-          "fromError": false,
-          "to": "Asistencia sanitaria ambulatoria con posterioridad - LEVE"
-        }
-      ],
-      "description": "Mass edit cells in column LESIVIDAD"
-    },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "LESIVIDAD",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            ""
-          ],
-          "fromBlank": true,
-          "fromError": false,
-          "to": "Sin asistencia sanitaria"
-        }
-      ],
-      "description": "Mass edit cells in column LESIVIDAD"
-    },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [
-          {
-            "type": "text",
-            "name": "LESIVIDAD",
-            "columnName": "LESIVIDAD",
-            "query": "04",
-            "mode": "text",
-            "caseSensitive": false,
-            "invert": false
-          }
+    "columnName": "LESIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "01"
         ],
-        "mode": "row-based"
-      },
-      "columnName": "LESIVIDAD",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            "04"
-          ],
-          "fromBlank": false,
-          "fromError": false,
-          "to": "Fallecido 24 horas - FALLECIDO"
-        }
-      ],
-      "description": "Mass edit cells in column LESIVIDAD"
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Atención en urgencias sin posterior ingreso. - LEVE"
+      }
+    ],
+    "description": "Mass edit cells in column LESIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/column-removal",
-      "columnName": "SEXO",
-      "description": "Remove column SEXO"
-    },
-    {
-      "op": "core/column-removal",
-      "columnName": "RANGO DE EDAD",
-      "description": "Remove column RANGO DE EDAD"
-    },
-    {
-      "op": "core/column-removal",
-      "columnName": "TIPO PERSONA",
-      "description": "Remove column TIPO PERSONA"
-    },
-    {
-      "op": "core/column-removal",
-      "columnName": "TIPO VEHÍCULO",
-      "description": "Remove column TIPO VEHÍCULO"
-    },
-    {
-      "op": "core/column-rename",
-      "oldColumnName": "Nº  EXPEDIENTE",
-      "newColumnName": "EXPEDIENTE",
-      "description": "Rename column Nº  EXPEDIENTE to EXPEDIENTE"
-    },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "ESTADO METEREOLÓGICO",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            ""
-          ],
-          "fromBlank": true,
-          "fromError": false,
-          "to": "Se desconoce"
-        }
-      ],
-      "description": "Mass edit cells in column ESTADO METEREOLÓGICO"
-    },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [
-          {
-            "type": "text",
-            "name": "TIPO ACCIDENTE",
-            "columnName": "TIPO ACCIDENTE",
-            "query": "Otr",
-            "mode": "text",
-            "caseSensitive": false,
-            "invert": false
-          }
+    "columnName": "LESIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "03"
         ],
-        "mode": "row-based"
-      },
-      "columnName": "TIPO ACCIDENTE",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            "Otro"
-          ],
-          "fromBlank": false,
-          "fromError": false,
-          "to": "Otras causas: Recoge los accidentes por atropello a animal, despeñamiento, salida de la vía, y otros."
-        }
-      ],
-      "description": "Mass edit cells in column TIPO ACCIDENTE"
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ingreso superior a 24 horas. - GRAVE"
+      }
+    ],
+    "description": "Mass edit cells in column LESIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [
-          {
-            "type": "text",
-            "name": "TIPO ACCIDENTE",
-            "columnName": "TIPO ACCIDENTE",
-            "query": "Otras",
-            "mode": "text",
-            "caseSensitive": false,
-            "invert": false
-          }
+    "columnName": "LESIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "07"
         ],
-        "mode": "row-based"
-      },
-      "columnName": "TIPO ACCIDENTE",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            "Otras causas: Recoge los accidentes por atropello a animal, despeñamiento, salida de la vía, y otros."
-          ],
-          "fromBlank": false,
-          "fromError": false,
-          "to": "Otras causas(atropello a animal, despeñamiento, salida de la vía, etc)"
-        }
-      ],
-      "description": "Mass edit cells in column TIPO ACCIDENTE"
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asistencia sanitaria sólo en el lugar del accidente - LEVE"
+      }
+    ],
+    "description": "Mass edit cells in column LESIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [
-          {
-            "type": "text",
-            "name": "TIPO ACCIDENTE",
-            "columnName": "TIPO ACCIDENTE",
-            "query": "Otras",
-            "mode": "text",
-            "caseSensitive": false,
-            "invert": false
-          }
+    "columnName": "LESIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "14"
         ],
-        "mode": "row-based"
-      },
-      "columnName": "TIPO ACCIDENTE",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            "Otras causas(atropello a animal, despeñamiento, salida de la vía, etc)"
-          ],
-          "fromBlank": false,
-          "fromError": false,
-          "to": "Otras causas (atropello a animal, despeñamiento, salida de la vía, etc)"
-        }
-      ],
-      "description": "Mass edit cells in column TIPO ACCIDENTE"
+        "fromBlank": false,
+        "fromError": false,
+        "to": "14"
+      }
+    ],
+    "description": "Mass edit cells in column LESIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [
-          {
-            "type": "text",
-            "name": "TIPO ACCIDENTE",
-            "columnName": "TIPO ACCIDENTE",
-            "query": "Otras",
-            "mode": "text",
-            "caseSensitive": false,
-            "invert": false
-          }
+    "columnName": "LESIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "14"
         ],
-        "mode": "row-based"
-      },
-      "columnName": "TIPO ACCIDENTE",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            "Otras causas (atropello a animal, despeñamiento, salida de la vía, etc)"
-          ],
-          "fromBlank": false,
-          "fromError": false,
-          "to": "Otras causas"
-        }
-      ],
-      "description": "Mass edit cells in column TIPO ACCIDENTE"
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sin asistencia sanitaria"
+      }
+    ],
+    "description": "Mass edit cells in column LESIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/column-addition",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "baseColumnName": "FECHA",
-      "expression": "grel:value",
-      "onError": "set-to-blank",
-      "newColumnName": "Date",
-      "columnInsertIndex": 2,
-      "description": "Create column Date at index 2 based on column FECHA using expression grel:value"
-    },
-    {
-      "op": "core/column-removal",
-      "columnName": "Date",
-      "description": "Remove column Date"
-    },
-    {
-      "op": "core/column-addition",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "baseColumnName": "FECHA",
-      "expression": "grel:(cells.FECHA.value + \" \" + cells.HORA.value).toDate()",
-      "onError": "set-to-blank",
-      "newColumnName": "Date",
-      "columnInsertIndex": 2,
-      "description": "Create column Date at index 2 based on column FECHA using expression grel:(cells.FECHA.value + \" \" + cells.HORA.value).toDate()"
-    },
-    {
-      "op": "core/column-removal",
-      "columnName": "HORA",
-      "description": "Remove column HORA"
-    },
-    {
-      "op": "core/column-removal",
-      "columnName": "FECHA",
-      "description": "Remove column FECHA"
-    },
-    {
-      "op": "core/column-rename",
-      "oldColumnName": "Date",
-      "newColumnName": "DATE",
-      "description": "Rename column Date to DATE"
-    },
-    {
-      "op": "core/column-rename",
-      "oldColumnName": "EXPEDIENTE",
-      "newColumnName": "EXPEDIENT",
-      "description": "Rename column EXPEDIENTE to EXPEDIENT"
-    },
-    {
-      "op": "core/column-rename",
-      "oldColumnName": "CALLE",
-      "newColumnName": "STREET",
-      "description": "Rename column CALLE to STREET"
-    },
-    {
-      "op": "core/column-rename",
-      "oldColumnName": "NÚMERO",
-      "newColumnName": "NUMBER",
-      "description": "Rename column NÚMERO to NUMBER"
-    },
-    {
-      "op": "core/column-rename",
-      "oldColumnName": "DISTRITO",
-      "newColumnName": "NEIGHBORHOOD",
-      "description": "Rename column DISTRITO to NEIGHBORHOOD"
-    },
-    {
-      "op": "core/column-rename",
-      "oldColumnName": "TIPO ACCIDENTE",
-      "newColumnName": "TYPE ACCIDENT",
-      "description": "Rename column TIPO ACCIDENTE to TYPE ACCIDENT"
-    },
-    {
-      "op": "core/column-rename",
-      "oldColumnName": "ESTADO METEREOLÓGICO",
-      "newColumnName": "WEATHER",
-      "description": "Rename column ESTADO METEREOLÓGICO to WEATHER"
-    },
-    {
-      "op": "core/column-rename",
-      "oldColumnName": "LESIVIDAD",
-      "newColumnName": "INJURY STATUS",
-      "description": "Rename column LESIVIDAD to INJURY STATUS"
-    },
-    {
-      "op": "rdf-extension/save-rdf-schema",
-      "schema": {
-        "prefixes": [],
-        "baseUri": null,
-        "rootNodes": []
-      },
-      "description": "Save RDF schema skeleton"
-    },
-    {
-      "op": "core/column-addition",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "baseColumnName": "EXPEDIENT",
-      "expression": "grel:row.index + 1",
-      "onError": "set-to-blank",
-      "newColumnName": "ID",
-      "columnInsertIndex": 1,
-      "description": "Create column ID at index 1 based on column EXPEDIENT using expression grel:row.index + 1"
-    },
-    {
-      "op": "core/column-move",
-      "columnName": "ID",
-      "index": 0,
-      "description": "Move column ID to position 0"
-    },
-    {
-      "op": "rdf-extension/save-rdf-schema",
-      "schema": {
-        "prefixes": [],
-        "baseUri": null,
-        "rootNodes": []
-      },
-      "description": "Save RDF schema skeleton"
-    },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "STREET",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            "CALL. FUENCARRAL / GTA. BILBAO",
-            "GTA. BILBAO / CALL. FUENCARRAL"
-          ],
-          "fromBlank": false,
-          "fromError": false,
-          "to": "CALL. FUENCARRAL / GTA. BILBAO"
-        }
-      ],
-      "description": "Mass edit cells in column STREET"
-    },
-    {
-      "op": "core/column-rename",
-      "oldColumnName": "ID",
-      "newColumnName": "ACCIDENT",
-      "description": "Rename column ID to ACCIDENT"
-    },
-    {
-      "op": "rdf-extension/save-rdf-schema",
-      "schema": {
-        "prefixes": [],
-        "baseUri": null,
-        "rootNodes": []
-      },
-      "description": "Save RDF schema skeleton"
-    },
-    {
-      "op": "rdf-extension/save-rdf-schema",
-      "schema": {
-        "prefixes": [],
-        "baseUri": null,
-        "rootNodes": []
-      },
-      "description": "Save RDF schema skeleton"
-    },
-    {
-      "op": "rdf-extension/save-rdf-schema",
-      "schema": {
-        "prefixes": [],
-        "baseUri": null,
-        "rootNodes": []
-      },
-      "description": "Save RDF schema skeleton"
-    },
-    {
-      "op": "core/mass-edit",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "STREET",
-      "expression": "value",
-      "edits": [
-        {
-          "from": [
-            "CALL. FUENCARRAL / GTA. BILBAO",
-            "GTA. BILBAO / CALL. FUENCARRAL"
-          ],
-          "fromBlank": false,
-          "fromError": false,
-          "to": "CALL. FUENCARRAL / GTA. BILBAO"
-        }
-      ],
-      "description": "Mass edit cells in column STREET"
-    },
-    {
-      "op": "rdf-extension/save-rdf-schema",
-      "schema": {
-        "prefixes": [],
-        "baseUri": null,
-        "rootNodes": []
-      },
-      "description": "Save RDF schema skeleton"
-    },
-    {
-      "op": "rdf-extension/save-rdf-schema",
-      "schema": {
-        "prefixes": [],
-        "baseUri": null,
-        "rootNodes": []
-      },
-      "description": "Save RDF schema skeleton"
-    },
-    {
-      "op": "rdf-extension/save-rdf-schema",
-      "schema": {
-        "prefixes": [],
-        "baseUri": null,
-        "rootNodes": []
-      },
-      "description": "Save RDF schema skeleton"
-    },
-    {
-      "op": "core/column-removal",
-      "columnName": "ACCIDENT",
-      "description": "Remove column ACCIDENT"
-    },
-    {
-      "op": "rdf-extension/save-rdf-schema",
-      "schema": {
-        "prefixes": [],
-        "baseUri": null,
-        "rootNodes": []
-      },
-      "description": "Save RDF schema skeleton"
-    },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "STREET",
-      "expression": "grel:toTitlecase(value)",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column STREET using expression grel:toTitlecase(value)"
-    },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "STREET",
-      "expression": "grel:replace(value, \"/\", \"Cruce con\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column STREET using expression grel:replace(value, \"/\", \"Cruce con\")"
-    },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "STREET",
-      "expression": "grel:replace(value, \"Cruce\", \"cruce\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column STREET using expression grel:replace(value, \"Cruce\", \"cruce\")"
-    },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "STREET",
-      "expression": "grel:replace(value, \" \", \"\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column STREET using expression grel:replace(value, \" \", \"\")"
-    },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "STREET",
-      "expression": "grel:replace(value, \"crucecon\", \"-\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column STREET using expression grel:replace(value, \"crucecon\", \"-\")"
-    },
-    {
-      "op": "rdf-extension/save-rdf-schema",
-      "schema": {
-        "prefixes": [],
-        "baseUri": null,
-        "rootNodes": []
-      },
-      "description": "Save RDF schema skeleton"
-    },
-    {
-      "op": "core/recon",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "NEIGHBORHOOD",
-      "config": {
-        "mode": "standard-service",
-        "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-        "identifierSpace": "http://www.wikidata.org/entity/",
-        "schemaSpace": "http://www.wikidata.org/prop/direct/",
-        "type": {
-          "id": "Q3032114",
-          "name": "district of Madrid"
-        },
-        "autoMatch": true,
-        "columnDetails": [],
-        "limit": 0
-      },
-      "description": "Reconcile cells in column NEIGHBORHOOD to type Q3032114"
-    },
-    {
-      "op": "core/column-addition",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "baseColumnName": "NEIGHBORHOOD",
-      "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
-      "onError": "set-to-blank",
-      "newColumnName": "http://biciaccident.es/resource/neighborhood",
-      "columnInsertIndex": 5,
-      "description": "Create column http://biciaccident.es/resource/neighborhood at index 5 based on column NEIGHBORHOOD using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
-    },
-    {
-      "op": "core/column-rename",
-      "oldColumnName": "http://biciaccident.es/resource/neighborhood",
-      "newColumnName": "Wikidata Neighborhood",
-      "description": "Rename column http://biciaccident.es/resource/neighborhood to Wikidata Neighborhood"
-    },
-    {
-      "op": "rdf-extension/save-rdf-schema",
-      "schema": {
-        "prefixes": [
-          {
-            "name": "rdf",
-            "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-          },
-          {
-            "name": "owl",
-            "uri": "http://www.w3.org/2002/07/owl#"
-          },
-          {
-            "name": "xml",
-            "uri": "http://www.w3.org/XML/1998/namespace"
-          },
-          {
-            "name": "xsd",
-            "uri": "http://www.w3.org/2001/XMLSchema#"
-          },
-          {
-            "name": "rdfs",
-            "uri": "http://www.w3.org/2000/01/rdf-schema#"
-          }
+    "columnName": "LESIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "02"
         ],
-        "baseUri": "http://biciaccident.es/",
-        "rootNodes": [
-          {
-            "nodeType": "cell-as-resource",
-            "columnName": "EXPEDIENT",
-            "expression": "\"resource/accident/\" + value",
-            "isRowNumberCell": false,
-            "links": [
-              {
-                "uri": "http://biciaccident.es/ontology#date",
-                "curie": "http://biciaccident.es/ontology#date",
-                "target": {
-                  "nodeType": "cell-as-literal",
-                  "columnName": "DATE",
-                  "expression": "value",
-                  "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
-                  "isRowNumberCell": false
-                }
-              },
-              {
-                "uri": "http://biciaccident.es/ontology#occursOn",
-                "curie": "http://biciaccident.es/ontology#occursOn",
-                "target": {
-                  "nodeType": "cell-as-resource",
-                  "columnName": "STREET",
-                  "expression": "\"resource/street/\" + value",
-                  "isRowNumberCell": false,
-                  "links": [],
-                  "rdfTypes": []
-                }
-              },
-              {
-                "uri": "http://biciaccident.es/ontology#injuryStatus",
-                "curie": "http://biciaccident.es/ontology#injuryStatus",
-                "target": {
-                  "nodeType": "cell-as-literal",
-                  "columnName": "INJURY STATUS",
-                  "expression": "value",
-                  "isRowNumberCell": false
-                }
-              },
-              {
-                "uri": "http://biciaccident.es/ontology#weatherCondition",
-                "curie": "http://biciaccident.es/ontology#weatherCondition",
-                "target": {
-                  "nodeType": "cell-as-literal",
-                  "columnName": "WEATHER",
-                  "expression": "value",
-                  "isRowNumberCell": false
-                }
-              },
-              {
-                "uri": "http://biciaccident.es/ontology#typeAccident",
-                "curie": "http://biciaccident.es/ontology#typeAccident",
-                "target": {
-                  "nodeType": "cell-as-literal",
-                  "columnName": "TYPE ACCIDENT",
-                  "expression": "value",
-                  "isRowNumberCell": false
-                }
-              },
-              {
-                "uri": "http://biciaccident.es/ontology#expedient",
-                "curie": "http://biciaccident.es/ontology#expedient",
-                "target": {
-                  "nodeType": "cell-as-literal",
-                  "columnName": "EXPEDIENT",
-                  "expression": "value",
-                  "isRowNumberCell": false
-                }
-              }
-            ],
-            "rdfTypes": []
-          },
-          {
-            "nodeType": "cell-as-resource",
-            "columnName": "STREET",
-            "expression": "\"resource/street/\" + value",
-            "isRowNumberCell": false,
-            "links": [
-              {
-                "uri": "http://biciaccident.es/ontology#locatedIn",
-                "curie": "http://biciaccident.es/ontology#locatedIn",
-                "target": {
-                  "nodeType": "cell-as-resource",
-                  "columnName": "NEIGHBORHOOD",
-                  "expression": "\"resource/neighborhood/\" + value",
-                  "isRowNumberCell": false,
-                  "links": [],
-                  "rdfTypes": []
-                }
-              },
-              {
-                "uri": "http://biciaccident.es/ontology#number",
-                "curie": "http://biciaccident.es/ontology#number",
-                "target": {
-                  "nodeType": "cell-as-literal",
-                  "columnName": "NUMBER",
-                  "expression": "value",
-                  "isRowNumberCell": false
-                }
-              }
-            ],
-            "rdfTypes": []
-          },
-          {
-            "nodeType": "cell-as-resource",
-            "columnName": "NEIGHBORHOOD",
-            "expression": "\"resource/neighborhood/\" + value",
-            "isRowNumberCell": false,
-            "links": [
-              {
-                "uri": "http://biciaccident.es/ontology#name",
-                "curie": "http://biciaccident.es/ontology#name",
-                "target": {
-                  "nodeType": "cell-as-literal",
-                  "columnName": "NEIGHBORHOOD",
-                  "expression": "value",
-                  "isRowNumberCell": false
-                }
-              },
-              {
-                "uri": "http://www.w3.org/2002/07/owl#sameAs",
-                "curie": "owl:sameAs",
-                "target": {
-                  "nodeType": "cell-as-resource",
-                  "columnName": "Wikidata Neighborhood",
-                  "expression": "value",
-                  "isRowNumberCell": false,
-                  "links": [],
-                  "rdfTypes": []
-                }
-              }
-            ],
-            "rdfTypes": []
-          }
-        ]
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ingreso inferior o igual a 24 horas - LEVE"
+      }
+    ],
+    "description": "Mass edit cells in column LESIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LESIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "06"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asistencia sanitaria inmediata en centro de salud o mutua - LEVE"
+      }
+    ],
+    "description": "Mass edit cells in column LESIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LESIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "05"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asistencia sanitaria ambulatoria con posterioridad - LEVE"
+      }
+    ],
+    "description": "Mass edit cells in column LESIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LESIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "Sin asistencia sanitaria"
+      }
+    ],
+    "description": "Mass edit cells in column LESIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "LESIVIDAD",
+          "columnName": "LESIVIDAD",
+          "query": "04",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "LESIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "04"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fallecido 24 horas - FALLECIDO"
+      }
+    ],
+    "description": "Mass edit cells in column LESIVIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "SEXO",
+    "description": "Remove column SEXO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "RANGO DE EDAD",
+    "description": "Remove column RANGO DE EDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO PERSONA",
+    "description": "Remove column TIPO PERSONA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO VEHÍCULO",
+    "description": "Remove column TIPO VEHÍCULO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nº  EXPEDIENTE",
+    "newColumnName": "EXPEDIENTE",
+    "description": "Rename column Nº  EXPEDIENTE to EXPEDIENTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESTADO METEREOLÓGICO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "Se desconoce"
+      }
+    ],
+    "description": "Mass edit cells in column ESTADO METEREOLÓGICO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TIPO ACCIDENTE",
+          "columnName": "TIPO ACCIDENTE",
+          "query": "Otr",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO ACCIDENTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Otro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Otras causas: Recoge los accidentes por atropello a animal, despeñamiento, salida de la vía, y otros."
+      }
+    ],
+    "description": "Mass edit cells in column TIPO ACCIDENTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TIPO ACCIDENTE",
+          "columnName": "TIPO ACCIDENTE",
+          "query": "Otras",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO ACCIDENTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Otras causas: Recoge los accidentes por atropello a animal, despeñamiento, salida de la vía, y otros."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Otras causas(atropello a animal, despeñamiento, salida de la vía, etc)"
+      }
+    ],
+    "description": "Mass edit cells in column TIPO ACCIDENTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TIPO ACCIDENTE",
+          "columnName": "TIPO ACCIDENTE",
+          "query": "Otras",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO ACCIDENTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Otras causas(atropello a animal, despeñamiento, salida de la vía, etc)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Otras causas (atropello a animal, despeñamiento, salida de la vía, etc)"
+      }
+    ],
+    "description": "Mass edit cells in column TIPO ACCIDENTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TIPO ACCIDENTE",
+          "columnName": "TIPO ACCIDENTE",
+          "query": "Otras",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO ACCIDENTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Otras causas (atropello a animal, despeñamiento, salida de la vía, etc)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Otras causas"
+      }
+    ],
+    "description": "Mass edit cells in column TIPO ACCIDENTE"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "FECHA",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "Date",
+    "columnInsertIndex": 2,
+    "description": "Create column Date at index 2 based on column FECHA using expression grel:value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Date",
+    "description": "Remove column Date"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "FECHA",
+    "expression": "grel:(cells.FECHA.value + \" \" + cells.HORA.value).toDate()",
+    "onError": "set-to-blank",
+    "newColumnName": "Date",
+    "columnInsertIndex": 2,
+    "description": "Create column Date at index 2 based on column FECHA using expression grel:(cells.FECHA.value + \" \" + cells.HORA.value).toDate()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "HORA",
+    "description": "Remove column HORA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "FECHA",
+    "description": "Remove column FECHA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Date",
+    "newColumnName": "DATE",
+    "description": "Rename column Date to DATE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "EXPEDIENTE",
+    "newColumnName": "EXPEDIENT",
+    "description": "Rename column EXPEDIENTE to EXPEDIENT"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CALLE",
+    "newColumnName": "STREET",
+    "description": "Rename column CALLE to STREET"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NÚMERO",
+    "newColumnName": "NUMBER",
+    "description": "Rename column NÚMERO to NUMBER"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DISTRITO",
+    "newColumnName": "NEIGHBORHOOD",
+    "description": "Rename column DISTRITO to NEIGHBORHOOD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TIPO ACCIDENTE",
+    "newColumnName": "TYPE ACCIDENT",
+    "description": "Rename column TIPO ACCIDENTE to TYPE ACCIDENT"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ESTADO METEREOLÓGICO",
+    "newColumnName": "WEATHER",
+    "description": "Rename column ESTADO METEREOLÓGICO to WEATHER"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LESIVIDAD",
+    "newColumnName": "INJURY STATUS",
+    "description": "Rename column LESIVIDAD to INJURY STATUS"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "EXPEDIENT",
+    "expression": "grel:row.index + 1",
+    "onError": "set-to-blank",
+    "newColumnName": "ID",
+    "columnInsertIndex": 1,
+    "description": "Create column ID at index 1 based on column EXPEDIENT using expression grel:row.index + 1"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "ID",
+    "index": 0,
+    "description": "Move column ID to position 0"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CALL. FUENCARRAL / GTA. BILBAO",
+          "GTA. BILBAO / CALL. FUENCARRAL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CALL. FUENCARRAL / GTA. BILBAO"
+      }
+    ],
+    "description": "Mass edit cells in column STREET"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ID",
+    "newColumnName": "ACCIDENT",
+    "description": "Rename column ID to ACCIDENT"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CALL. FUENCARRAL / GTA. BILBAO",
+          "GTA. BILBAO / CALL. FUENCARRAL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CALL. FUENCARRAL / GTA. BILBAO"
+      }
+    ],
+    "description": "Mass edit cells in column STREET"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ACCIDENT",
+    "description": "Remove column ACCIDENT"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "grel:toTitlecase(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column STREET using expression grel:toTitlecase(value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "grel:replace(value, \"/\", \"Cruce con\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column STREET using expression grel:replace(value, \"/\", \"Cruce con\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "grel:replace(value, \"Cruce\", \"cruce\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column STREET using expression grel:replace(value, \"Cruce\", \"cruce\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "grel:replace(value, \" \", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column STREET using expression grel:replace(value, \" \", \"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "grel:replace(value, \"crucecon\", \"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column STREET using expression grel:replace(value, \"crucecon\", \"-\")"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
       },
-      "description": "Save RDF schema skeleton"
-    }
-  ]
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column NEIGHBORHOOD to type Q3032114"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "NEIGHBORHOOD",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "http://biciaccident.es/resource/neighborhood",
+    "columnInsertIndex": 5,
+    "description": "Create column http://biciaccident.es/resource/neighborhood at index 5 based on column NEIGHBORHOOD using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "http://biciaccident.es/resource/neighborhood",
+    "newColumnName": "Wikidata Neighborhood",
+    "description": "Rename column http://biciaccident.es/resource/neighborhood to Wikidata Neighborhood"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NEIGHBORHOOD",
+    "newColumnName": "NEIGHBORHOODAA",
+    "description": "Rename column NEIGHBORHOOD to NEIGHBORHOODAA"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "NEIGHBORHOODAA",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "NEIGHBORHOOD",
+    "columnInsertIndex": 5,
+    "description": "Create column NEIGHBORHOOD at index 5 based on column NEIGHBORHOODAA using expression grel:value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NEIGHBORHOODAA",
+    "description": "Remove column NEIGHBORHOODAA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Wikidata Neighborhood",
+    "description": "Remove column Wikidata Neighborhood"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column NEIGHBORHOOD to type Q3032114"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "NEIGHBORHOOD",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata Neighborhood",
+    "columnInsertIndex": 5,
+    "description": "Create column Wikidata Neighborhood at index 5 based on column NEIGHBORHOOD using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]

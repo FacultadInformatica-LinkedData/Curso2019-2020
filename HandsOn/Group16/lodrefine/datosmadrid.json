@@ -1,0 +1,3300 @@
+[
+  {
+    "op": "core/column-rename",
+    "description": "Rename column NéMERO CATµLOGO to NÚMERO CATÁLOGO",
+    "oldColumnName": "NéMERO CATµLOGO",
+    "newColumnName": "NÚMERO CATÁLOGO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CATALOGACIàN PG97 to CATALOGACIÓN PG97",
+    "oldColumnName": "CATALOGACIàN PG97",
+    "newColumnName": "CATALOGACIÓN PG97"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CATALOGACIàN A 27/07/18 to CATALOGACIÓN A 27/07/18",
+    "oldColumnName": "CATALOGACIàN A 27/07/18",
+    "newColumnName": "CATALOGACIÓN A 27/07/18"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column BIC_BIP to IMPORTANCIA TURÍSTICA",
+    "oldColumnName": "BIC_BIP",
+    "newColumnName": "IMPORTANCIA TURÍSTICA"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column DENOMINACIàN to DENOMINACIÓN",
+    "oldColumnName": "DENOMINACIàN",
+    "newColumnName": "DENOMINACIÓN"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column VIA_CLASE_TX to TIPO VÍA",
+    "oldColumnName": "VIA_CLASE_TX",
+    "newColumnName": "TIPO VÍA"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column VIA_NOMBRE to NOMBRE VÍA",
+    "oldColumnName": "VIA_NOMBRE",
+    "newColumnName": "NOMBRE VÍA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column APP_NUM",
+    "columnName": "APP_NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column APP_CLF",
+    "columnName": "APP_CLF"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column UTMX_ETRS to LONGITUG",
+    "oldColumnName": "UTMX_ETRS",
+    "newColumnName": "LONGITUG"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column UTMY_ETRS to LATITUD",
+    "oldColumnName": "UTMY_ETRS",
+    "newColumnName": "LATITUD"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column CATALOGACIÓN A 27/07/18",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CATALOGACIÓN A 27/07/18",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Desaparecido por demolici¢n Total"
+        ],
+        "to": "Desaparecido por demolición total"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column CATALOGACIÓN A 27/07/18",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CATALOGACIÓN A 27/07/18",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Desaparecido por Demolici¢n Total"
+        ],
+        "to": "Desaparecido por demolición total"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column CATALOGACIÓN A 27/07/18",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CATALOGACIÓN A 27/07/18",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Desaparecido por demolici¢n total"
+        ],
+        "to": "Desaparecido por demolición total"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column CATALOGACIÓN A 27/07/18",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CATALOGACIÓN A 27/07/18",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Desaparecido por demolición total"
+        ],
+        "to": "Desaparecido por demolición total"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column CATALOGACIÓN A 27/07/18",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CATALOGACIÓN A 27/07/18",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Volum‚trico"
+        ],
+        "to": "Volumétrico"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column CATALOGACIÓN PG97",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CATALOGACIÓN PG97",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "No Catalogado"
+        ],
+        "to": "No catalogado"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column CATALOGACIÓN PG97",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CATALOGACIÓN PG97",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sin Catalogar"
+        ],
+        "to": "No catalogado"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column CATALOGACIÓN PG97",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CATALOGACIÓN PG97",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Volum‚trico"
+        ],
+        "to": "Volumétrico"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column CATALOGACIÓN A 27/07/18",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CATALOGACIÓN A 27/07/18",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Descatalogado"
+        ],
+        "to": "No catalogado"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column IMPORTANCIA TURÍSTICA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "IMPORTANCIA TURÍSTICA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BIC-Monumento"
+        ],
+        "to": "Monumento"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column IMPORTANCIA TURÍSTICA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "IMPORTANCIA TURÍSTICA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BIC-Sitio Hist¢rico"
+        ],
+        "to": "Sitio histórico"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column OBSERVACIONES",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "OBSERVACIONES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Blas¢n, del 10 A al 10 C"
+        ],
+        "to": "Blasón, del 10 A al 10 C"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column OBSERVACIONES",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "OBSERVACIONES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Don Antonio de Andr‚s, 12, 13 y 16"
+        ],
+        "to": "Don Antonio de Andrés, 12, 13 y 16"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "AGENCIA ESPA¥OLA DE COOP. INTERN. BIBLIOTECA"
+        ],
+        "to": "AGENCIA ESPAÑOLA DE COOP. INTERN. BIBLIOTECA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "AGENCIA ESPA¥OLA DE COOPERACIàN INTERNACIONAL"
+        ],
+        "to": "AGENCIA ESPAÑOLA DE COOPERACIÓN INTERNACIONAL"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "AGENCIA ESPAÑOLA DE COOP. INTERN. BIBLIOTECA"
+        ],
+        "to": "AGENCIA ESPAÑOLA DE COOPERACIÓN INTERNACIONAL"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ALIMENTACIàN BANCADAS. APARECE EN PE CON NéMERO 53"
+        ],
+        "to": "ALIMENTACIÓN BANCADAS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "AMPLIACIàN ETS. ARQUITECTURA"
+        ],
+        "to": "AMPLIACIÓN ETS. ARQUITECTURA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ARGENTINA. APARECE EN PE CON NéMERO 52"
+        ],
+        "to": "ARGENTINA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ARQUITECTURA T�CNICA"
+        ],
+        "to": "ARQUITECTURA TÉCNICA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ASTURIAS. APARECE EN PE CON NéMERO 17"
+        ],
+        "to": "ASTURIAS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BURGOS. APARECE EN PE CON NéMERO 11"
+        ],
+        "to": "BURGOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CAMPOS DE DEPORTES-BAR"
+        ],
+        "to": "CAMPOS DE DEPORTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CAMPOS DE DEPORTES-CASETA"
+        ],
+        "to": "CAMPOS DE DEPORTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CAMPOS DE DEPORTES-PABELLON"
+        ],
+        "to": "CAMPOS DE DEPORTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CAMPOS DE DEPORTES-PISTAS"
+        ],
+        "to": "CAMPOS DE DEPORTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CAMPOS DE DEPORTES-VESTUARIO PISCINA"
+        ],
+        "to": "CAMPOS DE DEPORTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CAMPOS DE DEPORTES-VESTUARIOS"
+        ],
+        "to": "CAMPOS DE DEPORTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CAPACIT. ENOLàGICA/INDUSTRIAS LµCTEAS. APARECE EN PE CON NéMERO 37"
+        ],
+        "to": "CAPACIT. ENOLÁGICA/INDUSTRIAS LÁCTEAS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CàRDOBA. APARECE EN PE CON NéMERO 36"
+        ],
+        "to": "CÓRDOBA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CATALU¥A/LA MASÖA. APARECE EN PE CON NéMERO 10"
+        ],
+        "to": "CATALUÑA/LA MASÍA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CC. DE LA EDUCACIàN - ALMACEN"
+        ],
+        "to": "CC. DE LA EDUCACIÓN"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CC. DE LA EDUCACIàN - PISCINA"
+        ],
+        "to": "CC. DE LA EDUCACIÓN"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CC. DE LA EDUCACIÓN"
+        ],
+        "to": "CC. DE LA EDUCACIÓN"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CENIM - COBERTIZO"
+        ],
+        "to": "CENIM"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CENIM - NAVE 5"
+        ],
+        "to": "CENIM"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CENIM - NAVE 6"
+        ],
+        "to": "CENIM"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CENIM - NAVE 8"
+        ],
+        "to": "CENIM"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CENIM - NAVE 7"
+        ],
+        "to": "CENIM"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CENIM - NAVE ELECTRO-CORROSIàN"
+        ],
+        "to": "CENIM"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CENIN - PABELLON COMEDORES"
+        ],
+        "to": "CENIN"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CENTRAL T�RMICA - EQUIPOS BOMBAS"
+        ],
+        "to": "CENTRAL TÉRMICA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CENTRO DE CµLCULO"
+        ],
+        "to": "CENTRO DE CÁLCULO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CENTRO T�CNICO INTENDENCIA"
+        ],
+        "to": "CENTRO TÉCNICO INTENDENCIA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CMU. ARGENTINO (NTRA. SRA. LUJµN)"
+        ],
+        "to": "CMU. ARGENTINO (NTRA. SRA. LUJÁN)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CMU. CESAR CARLOS - RECEPCIàN"
+        ],
+        "to": "CMU. CESAR CARLOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CMU. CESAR CARLOS VIVIENDA PORTERO"
+        ],
+        "to": "CMU. CESAR CARLOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CMU. CESAR CARLOS - EDIF. DORMITORIOS"
+        ],
+        "to": "CMU. CESAR CARLOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CMU. SAN AGUSTÖN-DORMITORIOS"
+        ],
+        "to": "CMU. SAN AGUSTÍN"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CMU. SAN AGUSTÖN- RECEPCIàN"
+        ],
+        "to": "CMU. SAN AGUSTÍN"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CMU. VACO QUIROGA - NA VE TALLER MATERIALES"
+        ],
+        "to": "CMU. VACO QUIROGA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CMU. VASCO QUIROGA (ANTIGUA CAPILLA)"
+        ],
+        "to": "CMU. VASCO QUIROGA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CMU. VASCO QUIROGA"
+        ],
+        "to": "CMU. VASCO QUIROGA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CMU. VACO QUIROGA"
+        ],
+        "to": "CMU. VASCO QUIROGA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CRUZ ROJA I.  APARECE EN PE CON NéMERO 01"
+        ],
+        "to": "CRUZ ROJA I"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CRUZ ROJA II.  APARECE EN PE CON NéMERO 02"
+        ],
+        "to": "CRUZ ROJA II"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CRUZ ROJA III. APARECE EN PE CON NéMERO 03"
+        ],
+        "to": "CRUZ ROJA III"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CRUZ ROJA IV. APARECE EN PE CON NéMERO 04"
+        ],
+        "to": "CRUZ ROJA IV"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CµCERES. APARECE EN PE CON NéMERO 15"
+        ],
+        "to": "CÁCERES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "EDIFICACION DEL JARDÖN BOTµNICO: INVERNADERO GRAELLS"
+        ],
+        "to": "EDIFICACIÓN DEL JARDÍN BOTÁNICO: INVERNADERO GRAELLS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ESTRELLA. APARECE EN PE CON NéMERO 31"
+        ],
+        "to": "ESTRELLA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI AGàNOMOS -AULARIO"
+        ],
+        "to": "ETSI AGRÓNOMOS -AULARIO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI AGàNOMOS-REPROGRAFÖA"
+        ],
+        "to": "ETSI AGRÓNOMOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI AGRàNOMOS-LAB. MECµNICA AGRÖCOLA"
+        ],
+        "to": "ETSI AGRÓNOMOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI AGRÓNOMOS -AULARIO"
+        ],
+        "to": "ETSI AGRÓNOMOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI MONTES - INVERNADERO - 2"
+        ],
+        "to": "ETSI MONTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI MONTES - INVERNADERO - 4"
+        ],
+        "to": "ETSI MONTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI MONTES - INVERNADERO -3"
+        ],
+        "to": "ETSI MONTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI MONTES - P AB. CORCHOS"
+        ],
+        "to": "ETSI MONTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI MONTES"
+        ],
+        "to": "ETSI MONTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI MONTES - P AB. DASOMETRÖA"
+        ],
+        "to": "ETSI MONTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI MONTES - PAB. MADERAS - 1"
+        ],
+        "to": "ETSI MONTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI MONTES - PAB. MADERAS -2"
+        ],
+        "to": "ETSI MONTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI MONTES - PAB. MADERAS - 4"
+        ],
+        "to": "ETSI MONTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI MONTES - PAB. MADERAS -3"
+        ],
+        "to": "ETSI MONTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI MONTES - PISCIF ACTORIA"
+        ],
+        "to": "ETSI MONTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI MONTES- PAB. HIDRµULICA"
+        ],
+        "to": "ETSI MONTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI NA VALES"
+        ],
+        "to": "ETSI NAVALES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI TELECOMUNICACIONES (EDIF. B)"
+        ],
+        "to": "ETSI TELECOMUNICACIONES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI TELECOMUNICACIONES (EDIF. C)"
+        ],
+        "to": "ETSI TELECOMUNICACIONES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ETSI TELECOMUNICACIONES EDIF. A)"
+        ],
+        "to": "ETSI TELECOMUNICACIONES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "EUIT AERONµUTICOS"
+        ],
+        "to": "EUIT AERONÁUTICOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "EUIT. AGRÖCOLAS"
+        ],
+        "to": "EUIT. AGRÍCOLAS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "EUIT. AGRÖCOLAS-BODEGA INDUSTRÖAS AGRÖCOLAS"
+        ],
+        "to": "EUIT. AGRÍCOLAS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FACULTAD CC. DE LA INFORMACIàN"
+        ],
+        "to": "FACULTAD CC. DE LA INFORMACIÓN"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FACULTAD CC. MATEMµTICAS"
+        ],
+        "to": "FACULTAD CC. MATEMÁTICAS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FACULTAD CE. BIOLàGICAS Y GEOLàGICAS"
+        ],
+        "to": "FACULTAD CE. BIOLÓGICAS Y GEOLÓGICAS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FACULTAD CE. BIOLàGICAS Y GEOLàGICAS AMPLIACIàN"
+        ],
+        "to": "FACULTAD CE. BIOLÓGICAS Y GEOLÓGICAS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FACULTAD CE. ESTADÖSTICA-EDIF. PRINCIPAL"
+        ],
+        "to": "FACULTAD CE. ESTADÍSTICA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FACULTAD DE BELLAS ARTES AMPLIACION"
+        ],
+        "to": "FACULTAD DE BELLAS ARTES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FACULTAD FILOSOFÖA B (GEOGRAFÖA E HISTORIA)"
+        ],
+        "to": "FACULTAD FILOSOFÍA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FUNDACIàN PABLO VI - EDIF. JUAN XXIII"
+        ],
+        "to": "FUNDACIÓN PABLO VI"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FUNDACIàN PABLO VI - RESID.PIO XII"
+        ],
+        "to": "FUNDACIàN PABLO VI"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FUNDACIàN PABLO VI - RESID. PIO XI"
+        ],
+        "to": "FUNDACIÓN PABLO VI"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FUNDACIàN PABLO VI"
+        ],
+        "to": "FUNDACIÓN PABLO VI"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FUNDACIàN PABLO VI.-EDIF. LEàN XIII"
+        ],
+        "to": "FUNDACIÓN PABLO VI"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "GUADALAJARA. APARECE EN PE CON NéMERO 34"
+        ],
+        "to": "GUADALAJARA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "GUIPéZCOA. APARECE EN PE CON NéMERO 19"
+        ],
+        "to": "GUIPÚZCOA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HOSPITAL CLÖNICO"
+        ],
+        "to": "HOSPITAL CLÍNICO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "HOSPITAL CLÖNICO -CALDERAS"
+        ],
+        "to": "HOSPITAL CLÍNICO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "I.N.I. APARECE EN PE CON NéMERO 50"
+        ],
+        "to": "I.N.I."
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INIA CASA ANTIGUOS GUARDESES"
+        ],
+        "to": "INIA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INIA NA VE CONEJO"
+        ],
+        "to": "INIA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INIA NA VES, OVINO, PORCINO Y PIENSOS"
+        ],
+        "to": "INIA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INIA NA VE MUFLONES"
+        ],
+        "to": "INIA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INMUEBLE PALACETE C/ VILLANUEVA, 18"
+        ],
+        "to": "INMUEBLE PALACETE"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INST. NAC. PREVISIàN/OFICINAS (IFEMA). APARECE EN PE CON NéMERO 47"
+        ],
+        "to": "INST. NAC. PREVISIÓN/OFICINAS (IFEMA)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INSTALACIONES MILITARES CAMPAMENTO: CUARTEL ALFONSO XIII-EDIFICIO DERECHA"
+        ],
+        "to": "INSTALACIONES MILITARES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INSTALACIONES MILITARES CAMPAMENTO: CUARTEL ALFONSO XIII-EDIFICIO IZQUIERDA"
+        ],
+        "to": "INSTALACIONES MILITARES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INSTALACIONES MILITARES CAMPAMENTO: PICADERO CUBIERTO"
+        ],
+        "to": "INSTALACIONES MILITARES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INSTITUTO PLURIDISCIPLINAR - CALDERAS"
+        ],
+        "to": "INSTITUTO PLURIDISCIPLINAR"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "INSTITUTO PLURIDISCIPLINAR - PET"
+        ],
+        "to": "INSTITUTO PLURIDISCIPLINAR"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LA PIPA. APARECE EN PE CON NéMERO 45"
+        ],
+        "to": "LA PIPA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "M. VIVIENDA/EXPOSICIONES. APARECE EN PE CON NéMERO 41"
+        ],
+        "to": "M. VIVIENDA/EXPOSICIONES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MUSEO DEL VINO/ESCUELA DE VID. APARECE EN PE CON NéMERO 33"
+        ],
+        "to": "MUSEO DEL VINO/ESCUELA DE VID"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MµLAGA/ESCUELA DE HOSTELERÖA. APARECE EN PE CON NéMERO 56"
+        ],
+        "to": "MÁLAGA/ESCUELA DE HOSTELERÍA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "OBRA SINDICAL DEL HOGAR/ICONA (CAM). APARECE EN PE CON NéMERO 26"
+        ],
+        "to": "OBRA SINDICAL DEL HOGAR/ICONA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PABELLàN MU¥OZ GRANDES"
+        ],
+        "to": "PABELLÓN MUÑOZ GRANDES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PABELLàN PRINCIPAL/CONVENCIONES. APARECE EN PE CON NéMERO 30"
+        ],
+        "to": "PABELLÓN PRINCIPAL/CONVENCIONES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PABELLONES ESTACIàN MILITAR"
+        ],
+        "to": "PABELLONES ESTACIÓN MILITAR"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PATRIMONIO FORESTAL/ICONA II (CAM). APARECE EN PE CON NéMERO 27"
+        ],
+        "to": "PATRIMONIO FORESTAL/ICONA II"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PATRIMONIO FORESTAL/ICONA II"
+        ],
+        "to": "PATRIMONIO FORESTAL/ICONA II"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PISCINA MUNICIPAL EL LAGO. APARECE EN PE CON NéMERO 59"
+        ],
+        "to": "PISCINA MUNICIPAL EL LAGO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PONTEVEDRA/RESTAURANTE A CASI¥A. APARECE EN PE CON NéMERO 09"
+        ],
+        "to": "PONTEVEDRA/RESTAURANTE A CASIÑA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "RESIDENCIA MAYORES. SERVICIOS SOCIALES. APARECE EN PE CON NéMERO 05"
+        ],
+        "to": "RESIDENCIA MAYORES. SERVICIOS SOCIALES"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SANTANDER/POLICÖA ECOLàGICA"
+        ],
+        "to": "SANTANDER/POLICÖA ECOLÓGICA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SANTANDER/POLICÖA ECOLÓGICA"
+        ],
+        "to": "SANTANDER/POLICÍA ECOLÓGICA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SEGOVIA. APARECE EN PE CON NéMERO 22"
+        ],
+        "to": "SEGOVIA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TEATRO ALB�NIZ"
+        ],
+        "to": "TEATRO ALBÉNIZ"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TEATRO. APARECE EN PE CON NéMERO 44"
+        ],
+        "to": "TEATRO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TORRE DE TIRO POLÖGONO DE EXPERIENCIAS"
+        ],
+        "to": "TORRE DE TIRO POLÍGONO DE EXPERIENCIAS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "UNED-ECONàMICAS"
+        ],
+        "to": "UNED-ECONÓMICAS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "USA/PROTECCIàN CIUDADANA. APARECE EN PE CON NéMERO 49"
+        ],
+        "to": "USA/PROTECCIÓN CIUDADANA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "VALENCIA. APARECE EN PE CON NéMERO 43"
+        ],
+        "to": "VALENCIA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "VINO ESPA¥OL/ESCUELA DE VID. APARECE EN PE CON NéMERO 35"
+        ],
+        "to": "VINO ESPAÑOL/ESCUELA DE VID"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "VIZCAYA/RESTAURANTE CURRITO. APARECE EN PE CON NéMERO 12"
+        ],
+        "to": "VIZCAYA/RESTAURANTE CURRITO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DENOMINACIÓN",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DENOMINACIÓN",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "µLAVA (A.M.E.R.C.). APARECE EN PE CON NéMERO 16"
+        ],
+        "to": "ÁLAVA (A.M.E.R.C.)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column OBSERVACIONES",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "OBSERVACIONES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Don Antonio de Andr‚s, 14 y 17"
+        ],
+        "to": "Don Antonio de AndrÉs, 14 y 17"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column OBSERVACIONES",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "OBSERVACIONES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Don Antonio de AndrÉs, 14 y 17"
+        ],
+        "to": "Don Antonio de Andrés, 14 y 17"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column OBSERVACIONES",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "OBSERVACIONES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Francisco Alc ntara, del 13 a 15 B"
+        ],
+        "to": "Francisco Alcántara, del 13 a 15 B"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column OBSERVACIONES",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "OBSERVACIONES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ministro Ib ¤ez Mart¡n, 1 y 2"
+        ],
+        "to": "Ministro Ibáñez Mart¡n, 1 y 2"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column OBSERVACIONES",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "OBSERVACIONES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ministro Ib ¤ez Mart¡n, 5 y 6"
+        ],
+        "to": "Ministro Ibáñez Mart¡n, 5 y 6"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column OBSERVACIONES",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "OBSERVACIONES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ministro Ib ¤ez Mart¡n, 3 y 4"
+        ],
+        "to": "Ministro Ibáñez Mart¡n, 3 y 4"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column OBSERVACIONES",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "OBSERVACIONES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ministro Ibáñez Mart¡n, 1 y 2"
+        ],
+        "to": "Ministro Ibáñez Martín, 1 y 2"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column OBSERVACIONES",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "OBSERVACIONES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ministro Ibáñez Mart¡n, 3 y 4"
+        ],
+        "to": "Ministro Ibáñez Martín, 3 y 4"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column OBSERVACIONES",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "OBSERVACIONES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ministro Ibáñez Martín, 3 y 4"
+        ],
+        "to": "Ministro Ibáñez Martín, 3 y 4"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column OBSERVACIONES",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "OBSERVACIONES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ministro Ibáñez Mart¡n, 5 y 6"
+        ],
+        "to": "Ministro Ibáñez Martín, 5 y 6"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column OBSERVACIONES",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "OBSERVACIONES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Poblado Ca¤o Roto"
+        ],
+        "to": "Poblado Caño Roto"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column OBSERVACIONES",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "OBSERVACIONES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Potosi, 8 y 10; Bolivia, 5 y 7, Cochabamba, 21 y 23"
+        ],
+        "to": "Potosi, 8 y 10; Bolivia, 5 y 7, Cochabamba, 21 y 23"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO VÍA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TIPO VÍA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TRAVESIA"
+        ],
+        "to": "TRAVESÍA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIPO VÍA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TIPO VÍA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TRAVESÖA"
+        ],
+        "to": "TRAVESÍA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE VÍA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE VÍA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ALCALA"
+        ],
+        "to": "ALCALÁ"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE VÍA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE VÍA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ESPA¥A"
+        ],
+        "to": "ESPAÑA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE VÍA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE VÍA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MANUELA MALASA¥A"
+        ],
+        "to": "MANUELA MALASAÑA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE VÍA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE VÍA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MINISTRO IBA¥EZ MARTIN"
+        ],
+        "to": "MINISTRO IBAÑEZ MARTIN"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE VÍA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE VÍA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MONSE¥OR OSCAR ROMERO"
+        ],
+        "to": "MONSEÑOR OSCAR ROMERO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE VÍA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE VÍA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MU¥OZ TORRERO"
+        ],
+        "to": "MUÑOZ TORRERO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE VÍA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE VÍA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NUESTRA SE¥ORA DE VALVERDE"
+        ],
+        "to": "NUESTRA SEÑORA DE VALVERDE"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE VÍA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE VÍA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NUESTRA SE¥ORA DEL BUEN CAMINO"
+        ],
+        "to": "NUESTRA SEÑORA DEL BUEN CAMINO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE VÍA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE VÍA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ALCALÁ"
+        ],
+        "to": "ALCALA"
+      }
+    ]
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  }
+]
