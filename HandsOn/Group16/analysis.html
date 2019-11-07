@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<body>
-		<strong style="font-size: 30px;">Analisis del data set:</strong>
+		<strong style="font-size: 30px;">Análisis del data set:</strong>
 		<table class="get">
 			<tr>
 				<td><strong style="font-size: 24px;">Termino</strong></td>
@@ -9,64 +9,69 @@
 				<td><strong style="font-size: 24px;">Descripcion</strong></td>
 			</tr>
 			<tr>
-				<td><strong style="font-size: 17px;">NUMCATALOGO</strong></td>
+				<td><strong style="font-size: 17px;">NOMBRE</strong></td>
+				<td>String</td>
+				<td>Nombre de la sala.</td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">DESCRIPCION</strong></td>
+				<td>String</td>
+				<td>Descripción de la sala, actividades, horarios, etc.</td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">TRANSPORTE</strong></td>
+				<td>String</td>
+				<td>Transporte público disponible en las cercanías de la sala.</td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">NOMBRE VIA</strong></td>
+				<td>String</td>
+				<td>Nombre de la vía de la dirección de la sala.</td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">TIPO VIA</strong></td>
+				<td>String</td>
+				<td>Nombre del tipo de vía de la dirección de la sala.</td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">NUM</strong></td>
+				<td>String</td>
+				<td>Número del tipo de la vía de la localización de la sala.td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">CODIGO POSTAL</strong></td>
 				<td>int</td>
-				<td>Número del catálogo que identifica a cada uno de los edificios contenidos en dicho catálogo.</td>
+				<td>Código postal de la dirección de la sala.</td>
 			</tr>
 			<tr>
-				<td><strong style="font-size: 17px;">TIPOVIA</strong></td>
+				<td><strong style="font-size: 17px;">BARRIO</strong></td>
 				<td>String</td>
-				<td>Tipo de la vía de la dirección correspondiente a cada edificio del catálogo.</td>
-			</tr>
-			<tr>
-				<td><strong style="font-size: 17px;">DIRECCION</strong></td>
-				<td>String</td>
-				<td>Direccion correspondiente a cada edificio del catálogo.</td>
-			</tr>
-			<tr>
-				<td><strong style="font-size: 17px;">NUMVIA</strong></td>
-				<td>int</td>
-				<td>Número de la vía de la dirección de cada edificio (opcional).</td>
-			</tr>
-			<tr>
-				<td><strong style="font-size: 17px;">DENOMINACION</strong></td>
-				<td>String</td>
-				<td>Nombre específico del edificio protegido (en caso de tenerlo) en la actualidad.</td>
+				<td>Barrio de la dirección de la sala.</td>
 			</tr>
 			<tr>
 				<td><strong style="font-size: 17px;">DISTRITO</strong></td>
+				<td>String</td>
+				<td>Distrito de la dirección de la sala. </td>
+			</tr>
+			<tr>
+				<td><strong style="font-size: 17px;">LATITUD</strong></td>
 				<td>int</td>
-				<td>Número del distrito donde cada edificio protegido se encuentra.td>
+				<td>Latitud en la que se encuentra la sala.</td>
 			</tr>
 			<tr>
-				<td><strong style="font-size: 17px;">CATALOGACION97</strong></td>
-				<td>String</td>
-				<td>Catalogación que recibieron los edificios protegidos en el año 1997 (cuando se creó el dataset).</td>
+				<td><strong style="font-size: 17px;">LONGITUD</strong></td>
+				<td>int</td>
+				<td>Longitud en la que se encuentra la sala.</td>
 			</tr>
 			<tr>
-				<td><strong style="font-size: 17px;">CATALOGACIONACTUAL</strong></td>
+				<td><strong style="font-size: 17px;">TELEFONO</strong></td>
 				<td>String</td>
-				<td>Catalogacion que tienen los edificios protegidos en la actualidad.</td>
+				<td>Teléfono de contacto de la sala. </td>
 			</tr>
 			<tr>
-				<td><strong style="font-size: 17px;">CATALOGOGEO</strong></td>
+				<td><strong style="font-size: 17px;">URL</strong></td>
 				<td>String</td>
-				<td>Indica si un edificio ha sido reconocido como uno de los principales atractivos turísticos, y si es así, de qué tipo de atracción turística se trata. </td>
-			</tr>
-			<tr>
-				<td><strong style="font-size: 17px;">AMBITO97</strong></td>
-				<td>String</td>
-				<td>Protocolo de condiciones de protección del patrimonio histórico aplicado en 1997.</td>
-			</tr>
-			<tr>
-				<td><strong style="font-size: 17px;">DENOMINACION97</strong></td>
-				<td>String</td>
-				<td>Nombre específico del edificio protegido (en caso de tenerlo) que tenía en el año 1997.</td>
-			</tr>
-			<tr>
-				<td><strong style="font-size: 17px;">MODIFICACIONES</strong></td>
-				<td>String</td>
-				<td>Modificaciones que estos edificios protegidos han ido adquiriendo desde el año 1997. </td>
+				<td>Dirección del enlace de la página para acceder a la información de la sala. </td>
 			</tr>
 		</table>
 	</body>
@@ -78,7 +83,7 @@
 	</body>
 	<body>
 		<h2>Definir una estrategia de nombrado de recursos:</h2>
-		<text>Ontological terms pattern: http://www.datosmadrid.es/edificiosprotegidos/ontology</text><br/>
-		<text>Individuals pattern: http://www.datosmadrid.es/eidificiosprotegidos/resource</text>
+		<text>Ontological terms pattern: http://www.datosmadrid.es/ociosalas/ontology#</text><br/>
+		<text>Individuals pattern: http://www.datosmadrid.es/ociosalas/resource#</text>
 	</body>
 </html>
