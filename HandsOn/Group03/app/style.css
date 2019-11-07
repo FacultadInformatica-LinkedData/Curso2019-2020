@@ -1,0 +1,64 @@
+.button1, 
+.button2 {
+    background-color: transparent;
+    border-color: #000000;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button1:hover, 
+.button2:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+    border-color: #ff0000;
+}
+
+input {
+    border-radius: 10px;
+    border-color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.search {
+    text-align: center;
+}
+
+body img {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: auto;
+    width: 250px;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+h1 {
+    color: black;
+    font-family: "Roboto";
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+#bubblechart {
+    text-align: center;
+}
+
+#piechart,
+#columnchart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 500px;
+}

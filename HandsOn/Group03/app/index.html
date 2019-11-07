@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>App_web_semantic</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://solid.github.io/releases/rdflib.js/rdflib-0.12.2.min.js"></script>
+    <script src="./js/sparql-fiddle.js"></script>
+
+</head>
+<body>
+   <div class="search">
+       <h1>FUENTES DE MADRID</h1>
+       <img id="loading-image" src="img/map.png"/>
+       <button class="button1" onclick="pie()">FUENTES POR DISTRITO</button>
+       <button class="button2" onclick="bubble()">HABITANTES POR DISTRITO</button>
+       <button class="button2" onclick="bar()">FUENTE POR X HABITANTES</button>
+   </div>
+   <div id="piechart"></div>
+   <div id="columnchart"></div>
+   <div id="bubblechart">
+       <svg class="bubble" width="594.86" height="594.86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+           <a href="http://www.wikidata.org/entity/Q589403" class="node" transform="translate(245.89908335023787,280.1587483271708)">
+               <title>Vicálvaro: 70051</title>
+               <circle r="32.40623837598902" style="fill: rgb(49, 130, 189);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Vicálvaro</text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q656196" class="node" transform="translate(339.6168333086741,280.1587483271708)">
+               <title>Fuencarral-El Pardo: 238756</title>
+               <circle r="59.82718926455879" style="fill: rgb(107, 174, 214);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Fuencarral-El </text>
+           </a>
+           <a href="https://www.wikidata.org/wiki/Q794954" class="node" transform="translate(261.5077845484783,188.38201999228477)">
+               <title>Latina: 233808</title>
+               <circle r="59.204011741638006" style="fill: rgb(158, 202, 225);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Latina</text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q807230" class="node" transform="translate(196.07423918387224,246.01761828855405)">
+               <title>Barajas: 46876</title>
+               <circle r="26.509206329815285" style="fill: rgb(198, 219, 239);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Baraja</text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q919536" class="node" transform="translate(174.10644429779228,317.9962470119103)">
+               <title>Villaverde: 149003</title>
+               <circle r="47.26274687169504" style="fill: rgb(230, 85, 13);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Villaverde</text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q95336" class="node" transform="translate(258.87140827207344,357.9270914224903)">
+               <title>Usera: 134791</title>
+               <circle r="44.95229821971727" style="fill: rgb(253, 141, 60);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Usera</text>
+           </a>
+           <a href="https://www.wikidata.org/wiki/Q1001991" class="node" transform="translate(356.84868814204145,400.7254542118733)">
+               <title>Carabanchel: 243998</title>
+               <circle r="60.48039040157874" style="fill: rgb(253, 174, 107);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Carabanchel</text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q1763370" class="node" transform="translate(435.2747140917685,327.42190478192265)">
+               <title>Chamberí: 137401</title>
+               <circle r="45.3854242403732" style="fill: rgb(253, 208, 162);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Chamberí</text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q1763376" class="node" transform="translate(435.780204634022,236.0812209670089)">
+               <title>Centro: 131928</title>
+               <circle r="44.4723359692588" style="fill: rgb(49, 163, 84);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Centro</text>
+           </a>
+           <a href="https://www.wikidata.org/wiki/Q1763694" class="node" transform="translate(373.68156946445,154.65644458841177)">
+               <title>Ciudad Lineal: 212529</title>
+               <circle r="56.44565954906274" style="fill: rgb(116, 196, 118);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Ciudad Lineal</text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q1766348" class="node" transform="translate(294.6576901409655,86.58583852033755)">
+               <title>Chamartín: 143424</title>
+               <circle r="46.369495187383066" style="fill: rgb(161, 217, 155);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Chamartín</text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q1773521" class="node" transform="translate(201.30193735119434,99.78380264178278)">
+               <title>Salamanca: 143800</title>
+               <circle r="46.430236479990626" style="fill: rgb(199, 233, 192);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Salamanca</text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q1773540" class="node" transform="translate(152.95538913471336,182.64056650134881)">
+               <title>Tetuán: 153789</title>
+               <circle r="48.01579115315788" style="fill: rgb(117, 107, 177);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Tetuán</text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q1928529" class="node" transform="translate(90.10208804775613,262.35526956630076)">
+               <title>Hortaleza: 180462</title>
+               <circle r="52.01329127069785" style="fill: rgb(158, 154, 200);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Hortaleza</text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q1947988" class="node" transform="translate(94.07504697296383,355.3334227700369)">
+               <title>Villa de Vallecas: 104421</title>
+               <circle r="39.56538322431904" style="fill: rgb(188, 189, 220);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Villa de </text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q2000929" class="node" transform="translate(161.06914589209165,413.5885689651267)">
+               <title>Arganzuela: 151965</title>
+               <circle r="47.730198423707996" style="fill: rgb(218, 218, 235);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Arganzuela</text>
+           </a>
+           <a href="https://www.wikidata.org/wiki/Q2001937" class="node" transform="translate(250.44728726759223,452.0920258602465)">
+               <title>San Blas: 154357</title>
+               <circle r="48.10437952250086" style="fill: rgb(99, 99, 99);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">San Blas</text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q2002296" class="node" transform="translate(328.17866221529414,500.81617775656423)">
+               <title>Retiro: 118516</title>
+               <circle r="42.15120021578074" style="fill: rgb(150, 150, 150);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Retiro</text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q2003054" class="node" transform="translate(430.1232465666966,496.2315578760148)">
+               <title>Puente de Vallecas: 227595</title>
+               <circle r="58.41209879103077" style="fill: rgb(189, 189, 189);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Puente de Vall</text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q2017682" class="node" transform="translate(476.8290592235938,405.82346085136646)">
+               <title>Moncloa-Aravaca: 116903</title>
+               <circle r="41.863379124568894" style="fill: rgb(217, 217, 217);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Moncloa-Ar</text>
+           </a>
+           <a href="http://www.wikidata.org/entity/Q2076109" class="node" transform="translate(519.1926558264954,336.8714236515653)">
+               <title>Moratalaz: 94197</title>
+               <circle r="37.5785473964463" style="fill: rgb(49, 130, 189);"></circle>
+               <text dy=".3em" style="text-anchor: middle; cursor: pointer;">Moratalaz</text>
+           </a>
+       </svg>
+   </div>
+   <script src="./js/main.js"></script>
+</body>
+</html>
