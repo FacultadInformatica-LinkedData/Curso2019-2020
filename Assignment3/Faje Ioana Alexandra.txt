@@ -1,0 +1,165 @@
+
+1. SELECT distinct ?prop WHERE {
+?x a <http://dbpedia.org/ontologyPolitician> .
+?x ?prop ?y .
+} LIMIT 25
+
+property
+rdf:type 
+rdfs:label
+rdfs:comment 
+owl:differentFrom 
+rdfs:seeAlso 
+owl:sameAs 
+dbpedia:ontology/deathPlace 
+dbpedia2:deathPlace 
+dbpedia:ontology/deathDate 
+dbpedia:ontology/birthPlace 
+dbpedia:ontology/birthDate 
+<http://purl.org/dc/terms/subject> 
+dbpedia:ontology/wikiPageID 
+dbpedia:ontology/wikiPageRevisionID 
+dbpedia:ontology/wikiPageExternalLink 
+foaf:name 
+foaf:homepage 
+dbpedia2:name 
+foaf:depiction 
+<http://purl.org/dc/terms/description> 
+foaf:givenName 
+foaf:gender 
+foaf:isPrimaryTopicOf 
+foaf:surname 
+dbpedia:ontology/thumbnail 
+
+
+2. SELECT distinct ?prop WHERE {
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?y .
+FILTER (?prop != rdf:type)
+} LIMIT 25
+
+
+rdfs:label 
+rdfs:comment 
+owl:differentFrom 
+rdfs:seeAlso 
+owl:sameAs 
+dbpedia:ontology/deathPlace 
+dbpedia2:deathPlace 
+dbpedia:ontology/deathDate 
+dbpedia:ontology/birthPlace 
+dbpedia:ontology/birthDate 
+<http://purl.org/dc/terms/subject> 
+dbpedia:ontology/wikiPageID 
+dbpedia:ontology/wikiPageRevisionID 
+dbpedia:ontology/wikiPageExternalLink 
+foaf:name 
+foaf:homepage 
+dbpedia2:name 
+foaf:depiction 
+<http://purl.org/dc/terms/description> 
+foaf:givenName 
+foaf:gender 
+foaf:isPrimaryTopicOf 
+foaf:surname 
+dbpedia:ontology/thumbnail
+<http://www.w3.org/ns/prov#wasDerivedFrom>
+
+
+3. SELECT distinct ?prop ?value WHERE {
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?value .
+FILTER (?prop != rdf:type)
+} LIMIT 25
+
+rdfs:label 	"Axel Oxenstierna"@en
+rdfs:label 	"أكسل أكسنسترنا"@ar
+rdfs:label 	"Axel Oxenstierna"@de
+rdfs:label 	"Axel Oxenstierna"@es
+rdfs:label 	"Axel Oxenstierna"@fr
+rdfs:label 	"Axel Oxenstierna"@it
+rdfs:label 	"アクセル・オクセンシェルナ"@ja
+rdfs:label 	"Axel Oxenstierna"@nl
+rdfs:label 	"Axel Oxenstierna"@pl
+rdfs:label 	"Axel Oxenstierna"@pt
+rdfs:label 	"Оксеншерна, Аксель"@ru
+rdfs:label 	"Brothers Grimm"@en
+rdfs:label 	"الأخوان غريم"@ar
+rdfs:label 	"Brüder Grimm"@de
+rdfs:label 	"Hermanos Grimm"@es
+rdfs:label 	"Frères Grimm"@fr
+rdfs:label 	"Fratelli Grimm"@it
+rdfs:label 	"グリム兄弟"@ja
+rdfs:label 	"Gebroeders Grimm"@nl
+rdfs:label 	"Bracia Grimm"@pl
+rdfs:label	"Irmãos Grimm"@pt
+rdfs:label 	"Братья Гримм"@ru
+rdfs:label 	"格林兄弟"@zh
+rdfs:label 	"Carlos Menem"@en
+rdfs:label 	"كارلوس منعم"@ar
+
+4. SELECT distinct ?instance ?prop WHERE {
+?instance a <http://dbpedia.org/ontology/Politician> .
+?instance ?prop ?value .
+FILTER (?prop != rdf:type)
+} LIMIT 25
+
+:Axel_Oxenstierna 				rdfs:label
+:Brothers_Grimm 				rdfs:label
+:Carlos_Menem 					rdfs:label
+:Carter_Harrison_Jr. 			rdfs:label
+:Carter_Harrison_Sr. 			rdfs:label
+:Chen_Shui-bian 				rdfs:label
+:David_Lloyd_George 			rdfs:label
+:Enrico_Berlinguer 				rdfs:label 
+:Eric_Williams 					rdfs:label 
+:Erich_Honecker 				rdfs:label 
+:Eva_Perón 						rdfs:label 
+:Francisco_Pizarro 				rdfs:label 
+:Franco_Maria_Malfatti 			rdfs:label 
+:Franco_Zeffirelli 				rdfs:label 
+:François_Arago 				rdfs:label 
+:Gervasio_Antonio_de_Posadas 	rdfs:label 
+:Gus_Hall 						rdfs:label 
+:Harold_Washington 				rdfs:label
+:Jean-Marie_Le_Pen 				rdfs:label 
+:John_Coughlin_(alderman) 		rdfs:label 
+:John_Eager_Howard    			rdfs:label 
+:John_Glenn 					rdfs:label 
+:John_Gorton 					rdfs:label 
+:John_McEwen 					rdfs:label
+:Axel_Oxenstierna 				rdfs:comment 
+
+
+5. SELECT distinct ?prop (count(distinct ?value) as ?count) WHERE {
+?instance a <http://dbpedia.org/ontology/Politician> .
+?instance ?prop ?value .
+FILTER (?prop != rdf:type)
+} LIMIT 25
+
+
+dbpedia2:border								2
+dbpedia2:latMin								1
+dbpedia2:employer							9
+dbpedia2:war								1
+dbpedia2:reference							3
+dbpedia2:father'sName 						1
+dbpedia2:year2start 						3
+dbpedia2:vicepremier 						7
+dbpedia2:gap 								1
+dbpedia2:1y 								16
+dbpedia:ontology/deathYear					78
+dbpedia2:succeeded 							5257
+dbpedia2:breeder 							1
+dbpedia2:hofdate 							2
+dbpedia2:publicutilEnd 						1
+dbpedia2:abbr 								1
+dbpedia2:fieldgoalsd 						1
+dbpedia2:teamc 								1
+dbpedia2:hero 								1
+dbpedia2:coatOfArms 						2
+dbpedia2:educationalBackground 				11
+dbpedia:ontology/predecessor 				8
+dbpedia2:militaryService 					3
+dbpedia2:police 							1
+dbpedia2:jurisprudence 						1
