@@ -1,26 +1,17 @@
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.LinkedList;
+import java.util.List;
 
-import org.apache.jena.atlas.json.JSON;
-import org.apache.jena.ontology.Individual;
-import org.apache.jena.ontology.OntClass;
+import org.apache.jena.*;
 import org.apache.jena.ontology.OntModel;
-import org.apache.jena.ontology.impl.IndividualImpl;
-import org.apache.jena.query.Query;
+import org.apache.jena.query.ParameterizedSparqlString;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
-import org.apache.jena.query.QueryFactory;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
-import org.apache.jena.query.Syntax;
 import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.util.FileManager;
-import org.apache.jena.util.iterator.ExtendedIterator;
-import org.apache.jena.*;
-import org.json.*;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
 
 public class Init {
 
@@ -45,39 +36,55 @@ public class Init {
 		}
 	}
 
-	public static void consulta(Init obj) {
+	public static List<String> consulta(Init obj,String option,String query) {
 
-		InputStream jsonFile = FileManager.get().open("consulta.json");
-		Object object;
-		if (jsonFile == null)
-			throw new IllegalArgumentException("File: " + "consulta.json" + " not found");
-		else
-			object = JSON.parse(jsonFile);
-		try {
-			jsonFile.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		JSONArray consulta = (JSONArray) object;
-		String queryString = "PREFIX insta: <http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#>" 
-				+ "PREFIX clase: <http://www.instalacionesDeportivasMunicipales.es/ontology#>" 
-				+ "SELECT DISTINCT";
-		consulta.forEach(element -> { 
+		LinkedList<String> resultado = new LinkedList<>();
+		ParameterizedSparqlString  queryString = new ParameterizedSparqlString();
+		queryString.setNsPrefix("insta", "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#");
+		queryString.setNsPrefix("clase", "http://www.instalacionesDeportivasMunicipales.es/ontology#");
+		queryString.setNsPrefix("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
+		queryString.append("SELECT DISTINCT ?name ?y WHERE{ ?x insta:name ?name . ?x ");
+		switch(option) {
+		
+		case ("Distrito"): queryString.append("insta:hasDistrict"); break;
+		
+		case ("Equipamiento"): queryString.append("insta:hasEquipment"); break;
+		
+		case ("Localidad"): queryString.append("insta:hasLocality"); break;
+		
+		case ("Barrio"): queryString.append("insta:neigborhood"); break;
+		
+		case ("Código Postal"): queryString.append("insta:hasPostalCode"); break;
+		
+		case ("Provincia"): queryString.append("insta:hasProvince"); break;
+		
+		case ("Calle"): queryString.append("insta:hasRoadName"); break;
+		
+		case ("Disponibilidad"): queryString.append("insta:isAvailable"); break;
+		
+		case ("Transporte"): queryString.append("insta:hasTransport"); break;
+		
+		default: return new LinkedList<>();
 			
-		}); //Placeholder para cuando tengamos el formato del json recibido
-		QueryExecution qExec = QueryExecutionFactory.create(queryString,Syntax.syntaxARQ,obj.model);
+		}
+		
+		queryString.append(" ?y . ");
+//		queryString.append("FILTER regex(?label,");
+//		queryString.appendLiteral(query);
+//		queryString.append(",\"i\")");
+		queryString.append("}");
+		
+		QueryExecution qExec = QueryExecutionFactory.create(queryString.asQuery(),obj.model);
 		ResultSet rs = qExec.execSelect() ;
-		String resultado = "";
 		while(rs.hasNext()) {
 			QuerySolution qs = rs.next() ;
-			resultado += qs.toString();
-			System.out.println(resultado);
+			resultado.add(qs.toString());
 		}
 		qExec.close() ;
-		//Placeholder de el output al json enviado
+		return resultado;
 	}
-	
-	public static void main(String Args[]) {
-		consulta(new Init());
+
+	public static void main(String[] args) {
+		consulta(new Init(),"Provincia","MADRID").forEach(element -> {System.out.println(element);});;
 	}
 }
