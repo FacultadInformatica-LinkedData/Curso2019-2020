@@ -1,0 +1,4533 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DESCRIPCION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "El traslado de residuos correrá a cuenta de la persona interesada que solo podrá acceder con un  vehí­culo particular.No se  permitirá el acceso a furgonetas  rotuladas o con publicidad, ya que éstas se consideran vehículos industriales, salvo previa autorización municipal (Información relacionada)."
+        ],
+        "to": "El traslado de residuos correrá a cuenta de la persona interesada que solo podrá acceder con un  vehí­culo particular.No se  permitirá el acceso a furgonetas  rotuladas o con publicidad, ya que éstas se consideran vehículos industriales, salvo previa autorización municipal (Información relacionada)."
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column HORARIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "HORARIO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "De lunes a sábados de 8 a 20 horas. Domingos y festivos de 9 a 14 horas.Los días 24 y 31 de diciembre de 8 a 14 horas. Cerrado días 25 de diciembre y 1 y 6 de enero."
+        ],
+        "to": "De lunes a sábados de 8 a 20 horas. Domingos y festivos de 9 a 14 horas.Los días 24 y 31 de diciembre de 8 a 14 horas. Cerrado días 25 de diciembre y 1 y 6 de enero."
+      }
+    ]
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": true,
+          "selection": [],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column EQUIPAMIENTO",
+    "columnName": "EQUIPAMIENTO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ACCESIBILIDAD",
+    "columnName": "ACCESIBILIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PLANTA",
+    "columnName": "PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PUERTA",
+    "columnName": "PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESCALERAS",
+    "columnName": "ESCALERAS"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column NOMBRE to NAME",
+    "oldColumnName": "NOMBRE",
+    "newColumnName": "NAME"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CODIGO-POSTAL to POSTAL CODE",
+    "oldColumnName": "CODIGO-POSTAL",
+    "newColumnName": "POSTAL CODE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column PROVINCIA to LOCATION",
+    "oldColumnName": "PROVINCIA",
+    "newColumnName": "LOCATION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TELEFONO",
+    "columnName": "TELEFONO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FAX",
+    "columnName": "FAX"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column EMAIL",
+    "columnName": "EMAIL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column DISTRITO to position 0",
+    "columnName": "DISTRITO",
+    "index": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NAME",
+    "columnName": "NAME"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION-ENTIDAD",
+    "columnName": "DESCRIPCION-ENTIDAD"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TRANSPORTE to ESTACION METRO",
+    "oldColumnName": "TRANSPORTE",
+    "newColumnName": "ESTACION METRO"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column BUS at index 4 based on column ESTACION METRO using expression grel:split(value,\"Bus\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "BUS",
+    "columnInsertIndex": 4,
+    "baseColumnName": "ESTACION METRO",
+    "expression": "grel:split(value,\"Bus\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group08/tupuntolimpio/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITO to type http://dbpedia.org/ontology/Location",
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Location",
+        "name": "dbo:Location"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITO to type http://dbpedia.org/ontology/Location",
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Location",
+        "name": "dbo:Location"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITO to type http://dbpedia.org/ontology/Location",
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Location",
+        "name": "dbo:Location"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Carabanchel (http://dbpedia.org/resource/Category:Carabanchel) for cells containing \"CARABANCHEL\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CARABANCHEL",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Carabanchel",
+      "name": "Carabanchel",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Barrio de La Latina (Madrid) (http://dbpedia.org/resource/Barrio_de_La_Latina_(Madrid)) for cells containing \"BARRIO DE LA LATINA\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "BARRIO DE LA LATINA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Barrio_de_La_Latina_(Madrid)",
+      "name": "Barrio de La Latina (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villaverde Alto (http://dbpedia.org/resource/Villaverde_Alto) for cells containing \"DISTRITO VILLAVERDE ALTO\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "DISTRITO VILLAVERDE ALTO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Villaverde_Alto",
+      "name": "Villaverde Alto",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column ESTACION METRO to type dbo:Location",
+    "columnName": "ESTACION METRO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "dbo:Location",
+        "name": "dbo:Location"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Méndez Álvaro Station (http://dbpedia.org/resource/Méndez_Álvaro_Station) for cells containing \"Méndez Álvaro (línea 6)\" in column ESTACION METRO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ESTACION METRO",
+    "similarValue": "Méndez Álvaro (línea 6)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Méndez_Álvaro_Station",
+      "name": "Méndez Álvaro Station",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Mendez Alvaro (Madrid Metro) (http://dbpedia.org/resource/Mendez_Alvaro_(Madrid_Metro)) for cells containing \"Méndez Álvaro (línea 6)\" in column ESTACION METRO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ESTACION METRO",
+    "similarValue": "Méndez Álvaro (línea 6)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Mendez_Alvaro_(Madrid_Metro)",
+      "name": "Mendez Alvaro (Madrid Metro)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Barajas (metropolitana di Madrid) (http://dbpedia.org/resource/Barajas_(Madrid_Metro)) for cells containing \"Barajas (línea 8)\" in column ESTACION METRO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ESTACION METRO",
+    "similarValue": "Barajas (línea 8)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Barajas_(Madrid_Metro)",
+      "name": "Barajas (metropolitana di Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Avenida de la Ilustración (metropolitana di Madrid) (http://dbpedia.org/resource/Avenida_de_la_Ilustración_(Madrid_Metro)) for cells containing \"Avda. Ilustración\" in column ESTACION METRO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ESTACION METRO",
+    "similarValue": "Avda. Ilustración",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Avenida_de_la_Ilustración_(Madrid_Metro)",
+      "name": "Avenida de la Ilustración (metropolitana di Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vinateros (metropolitana di Madrid) (http://dbpedia.org/resource/Vinateros_(Madrid_Metro)) for cells containing \"Vinateros (lí­nea 9)\" in column ESTACION METRO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ESTACION METRO",
+    "similarValue": "Vinateros (lí­nea 9)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Vinateros_(Madrid_Metro)",
+      "name": "Vinateros (metropolitana di Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Cipriano (http://www.wikidata.org/entity/Q2479793) for cells containing \"San Cipriano (lí­nea 9)\" in column ESTACION METRO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ESTACION METRO",
+    "similarValue": "San Cipriano (lí­nea 9)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q2479793",
+      "name": "San Cipriano",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CONTENT-URL to URI PUNTO LIMPIO",
+    "oldColumnName": "CONTENT-URL",
+    "newColumnName": "URI PUNTO LIMPIO"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE-VIA to type http://dbpedia.org/ontology/Location",
+    "columnName": "NOMBRE-VIA",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Location",
+        "name": "dbo:Location"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"ESTRELLA DENEBOLA\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "ESTRELLA DENEBOLA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"ALHAURIN\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "ALHAURIN"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cidro (http://www.wikidata.org/entity/Q167296) for cells containing \"CIDRO\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "CIDRO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q167296",
+      "name": "Cidro",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"CIDRO\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "CIDRO"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"ALFONSO XIII\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "ALFONSO XIII"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"DAROCA\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "DAROCA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"UBEDA\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "UBEDA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LOCATION",
+    "columnName": "LOCATION"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column LOCALIDAD to type dbo:Location",
+    "columnName": "LOCALIDAD",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "dbo:Location",
+        "name": "dbo:Location"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Madrid, Madrid (http://dbpedia.org/resource/Madrid,_Madrid) for cells containing \"MADRID\" in column LOCALIDAD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "columnName": "LOCALIDAD",
+    "similarValue": "MADRID",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Madrid,_Madrid",
+      "name": "Madrid, Madrid",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column BARRIO to type http://dbpedia.org/ontology/Location",
+    "columnName": "BARRIO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Location",
+        "name": "dbo:Location"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Delicias (Madrid) (http://dbpedia.org/resource/Las_Delicias_(Madrid)) for cells containing \"DELICIAS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "DELICIAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Las_Delicias_(Madrid)",
+      "name": "Delicias (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Buenavista (Madrid) (http://dbpedia.org/resource/Buenavista_(Madrid)) for cells containing \"BUENAVISTA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "BUENAVISTA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Buenavista_(Madrid)",
+      "name": "Buenavista (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Las Ventas (http://www.wikidata.org/entity/Q756621) for cells containing \"VENTAS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "VENTAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q756621",
+      "name": "Las Ventas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ventas (Madrid) (http://dbpedia.org/resource/Ventas_(Madrid)) for cells containing \"VENTAS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "VENTAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ventas_(Madrid)",
+      "name": "Ventas (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vallecas (http://dbpedia.org/resource/Vallecas) for cells containing \"CASCO H.VALLECAS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "CASCO H.VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Vallecas",
+      "name": "Vallecas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Andrés (Madrid) (http://dbpedia.org/resource/San_Andrés_(Madrid)) for cells containing \"SAN ANDRES\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "SAN ANDRES",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/San_Andrés_(Madrid)",
+      "name": "San Andrés (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Valdefuentes (Madrid) (http://dbpedia.org/resource/Valdefuentes_(Madrid)) for cells containing \"VALDEFUENTES\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "VALDEFUENTES",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Valdefuentes_(Madrid)",
+      "name": "Valdefuentes (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Peña Grande (http://www.wikidata.org/entity/Q21051186) for cells containing \"PEÑA GRANDE\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "PEÑA GRANDE",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q21051186",
+      "name": "Peña Grande",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Pena Grande (http://www.wikidata.org/entity/Q20541989) for cells containing \"PEÑA GRANDE\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "PEÑA GRANDE",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q20541989",
+      "name": "Pena Grande",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Peñagrande (http://dbpedia.org/resource/Peñagrande) for cells containing \"PEÑA GRANDE\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "PEÑA GRANDE",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Peñagrande",
+      "name": "Peñagrande",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Peñagrande (http://www.wikidata.org/entity/Q3319582) for cells containing \"PEÑA GRANDE\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "PEÑA GRANDE",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q3319582",
+      "name": "Peñagrande",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO",
+    "columnName": "TIPO"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column ESTACION METRO URI from DBpedia at index 4 based on column ESTACION METRO using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "newColumnName": "ESTACION METRO URI from DBpedia",
+    "columnInsertIndex": 4,
+    "baseColumnName": "ESTACION METRO",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column DISTRITO URI from DBpedia at index 1 based on column DISTRITO using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "newColumnName": "DISTRITO URI from DBpedia",
+    "columnInsertIndex": 1,
+    "baseColumnName": "DISTRITO",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column LOCALIDAD URI from DBpedia at index 15 based on column LOCALIDAD using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "newColumnName": "LOCALIDAD URI from DBpedia",
+    "columnInsertIndex": 15,
+    "baseColumnName": "LOCALIDAD",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column BARRIO URI from DBpedia at index 18 based on column BARRIO using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NOMBRE-VIA: best candidate's score",
+          "from": 0.5454545021057129,
+          "to": 0.801,
+          "type": "range",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "newColumnName": "BARRIO URI from DBpedia",
+    "columnInsertIndex": 18,
+    "baseColumnName": "BARRIO",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group08/tupuntolimpio/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI PUNTO LIMPIO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "HORARIO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ESTACION METRO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Resource",
+              "curie": "rdfs:Resource"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "BUS",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DESCRIPCION",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CLASE-VIAL",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "TIPO-NUM",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NUM",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ORIENTACION",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LOCALIDAD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "POSTAL CODE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "BARRIO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "COORDENADA-X",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "COORDENADA-Y",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LATITUD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LONGITUD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group08/tupuntolimpio/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI PUNTO LIMPIO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "HORARIO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ESTACION METRO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Resource",
+              "curie": "rdfs:Resource"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "BUS",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DESCRIPCION",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CLASE-VIAL",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "TIPO-NUM",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NUM",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ORIENTACION",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LOCALIDAD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "POSTAL CODE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "BARRIO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "COORDENADA-X",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "COORDENADA-Y",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LATITUD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LONGITUD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group08/tupuntolimpio/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI PUNTO LIMPIO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "HORARIO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ESTACION METRO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Resource",
+              "curie": "rdfs:Resource"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "BUS",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DESCRIPCION",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CLASE-VIAL",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "TIPO-NUM",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NUM",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ORIENTACION",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LOCALIDAD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "POSTAL CODE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "BARRIO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "COORDENADA-X",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "COORDENADA-Y",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LATITUD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LONGITUD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://group08/tupuntolimpio/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "g08",
+          "uri": "http://group08.data"
+        },
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI PUNTO LIMPIO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#integer",
+              "curie": "xsd:integer"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "HORARIO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ESTACION METRO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Resource",
+              "curie": "rdfs:Resource"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "BUS",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DESCRIPCION",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CLASE-VIAL",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "TIPO-NUM",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NUM",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ORIENTACION",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LOCALIDAD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "POSTAL CODE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "BARRIO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "COORDENADA-X",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "COORDENADA-Y",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LATITUD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LONGITUD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://puntoslimpios/",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "g08",
+          "uri": "http://group08.data/"
+        },
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI PUNTO LIMPIO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-blank",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "HORARIO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ESTACION METRO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Resource",
+              "curie": "rdfs:Resource"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "BUS",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DESCRIPCION",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CLASE-VIAL",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "TIPO-NUM",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NUM",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ORIENTACION",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LOCALIDAD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "POSTAL CODE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "BARRIO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "COORDENADA-X",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "COORDENADA-Y",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LATITUD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LONGITUD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://puntoslimpios/",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "g08",
+          "uri": "http://group08.data/"
+        },
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://group08.data/puntoLimpio",
+              "curie": "g08:puntoLimpio"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group08.data/hasPK",
+              "curie": "g08:hasPK",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasHorario",
+              "curie": "g08:hasHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasEstacionMetro",
+              "curie": "g08:hasEstacionMetro",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group08.data/hasBus",
+              "curie": "g08:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BUS"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasDescripcion",
+              "curie": "g08:hasDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasURI",
+              "curie": "g08:hasURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI PUNTO LIMPIO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group08.data/hasVia",
+              "curie": "g08:hasVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasAddress",
+              "curie": "g08:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasOrientacion",
+              "curie": "g08:hasOrientacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ORIENTACION"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasLocalidad",
+              "curie": "g08:hasLocalidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group08.data/hasPostalCode",
+              "curie": "g08:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "POSTAL CODE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+              "curie": "geo:location",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://puntoslimpios/",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "g08",
+          "uri": "http://group08.data/"
+        },
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#hasDistrito",
+              "curie": "rdfs:hasDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group08.data/hasHorario",
+              "curie": "g08:hasHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasEstacionMetro",
+              "curie": "g08:hasEstacionMetro",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasBus",
+              "curie": "g08:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BUS"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasDescripcion",
+              "curie": "g08:hasDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasURI",
+              "curie": "g08:hasURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI PUNTO LIMPIO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group08.data/hasVia",
+              "curie": "g08:hasVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasAddress",
+              "curie": "g08:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasOrientacion",
+              "curie": "g08:hasOrientacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ORIENTACION"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasLocalidad",
+              "curie": "g08:hasLocalidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group08.data/hasPostalCode",
+              "curie": "g08:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "POSTAL CODE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+              "curie": "geo:location",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasPk",
+              "curie": "g08:hasPk",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "http://group08.data/hasUri",
+              "curie": "g08:hasUri"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#lable",
+              "curie": "rdfs:lable",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ESTACION METRO",
+          "rdfTypes": [
+            {
+              "uri": "http://group08.data/hasMetro",
+              "curie": "g08:hasMetro"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "BARRIO",
+          "rdfTypes": [
+            {
+              "uri": "http://group08.data/hasBarrio",
+              "curie": "g08:hasBarrio"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://puntoslimpios/",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "g08",
+          "uri": "http://group08.data/"
+        },
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#hasDistrito",
+              "curie": "rdfs:hasDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group08.data/hasHorario",
+              "curie": "g08:hasHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasEstacionMetro",
+              "curie": "g08:hasEstacionMetro",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasBus",
+              "curie": "g08:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BUS"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasDescripcion",
+              "curie": "g08:hasDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasURI",
+              "curie": "g08:hasURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI PUNTO LIMPIO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group08.data/hasVia",
+              "curie": "g08:hasVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasAddress",
+              "curie": "g08:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasOrientacion",
+              "curie": "g08:hasOrientacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ORIENTACION"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasLocalidad",
+              "curie": "g08:hasLocalidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasPostalCode",
+              "curie": "g08:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "POSTAL CODE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+              "curie": "geo:location",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasPk",
+              "curie": "g08:hasPk",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "http://group08.data/hasUri",
+              "curie": "g08:hasUri"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ESTACION METRO",
+          "rdfTypes": [
+            {
+              "uri": "http://group08.data/hasMetro",
+              "curie": "g08:hasMetro"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "BARRIO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+              "curie": "geo:location"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://puntoslimpios/",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "g08",
+          "uri": "http://group08.data/"
+        },
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#hasDistrito",
+              "curie": "rdfs:hasDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group08.data/hasHorario",
+              "curie": "g08:hasHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasEstacionMetro",
+              "curie": "g08:hasEstacionMetro",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasBus",
+              "curie": "g08:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BUS"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasDescripcion",
+              "curie": "g08:hasDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasURI",
+              "curie": "g08:hasURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI PUNTO LIMPIO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group08.data/hasVia",
+              "curie": "g08:hasVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasAddress",
+              "curie": "g08:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasOrientacion",
+              "curie": "g08:hasOrientacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ORIENTACION"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasLocalidad",
+              "curie": "g08:hasLocalidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasPostalCode",
+              "curie": "g08:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "POSTAL CODE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+              "curie": "geo:location",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasPk",
+              "curie": "g08:hasPk",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "http://group08.data/isDistrito",
+              "curie": "g08:isDistrito"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ESTACION METRO",
+          "rdfTypes": [
+            {
+              "uri": "http://group08.data/hasMetro",
+              "curie": "g08:hasMetro"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "BARRIO",
+          "rdfTypes": [
+            {
+              "uri": "http://group08.data/isBarrio",
+              "curie": "g08:isBarrio"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://puntoslimpios/",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "g08",
+          "uri": "http://group08.data/"
+        },
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#hasDistrito",
+              "curie": "rdfs:hasDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group08.data/hasHorario",
+              "curie": "g08:hasHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasEstacionMetro",
+              "curie": "g08:hasEstacionMetro",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasBus",
+              "curie": "g08:hasBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BUS"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasDescripcion",
+              "curie": "g08:hasDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasURI",
+              "curie": "g08:hasURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI PUNTO LIMPIO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://group08.data/hasVia",
+              "curie": "g08:hasVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasAddress",
+              "curie": "g08:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasOrientacion",
+              "curie": "g08:hasOrientacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ORIENTACION"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasLocalidad",
+              "curie": "g08:hasLocalidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasPostalCode",
+              "curie": "g08:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "POSTAL CODE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+              "curie": "geo:location",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://group08.data/hasPk",
+              "curie": "g08:hasPk",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "http://group08.data/isDistrito",
+              "curie": "g08:isDistrito"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ESTACION METRO",
+          "rdfTypes": [
+            {
+              "uri": "http://group08.data/hasMetro",
+              "curie": "g08:hasMetro"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESTACION METRO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "BARRIO",
+          "rdfTypes": [
+            {
+              "uri": "http://group08.data/isBarrio",
+              "curie": "g08:isBarrio"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

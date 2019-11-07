@@ -1,0 +1,841 @@
+@prefix mp: <http://www.madridcen.es/group30/ontologia/propiedad#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix mc: <http://www.madridcen.es/group30/ontologia/clase#> .
+@prefix sch: <https://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/MariaJesusRosa(LaVaguada)> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FFUENCARRAL-EL+PARDO> ;
+	mp:provincia "MADRID" ;
+	mp:via "MONFORTE DE LEMOS" ;
+	mp:codigoPostal "28029" ;
+	mp:telefono "914 800 476" ;
+	mp:horario "Horario de uso de las instalaciones deportivas   Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla  De lunes a viernes, de 9 a 20,30 horas. Cierre completo del centro Un mes natural en temporada estival  y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases deportivas   Pre-infantiles (0 a 5 años): matronatación y natación. Infantiles  (6 a 14 años): natación.    Jóvenes y personas adultas (15 a 64 años): acuagim, gimnasia acuática, fitness acuático, natación, natación de compensación y natación embarazadas.   Mayores de 65 años:   natación.   Equipamientos   Superficie total de las instalaciones:  2.075 metros cuadrados. Unidades deportivas cubiertas:   piscina (vaso de 25 metros y vaso de enseñanza) y sala  de musculación.   Oficina de promoción deportiva:    responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las Escuelas de Promoción Deportiva.   Ayudas técnicas para la accesibilidad: 1 grúa de piscina." ;
+	mp:transporte "Metro: Barrio del Pilar , Peñagrande.  Bus: 42, 49, 67, 83, 128, 134, 137." .
+
+<http://www.madridcen.es/group30/recurso/Distrito%2FFUENCARRAL-EL+PARDO> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q656196> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Alcantara> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/SALAMANCA> ;
+	mp:provincia "MADRID" ;
+	mp:via "ALCANTARA" ;
+	mp:codigoPostal "28006" ;
+	mp:email "alcantara@viding.es" ;
+	mp:telefono "917 373 641" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes: de 7 a 23 horas.  Sábados: de 9 a 20 horas.Domingos y festivos: de 9 a 15 horas Cierre completo del Centro Los  días 1 de enero, 1 de mayo y 25 de diciembre." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantiles: matronatación. Escuelas infantiles: bailes, defensa personal y natación. Jóvenes y personas adultas: natación. Mayores de 65 años: natación. Personas con discapacidad: natación. Equipamientos  Superficie total de las instalaciones: 3.725 metros cuadrados. Unidades deportivas al aire libre:  piscina (vaso de 16,8 x 8,4 metros) y u nidades auxiliares al aire libre, terrazas (de entrenamiento, ludoteca y solárium).  Unidades deportivas cubiertas: piscinas (vaso de 25 metros y vaso de enseñanza), 5 salas multiusos (actividades y ciclo indoor) y sala fitness." ;
+	mp:transporte "Metro: Lista, Manuel Becerra. Bus: 21, 43, 53, 146. Renfe: Cercanías. Bicicletas:El centro dispone de aparca bicicletas exterior con capacidad para 12 bicicletas. Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/SALAMANCA> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773521> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/AlfredoGoyeneche> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/MONCLOA-ARAVACA> ;
+	mp:via "ARROYO DE POZUELO" ;
+	mp:codigoPostal "28023" ;
+	mp:telefono "913 571 228" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro.   Horario de taquilla De lunes a viernes: de 9 a 20,30 horasSábados y domingos: de 9 a 13,30 horasFestivos, cerrado  Cierre completo del centro Los fines de semana por la tarde, festivos, semana santa, fines de semana del mes de julio, mes de agosto, y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas   Pre infantiles (4 y 5 años): natación y predeporte. Infantiles (edad según modalidades): gimnasia rítmica, natación, natación sincronizada y pádel.  Jóvenes y adultos (de 15 a 64 años): acuagim, aeróbic, combinadas, estiramientos, fitness, fitness acuático, GAP (glúteos, abdómen y piernas), marcha nórdica, natación, pádel, pilates y yoga. Mayores 65 años: actividad física, acuagim, gimnasia acuática, natación, pilates y prevención de caídas. Personas con discapacidad: natación. Equipamientos  Superficie total de las instalaciones: 13.505 metros cuadrados. Unidades deportivas al aire libre: 2 pistas de pádel, 3 pistas de pádel (cristal), 2 pistas de tenis y rocódromo. Unidades deportivas cubiertas: pabellón polideportivo, piscina (vaso 25 metros y vaso de enseñanza), sala de musculación, 2 salas multiusos y 2 saunas. Ayudas técnicas para la accesibilidad: 1 ascensor, 1 plataforma y 1 grúa de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Bus: 160, 161, 685 Renfe:  Aravaca  Bicicleta: El centro dispone de aparca bicicletas exterior con capacidad para 5 bicicletas." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/MONCLOA-ARAVACA> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2017682> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Aluche> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/LATINA> ;
+	mp:provincia "MADRID" ;
+	mp:via "DE LAS AGUILAS" ;
+	mp:codigoPostal "28044" ;
+	mp:email "idmaluche@madrid.es" ;
+	mp:telefono "917 062 868" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a domingos y festivos de 8,30 a 20,30 horas.  Cierre completo del centro    Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas     Pre-Infantiles (1 a 5 años, según modalidades): actividad física y juego, natación,  y pre-deporte (gimnasia rítmica y artística). Infantiles (6 a 14 años, según modalidades): aeróbic,  atletismo, baloncesto, buceo, fútbol, gimnasia artística, gimnasia rítmica, gimnasia rítmica (estética), hockey patines, judo, karate shyto, natación, patinaje artístico, polideportiva, tenis y voleibol. Jóvenes y adultos (15 a 64 años, según modalidades): aeróbic, acuapilates, atletismo, bailes de salón, baloncesto, carrera acuática (acuarunning) , caminar por Madrid, correr por Madrid (carrera popular), ciclo sala, fitness, gimnasia acuática (acuagim), GAP (glúteos, abdomen, piernas) , gimnasia de compensación (salud), gimnasia rítmica (estética), judo, karate shyto,  marcha nórdica, natación, natación de compensación, natación embarazadas, pádel, pilates, streching, tenis y yoga dinámico. Mayores de 65 años: acondicionamiento físico deportivo, gimnasia acuática (acuagim), natación y pilates. Personas con discapacidad física: natación.   Actividades físico deportivas para centros escolares: escuela deportiva de educación Vial. Equipamientos  Superficie total de las instalaciones:  13.960 metros cuadrados Unidades deportivas al aire libre: 1 campo de fútbol de césped artificial, circuito de educación vial, 2 frontones cortos, patinódromo, piscinas (1 vaso de gemelas y 1 vaso infantil), pista de atletismo, pista de hockey patines, 4 pistas de pádel, pista de patinaje, 9 pistas polideportivas, 9 pistas de tenis, 2 pistas de voley playa y 19 tenis de mesa.  Unidades deportivas cubiertas:  pabellón polideportivo, piscinas (vaso de 50 metros y vaso de 25 metros), sala de artes marciales, salas multiusos, sala de musculación y 2 saunas.   Servicio de medicina deportiva: Acondicionamiento cardiovascular, reconocimientos médicos para deportistas. Ayudas técnicas para la accesibilidad: 1 grúa de piscina.  Oficina de promoción deportiva: responsable de la coordinación de Juegos deportivos municipales, torneos y circuitos municipales, copas de primavera, información en las escuelas de promoción deportiva.  Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Aluche Bus: 17, 34, 139 Renfe: Fanjul  Bicicletas:  el centro dispone de aparca bicicletas exterior  con capacidad para 6 bicicletas." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/LATINA> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q794954> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/AntiguoCanodromo> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/CARABANCHEL> ;
+	mp:provincia "MADRID" ;
+	mp:via "VIA CARPETANA" ;
+	mp:codigoPostal "28047" ;
+	mp:telefono "685534621" ;
+	mp:horario "Horario de uso en las instalaciones deportivas:  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro." ;
+	mp:equipamiento "Equipamientos  Superficie total de las instalaciones: 9000 metros cuadrados.  Unidades deportivas al aire libre: Campo de fútbol (césped artificial) y Campo de fútbol 7. (césped artificial) Unidades deportivas cubiertas: Sala de musculación, salas para masaje y fisioterapia." ;
+	mp:transporte "Bus: 17 , 25 , 119." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/CARABANCHEL> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1001991> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/AntonioDiazMiguel> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/TETUAN> ;
+	mp:provincia "MADRID" ;
+	mp:via "JOAQUIN DICENTA" ;
+	mp:codigoPostal "28029" ;
+	mp:telefono "913 145 437" ;
+	mp:horario "Horario de uso de las instalaciones deportivas:  Para consultar el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de Taquilla: De lunes a viernes: 9,00 a 20,30 horas Sábados, domingos y festivos: 9,00 a 14,00 horas  Horario de apertura y cierre del centro:  De lunes a viernes, de 7 a 23 horas.Sábados, de 9 a 20 horas.Domingos y festivos, de 9 a 15 horas." ;
+	mp:equipamiento "SERVICIOS  Deportes Practicables   Baloncesto - Balonmano - Fútbol sala - Musculación - Natación Uso de espacios deportivos Pabellón polideportivo - Piscina - Pista de baloncesto - Pista de balonmano - Pista de fútbol sala - Sala de musculación Enseñanzas Deportivas  Preinfantiles:  Educación Física de base &amp;ndash; matronatación &amp;ndash; natación  peques Infantiles  (edad, según modalidades):  aeróbic &amp;ndash; baloncesto &amp;ndash; balonmano &amp;ndash; fútbol sala &amp;ndash; gimnasia rítmica &amp;ndash; judo &amp;ndash; natación &amp;ndash; natación de competición &amp;ndash; polideportiva Jóvenes: aeróbic &amp;ndash; baloncesto &amp;ndash; fitness &amp;ndash; fútbol sala &amp;ndash; gimnasia rítmica &amp;ndash; judo &amp;ndash; natación Adultos: acondicionamiento físico &amp;ndash; aeróbic &amp;ndash; aeróbic/body jam &amp;ndash; aeróbic/zumba &amp;ndash; carrera acuática (acuarunning) &amp;ndash; ciclo sala &amp;ndash; combinada &amp;ndash; fitness -  fitness acuático &amp;ndash; fitness/body combat -  gimnasia acuática (acuagim,  acuabdominales, acuapilates, acuarelax, acuasalud) &amp;ndash; gimnasia suave &amp;ndash; gimnasia suave/body balance &amp;ndash; natación &amp;ndash; natación de compensación &amp;ndash; natación embarazadas &amp;ndash; pilates  &amp;ndash; taichí &amp;ndash; tonificación &amp;ndash; yoga Mayores 65 años: actividad física &amp;ndash; gimnasia acuática (acuagim) - natación Personas con discapacidad: actividad acuática &amp;ndash; actividad física  Equipamientos  Superficie: 8.455,41 metros cuadrados Unidades deportivas cubiertas: pabellón polideportivo - piscina (vaso de 25 metros y vaso de enseñanza ) - 3 salas multiusos - sala de musculación Accesibilidad: instalación adaptada con 2 ascensores y 1 grúa de piscina" ;
+	mp:transporte "Metro: VentillaBus: 42" .
+
+<http://www.madridcen.es/group30/recurso/Distrito/TETUAN> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1773540> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Barajas> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/BARAJAS> ;
+	mp:provincia "MADRID" ;
+	mp:via "LOGROÑO" ;
+	mp:codigoPostal "28042" ;
+	mp:telefono "913 294 219 / 913 290 602" ;
+	mp:horario "Horario de uso de las instalaciones deportivas   Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes: de 8,30 a 20,30 horas.Sábados, domingos y festivos: de 8,30 a 14,30 horas. Cierre completo del centro Mes de agosto y días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre infantiles: matronatación, natación  peques. Infantiles (edad, según modalidades): bádminton, baloncesto, esgrima, gimnasia rítmica, judo, natación, pirag&amp;uuml;ismo,  pre-tenis y tenis. Jóvenes y personas adultas: aeróbic, ciclo sala, combinada (fitness /natación,  natación/carrera acuática) fitness, gimnasia acuática (acuagim), natación,  natación de compensación, natación embarazadas, natación post-parto, pádel, pilates, pilates embarazadas, salvamento acuático, tenis y yoga. Mayores 65 años: acondicionamiento físico, gimnasia acuática (acuagim), natación y pilates mayores. Personas con discapacidad: natación (infantil y adulta). Programa deportivo en la calle: caminar por Madrid, corredores por Madrid y marcha nórdica. Servicio de Medicina Deportiva: psicomotricidad infantil. Equipamientos  Superficie: 17.346 metros cuadrados.  Unidades Deportivas al aire libre: 4 pistas de pádel y 4 pistas de tenis.  Unidades Deportivas cubiertas: 1 pabellón polideportivo, 1 piscina (vaso de 25 m. y vaso de enseñanza), 2 salas multiusos y 1 sala de musculación. Oficina de promoción deportiva: responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales  y Copas de Primavera. Además, ofrece información sobre las Escuelas de Promoción Deportiva.  Ayudas técnicas para la accesibilidad: 1 ascensor y 1 grúa de piscina.  Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Barajas , Alameda de Osuna. Bus: Urbanos (105, 112, 115, 151) / Interurbanos (211, 212, 827). Bicicleta: el centro dispone de aparcabicicletas exterior con capacidad para 6 bicicletas." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/BARAJAS> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q807230> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Barcelo> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/DISTRITO> ;
+	mp:provincia "MADRID" ;
+	mp:via "BARCELO" ;
+	mp:codigoPostal "28004" ;
+	mp:email "infobarcelo@forus.es" ;
+	mp:telefono "910 285 389" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes: de 7 a 24 horas.Sábados, domingos y festivos: de 7 a 22 horas. Cierre completo del centro  Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantil: educación física de base. Infantiles (edad, según modalidades): gimnasia rítmica, polideportiva y taekwondo. Jóvenes y personas adultas: aeróbic, sh&amp;rsquo;bam, aeróbic-zumba y ciclo sala, acondicionamiento físico, aeróbic-sh&amp;rsquo;bam, aeróbic-zumba, ciclo sala, fitness,  fitness-body combat, GAP (glúteos, abdomen, piernas), gimnasia suave -body balance,  indoor walking, pilates, tonificación, body pump y yoga. Mayores 65 años: actividad física,  gimnasia de compensación, pilates y yoga. Personas con discapacidad: actividad física. Equipamientos  Superficie total de las instalaciones:  4.000 metros cuadrados. Unidades deportivas cubiertas: pista polideportiva, salas multiusos (fitness - ciclo sala, indoor walking y sala de actividades dirigidas)." ;
+	mp:transporte "Metro: Tribunal, Alonso Martínez, Bilbao. Bus: 3, 21, 37, 40, 147, 149. Bicicleta:Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/DISTRITO> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/CasadeCampo> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/MONCLOA-ARAVACA> ;
+	mp:provincia "MADRID" ;
+	mp:via "PUERTA DEL ANGEL" ;
+	mp:codigoPostal "28011" ;
+	mp:telefono "914 630 050 / 914 649 889" ;
+	mp:horario "Horario de uso de las instalaciones deportivas                  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro.  Horario de taquilla: De lunes a viernes, de 8,30 a 21 horas.Horario de verano, de lunes a domingo, de 11 a 20,30 horas.  Cierre completo del Centro:    Los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre infantiles:  natación peques. Infantiles  (edad, según modalidades): natación, salvamento acuático y waterpolo.  Jóvenes y personas adultas : fitness, gimnasia acuática  (acuagim), natación, natación de compensación y natación embarazadas.  Mayores 65 años : acondicionamiento físico y natación.  Actividades para personas con discapacidad intelectual:  natación (adultos).  Equipamientos  Superficie total de las instalaciones: 24.800 metros cuadrados. Unidades deportivas al aire libre:  piscinas (vaso de 50 metros, vaso de recreo de 33 metros y vaso infantil).  Unidades deportivas cubiertas: piscina (vaso de 25 metros) y sala de musculación. Ayudas técnicas para la accesibilidad:  2 grúas de piscina." ;
+	mp:transporte "Metro: El Lago, Puerta del Ángel. Bus:  31, 33, 36, 39, 65, 138.  Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 6 bicicletas. Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones" .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/CentroIntegradoArganzuela> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/ARGANZUELA> ;
+	mp:provincia "MADRID" ;
+	mp:via "CANARIAS" ;
+	mp:codigoPostal "28045" ;
+	mp:email "idmestacionsur@madrid.es" ;
+	mp:telefono "915 063 616" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes, de 9 a 21 horas.Sábados, domingos y festivos de 9 a 14:30 horas. Cierre completo del centro Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas     Pre-infantiles:( 2 a 3 años) matronatación y natación peques. Infantiles:  (edad, según modalidad) baloncesto, natación, pádel, taekwondo, unihockey y voleibol.  Jóvenes y personas adultas : aeróbic, fitness, GAP (glúteos, abdomen, piernas), gimnasia acuática (acuagim), gimnasia suave, natación, natación de compensación, natación embarazadas, pádel y pilates.  Mayores 65 años : acondicionamiento físico y natación.  Actividades para personas con discapacidad física:  natación (adultos e infantil).  Equipamientos  Superficie total de todas las instalaciones: 4.900 metros cuadrados. Unidades deportivas al aire libre  4 Pistas de Pádel (cristal).  Unidades deportivas cubiertas:   pabellón polideportivo, piscina (vaso de 25 metros y vaso de enseñanza), fisio, hidroterapia, sala multiusos y 2 salas de musculación.   Oficina de promoción deportiva:    responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva.     Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Palos de la Frontera Bus: 6, 8, 19, 45, 47, 55, 59, 85, 86, 102, 247 Renfe: Delicias. Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 6 bicicletas. Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/ARGANZUELA> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2000929> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/CerroAlmodovar> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FVILLA+DE+VALLECAS> ;
+	mp:provincia "MADRID" ;
+	mp:via "CERRO DE ALMODOVAR" ;
+	mp:codigoPostal "28007" ;
+	mp:telefono "913 314 047" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro.  Horario de taquilla De lunes a viernes: de 9 a 20,30 horasSábados, domingos y festivos: cerrado Cierre completo del centro Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo" ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantiles (de 0 a 3 años): matronatación y natación. Infantiles (edad, según modalidades): baloncesto, gimnasia artística, gimnasia rítmica, karate,  natación,  pretenis, tenis y salvamento acuático. Jóvenes y personas adultas: actividad acuática, aeróbic,  fitness, gap (glúteos, abdomen, piernas), gimnasia acuática (acuagim), gimnasia suave,  karate,  natación,  natación embarazadas y postparto,  pilates y tenis. Mayores 65 años: acondicionamiento físico, gimnasia acuática (acuagim), y natación. Personas con discapacidad: natación (infantiles y adultas). Servicio de Medicina Deportiva: psicomotricidad infantil. Equipamientos  Superficie total de las instalaciones: 61.600  metros cuadrados. Unidades deportivas al aire libre: frontón corto, piscina (vaso de 50 metros, vaso de recreo y vaso infantil), 2 pistas polideportivas (tenis) y 2 tenis de mesa. Unidades deportivas cubiertas  pabellón polideportivo, piscina (vaso de 25 m. y vaso de enseñanza), sala multiusos (aeróbic) y sala de musculación.  Oficina de Promoción Deportiva: responsable de la coordinaciónde Juegos Deportivos Municipales, Torneos y Circuitos municipales y Copas de Primavera. Además, ofrece información sobre Escuelas de Promoción Deportiva. Ayudas técnicas para la accesibilidad:  1 grúa de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Bus: 58, 63, 145 Renfe: Santa Eugenia" .
+
+<http://www.madridcen.es/group30/recurso/Distrito%2FVILLA+DE+VALLECAS> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1947988> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Chamartin> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/CHAMARTIN> ;
+	mp:provincia "MADRID" ;
+	mp:via "PIO XII" ;
+	mp:codigoPostal "28016" ;
+	mp:email "infochamartin@forus.es" ;
+	mp:telefono "91 359 33 39" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes de 7 a 22,45 horas, sábados de 8 a 20,45 horas, domingos y festivos de 8 a 14,45 horas. Cierre completo del centro  Días 25 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantiles (4 años): educación física de base y natación. Infantiles  (edad, según modalidades): aeróbic, baloncesto, fútbol sala, gimnasia rítmica, judo, natación, natación sincronizada, polideportiva y taekwondo. Jóvenes y personas adultas aeróbic/zumba, baloncesto, ciclo sala, fitness/cross training, gap (glúteos, abdomen, piernas), natación, taekwondo, acondicionamiento físico, aeróbic/ sh&amp;rsquo;bam, aeróbic/zumba, actividad acuática, acuagim, acuafitness, ciclo sala, fitness /combinada (body combat/cxwork), fitness/ body combat, fitness /cross training, gap (glúteos, abdomen, piernas), gimnasia suave/body balance, natación, natación/tecnificación, natación de compensación, natación embarazadas, pilates, tonificación/ body pump, tonificación (body pump/cxworx) y yoga.  Mayores 65 años: actividad física, gimnasia de compensación, natación y pilates. Programas deportivos en la calle: fitness/running. Equipamientos  Superficie total de las instalaciones: 6.172 metros cuadrados. Unidades deportivas cubiertas:  pabellón polideportivo, piscina  (vaso de 50 metros distribuido en calles de 25 metros y 22,5 metros), 4 salas multiusos, 2 salas de musculación y zona termal (spa).  Servicio de medicina deportiva:  fisioterapia deportiva y escuela de espalda.  Ayudas técnicas para la accesibilidad:  instalación adaptada, con 1 ascensor y 1 grúa de piscina." ;
+	mp:transporte "Metro: Pío XII. Bus: 16 , 29 , 51 , 150. Bicicleta:El centro dispone de aparcabicicletas interior con capacidad para 12 bicicletas. Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/CHAMARTIN> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1766348> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/CircuitoBMX> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/ARGANZUELA> ;
+	mp:provincia "MADRID" ;
+	mp:via "EMBAJADORES" ;
+	mp:codigoPostal "28045" ;
+	mp:email "idmcircuitobmx@madrid.es" ;
+	mp:telefono "915 279 704" ;
+	mp:horario "Horario de Circuito: De lunes a viernes y festivos, de 15:30 a 21:30 horasSábados y domingos, de 9:00 a 15:30 horas  Horario de Taquilla:  De lunes a viernes y festivos, de 15:30 a 21:00 horasSábados y domingos, de 9:00 a 15:00 horas" ;
+	mp:transporte "Metro: LegazpiBus: 62, T-32" .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/CiudaddelosPoetas> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/MONCLOA-ARAVACA> ;
+	mp:provincia "MADRID" ;
+	mp:via "ANTONIO MACHADO" ;
+	mp:codigoPostal "28035" ;
+	mp:email "idmcpoetas@madrid.es" ;
+	mp:telefono "91 373 27 39" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes de 9 a 21,00 horas.Sábados, domingos y festivos, cerrado. Cierre completo del centro Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Infantiles  (edad, según modalidades): gimnasia estética y gimnasia rítmica. Personas adultas: aeróbic, fitness y pilates. Mayores 65 años: acondicionamiento físico. Equipamientos    Superficie total de las instalaciones: 1.700 metros cuadrados. Unidades deportivas cubiertas : pabellón polideportivo.  Unidades deportivas cubiertas:  pabellón polideportivo.  Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Antonio Machado, Valdez arza  Bus : 126, 127, 132 Bicicleta:el centro dispone de aparca bicicletas  exterior con capacidad para 5 bicicletas. Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Concepcion> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FCIUDAD+LINEAL> ;
+	mp:provincia "MADRID" ;
+	mp:via "JOSE DEL HIERRO" ;
+	mp:codigoPostal "28027" ;
+	mp:telefono """914 039 020                                                                                     
+914 039 021""" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes, de 8:30 a 14:30 y de 14:45 a 21:00 horas.Sábados, domingos y festivos: de 8:30 a 15:00 horas. Cierre completo del centro Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre infantiles (4 y 5 años): natación. Infantiles (edad, según modalidades): baloncesto, fútbol, gimnasia rítmica, karate, natación, polideportiva, pre tenis y tenis. Jóvenes y personas adultas: aeróbic, fitness, gimnasia acuática  (acuagim), karate, natación, natación de compensación, natación embarazada, pádel, pilates, tenis y yoga. Mayores 65 años: acondicionamiento físico y natación. Personas con discapacidad: natación.  Equipamientos   Superficie  total de las instalaciones: 36.277 metros cuadrados. Unidades deportivas al aire libre:campo de fútbol de césped artificial, 2 frontones cortos, piscina (vaso de 25 metros y vaso infantil), 3 calles de atletismo, 2 pistas de pádel, pista de patinaje, 2 pistas polideportivas, 4 pistas de tenis y 2 tenis mesa. Unidades deportivas cubiertas: pabellón polideportivo, piscina (vaso de 25 metros) y sala de musculación. Oficina de Promoción Deportiva: responsable de la coordinaciónde Juegos Deportivos Municipales, Torneos y Circuitos municipales y Copas de Primavera. Además, ofrece información sobre Escuelas de Promoción Deportiva. Servicio de Medicina deportiva: acondicionamiento cardio-vascular y reconocimientos médicos para deportistas.  Ayudas técnicas para la accesibilidad:   1 ascensor, 1 montacargas, 2 plataformas y 2 grúas de piscina.     Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Barrio de la Concepción, Pueblo Nuevo, Quintana. Bus: 21 ,146, 48. Bicicleta: el centro dispone de aparca bicicletas,  exterior con capacidad para 11 bicicletas. interior con capacidad para 6 bicicletas. Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/Distrito%2FCIUDAD+LINEAL> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763694> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/DaoizyVelarde1> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/RETIRO> ;
+	mp:provincia "MADRID" ;
+	mp:via "CIUDAD DE BARCELONA" ;
+	mp:codigoPostal "28007" ;
+	mp:telefono """914 338 950                                                                                  
+914 338 770""" ;
+	mp:horario "Horario de uso de las instalaciones deportivas   Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla  De lunes a viernes de 9 a 20,30 horas.Sábados, domingos y festivos de 9 a 20,30 horas. Cierre completo del centro   Mes de agosto y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas   Pre-infantiles: (de 0 a 3 años): matronatación y natación. Infantiles (edad, según modalidades): aeróbic, baloncesto, natación, natación sincronizada,  polideportiva y salvamento acuático. Jóvenes y personas adultas: carrera acuática (acuarunning), ciclo sala, fitness, gimnasia acuática  (acuagim), gimnasia de compensación, natación, natación de compensación, natación embarazada, pilates/estiramientos y tonificación. Mayores 65 años: acondicionamiento físico, gimnasia acuática (acuagim), natación y pilates. Personas con discapacidad intelectual: baloncesto. Equipamientos  Superficie total de las instalaciones: 9.496 metros cuadrados. Unidades deportivas al aire libre: 1 pista de pádel (cristal). Unidades deportivas cubiertas: 1 pabellón polideportivo, 1 piscina (vaso de 25 m. y vaso de enseñanza), 2 salas multiusos, 1 sala de musculación, 2 saunas, y 1 sala de fisioterapia/hidroterapia (fuera de servicio). Oficina de promoción deportiva: responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva.  Servicio de Medicina Deportiva: acondicionamiento cardiovascular, fisioterapia del deporte, psicomotricidad y reconocimientos médicos para deportistas. Ayudas técnicas para la accesibilidad: 1 ascensor y 1 grúa de piscina. C olumna de rescate cardíaco." ;
+	mp:transporte "Metro: Pacífico, Menéndez PelayoBus: 37, 57, 10, 54, 24, 141 Renfe: Méndez Alvaro, Atocha Bicicleta: el centro dispone de aparcabicicletas exterior con capacidad para 5 bicicletas. Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/RETIRO> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2002296> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/DaoizyVelarde2> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/RETIRO> ;
+	mp:provincia "MADRID" ;
+	mp:via "ALBERCHE" ;
+	mp:codigoPostal "28007" ;
+	mp:telefono "91 433 27 58" ;
+	mp:horario "Horario de uso de instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro.  Horario de taquilla De lunes a viernes; de 9 a 21 horas. Cierre completo del centro Sábados, domingos y festivos.Mes de agosto." ;
+	mp:equipamiento "Clases y escuelas deportivas  Infantiles (de 5 a 16 años, según modalidades): Aeróbic, Gimnasia Rítmica y Karate. Jóvenes y personas adultas Acondicionamiento físico deportivo, aeróbic (zumba , zumpa step),  baile (bollywood, bailes latinos, lady style y bailes de salón), defensa personal, karate, kung fu, musculación,  pilates, sanda, tai chi y yoga. Mayores de 65 años: pilates, tai chi y yoga. Equipamientos  Superficie total de las instalaciones: 9.420 metros cuadrados. Unidades deportivas cubiertas: sala gimnasio, 2 salas de artes marciales, 2 salas multiusos y 1 sala de musculación. Ayuda técnica para la accesibilidad: 1 ascensor." ;
+	mp:transporte "Metro: Pacífico. Bus: 37 , 57. Renfe: Méndez Álvaro. Bicicleta: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/ElEspinillo> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/VILLAVERDE> ;
+	mp:provincia "MADRID" ;
+	mp:via "VILLAVERDE A VALLECAS" ;
+	mp:codigoPostal "28041" ;
+	mp:email "idmespinillo@madrid.es" ;
+	mp:telefono """913 172 966                                                          
+913 172 957""" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes, de 9,30 a 20,30 horas.Sábados y domingos de 9,30 a 14,15 horas.Festivos, cerrado. Cierre completo del centro Mes de agosto y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantiles (de 2 a 3 años): matronatación y natación. Infantiles (edad, según modalidades): natación y salvamentoacuático. Jóvenes y personas adultas: aeróbic, carrera acuática (acuarunning), aeróbic, combinada (fitness y natación), fitness, gimnasia acuática  (acuagim), gimnasia de compensación, natación, natación embarazadas, pilates y salvamento acuático. Mayores 65 años: gimnasia acuática (acuagim) y natación. Personas con discapacidad: natación (infantil y adulta). Programa deportivo en la calle:  caminar por Madrid.  Equipamientos  Superficie total de las instalaciones: 11.350 metros cuadrados. Unidades deportivas cubiertas: piscina (vaso de 25 metros y vaso de enseñanza) y 2 salas multiusos. Oficina de promoción deportiva: responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva. Servicio de medicina deportiva: psicomotricidad infantil. Ayudas técnicas para la accesibilidad: 1 ascensor y 1 grúa de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Bus: 23, 123, 130 Metro: Villaverde Bajo Cruce Renfe: Villaverde Bajo Bicicleta: el centro dispone de aparca bicicletas interior con capacidad para 4 bicicletas." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/VILLAVERDE> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q919536> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/ElOlivillo> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/LATINA> ;
+	mp:provincia "MADRID" ;
+	mp:via "OLIVILLO" ;
+	mp:codigoPostal "28011" ;
+	mp:telefono "914 790 212" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Cierre completo del centro Los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Infantiles (6 a 14 años): tenis de mesa. Equipamientos.  Superficie total de las instalaciones: 2.660 metros cuadrados. Unidades deportivas cubiertas:  pabellón polideportivo.  Deportes practicables:  baloncesto y fútbol sala." ;
+	mp:transporte "Metro: Lucero. Bus: 31, 33, 36, 39, 65." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Entrevias> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FPUENTE+DE+VALLECAS> ;
+	mp:provincia "MADRID" ;
+	mp:via "SUR" ;
+	mp:codigoPostal "28053" ;
+	mp:telefono "917 854 214 / 917 867 064" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla  De lunes a domingo: de 8:30 a 14,30 y de 14:45 a 20:45 horas.   Cierre completo del centro    Los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre infantiles  actividad física y juegos, matrogimnasia, matronatación y natación peques. Infantiles (edad, según modalidades): natación, fútbol, hábitos saludables,  polideportiva, pretenis, tenis y voleibol. Jóvenes y personas adultas: acondicionamiento de nadadores, combinada (acuagim-fitness, natación-pilates), fitness, fútbol, hábitos saludables, natación, natación embarazadas, pilates y tenis. Mayores 65 años: acondicionamiento físico, hábitos saludables, natación y pilates. Personas con discapacidad: natación. Programa deportivo en la calle:  caminar por Madrid.  Equipamientos   Superficie total de las instalaciones:  41.800 metros cuadrados. Unidades deportivas al aire libre: 1 campo de fútbol (de césped artificial), piscina (vaso de 50 metros y vaso infantil), 2 pistas de tenis y tenis de mesa. Unidades deportivas cubiertas: pabellón polideportivo, piscina (vaso de 25 metros y vaso de enseñanza), 1 pista polideportiva, 2 salas multiusos y sala de musculación. Oficina de promoción deportiva:  responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva. Ayuda técnica para la accesibilidad:  1 ascensor y 1 grúa de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Bus: 24, 102, 103, 111. Renfe: Asamblea de Madrid - Entrevías. Bicicleta:El centro dispone de aparca bicicletas exterior con capacidad para 5 bicicletas. Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/Distrito%2FPUENTE+DE+VALLECAS> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2003054> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/EscuelasdeSanAnton> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/CENTRO> ;
+	mp:provincia "MADRID" ;
+	mp:via "FARMACIA" ;
+	mp:codigoPostal "28004" ;
+	mp:email "info@cdmescuelassananton.com" ;
+	mp:telefono "918 289 006" ;
+	mp:horario "Horario de uso de las instalaciones deportivas:  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes, de 7 a 22,30 horas.Sábados, de 8 a 20,30 horas.Domingos y festivos, de 9 a 18,30 horas. Cierre completo del centro Los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre infantiles: (0 a 3 años) natación. Infantiles (edad, según modalidades): natación. Personas jóvenes y adultas: gimnasia acuática (acuagim), natación, natación de compensación y natación embarazadas. Mayores 65 años: gimnasia acuática (acuagim) y natación. Actividades para personas con discapacidad física: natación. Actividades para personas con discapacidad Intelectual:   natación.   Equipamientos  Superficie total de las instalaciones: Planta tercera: 971,29 metros cuadrados.Planta cuarta: 976,21 metros cuadrados.Entreplanta cuarta: 291,28 metros cuadrados.  Unidades deportivas cubiertas:  piscina (vaso de 25 metros y vaso de enseñanza), sala musculación y  zona spa. Solárium.  Ayudas técnicas para la accesibilidad:  1 ascensor y 1 grúa de piscina.   Columna de rescate cardíaco." ;
+	mp:transporte "Bus: 3. Metro: Chueca y Tribunal. Bicicleta: Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/CENTRO> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/EstanquedelRetiro> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/RETIRO> ;
+	mp:provincia "MADRID" ;
+	mp:via "COLOMBIA" ;
+	mp:codigoPostal "28009" ;
+	mp:telefono """915 744 024                      
+915 571 994""" ;
+	mp:horario "Apertura: 10 horas. Cierre: entre las 17,30 y las 20,30 horas, en función de la época del año.  Barco solar, de martes a domingo de 10 a 13,30 horas y desde las 16,00 horas hasta la puesta de sol. Lunes festivos abierto.   Cierre completo del centro Dia 24, 25 y 31 de diciembre y 1 de enero." ;
+	mp:equipamiento "Deportes practicables: pirag&amp;uuml;ismo y remo (recreativo y deportivo). Uso de espacios deportivos: barcas de recreo y paseo en barco solar. Equipamientos   Superficie total de las instalaciones:  37.000 metros cuadrados.  Unidades deportivas al aire libre:  estanque, barcas de paseo y remo. Ayudas técnicas para la accesibilidad:   instalación adaptada.   Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Retiro e Ibiza. Bus: 1, 2, 9, 15, 19, 20, 28, 51, 52, 74, 146, 152 y 202. Renfe: Recoletos.  Bicicleta:   servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/FabianRoncero> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FSAN+BLAS-CANILLEJAS> ;
+	mp:provincia "MADRID" ;
+	mp:via "SEPTIMA" ;
+	mp:codigoPostal "28022" ;
+	mp:email "info@cdmfabianroncero.es" ;
+	mp:telefono "917 462 995" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, le rogamos lo consulten con el propio centro.   Horario de taquilla De lunes a viernes: de 7 a 23 horas.Sábados: de 9 a 20 horas.Domingos y festivos: de 9 a 15 horas. Cierre completo del centro  Días 25 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre infantiles (0 a 3 años):  matronatación y natación. Infantiles (edad, según modalidades): actividad física y juegos, aeróbic, natación, natación sincronizada, salvamento acuático y waterpolo. Personas jóvenes y adultas:  acondicionamiento nadadores, aeróbic, carrera acuática (acuarunning), ciclo sala, combinada/compensación, gimnasia acuática (acuagim), gimnasia suave, gap (glúteos, abdomen, piernas), entrenamiento funcional (suspensión, hit, trx), estiramientos/relax, fitness, fitness acuático, natación, natación embarazadas y  pilates.   Mayores 65 años: actividad física, gimnasia acuática (acuagim), gimnasia suave y natación.   Actividades para personas con discapacidad física: natación.    Actividades para personas con discapacidad intelectual: natación.   Solárium.    Equipamientos        Superficie  total de las instalaciones  4.400 metros cuadrados.    Unidades deportivas cubiertas:piscina (vaso de 25 metros y vaso de enseñanza), sala multiusos, sala multiusos (cardio), sala multiusos (ciclo sala) y sala de musculación. Columna de rescate cardíaco." ;
+	mp:transporte "Bus: 77. Metro: Canillejas. Bicicleta: El centro dispone de aparcabicicletas exterior con capacidad para 25 bicicletas.Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/Distrito%2FSAN+BLAS-CANILLEJAS> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2001937> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/FaustinaValladolid(antiguoValdebernardo)> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/VICALVARO> ;
+	mp:provincia "MADRID" ;
+	mp:via "LADERA DE LOS ALMENDROS" ;
+	mp:codigoPostal "28032" ;
+	mp:email "idmvaldebernardo@madrid.es" ;
+	mp:telefono "917 723 591" ;
+	mp:horario "Horario de uso de las instalaciones deportivas         Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a domingo, de 8,45 a 21 horas.Festivos:Lunes  a viernes, cerrado.Sábados y domingos, de 8,45 a 21 horas. Cierre completo del centro Festivos, y fines de semana del mes agosto, y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-Infantiles: actividad física y juegos, matronatación y (0 a 3 años) natación. Infantiles baloncesto, fútbol, gimnasia rítmica, karate, natación, pádel, salvamento acuático, tenis y pre-tenis. Jóvenes y personas adultas acuapilates, aerofitness, aquapilates/natación salud, carrera acuática, carrera acuática/natación, ciclo sala, fitness, fitness acuático, gim-jazz fitness, karate, natación, pádel, pilates,  salvamento acuático y tenis.   Mayores de 65 años: acondicionamiento físico deportivo, acuapilates,  baile estiramientos/relax, gimnasia acuática (acuagim), natación y pilates (iniciación). Actividades para personas con discapacidad física: natación (infantil y adulto). Actividades para personas con discapacidad intelectual (de 6 a 64 años, según modalidades): baloncesto (mayores de 12 años),  pádel (infantil y adulto). Actividades para personas con discapacidad sensorial (sordos): natación (mayores de 16 años), pádel (mayores de 16 años) y voleibol. Equipamientos  Superficie total de las instalaciones: 47.000 metros cuadrados. Unidades deportivas al aire libre: campo de fútbol (de césped artificial), 2 campos de fútbol 7 (de césped artificial), 10 pistas de pádel y 9 pistas de tenis. Unidades deportivas cubiertas: pabellón polideportivo, piscina (1 vaso de 25 m. y 1 vaso de enseñanza), sala de musculación y 2 salas multiusos.  Ayuda técnica para la accesibilidad: 1 ascensor y 2 grúas de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Valdebernardo. Bus:   8 , 71 , 130.   Bicicleta:  el centro dispone de  aparca bicicletas exterior  con capacidad para 5bicicletas. Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/VICALVARO> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q589403> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/FernandoMartin> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/MONCLOA-ARAVACA> ;
+	mp:provincia "MADRID" ;
+	mp:via "SANTO ANGEL DE LA GUARDA" ;
+	mp:codigoPostal "28039" ;
+	mp:email "idmfmartin@madrid.es" ;
+	mp:telefono "914 507 344 - 914 505 530" ;
+	mp:horario "Horario de uso de las instalaciones deportivas:  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De Lunes a Viernes, de 8,30 a 20,30 horas.Sábados, Domingos y Festivos, de 8,30 a 14,30 horas.  Cierre completo del Centro: el mes de agosto y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre infantiles: (4 y 5 años) actividad física y juegos, y natación. Infantiles  (edad, según modalidades)  : baloncesto, natación, salvamento acuático, pretenis y tenis.   Personas jóvenes y adultas:   aeróbic, bailes, baloncesto, gimnasia acuática (acuagim), fitness, fitness acuático, natación, natación de compensación, natación embarazadas, pilates y tenis.   Mayores 65 años   : acondicionamiento físico, gimnasia acuática (acuagim), natación y pilates.    Programa deportivo en la calle:  caminar por Madrid.  Equipamientos  Superficie total de las instalaciones: 11.200 metros cuadrados. Unidades deportivas al aire libre:   pista polideportivo y 2 pistas de tenis.      Unidades deportivas cubiertas:  pabellón polideportivo, piscina (vaso de 25 metros), sala multiusos y sala de musculación.     Oficina de promoción deportiva: juegos deportivos municipales, torneos y circuitos municipales y copas de primavera información sobre escuelas de promoción deportiva. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Francos Rodríguez. Bus:  44, 64, 126, 127, 132." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/FranciscoFernandezOchoa> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/CARABANCHEL> ;
+	mp:provincia "MADRID" ;
+	mp:via "CATORCE OLIVAS" ;
+	mp:codigoPostal "28054" ;
+	mp:email "idmffochoa@madrid.es" ;
+	mp:telefono """915 883 623 
+915 883 731""" ;
+	mp:horario "Horario de taquilla    De lunes a viernes: de 8 a 21,30 horas.Sábados, domingos y festivos: de 9 a 20 horas. Horario de uso de las instalaciones deportivas Para saber el horario de apertura de la distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Cierre completo del centro  Días 1 de enero, 1 de mayo, 24, 25 y 31 de diciembre.La piscina permanecerá cerrada del 1 al 31 de agosto." ;
+	mp:equipamiento "Clases y escuelas deportivas  Preinfantiles:  matronatación, natación peques, educación física de base (polideportiva).  Infantiles  (edad, según modalidades) : aeróbic/bailes, bailes, baloncesto, fútbol, gimnasia rítmica, hockey patines, judo, natación, natación deportiva, natación sincronizada, patinaje, educación física de base (polideportiva), tenis y voleibol.   Jóvenes y adultos  (de 6 a 14 años): acondicionamiento físico/total training, aeróbic/step, aeróbic/zumba, bailes, ciclo sala, combinada/compensación, defensa personal, entrenamiento funcional (suspensión, hit, trx), fitness cross, fitness/body attack, fitness/body contact, gimnasia suave/body balance, fútbol, natación, natación de compensación, natación deportiva, natación embarazadas, pádel, patinaje, pilates, tenis, tonificación/bodypump, tonificación/grit series, triatlón, triatlón swimmers.   Mayores 65 años : actividad acuática, actividad física /en forma sénior, gimnasia acuática (acuagim/acua sénior), natación, pilates sénior.  Personas con discapacidad : actividad acuática.    Programa deportivo en la calle:   triatlón runners.  Equipamientos  Superficie total de las instalaciones: 7.706,41 metros cuadrados Unidades Deportivas al aire libre: 2 campos de fútbol 7 (césped artificial), pista de hockey patines y patinaje, 8 Pistas de pádel,y  6 Pistas de tenis. Unidades Deportivas cubiertas: pabellón polideportivo, piscinas ( (vaso de 50 metros distribuido en calles de 25 metros y vaso de enseñanza), 3 salas multiusos, sala de musculación, solarium, zona termal (sauna, baño turco, yacuzzi y baño de contraste). Ayudas técnicas para la accesibilidad: 2 ascensores y 2 grúas de piscina." ;
+	mp:transporte "Metro: La Peseta , San Francisco Bus: 108 , 155 Bicicleta:El centro dispone de aparcabicicletas interior con capacidad para 15 bicicletas." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/FrancosRodriguez> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/MONCLOA-ARAVACA> ;
+	mp:provincia "MADRID" ;
+	mp:via "NUMANCIA" ;
+	mp:codigoPostal "28039" ;
+	mp:telefono "914 599 871" ;
+	mp:horario "Horario de uso de las instalaciones deportivas   Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De 11 a 14.30 y de 15 a 21 horas." ;
+	mp:equipamiento "Equipamientos  Superficie total de las instalaciones: 11.500 metros cuadrados. Unidades deportivas al aire libre:   piscina (vaso de 50 metros y vaso infantil), pista de vóley playa y 3 tenis mesa.    Oficina de promoción deportiva:   responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva.    Ayudas técnicas a la accesibilidad:   instalación practicable.   Columna de rescate cardíaco." ;
+	mp:transporte "Metro:  Francos Rodríguez. Bus:  44, 64, 126, 127, 128, 132. Bicicleta:  Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones" .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/FuentedelBerro> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/SALAMANCA> ;
+	mp:provincia "MADRID" ;
+	mp:via "ELVIRA" ;
+	mp:codigoPostal "28028" ;
+	mp:email "idmfuentedelberro@madrid.es" ;
+	mp:telefono "915 881 369" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla  De lunes a viernes, de 8,30 a 21,30 horas.Sábados, domingos y festivos, de 9 a 21 horas. Horario de funcionamiento del centro  De lunes a viernes, de 8 a 23,00 horas.Sábados, domingos y festivos, de 9 a 21 horas Cierre completo del centro  Días 25 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantiles (de 1 a 5 años):  natación. Infantiles: (de 6 a 14 años, según modalidades): aeróbic, judo y natación. Jóvenes y personas adultas (de 15 a 64 años): acondicionamiento físico, aeróbic, aerobic/aero dance, aeróbic/step, ciclo sala, fitness, gap (glúteos, abdomen, piernas), judo, natación, natación de compensación, natación embarazadas, pilates, salvamento acuático y tonificación.  Mayores 65 años: actividad física, gimnasia acuática y natación.   Personas con discapacidad: natación.    Actividades para personas con discapacidad física: natación (todos los grupos de edad).     Equipamientos    Superficie total de las instalaciones: 2.845,79 metros cuadrados. Unidades deportivas cubiertas: piscina (vaso de 25 metros), sala multiusos (actividades), sala multiusos (ciclo) y sala de musculación.  Solárium.      Accesibilidad:  1 ascensor y 1 grúa de piscina.         Columna de rescate cardíaco." ;
+	mp:transporte "Metro: O'Donnell Bus: 2 , 28 , 30 , 56 , 71 , 143 , C. Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 8 bicicletas. Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/FelixRubio> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/VILLAVERDE> ;
+	mp:provincia "MADRID" ;
+	mp:via "ALIANZA" ;
+	mp:codigoPostal "28041" ;
+	mp:telefono "913 180 435" ;
+	mp:horario "Horario de uso  de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla  De 9 a 20,30 horas, de lunes a domingo. Cierre completo del centro Mes de agosto y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas y deportivas  Infantiles (edad, según modalidades): balonmano, fútbol, fútbol 5x5 y gimnasia rítmica. Jóvenes y personas adultas: alineación corporal, balonmano, clases variadas en programación bimensual, circuito de tonificación, combinada (pilates, yoga, taichí), fitness, fútbol y pilates. Mayores 65 años:   acondicionamiento físico.   Equipamientos  Superficie total de las instalaciones: 8.630 metros cuadrados.  Unidades Deportivas al aire libre:  bloque de escalada, campo de fútbol (césped artificial, convertible en 2 campos de fútbol 7), frontón corto, 2 pistas de baloncesto 3 x 3, 4 pistas de frontenis, pista de fútbol 5 x 5, 2 pistas de fútbol 1 x 1 (pistas pana), y pista polideportiva. Unidades deportivas cubiertas: pabellón polideportivo y sala de cardiovascular.   Oficina de promoción deportiva:   responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva." ;
+	mp:transporte "Bus: 22, 23, 59, 79, 85 123, 130. Metro: Ciudad de los Angeles. Renfe: Villaverde Bajo." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Gallur> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/LATINA> ;
+	mp:provincia "MADRID" ;
+	mp:via "GALLUR" ;
+	mp:codigoPostal "28047" ;
+	mp:telefono "915 251 059" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla  De lunes a viernes y festivos: de 8,30 a 21 horas.Sábados y domingos: de 8,30 a 21 horas.Por organización del servicio, se cierra los sábados, domingos y festivos de 9,45 a 10,15 horas. Cierre completo del centro Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas  deportivas  Pre-Infantiles (0 a 3 años):  matronatación y natación. Infantiles: baloncesto, balonmano, fútbol, gimnasia artística, gimnasia rítmica, natación, natación sincronizada, polideportiva, salvamento acuático, pre-tenis y tenis. Personas jóvenes y adultas: (15 a 64 años): aero gap, bailes, ciclo sala fitness, combinada (fitness/gap), gimnasia acuática (acuagim), natación, natación de compensación, salud,  pádel, pilates, tenis y tonificación.  Polideportivo (infantil), pádel (jóvenes y adultos), pádel en silla de ruedas (adultos). Mayores de 65 años : acondicionamiento físico, combinada (acondicionamiento físico musical/pilates), gimnasia acuática  /acuagim) y natación. Actividades para personas con discapacidad física: natación (infantil y adulta). Equipamientos  Superficie total de las instalaciones: 63.896 metros cuadrados. Unidades deportivas al aire libre: frontón largo, 14 pistas de tenis y 12 pistas de pádel. Unidades deportivas cubiertas: frontón largo, 14 pistas de tenis 12 pistas de pádel, pabellón polideportivo, piscina (vaso de 25 metros y vaso de enseñanza), sala de musculación y sala multiusos (ciclo sala). Oficina de promoción deportiva:  responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva. Ayudas técnicas a la accesibilidad: 2 ascensores y 1 grúa de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Carpetana, Laguna. Bus: 17 y 25. Renfe: Laguna. Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 8 bicicletas. Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/GimnasioMoscardo> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/SALAMANCA> ;
+	mp:provincia "MADRID" ;
+	mp:via "PILAR DE ZARAGOZA" ;
+	mp:codigoPostal "28028" ;
+	mp:email "idmgmoscardo@madrid.es" ;
+	mp:telefono "913 553 201" ;
+	mp:horario "Horario de uso de las instalaciones deportivas   Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla  De lunes a viernes: de 8,30 a 20,30 horas.Sábados, domingos y festivos: de 9 a 14,30 horas. Cierre completo del centro  El mes de agosto y los días 24, 25 y 31 de diciembre, 1 de enero y 1 mayo." ;
+	mp:equipamiento "Servicios  Clases y escuelas deportivas  Pre-Infantiles (de 3 a 5 años): natación, y educación física de base (gimnasia polideportiva). Infantiles (de 6 a 14 años): aeróbic, gimnasia rítmica, karate shyto, natación, natación sincronizada, pádel,  educación física de base (gimnasia polideportiva) y tenis. Clases para jóvenes y adultos (de 15 a 64 años): acondicionamiento físico deportivo, aeróbic, ciclo sala, combinada/aeróbic, gim jazz, karate shyto, natación, natación de compensación, pádel, pilates y tenis. Actividades para mayores de 65 años: actividad física y natación. Actividades para personas con discapacidad física: combinada y natación (adultos y mayores). Actividades para personas con discapacidad física sensorial (sordos): actividad física y natación (adultos y mayores). Oficina de promoción deportiva: responsable de la coordinación deJuegos Deportivos Municipales, Torneos y Circuitos Municipales y Copas de Primavera, Además, ofrece información sobre Escuelas de Promoción Deportiva. Servicio de medicina deportiva: fisioterapia del deporte. Equipamientos  Superficie: 4.650 metros cuadrados. Unidades deportivas al aire libre: 1 pista de pádel (cristal), 1 pista de tenis, 2 tenis de mesa. Unidades deportivas cubiertas: 1 pabellón de gimnasia, 1 pabellón polideportivo, 2 piscinas de 25 metros, 2 salas multiusos, 1 sala de fisioterapia y 1 sala de musculación. Ayudas técnicas para la accesibilidad: 2 ascensores, 1 plataforma y 1 grúa de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Avenida de América, Cartagena, Diego de León. Bus: 1, 115 , C Bicicleta:El centro dispone de aparcabicicletas  exterior con capacidad para 25 bicicletas. Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Hortaleza> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/HORTALEZA> ;
+	mp:provincia "MADRID" ;
+	mp:via "ESTACION DE HORTALEZA" ;
+	mp:codigoPostal "28033" ;
+	mp:email "idmhortaleza@madrid.es" ;
+	mp:telefono "913 821 965 / 913 818 260" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla:   De lunes a domingo: de 8,30 a 20,30 horas. Cierre completo del centro Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Infantiles (edad, según modalidades): aeróbic, bádminton, gimnasia rítmica, karate shyto, natación, pretenis y tenis. Personas jóvenes y adultas: aeróbic, aero gap, bádminton, carrera acuática (acuarunning), combinada  de compensación (gimnasia/natación), estiramientos/relax, gap (glúteos, abdomen, piernas), gimnasia suave, fitness, natación, natación de compensación, natación embarazadas, pádel, pilates y tenis.  Mayores 65 años :  acondicionamiento físico y natación. Actividades para personas con discapacidad física:   natación (adulta e infantil).     Equipamientos    Superficie total de las instalaciones: 46.956 metros cuadrados. Unidades deportivas al aire libre:  campo de fútbol (de tierra /  fuera de servicio),  piscina (vaso de 50 metros, vaso de enseñanza y vaso infantil), pista polideportiva, 1 pista de tenis y 1 pista de tenis (césped artificial).   Unidades deportivas cubiertas:  pabellón polideportivo, piscina (vaso de 25 metros), 4 pistas de pádel (adaptadas y de césped artificial), sala multiusos (ciclo-sala) y sala de musculación.  Accesibilidad:  2 grúas de piscina.  Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Parque de Santamaría, Hortaleza. Bus: 9, 107, 172. Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 5 bicicletas. Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/HORTALEZA> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1928529> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/JoseMariaCagigal> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/MONCLOA-ARAVACA> ;
+	mp:provincia "MADRID" ;
+	mp:via "SANTA POLA" ;
+	mp:codigoPostal "28008" ;
+	mp:telefono """915 413 716                                                         
+915 413 746""" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a domingo de 8,30 a 20,15 horas. Cierre completo del centro    Los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-Infantiles (0 a 3 años): natación. Infantiles : baloncesto, balonmano, natación, pre-tenis, tenis y triatlón.   Jóvenes y personas adultas: acuagim, baloncesto, circuito de tonificación, combinada (fitness/ natación), estiramientos, fitness, gap, gimnasia de compensación, hábitos saludables, natación, natación compensación/salud, natación embarazadas, natación jóvenes, nórdic walking, pilates, salvamento /socorrismo y tenis.  Mayores de 65 años: acondicionamiento físico carrera acuática (acuarunning), estiramientos, gimnasia acuática (acuagim) y natación. Programa deportivo en la calle: caminar por Madrid. Actividades físico deportivas para centros escolares: aula deportiva municipal. Equipamientos   Superficie total de instalaciones:  18.850 metros cuadrados.   Unidades deportivas al aire libre:     piscina (vaso de 50 metros vaso de recreo y vaso infantil) y 5 pistas de tenis.      Unidades deportivas cubiertas:  pabellón polideportivo, piscina (vaso de 25 metros), sala multiusos (gimnasio), sala multiusos (bádminton), sala de musculación y 2 saunas.          Unidades auxiliares:  auditorio (cerrado), sala de fisioterapia/hidroterapia deportiva y 3 salas de reuniones.        Oficina de promoción deportiva:   responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva.   Columna de rescate cardíaco." ;
+	mp:transporte "Bus:  41, 46, 75. Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 5 bicicletas. Servicio Bicimad , para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones  ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/LaAlmudena> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FCIUDAD+LINEAL> ;
+	mp:provincia "MADRID" ;
+	mp:via "NICOLAS SALMERÓN" ;
+	mp:codigoPostal "28017" ;
+	mp:telefono """915 882 355
+915 886 956""" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de  taquilla  De lunes a viernes, de 7,30 a 22,30 horas.Sábados, domingos y festivos, de 8 a 21,45 horas. Apertura y cierre del centro  De lunes a viernes, de 7,30 a 23,30 horas.Sábados, domingos y festivos: de 8 a 22 horas. Cierre completo del centro  Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantiles (0 a 3 años): matronatación natación. Infantiles   (edad, según modalidad): natación, natación (tecnificación), waterpolo.     Adultos : gimnasia acuática (acuagim), carrera acuática (aquarunning), fitness acuático, natación, natación embarazadas, natación tecnificación y natación/triatlón.      Mayores 65 años: gimnasia acuática (acuagim) y natación.     Equipamientos     Superficie total de las instalaciones:  6.903,80 metros cuadrados. Unidades deportivas cubiertas: piscina (vaso de 25 metros y vaso de enseñanza), y sala de fisioterapia.    Programas médico-deportivos:    fisioterapia deportiva y escuela de espalda. Accesibilidad:  1 grúa de piscina." ;
+	mp:transporte "Metro: Alsacia. Bus: 70 , 106 , 110. Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 4 bicicletas. Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/LaBombilla> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/MONCLOA-ARAVACA> ;
+	mp:provincia "MADRID" ;
+	mp:via "SENDA DEL REY" ;
+	mp:codigoPostal "28040" ;
+	mp:telefono "917 588 677" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes y festivos de 8,30 a 20,30 horas.Sábados y domingos de 8,30 a 14,30 horas. Cierre completo del Centro     Los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Infantiles (edad, según modalidad): pádel, pre-tenis y tenis. Adultos  : pádel y tenis.   Equipamiento  Superficie total de las instalaciones: 8.061 metros cuadrados. Unidades deportivas al aire libre:     2 pistas de pádel, 2 pistas de pádel (cristal), 5 pistas de tenis y 1 tenis de mesa.     Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Príncipe Pío. Bus: 46, A, 160, 161. Renfe: Príncipe Pío. Bicicleta:  el centro dispone de  aparca bicicletas exterior  con capacidad para  14  bicicletas. Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/LaChopera> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/RETIRO> ;
+	mp:provincia "MADRID" ;
+	mp:via "FERNAN NU&amp;Ntilde;EZ" ;
+	mp:codigoPostal "28009" ;
+	mp:telefono "914 201 154" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes de 8,30 a 20,45 horasSábados y domingos de 8,30 a 14,30 horas.Festivos cerrado  Cierre completo del centro  Mes de agosto y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas    Infantiles y jóvenes (edad, según modalidad): fútbol, pre tenis y tenis. Jóvenes y personas adultos aeróbic, fitness y pilates. Mayores 65 años: acondicionamiento físico y pilates. Programa deportivo en la calle caminar por Madrid y marcha nórdica. Equipamientos  Superficie total de las instalaciones: 13.350 metros cuadrados. Unidades deportivas al aire libre:  campo de fútbol, 3 pistas polideportivas, 3 pistas de tenis, 3 pistas de pádel y circuito vita.  Unidades deportivas cubiertas: sala de musculación y sala multiusos. Ayudas técnicas para la accesibilidad: 1 plataforma.  Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Atocha, Retiro. Bus: 1, 2, 15, 19, 28, 146. Renfe: Atocha. Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 12bicicletas. Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/LaElipa> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/MORATALAZ> ;
+	mp:provincia "MADRID" ;
+	mp:via "ALCALDE GARRIDO JUARISTI" ;
+	mp:codigoPostal "28030" ;
+	mp:telefono "914 303 511" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro.    Horario de Taquilla De 8,30 a 20,30 horas. Cierre completo del Centro los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Infantiles  (edad, según modalidad): bádminton, bateo en túnel, béisbol, fútbol (masculino y femenino), pádel y tenis. Personas jóvenes y adultas  : bateo en túnel, béisbol, combinada (tonificación/pilates), fitness, musculación, pádel, pickleball, pilates y tenis.   Mayores 65 años:    acondicionamiento físico, pilates y polideportiva.   Equipamientos   Superficie total en las instalaciones: 159.000 metros cuadrados.   Unidades deportivas al aire libre:   campo de béisbol, campo de bolos y petanca, 2 campos de fútbol (de césped artificial), 2 campos de fútbol 7 (de césped artificial),campo de sófbol (fuera de servicio temporalmente), 2 circuitos de automodelismo (radiocontrol de asfalto / radiocontrol de tierra, con cubierta), piscina (vaso de 50 metros, vaso de recreo y vaso infantil), 6 pistas de pádel (2 de cristal),pista polideportiva (con cubierta), 10 pistas de tenis, 11 tenis mesa y zona nudista.   Unidades deportivas cubiertas:   frontón, pabellón polideportivo, 2 salas multiusos (gimnasios) y sala de musculación.   Unidades auxiliares:  aula .   Oficina de promoción deportiva:   responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva." ;
+	mp:transporte "Metro: Estrella. Bus: 71 , 113. Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 30 bicicletas. Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/MORATALAZ> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q2076109> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/LaFundi> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/ARGANZUELA> ;
+	mp:provincia "MADRID" ;
+	mp:via "ALICANTE" ;
+	mp:codigoPostal "28045" ;
+	mp:email "idmarganzuela@madrid.es" ;
+	mp:telefono "915 288 879" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla   De lunes a viernes (incluido festivos): de 9 a 20:30 horas Sábados y domingos (incluido festivos): 9: a 14:30 horas Cierre completo del centro Durante el mes de agosto y en los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo" ;
+	mp:equipamiento "Clases y escuelas deportivas  Infantiles  (edad, según modalidades): baloncesto, fútbol sala, gimnasia rítmica, karate kenpo, tenis y tenis de mesa. Jóvenes y personas adultas: aeróbic, ciclo sala, combinada (actividad con músicas, tonificación, fitness/ciclo sala), musculación, pádel y tenis. Mayores 65 años: acondicionamiento físico.  Equipamientos    Superficie total de las instalaciones:  11.866 metros cuadrados  Unidades deportivas al aire libre: 2 pistas polideportivas, 2 pistas de tenis y 2 pistas de pádel. Unidades deportivas cubiertas: 1 pabellón polideportivo, 2 salas multiusos, y 1 sala de musculación. Oficina de Promoción Deportiva: responsable de la coordinaciónde Juegos Deportivos Municipales, Torneos y Circuitos municipales y Copas de Primavera. Además, ofrece información sobre Escuelas de Promoción Deportiva. Ayudas técnicas para la accesibilidad: 1 plataforma. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Legazpi, Arganzuela Planetario  Bus: 8, 19, 45, 47, 59, 76, 85 Bicicleta:El centro dispone de aparcabicicletas exterior con capacidad para 5 bicicletas Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/LaMaso> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FFUENCARRAL-EL+PARDO> ;
+	mp:provincia "MADRID" ;
+	mp:via "MASO" ;
+	mp:codigoPostal "28034" ;
+	mp:telefono "917 397 555" ;
+	mp:horario "Horario de uso de las instalaciones deportivas:   Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a domingos y festivos de 8,30 a 20,30 horas. Cierre completo del centro  Mes de agosto y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas   Pre-infantiles (0 a 3 años): fútbol, gimnasia rítmica, matrogimnasia, matro-natación y natación. Infantiles: (edad, según modalidades): aeróbic, escalada, fútbol, gimnasia rítmica, natación  y polideportiva. Jóvenes y personas adultas: aeróbic, ciclo sala, carrera acuática, (acuarunning), circuito de fitness, combinada  (fitness/tonificación, fitnes/tonificación, yoga/pilates, aeróbic/pilates)  fitness, fitness acuático, GAP, gimnasia acuática (acuagim),  natación, natación de compensación, natación espalda,  natación embarazadas, natación jóvenes, pilates y pilates embarazadas. Mayores de 65 años: acondicionamiento físico y gimnasia acuática (acuagim y natación). Personas con discapacidad física:   natación.     Equipamientos    Superficie total de las instalaciones: 41.700 metros cuadrados. Unidades deportivas al aire libre:   campo de fútbol  y rocódromo.     Unidades deportivas cubiertas:  pabellón polideportivo, piscina (vaso de 25 metros y vaso de enseñanza), sala de fisio, sala multiusos y sala de musculación.     Oficina de promoción deportiva:  responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva.  Ayudas técnicas para la accesibilidad: 1 ascensor y 1 grúa de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Herrera Oria , Lacoma, Avenida de la Ilustración. Bus: 49, 64, 83, 124, 134. Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 4 bicicletas. Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones .  Parking  público gratuito." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/LaMina> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/CARABANCHEL> ;
+	mp:provincia "MADRID" ;
+	mp:via "MONSEÑOR OSCAR ROMERO" ;
+	mp:codigoPostal "28025" ;
+	mp:telefono """914 661 278                                                                     
+914 661 732""" ;
+	mp:horario "Horario de uso de las instalaciones deportivas              Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes: de 9,00 a 20,30 horas.Sábados, domingos y festivos: de 9,00 a 14,30 horas. Cierre completo del centro Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-Infantiles (0 a 3 años): natación. Infantiles: gimnasia rítmica y natación. Adultos: acondicionamiento físico, aeróbic, combinada (acondicionamiento físico/natación, pilates/natación), combinada de compensación, fitness, gimnasia acuática (acuagim), gimnasia de compensación, gimnasia rítmica , musculación, natación, natación de compensación, pilates y relax/estiramientos. Mayores de 65 años : actividad física y gimnasia acuática (acuagim). Personas con discapacidad física: actividad acuática (adultos). Equipamientos  Superficie total de las instalaciones: 33.295 metros cuadrados. Unidades deportivas al aire libre: campo de fútbol, frontón, piscina (1 vaso de 50 metros, 1 vaso de recreo y 1 vaso infantil), 2 pistas de pádel y 2 pistas polideportivas. Unidades deportivas cubiertas: pabellón polideportivo, piscina (1 vaso de 25 metros y 1 vaso de enseñanza), 4 pistas de squash, 1 sala de musculación y 2 salas multiusos. Oficina de promoción deportiva:juegos deportivos municipales, torneos y circuitos municipales, copas de primavera, información sobre escuelas de promoción deportiva.  Ayudas técnicas de la accesibilidad:  instalación adaptada, con grúa de piscina.  Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Carabanchel , Eugenia de Montijo. Bus: 17 , 34 , 35 , 113 , 484 ,  481. Bicicleta:  el centro dispone de  aparca bicicletas exterior  con capacidad para  4  bicicletas. Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/LagoCasadeCampo> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/MONCLOA-ARAVACA> ;
+	mp:provincia "MADRID" ;
+	mp:via "EMBARCADERO" ;
+	mp:codigoPostal "28011" ;
+	mp:telefono "91 464 46 10" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla Apertura 10,30 horas, cierre dependiendo de la luz solar. Cierre completo del Centro Los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Actividades Físico deportivas para centros escolares: aula deportiva municipal.    Equipamientos   Superficie total de las instalaciones:  80.100 metros cuadrados. Unidades deportivas al aire libre:   lago.   Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Lago , Puerta del Ángel. Bus: 31 , 33 , 36 , 39 , 65 , 138. Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 4bicicletas. Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/LasCruces> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/LATINA> ;
+	mp:provincia "MADRID" ;
+	mp:via "POBLADOS" ;
+	mp:codigoPostal "28044" ;
+	mp:email "idmlascruces@madrid.es" ;
+	mp:telefono "915 888 600" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes de 7 a 14 y de 15 a 22 horas.Sábados de 9 a 19  horas.Domingos y festivos de 9 a 14 horas. Cierre completo del Centro  Días 1 de enero, 1 de mayo, 24, 25 y 31 de diciembre." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantiles (0 a3 años): educación física de base, matronatación y natación. Infantiles   (edad, según modalidad): aeróbic, baloncesto, balonmano, gimnasia rítmica, fútbol, fútbol sala, judo, natación, natación (escuela de iniciación, competición), natación sincronizada, pádel, pre-tenis, tenis y voleibol. Jóvenes:  aeróbic, baloncesto, ciclo sala, combinada (EFP), fútbol, natación, natación (escuela de iniciación, competición), pádel, tenis y tonificación. Adultos: acondicionamiento físico/fat burner, aeróbic/zumba, aeróbic/body jam, carrera acuática (acuarunning), ciclo sala, combinada (EFP/ciclo+core), fitness acuático, fitnes/body combat, gimnasia acuática, gimnasia acuática (acuagim), gimnasia suave/body balance, gimnasia suave/espalda sana, kick boxing/muay thai , natación, natación de compensación, natación embarazadas, pádel, pilates, tenis , tonificación/body pump y yoga. Mayores 65 años: actividad física, gimnasia acuática, gimnasia acuática (acuagim), gimnasia acuática/acuasalud, gimnasia acuática/acuapilates, gimnasia acuática/acuarelax, natación y tonificación. Personas con discapacidad  : actividad física, gimnasia acuática, natación  y polideportiva.   Equipamientos  Superficie total de las instalaciones:  31.529,58  metros cuadrados.  Unidades deportivas al aire libre:  1 campo de fútbol (césped artificial), 2 campos de fútbol 7, (césped artificial), 6 pistas de pádel, 2 pistas de pádel (cristal) y 5 pistas de tenis. Unidades deportivas cubiertas: pabellón polideportivo, piscina (vaso de 25 m y vaso de enseñanza), 3 salas multiusos y sala de musculación.  Solárium.   Ayudas técnicas para la accesibilidad:  1 ascensor y 1 grúa de piscina." ;
+	mp:transporte "Metro: Aluche , Eugenia de Montijo. Bus: 121 , 131 , 139. Renfe: Aluche. Bicicleta:El centro dispone de aparca bicicletas exterior con capacidad para 4 bicicletas. Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/LosPrunos> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/HORTALEZA> ;
+	mp:provincia "MADRID" ;
+	mp:via "PETUNIAS" ;
+	mp:codigoPostal "28042" ;
+	mp:telefono "917 432 001" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla  D e lunes a sábado de 9 a 22 horas.   Domingos y festivos de 9 a 15 horas.   Cierre completo del centro Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas Cardiovascular, tonificación, combinado tono y cardio, cuerpo y mente, y pádel. Equipamientos  Unidades deportivas al aire libre: pista polideportiva y 8 pistas de pádel. Unidades deportivas cubiertas: piscina (vaso de 25 metros y vaso de enseñanza) , 4 pistas de pádel, sala multiusos (ciclo sala), sala multiusos (gimnasio), 3 salas multiusos, spa y zona termal. Ayudas técnicas para la accesibilidad: con 1 ascensor." ;
+	mp:transporte "Metro: Feria de Madrid Bus: 153 Bicicleta: El centro dispones de aparcabicicletas exterior con capacidad para 6 bicicletas." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/LuisAragones> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/HORTALEZA> ;
+	mp:provincia "MADRID" ;
+	mp:via "EL PROVENCIO" ;
+	mp:codigoPostal "28043" ;
+	mp:telefono "913 003 612" ;
+	mp:horario "Horario de uso de las instalaciones deportivas:   Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla  Invierno: laborables, de 8,30 a 20,45 horas, sábados, domingos y festivos, cerrado. Verano: de lunes a domingo, de 8.30 a 20,45 horas. Cierre completo del centro Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantiles (0 a 3 años): matronatación y natación. Infantiles (edad, según modalidad) : judo, karate kenpo, natación, pádel, pre-tenis, tenis, salvamento y socorrismo.   Personas adultas  : aeróbic, carrera acuática (acuarunning), fitness, gimnasia acuática (acuagim), judo, karate kenpo, natación, natación de compensación, natación embarazadas, pádel, pilates y tenis.   Mayores 65 años:  acondicionamiento físico y natación.    Equipamientos     Superficie total de las instalaciones:  61.500 metros cuadrados.   Unidades deportivas al aire libre:     2 campos de fútbol de césped artificial, 2 campos de fútbol-7 de césped artificial, piscinas (vaso 50 metros, 2 vasos de recreo y 1 vaso infantil),  pista de vóley playa, 1 pista de tenis, 2 pistas de tenis (césped artificial), 4 tenis de mesa y Rocódromo.     Unidades deportivas cubiertas:  piscina (vaso de 25 metros y vaso de enseñanza), 4 pistas de pádel (césped artificial), sala de artes marciales, sala multiusos (gimnasio) y sala de musculación.         Oficina de promoción deportiva:   responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva.           Ayudas técnicas para la accesibilidad:  1 grúa de piscina.       Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Canillas. Bus: 73, 120. Bicicleta:  el centro dispone de  aparca bicicletas exterior  con capacidad para10 bicicletas.  Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/MargotMoles(Vicalvaro)> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/VICALVARO> ;
+	mp:provincia "MADRID" ;
+	mp:via "POLIDEPORTIVO" ;
+	mp:codigoPostal "28032" ;
+	mp:email "idmvicalvaro@madrid.es" ;
+	mp:telefono "917 769 874" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla  Hasta apertura piscina de verano, de lunes a viernes de 9 a 14,30 y de 14,45 a 20,30 horas.Sábados y domingos, de 9 a 14,30 horas.Festivos cerrado, excepto en temporada de verano.  Cierre completo del centro Los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas.  Pre-infantiles (3 a 5 años): matronatación y (0 a 3 años) natación. Infantiles (6 a 14 años, según modalidades): baile en familia, fútbol, karate shyto, natación, natación (competición), pádel y tenis. Personas adultas (15 a 64 años): acondicionamiento físico deportivo, acuagim, acuarruning, aeróbic, aeróbic combinado, combinada (pilates/yoga gap /tonificación), karate goju, natación, natación de compensación, natación embarazadas, pádel, pilates/yoga, tenis y yoga. Mayores de 65 años: actividad física, baile, gimnasia acuática, natación y pádel. Equipamientos   Superficie total de las instalaciones:  82.400 metros cuadrados. Unidades deportivas al aire libre:  campo de fútbol (de césped artificial), 2 campos de fútbol 7 (de césped artificial), piscina (1 vaso de 50 m. y 1 vaso infantil), pista de atletismo, 2 pistas polideportivas, 4 pistas de pádel, 3 pistas de tenis y 4 tenis mesa.    Unidades deportivas cubiertas:  pabellón polideportivo, piscina (1 vaso de 25 metros y 1 vaso de enseñanza).     Oficina de promoción deportiva:  responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva. Ayudas técnicas para la accesibilidad:  1 grúa de piscina.   Columna de rescate cardíaco." ;
+	mp:transporte "Metro: San Cipriano, Puerta de Arganda. Bus: 4 , 100 , 106 , 130. Renfe: Vicálvaro. Bicicleta: El centro dispone de  aparca bicicletas exterior  con capacidad para 10 bicicletas.  Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/MarquesdeSamaranch> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/ARGANZUELA> ;
+	mp:provincia "MADRID" ;
+	mp:via "IMPERIAL" ;
+	mp:codigoPostal "28005" ;
+	mp:telefono "913 642 240" ;
+	mp:horario "Horario de uso de las instalaciones deportivas:   Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla  De lunes a viernes, de 8,30 a 21 horas.Sábados y domingos, de 9 a 14,30 horas.Festivos, cerrado. Cierre completo del centro Mes de agosto y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantiles (2 a 5 años): natación y polideportiva/educación física de base. Infantiles: bádminton, karate kenpo, natación, polideportiva y voleibol. Jóvenes y personas adultas:  aeróbic, acondicionamiento nadadores, bádminton, fitness, fitness acuático, gimnasia acuática (acuagim), gimnasia de compensación, natación, natación de compensación/salud, natación embarazadas, pilates, voleibol, salvamento acuático y salvamento y socorrismo.    Mayores de 65 años: acondicionamiento nadadores, fitness, gimnasia acuática (acuagim) y natación.      Personas con discapacidad física:  natación (adulta e infantil).          Personas con discapacidad intelectual:  natación (adulta e infantil) .       Equipamientos  Unidades deportivas al aire libre: campo de fútbol de césped artificial y 4 pistas de pádel. Unidades deportivas cubiertas:   pabellón polideportivo, piscina (vaso de 25 metros y vaso de enseñanza y solarium),  sala de musculación, 2 salas multiusos, sala fisioterapia, sala de psicomotricidad, unidad de reconocimientos médicos y 2 saunas.   Servicios auxiliares:  aula.   Oficina de promoción deportiva (distrito centro) juegos deportivos municipales, torneos y circuitos municipales, copas de primavera información sobre escuelas de promoción deportiva.  Ayuda técnicas para la accesibilidad: 2 grúas de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Puerta de Toledo , Pirámides. Bus: 17, 36, 41, C, 62. Renfe: Pirámides. Bicicleta:  el centro dispone de  aparca bicicletas exterior   con capacidad para 5 bicicletas.  Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/MiguelGuillenPrim> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FVILLA+DE+VALLECAS> ;
+	mp:provincia "MADRID" ;
+	mp:via "FUENTIDUEÑA" ;
+	mp:codigoPostal "28031" ;
+	mp:telefono "913 053 451" ;
+	mp:horario "Horario de uso de las instalaciones deportivas:  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes, de 9 a 21 horas.Sábados, domingos y festivos, cerrado. Cierre completo del Centro Mes agosto y durante los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Infantiles (6 a 14 años, según modalidades): fútbol sala y taekwondo. Jóvenes y personas adultas   (21 a 64 años): acondicionamiento físico deportivo y musculación.   Mayores de 65 años:   actividad física.   Equipamientos    Superficie total de las instalaciones:   8.400 metros cuadrados. Unidades deportivas al aire libre: campos de fútbol-7 de césped artificial.   Unidades deportivas cubiertas: pabellón polideportivo y sala de musculación.   Oficina de promoción deportiva:  responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva.  Ayudas técnicas para la accesibilidad:   instalación adaptada.   Columna rescate cardíaco." ;
+	mp:transporte "Bus:  54, 103, 142. Metro: Congosto. Renfe: Vallecas. Bicicleta:  el centro dispone de  aparca bicicletas exterior  con capacidad para 10 bicicletas.  Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Moratalaz> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/MORATALAZ> ;
+	mp:provincia "MADRID" ;
+	mp:via "VALDEBERNARDO" ;
+	mp:codigoPostal "28030" ;
+	mp:email "idmmoratalaz@madrid.es" ;
+	mp:telefono """917 727 100                                                                                                                                     
+- 917 727 121                                            
+- Verano: 914 801 853""" ;
+	mp:horario "Horario de uso de las instalaciones deportivas                      Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla  De lunes a domingo, de 9 a 20:30 horas Cierre completo del centro Los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre infantiles (0 a 3 años): natación. Infantiles (edad, según modalidad): atletismo, baloncesto, hábitos saludables, fútbol,  fútbol sala, gimnasia rítmica, judo, karate shyto, natación, patinaje, polideportiva, tenis y tiro con arco. Jóvenes y personas adultas: aeróbic,  atletismo juvenil, ciclo sala, combinada (fitness/ciclo sala), fútbol (masculino y femenino), gap (glúteos, abdomen, piernas), gimnasia acuática (acuagim), hábitos saludables, judo, karate shyto, natación , natación embarazadas, pádel, pilates, tenis y tonificación (con pesas). Mayores 65 años: acondicionamiento físico, gimnasia acuática (acuagim), natación, natación de compensación y pilates. Personas con discapacidad  : atletismo y natación.   Equipamientos  Superficie total de las instalaciones: 108.300 metros cuadrados. Unidades deportivas cubiertas:  pabellón polideportivo, piscina (vaso de 25 metros), sala de musculación, sala de artes marciales y sala multiusos (psicomotricidad, sala multiusos (ciclo sala).  Unidades deportivas al aire libre:  campo de fútbol (de césped artificial), 3 pistas de fútbol sala, campo de tiro con arco, 2 frontones (largos), piscina (3 vasos de 50 metros y una vaso infantil), pista de atletismo, pista de baloncesto, pista de patinaje, 4 pistas de pádel, 6 pistas de tenis y 1 pista de vóley playa.  Oficina de promoción deportiva:  responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva.   Servicio de medicina deportiva: reconocimientos médicos para deportistas y psicomotricidad.   Unidades con servicios auxiliares:   sala de reconocimientos médicos.   Ayudas técnicas para la accesibilidad:  1 ascensor y 2 grúas de piscina.   Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Pavones. Bus: 8, 20, 32, 71, 142, 144. Bicicleta:  el centro dispone de  aparca bicicletas exterior  con capacidad para    interior (10), exterior (8) bicicletas.  Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Moscardo> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/USERA> ;
+	mp:provincia "MADRID" ;
+	mp:via "ANDRES ARTEAGA" ;
+	mp:codigoPostal "28026" ;
+	mp:telefono "915 003 940" ;
+	mp:horario "Horario de uso de instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro.  Horario de taquilla De lunes a viernes, de 10:00 a  19:45 horasSábados, domingos y festivos, de 10 a 14 horas Cierre completo del centro  Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Infantiles natación, pádel y waterpolo. Jóvenes y personas adultas  acuagim, aeróbic, bailes de salón, combinada, natación, pádel y pilates.  Mayores de 65 años : actividad acuática y combinada.  Equipamientos   Superficie total de las instalaciones  13.800 metros cuadrados. Unidades deportivas al aire libre:  piscina (vaso de 50 metros y vaso infantil), 2 pistas de pádel y 1 pista de vóley playa.   Unidades deportivas cubiertas:  piscina (vaso de 25 metros y vaso de enseñanza) y 2 salas multiusos, sala de cardio y sala de musculación" ;
+	mp:transporte "Metro: Usera. Bus: 6, 47, 60." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/USERA> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q953368> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Orcasitas> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/USERA> ;
+	mp:provincia "MADRID" ;
+	mp:via "RAFAELA YBARRA" ;
+	mp:codigoPostal "28026" ;
+	mp:telefono "914 692 374" ;
+	mp:horario "Horario de uso de las instalaciones deportivas:  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a domingo, de 9 a 20,30 horas. Cierre completo del centro Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-Infantiles (0 a 3 años) y (3 a 5 años, según modalidades): matronatación y natación. Infantiles (6 a 14 años, según modalidades): atletismo, baloncesto, defensa personal y artes marciales, gimnasia rítmica, natación, pádel y tenis. Jóvenes y personas adultas (de 15 a 20 años, según modalidades): baloncesto, defensa personal y artes marciales, natación, pádel y salvamento acuático. Adultos (21 a 64 años): acondicionamiento físico deportivo, acuagim, aeróbic, bous, combinada  (aeróbic/step, fitness/natación), fitness, gap (glúteos, abdomen, piernas), gimnasia de compensación, natación, natación de compensación, natación embarazadas, pádel, pilates y tenis. Mayores de 65 años:  actividad física, acuagim y natación.  Actividades para personas con discapacidad sensorial (sordos): atletismo (infantil). Equipamientos   Superficie total de las instalaciones:  10.200 metros cuadrados.   Unidades deportivas al aire libre:     3 campos de fútbol (de césped artificial), campo de fútbol 7 (de césped artificial), piscina (2 vasos de 50 m. y vaso infantil), pista de atletismo, 5 pistas de pádel, 2 pistas polideportivas, 8 pistas de tenis y 1 pista de vóley playa.     Unidades deportivas cubiertas:  pabellón Jesús Rollán, piscina (vaso 25 metros y vaso de enseñanza), 2 salas de musculación, sala multiusos (aeróbic), sala multiusos (gimnasio) y sala multiusos.    Oficina de promoción deportiva:  responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva. Ayudas técnicas a la accesibilidad: instalación practicable, con 1 ascensor y 1 grúa de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Plaza Elíptica. Bus: 6, 60, 78, 81, 116, 121, 131. Renfe: Doce de Octubre, Orcasitas. Bicicleta:  el centro dispone de  aparca bicicletas exterior   con capacidad para 10 bicicletas.  Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Orcasur> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/USERA> ;
+	mp:provincia "MADRID" ;
+	mp:via "MOREJA" ;
+	mp:codigoPostal "28041" ;
+	mp:telefono "913 171 062" ;
+	mp:horario "Horario de uso de las instalaciones deportivas:  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes, de 8,45 a 20,30 horasSábados, domingos y festivos, de 8,45 a 14,30 horas. Cierre completo del centro El mes de agosto y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantiles (3 a 5 años): natación y matronatación. Infantiles (6 a 14 años, según modalidades): natación y pádel. Jóvenes y personas adultas: (15 a 64 años): acondicionamiento físico deportivo, natación, pádel y pilates. Mayores de 65 años: actividad física, gimnasia acuática, natación y pilates. Equipamientos    Superficie total de las instalaciones:   22.500 metros cuadrados. Unidades deportivas al aire libre:  2 campos de fútbol-7 de césped artificial, frontón (largo), 2 pistas de pádel, pista de fútbol sala, pista de tenis y 4 tenis mesa.   Unidades deportivas cubiertas: pabellón polideportivo, piscina (vaso de 25 m.), sala de musculación y sala multiusos.  Ayudas técnicas para la accesibilidad:  1 grúa de piscina." ;
+	mp:transporte "Bus:  78, 116 Renfe: Orcasitas. Metro:   San Fermín - Orcasur.   Bicicleta:  el centro dispone de  aparca bicicletas exterior  con capacidad para 5 bicicletas." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/PabellonVilladeMadrid> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/BARAJAS> ;
+	mp:provincia "MADRID" ;
+	mp:via "BREZOS" ;
+	mp:codigoPostal "28042" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro." ;
+	mp:transporte "Bus: 105 , 112 , 114 , 115 , 151" .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Palomeras> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FPUENTE+DE+VALLECAS> ;
+	mp:provincia "MADRID" ;
+	mp:via "TRANVIA DE ARGANDA" ;
+	mp:codigoPostal "28031" ;
+	mp:telefono "917 774 901" ;
+	mp:horario "Horario de uso de las instalaciones deportivas    Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a domingo, de 8,30 a 20,30 horas. Cierre completo del centro Los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas   Pre-infantiles (0 a 5 años, según modalidades): matronatación y natación. Infantiles (6 a 14 años, según modalidades): atletismo, bádminton,  baloncesto, esgrima, gimnasia rítmica, judo, natación, pádel, tenis y voleibol. Jóvenes y personas adultas: (15 a 64 años): acondicionamiento físico deportivo, acuagim, bailes de salón, ciclo sala, estiramientos/relax, fitness/gap (glúteos, abdomen, piernas), judo, natación, natación embarazadas, pádel, pilates, tenis. Mayores de 65 años:  actividad acuática, actividad física.  Actividades para personas con discapacidad física:   natación (adultos).   Equipamientos   Superficie total de las instalaciones:  97.300 metros cuadrados. Unidades deportivas al aire libre:  2 campos de fútbol de césped artificial, frontón (corto), piscinas (1 vaso de 50 metros, 2 vasos de recreo y 1 vaso infantil), pista de atletismo, 4  pistas de pádel, 6 pistas polideportivas, 5 pistas de tenis y 2 tenis de mesa.  Unidades deportivas cubiertas:  pabellón polideportivo, piscina (1 vaso de 25 metros y 1 vaso de enseñanza), sala de armas, sala de artes marciales, sala multiusos (ciclo sala), sala multiusos (gimnasio) y sala de musculación.  Oficina de promoción deportiva:   responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva.   Unidades con servicios auxiliares: aula, sala de acondicionamiento cardiovascular y reconocimiento médico. Ayuda técnica para la accesibilidad  : instalación convertible, con 1 ascensor y 2 grúas de piscina.   Columna de rescate cardíaco." ;
+	mp:transporte "Transporte más próximo  Metro: Miguel Hernández, Sierra de Guadalupe. Bus: 54, 103, 142, 143, 58. Renfe: Vallecas. Bicicleta:  el centro dispone de  aparca bicicletas exterior  con capacidad para 5 bicicletas." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/PepuHernandez> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FSAN+BLAS-CANILLEJAS> ;
+	mp:provincia "MADRID" ;
+	mp:via "NIZA" ;
+	mp:codigoPostal "28022" ;
+	mp:telefono "917 755 866" ;
+	mp:horario "Horario de uso de las instalaciones deportivas                     Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de  taquilla De lunes a viernes, de 8 a 23 horas.Sábados, de 9 a 22 horas.Domingos y festivos, de 9 a 15 horas.  Cierre completo del centro Días 1 de enero, 1 de mayo y 25 de diciembre." ;
+	mp:equipamiento "Clases y escuelas deportivas  Infantiles (de 6 a 14 años): aeróbic, artes marciales, baloncesto, balonmano, educación física de base, fútbol, fútbol sala, pádel, pre-tenis y tenis. Jóvenes y personas adultas:De 15 a 20 años: aeróbic, artes marciales, fútbol, musculación, pádel y tenis.De 21 a 64 años: acondicionamiento físico deportivo, aeróbic, artes marciales, ciclo sala, estiramientos/relax, fitness, gimnasia suave, musculación, pádel, pilates, tenis y tonificación. Mayores de 65 años: actividad física. Actividades para personas con discapacidad física: actividad física (todos los grupos de edad). Equipamientos    Superficie total de las instalaciones:   4.966.29 metros cuadrados. Unidades deportivas al aire libre:  campo de fútbol de césped artificial (señalizado para fútbol 7), 3 pistas de tenis, y 4 pistas de pádel.   Unidades deportivas cubiertas:  1  pabellón polideportivo, 5 salas multiusos, sala de musculación, 2 saunas y sala de fisioterapia." ;
+	mp:transporte "Transporte más próximo  Metro: Las Musas. Bus: 38 , 140. Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 7bicicletas. Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Peñagrande> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FFUENCARRAL-EL+PARDO> ;
+	mp:provincia "MADRID" ;
+	mp:via "Monforte de Lemos" ;
+	mp:codigoPostal "28029" ;
+	mp:telefono "910 884 262" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla  De lunes a viernes de 6 a 24 horasSábados, domingos y festivos de 9 a 22 horas Cierre completo del centro Días 25 de diciembre, 1 de enero y 1 de mayo" ;
+	mp:transporte "Metro: PeñagrandeBus:  42,126,132,137" .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Peñuelas> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/ARGANZUELA> ;
+	mp:provincia "MADRID" ;
+	mp:via "ARGANDA" ;
+	mp:codigoPostal "28005" ;
+	mp:telefono """915881264
+915883465""" ;
+	mp:horario "Horario de uso de las instalaciones deportivas: Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De 11 a 21 horas Sólo temporada de verano" ;
+	mp:equipamiento "Clases y escuelas  Programa deportivo-recreativo de verano: consultar con el propio centro. Equipamientos  Superficie total de las instalaciones: 7.000 metros cuadrados. Unidades deportivas al aire libre: 1 piscina (25x12,5 metros), 1 piscina (20 x 10) metros) y 1 piscina infantil (18x8 metros). Ayudas técnicas a la accesibilidad: 1 grúa de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Acacias, Embajadores, Pirámides Bus: 18, 36, 62 Renfe: Pirámides Bicicleta:El centro dispone de aparcabicicletas exterior con capacidad para 5 bicicletas.Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/PlatayCastañar> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/VILLAVERDE> ;
+	mp:provincia "MADRID" ;
+	mp:via "PLATA Y CASTAÑAR" ;
+	mp:codigoPostal "28021" ;
+	mp:telefono """915 051 532                                                                 
+915 051 195""" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a domingo, de 8,45 a 20,30 horas. Cierre completo del Centro Los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-Infantiles (de 0 a 5 años, según modalidades): matronatación natación. Infantiles (6 a 14 años, según modalidades): freestyle, natación, pádel, patinaje artístico, polideportiva, pre-tenis, tenis y tenis mesa. Jóvenes y personas adultas (de 15 a 20 años, según modalidades): freestyle, natación, salvamento acuático y tenis mesa (de 21 a 64 años): acuagim, bailes, ciclo sala/ abdominales, combinada (educación física permanente y deportes), fitness, natación, natación de compensación, pádel, pilates, tenis y tonificación. Mayores de 65 años:  actividad física, acuagim, baile y natación.  Actividades para personas con discapacidad física:  actividad acuática (adultos).  Equipamientos  Superficie total de las instalaciones: 66.013 metros cuadrados. Unidades deportivas al aire libre:  campo de fútbol (césped artificial), campo de fútbol 7 (césped artificial), piscina (vaso de 25 metros, vaso de recreo, vaso infantil), pista de patinaje (con cubierta),  2 pistas polideportivas, 6 pistas de tenis y 4 pistas de pádel.  Unidades deportivas cubiertas:  pabellón polideportivo, piscina (vaso de 25 metros, vaso de enseñanza) y sala multiusos (aeróbic).  Unidades con servicios auxiliares  : sala de físico e hidroterapia." ;
+	mp:transporte "Bus:  76.  Renfe: Puente Alcocer." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/PlayaVictoria> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/TETUAN> ;
+	mp:provincia "MADRID" ;
+	mp:via "HIERBABUENA" ;
+	mp:codigoPostal "28039" ;
+	mp:telefono "915 701 841" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla  De lunes a viernes: de 8,30 a 21 horas.Sábados y festivos: de 9 a 14 horas.Domingos: cerrado. Cierre completo del centro Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-Infantiles (0 a 5 años), natación. Infantiles   (6 a 14 años, según modalidades): karate shyto y natación.   Jóvenes y personas adultas   (15 a 20 años): natación y karate shyto.   Adultos   (21 a 64 años): acondicionamiento físico deportivo, acuagim, aeróbic, karate shyto,  natación, natación de compensación, natación embarazada y pilates.   Mayores de 65 años:  actividad física, gimnasia acuática y natación.    Actividades para personas con discapacidad física: natación (infantil y adulta).       Actividades para personas con discapacidad intelectual:  aeróbic y natación (adultos).      Equipamientos   Superficie total de las instalaciones:  5.640 metros cuadrados.   Unidades deportivas al aire libre:     2 pistas de pádel (cristal).     Unidades deportivas cubiertas:  piscina (vaso de 25 metros, (sistema de depuración salina), sala multiusos (gimnasio), sala de musculación y 2 saunas.    Oficina de promoción deportiva: responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las Escuelas de Promoción Deportiva.   Ayudas técnicas para la accesibilidad:  2 plataformas y 1 grúa de piscina, sala de musculación con elementos adaptados para personas en silla de ruedas. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Tetuán. Bus:  64, 66, 124, 126, 128.  Bicicleta:  el centro dispone de  aparca bicicletas exterior  con capacidad para  5   bicicletas.  Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Pradillo> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/CHAMARTIN> ;
+	mp:provincia "MADRID" ;
+	mp:via "PRADILLO" ;
+	mp:codigoPostal "28002" ;
+	mp:email "idmpradillo@madrid.es" ;
+	mp:telefono "914 137 105" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para consultar el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes: de 8,45 a 20,30 horas.Sábados y domingos: de 8,45 a 14,15 horas. Cierre completo del centro  Festivos y días 24 y 31 de diciembre." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantiles (de 3 a 5 años): natación y educación física de base (polideportiva).  Infantiles  (de 6 a 14 años): bádminton, fútbol, gimnasia rítmica, natación, pádel y tenis.   Jóvenes y adultos  (de 15 a 64 años): acondicionamiento físico deportivo, acuagim, aeróbic, aeróbic aerolatino, ciclo sala, combinada (educación física permanente y deportes), fitness, glúteos, abdomen, piernas (GAP), gimnasia suave, musculación, natación, natación de compensación, natación para embarazadas, pádel, pilates y tenis.  Mayores de 65 años:  actividad física, acuagim y natación.  Equipamientos  Superficie total de las instalaciones: 12.350 metros cuadrados. Unidades deportivas al aire libre: 1 campo de fútbol 7, 6 pistas de pádel, 2 pistas polideportivas y 1 pista de tenis. Unidades deportivas cubiertas: piscina (1 vaso de 25 metros y 1 vaso de enseñanza), 3 salas multiusos, sala de musculación y 2 saunas.  Oficina de promoción deportiva: responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las Escuelas de Promoción Deportiva. Ayudas técnicas para la accesibilidad: 1 ascensor, 1 plataforma y 1 grúa de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Alfonso XIII, Concha Espina. Bus: 9, 40, 43, 72, 73. Bicicleta:El centro dispone de aparcabicicletas exterior   con   capacidad para 25 bicicletas.  Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/PuebloNuevo> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FCIUDAD+LINEAL> ;
+	mp:provincia "MADRID" ;
+	mp:via "FRANCISCO RIOJA" ;
+	mp:codigoPostal "28017" ;
+	mp:telefono "913 770 251" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes, de 9 a 20:30 horas (de septiembre a julio).Sábados y domingos, de 9 a 14 horas (de septiembre a junio).Festivos, cerrado. Cierre completo del centro Los días, 24, 25 y 31 de diciembre, 1 de enero, 1 de mayo, el mes de agosto y los fines de semana del mes de julio." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-Infantiles (0 a 3 años) (3 a 5 años): Matronatación y natación. Infantiles (6 a 14 años, según modalidades): natación. Jóvenes y personas adultas: (15 a 64 años): acondicionamiento físico deportivo, acuagim, aeróbic, ciclo sala, combinada (aeróbic/combo y natación/acuagim), fitness, fitness acuático,  musculación, natación, natación de compensación, natación de embarazadas, pilates, yoga y tonificación. Mayores de 65 años:  actividad física,  gimnasia acuática, natación y pilates.  Equipamientos  Superficie total de las instalaciones: 3.300 metros cuadrados. Unidades deportivas cubiertas: piscina (1 vaso de 25 metros y 1 vaso de enseñanza), sala multiusos (ciclo sala), sala multiusos (gimnasio), sala de musculación, 2 saunas, y 3 tenis de mesa. Ayuda técnica  para la accesibilidad:  1 grúa de piscina.  Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Ascao. Bus: 28 , 109." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/RaulGonzalez> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/VILLAVERDE> ;
+	mp:provincia "MADRID" ;
+	mp:via "BENIMAMET" ;
+	mp:codigoPostal "28021" ;
+	mp:telefono "917 953 792" ;
+	mp:horario "Horario de uso de las instalaciones deportivas:  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes, de 10 a 20,30 horas.Sábados, domingos y festivos, de 10 a 14,00 horas. Cierre completo del centro El mes de agosto, y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-Infantiles (0 a 3 años) y (3 a 5 años): matronatación y natación. Infantiles (6 a 14 años, según modalidades) fútbol sala, natación y pre-deporte. Jóvenes y personas adultas (de 15 a 21 años), natación.  Personas adultas: (15 a 64 años): acondicionamiento físico deportivo, acuagim, ciclo sala, combinada (acondicionamiento/ gap), entrenamiento en circuito, gap (glúteos, abdomen y piernas), natación, natación de compensación, pilates, tonificación y yoga (iniciación). Mayores de 65 años:   actividad física, gimnasia acuática natación.   Personas con discapacidad física:   natación (infantil y adulta).   Equipamientos   Superficie total de las instalaciones:  33.900 metros cuadrados.   Unidades deportivas cubiertas:      pabellón polideportivo, piscinas (1 vaso de 25 m. y 1 vaso de enseñanza) y 2 salas multiusos (gimnasios).     Ayudas técnicas para la accesibilidad:  1 montacargas y 1 grúa de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Bus: 59 , 79. Renfe:  San Cristóbal.  Metro:   San Cristóbal.   Bicicleta:El centro dispone de aparca bicicletas exterior  con capacidad para 4 bicicletas. Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/SanBlas> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FSAN+BLAS-CANILLEJAS> ;
+	mp:provincia "MADRID" ;
+	mp:via "ARCOS DE JALON" ;
+	mp:codigoPostal "28037" ;
+	mp:telefono "913 209 818" ;
+	mp:horario "Horario de uso de las instalaciones deportivas:  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes, de 9 a 20,30 horas.Sábados, domingos y festivos, de 9 a 14 horas. Cierre completo del Centro Los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-Infantiles (0 a 3 años) (3 a 5 años): matronatación, natación. Infantiles (6 a 14 años, según modalidades): baloncesto, fútbol sala, gimnasia artística, gimnasia rítmica,  karate, lucha, natación y tenis. Jóvenes y personas adultas (15 a 20 años, según modalidades): gimnasia rítmica, lucha, natación, pádel y  tenis. Adultos (21 a 64 años): acondicionamiento físico deportivo y combinada, (acondicionamiento/natación), gimnasia suave, musculación, natación, tenis. Mayores de 65 años: actividad física, natación. Actividades para personas con discapacidad física: natación (infantil y juvenil).  Equipamientos  Superficie total de las instalaciones: 46.041 metros cuadrados. Unidades deportivas al aire libre: piscinas (1 vaso de nado 50 metros y 1 vaso recreativo 50 metros y 1 vaso infantil), 4 pistas polideportivas (3 con tenis), 4 pistas de pádel y 3 tenis de mesa. Unidades deportivas cubiertas: 3 pabellones polideportivos, piscina (1 vaso de 25 metros), sala multiusos, sala artes marciales y sala de musculación.  Oficina de promoción deportiva:  responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva.  Ayuda técnica para la accesibilidad: 1 ascensor y 1 grúa de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: San Blas. Bus: 38 , 48 , 153, 4. Bicicleta:  el centro dispone de  aparca bicicletas exterior  con capacidad para 6 bicicletas. Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/SanCristobal> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/VILLAVERDE> ;
+	mp:provincia "MADRID" ;
+	mp:via "PINAZO" ;
+	mp:codigoPostal "28021" ;
+	mp:email "idmsancristobal@madrid.es" ;
+	mp:telefono "917 950 911" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes, de 9 a 20,30 horas.Sábados, domingos y festivos, de 9 a 13,30 horas. Cierre completo del Centro Durante los festivos de semana santa, el mes de agosto, y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Infantiles (6 a 14 años, según modalidades): kenpo. Jóvenes y personas adultas (15 a 64 años): ciclo sala, gap (glúteos, abdomen y piernas) y karate kenpo, musculación, pilates tonificación. Equipamientos   Superficie total de las instalaciones: 1000 metros cuadrados.   Unidades deportivas cubiertas:  sala multiusos (artes marciales), sala multiusos (psicomotricidad), sala de musculación y sauna.  Oficina de promoción deportiva:   responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva.   Servicio de medicina deportiva: psicomotricidad infantil. psicomotricidad (infantil, de 3 a 8 años). Ayuda técnica  para la accesibilidad: instalación convertible. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: San Cristóbal. Renfe: San Cristóbal. Bus: 59, 79. Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 5 bicicletas. Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/SanFermin> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/USERA> ;
+	mp:provincia "MADRID" ;
+	mp:via "SAN MARIO" ;
+	mp:codigoPostal "28041" ;
+	mp:email "idmsanfermin@madrid.es" ;
+	mp:telefono "917 922 102" ;
+	mp:horario "Horario de uso de las instalaciones deportivas: Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De 11 a 21 horas Sólo temporada de verano" ;
+	mp:equipamiento "Clases y escuelas  Programa deportivo-recreativo de verano: consultar en el propio centro. Equipamientos  Superficie total de la instalación: 10.000 metros cuadrados. Unidades deportivas al aire libre:   piscina (1 vaso de 50 metros y 1 vaso infantil).   Ayudas técnicas para la accesibilidad:  1 grúa de piscina.   Columna de rescate cardíaco." ;
+	mp:transporte "Bus: 18, 22, 23, 59, 76, 78, 79, 85, 86, 123. Metro: Hospital 12 de Octubre, San Fermín." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/SanJuanBautista> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FCIUDAD+LINEAL> ;
+	mp:provincia "MADRID" ;
+	mp:via "TREVIANA" ;
+	mp:codigoPostal "28043" ;
+	mp:email "idmsjbautista@madrid.es" ;
+	mp:telefono "914 164 259" ;
+	mp:horario "Horario de uso de las instalaciones deportivas     Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a domingos y festivos, de 8,30 a 20,30 horas. Cierre completo del centro Del 15 al 31 del mes de agosto  y los días 24, 25 y 31 de diciembre, 1 y 6 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-Infantiles (2 a 5 años) matronatación y natación. Infantiles (6 a 14 años, según modalidades): natación, natación recreativa, pádel, pre-tenis y tenis. Jóvenes y personas adultas:De 15 a 20 años, según modalidades: natación, salvamento acuático y tenis. De 15 a 64 años: acondicionamiento físico deportivo y actividades acuáticas, acuagim, aeróbic, bailes, combinada (pádel, natación, pilates, natación, tonificación, natación, natación, natación de compensación, natación embarazadas, pádel, pilates y tenis. Mayores de 65 años: natación, actividad física, acuagim y natación. Actividades para personas con discapacidad física: natación (adultos). Actividades para personas con discapacidad intelectual: natación (adultos). Equipamientos   Superficie total de las instalaciones:  11.000 metros cuadrados. Unidades deportivas al aire libre:  2 pistas de pádel y 3 pistas de tenis.   Unidades deportivas cubiertas:  piscina (1 vaso de 25 metros y 1 vaso de enseñanza), sala multiusos (gimnasio), sala de musculación.   Ayudas técnicas para la accesibilidad:  1 grúa de piscina.      Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Avenida de la Paz. Bus: 11, 53,122. Bicicleta: El centro dispone de  aparca bicicletas exterior  con capacidad para 3 bicicletas.  Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/SantaAna> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FFUENCARRAL-EL+PARDO> ;
+	mp:provincia "MADRID" ;
+	mp:via "ALAMEDILLAS" ;
+	mp:codigoPostal "28034" ;
+	mp:email "idmsantaana@madrid.es" ;
+	mp:telefono "913 721 138" ;
+	mp:horario "Horario de uso de las instalaciones deportivas          Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla     De lunes a domingos y festivos de 8,30 a 20,30 horas. Cierre completo del centro  Días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Programa deportivo-recreativo de verano: consultar en el propio centro. Equipamientos  Unidades deportivas al aire libre: piscina (1 vaso en L y 1 vaso infantil), 2 pistas polideportivas y 4 tenis de mesa. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Fuencarral, Tres Olivos. Bus: 66, 137. Bicicleta: El centro dispone de  aparca bicicletas exterior  con capacidad para 5 bicicletas.  Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/TenisCasadeCampo> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/MONCLOA-ARAVACA> ;
+	mp:provincia "MADRID" ;
+	mp:via "PRINCIPE" ;
+	mp:codigoPostal "28011" ;
+	mp:email "idmteniscc@madrid.es" ;
+	mp:telefono "914 649 617" ;
+	mp:horario "Horario de uso de las instalaciones deportivas Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a domingo, de 8,45 a 21,15 horas.  Cierre completo del centro Los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Infantiles (6 a 14 años, según modalidades): tenis. Jóvenes y personas adultos  (21 a 64 años): tenis.  Equipamientos  Superficie total de las instalaciones: 12.000 metros cuadrados. Unidades deportivas al aire libre: 15 pistas de tenis y 7 tenis mesa.  Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Lago." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/TriangulodeOro> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/TETUAN> ;
+	mp:provincia "MADRID" ;
+	mp:via "BRAVO MURILLO" ;
+	mp:codigoPostal "28020" ;
+	mp:email "idmtoro@madrid.es" ;
+	mp:telefono "915 714 117" ;
+	mp:horario "Horario de uso de las instalaciones deportivas:  Para consultar el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de Taquilla:   De lunes a viernes, de 8,30 a 20,30 horas.Sábados, domingos y festivos, de 9 a 14,30 horas. Cierre completo del Centro Deportivo Municipal durante el mes de agosto, y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:transporte "Metro: Plaza de Castilla, ValdeacederasBus: 27, 42, 49, 66, 124Renfe: Chamartín" .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Vallecas> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FPUENTE+DE+VALLECAS> ;
+	mp:provincia "MADRID" ;
+	mp:via "ARROYO DEL OLIVAR" ;
+	mp:codigoPostal "28018" ;
+	mp:email "idmvallecas@madrid.es" ;
+	mp:telefono "91 513 36 23" ;
+	mp:horario "Horario de uso de las instalaciones deportivas: Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De 11 a 21 horas Sólo temporada de verano" ;
+	mp:equipamiento "Clases y escuelas deportivas  Programa deportivo-recreativo de verano: consultar en el propio centro. Equipamientos  Superficie total de las instalaciones: 4.500 metros cuadrados. Ayudas técnicas para la accesibilidad:  1 grúa de piscina.  Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Portazgo. Bus: 10, 54, 58, 103." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/Vallehermoso> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito/CHAMBERI> ;
+	mp:provincia "MADRID" ;
+	mp:via "FILIPINAS" ;
+	mp:codigoPostal "28003" ;
+	mp:email "vallehermoso@gofit.es" ;
+	mp:telefono "917 589 615" ;
+	mp:horario "Horario de uso de las instalaciones deportivas         Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro.  Horario de taquilla  De lunes a viernes de 6 a 24 horasSábados de 9 a 21 horasDomingos y festivos: de 9 a 20 horas Cierre completo del centro Los días 25, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantiles (0 a 3 años) y de (3 a 5 años): matronatación, natación y educación física de base (polideportiva). Infantiles (de 6 a 14 años): bádminton, bailes, baloncesto, boxeo, gimnasia artística, gimnasia rítmica, judo, natación, pádel, polideportiva, taekwondo y voleibol.  Jóvenes y personas adultas:(De 15 a 20 años): aeróbic (adaptivo aeróbic, adaptivo box y baile moderno), baloncesto, fútbol sala, judo, natación, pádel, y taekwondo.(De 21 a 64 años): aeróbic (adaptivo aeróbic, adaptivo box, adaptivo stop, baile moderno, kango boot, kangoo power, latino y zumba), bailes de salón, boxeo, capoeira, carrera acuática (acuagim adaptivo aqua), fitness (adaptivo gofit cros, coreba, judo, natación, natación embarazadas, pádel, pilates (adaptivo pilates, fitball), thai chí, tonificación (adaptativo strength) y yoga (adaptivo yoga). Mayores de 65 años : acondicionamiento físico deportivo (activo), aeróbic (adaptivo aeróbic / latino), carrera acuática (aquagim, adaptivo aqua), ciclo sala (adaptivo bike), natación, pilates (adaptivo pilates, fitball) y yoga (adaptivo yoga).  Actividades para personas con discapacidad : natación.  Equipamientos  Superficie total de las instalaciones: 26.724 metros cuadrados. Unidades deportivas cubiertas: pabellón, piscina (vaso de 25 metros  y vaso de enseñanza), sala fitness, 5 salas multiusos, zona termal (spa, sauna y baño de vapor). Unidades deportivas al aire libre: piscina (vaso de 25 metros) , 3 pistas de pádel, zona termal (jacuzzi, spa y solárium). Otros equipamientos: aparcamiento gratuito para 200 plazas.  Ayuda técnica para la accesibilidad: ascensor y grúa de piscina." ;
+	mp:transporte "Metro: Islas Filipinas, Canal. Bus: 2, 12, 202. Bicicleta: El centro dispone de  aparca bicicletas exterior.  Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
+
+<http://www.madridcen.es/group30/recurso/Distrito/CHAMBERI> a mc:Distrito ;
+	owl:sameAs <https://www.wikidata.org/wiki/Q1763370> .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/VicentedelBosque> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FFUENCARRAL-EL+PARDO> ;
+	mp:provincia "MADRID" ;
+	mp:via "MONFORTE DE LEMOS" ;
+	mp:codigoPostal "28029" ;
+	mp:email "idmbpilar@madrid.es" ;
+	mp:telefono "913 147 943" ;
+	mp:horario "Horario de uso de las instalaciones deportivas  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de  taquilla  De lunes a domingo y festivos, de 8,30 a 20,30 horas.  Cierre completo del centro Los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantiles (de 3 a 5 años): matronatación y (de 0 a 3 años) natación. Infantiles ( de 6 a 14 años): baloncesto, fútbol, gimnasia rítmica, judo, natación, pádel, patinaje, pre-hockey patines, tenis y waterpolo.  Jóvenes (de 15 a 20 años): combinada, fútbol y natación.   Adultos (de 21 a 64 años): acondicionamiento físico deportivo, aeróbic, fitness, fitness acuático, fútbol, gap (glúteos, abdomen y piernas), judo, natación, natación, compensación, natación oposiciones, pádel,  patinaje, pilates y tenis. Actividades para Mayores de 65 años : acondicionamiento físico deportivo y natación. Actividades para personas con discapacidad física: natación (infantil y adulta). Equipamientos   Superficie total de las instalaciones:  87.768 metros cuadrados. Unidades deportivas al aire libre:  campo de fútbol, piscina ( 2 vasos de 50 m. y 1 vaso infantil), 2 pistas de baloncesto,4 pistas de pádel (de césped artificial),2 pistas de pádel (cristal, de césped artificial), pista de patinaje, 2 pistas polideportivas, 6 pistas de tenis, 2 tenis de mesa, pista de vóley playa, zona nudista (sólo verano).   Unidades deportivas cubiertas:  pabellón polideportivo, piscina, sala de musculación, sala de artes marciales.    Servicio de Medicina Deportiva: reconocimientos médicos para deportistas.   Oficina de promoción deportiva:   responsable de la coordinación de Juegos Deportivos Municipales, Torneos y Circuitos Municipales, Copas de Primavera. Además, ofrece información sobre las escuelas de promoción deportiva.     Ayuda técnica para la accesibilidad: 1 ascensor y 1 grúa de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Begoña, Barrio del Pilar. Bus: 134, 137. Renfe: Chamartín. Bicicleta: el centro dispone de aparca bicicletas exterior con capacidad para 5 bicicletas. Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/WilfredAgbonavbare(antiguoAlbertoGarcia)> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FPUENTE+DE+VALLECAS> ;
+	mp:provincia "MADRID" ;
+	mp:via "REGUERA DE TOMATEROS, 39B" ;
+	mp:codigoPostal "28053" ;
+	mp:email "idmagarcia@madrid.es" ;
+	mp:telefono "917 854 751" ;
+	mp:horario "Horario de uso de las instalaciones deportivas   Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro.  Horario de taquilla  De lunes a domingos: de 9 a 20:30 horas.Festivos: de 9 a 14:30 horas. Cierre completo del centro   Mes de agosto y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantiles (de 3 a 5 años): natación. Infantiles (edad, según modalidades):  fútbol, fútbol sala, gimnasia rítmica, natación, pádel, patinaje y tenis. Jóvenes: fitness, natación, padel y tenis.  Personas adultas: aeróbic, combinada (fitness y ciclo sala), fitness, gimnasia acuática (acuagim), natación, pádel, pilates, tonificación y yoga. Mayores 65 años: acondicionamiento físico y gimnasia acuática (acuagim). Personas con discapacidad: natación y pádel. Equipamientos   Unidades deportivas al aire libre:  2 campos de fútbol de césped artificial, 1 campo de fútbol-7 de césped artificial, pista de baloncesto, pista de fútbol-sala, pista de hockey patines (techada), 4 pistas de pádel de cristal, pista polideportiva y 2 pistas de tenis.   Unidades deportivas cubiertas: pabellón polideportivo, piscina (vaso de 25 metros y vaso de enseñanza), sala multiusos y sala de musculación. Ayudas técnicas para la accesibilidad: 1 ascensor y  1 grúa de piscina. Aparcabicicletas exterior: capacidad para 10 bicicletas. Columna de rescate cardíaco" ;
+	mp:transporte "Bus: 24, 102, 310 Renfe: El Pozo Bicicleta: el centro dispone de aparcabicicletas  exterior con capacidad para 10 bicicletas." .
+
+<http://www.madridcen.es/group30/recurso/CentroDeportivo/ÁngelNieto(antiguoPuentedeVallecas)> a mc:CentroDeportivo ;
+	mp:tieneDistrito <http://www.madridcen.es/group30/recurso/Distrito%2FPUENTE+DE+VALLECAS> ;
+	mp:provincia "MADRID" ;
+	mp:via "PAYASO FOFO" ;
+	mp:codigoPostal "28018" ;
+	mp:email "idmpvallecas@madrid.es" ;
+	mp:telefono "914 781 492" ;
+	mp:horario "Horario de uso de las instalaciones deportivas:  Para saber el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro. Horario de taquilla De lunes a viernes, de 8,30 a 21 horas.Sábados, domingos y festivos de 8,30 a 14,30 horas. Cierre completo del centro El mes de agosto y los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo." ;
+	mp:equipamiento "Clases y escuelas deportivas  Pre-infantiles (3 a 5 años, según modalidades): matronatación y natación. Infantiles (6 a 14 años, según modalidades): baloncesto, gimnasia rítmica, judo, natación, squash, iniciación salvamento y socorrismo y taekwondo. Jóvenes (15 a 26 según modalidades): natación, salvamento y socorrismo y taekwondo. Clases para adultos (27 a 64 años): combinada fitness (fitness, fitness acuático y musculación), estiramientos, fitness, fitness acuático, GAP, GAP express, natación, natación salud, natación embarazadas y pilates. Mayores de 65 años: Acondicionamiento físico mayores, gimnasia acuática y natación. Equipamientos  Superficie total de las instalaciones: 1.565 metros cuadrados. Unidades deportivas cubiertas: pabellón polideportivo, piscina (1 vaso de 25 metros y 1 vaso de enseñanza), 4 pistas de squash, sala multiusos y sala de musculación. Ayuda técnica para la accesibilidad: 1 grúa de piscina. Columna de rescate cardíaco." ;
+	mp:transporte "Metro: Portazgo. Bus:   10 , 54 , 57 , 58 , 103.   Bicicleta:  el centro dispone de  aparca bicicletas exterior  con capacidad para 4 bicicletas. Servicio Bicimad , para consultar la estación más cercana, acceda al  mapa de geolocalización de las estaciones ." .
