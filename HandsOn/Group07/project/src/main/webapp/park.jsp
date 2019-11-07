@@ -41,10 +41,12 @@
           <th><div class="table">
               <table class="table table-hover">
                   <c:forEach items="${trees}" var="tree">
+                      <c:if test="${not empty tree.name}">
                       <tr>
                           <th><c:out value="${tree.name}"/> </th>
                           <th><img src='<c:out value="${tree.image}"/>' height="200" width="200"/></th>
                         </tr>
+                      </c:if>
                   </c:forEach>
                 </table>
               </div> </th>
