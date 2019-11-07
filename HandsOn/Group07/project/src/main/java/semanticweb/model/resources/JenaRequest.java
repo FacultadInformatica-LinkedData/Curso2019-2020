@@ -99,12 +99,10 @@ public class JenaRequest {
         modelTree.read("src/main/java/semanticweb/model/resources/ArboladoParquesHistoricoSingularesForestales.ttl");
 
 
-        String queryString = "SELECT ?park ?name ?description ?bus ?under " +
+        String queryString = "SELECT ?park ?name ?description " +
                 "WHERE { ?park a <http://www.semanticweb.org/grupo07/ontologies/class#Park> ; " +
                 "<http://www.semanticweb.org/grupo07/ontologies/property#hasName> ?name ; " +
                 "<http://www.semanticweb.org/grupo07/ontologies/property#hasDescription> ?description ; " +
-                "<http://www.semanticweb.org/grupo07/ontologies/property#hasBus> ?bus ; " +
-                "<http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground> ?under ; " +
                 "<http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud> \"" + longitude + "\" ; " +
                 "<http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude> \"" + latitude + "\" }";
 
@@ -112,7 +110,6 @@ public class JenaRequest {
         QueryExecution qexec = QueryExecutionFactory.create(query, modelPark);
         ResultSet results = qexec.execSelect();
         String name = "";
-        String transport = "";
         String description = "";
         Resource Subject = null;
 
@@ -121,10 +118,40 @@ public class JenaRequest {
             Subject = binding.getResource("park");
             System.out.println("Parque " + Subject.getURI());
             name = binding.getLiteral("name").getString();
-            transport = "BUS: " + binding.getLiteral("bus").getString() + "\n";
-            transport += "METRO: " + binding.getLiteral("under").getString();
             description += binding.getLiteral("description").getString() + "\n";
         }
+
+        String busString = "SELECT ?park ?bus  " +
+                "WHERE { ?park a <http://www.semanticweb.org/grupo07/ontologies/class#Park> ; " +
+                "<http://www.semanticweb.org/grupo07/ontologies/property#hasBus> ?bus ; " +
+                "<http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud> \"" + longitude + "\" ; " +
+                "<http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude> \"" + latitude + "\" }";
+
+        Query query2 = QueryFactory.create(busString);
+        QueryExecution qexec2 = QueryExecutionFactory.create(query2, modelPark);
+        ResultSet results2 = qexec2.execSelect();
+        String transport = "";
+
+        while (results2.hasNext()) {
+            QuerySolution binding = results2.nextSolution();
+            transport = transport + "BUS: " + binding.getLiteral("bus").getString() + "\n";
+        }
+
+        String underString = "SELECT ?park ?under  " +
+                "WHERE { ?park a <http://www.semanticweb.org/grupo07/ontologies/class#Park> ; " +
+                "<http://www.semanticweb.org/grupo07/ontologies/property#hasUnderground> ?under ; " +
+                "<http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud> \"" + longitude + "\" ; " +
+                "<http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude> \"" + latitude + "\" }";
+
+        Query query3 = QueryFactory.create(underString);
+        QueryExecution qexec3 = QueryExecutionFactory.create(query3, modelPark);
+        ResultSet results3 = qexec3.execSelect();
+
+        while (results3.hasNext()) {
+            QuerySolution binding = results3.nextSolution();
+            transport = transport + "METRO: " + binding.getLiteral("under").getString() + "\n";
+        }
+
         ArrayList<String> trees = new ArrayList<>();
         ArrayList<Tree> parkTrees = new ArrayList<>();
 
@@ -207,7 +234,7 @@ public class JenaRequest {
 
     public static void main(String[] args) {
 
-        Park p = ParkRequest("40.39815439895114", "-3.7125359439695975");
+        Park p = ParkRequest("40.410083041012584", "-3.6297141827859876");
        
         System.out.println(p.getName());
        //getAllLat();
