@@ -22,15 +22,19 @@ where{
 def events():
     elements, result = [], []
     cons = consulta()
-    df = pd.read_csv("../csv/eventos.csv", sep=";", encoding="utf-8")
+    # df = pd.read_csv("../csv/eventos.csv", sep=";", encoding="utf-8")
+    df = pd.read_csv("../csv/eventos.csv", sep=";")
     df = df[["TITULO", "LATITUD", "LONGITUD", "PRECIO"]]
     df["PRECIO"].loc[df["PRECIO"].isna()] = 0
+    df["LATITUD"].loc[df["LATITUD"].isna()] = 0.0
+    df["LONGITUD"].loc[df["LONGITUD"].isna()] = 0.0
     elements = [i for i in cons]
     for i, r in df.iterrows():
         elements.append((r.TITULO, [r.LATITUD, r.LONGITUD], r.PRECIO))
     for element in elements:
-        result.append({"key":element[0], "position":element[1], "childen":element[0], "price":element[2]})
+        result.append({"key":element[0], "position":element[1], "children":element[0], "price":element[2]})
     return json.dumps(result).encode('utf8')
+    # return json.dumps(result)
 
 def consulta():
     res = []
