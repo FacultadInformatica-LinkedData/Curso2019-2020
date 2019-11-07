@@ -11,6 +11,14 @@
 <http://www.group17.org/> rdf:type owl:Ontology .
 
 #################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdfs:range xsd:string .
+
+
+#################################################################
 #    Datatypes
 #################################################################
 
@@ -80,6 +88,11 @@ sosa:observedProperty rdf:type owl:ObjectProperty ;
 #    Data properties
 #################################################################
 
+###  http://www.group17.org/hasCode
+:hasCode rdf:type owl:DatatypeProperty ;
+         rdfs:domain sosa:ObservableProperty .
+
+
 ###  http://www.group17.org/isInDistrict
 :isInDistrict rdf:type owl:DatatypeProperty ;
               rdfs:domain :Location ;
@@ -93,8 +106,7 @@ sosa:observedProperty rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.w3.org/2000/01/rdf-schema#label
-rdfs:label rdf:type owl:DatatypeProperty ;
-           rdfs:range xsd:string .
+rdfs:label rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.w3.org/2003/01/geo/wgs84_pos#lat

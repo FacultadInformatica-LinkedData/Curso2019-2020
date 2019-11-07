@@ -1,0 +1,244 @@
+/* Styles for wrapping the search box */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+/* Theme */
+.theme-color {
+    background-color: rgba(0, 210, 247, 0.959);
+}
+.input-group {
+    width: 80% !important;
+}
+
+#map {
+    height: 100%;
+}
+
+/* Prueba Mapa */ 
+body {
+    color:#404040;
+    font:400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+    margin:0;
+    padding:0;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  * {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+  }
+
+  .sidebar {
+    position:absolute;
+    width:26.3333%;
+    height:100%;
+    left:0;
+    overflow:hidden;
+    border-right:1px solid rgba(0,0,0,0.25);
+  }
+  .pad2 {
+    padding:20px;
+  }
+
+  .map {
+    position:absolute;
+    left:26.3333%;
+    width:73.6666%;
+
+  }
+
+  h1 {
+    font-size:22px;
+    margin:0;
+    font-weight:400;
+    line-height: 20px;
+    padding: 20px 2px;
+  }
+
+  a {
+    color:#404040;
+    text-decoration:none;
+  }
+
+  a:hover {
+    color:#101010;
+  }
+
+  .heading {
+    background:#fff;
+    border-bottom:1px solid #eee;
+    min-height:60px;
+    line-height:60px;
+    padding:0 10px;
+    background-color: #1d479b;
+    color: #fff;
+  }
+
+  .listings {
+    height:100%;
+    overflow:auto;
+    padding-bottom:60px;
+  }
+
+  .listings .item {
+    display:block;
+    border-bottom:1px solid #eee;
+    padding:10px;
+    text-decoration:none;
+  }
+
+  .listings .item:last-child { border-bottom:none; }
+  .listings .item .title {
+    display:block;
+    color:#1d479b;
+    font-weight:700;
+  }
+
+  .listings .item .title small { font-weight:400; }
+  .listings .item.active .title,
+  .listings .item .title:hover { color:rgba(0, 210, 247, 0.959); }
+  .listings .item.active {
+    background-color:#f8f8f8;
+  }
+  ::-webkit-scrollbar {
+    width:3px;
+    height:3px;
+    border-left:0;
+    background:rgba(0,0,0,0.1);
+  }
+  ::-webkit-scrollbar-track {
+    background:none;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1d479b;
+    border-radius:0;
+  }
+
+  .marker {
+    border: none;
+    cursor: pointer;
+    height: 56px;
+    width: 56px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .marker-buena {
+    background-image: url(../images/marker-buena.png);
+  }
+
+  .marker-moderada {
+    background-image: url(../images/marker-moderada.png);
+  }
+
+  .marker-marker-insalubre-grupos {
+    background-image: url(../images/marker-marker-insalubre-grupos.png);
+  }
+
+  .marker-insalubre {
+    background-image: url(../images/marker-insalubre.png);
+  }
+
+  .marker-muy-insalubre {
+    background-image: url(../images/marker-muy-insalubre.png);
+  }
+
+  .marker-peligrosa {
+    background-image: url(../images/marker-peligrosa.png);
+  }
+
+  .clearfix { display:block; }
+  .clearfix:after {
+    content:'.';
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+  }
+
+  /* Marker tweaks */
+  .mapboxgl-popup {
+    padding-bottom: 50px;
+  }
+
+  .mapboxgl-popup-close-button {
+    display:none;
+  }
+  .mapboxgl-popup-content {
+    font:400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+    padding:0;
+    width:180px;
+  }
+  .mapboxgl-popup-content-wrapper {
+    padding:1%;
+  }
+  .mapboxgl-popup-content h3 {
+    background: rgba(0, 210, 247, 0.959);
+    color:#fff;
+    margin:0;
+    display:block;
+    padding:10px;
+    border-radius:3px 3px 0 0;
+    font-weight:700;
+    margin-top:-15px;
+  }
+
+  .mapboxgl-popup-content h4 {
+    margin:0;
+    display:block;
+    padding: 10px 10px 10px 10px;
+    font-weight:400;
+    font-size: 16px;
+  }
+
+  .mapboxgl-popup-content div {
+    padding:10px;
+  }
+
+  .mapboxgl-container .leaflet-marker-icon {
+    cursor:pointer;
+  }
+
+  .mapboxgl-popup-anchor-top > .mapboxgl-popup-content {
+    margin-top: 15px;
+  }
+
+  .mapboxgl-popup-anchor-top > .mapboxgl-popup-tip {
+    border-bottom-color: #91c949;
+  }
+
+  .mapboxgl-ctrl-geocoder {
+    border: 2px solid #1d479b;
+    border-radius: 0;
+    position: relative;
+    top: 0;
+    width: 800px;
+    margin-top: 0;
+    border: 0;
+  }
+
+  .mapboxgl-ctrl-geocoder > div {
+    min-width:100%;
+    margin-left:0;
+  }

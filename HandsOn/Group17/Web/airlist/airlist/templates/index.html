@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title>Airlist</title>
+    <meta name='robots' content='noindex, nofollow'>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet'>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Awesomefonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Mapbox GL JS -->
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Turf.js plugin -->
+    <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+
+    <link rel="stylesheet" href="../static/css/main.css" id="colors">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light theme-color" style="z-index: 1">
+        <a class="navbar-brand" href="/">
+            <img src="../static/images/logo-airmad.png" height="50px" width="150px">
+        </a>
+        <form action="/street" method="GET" class="input-group">
+            <input list="streetslist" type="text" name="namestreet" class="form-control" placeholder="Busca una localización (Ejemplo: CALLE DE LA ABADA)"
+                value={{request.form.namestreet}}>
+            <datalist id="streetslist">
+                {% for street in streets %}
+                <option> {{ street }} </option>
+                {% endfor %}
+            </datalist>
+            <div class="input-group-append">
+                <button class="btn btn-secondary" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </form>
+    </nav>
+
+
+    <div>
+        <div class='sidebar'>
+            <div class='heading'>
+                <h1>Sensores Calidad del Aire Madrid</h1>
+            </div>
+            <div id='listings' class='listings'></div>
+        </div>
+        <div id='map' class='map'> </div>
+    </div>
+
+    <script>
+        // This will let you use the .remove() function later on
+        if (!('remove' in Element.prototype)) {
+            Element.prototype.remove = function () {
+                if (this.parentNode) {
+                    this.parentNode.removeChild(this);
+                }
+            };
+        }
+
+        mapboxgl.accessToken = 'pk.eyJ1IjoicGlwZXJvam9uZXMiLCJhIjoiY2sxeGh3eWhnMGJxYzNtbDg3ams4ZTUwdyJ9.aJx8NdnUWUdO4WVFkEYpNw';
+
+        // This adds the map
+        var map = new mapboxgl.Map({
+            // container id specified in the HTML
+            container: 'map',
+            // style URL
+            style: 'mapbox://styles/mapbox/streets-v11', // Map style to use
+            center: [-3.70325, 40.4167],
+            zoom: 11
+        });
+        map.addControl(new mapboxgl.FullscreenControl());
+        var stores = JSON.parse('{{sensors|safe}}')
+        console.log(stores)
+        // This adds the data to the map
+        map.on('load', function (e) {
+            // This is where your '.addLayer()' used to be, instead add only the source without styling a layer
+            map.addSource("places", {
+                "type": "geojson",
+                "data": stores
+            });
+            // Initialize the list
+            buildLocationList(stores);
+
+            map.addSource('single-point', {
+                "type": "geojson",
+                "data": {
+                    "type": "FeatureCollection",
+                    "features": [] // Notice that initially there are no features
+                }
+            });
+
+            map.addLayer({
+                "id": "point",
+                "source": "single-point",
+                "type": "circle",
+                "paint": {
+                    "circle-radius": 10,
+                    "circle-color": "#007cbf",
+                    "circle-stroke-width": 3,
+                    "circle-stroke-color": "#fff"
+                }
+            });
+
+        });
+
+        // This is where your interactions with the symbol layer used to be
+        // Now you have interactions with DOM markers instead
+        stores.features.forEach(function (marker, i) {
+            // Create an img element for the marker
+            var el = document.createElement('div');
+            el.id = "marker-" + i;
+            el.className = 'marker';
+            switch (marker.properties.airquality) {
+                case "Buena": 
+                    el.classList.add('marker-buena');
+                    break;
+                case "Moderada": 
+                    el.classList.add('marker-moderada');
+                    break;
+                case "Insalubre para grupos sensibles": 
+                    el.classList.add('marker-insalubre-grupos');
+                    break;
+                case "Insalubre": 
+                    el.classList.add('marker-insalubre');
+                    break;
+                case "Muy insalubre": 
+                    el.classList.add('marker-muy-insalubre');
+                    break;
+                case "Peligrosa": 
+                    el.classList.add('marker-peligrosa');
+                    break;
+
+            }
+            // Add markers to the map at all points
+            new mapboxgl.Marker(el, { offset: [0, -23] })
+                .setLngLat(marker.geometry.coordinates)
+                .addTo(map);
+
+            el.addEventListener('click', function (e) {
+                // 1. Fly to the point
+                flyToStore(marker);
+
+                // 2. Close all other popups and display popup for clicked store
+                createPopUp(marker);
+
+                // 3. Highlight listing in sidebar (and remove highlight for all other listings)
+                var activeItem = document.getElementsByClassName('active');
+
+                e.stopPropagation();
+                if (activeItem[0]) {
+                    activeItem[0].classList.remove('active');
+                }
+
+                var listing = document.getElementById('listing-' + i);
+                listing.classList.add('active');
+
+            });
+        });
+
+
+        function flyToStore(currentFeature) {
+            map.flyTo({
+                center: currentFeature.geometry.coordinates,
+                zoom: 15
+            });
+        }
+
+        function createPopUp(currentFeature) {
+            var popUps = document.getElementsByClassName('mapboxgl-popup');
+            if (popUps[0]) popUps[0].remove();
+
+            var popup = new mapboxgl.Popup({ closeOnClick: false })
+                .setLngLat(currentFeature.geometry.coordinates)
+                .setHTML('<h3>' + currentFeature.properties.nombre + '</h3> '+
+                    '<h4>' + 'Sensor con ID: &nbsp' + currentFeature.properties.id + '</h4>' + 
+                    '<h4>' + 'Calidad del aire: &nbsp' + currentFeature.properties.airquality + '</h4>' )
+                .addTo(map);
+        }
+
+
+        function buildLocationList(data) {
+            for (i = 0; i < data.features.length; i++) {
+                var currentFeature = data.features[i];
+                var prop = currentFeature.properties;
+
+                var listings = document.getElementById('listings');
+                var listing = listings.appendChild(document.createElement('div'));
+                listing.className = 'item';
+                listing.id = "listing-" + i;
+
+                var link = listing.appendChild(document.createElement('a'));
+                link.href = '#';
+                link.className = 'title';
+                link.dataPosition = i;
+                link.innerHTML = prop.nombre;
+
+                var details = listing.appendChild(document.createElement('div'));
+                details.innerHTML = "Calidad del aire: &nbsp" + prop.airquality;
+                if (prop.phone) {
+                    details.innerHTML += ' &middot; ' + prop.des;
+                }
+
+                if (prop.distance) {
+                    var roundedDistance = Math.round(prop.distance * 100) / 100;
+                    details.innerHTML += '<p><strong> A ' + roundedDistance + ' kms de distancia</strong></p>';
+                }
+
+
+                link.addEventListener('click', function (e) {
+                    // Update the currentFeature to the store associated with the clicked link
+                    var clickedListing = data.features[this.dataPosition];
+
+                    // 1. Fly to the point
+                    flyToStore(clickedListing);
+
+                    // 2. Close all other popups and display popup for clicked store
+                    createPopUp(clickedListing);
+
+                    // 3. Highlight listing in sidebar (and remove highlight for all other listings)
+                    var activeItem = document.getElementsByClassName('active');
+
+                    if (activeItem[0]) {
+                        activeItem[0].classList.remove('active');
+                    }
+                    this.parentNode.classList.add('active');
+
+                });
+            }
+        }
+    </script>
+</body>
+
+</html>

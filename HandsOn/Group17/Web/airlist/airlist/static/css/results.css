@@ -1,0 +1,115 @@
+.street-title {
+    border-bottom: solid 1px #80808059;
+}
+
+.results-data {
+    margin: 30px;
+}
+.update-box {
+    position: absolute;
+    background-color: rgba(0, 210, 247, 0.959);
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.qa-image {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.ai-green {
+    color:rgb(97, 239, 109);
+    padding-bottom: 50px;
+    animation: 1.5s ease 0s infinite beat;
+}
+
+@keyframes beat {
+  0%, 50%, 100% { transform: scale(1, 1); }
+  30%, 80% { transform: scale(0.92, 0.95); }
+}
+
+.result-qa {
+    font-size: 25px;
+    color: #808080;
+    padding: 10px;
+}
+
+.result-qa-value {
+    font-size: 25px;
+    color: rgba(0, 210, 247, 0.959);
+}
+.ai-yellow {
+    color:rgb(247, 246, 152);
+    padding-bottom: 50px;
+    animation: 1.5s ease 0s infinite beat;
+}
+.ai-orange {
+    color:#fdcd3b;
+    padding-bottom: 50px;
+    animation: 1.5s ease 0s infinite beat;
+}
+.ai-red {
+    color:#fd3e3b;
+    padding-bottom: 50px;
+    animation: 1.5s ease 0s infinite beat;
+}
+.ai-purple {
+    color:#dd7fe6;
+    padding-bottom: 50px;
+    animation: 1.5s ease 0s infinite beat;
+}
+.ai-brown {
+    color:#964242;
+    padding-bottom: 50px;
+    animation: 1.5s ease 0s infinite beat;
+}
+
+
+.legend-row {
+    display: block;
+    text-align: center;
+}
+.legend-green {
+    background-color: rgb(97, 239, 109);
+}
+.legend-yellow {
+    background-color: rgb(247, 246, 152);
+}
+.legend-orange {
+    background-color:#fdcd3b;
+}
+.legend-red {
+    background-color: #fd3e3b;
+}
+.legend-purple {
+    background-color: #dd7fe6;
+}
+.legend-brown {
+    background-color: #964242;
+}
+
+.first-row {
+    background-color: rgba(0, 210, 247, 0.959);
+    font-size: 20px;
+    border: solid 1px #daddde;
+    padding: 10px;
+    color: white;
+}
+.result-row {
+    border: solid 1px #daddde;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ica {
+    padding: 5px;
+    border:solid 1px #808080;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #808080de;
+    margin: 40px;
+}

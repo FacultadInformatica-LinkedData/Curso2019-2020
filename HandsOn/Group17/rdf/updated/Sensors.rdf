@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:ns1="http://group17.org/"
+	xmlns:sosa="http://www.w3.org/ns/sosa/">
+
+<rdf:Description rdf:about="http://group17.data/Sensor/4">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Pza. de España</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">273600</hasLocation>
+	<geo:lat>40.4238823</geo:lat>
+	<geo:long>-3.7122567</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/8">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Escuelas Aguirre</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">18900</hasLocation>
+	<geo:lat>40.4215533</geo:lat>
+	<geo:long>-3.6823158</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/11">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Avda. Ramón y Cajal</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">610450</hasLocation>
+	<geo:lat>40.4514734</geo:lat>
+	<geo:long>-3.6773491</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/16">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Arturo Soria</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">798700</hasLocation>
+	<geo:lat>40.4400457</geo:lat>
+	<geo:long>-3.6392422</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/17">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Villaverde</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">417200</hasLocation>
+	<geo:lat>40.347147</geo:lat>
+	<geo:long>-3.7133167</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/18">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Farolillo</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">1903</hasLocation>
+	<geo:lat>40.3947825</geo:lat>
+	<geo:long>-3.7318356</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/24">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Casa de Campo</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">905219</hasLocation>
+	<geo:lat>40.4193577</geo:lat>
+	<geo:long>-3.7473445</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/27">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Barajas Pueblo</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">425700</hasLocation>
+	<geo:lat>40.4769179</geo:lat>
+	<geo:long>-3.5800258</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/35">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Pza. del Carmen</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">145800</hasLocation>
+	<geo:lat>40.4192091</geo:lat>
+	<geo:long>-3.7031662</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/36">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Moratalaz</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">522000</hasLocation>
+	<geo:lat>40.4079517</geo:lat>
+	<geo:long>-3.6453104</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/38">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Cuatro Caminos</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">554550</hasLocation>
+	<geo:lat>40.4455439</geo:lat>
+	<geo:long>-3.7071303</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/39">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Barrio del Pilar</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">514425</hasLocation>
+	<geo:lat>40.4782322</geo:lat>
+	<geo:long>-3.7115364</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/40">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Vallecas</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">75500</hasLocation>
+	<geo:lat>40.3881478</geo:lat>
+	<geo:long>-3.6515286</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/47">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Mendez Alvaro</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">414800</hasLocation>
+	<geo:lat>40.3980991</geo:lat>
+	<geo:long>-3.6868138</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/48">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Castellana</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">401400</hasLocation>
+	<geo:lat>40.4398904</geo:lat>
+	<geo:long>-3.6903729</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/49">
+	<geo:long>-3.6824999999999900</geo:long>
+	<geo:lat>40.41444444444440</geo:lat>
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Parque del Retiro</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">905011</hasLocation>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/50">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Plaza Castilla</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">154500</hasLocation>
+	<geo:lat>40.4655841</geo:lat>
+	<geo:long>-3.6887449</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/54">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Ensanche de Vallecas</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">31000516</hasLocation>
+	<geo:lat>40.3730118</geo:lat>
+	<geo:long>-3.6121394</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/55">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Urb. Embajada</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">639250</hasLocation>
+	<geo:lat>40.4623628</geo:lat>
+	<geo:long>-3.5805649</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/56">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Pza. Elíptica</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">293200</hasLocation>
+	<geo:lat>40.3850336</geo:lat>
+	<geo:long>-3.7187679</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/57">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Sanchinarro</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">31000002</hasLocation>
+	<geo:lat>40.4942012</geo:lat>
+	<geo:long>-3.6605173</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/58">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>El Pardo</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">348500</hasLocation>
+	<geo:lat>40.5180701</geo:lat>
+	<geo:long>-3.7746101</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/59">
+	<hasLocation xmlns="http://group17.data/">1111</hasLocation>
+	<rdfs:label>Juan Carlos I</rdfs:label>
+	<geo:lat>40.4607255</geo:lat>
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<geo:long>-3.6163407</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://group17.data/Sensor/60">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<rdfs:label>Tres Olivos</rdfs:label>
+	<hasLocation xmlns="http://group17.data/">1427</hasLocation>
+	<geo:lat>40.5005477</geo:lat>
+	<geo:long>-3.6897308</geo:long>
+</rdf:Description>
+
+</rdf:RDF>
