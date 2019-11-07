@@ -9,6 +9,9 @@ public class Park {
     private ArrayList<Tree> trees;
     private String latitude;
     private String longitude;
+    private String imageDis;
+    private String nameDis;
+
 
     public Park() {
         this.trees = new ArrayList<>();
@@ -60,5 +63,21 @@ public class Park {
 
     public void setTrees(ArrayList<Tree> trees) {
         this.trees = trees;
+    }
+
+    public String getImageDis() {
+        return imageDis;
+    }
+
+    public void setImageDis(String imageDis) {
+        this.imageDis = imageDis;
+    }
+
+    public String getNameDis() {
+        return nameDis;
+    }
+
+    public void setNameDis(String nameDis) {
+        this.nameDis = nameDis;
     }
 }

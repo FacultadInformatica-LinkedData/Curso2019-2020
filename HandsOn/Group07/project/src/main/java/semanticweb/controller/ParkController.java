@@ -44,6 +44,8 @@ public class ParkController extends HttpServlet {
 		request.setAttribute("description", park.getDescription());
 		request.setAttribute("name", park.getName());
 		request.setAttribute("transport", park.getTransport());
+		request.setAttribute("imgDis", park.getImageDis());
+		request.setAttribute("nameDis", park.getNameDis());
 		request.setAttribute("trees", park.getTrees());
 
 		rd.forward(request, response);

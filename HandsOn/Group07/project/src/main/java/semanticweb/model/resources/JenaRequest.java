@@ -79,6 +79,9 @@ public class JenaRequest {
 
     }
 
+    //
+    //RETURN THE PARK THAT IS IN THE COORDINATES
+    //
     public static Park ParkRequest(String latitude, String longitude) {
 
         String filePark = "src/main/java/semanticweb/model/resources/parques-jardines-with-links.ttl";
@@ -98,11 +101,12 @@ public class JenaRequest {
         modelPark.read("src/main/java/semanticweb/model/resources/parques-jardines-with-links.ttl");
         modelTree.read("src/main/java/semanticweb/model/resources/ArboladoParquesHistoricoSingularesForestales.ttl");
 
-
-        String queryString = "SELECT ?park ?name ?description " +
+         //PARK
+        String queryString = "SELECT ?park ?name ?description ?dis " +
                 "WHERE { ?park a <http://www.semanticweb.org/grupo07/ontologies/class#Park> ; " +
                 "<http://www.semanticweb.org/grupo07/ontologies/property#hasName> ?name ; " +
                 "<http://www.semanticweb.org/grupo07/ontologies/property#hasDescription> ?description ; " +
+                "<http://www.semanticweb.org/grupo07/ontologies/property#inDistrict> ?dis ; " +
                 "<http://www.semanticweb.org/grupo07/ontologies/property#hasLongitud> \"" + longitude + "\" ; " +
                 "<http://www.semanticweb.org/grupo07/ontologies/property#hasLatitude> \"" + latitude + "\" }";
 
@@ -111,15 +115,59 @@ public class JenaRequest {
         ResultSet results = qexec.execSelect();
         String name = "";
         String description = "";
+        String district = "";
         Resource Subject = null;
+        
 
         while (results.hasNext()) {
             QuerySolution binding = results.nextSolution();
             Subject = binding.getResource("park");
-            System.out.println("Parque " + Subject.getURI());
             name = binding.getLiteral("name").getString();
+            district = binding.getResource("dis").getURI();
             description += binding.getLiteral("description").getString() + "\n";
         }
+
+        //DISTRICT
+        String uriDisString = "SELECT ?uriDis ?name " +
+                "WHERE { <"+district+"> a <http://www.semanticweb.org/grupo07/ontologies/class#District> ; " +
+                "<http://www.w3.org/2002/07/owl#sameAs> ?uriDis ; "+
+            " <http://www.w3.org/2000/01/rdf-schema#label> ?name ;  }";
+
+        Query queryDis = QueryFactory.create(uriDisString);
+        QueryExecution qexecDis = QueryExecutionFactory.create(queryDis, modelPark);
+        ResultSet resultsDis = qexecDis.execSelect();
+        String uriDis = "";
+        String districtName = "";
+
+        while (resultsDis.hasNext()) {
+            QuerySolution binding = resultsDis.nextSolution();
+            uriDis = binding.getResource("uriDis").getURI();
+            districtName = binding.getLiteral("name").getString();
+        }
+
+        String[] disArray = uriDis.split("/");
+        uriDis = disArray[disArray.length - 1];
+
+        String queryDistrictWikiData =
+        "PREFIX bd: <http://www.bigdata.com/rdf#>\n" +
+                "PREFIX wikibase: <http://wikiba.se/ontology#>\n" +
+                "PREFIX wdt: <http://www.wikidata.org/prop/direct/>\n" +
+                "PREFIX wd: <http://www.wikidata.org/entity/>\n" +
+                "SELECT distinct ?image where { " +
+                "wd:" + uriDis + " wdt:P18 ?image. " +
+                "SERVICE wikibase:label { bd:serviceParam wikibase:language \"[AUTO_LANGUAGE]\". }}";
+
+        QueryExecution qexecDisWD = QueryExecutionFactory.sparqlService("https://query.wikidata.org/sparql", queryDistrictWikiData);
+        ResultSet resultsDisWD = qexecDisWD.execSelect();
+        String uriDisIMG = "";
+
+        while (resultsDisWD.hasNext()) {
+            QuerySolution binding = resultsDisWD.nextSolution();
+            uriDisIMG = binding.getResource("image").getURI();
+        }
+
+
+        //TRANSPORT
 
         String busString = "SELECT ?park ?bus  " +
                 "WHERE { ?park a <http://www.semanticweb.org/grupo07/ontologies/class#Park> ; " +
@@ -151,6 +199,9 @@ public class JenaRequest {
             QuerySolution binding = results3.nextSolution();
             transport = transport + "METRO: " + binding.getLiteral("under").getString() + "\n";
         }
+
+        //PLANTS AND TREES
+
 
         ArrayList<String> trees = new ArrayList<>();
         ArrayList<Tree> parkTrees = new ArrayList<>();
@@ -197,7 +248,7 @@ public class JenaRequest {
                                     "wd:" + element + " wdt:P225 ?object. " +
                                     "wd:" + element + " wdt:P18 ?image. " +
                                     "SERVICE wikibase:label { bd:serviceParam wikibase:language \"[AUTO_LANGUAGE]\". }}";
-                    System.out.println("Especie: " + especie);
+
 
                     Query newquery = QueryFactory.create(queryEspecieResource);
                     QueryExecution newqexec = QueryExecutionFactory.sparqlService("https://query.wikidata.org/sparql", newquery);
@@ -228,6 +279,8 @@ public class JenaRequest {
         park.setLatitude(latitude);
         park.setLongitude(longitude);
         park.setTrees(parkTrees);
+        park.setImageDis(uriDisIMG);
+        park.setNameDis(districtName);
         return park;
 
     }
@@ -236,7 +289,7 @@ public class JenaRequest {
 
         Park p = ParkRequest("40.410083041012584", "-3.6297141827859876");
        
-        System.out.println(p.getName());
+        System.out.println(p.getImageDis());
        //getAllLat();
 
     }

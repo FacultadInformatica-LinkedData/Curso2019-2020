@@ -29,6 +29,10 @@
         <th><c:out value="${description}"/> </th>
       </tr>
       <tr>
+        <th><c:out value="${nameDis}"/> </th>
+        <th><img src='<c:out value="${imgDis}"/>' height="200" width="200"/></th>
+      </tr>
+      <tr>
         <th>Transport:</th>
         <th><c:out value="${transport}"/> </th>
       </tr>
