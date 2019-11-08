@@ -5,7 +5,6 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix cr: <http://www.localizacion.es/ontology/localizacion#> .
 
-
 <http://www.culturalrace.es/resource/13947> a cr:monuments;
   cr:barrio "Cortes";
   cr:cp "28014"^^xsd:int;
@@ -19,7 +18,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Banco de España (línea 2).Bus: 10, 34, 5, 9, 51, 52, 53, 146, 150, 1, 2, 15, 20, 74, 203, 14, 27, 37, 45, 46.";
   cr:via "Alcala";
-  owl:image <https://commons.wikimedia.org/wiki/File:Madrid_-_Metro_-_Estación_de_Banco_de_España_(7187847138).jpg> .
+  owl:image "Madrid_-_Metro_-_Estación_de_Banco_de_España_(7187847138).jpg" .
 
 <http://www.culturalrace.es/resource/Banco+de+Espa%C3%B1a> owl:sameAs <https://www.wikidata.org/wiki/Q2481227> .
 
@@ -34,7 +33,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Sol (líneas 1, 2 y 3), Tirso de Molina (línea 1), La Latina (línea 5)Renfe: Sol (líneas 3 y 4)Bus: 3, 17, 18, 23, 31, 35, 50, 65, 148";
   cr:via "San Justo";
-  owl:image <https://commons.wikimedia.org/wiki/File:Basílica_of_San_Miguel.jpg> .
+  owl:image "Basílica_of_San_Miguel.jpg" .
 
 <http://www.culturalrace.es/resource/Bas%C3%ADlica+Pontificia+de+San+Miguel> owl:sameAs
     <https://www.wikidata.org/wiki/Q4407295> .
@@ -52,7 +51,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Colón, (línea 4), Retiro (Línea 2)Bus: 5, 14, 27, 45, 53, 150, 37, 21, 1, 9, 19, 51, 74Cercanías Renfe: Recoletos (líneas C1, C2, C7, C8  y C10)Bicimad: Estación 94 (Paseo Recoletos, 32-34)";
   cr:via "Recoletos";
-  owl:image <https://commons.wikimedia.org/wiki/File:Biblioteca-Nacional-271112.jpg> .
+  owl:image "Biblioteca-Nacional-271112.jpg" .
 
 <http://www.culturalrace.es/resource/Biblioteca+Nacional+de+Espa%C3%B1a> owl:sameAs
     <https://www.wikidata.org/wiki/Q6057871> .
@@ -70,7 +69,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Banco de España (línea 2).Bus: 203, 10, 14, 27, 34, 37, 45.Bicimad: Estación 65 (calle Antonio Maura, 15).";
   cr:via "Lealtad";
-  owl:image <https://commons.wikimedia.org/wiki/File:Bolsa_de_Madrid_edited.jpg> .
+  owl:image "Bolsa_de_Madrid_edited.jpg" .
 
 <http://www.culturalrace.es/resource/Bolsa+de+Madrid> owl:sameAs <https://www.wikidata.org/wiki/Q3361062> .
 
@@ -87,7 +86,7 @@
   cr:tipo "/contenido/entidadesYorganismos/Consorcios";
   cr:transporte "Metro: Banco de España (línea 2).Bus: 5, 14, 27, 37, 45, 53, 150, 1, 2, 9, 15, 20, 51, 52, 74, 146, 203, 34, 10.Cercanías Renfe: Recoletos (líneas C1, C2, C7, C10 y Regional).Bicimad: Estación 86 (Paseo del Prado 1).";
   cr:via "Cibeles";
-  owl:image <https://commons.wikimedia.org/wiki/File:Palacio_de_Linares,_Plaza_de_Cibeles,_Madrid.jpg> .
+  owl:image "Palacio_de_Linares,_Plaza_de_Cibeles,_Madrid.jpg" .
 
 <http://www.culturalrace.es/resource/Casa+de+Am%C3%A9rica> owl:sameAs <https://www.wikidata.org/wiki/Q2628455> .
 
@@ -102,7 +101,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Sol (líneas 1, 2, 3), Ópera (líneas R, 2, 5)Bus: 3, 5, 20, 25, 33, 39, 50, 51, 52, 53, 150";
   cr:via "Villa";
-  owl:image <https://commons.wikimedia.org/wiki/File:Casa_de_Cisneros_(Madrid)_02.jpg> .
+  owl:image "Casa_de_Cisneros_(Madrid)_02.jpg" .
 
 <http://www.culturalrace.es/resource/Casa+de+Cisneros> owl:sameAs <https://www.wikidata.org/wiki/Q5754790> .
 
@@ -117,7 +116,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Sol (líneas 1, 2, 3).Bus: 3, 50.Renfe: Sol (líneas C3, C4).";
   cr:via "Mayor";
-  owl:image <https://commons.wikimedia.org/wiki/File:Visita_turística_guiada_por_la_Plaza_Mayor_con_motivo_de_su_IV_Centenario_(01).jpg> .
+  owl:image "Visita_turística_guiada_por_la_Plaza_Mayor_con_motivo_de_su_IV_Centenario_(01).jpg" .
 
 <http://www.culturalrace.es/resource/Casa+de+La+Panader%C3%ADa> owl:sameAs <https://www.wikidata.org/wiki/Q4348433> .
 
@@ -131,7 +130,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Sol (líneas 1, 2, 3), Ópera (líneas R, 2, 5)Bus: 3, 5, 20, 25, 33, 39, 50, 51, 52, 53, 150";
   cr:via "Villa";
-  owl:image <https://commons.wikimedia.org/wiki/File:Casa_de_la_Villa_(Madrid)_02.jpg> .
+  owl:image "Casa_de_la_Villa_(Madrid)_02.jpg" .
 
 <http://www.culturalrace.es/resource/Casa+de+La+Villa.+Ayuntamiento+de+Madrid> owl:sameAs
     <https://www.wikidata.org/wiki/Q3661194> .
@@ -148,7 +147,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Bus: 83 , 133, 162.Metro: Ciudad Universitaria (línea 6).";
   cr:via "Paul Guinard";
-  owl:image <https://commons.wikimedia.org/wiki/File:CasaVelazquez-01.jpg> .
+  owl:image "CasaVelazquez-01.jpg" .
 
 <http://www.culturalrace.es/resource/Casa+de+Vel%C3%A1zquez> owl:sameAs <https://www.wikidata.org/wiki/Q48125171> .
 
@@ -166,7 +165,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Estación del Arte (Atocha) (línea 1)Bus: 19Renfe: AtochaBicimad: Estación 65 (calle Antonio Maura, 15)";
   cr:via "Alfonso Xii";
-  owl:image <https://commons.wikimedia.org/wiki/File:Cason_del_Buen_Retiro-Front_side.jpg> .
+  owl:image "Cason_del_Buen_Retiro-Front_side.jpg" .
 
 <http://www.culturalrace.es/resource/Cas%C3%B3n+del+Buen+Retiro> owl:sameAs <https://www.wikidata.org/wiki/Q3321174> .
 
@@ -184,7 +183,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Alameda de Osuna y El Capricho (línea 5) Bus: 101, 105, 112, 114, 115 y 151";
   cr:via "Antonio Sancha";
-  owl:image <https://commons.wikimedia.org/wiki/File:Castillo_de_La_Alameda_(Madrid)_02.jpg> .
+  owl:image "Castillo_de_La_Alameda_(Madrid)_02.jpg" .
 
 <http://www.culturalrace.es/resource/Castillo+de+la+Alameda> owl:sameAs <https://www.wikidata.org/wiki/Q8342365> .
 
@@ -200,7 +199,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Ópera (líneas 2, 5, Ramal), Sol (Línea 1, 2, 3), Príncipe Pío (línea 6, 10, Ramal), Tirso de Molina (línea 1), Latina (línea 5)Bus: 3, 25, 31, 39, 50 65, 148";
   cr:via "Bailen";
-  owl:image <https://commons.wikimedia.org/wiki/File:Catedral_de_la_Almudena_(Madrid)_25.jpg> .
+  owl:image "Catedral_de_la_Almudena_(Madrid)_25.jpg" .
 
 <http://www.culturalrace.es/resource/Catedral+Santa+Mar%C3%ADa+la+Real+de+la+Almudena>
   owl:sameAs <https://www.wikidata.org/wiki/Q849711> .
@@ -232,7 +231,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Embajadores (línea 3), Lavapies (línea 3), Estación del Arte (Atocha) (línea 1), Palos de la Frontera (línea 3)Bus: 27, 34, 36, 41, 119, C1, C2Renfe: Embajadores (C5), Atocha ( C1, C2, C3, C4, C5, C7, C8, C10)";
   cr:via "Valencia";
-  owl:image <https://commons.wikimedia.org/wiki/File:Casa_Encendida,_patio_interior,_Madrid,_2018_01.jpg> .
+  owl:image "Casa_Encendida,_patio_interior,_Madrid,_2018_01.jpg" .
 
 <http://www.culturalrace.es/resource/Centro+Social+y+Cultural+La+Casa+Encendida> owl:sameAs
     <https://www.wikidata.org/wiki/Q5962732> .
@@ -250,7 +249,7 @@
   cr:tipo "/contenido/entidadesYorganismos/Consorcios";
   cr:transporte "Metro: Banco de España (línea 2).Bus: 1, 2, 3, 5, 9, 14, 15, 20, 27, 45, 46, , 51, 52, 53, 74, 146, 147, 150.Bicimad: Estación 20 a (calle Alcalá 49), estación 28 (calle Alcalá 27).";
   cr:via "Alcalá";
-  owl:image <https://commons.wikimedia.org/wiki/File:Círculo_de_Bellas_Artes_(Madrid)_06.jpg> .
+  owl:image "Círculo_de_Bellas_Artes_(Madrid)_06.jpg" .
 
 <http://www.culturalrace.es/resource/C%C3%ADrculo+de+Bellas+Artes> owl:sameAs <https://www.wikidata.org/wiki/Q41323951> .
 
@@ -266,7 +265,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Ventura Rodríguez (línea 3), San Bernardo (línea 2 y 4) y Noviciado (línea 2).Bus: 1, 2, 44, 74, 133, 202, 749, Minibús M-2BICIMAD: Estación 13 (calle Conde Duque, 22)";
   cr:via "Conde Duque";
-  owl:image <https://commons.wikimedia.org/wiki/File:Llega_la_tercera_edición_de_LaborArte,_una_mirada_al_mundo_del_trabajo_desde_la_cultura_(03).jpg> .
+  owl:image "Llega_la_tercera_edición_de_LaborArte,_una_mirada_al_mundo_del_trabajo_desde_la_cultura_(03).jpg" .
 
 <http://www.culturalrace.es/resource/Conde+Duque> owl:sameAs <https://www.wikidata.org/wiki/Q56426480> .
 
@@ -283,7 +282,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Sevilla (línea 2), Banco de España (línea 2)Bus: 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53,150";
   cr:via "Cortes";
-  owl:image <https://commons.wikimedia.org/wiki/File:Palacio_de_los_Diputados.jpg> .
+  owl:image "Palacio_de_los_Diputados.jpg" .
 
 <http://www.culturalrace.es/resource/Congreso+de+los+Diputados> owl:sameAs <https://www.wikidata.org/wiki/Q539149> .
 
@@ -311,7 +310,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: San Bernardo (líneas 2, 4), Ventura Rodríguez (línea 3) Bus: 1, 2, 21, 44, 74, 133, 147, C";
   cr:via "Comendadoras";
-  owl:image <https://commons.wikimedia.org/wiki/File:Convento_de_las_Comendadoras_de_Santiago_(Madrid)_08.jpg> .
+  owl:image "Convento_de_las_Comendadoras_de_Santiago_(Madrid)_08.jpg" .
 
 <http://www.culturalrace.es/resource/Convento+de+las+Comendadoras+de+Santiago> owl:sameAs
     <https://www.wikidata.org/wiki/Q5166197> .
@@ -327,7 +326,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Sevilla (línea 2), Banco de España (línea 2) Bus: 1, 2, 5, 9, 15, 20, 51, 52, 53, 74, 146, 150, 202";
   cr:via "Alcala";
-  owl:image <https://commons.wikimedia.org/wiki/File:Edificio_Metrópolis,_calle_de_Alcalá,_Madrid,_España,_2017-05-18,_DD_08.jpg> .
+  owl:image "Edificio_Metrópolis,_calle_de_Alcalá,_Madrid,_España,_2017-05-18,_DD_08.jpg" .
 
 <http://www.culturalrace.es/resource/Edificio+Metr%C3%B3polis> owl:sameAs <https://www.wikidata.org/wiki/Q465250> .
 
@@ -345,7 +344,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Príncipe Pío (líneas 5, 10 y ramal Ópera - Príncipe Pío) Bus: 41, 46 y 75 (Intercambiador Príncipe Pío) Renfe: Príncipe Pío BICIMAD: Estación 161 (Paseo de la Florida 8)";
   cr:via "San Antonio De La Florida";
-  owl:image <https://commons.wikimedia.org/wiki/File:San_Antonio_de_la_Florida.jpg> .
+  owl:image "San_Antonio_de_la_Florida.jpg" .
 
 <http://www.culturalrace.es/resource/Ermita+de+San+Antonio+de+la+Florida+%28Museo%29>
   owl:sameAs <https://www.wikidata.org/wiki/Q3109752> .
@@ -362,7 +361,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Marqués de Vadillo (línea 5) Bus: 17, 25, 50";
   cr:via "Quince De Mayo";
-  owl:image <https://commons.wikimedia.org/wiki/File:Ermita-san-isidro.jpg> .
+  owl:image "Ermita-san-isidro.jpg" .
 
 <http://www.culturalrace.es/resource/Ermita+de+San+Isidro> owl:sameAs <https://www.wikidata.org/wiki/Q920742> .
 
@@ -377,7 +376,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Bus: 34, 108";
   cr:via "Monse&amp;ntilde;or Oscar Romero";
-  owl:image <https://commons.wikimedia.org/wiki/File:Ermita_de_Santa_María_de_la_Antigua._Lateral..jpg> .
+  owl:image "Ermita_de_Santa_María_de_la_Antigua._Lateral..jpg" .
 
 <http://www.culturalrace.es/resource/Ermita+de+Santa+Mar%C3%ADa+la+Antigua> owl:sameAs
     <https://www.wikidata.org/wiki/Q926529> .
@@ -393,7 +392,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Príncipe Pio (líneas 6 y 10)Bus: 25, 31, 33, 36, 39, 41, 50, 62, 65, 138, C2 Renfe: Príncipe Pío (líneas 1, 7 y 10)";
   cr:via "Virgen Del Puerto";
-  owl:image <https://commons.wikimedia.org/wiki/File:Ermita_de_la_Virgen_del_Puerto_(Madrid)_02b.jpg> .
+  owl:image "Ermita_de_la_Virgen_del_Puerto_(Madrid)_02b.jpg" .
 
 <http://www.culturalrace.es/resource/Ermita+Virgen+del+Puerto> owl:sameAs <https://www.wikidata.org/wiki/Q3813365> .
 
@@ -410,7 +409,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Atocha Renfe (línea 1)Bus: 27, 34, C1, 6, 59, E1, 85, 86, 102, C2, 119, 41, 36, 14, 10, 19, 45, SE78, 32Renfe: AtochaBicimad: Estación 51 (Ronda de Atocha, 2)";
   cr:via "Emperador Carlos V";
-  owl:image <https://commons.wikimedia.org/wiki/File:Madrid_-_Edificios_Retama_1.JPG> .
+  owl:image "Madrid_-_Edificios_Retama_1.JPG" .
 
 <http://www.culturalrace.es/resource/Estaci%C3%B3n+ferroviaria+Madrid+Puerta+de+Atocha>
   owl:sameAs <https://www.wikidata.org/wiki/Q3814594> .
@@ -425,7 +424,7 @@
   cr:telefono "91 537 69 64 (Fundación BBVA)";
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:via "Recoletos";
-  owl:image <https://commons.wikimedia.org/wiki/File:Palacio_del_Marqués_de_Salamanca.jpg> .
+  owl:image "Palacio_del_Marqués_de_Salamanca.jpg" .
 
 <http://www.culturalrace.es/resource/Fundaci%C3%B3n+BBVA.+Palacio+del+Marqu%C3%A9s+de+Salamanca>
   owl:sameAs <https://www.wikidata.org/wiki/Q9054715> .
@@ -443,7 +442,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Banco de España (línea 2)Bus: 1, 2, 5, 9, 10, 15, 20, 27, 34, 45, 51, 52, 53, 74, 146, 150Renfe: Recoletos";
   cr:via "Montalban";
-  owl:image <https://commons.wikimedia.org/wiki/File:Palacio_de_Comunicaciones_-_46.jpg> .
+  owl:image "Palacio_de_Comunicaciones_-_46.jpg" .
 
 <http://www.culturalrace.es/resource/Galer%C3%ADa+de+Cristal+del+Palacio+de+Cibeles>
   owl:sameAs <https://www.wikidata.org/wiki/Q1849031> .
@@ -459,7 +458,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Ópera (Líneas , Ramal , 2 , 5), Tirso de Molina (línea 1), La Latina (línea 5)Bus: 3 , 17 , 31, 41 , 50 , 62, 65, 148";
   cr:via "Sacramento";
-  owl:image <https://commons.wikimedia.org/wiki/File:Madrid_-_Iglesia_Catedral_de_las_Fuerzas_Armadas_-_121223_174344.jpg> .
+  owl:image "Madrid_-_Iglesia_Catedral_de_las_Fuerzas_Armadas_-_121223_174344.jpg" .
 
 <http://www.culturalrace.es/resource/Iglesia+Catedral+de+las+Fuerzas+Armadas> owl:sameAs
     <https://www.wikidata.org/wiki/Q5117018> .
@@ -491,7 +490,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Sevilla (línea 2), Banco de España (línea 2), Sol (líneas 1, 2, 3), Gran Vía (líneas 1, 5)Bus: 1, 2, 3, 9, 46, 52, 53, 74, 146, 150";
   cr:via "Alcala";
-  owl:image <https://commons.wikimedia.org/wiki/File:Iglesia_de_las_Calatravas_(Madrid)_03.jpg> .
+  owl:image "Iglesia_de_las_Calatravas_(Madrid)_03.jpg" .
 
 <http://www.culturalrace.es/resource/Iglesia+de+las+Calatravas+%28Concepci%C3%B3n+Real+de+Calatrava%29>
   owl:sameAs <https://www.wikidata.org/wiki/Q5117778> .
@@ -519,7 +518,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Callao (líneas 3, 5), Gran Vía (líneas 1, 5), Noviciado (línea 2), Santo Domingo (línea 2), Chueca (línea 5)Bus: 1, 2, 3, 46, 74, 146, 147, 202, M2";
   cr:via "Puebla";
-  owl:image <https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Antonio_de_los_Alemanes_(Madrid)_01.jpg> .
+  owl:image "Iglesia_de_San_Antonio_de_los_Alemanes_(Madrid)_01.jpg" .
 
 <http://www.culturalrace.es/resource/Iglesia+San+Antonio+de+los+Alemanes> owl:sameAs
     <https://www.wikidata.org/wiki/Q5117080> .
@@ -547,7 +546,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: La Latina (Línea 5) Tirso de Molina (Línea 1)Bus: 3, 17, 31, 50, 65, 148";
   cr:via "Nuncio";
-  owl:image <https://commons.wikimedia.org/wiki/File:San_Pedro_el_viejo_Madrid.jpg> .
+  owl:image "San_Pedro_el_viejo_Madrid.jpg" .
 
 <http://www.culturalrace.es/resource/Iglesia+San+Pedro+el+Viejo> owl:sameAs <https://www.wikidata.org/wiki/Q7415163> .
 
@@ -565,7 +564,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Banco de España (línea 2).Bus: 5, 9, 51, 52, 53, 146,150,1, 2, 74, 15, 20, 203, 46, M2.Bicimad: Estación 20 (calle Alcalá 49).";
   cr:via "Alcala";
-  owl:image <https://commons.wikimedia.org/wiki/File:I.E.S._Cervantes_(Madrid)_02.jpg> .
+  owl:image "I.E.S._Cervantes_(Madrid)_02.jpg" .
 
 <http://www.culturalrace.es/resource/Instituto+Cervantes> owl:sameAs <https://www.wikidata.org/wiki/Q5806253> .
 
@@ -598,7 +597,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Ópera (líneas 2, 5, ramal), Principe Pío (líneas 6, 10, ramal)Bus: 25, 33, 39, 41, 46, 62, 75, 138, 148, CRenfe: Príncipe Pío Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones.";
   cr:via "Virgen Del Puerto";
-  owl:image <https://commons.wikimedia.org/wiki/File:Campo_del_Moro_(Madrid)_04.jpg> .
+  owl:image "Campo_del_Moro_(Madrid)_04.jpg" .
 
 <http://www.culturalrace.es/resource/Jardines+del+Campo+del+Moro> owl:sameAs <https://www.wikidata.org/wiki/Q1070622> .
 
@@ -630,7 +629,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Noviciado (línea 2), Plaza de España (líneas 3, 10)Bus: M2, 3, 147BICIMAD: Estación 16 (calle San Bernardo, 22)";
   cr:via "San Bernardo";
-  owl:image <https://commons.wikimedia.org/wiki/File:Madrid_-_Palacio_de_la_Marquesa_de_la_Sonora,_sede_del_Ministerio_de_Justicia_de_España.jpg> .
+  owl:image "Madrid_-_Palacio_de_la_Marquesa_de_la_Sonora,_sede_del_Ministerio_de_Justicia_de_España.jpg" .
 
 <http://www.culturalrace.es/resource/Ministerio+de+Justicia> owl:sameAs <https://www.wikidata.org/wiki/Q3181035> .
 
@@ -660,7 +659,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Callao (líneas 3, 5) , Santo Domingo (línea 2) , Sol (líneas 1, 2, 3) Gran Vía (líneas 1, 5).Bus: 1, 2, 3, 5, 15, 20, 25, 39, 40, 44, 46, 50, 51, 52, 53, 74, 75, 133, 146, 147, 148, 149, 150, 202.Bicimad: Estación 25 a y b (Plaza de Celenque).";
   cr:via "Descalzas";
-  owl:image <https://commons.wikimedia.org/wiki/File:Monasterio_de_las_Descalzas_Reales_(Madrid)_07.jpg> .
+  owl:image "Monasterio_de_las_Descalzas_Reales_(Madrid)_07.jpg" .
 
 <http://www.culturalrace.es/resource/Monasterio+de+las+Descalzas+Reales> owl:sameAs
     <https://www.wikidata.org/wiki/Q2268271> .
@@ -748,7 +747,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Gregorio Marañón (línea 7 y 10).Bus: 12, 16, 9, 19, 51, 61";
   cr:via "Serrano";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_Lázaro_Galdiano_(Madrid)_08.jpg> .
+  owl:image "Museo_Lázaro_Galdiano_(Madrid)_08.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+L%C3%A1zaro+Galdiano> owl:sameAs <https://www.wikidata.org/wiki/Q48060062> .
 
@@ -779,7 +778,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Gregorio Marañón (líneas 7, 10).Bus: 12, 45, 7, 14, 27, 40, 147, 150.Bicimad: Estación 139 (Calle José Gutiérrez Abascal, 2).";
   cr:via "Jose Gutierrez Abascal";
-  owl:image <https://commons.wikimedia.org/wiki/File:Escuela_de_industriales_de_Madrid_(ETSIIM)_DavidDaguerro_95331.jpg> .
+  owl:image "Escuela_de_industriales_de_Madrid_(ETSIIM)_DavidDaguerro_95331.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Nacional+de+Ciencias+Naturales> owl:sameAs
     <https://www.wikidata.org/wiki/Q29477212> .
@@ -812,7 +811,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Banco de España (línea 2)Bus: 1, 2, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, 203BICIMAD: Estación 86 (Paseo del Prado, 1)";
   cr:via "Cibeles";
-  owl:image <https://commons.wikimedia.org/wiki/File:Palacio_de_Buenavista_(14203354114)_(cropped).jpg> .
+  owl:image "Palacio_de_Buenavista_(14203354114)_(cropped).jpg" .
 
 <http://www.culturalrace.es/resource/Palacio+de+Buenavista.+Cuartel+General+del+Ej%C3%A9rcito+de+Tierra>
   owl:sameAs <https://www.wikidata.org/wiki/Q3889284> .
@@ -827,7 +826,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Banco de España (línea 2)Bus: 1 , 2 , 5 , 9 , 10 , 15 , 20 , 27 , 34 , 45 , 51 , 52 , 53 , 74 , 146 , 150Renfe: Recoletos";
   cr:via "Cibeles";
-  owl:image <https://commons.wikimedia.org/wiki/File:Palacio_de_Comunicaciones_-_46.jpg> .
+  owl:image "Palacio_de_Comunicaciones_-_46.jpg" .
 
 <http://www.culturalrace.es/resource/Palacio+de+Cibeles> owl:sameAs <https://www.wikidata.org/wiki/Q1849031> .
 
@@ -844,7 +843,7 @@
   cr:telefono "912 302 200 (desde el 19 de septiembre de 2019 de lunes a domingo de 9 a 20 horas, festivos incluidos) / 649 671 643 (solo para Whatsapp)";
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:via "Princesa";
-  owl:image <https://commons.wikimedia.org/wiki/File:Palacio_de_Liria_(Madrid)_02.jpg> .
+  owl:image "Palacio_de_Liria_(Madrid)_02.jpg" .
 
 <http://www.culturalrace.es/resource/Palacio+de+Liria> owl:sameAs <https://www.wikidata.org/wiki/Q3288223> .
 
@@ -859,7 +858,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Antón Martín (línea 1) Bus: 6, 26, 32, 50, 65";
   cr:via "Huertas";
-  owl:image <https://commons.wikimedia.org/wiki/File:Palacio_de_los_Duques_de_Santoña_(Madrid)_01.jpg> .
+  owl:image "Palacio_de_los_Duques_de_Santoña_(Madrid)_01.jpg" .
 
 <http://www.culturalrace.es/resource/Palacio+de+Santo%C3%B1a> owl:sameAs <https://www.wikidata.org/wiki/Q7126253> .
 
@@ -877,7 +876,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Bus: 601 (Madrid - Colonia Mingorrubio).";
   cr:via "Manuel Alonso";
-  owl:image <https://commons.wikimedia.org/wiki/File:El_Palacio_de_El_Pardo.JPG> .
+  owl:image "El_Palacio_de_El_Pardo.JPG" .
 
 <http://www.culturalrace.es/resource/Palacio+Real+de+El+Pardo> owl:sameAs <https://www.wikidata.org/wiki/Q1368571> .
 
@@ -895,7 +894,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Ópera (líneas 2, 5 y Ramal Ópera Norte).Bus: 25, 39.Cercanías: Príncipe Pío.Bicimad: Estación 36 (Plaza de Ramales, 1).";
   cr:via "Bailen";
-  owl:image <https://commons.wikimedia.org/wiki/File:Madrid_Palacio_Real_079.jpg> .
+  owl:image "Madrid_Palacio_Real_079.jpg" .
 
 <http://www.culturalrace.es/resource/Palacio+Real+de+Madrid> owl:sameAs <https://www.wikidata.org/wiki/Q171517> .
 
@@ -913,7 +912,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Estación del Arte (Atocha) (línea 1).Bus: 10, 14, 24, 32, 37, 54, 57, 141.Renfe: Atocha.";
   cr:via "Julian Gayarre";
-  owl:image <https://commons.wikimedia.org/wiki/File:Patio_interior_del_Panteón_de_Hombres_Ilustres.jpg> .
+  owl:image "Patio_interior_del_Panteón_de_Hombres_Ilustres.jpg" .
 
 <http://www.culturalrace.es/resource/Pante%C3%B3n+de+Hombres+Ilustres> owl:sameAs
     <https://www.wikidata.org/wiki/Q7131757> .
@@ -959,7 +958,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Opera (líneas 2, 5, Ramal)Bus:  3Renfe: SolBicimad:Estación 25b (plaza de Celenque, 1)Estación 31 (calle Mayor, 20)";
   cr:via "Arenal";
-  owl:image <https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Ginés_(Madrid)_09.jpg> .
+  owl:image "Iglesia_de_San_Ginés_(Madrid)_09.jpg" .
 
 <http://www.culturalrace.es/resource/Parroquia+San+Gin%C3%A9s> owl:sameAs <https://www.wikidata.org/wiki/Q5117097> .
 
@@ -1076,7 +1075,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Ópera (líneas 2, 5, R) Bus: 3, 25, 33, 39, 148";
   cr:via "Oriente";
-  owl:image <https://commons.wikimedia.org/wiki/File:Plaza_de_Oriente_(Madrid)_06.jpg> .
+  owl:image "Plaza_de_Oriente_(Madrid)_06.jpg" .
 
 <http://www.culturalrace.es/resource/Plaza+de+Oriente> owl:sameAs <https://www.wikidata.org/wiki/Q2193218> .
 
@@ -1091,7 +1090,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Sol (líneas 1, 2, 3), Tirso de Molina (línea 1)Bus: 3, 17, 18, 23, 31";
   cr:via "Mayor";
-  owl:image <https://commons.wikimedia.org/wiki/File:Plaza_Mayor_de_Salamanca,_Castilla_y_León,_España.jpg> .
+  owl:image "Plaza_Mayor_de_Salamanca,_Castilla_y_León,_España.jpg" .
 
 <http://www.culturalrace.es/resource/Plaza+Mayor> owl:sameAs <https://www.wikidata.org/wiki/Q1561555> .
 
@@ -1108,7 +1107,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Ventas (líneas 2, 5)Bus: 12, 21, 38, 53, 74, 106, 110, 146, 210.";
   cr:via "Alcala";
-  owl:image <https://commons.wikimedia.org/wiki/File:Plaza_de_Toros_de_Las_Ventas_(Madrid)_04.jpg> .
+  owl:image "Plaza_de_Toros_de_Las_Ventas_(Madrid)_04.jpg" .
 
 <http://www.culturalrace.es/resource/Plaza+Monumental+de+Toros+de+las+Ventas> owl:sameAs
     <https://www.wikidata.org/wiki/Q756621> .
@@ -1124,7 +1123,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Sol (líneas 1, 2, 3) Bus: 15, 20, 51, 52, 53";
   cr:via "Puerta Del Sol";
-  owl:image <https://commons.wikimedia.org/wiki/File:Real_Casa_de_Correos_(Madrid)_05b.jpg> .
+  owl:image "Real_Casa_de_Correos_(Madrid)_05b.jpg" .
 
 <http://www.culturalrace.es/resource/Puerta+del+Sol> owl:sameAs <https://www.wikidata.org/wiki/Q9067027> .
 
@@ -1140,7 +1139,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Sol (líneas 1, 2, 3), Ópera (líneas 2, 5)Bus: 3, 31, 50, 65Renfe: SolBICIMAD: Estación 9 (Plaza San Miguel, 9)";
   cr:via "De La Villa";
-  owl:image <https://commons.wikimedia.org/wiki/File:Casa_y_Torre_de_los_Lujanes_(Madrid)_01.jpg> .
+  owl:image "Casa_y_Torre_de_los_Lujanes_(Madrid)_01.jpg" .
 
 <http://www.culturalrace.es/resource/Real+Academia+de+Ciencias+Morales+y+Pol%C3%ADticas>
   owl:sameAs <https://www.wikidata.org/wiki/Q840015> .
@@ -1158,7 +1157,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Banco de España (línea 2)Bus: 1, 2, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 46, 51, 52, 53, 74, 146, 150, M2BICIMAD: Estación 29 (calle Marqués de Cubas, 25)";
   cr:via "Marqués De Cubas";
-  owl:image <https://commons.wikimedia.org/wiki/File:Real_Academia_de_Jurisprudencia_y_Legislación_(España)_01.jpg> .
+  owl:image "Real_Academia_de_Jurisprudencia_y_Legislación_(España)_01.jpg" .
 
 <http://www.culturalrace.es/resource/Real+Academia+de+Jurisprudencia+y+Legislaci%C3%B3n>
   owl:sameAs <https://www.wikidata.org/wiki/Q26960978> .
@@ -1188,7 +1187,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Chueca (línea 5), Tribunal (líneas 1 y 10)Bus: 3BICIMAD: Estación 6 (calle Hortaleza, 63)";
   cr:via "Farmacia";
-  owl:image <https://commons.wikimedia.org/wiki/File:Real_Academia_Nacional_de_Farmacia_(España)_01.jpg> .
+  owl:image "Real_Academia_Nacional_de_Farmacia_(España)_01.jpg" .
 
 <http://www.culturalrace.es/resource/Real+Academia+Nacional+de+Farmacia> owl:sameAs
     <https://www.wikidata.org/wiki/Q29903068> .
@@ -1206,7 +1205,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: La Latina (línea 5) , Puerta de Toledo (línea 5)Bus:  3, 60, 148";
   cr:via "San Buenaventura";
-  owl:image <https://commons.wikimedia.org/wiki/File:Madrid_Real_Basílica_de_San_Francisco_el_Grande_16-03-2010_16-35-14.JPG> .
+  owl:image "Madrid_Real_Basílica_de_San_Francisco_el_Grande_16-03-2010_16-35-14.JPG" .
 
 <http://www.culturalrace.es/resource/Real+Bas%C3%ADlica+San+Francisco+el+Grande> owl:sameAs
     <https://www.wikidata.org/wiki/Q2473884> .
@@ -1222,7 +1221,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Atocha , Antón Martín  Bus: 6 , 19 , 26 , 27 , 32 , 34 , 37 , 41 , 45 , 119 , C  Renfe: Atocha";
   cr:via "Santa Isabel";
-  owl:image <https://commons.wikimedia.org/wiki/File:Real_Monasterio_de_Santa_Isabel_(Madrid)_02.jpg> .
+  owl:image "Real_Monasterio_de_Santa_Isabel_(Madrid)_02.jpg" .
 
 <http://www.culturalrace.es/resource/Real+Colegio+Santa+Isabel+-+La+Asunci%C3%B3n>
   owl:sameAs <https://www.wikidata.org/wiki/Q9067089> .
@@ -1240,7 +1239,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Menéndez Pelayo (línea 1).Bus: 10, 14, 26, 32, C1, C2, 24, 37, 54, 57, 141.Bicimad: Estación 79 (Avenida de Menéndez Pelayo, 38).";
   cr:via "Fuenterrabia";
-  owl:image <https://commons.wikimedia.org/wiki/File:Real_Fabrica_de_Tapices_de_Madrid.jpg> .
+  owl:image "Real_Fabrica_de_Tapices_de_Madrid.jpg" .
 
 <http://www.culturalrace.es/resource/Real+F%C3%A1brica+de+Tapices> owl:sameAs <https://www.wikidata.org/wiki/Q570665> .
 
@@ -1256,7 +1255,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Atocha (línea 1)Bus: 10, 14, 19, 24, 26, 27, 32, 34, 45, 57, 140, CircularRENFE: Atocha Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones.";
   cr:via "Murillo";
-  owl:image <https://commons.wikimedia.org/wiki/File:RealJardinBotanico_Puerta_del_Rey.jpg> .
+  owl:image "RealJardinBotanico_Puerta_del_Rey.jpg" .
 
 <http://www.culturalrace.es/resource/Real+Jard%C3%ADn+Bot%C3%A1nico> owl:sameAs <https://www.wikidata.org/wiki/Q1794858> .
 
@@ -1274,7 +1273,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro:  Ópera (líneas 2, 5 y Ramal Ópera Príncipe Pío), Plaza de España (líneas 3, 10).Bus:  1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 147, 148, C1, C2.";
   cr:via "Encarnacion";
-  owl:image <https://commons.wikimedia.org/wiki/File:Real_Monasterio_de_la_Encarnación_(Madrid)_01.jpg> .
+  owl:image "Real_Monasterio_de_la_Encarnación_(Madrid)_01.jpg" .
 
 <http://www.culturalrace.es/resource/Real+Monasterio+de+la+Encarnaci%C3%B3n> owl:sameAs
     <https://www.wikidata.org/wiki/Q205524> .
@@ -1293,7 +1292,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Estación del Arte (Atocha) (línea 1).Bus: 6, 19, 26, 27, 32, 34, 45, 59, 85, 86, C1, E1.Renfe: Atocha.";
   cr:via "Santa Isabel";
-  owl:image <https://commons.wikimedia.org/wiki/File:Real_Monasterio_de_Santa_Isabel_(Madrid)_02.jpg> .
+  owl:image "Real_Monasterio_de_Santa_Isabel_(Madrid)_02.jpg" .
 
 <http://www.culturalrace.es/resource/Real+Monasterio+de+Santa+Isabel> owl:sameAs <https://www.wikidata.org/wiki/Q9067089> .
 
@@ -1310,7 +1309,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Sevilla (línea 2)Bus: 3, 46, M2, 1, 2, 74, 146";
   cr:via "Caballero De Gracia";
-  owl:image <https://commons.wikimedia.org/wiki/File:Real_Oratorio_del_Caballero_de_Gracia_(Madrid)_02.jpg> .
+  owl:image "Real_Oratorio_del_Caballero_de_Gracia_(Madrid)_02.jpg" .
 
 <http://www.culturalrace.es/resource/Real+Oratorio+del+Caballero+de+Gracia> owl:sameAs
     <https://www.wikidata.org/wiki/Q7099937> .
@@ -1341,7 +1340,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Plaza España (líneas 3, 10)Bus: 25, 39, 46, 68, 69, 74, 75, 138, 148, C2, 3";
   cr:via "Bailen";
-  owl:image <https://commons.wikimedia.org/wiki/File:Senado_fachada_Madrid.jpg> .
+  owl:image "Senado_fachada_Madrid.jpg" .
 
 <http://www.culturalrace.es/resource/Senado+de+Espa%C3%B1a> owl:sameAs <https://www.wikidata.org/wiki/Q10343739> .
 
@@ -1358,7 +1357,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Alonso Martínez (líneas 4, 5, 10), Tribunal (líneas 1, 10) Bus: 3, 37,";
   cr:via "Fernando Vi";
-  owl:image <https://commons.wikimedia.org/wiki/File:Palacio_Longoria_(Madrid)_16.jpg> .
+  owl:image "Palacio_Longoria_(Madrid)_16.jpg" .
 
 <http://www.culturalrace.es/resource/Sociedad+General+de+Autores+y+Editores+%28SGAE%29>
   owl:sameAs <https://www.wikidata.org/wiki/Q2571772> .
@@ -1377,7 +1376,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Plaza de España (líneas 3 y 10) y Ventura Rodríguez (línea 3) Bus: 1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 148, C1 y C2 Renfe: Príncipe Pío  Bus turístico: Ruta 1. PARADA 10 - Templo de Debod Otras formas de acceso: Aparcamiento de coches: dentro del Área de Estacionamiento Regulado de la ciudad de Madrid. BICIMAD (Servicio público de bicicletas de la ciudad de Madrid): Estación 115 (calle Evaristo San Miguel s/n.,entre Paseo Pintor Rosales y calle Ferraz)";
   cr:via "Ferraz";
-  owl:image <https://commons.wikimedia.org/wiki/File:Templo_de_Debod_Madrid.JPG> .
+  owl:image "Templo_de_Debod_Madrid.JPG" .
 
 <http://www.culturalrace.es/resource/Templo+de+Debod> owl:sameAs <https://www.wikidata.org/wiki/Q1140249> .
 
@@ -1393,7 +1392,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Manuel Becerra (líneas 2 y 6)Bus: 1, 12, 38, 43, 48, 56, 74, 110, 210, C1, C2";
   cr:via "Jose Ortega Y Gasset";
-  owl:image <https://commons.wikimedia.org/wiki/File:Tribunal_de_Cuentas.jpg> .
+  owl:image "Tribunal_de_Cuentas.jpg" .
 
 <http://www.culturalrace.es/resource/Tribunal+de+Cuentas> owl:sameAs <https://www.wikidata.org/wiki/Q29653372> .
 
@@ -1408,7 +1407,7 @@
   cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
   cr:transporte "Metro: Colón (línea 4)Bus: 5, 14, 21 , 27, 37, 45, 53, 150 Cercanías: RecoletosBICIMAD:Estación 10 (calle Marqués de la Ensenada, 16)Estación 26 (Plaza Salesas, 7)";
   cr:via "Villa De Paris";
-  owl:image <https://commons.wikimedia.org/wiki/File:TRIBUNAL_SUPREMO_DE_ESPAÑA.jpg> .
+  owl:image "TRIBUNAL_SUPREMO_DE_ESPAÑA.jpg" .
 
 <http://www.culturalrace.es/resource/Tribunal+Supremo> owl:sameAs <https://www.wikidata.org/wiki/Q29650096> .
 
@@ -1425,7 +1424,7 @@
   cr:telefono "914 299 216";
   cr:transporte "Metro: Antón Martín (línea 1).Bus: M1Bicimad:Estación 27 (calle Jesús)Estación 52 (Plaza de Santa Ana)Cercanías Renfe: Sol (líneas C3 y C4)";
   cr:via "Cervantes";
-  owl:image <https://commons.wikimedia.org/wiki/File:Casa-Museo_de_Lope_de_Vega_(Madrid)_01.jpg> .
+  owl:image "Casa-Museo_de_Lope_de_Vega_(Madrid)_01.jpg" .
 
 <http://www.culturalrace.es/resource/Casa+Museo+Lope+de+Vega> owl:sameAs <https://www.wikidata.org/wiki/Q948580> .
 
@@ -1442,7 +1441,7 @@
   cr:telefono "913 667 415";
   cr:transporte "Metro: Alameda de Osuna y El Capricho (línea 5) Bus: 101, 105, 112, 114, 115 y 151";
   cr:via "Antonio Sancha";
-  owl:image <https://commons.wikimedia.org/wiki/File:Castillo_de_La_Alameda_(Madrid)_02.jpg> .
+  owl:image "Castillo_de_La_Alameda_(Madrid)_02.jpg" .
 
 <http://www.culturalrace.es/resource/Castillo+de+la+Alameda> owl:sameAs <https://www.wikidata.org/wiki/Q8342365> .
 
@@ -1459,7 +1458,7 @@
   cr:telefono "913 302 821";
   cr:transporte "Metro: Estación del Arte (Atocha) (línea 1)Bus: 19Renfe: AtochaBicimad: Estación 65 (calle Antonio Maura, 15)";
   cr:via "Alfonso Xii";
-  owl:image <https://commons.wikimedia.org/wiki/File:Cason_del_Buen_Retiro-Front_side.jpg> .
+  owl:image "Cason_del_Buen_Retiro-Front_side.jpg" .
 
 <http://www.culturalrace.es/resource/Cas%C3%B3n+del+Buen+Retiro> owl:sameAs <https://www.wikidata.org/wiki/Q3321174> .
 
@@ -1476,7 +1475,7 @@
   cr:telefono "902 430 322";
   cr:transporte "Metro: Embajadores (línea 3), Lavapies (línea 3), Estación del Arte (Atocha) (línea 1), Palos de la Frontera (línea 3)Bus: 27, 34, 36, 41, 119, C1, C2Renfe: Embajadores (C5), Atocha ( C1, C2, C3, C4, C5, C7, C8, C10)";
   cr:via "Valencia";
-  owl:image <https://commons.wikimedia.org/wiki/File:Casa_Encendida,_patio_interior,_Madrid,_2018_01.jpg> .
+  owl:image "Casa_Encendida,_patio_interior,_Madrid,_2018_01.jpg" .
 
 <http://www.culturalrace.es/resource/Centro+Social+y+Cultural+La+Casa+Encendida> owl:sameAs
     <https://www.wikidata.org/wiki/Q5962732> .
@@ -1494,7 +1493,7 @@
   cr:telefono "915 420 722 o 683 429 760";
   cr:transporte "Metro: Príncipe Pío (líneas 5, 10 y ramal Ópera - Príncipe Pío) Bus: 41, 46 y 75 (Intercambiador Príncipe Pío) Renfe: Príncipe Pío BICIMAD: Estación 161 (Paseo de la Florida 8)";
   cr:via "San Antonio De La Florida";
-  owl:image <https://commons.wikimedia.org/wiki/File:San_Antonio_de_la_Florida.jpg> .
+  owl:image "San_Antonio_de_la_Florida.jpg" .
 
 <http://www.culturalrace.es/resource/Ermita+de+San+Antonio+de+la+Florida+%28Museo%29>
   owl:sameAs <https://www.wikidata.org/wiki/Q3109752> .
@@ -1511,7 +1510,7 @@
   cr:telefono "915 808 700 (información general) / 915 226 645 (visitas guiadas y talleres)";
   cr:transporte "Metro: Gran Vía (líneas 1, 5)Bus: 1, 2, 3, 46, 74, 146, M2Bicimad estación 21 - Red de San Luis A: calle de la Montera, 48";
   cr:via "Fuencarral";
-  owl:image <https://commons.wikimedia.org/wiki/File:Telefónica_-_Gran_Vía_28_-_Madrid.jpg> .
+  owl:image "Telefónica_-_Gran_Vía_28_-_Madrid.jpg" .
 
 <http://www.culturalrace.es/resource/Espacio+Fundaci%C3%B3n+Telef%C3%B3nica> owl:sameAs
     <https://www.wikidata.org/wiki/Q2092717> .
@@ -1529,7 +1528,7 @@
   cr:telefono "917 588 379";
   cr:transporte "Metro: San Bernardo (líneas 2, 4), Noviciado (línea 2), Ventura Rodríguez (línea 3), Plaza de España (líneas 3, 10) Bus: M2.Bicimad: Estación 13 (calle Conde Duque 22).";
   cr:via "Amaniel";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_ABC_(Madrid)_01.jpg> .
+  owl:image "Museo_ABC_(Madrid)_01.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+ABC> owl:sameAs <https://www.wikidata.org/wiki/Q21564330> .
 
@@ -1545,7 +1544,7 @@
   cr:telefono "915 777 912";
   cr:transporte "Metro: Serrano (línea 4).Bus: 1, 9, 19, 51, 74, 5, 14, 27, 45, 53, 150.Cercanías Renfe: Recoletos (línea C1, C2, C7, C-10 y Regional).Bicimad; Estación 95 (calle Claudio Coello 109).";
   cr:via "Serrano";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_Arqueológico_Nacional_de_España_01.jpg> .
+  owl:image "Museo_Arqueológico_Nacional_de_España_01.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Arqueol%C3%B3gico+Nacional> owl:sameAs
     <https://www.wikidata.org/wiki/Q1352282> .
@@ -1562,7 +1561,7 @@
   cr:telefono "915 666 544";
   cr:transporte "Metro: O&amp;acute;Donnell (línea 6).Bus: 2, 30, 56, 71, 143, 156, E4, C2, 28, 203, E2, E3.Bicimad: Estación 101 (calle Jorge Juan, 131).";
   cr:via "Doctor Esquerdo";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_Casa_de_la_Moneda.jpg> .
+  owl:image "Museo_Casa_de_la_Moneda.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Casa+de+la+Moneda> owl:sameAs <https://www.wikidata.org/wiki/Q39072661> .
 
@@ -1579,7 +1578,7 @@
   cr:telefono "915 473 646 / 915 473 647";
   cr:transporte "Metro: Plaza de España (líneas 3, 10), Príncipe Pío (líneas 6 y 10)Bus: 74, 138Renfe: Príncipe Pio (líneas C1, C7 Y C10)";
   cr:via "Ventura Rodriguez";
-  owl:image <https://commons.wikimedia.org/wiki/File:Palacio_del_Marqués_de_Cerralbo_(Madrid)_01.jpg> .
+  owl:image "Palacio_del_Marqués_de_Cerralbo_(Madrid)_01.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Cerralbo> owl:sameAs <https://www.wikidata.org/wiki/Q976019> .
 
@@ -1596,7 +1595,7 @@
   cr:telefono "913 495 759";
   cr:transporte "Metro: Ríos Rosas (línea 1) y Alonso Cano (línea 7)Bus: 3, 5, 12, 37, 45, 149Bicimad estación 130: calle Santa Engracia, 127";
   cr:via "Rios Rosas";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_Geominero_-_main_hall_-_Madrid_Spain_01.jpg> .
+  owl:image "Museo_Geominero_-_main_hall_-_Madrid_Spain_01.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Geominero> owl:sameAs <https://www.wikidata.org/wiki/Q13532751> .
 
@@ -1612,7 +1611,7 @@
   cr:telefono "913 367 017";
   cr:transporte "Metro: Ríos Rosas (línea 1)Bus: 3, 12, 37, 45, 149Bicimad estación 130: calle Santa Engracia, 127";
   cr:via "Rios Rosas";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_de_la_Escuela_de_Minas_de_Madrid.jpg> .
+  owl:image "Museo_de_la_Escuela_de_Minas_de_Madrid.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Hist%C3%B3rico+Minero+Don+Felipe+de+Borb%C3%B3n+y+Grecia>
   owl:sameAs <https://www.wikidata.org/wiki/Q53997723> .
@@ -1629,7 +1628,7 @@
   cr:telefono "914 201 242";
   cr:transporte "Metro: Banco de España (línea 2) , Sevilla (línea 2)Bus: 3, 5, 9, 15, 20, 46, 51, 52, 53, 150, M1, M2BICIMAD estación 29: calle Marqués de Cubas, 25";
   cr:via "Zorrilla";
-  owl:image <https://commons.wikimedia.org/wiki/File:Fachada_del_museo_ICO_en_Madrid_por_arquigraph.jpg> .
+  owl:image "Fachada_del_museo_ICO_en_Madrid_por_arquigraph.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+ICO> owl:sameAs <https://www.wikidata.org/wiki/Q60829823> .
 
@@ -1644,7 +1643,7 @@
   cr:telefono "902 444 403 / 917 796 399";
   cr:transporte "Metro: Ópera (líneas 2, 5 y Ramal).Bus: 25Bicimad: Estación 24: Calle Carlos III, 1 28013";
   cr:via "Isabel Ii";
-  owl:image <https://commons.wikimedia.org/wiki/File:Fuente_de_los_Caños_del_Peral-2011-Reconstruida.jpg> .
+  owl:image "Fuente_de_los_Caños_del_Peral-2011-Reconstruida.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Los+Ca%C3%B1os+del+Peral.+Estaci%C3%B3n+de+Metro+%C3%93pera>
   owl:sameAs <https://www.wikidata.org/wiki/Q5870258> .
@@ -1661,7 +1660,7 @@
   cr:telefono "915 616 084";
   cr:transporte "Metro: Gregorio Marañón (línea 7 y 10).Bus: 12, 16, 9, 19, 51, 61";
   cr:via "Serrano";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_Lázaro_Galdiano_(Madrid)_05.jpg> .
+  owl:image "Museo_Lázaro_Galdiano_(Madrid)_05.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+L%C3%A1zaro+Galdiano> owl:sameAs <https://www.wikidata.org/wiki/Q386570> .
 
@@ -1677,7 +1676,7 @@
   cr:telefono "917 741 000";
   cr:transporte "Metro: Estación del Arte (Atocha) (línea 1)Bus: 6, 26, 32, E1, 27, 34, C1, 59, 85, C2, 10, 14, 37, 45, 36, 41, 119Cercanías Renfe: Atocha (líneas C1, C2, C3, C4, C5, C7, C8, C10)Bicimad: Estación 50 (calle Santa Isabel, 57)Estación 51 (Ronda de Atocha, 2)";
   cr:via "Santa Isabel";
-  owl:image <https://commons.wikimedia.org/wiki/File:MNCARS_05.jpg> .
+  owl:image "MNCARS_05.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Nacional+Centro+de+Arte+Reina+Sof%C3%ADa+%28MNCARS%29>
   owl:sameAs <https://www.wikidata.org/wiki/Q460889> .
@@ -1695,7 +1694,7 @@
   cr:telefono "917 911 370";
   cr:transporte "Metro: Banco de España (línea 2)Bus: 10, 14, 27, 34, 37, 45Cercanías Renfe: Recoletos";
   cr:via "Prado";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_Thyssen-Bornemisza_(Madrid)_07.jpg> .
+  owl:image "Museo_Thyssen-Bornemisza_(Madrid)_07.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Nacional+Thyssen-Bornemisza> owl:sameAs
     <https://www.wikidata.org/wiki/Q176251> .
@@ -1712,7 +1711,7 @@
   cr:telefono "915 306 418 / 915 395 995";
   cr:transporte "Metro: Estación del Arte (Atocha) (línea 1)Bus: 19,  C1, 10, 14, 26, 32, 37, 103, SE76, 86, C2, 203Cercanías Renfe: Atocha (líneas C1, C2, C3, C4, C5, C7, C8, C10)Bicimad: Estación 80 a y b (Paseo Infanta Isabel, 3)";
   cr:via "Alfonso Xii";
-  owl:image <https://commons.wikimedia.org/wiki/File:Sala_Orígenes_del_Museo_(27530162552).jpg> .
+  owl:image "Sala_Orígenes_del_Museo_(27530162552).jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Nacional+de+Antropolog%C3%ADa> owl:sameAs
     <https://www.wikidata.org/wiki/Q2917041> .
@@ -1730,7 +1729,7 @@
   cr:telefono "915 326 499 / 915 326 845 / 910 505 755 (Reserva actividades infantiles) / 910 505 768 (Biblioteca) / 910 505 763 (Atención a investigadores)";
   cr:transporte "Metro: Retiro (línea 2).Bus: 1, 2, 9, 10, 14, 15, 19, 20, 27,  28, 34, 37, 45 51, 52, 74, 146, 203.Cercanías Renfe: Recoletos (líneas C1, C2, C7, C8 Y C10).";
   cr:via "Montalban";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Artes_Decorativas_(Madrid)_01.jpg> .
+  owl:image "Museo_Nacional_de_Artes_Decorativas_(Madrid)_01.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Nacional+de+Artes+Decorativas> owl:sameAs
     <https://www.wikidata.org/wiki/Q5361303> .
@@ -1746,7 +1745,7 @@
   cr:telefono "914 111 328";
   cr:transporte "Metro: Gregorio Marañón (líneas 7, 10).Bus: 12, 45, 7, 14, 27, 40, 147, 150.Bicimad: Estación 139 (Calle José Gutiérrez Abascal, 2).";
   cr:via "Jose Gutierrez Abascal";
-  owl:image <https://commons.wikimedia.org/wiki/File:Palacio_de_las_Artes_e_Industrias_(Madrid)_01.jpg> .
+  owl:image "Palacio_de_las_Artes_e_Industrias_(Madrid)_01.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Nacional+de+Ciencias+Naturales> owl:sameAs
     <https://www.wikidata.org/wiki/Q1966699> .
@@ -1764,7 +1763,7 @@
   cr:telefono "915 238 516 (martes y viernes de 9 a 14 horas)";
   cr:transporte "Metro: Banco de España (línea 2)Bus: 14, 27, 34, 37, 45, 203Bicimad:Estación 65: Calle Antonio Maura, 15  Estación 86: Plaza de Cibeles";
   cr:via "Prado";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_Naval_de_Madrid_02.jpg> .
+  owl:image "Museo_Naval_de_Madrid_02.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Naval> owl:sameAs <https://www.wikidata.org/wiki/Q1815235> .
 
@@ -1781,7 +1780,7 @@
   cr:telefono "917 400 668 (Museo) / 917 400 664 (Biblioteca)";
   cr:transporte "Bus: 161";
   cr:via "Tapia De Casariego";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_Postal_y_Telegráfico.jpg> .
+  owl:image "Museo_Postal_y_Telegráfico.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Postal+y+Telegr%C3%A1fico> owl:sameAs <https://www.wikidata.org/wiki/Q64071045> .
 
@@ -1797,7 +1796,7 @@
   cr:telefono "913 101 584";
   cr:transporte "Metro: Rubén Darío (línea 5), Gregorio Marañón (líneas 7, 10), Iglesia (línea 1)Bus: 5, 7, 14, 16, 27, 40, 45, 61, 147 y 150Bicimad: Estación 125 (calle Fernández de la Hoz, 29)Estación 141 (Paseo Castellana, 43)";
   cr:via "General Martinez Campos";
-  owl:image <https://commons.wikimedia.org/wiki/File:Sala_I_in_Museo_Sorolla_Madrid_on_20161106.jpg> .
+  owl:image "Sala_I_in_Museo_Sorolla_Madrid_on_20161106.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Sorolla> owl:sameAs <https://www.wikidata.org/wiki/Q1592523> .
 
@@ -1813,7 +1812,7 @@
   cr:telefono "917 264 800 (Centro de Asuntos Taurinos)";
   cr:transporte "Metro: Ventas (líneas 2, 5).Bus: 12, 21, 38, 53, 74, 106, 110, 146, 210.";
   cr:via "Alcala";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_taurino_de_Madrid.jpg> .
+  owl:image "Museo_taurino_de_Madrid.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+Taurino+de+la+Comunidad+de+Madrid> owl:sameAs
     <https://www.wikidata.org/wiki/Q27500479> .
@@ -1830,7 +1829,7 @@
   cr:nombre "Museo de Aeronáutica y Astronáutica";
   cr:telefono "915 091 690 (centralita)";
   cr:via "A-5";
-  owl:image <https://commons.wikimedia.org/wiki/File:CASA_C-207_Azor,_Museo_del_Aire.jpg> .
+  owl:image "CASA_C-207_Azor,_Museo_del_Aire.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+de+Aeron%C3%A1utica+y+Astron%C3%A1utica>
   owl:sameAs <https://www.wikidata.org/wiki/Q11057120> .
@@ -1846,7 +1845,7 @@
   cr:telefono "915 492 641 / 915 439 437";
   cr:transporte "Metro: Moncloa (líneas 3, 6), Islas Filipinas (línea 7).Autobús: 1, 2, 16, 44, 46, 61, 82, 113, 132, 133 y Circular. Aparcamiento gratuito durante los fines de semana y festivos.";
   cr:via "Reyes Catolicos";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_de_América_de_Madrid_-_01.jpg> .
+  owl:image "Museo_de_América_de_Madrid_-_01.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+de+Am%C3%A9rica> owl:sameAs <https://www.wikidata.org/wiki/Q2568412> .
 
@@ -1862,7 +1861,7 @@
   cr:telefono "915 885 921";
   cr:transporte "Metro: Ventura Rodríguez, Plaza de España, San Bernardo, Noviciado. Bus: 1, 2, 21, 44, 74, 133, C, M2 Bicimad: Estación 13, Calle Conde Duque n&amp;ordm;22. Parking:  Plaza de España";
   cr:via "Conde Duque";
-  owl:image <https://commons.wikimedia.org/wiki/File:Madrid_en_12_nuevas_miradas_19.jpg> .
+  owl:image "Madrid_en_12_nuevas_miradas_19.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+de+Arte+Contempor%C3%A1neo+de+Madrid> owl:sameAs
     <https://www.wikidata.org/wiki/Q6940528> .
@@ -1880,7 +1879,7 @@
   cr:telefono "914 976 500";
   cr:transporte "Metro: La Latina (línea 5)Bus: 41, 60, 148 y CircularRenfe: Embajadores * Atocha";
   cr:via "Carlos Arniches";
-  owl:image <https://commons.wikimedia.org/wiki/File:La_Corrala.jpg> .
+  owl:image "La_Corrala.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+de+Artes+y+Tradiciones+Populares.+Centro+Cultural+La+Corrala>
   owl:sameAs <https://www.wikidata.org/wiki/Q5915440> .
@@ -1898,7 +1897,7 @@
   cr:telefono "917 011 863";
   cr:transporte "Metro: Tribunal, Bilbao y Alonso Martínez. Bus: 3, 21, 37, 40, 147 y 149. BICIMAD: Estación 54 (Calle Barceló 7) Aparcamiento público: Barceló.";
   cr:via "Fuencarral";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_de_Historia_de_Madrid_(España)_03.jpg> .
+  owl:image "Museo_de_Historia_de_Madrid_(España)_03.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+de+Historia+de+Madrid> owl:sameAs <https://www.wikidata.org/wiki/Q876383> .
 
@@ -1915,7 +1914,7 @@
   cr:telefono "913 667 415";
   cr:transporte "Metro: Latina , Tirso de Molina Bus: 3 , 17 , 18 , 23 , 35 , 60 , 65 , 148 BICIMAD: Estación 38 (Carrera de San Francisco 1)";
   cr:via "San Andres";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_de_San_Isidro.jpg> .
+  owl:image "Museo_de_San_Isidro.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+de+San+Isidro.+Los+Or%C3%ADgenes+de+Madrid>
   owl:sameAs <https://www.wikidata.org/wiki/Q5556798> .
@@ -1933,7 +1932,7 @@
   cr:telefono "915 168 967 / 915 807 759 de lunes a viernes de 9 a 14 horas.";
   cr:transporte "Metro: Colón, (línea 4), Retiro (Línea 2)Bus: 5, 14, 27, 45, 53, 150, 37, 21, 1, 9, 19, 51, 74Cercanías Renfe: Recoletos (líneas C1, C2, C7, C8  y C10)Bicimad: Estación 94 (Paseo Recoletos, 32-34)";
   cr:via "Recoletos";
-  owl:image <https://commons.wikimedia.org/wiki/File:Biblioteca_Nacional_de_España_(Madrid)_09.jpg> .
+  owl:image "Biblioteca_Nacional_de_España_(Madrid)_09.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+de+la+Biblioteca+Nacional+de+Espa%C3%B1a>
   owl:sameAs <https://www.wikidata.org/wiki/Q750403> .
@@ -1950,7 +1949,7 @@
   cr:telefono "915 592 874";
   cr:transporte "Bus: 3, 148.Metro: Ópera (Líneas 2, 5 y Ramal Ópera Príncipe Pío).Bicimad estación 166: calle Segovia, 26";
   cr:via "Bailen";
-  owl:image <https://commons.wikimedia.org/wiki/File:Catedral_de_la_Almudena_(Madrid)_25.jpg> .
+  owl:image "Catedral_de_la_Almudena_(Madrid)_25.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+de+la+Catedral+de+la+Almudena> owl:sameAs
     <https://www.wikidata.org/wiki/Q849711> .
@@ -1968,7 +1967,7 @@
   cr:telefono "913 941 797";
   cr:transporte "Metro: Ciudad Universitaria (línea 6)Bus: 82, 132 , F, G, U";
   cr:via "Ramon Y Cajal";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_de_Farmacia_Militar_(Madrid)_01.jpg> .
+  owl:image "Museo_de_Farmacia_Militar_(Madrid)_01.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+de+la+Farmacia+Hispana> owl:sameAs <https://www.wikidata.org/wiki/Q9047062> .
 
@@ -1985,7 +1984,7 @@
   cr:telefono "915 240 864 (Centralita)";
   cr:transporte "Metro: Sol (líneas 1, 2, 3), Sevilla (línea 2)Bus: 3, 15, 20, 53, 150, M1, 3Renfe Cercanías: SolBicimad: Estación 28 (calle Alcalá, 27)";
   cr:via "Alcala";
-  owl:image <https://commons.wikimedia.org/wiki/File:Palacio_de_Goyeneche_-_Real_Academia_de_Bellas_Artes_de_San_Fernando.jpg> .
+  owl:image "Palacio_de_Goyeneche_-_Real_Academia_de_Bellas_Artes_de_San_Fernando.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+de+la+Real+Academia+de+Bellas+Artes+de+San+Fernando>
   owl:sameAs <https://www.wikidata.org/wiki/Q1322403> .
@@ -2002,7 +2001,7 @@
   cr:telefono "915 390 085";
   cr:transporte "Metro: Delicias (línea 3)Bus: 19, 45, 47, 59, 85, 86, 247, 8, 6, 55Renfe: Delicias";
   cr:via "Delicias";
-  owl:image <https://commons.wikimedia.org/wiki/File:Delicias_fachada.JPG> .
+  owl:image "Delicias_fachada.JPG" .
 
 <http://www.culturalrace.es/resource/Museo+del+Ferrocarril+de+Madrid> owl:sameAs <https://www.wikidata.org/wiki/Q6034436> .
 
@@ -2018,7 +2017,7 @@
   cr:telefono "913 302 800";
   cr:transporte "Metro: Estación del Arte (Atocha) (línea 1), Banco de España (línea 2), Retiro (línea 2)Bus: 9, 10, 14, 19, 27, 34, 37, 45Renfe: AtochaBicimad: Estación 68 (calle Espalter, 1)";
   cr:via "Ruiz De Alarcon";
-  owl:image <https://commons.wikimedia.org/wiki/File:Sala_de_Tiziano_en_el_Museo_del_Prado.jpg> .
+  owl:image "Sala_de_Tiziano_en_el_Museo_del_Prado.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+del+Prado> owl:sameAs <https://www.wikidata.org/wiki/Q160112> .
 
@@ -2034,7 +2033,7 @@
   cr:telefono "914 481 045 / 914 480 163";
   cr:transporte "Metro: Tribunal (líneas 1, 10), Alonso Martínez (líneas 4, 5, 10)Bus: 3, 40, 149, 3Renfe: RecoletosBicimad: Estación 7 (calle Hortaleza, 75)";
   cr:via "San Mateo";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_del_Romanticismo_-_Fachada_-_Fachada_del_Museo_del_Romanticismo.jpg> .
+  owl:image "Museo_del_Romanticismo_-_Fachada_-_Fachada_del_Museo_del_Romanticismo.jpg" .
 
 <http://www.culturalrace.es/resource/Museo+del+Romanticismo> owl:sameAs <https://www.wikidata.org/wiki/Q6974501> .
 
@@ -2050,7 +2049,7 @@
   cr:telefono "915 504 700";
   cr:transporte "Metro: Ciudad Universitaria (línea 6).Bus: 46, 160, 161, U, 82, G, 132, 83, 133, 162.";
   cr:via "Juan De Herrera";
-  owl:image <https://commons.wikimedia.org/wiki/File:Museo_del_Traje.JPG> .
+  owl:image "Museo_del_Traje.JPG" .
 
 <http://www.culturalrace.es/resource/Museo+del+Traje.+Centro+de+Investigaci%C3%B3n+del+Patrimonio+Etnol%C3%B3gico+%28CIPE%29>
   owl:sameAs <https://www.wikidata.org/wiki/Q9047135> .
@@ -2068,7 +2067,7 @@
   cr:telefono "914 548 700 (Información general)";
   cr:transporte "Bus: 601 (Madrid - Colonia Mingorrubio).";
   cr:via "Manuel Alonso";
-  owl:image <https://commons.wikimedia.org/wiki/File:El_Palacio_de_El_Pardo.JPG> .
+  owl:image "El_Palacio_de_El_Pardo.JPG" .
 
 <http://www.culturalrace.es/resource/Palacio+Real+de+El+Pardo> owl:sameAs <https://www.wikidata.org/wiki/Q1368571> .
 
@@ -2085,7 +2084,7 @@
   cr:telefono "914 548 700 (Información general)";
   cr:transporte "Metro: Estación del Arte (Atocha) (línea 1).Bus: 10, 14, 24, 32, 37, 54, 57, 141.Renfe: Atocha.";
   cr:via "Julian Gayarre";
-  owl:image <https://commons.wikimedia.org/wiki/File:Patio_interior_del_Panteón_de_Hombres_Ilustres.jpg> .
+  owl:image "Patio_interior_del_Panteón_de_Hombres_Ilustres.jpg" .
 
 <http://www.culturalrace.es/resource/Pante%C3%B3n+de+Hombres+Ilustres> owl:sameAs
     <https://www.wikidata.org/wiki/Q7131757> .
@@ -2100,11 +2099,11 @@
   cr:latitud "40.392279999540044";
   cr:longitud "-3.684956957448299";
   cr:nombre "Planetario de Madrid";
-  cr:telefono """914 673 461 (reserva grupos)                                                                                                                                                                                                                                                                                                                                                                                                                                               
+  cr:telefono """914 673 461 (reserva grupos)
 914 673 898 (contestador automático de información)""";
   cr:transporte "Metro: Méndez Álvaro (línea 6) Bus: 148, 156 BICIMAD: Estación 177 (Calle Bolívar 3) Planetario en  Google Maps";
   cr:via "Planetario";
-  owl:image <https://commons.wikimedia.org/wiki/File:Planetario_de_Madrid_01.jpg> .
+  owl:image "Planetario_de_Madrid_01.jpg" .
 
 <http://www.culturalrace.es/resource/Planetario+de+Madrid> owl:sameAs <https://www.wikidata.org/wiki/Q9060456> .
 
@@ -2120,7 +2119,7 @@
   cr:telefono "914 340 550";
   cr:transporte "Metro: Menéndez Pelayo (línea 1).Bus: 10, 14, 26, 32, C1, C2, 24, 37, 54, 57, 141.Bicimad: Estación 79 (Avenida de Menéndez Pelayo, 38).";
   cr:via "Fuenterrabia";
-  owl:image <https://commons.wikimedia.org/wiki/File:Real_Fabrica_de_Tapices_de_Madrid.jpg> .
+  owl:image "Real_Fabrica_de_Tapices_de_Madrid.jpg" .
 
 <http://www.culturalrace.es/resource/Real+F%C3%A1brica+de+Tapices> owl:sameAs <https://www.wikidata.org/wiki/Q570665> .
 
@@ -2137,7 +2136,7 @@
   cr:telefono "914 548 700 (Información general)";
   cr:transporte "Metro: Estación del Arte (Atocha) (línea 1).Bus: 6, 19, 26, 27, 32, 34, 45, 59, 85, 86, C1, E1.Renfe: Atocha.";
   cr:via "Santa Isabel";
-  owl:image <https://commons.wikimedia.org/wiki/File:Real_Monasterio_de_Santa_Isabel_(Madrid)_02.jpg> .
+  owl:image "Real_Monasterio_de_Santa_Isabel_(Madrid)_02.jpg" .
 
 <http://www.culturalrace.es/resource/Real+Monasterio+de+Santa+Isabel> owl:sameAs <https://www.wikidata.org/wiki/Q9067089> .
 
@@ -2154,7 +2153,7 @@
   cr:telefono "914 548 700 (Información general)";
   cr:transporte "Metro:  Ópera (líneas 2, 5 y Ramal Ópera Príncipe Pío), Plaza de España (líneas 3, 10).Bus:  1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 147, 148, C1, C2.";
   cr:via "Encarnacion";
-  owl:image <https://commons.wikimedia.org/wiki/File:Real_Monasterio_de_la_Encarnación_(Madrid)_01.jpg> .
+  owl:image "Real_Monasterio_de_la_Encarnación_(Madrid)_01.jpg" .
 
 <http://www.culturalrace.es/resource/Real+Monasterio+de+la+Encarnaci%C3%B3n> owl:sameAs
     <https://www.wikidata.org/wiki/Q205524> .
@@ -2172,7 +2171,6 @@
   cr:telefono "913 667 415 (Museo de San Isidro / Templo de Debod)";
   cr:transporte "Metro: Plaza de España (líneas 3 y 10) y Ventura Rodríguez (línea 3) Bus: 1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 148, C1 y C2 Renfe: Príncipe Pío  Bus turístico: Ruta 1. PARADA 10 - Templo de Debod Otras formas de acceso: Aparcamiento de coches: dentro del Área de Estacionamiento Regulado de la ciudad de Madrid. BICIMAD (Servicio público de bicicletas de la ciudad de Madrid): Estación 115 (calle Evaristo San Miguel s/n.,entre Paseo Pintor Rosales y calle Ferraz)";
   cr:via "Ferraz";
-  owl:image <https://commons.wikimedia.org/wiki/File:Templo_de_Debod_Madrid.JPG> .
+  owl:image "Templo_de_Debod_Madrid.JPG" .
 
 <http://www.culturalrace.es/resource/Templo+de+Debod> owl:sameAs <https://www.wikidata.org/wiki/Q1140249> .
-
