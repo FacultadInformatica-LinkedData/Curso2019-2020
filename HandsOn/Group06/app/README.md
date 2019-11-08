@@ -1,4 +1,4 @@
-##Instrucciones
+Instrucciones
 ===============
 Para que la app se despliegue correctamente es necesario tener instalada la última versión de "Nodejs" y su gestor de paquetes "npm".
 
