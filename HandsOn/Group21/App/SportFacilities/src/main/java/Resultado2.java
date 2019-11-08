@@ -14,12 +14,12 @@ import java.util.LinkedList;
  *
  * @author tinot
  */
-public class Resultado extends javax.swing.JFrame {
+public class Resultado2 extends javax.swing.JFrame {
 
     /**
      * Creates new form Resultado
      */
-    public Resultado() {
+    public Resultado2() {
         initComponents();
         this.setLocationRelativeTo(null);
     }
@@ -103,18 +103,13 @@ public class Resultado extends javax.swing.JFrame {
          //Init.infoResource(new Init(),"Instalación Deportiva Municipal Básica de Ribadeo y Verín").forEach(element -> {resultado.add(element);});;
          System.out.println(valorBusqueda);
          System.out.println(campoSeleccionado);
-         Init.consulta(new Init(), campoSeleccionado, valorBusqueda).forEach(element -> {resultado.add(element);});;
+         //Init.consulta(new Init(), campoSeleccionado, valorBusqueda).forEach(element -> {resultado.add(element);});;
+         Init.infoResource(new Init(),"Instalación Deportiva Municipal Básica de Ribadeo y Verín").forEach(element -> {resultado.add(element);});;
          
      String aux ="";
         for (int i = 0; i < resultado.size(); i++) {
-            //System.out.println(resultado.get(i));
-            //aux+=i+resultado.get(i)+"\n";
             
-           // System.out.println(i+aux);
-           String[] parts = resultado.get(i).split("\"");
-           int a=i+1;
-           aux+=a+"- "+parts[1]+"\n";
-           System.out.println(i+parts[1]);
+          aux+=resultado.get(i).split("#")[1].split(">")[0] + " =" + resultado.get(i).split("=")[2].split("\\)")[0]+"\n";
         }
         
        // this.jTextPaneResultado.setText(aux);
