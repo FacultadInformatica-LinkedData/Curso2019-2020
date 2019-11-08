@@ -992,5 +992,223 @@
       ]
     },
     "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology#"
+        },
+        {
+          "name": "sosa",
+          "uri": "http://www.w3.org/ns/sosa/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_ESTACION",
+          "expression": "\"Station/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#direccion",
+              "curie": "aqm:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DIRECCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#nombre",
+              "curie": "aqm:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#tipo",
+              "curie": "aqm:tipo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TIPO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Sensor",
+              "curie": "sosa:Sensor"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "aqm",
+          "uri": "http://www.airQualityMadrid.com/ontology#"
+        },
+        {
+          "name": "sosa",
+          "uri": "http://www.w3.org/ns/sosa/"
+        }
+      ],
+      "baseUri": "http://www.airQualityMadrid.com/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID_ESTACION",
+          "expression": "\"Station/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LATITUD",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "LONGITUD",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#direccion",
+              "curie": "aqm:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "DIRECCION",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#nombre",
+              "curie": "aqm:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "NOMBRE",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.airQualityMadrid.com/ontology#tipo",
+              "curie": "aqm:tipo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "TIPO",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Sensor",
+              "curie": "sosa:Sensor"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
   }
 ]
