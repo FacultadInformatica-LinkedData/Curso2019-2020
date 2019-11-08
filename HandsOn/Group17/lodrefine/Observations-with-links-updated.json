@@ -1,0 +1,1690 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "PROVINCIA",
+    "description": "Remove column PROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MUNICIPIO",
+    "description": "Remove column MUNICIPIO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "MAGNITUD",
+    "newColumnName": "GAS",
+    "description": "Rename column MAGNITUD to GAS"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V24",
+    "description": "Remove column V24"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "H24",
+    "description": "Remove column H24"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V23",
+    "description": "Remove column V23"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "H23",
+    "description": "Remove column H23"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V22",
+    "description": "Remove column V22"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "H22",
+    "description": "Remove column H22"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V21",
+    "description": "Remove column V21"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "H21",
+    "description": "Remove column H21"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V20",
+    "description": "Remove column V20"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "H20",
+    "description": "Remove column H20"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V19",
+    "description": "Remove column V19"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V18",
+    "description": "Remove column V18"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V17",
+    "description": "Remove column V17"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V16",
+    "description": "Remove column V16"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V15",
+    "description": "Remove column V15"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V14",
+    "description": "Remove column V14"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V13",
+    "description": "Remove column V13"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V12",
+    "description": "Remove column V12"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V11",
+    "description": "Remove column V11"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V10",
+    "description": "Remove column V10"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V09",
+    "description": "Remove column V09"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V08",
+    "description": "Remove column V08"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V07",
+    "description": "Remove column V07"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V06",
+    "description": "Remove column V06"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V05",
+    "description": "Remove column V05"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V04",
+    "description": "Remove column V04"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V03",
+    "description": "Remove column V03"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V02",
+    "description": "Remove column V02"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "V01",
+    "description": "Remove column V01"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PUNTO_MUESTREO",
+    "description": "Remove column PUNTO_MUESTREO"
+  },
+  {
+    "op": "core/transpose-columns-into-rows",
+    "startColumnName": "H01",
+    "columnCount": -1,
+    "ignoreBlankCells": true,
+    "fillDown": true,
+    "separator": null,
+    "keyColumnName": "HORA",
+    "valueColumnName": "RESULTADO",
+    "description": "Transpose cells in columns starting with H01 into rows in two new columns named HORA and RESULTADO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H01"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "01:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H02"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "02:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H03"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "03:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H04"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "04:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H05"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "05:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H06"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "06:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H07"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "07:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H08"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "08:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H09"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "09:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H10"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "10:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H11"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "11:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H12"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "12:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H13"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "13:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H14"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "14:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H15"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "15:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H16"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "16:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H17"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "17:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H18"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "18:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "H19"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "19:00:00"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ANO",
+    "expression": "grel:value + \"-\" + cells['MES'].value + \"-\" + cells['DIA'].value + \"T\" + cells['HORA'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ANO using expression grel:value + \"-\" + cells['MES'].value + \"-\" + cells['DIA'].value + \"T\" + cells['HORA'].value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ANO",
+    "newColumnName": "resultTime",
+    "description": "Rename column ANO to resultTime"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MES",
+    "description": "Remove column MES"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIA",
+    "description": "Remove column DIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "HORA",
+    "description": "Remove column HORA"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty",
+          "expression": "value",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Dióxido de Azufre",
+                "l": "Dióxido de Azufre"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "GAS",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "ObservableProperty",
+    "columnInsertIndex": 2,
+    "description": "Create column ObservableProperty at index 2 based on column GAS using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"44\",\"Hidrocarburos no metánicos (hexano)\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"44\",\"Hidrocarburos no metánicos (hexano)\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"43\",\"Metano\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"43\",\"Metano\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"42\",\"Hidrocarburos totales (hexano) \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"42\",\"Hidrocarburos totales (hexano) \")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"39\",\"Ortoxileno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"39\",\"Ortoxileno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"38\",\"Paraxileno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"38\",\"Paraxileno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"37\",\"Metaxileno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"37\",\"Metaxileno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"35\",\"Etilbenceno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"35\",\"Etilbenceno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"30\",\"Benceno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"30\",\"Benceno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"20\",\"Tolueno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"20\",\"Tolueno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"14\",\"Ozono\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"14\",\"Ozono\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"12\",\"Óxidos de Nitrógeno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"12\",\"Óxidos de Nitrógeno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"10\",\"Partículas < 10 µm\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"10\",\"Partículas < 10 µm\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"9\",\"Partículas < 2.5 µm \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"9\",\"Partículas < 2.5 µm \")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"8\",\"Dióxido de Nitrógeno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"8\",\"Dióxido de Nitrógeno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"7\",\"Monóxido de Nitrógeno\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"7\",\"Monóxido de Nitrógeno\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"6\",\"Monóxido de Carbono\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"6\",\"Monóxido de Carbono\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value.replace(\"1\",\"Dióxido de Azufre\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ObservableProperty using expression value.replace(\"1\",\"Dióxido de Azufre\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ESTACION",
+    "newColumnName": "Sensor",
+    "description": "Rename column ESTACION to Sensor"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "GAS",
+    "index": 2,
+    "description": "Move column GAS to position 2"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "GAS",
+    "newColumnName": "observablePropertyCode",
+    "description": "Rename column GAS to observablePropertyCode"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "resultTime",
+    "newColumnName": "dateTime",
+    "description": "Rename column resultTime to dateTime"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "RESULTADO",
+    "newColumnName": "Result",
+    "description": "Rename column RESULTADO to Result"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q11173",
+        "name": "chemical compound"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column ObservableProperty to type Q11173"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "similarValue": "Dióxido de Azufre",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5282",
+      "name": "sulfur dioxide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item sulfur dioxide (Q5282) for cells containing \"Dióxido de Azufre\" in column ObservableProperty"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "similarValue": "Monóxido de Carbono",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2025",
+      "name": "carbon monoxide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item carbon monoxide (Q2025) for cells containing \"Monóxido de Carbono\" in column ObservableProperty"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "similarValue": "Monóxido de Nitrógeno",
+    "judgment": "matched",
+    "match": {
+      "id": "Q207843",
+      "name": "nitric oxide (radical)",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item nitric oxide (radical) (Q207843) for cells containing \"Monóxido de Nitrógeno\" in column ObservableProperty"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "similarValue": "Dióxido de Nitrógeno",
+    "judgment": "matched",
+    "match": {
+      "id": "Q207895",
+      "name": "nitrogen dioxide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item nitrogen dioxide (Q207895) for cells containing \"Dióxido de Nitrógeno\" in column ObservableProperty"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "similarValue": "Óxidos de Nitrógeno",
+    "judgment": "matched",
+    "match": {
+      "id": "Q424418",
+      "name": "nitrogen oxide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item nitrogen oxide (Q424418) for cells containing \"Óxidos de Nitrógeno\" in column ObservableProperty"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "similarValue": "Partículas < 2.5 µm ",
+    "judgment": "matched",
+    "match": {
+      "id": "Q48035814",
+      "name": "PM 2.5",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item PM 2.5 (Q48035814) for cells containing \"Partículas < 2.5 µm \" in column ObservableProperty"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Partículas < Dióxido de Azufre0 µm"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Partículas < 10 µm"
+      }
+    ],
+    "description": "Mass edit cells in column ObservableProperty"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty",
+          "expression": "value",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Benceno",
+                "l": "Benceno"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "similarValue": "Benceno",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2270",
+      "name": "benzene",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item benzene (Q2270) for cells containing \"Benceno\" in column ObservableProperty"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty",
+          "expression": "value",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Etilbenceno",
+                "l": "Etilbenceno"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "similarValue": "Etilbenceno",
+    "judgment": "matched",
+    "match": {
+      "id": "Q409184",
+      "name": "ethylbenzene",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item ethylbenzene (Q409184) for cells containing \"Etilbenceno\" in column ObservableProperty"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty",
+          "expression": "value",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Hidrocarburos no metánicos (hexano)",
+                "l": "Hidrocarburos no metánicos (hexano)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "similarValue": "Hidrocarburos no metánicos (hexano)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16963326",
+      "name": "non-methane volatile organic compound",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item non-methane volatile organic compound (Q16963326) for cells containing \"Hidrocarburos no metánicos (hexano)\" in column ObservableProperty"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty",
+          "expression": "value",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Hidrocarburos totales (hexano) ",
+                "l": "Hidrocarburos totales (hexano) "
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "similarValue": "Hidrocarburos totales (hexano) ",
+    "judgment": "matched",
+    "match": {
+      "id": "Q150440",
+      "name": "hexane",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item hexane (Q150440) for cells containing \"Hidrocarburos totales (hexano) \" in column ObservableProperty"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty",
+          "expression": "value",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Metano",
+                "l": "Metano"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "similarValue": "Metano",
+    "judgment": "matched",
+    "match": {
+      "id": "Q37129",
+      "name": "methane",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item methane (Q37129) for cells containing \"Metano\" in column ObservableProperty"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty",
+          "expression": "value",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Óxidos de Nitrógeno",
+                "l": "Óxidos de Nitrógeno"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Sensor",
+    "expression": "grel:cells[\"Sensor\"].value + cells[\"observablePropertyCode\"].value + get(cells[\"dateTime\"].value, 0, 4) +  get(cells[\"dateTime\"].value, 5, 7) +  get(cells[\"dateTime\"].value, 8, 10)  +  get(cells[\"dateTime\"].value, 11, 13)\"",
+    "onError": "set-to-blank",
+    "newColumnName": "Observation",
+    "columnInsertIndex": 1,
+    "description": "Create column Observation at index 1 based on column Sensor using expression grel:cells[\"Sensor\"].value + cells[\"observablePropertyCode\"].value + get(cells[\"dateTime\"].value, 0, 4) +  get(cells[\"dateTime\"].value, 5, 7) +  get(cells[\"dateTime\"].value, 8, 10)  +  get(cells[\"dateTime\"].value, 11, 13)\""
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Observation",
+    "index": 0,
+    "description": "Move column Observation to position 0"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty",
+          "expression": "value",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tolueno",
+                "l": "Tolueno"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "similarValue": "Tolueno",
+    "judgment": "matched",
+    "match": {
+      "id": "Q15779",
+      "name": "toluene",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item toluene (Q15779) for cells containing \"Tolueno\" in column ObservableProperty"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty",
+          "expression": "value",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Partículas < 10 µm",
+                "l": "Partículas < 10 µm"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "similarValue": "Partículas < 10 µm",
+    "judgment": "matched",
+    "match": {
+      "id": "Q48035980",
+      "name": "PM 10 (excluding PM 2.5)",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item PM 10 (excluding PM 2.5) (Q48035980) for cells containing \"Partículas < 10 µm\" in column ObservableProperty"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ObservableProperty",
+          "expression": "value",
+          "columnName": "ObservableProperty",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ozono",
+                "l": "Ozono"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "ObservableProperty",
+    "similarValue": "Ozono",
+    "judgment": "matched",
+    "match": {
+      "id": "Q36933",
+      "name": "ozone",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item ozone (Q36933) for cells containing \"Ozono\" in column ObservableProperty"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "ObservableProperty",
+    "expression": "grel:\"https://wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "chemicalCompound",
+    "columnInsertIndex": 3,
+    "description": "Create column chemicalCompound at index 3 based on column ObservableProperty using expression grel:\"https://wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Observation",
+    "expression": "grel:cells[\"Sensor\"].value + cells[\"observablePropertyCode\"].value + get(cells[\"dateTime\"].value, 0, 4) +  get(cells[\"dateTime\"].value, 5, 7) +  get(cells[\"dateTime\"].value, 8, 10)  +  get(cells[\"dateTime\"].value, 11, 13)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Observation using expression grel:cells[\"Sensor\"].value + cells[\"observablePropertyCode\"].value + get(cells[\"dateTime\"].value, 0, 4) +  get(cells[\"dateTime\"].value, 5, 7) +  get(cells[\"dateTime\"].value, 8, 10)  +  get(cells[\"dateTime\"].value, 11, 13)"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "sosa",
+          "uri": "http://www.w3.org/ns/sosa/"
+        }
+      ],
+      "baseUri": "http://group17.org/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Observation",
+          "expression": "\"Observation/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/resultTime",
+              "curie": "sosa:resultTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "dateTime",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/hasSimpleResult",
+              "curie": "sosa:hasSimpleResult",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Result",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/observedProperty",
+              "curie": "sosa:observedProperty",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "ObservableProperty",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/sosa/madeBySensor",
+              "curie": "sosa:madeBySensor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Sensor",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/Observation",
+              "curie": "sosa:Observation"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ObservableProperty",
+          "expression": "\"ObservableProperty/\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "hasCode",
+              "curie": ":hasCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "observablePropertyCode",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/sosa/ObservableProperty",
+              "curie": "sosa:ObservableProperty"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]

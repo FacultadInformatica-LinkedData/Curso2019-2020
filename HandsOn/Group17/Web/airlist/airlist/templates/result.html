@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title>Airlist</title>
+    <meta name='robots' content='noindex, nofollow'>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Awesomefonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../static/css/main.css" id="colors">
+    <link rel="stylesheet" href="../static/css/results.css" id="colors">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light theme-color" style="z-index: 1">
+        <a class="navbar-brand" href="/">
+            <img src="../static/images/logo-airmad.png" height="50px" width="150px">
+        </a>
+        <form action="/street" method="GET" class="input-group">
+            <input list="streetslist" type="text" name="namestreet" class="form-control" placeholder="Busca una localización (Ejemplo: CALLE DE LA ABADA)"
+                value={{request.form.namestreet}}>
+            <datalist id="streetslist">
+                {% for street in streets %}
+                <option> {{ street }} </option>
+                {% endfor %}
+            </datalist>
+            <div class="input-group-append">
+                <button class="btn btn-secondary" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </form>
+    </nav>
+    <div class="results-data"> 
+        <div class="street-title">
+            <h2>{{ result.street.name }}</h2>
+            <p class="text-muted"><i class="fas fa-map-marker-alt" style="padding-right: 10px;"></i>A {{ result.closestSensor.distance}} km de distancia del sensor {{ result.closestSensor.id}}</p>
+        </div>
+        <div class="row" style="padding: 50px">
+                <div class="col-4">
+                    {% if result.ica.quality == 'Buena' %}
+                    <div class="qa-image" style="font-size: 24px;">
+                        <i class="far fa-laugh fa-10x ai-green"></i>
+                    </div>
+                    {% endif %}
+                    {% if result.ica.quality == 'Moderada' %}
+                    <div class="qa-image" style="font-size: 24px;">
+                        <i class="far fa-smile fa-10x ai-yellow"></i>
+                    </div>
+                    {% endif %}
+                    {% if result.ica.quality == 'Dañina a la salud para grupos sensibles' %}
+                    <div class="qa-image" style="font-size: 24px;">
+                        <i class="far fa-frown fa-10x ai-orange"></i>
+                    </div>
+                    {% endif %}
+                    {% if result.ica.quality == 'Dañina a la salud' %}
+                    <div class="qa-image" style="font-size: 24px;">
+                        <i class="far fa-frown fa-10x ai-red"></i>
+                    </div>
+                    {% endif %}
+                    {% if result.ica.quality == 'Muy dañina a la salud' %}
+                    <div class="qa-image" style="font-size: 24px;">
+                        <i class="far fa-dizzy fa-10x ai-purple"></i>
+                    </div>
+                    {% endif %}
+                    {% if result.ica.quality == 'Peligrosa' %}
+                    <div class="qa-image" style="font-size: 24px;">
+                        <i class="far fa-dizzy fa-10x ai-brown"></i>
+                    </div>
+                    {% endif %}
+                    
+                    <div style="text-align:center"><div class="result-qa">La calidad del aire es: &nbsp </div><div class="result-qa-value">{{result.ica.quality}}</div></div>
+                    <div class="ica">ICA = {{result.ica.value}}</div>
+
+   
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-4 first-row">
+                            Gas
+                        </div>
+                        <div class="col-4 first-row">
+                            Concentración (µg/m3)
+                        </div>
+                    </div>
+                    {% for gas, value in result.observations.items() %}
+                    <div class="row">
+                        <div class="col-4 result-row" style="font-weight:bold">
+                            {{ gas }}
+                        </div>
+                        <div class="col-4 result-row">
+                            {{ value }}
+                        </div>
+                    </div>
+                    {% endfor %}                     
+                   
+                </div>
+        </div>
+    </div>
+    <div class="update-box">
+            <i class="far fa-check-circle"></i> Actualizado el <span id="date"></span>
+    </div>
+    <script type="text/javascript">
+        n =  new Date();
+        y = n.getFullYear();
+        m = n.getMonth() + 1;
+        d = n.getDate();
+        document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
+    </script>
+</body>
+</html>

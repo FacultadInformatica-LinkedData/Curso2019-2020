@@ -1,0 +1,151 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns1: <http://group17.org/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+
+
+<http://group17.data/Sensor/4> a sosa:Sensor;
+  <http://group17.data/hasLocation> "273600";
+  rdfs:label "Pza. de España";
+  geo:lat "40.4238823";
+  geo:long "-3.7122567" .
+
+<http://group17.data/Sensor/8> a sosa:Sensor;
+  <http://group17.data/hasLocation> "18900";
+  rdfs:label "Escuelas Aguirre";
+  geo:lat "40.4215533";
+  geo:long "-3.6823158" .
+
+<http://group17.data/Sensor/11> a sosa:Sensor;
+  <http://group17.data/hasLocation> "610450";
+  rdfs:label "Avda. Ramón y Cajal";
+  geo:lat "40.4514734";
+  geo:long "-3.6773491" .
+
+<http://group17.data/Sensor/16> a sosa:Sensor;
+  <http://group17.data/hasLocation> "798700";
+  rdfs:label "Arturo Soria";
+  geo:lat "40.4400457";
+  geo:long "-3.6392422" .
+
+<http://group17.data/Sensor/17> a sosa:Sensor;
+  <http://group17.data/hasLocation> "417200";
+  rdfs:label "Villaverde";
+  geo:lat "40.347147";
+  geo:long "-3.7133167" .
+
+<http://group17.data/Sensor/18> a sosa:Sensor;
+  <http://group17.data/hasLocation> "1903";
+  rdfs:label "Farolillo";
+  geo:lat "40.3947825";
+  geo:long "-3.7318356" .
+
+<http://group17.data/Sensor/24> a sosa:Sensor;
+  <http://group17.data/hasLocation> "905219";
+  rdfs:label "Casa de Campo";
+  geo:lat "40.4193577";
+  geo:long "-3.7473445" .
+
+<http://group17.data/Sensor/27> a sosa:Sensor;
+  <http://group17.data/hasLocation> "425700";
+  rdfs:label "Barajas Pueblo";
+  geo:lat "40.4769179";
+  geo:long "-3.5800258" .
+
+<http://group17.data/Sensor/35> a sosa:Sensor;
+  <http://group17.data/hasLocation> "145800";
+  rdfs:label "Pza. del Carmen";
+  geo:lat "40.4192091";
+  geo:long "-3.7031662" .
+
+<http://group17.data/Sensor/36> a sosa:Sensor;
+  <http://group17.data/hasLocation> "522000";
+  rdfs:label "Moratalaz";
+  geo:lat "40.4079517";
+  geo:long "-3.6453104" .
+
+<http://group17.data/Sensor/38> a sosa:Sensor;
+  <http://group17.data/hasLocation> "554550";
+  rdfs:label "Cuatro Caminos";
+  geo:lat "40.4455439";
+  geo:long "-3.7071303" .
+
+<http://group17.data/Sensor/39> a sosa:Sensor;
+  <http://group17.data/hasLocation> "514425";
+  rdfs:label "Barrio del Pilar";
+  geo:lat "40.4782322";
+  geo:long "-3.7115364" .
+
+<http://group17.data/Sensor/40> a sosa:Sensor;
+  <http://group17.data/hasLocation> "75500";
+  rdfs:label "Vallecas";
+  geo:lat "40.3881478";
+  geo:long "-3.6515286" .
+
+<http://group17.data/Sensor/47> a sosa:Sensor;
+  <http://group17.data/hasLocation> "414800";
+  rdfs:label "Mendez Alvaro";
+  geo:lat "40.3980991";
+  geo:long "-3.6868138" .
+
+<http://group17.data/Sensor/48> a sosa:Sensor;
+  <http://group17.data/hasLocation> "401400";
+  rdfs:label "Castellana";
+  geo:lat "40.4398904";
+  geo:long "-3.6903729" .
+
+<http://group17.data/Sensor/49> a sosa:Sensor;
+  <http://group17.data/hasLocation> "905011";
+  rdfs:label "Parque del Retiro";
+  geo:lat "40.41444444444440";
+  geo:long "-3.6824999999999900" .
+
+<http://group17.data/Sensor/50> a sosa:Sensor;
+  <http://group17.data/hasLocation> "154500";
+  rdfs:label "Plaza Castilla";
+  geo:lat "40.4655841";
+  geo:long "-3.6887449" .
+
+<http://group17.data/Sensor/54> a sosa:Sensor;
+  <http://group17.data/hasLocation> "31000516";
+  rdfs:label "Ensanche de Vallecas";
+  geo:lat "40.3730118";
+  geo:long "-3.6121394" .
+
+<http://group17.data/Sensor/55> a sosa:Sensor;
+  <http://group17.data/hasLocation> "639250";
+  rdfs:label "Urb. Embajada";
+  geo:lat "40.4623628";
+  geo:long "-3.5805649" .
+
+<http://group17.data/Sensor/56> a sosa:Sensor;
+  <http://group17.data/hasLocation> "293200";
+  rdfs:label "Pza. Elíptica";
+  geo:lat "40.3850336";
+  geo:long "-3.7187679" .
+
+<http://group17.data/Sensor/57> a sosa:Sensor;
+  <http://group17.data/hasLocation> "31000002";
+  rdfs:label "Sanchinarro";
+  geo:lat "40.4942012";
+  geo:long "-3.6605173" .
+
+<http://group17.data/Sensor/58> a sosa:Sensor;
+  <http://group17.data/hasLocation> "348500";
+  rdfs:label "El Pardo";
+  geo:lat "40.5180701";
+  geo:long "-3.7746101" .
+
+<http://group17.data/Sensor/59> a sosa:Sensor;
+  <http://group17.data/hasLocation> "1111";
+  rdfs:label "Juan Carlos I";
+  geo:lat "40.4607255";
+  geo:long "-3.6163407" .
+
+<http://group17.data/Sensor/60> a sosa:Sensor;
+  <http://group17.data/hasLocation> "1427";
+  rdfs:label "Tres Olivos";
+  geo:lat "40.5005477";
+  geo:long "-3.6897308" .
