@@ -1,24 +1,25 @@
 [
   {
     "op": "core/column-removal",
-    "columnName": "CATALOGOS_IMPRESOS",
-    "description": "Remove column CATALOGOS_IMPRESOS"
+    "description": "Remove column CATALOGOS_IMPRESOS",
+    "columnName": "CATALOGOS_IMPRESOS"
   },
   {
     "op": "core/column-removal",
-    "columnName": "OBSERVACIONES",
-    "description": "Remove column OBSERVACIONES"
+    "description": "Remove column OBSERVACIONES",
+    "columnName": "OBSERVACIONES"
   },
   {
     "op": "core/column-removal",
-    "columnName": "PRESTAMO_INTERBIBLIOTECARIO",
-    "description": "Remove column PRESTAMO_INTERBIBLIOTECARIO"
+    "description": "Remove column PRESTAMO_INTERBIBLIOTECARIO",
+    "columnName": "PRESTAMO_INTERBIBLIOTECARIO"
   },
   {
     "op": "core/column-split",
+    "description": "Split column NOMBRE by separator",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+      "mode": "row-based",
+      "facets": []
     },
     "columnName": "NOMBRE",
     "guessCellType": true,
@@ -26,30 +27,30 @@
     "mode": "separator",
     "separator": "(",
     "regex": false,
-    "maxColumns": 0,
-    "description": "Split column NOMBRE by separator"
+    "maxColumns": 0
   },
   {
     "op": "core/column-removal",
-    "columnName": "NOMBRE 2",
-    "description": "Remove column NOMBRE 2"
+    "description": "Remove column NOMBRE 2",
+    "columnName": "NOMBRE 2"
   },
   {
     "op": "core/column-removal",
-    "columnName": "NOMBRE 3",
-    "description": "Remove column NOMBRE 3"
+    "description": "Remove column NOMBRE 3",
+    "columnName": "NOMBRE 3"
   },
   {
     "op": "core/column-rename",
+    "description": "Rename column NOMBRE 1 to NOMBRE",
     "oldColumnName": "NOMBRE 1",
-    "newColumnName": "NOMBRE",
-    "description": "Rename column NOMBRE 1 to NOMBRE"
+    "newColumnName": "NOMBRE"
   },
   {
     "op": "core/column-split",
+    "description": "Split column INSTITUCION by separator",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+      "mode": "row-based",
+      "facets": []
     },
     "columnName": "INSTITUCION",
     "guessCellType": true,
@@ -57,185 +58,4228 @@
     "mode": "separator",
     "separator": "(",
     "regex": false,
-    "maxColumns": 0,
-    "description": "Split column INSTITUCION by separator"
+    "maxColumns": 0
   },
   {
     "op": "core/column-removal",
-    "columnName": "INSTITUCION 2",
-    "description": "Remove column INSTITUCION 2"
+    "description": "Remove column INSTITUCION 2",
+    "columnName": "INSTITUCION 2"
   },
   {
     "op": "core/column-rename",
+    "description": "Rename column INSTITUCION 1 to INSTITUCION",
     "oldColumnName": "INSTITUCION 1",
-    "newColumnName": "INSTITUCION",
-    "description": "Rename column INSTITUCION 1 to INSTITUCION"
+    "newColumnName": "INSTITUCION"
   },
   {
     "op": "core/text-transform",
+    "description": "Text transform on cells in column CODIGO using expression value.trim()",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+      "mode": "row-based",
+      "facets": []
     },
     "columnName": "CODIGO",
     "expression": "value.trim()",
     "onError": "keep-original",
     "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column CODIGO using expression value.trim()"
+    "repeatCount": 10
   },
   {
     "op": "core/text-transform",
+    "description": "Text transform on cells in column CODIGO using expression value.trim()",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+      "mode": "row-based",
+      "facets": []
     },
     "columnName": "CODIGO",
     "expression": "value.trim()",
     "onError": "keep-original",
     "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column CODIGO using expression value.trim()"
+    "repeatCount": 10
   },
   {
     "op": "core/text-transform",
+    "description": "Text transform on cells in column CODIGO using expression value.toString()",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+      "mode": "row-based",
+      "facets": []
     },
     "columnName": "CODIGO",
     "expression": "value.toString()",
     "onError": "keep-original",
     "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column CODIGO using expression value.toString()"
+    "repeatCount": 10
   },
   {
     "op": "core/column-removal",
-    "columnName": "TRANSPORTE",
-    "description": "Remove column TRANSPORTE"
+    "description": "Remove column TRANSPORTE",
+    "columnName": "TRANSPORTE"
   },
   {
     "op": "core/column-rename",
+    "description": "Rename column AÑO_FUNDACION to FECHA_FUNDACION",
     "oldColumnName": "AÑO_FUNDACION",
-    "newColumnName": "FECHA_FUNDACION",
-    "description": "Rename column AÑO_FUNDACION to FECHA_FUNDACION"
+    "newColumnName": "FECHA_FUNDACION"
   },
   {
     "op": "core/text-transform",
+    "description": "Text transform on cells in column FECHA_FUNDACION using expression value.toNumber()",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+      "mode": "row-based",
+      "facets": []
     },
     "columnName": "FECHA_FUNDACION",
     "expression": "value.toNumber()",
     "onError": "keep-original",
     "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column FECHA_FUNDACION using expression value.toNumber()"
+    "repeatCount": 10
   },
   {
     "op": "core/text-transform",
+    "description": "Text transform on cells in column PROVINCIA using expression value.toString()",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+      "mode": "row-based",
+      "facets": []
     },
     "columnName": "PROVINCIA",
     "expression": "value.toString()",
     "onError": "keep-original",
     "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column PROVINCIA using expression value.toString()"
+    "repeatCount": 10
   },
   {
     "op": "core/text-transform",
+    "description": "Text transform on cells in column NOMBRE using expression value.trim()",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+      "mode": "row-based",
+      "facets": []
     },
     "columnName": "NOMBRE",
     "expression": "value.trim()",
     "onError": "keep-original",
     "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column NOMBRE using expression value.trim()"
+    "repeatCount": 10
   },
   {
     "op": "core/text-transform",
+    "description": "Text transform on cells in column INSTITUCION using expression value.trim()",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+      "mode": "row-based",
+      "facets": []
     },
     "columnName": "INSTITUCION",
     "expression": "value.trim()",
     "onError": "keep-original",
     "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column INSTITUCION using expression value.trim()"
+    "repeatCount": 10
   },
   {
     "op": "core/text-transform",
+    "description": "Text transform on cells in column DIRECCION using expression value.toString()",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+      "mode": "row-based",
+      "facets": []
     },
     "columnName": "DIRECCION",
     "expression": "value.toString()",
     "onError": "keep-original",
     "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column DIRECCION using expression value.toString()"
+    "repeatCount": 10
   },
   {
     "op": "core/text-transform",
+    "description": "Text transform on cells in column DIRECCION using expression value.trim()",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+      "mode": "row-based",
+      "facets": []
     },
     "columnName": "DIRECCION",
     "expression": "value.trim()",
     "onError": "keep-original",
     "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column DIRECCION using expression value.trim()"
+    "repeatCount": 10
   },
   {
     "op": "core/text-transform",
+    "description": "Text transform on cells in column CODIGO_POSTAL using expression value.trim()",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+      "mode": "row-based",
+      "facets": []
     },
     "columnName": "CODIGO_POSTAL",
     "expression": "value.trim()",
     "onError": "keep-original",
     "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column CODIGO_POSTAL using expression value.trim()"
+    "repeatCount": 10
   },
   {
     "op": "core/text-transform",
+    "description": "Text transform on cells in column INSTITUCION using expression value.toString()",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+      "mode": "row-based",
+      "facets": []
     },
     "columnName": "INSTITUCION",
     "expression": "value.toString()",
     "onError": "keep-original",
     "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column INSTITUCION using expression value.toString()"
+    "repeatCount": 10
   },
   {
     "op": "core/text-transform",
+    "description": "Text transform on cells in column CODIGO using expression value.toNumber()",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+      "mode": "row-based",
+      "facets": []
     },
     "columnName": "CODIGO",
     "expression": "value.toNumber()",
     "onError": "keep-original",
     "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column CODIGO using expression value.toNumber()"
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion",
+              "curie": "biblio:institucion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#direccion",
+              "curie": "biblio:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#codigo_postal",
+              "curie": "biblio:codigo_postal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#fecha_fundacion",
+              "curie": "biblio:fecha_fundacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "FECHA_FUNDACION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#horario",
+              "curie": "biblio:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_acceso",
+              "curie": "biblio:tipo_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#notas_acceso",
+              "curie": "biblio:notas_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOTAS_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca",
+              "curie": "biblio:tipo_biblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_BIBLIOTECA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_dependencia",
+              "curie": "biblio:tipo_dependencia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_DEPENDENCIA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion",
+              "curie": "biblio:institucion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#direccion",
+              "curie": "biblio:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#codigo_postal",
+              "curie": "biblio:codigo_postal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#fecha_fundacion",
+              "curie": "biblio:fecha_fundacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "FECHA_FUNDACION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#horario",
+              "curie": "biblio:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_acceso",
+              "curie": "biblio:tipo_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#notas_acceso",
+              "curie": "biblio:notas_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOTAS_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca",
+              "curie": "biblio:tipo_biblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_BIBLIOTECA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_dependencia",
+              "curie": "biblio:tipo_dependencia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_DEPENDENCIA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion",
+              "curie": "biblio:institucion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#direccion",
+              "curie": "biblio:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#codigo_postal",
+              "curie": "biblio:codigo_postal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#fecha_fundacion",
+              "curie": "biblio:fecha_fundacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "FECHA_FUNDACION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#horario",
+              "curie": "biblio:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_acceso",
+              "curie": "biblio:tipo_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#notas_acceso",
+              "curie": "biblio:notas_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOTAS_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca",
+              "curie": "biblio:tipo_biblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_BIBLIOTECA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_dependencia",
+              "curie": "biblio:tipo_dependencia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_DEPENDENCIA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion",
+              "curie": "biblio:institucion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#direccion",
+              "curie": "biblio:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#codigo_postal",
+              "curie": "biblio:codigo_postal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#fecha_fundacion",
+              "curie": "biblio:fecha_fundacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "FECHA_FUNDACION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#horario",
+              "curie": "biblio:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_acceso",
+              "curie": "biblio:tipo_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#notas_acceso",
+              "curie": "biblio:notas_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOTAS_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca",
+              "curie": "biblio:tipo_biblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_BIBLIOTECA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_dependencia",
+              "curie": "biblio:tipo_dependencia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_DEPENDENCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio",
+              "curie": "biblio:Municipio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia",
+              "curie": "biblio:Provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_Autonoma",
+              "curie": "biblio:Comunidad_Autonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COMUNIDAD_AUTONOMA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais",
+              "curie": "biblio:Pais",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion",
+              "curie": "biblio:institucion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#direccion",
+              "curie": "biblio:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#codigo_postal",
+              "curie": "biblio:codigo_postal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#fecha_fundacion",
+              "curie": "biblio:fecha_fundacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "FECHA_FUNDACION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#horario",
+              "curie": "biblio:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_acceso",
+              "curie": "biblio:tipo_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#notas_acceso",
+              "curie": "biblio:notas_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOTAS_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca",
+              "curie": "biblio:tipo_biblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_BIBLIOTECA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_dependencia",
+              "curie": "biblio:tipo_dependencia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_DEPENDENCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio",
+              "curie": "biblio:Municipio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia",
+              "curie": "biblio:Provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_Autonoma",
+              "curie": "biblio:Comunidad_Autonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COMUNIDAD_AUTONOMA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais",
+              "curie": "biblio:Pais",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion",
+              "curie": "biblio:institucion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#direccion",
+              "curie": "biblio:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#codigo_postal",
+              "curie": "biblio:codigo_postal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#fecha_fundacion",
+              "curie": "biblio:fecha_fundacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "FECHA_FUNDACION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#horario",
+              "curie": "biblio:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_acceso",
+              "curie": "biblio:tipo_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#notas_acceso",
+              "curie": "biblio:notas_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOTAS_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca",
+              "curie": "biblio:tipo_biblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_BIBLIOTECA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_dependencia",
+              "curie": "biblio:tipo_dependencia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_DEPENDENCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio",
+              "curie": "biblio:Municipio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia",
+              "curie": "biblio:Provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_Autonoma",
+              "curie": "biblio:Comunidad_Autonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COMUNIDAD_AUTONOMA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais",
+              "curie": "biblio:Pais",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column LOCALIDAD to type Q515",
+    "columnName": "LOCALIDAD",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q515",
+        "name": "city"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column PAIS to type Q6256",
+    "columnName": "PAIS",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q6256",
+        "name": "country"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column COMUNIDAD_AUTONOMA to type Q10742",
+    "columnName": "COMUNIDAD_AUTONOMA",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10742",
+        "name": "autonomous community of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column PROVINCIA to type Q162620",
+    "columnName": "PROVINCIA",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q162620",
+        "name": "province of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column PROVINCIA to type Q162620",
+    "columnName": "PROVINCIA",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q162620",
+        "name": "province of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column COMUNIDAD_AUTONOMA to type Q10742",
+    "columnName": "COMUNIDAD_AUTONOMA",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10742",
+        "name": "autonomous community of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column PAIS to type Q6256",
+    "columnName": "PAIS",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q6256",
+        "name": "country"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column LOCALIDAD to type Q515",
+    "columnName": "LOCALIDAD",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q515",
+        "name": "city"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column INSTITUCION to type Q5193377",
+    "columnName": "INSTITUCION",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q5193377",
+        "name": "cultural institution"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column LOCALIDAD to type Q515",
+    "columnName": "LOCALIDAD",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q515",
+        "name": "city"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column PROVINCIA to type Q162620",
+    "columnName": "PROVINCIA",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q162620",
+        "name": "province of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column INSTITUCION to type Q5193377",
+    "columnName": "INSTITUCION",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q5193377",
+        "name": "cultural institution"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column LOCALIDAD to type Q515",
+    "columnName": "LOCALIDAD",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q515",
+        "name": "city"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column LOCALIDAD to type Q515",
+    "columnName": "LOCALIDAD",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q515",
+        "name": "city"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Ireland (Q22890) for cells containing \"Irlanda\" in column PAIS",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PAIS",
+    "similarValue": "Irlanda",
+    "judgment": "matched",
+    "match": {
+      "id": "Q22890",
+      "name": "Ireland",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Austria (Q40) for cells containing \"Austria\" in column PAIS",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PAIS",
+    "similarValue": "Austria",
+    "judgment": "matched",
+    "match": {
+      "id": "Q40",
+      "name": "Austria",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item France (Q142) for cells containing \"Francia\" in column PAIS",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PAIS",
+    "similarValue": "Francia",
+    "judgment": "matched",
+    "match": {
+      "id": "Q142",
+      "name": "France",
+      "score": 100,
+      "types": [
+        "Q3624078",
+        "Q6256",
+        "Q20181813",
+        "Q51576574"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Italy (Q38) for cells containing \"Italia\" in column PAIS",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PAIS",
+    "similarValue": "Italia",
+    "judgment": "matched",
+    "match": {
+      "id": "Q38",
+      "name": "Italy",
+      "score": 100,
+      "types": [
+        "Q3624078",
+        "Q6256",
+        "Q619610",
+        "Q179164",
+        "Q7270",
+        "Q51576574"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Russia (Q159) for cells containing \"Rusia, Federación de\" in column PAIS",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PAIS",
+    "similarValue": "Rusia, Federación de",
+    "judgment": "matched",
+    "match": {
+      "id": "Q159",
+      "name": "Russia",
+      "score": 95,
+      "types": [
+        "Q3624078",
+        "Q859563",
+        "Q4209223",
+        "Q619610",
+        "Q185145",
+        "Q6256",
+        "Q1323642"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Netherlands (Q55) for cells containing \"Países Bajos\" in column PAIS",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PAIS",
+    "similarValue": "Países Bajos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q55",
+      "name": "Netherlands",
+      "score": 100,
+      "types": [
+        "Q15304003",
+        "Q6256"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Romania (Q218) for cells containing \"Rumanía\" in column PAIS",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PAIS",
+    "similarValue": "Rumanía",
+    "judgment": "matched",
+    "match": {
+      "id": "Q218",
+      "name": "Romania",
+      "score": 100,
+      "types": [
+        "Q3624078",
+        "Q6256"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item China (Q29520) for cells containing \"China\" in column PAIS",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PAIS",
+    "similarValue": "China",
+    "judgment": "matched",
+    "match": {
+      "id": "Q29520",
+      "name": "China",
+      "score": 100,
+      "types": [
+        "Q3502482",
+        "Q11396118"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column INSTITUCION to type Q5193377",
+    "columnName": "INSTITUCION",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q5193377",
+        "name": "cultural institution"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column LOCALIDAD_WIKIDATA at index 6 based on column LOCALIDAD using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "LOCALIDAD_WIKIDATA",
+    "columnInsertIndex": 6,
+    "baseColumnName": "LOCALIDAD",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Manchester (Q18125) for cells containing \"Mánchester\" in column LOCALIDAD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LOCALIDAD",
+    "similarValue": "Mánchester",
+    "judgment": "matched",
+    "match": {
+      "id": "Q18125",
+      "name": "Manchester",
+      "score": 100,
+      "types": [
+        "Q515"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LOCALIDAD_WIKIDATA",
+    "columnName": "LOCALIDAD_WIKIDATA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Dublin (Q1761) for cells containing \"Dublín\" in column LOCALIDAD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LOCALIDAD",
+    "similarValue": "Dublín",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1761",
+      "name": "Dublin",
+      "score": 100,
+      "types": [
+        "Q5119",
+        "Q1549591",
+        "Q13455645"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Munich (Q1726) for cells containing \"Munich\" in column LOCALIDAD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LOCALIDAD",
+    "similarValue": "Munich",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1726",
+      "name": "Munich",
+      "score": 100,
+      "types": [
+        "Q515",
+        "Q1187811",
+        "Q1549591",
+        "Q1180262",
+        "Q14784328",
+        "Q22865",
+        "Q200250",
+        "Q1066984",
+        "Q262166",
+        "Q42744322"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Paris (Q90) for cells containing \"París\" in column LOCALIDAD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LOCALIDAD",
+    "similarValue": "París",
+    "judgment": "matched",
+    "match": {
+      "id": "Q90",
+      "name": "Paris",
+      "score": 100,
+      "types": [
+        "Q5119",
+        "Q22927616",
+        "Q6465",
+        "Q866196",
+        "Q1549591",
+        "Q1637706",
+        "Q208511"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column LOCALIDAD_WIKIDATA at index 6 based on column LOCALIDAD using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "LOCALIDAD_WIKIDATA",
+    "columnInsertIndex": 6,
+    "baseColumnName": "LOCALIDAD",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column PROVINCIA_WIKIDATA at index 8 based on column PROVINCIA using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "PROVINCIA_WIKIDATA",
+    "columnInsertIndex": 8,
+    "baseColumnName": "PROVINCIA",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column COMUNIDAD_AUTONOMA_WIKIDATA at index 10 based on column COMUNIDAD_AUTONOMA using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "COMUNIDAD_AUTONOMA_WIKIDATA",
+    "columnInsertIndex": 10,
+    "baseColumnName": "COMUNIDAD_AUTONOMA",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column PAIS_WIKIDATA at index 12 based on column PAIS using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "PAIS_WIKIDATA",
+    "columnInsertIndex": 12,
+    "baseColumnName": "PAIS",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match item Instituto Cervantes (Q165715) for cells containing \"Instituto Cervantes\" in column INSTITUCION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "INSTITUCION",
+    "similarValue": "Instituto Cervantes",
+    "judgment": "matched",
+    "match": {
+      "id": "Q165715",
+      "name": "Instituto Cervantes",
+      "score": 100,
+      "types": [
+        "Q5193377"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column INSTITUCION_WIKIDATA at index 3 based on column INSTITUCION using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "INSTITUCION_WIKIDATA",
+    "columnInsertIndex": 3,
+    "baseColumnName": "INSTITUCION",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion",
+              "curie": "biblio:institucion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#direccion",
+              "curie": "biblio:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#codigo_postal",
+              "curie": "biblio:codigo_postal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#fecha_fundacion",
+              "curie": "biblio:fecha_fundacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "FECHA_FUNDACION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#horario",
+              "curie": "biblio:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_acceso",
+              "curie": "biblio:tipo_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#notas_acceso",
+              "curie": "biblio:notas_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOTAS_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca",
+              "curie": "biblio:tipo_biblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_BIBLIOTECA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_dependencia",
+              "curie": "biblio:tipo_dependencia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_DEPENDENCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio",
+              "curie": "biblio:Municipio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia",
+              "curie": "biblio:Provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_Autonoma",
+              "curie": "biblio:Comunidad_Autonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COMUNIDAD_AUTONOMA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais",
+              "curie": "biblio:Pais",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion",
+              "curie": "biblio:institucion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#direccion",
+              "curie": "biblio:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#codigo_postal",
+              "curie": "biblio:codigo_postal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#fecha_fundacion",
+              "curie": "biblio:fecha_fundacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "FECHA_FUNDACION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#horario",
+              "curie": "biblio:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_acceso",
+              "curie": "biblio:tipo_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#notas_acceso",
+              "curie": "biblio:notas_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOTAS_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca",
+              "curie": "biblio:tipo_biblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_BIBLIOTECA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_dependencia",
+              "curie": "biblio:tipo_dependencia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_DEPENDENCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio",
+              "curie": "biblio:Municipio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia",
+              "curie": "biblio:Provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_Autonoma",
+              "curie": "biblio:Comunidad_Autonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COMUNIDAD_AUTONOMA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais",
+              "curie": "biblio:Pais",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion_wikidata",
+              "curie": "biblio:institucion_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion",
+              "curie": "biblio:institucion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#direccion",
+              "curie": "biblio:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#codigo_postal",
+              "curie": "biblio:codigo_postal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#fecha_fundacion",
+              "curie": "biblio:fecha_fundacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "FECHA_FUNDACION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#horario",
+              "curie": "biblio:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_acceso",
+              "curie": "biblio:tipo_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#notas_acceso",
+              "curie": "biblio:notas_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOTAS_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca",
+              "curie": "biblio:tipo_biblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_BIBLIOTECA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_dependencia",
+              "curie": "biblio:tipo_dependencia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_DEPENDENCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio",
+              "curie": "biblio:Municipio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia",
+              "curie": "biblio:Provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_Autonoma",
+              "curie": "biblio:Comunidad_Autonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COMUNIDAD_AUTONOMA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais",
+              "curie": "biblio:Pais",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion_wikidata",
+              "curie": "biblio:institucion_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion",
+              "curie": "biblio:institucion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#direccion",
+              "curie": "biblio:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#codigo_postal",
+              "curie": "biblio:codigo_postal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#fecha_fundacion",
+              "curie": "biblio:fecha_fundacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "FECHA_FUNDACION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#horario",
+              "curie": "biblio:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_acceso",
+              "curie": "biblio:tipo_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#notas_acceso",
+              "curie": "biblio:notas_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOTAS_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca",
+              "curie": "biblio:tipo_biblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_BIBLIOTECA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_dependencia",
+              "curie": "biblio:tipo_dependencia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_DEPENDENCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio",
+              "curie": "biblio:Municipio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia",
+              "curie": "biblio:Provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_Autonoma",
+              "curie": "biblio:Comunidad_Autonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COMUNIDAD_AUTONOMA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais",
+              "curie": "biblio:Pais",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion_wikidata",
+              "curie": "biblio:institucion_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio_wikidata",
+              "curie": "biblio:Municipio_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais_wikidata",
+              "curie": "biblio:Pais_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion",
+              "curie": "biblio:institucion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#direccion",
+              "curie": "biblio:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#codigo_postal",
+              "curie": "biblio:codigo_postal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#fecha_fundacion",
+              "curie": "biblio:fecha_fundacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "FECHA_FUNDACION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#horario",
+              "curie": "biblio:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_acceso",
+              "curie": "biblio:tipo_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#notas_acceso",
+              "curie": "biblio:notas_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOTAS_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca",
+              "curie": "biblio:tipo_biblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_BIBLIOTECA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_dependencia",
+              "curie": "biblio:tipo_dependencia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_DEPENDENCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio",
+              "curie": "biblio:Municipio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia",
+              "curie": "biblio:Provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_Autonoma",
+              "curie": "biblio:Comunidad_Autonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COMUNIDAD_AUTONOMA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais",
+              "curie": "biblio:Pais",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion_wikidata",
+              "curie": "biblio:institucion_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio_wikidata",
+              "curie": "biblio:Municipio_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais_wikidata",
+              "curie": "biblio:Pais_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion",
+              "curie": "biblio:institucion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#direccion",
+              "curie": "biblio:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#codigo_postal",
+              "curie": "biblio:codigo_postal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#fecha_fundacion",
+              "curie": "biblio:fecha_fundacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "FECHA_FUNDACION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#horario",
+              "curie": "biblio:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_acceso",
+              "curie": "biblio:tipo_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#notas_acceso",
+              "curie": "biblio:notas_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOTAS_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca",
+              "curie": "biblio:tipo_biblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_BIBLIOTECA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_dependencia",
+              "curie": "biblio:tipo_dependencia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_DEPENDENCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio",
+              "curie": "biblio:Municipio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia",
+              "curie": "biblio:Provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_Autonoma",
+              "curie": "biblio:Comunidad_Autonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COMUNIDAD_AUTONOMA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais",
+              "curie": "biblio:Pais",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion_wikidata",
+              "curie": "biblio:institucion_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio_wikidata",
+              "curie": "biblio:Municipio_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais_wikidata",
+              "curie": "biblio:Pais_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia_wikidata",
+              "curie": "biblio:Provincia_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_wikidata",
+              "curie": "biblio:Comunidad_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": true,
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion",
+              "curie": "biblio:institucion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#direccion",
+              "curie": "biblio:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#codigo_postal",
+              "curie": "biblio:codigo_postal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#fecha_fundacion",
+              "curie": "biblio:fecha_fundacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "FECHA_FUNDACION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#horario",
+              "curie": "biblio:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_acceso",
+              "curie": "biblio:tipo_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#notas_acceso",
+              "curie": "biblio:notas_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOTAS_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca",
+              "curie": "biblio:tipo_biblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_BIBLIOTECA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_dependencia",
+              "curie": "biblio:tipo_dependencia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_DEPENDENCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio",
+              "curie": "biblio:Municipio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia",
+              "curie": "biblio:Provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_Autonoma",
+              "curie": "biblio:Comunidad_Autonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COMUNIDAD_AUTONOMA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais",
+              "curie": "biblio:Pais",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion_wikidata",
+              "curie": "biblio:institucion_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio_wikidata",
+              "curie": "biblio:Municipio_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais_wikidata",
+              "curie": "biblio:Pais_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia_wikidata",
+              "curie": "biblio:Provincia_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_wikidata",
+              "curie": "biblio:Comunidad_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": true,
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion",
+              "curie": "biblio:institucion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#direccion",
+              "curie": "biblio:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#codigo_postal",
+              "curie": "biblio:codigo_postal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#fecha_fundacion",
+              "curie": "biblio:fecha_fundacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "FECHA_FUNDACION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#horario",
+              "curie": "biblio:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_acceso",
+              "curie": "biblio:tipo_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#notas_acceso",
+              "curie": "biblio:notas_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOTAS_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca",
+              "curie": "biblio:tipo_biblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_BIBLIOTECA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_dependencia",
+              "curie": "biblio:tipo_dependencia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_DEPENDENCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio",
+              "curie": "biblio:Municipio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia",
+              "curie": "biblio:Provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_Autonoma",
+              "curie": "biblio:Comunidad_Autonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COMUNIDAD_AUTONOMA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais",
+              "curie": "biblio:Pais",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion_wikidata",
+              "curie": "biblio:institucion_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio_wikidata",
+              "curie": "biblio:Municipio_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais_wikidata",
+              "curie": "biblio:Pais_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia_wikidata",
+              "curie": "biblio:Provincia_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_wikidata",
+              "curie": "biblio:Comunidad_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": true,
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.spanishlibraries.es/group09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "biblio",
+          "uri": "http://www.spanishlibraries.es/group09/ontology#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CODIGO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Biblioteca",
+              "curie": "biblio:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#nombre",
+              "curie": "biblio:nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion",
+              "curie": "biblio:institucion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#direccion",
+              "curie": "biblio:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#codigo_postal",
+              "curie": "biblio:codigo_postal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO_POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#fecha_fundacion",
+              "curie": "biblio:fecha_fundacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "FECHA_FUNDACION"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#horario",
+              "curie": "biblio:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_acceso",
+              "curie": "biblio:tipo_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#notas_acceso",
+              "curie": "biblio:notas_acceso",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOTAS_ACCESO"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_biblioteca",
+              "curie": "biblio:tipo_biblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_BIBLIOTECA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#tipo_dependencia",
+              "curie": "biblio:tipo_dependencia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO_DEPENDENCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio",
+              "curie": "biblio:Municipio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia",
+              "curie": "biblio:Provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_Autonoma",
+              "curie": "biblio:Comunidad_Autonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COMUNIDAD_AUTONOMA"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais",
+              "curie": "biblio:Pais",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS"
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#institucion_wikidata",
+              "curie": "biblio:institucion_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INSTITUCION_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Municipio_wikidata",
+              "curie": "biblio:Municipio_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Pais_wikidata",
+              "curie": "biblio:Pais_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PAIS_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Provincia_wikidata",
+              "curie": "biblio:Provincia_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA_WIKIDATA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.spanishlibraries.es/group09/ontology#Comunidad_wikidata",
+              "curie": "biblio:Comunidad_wikidata",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": true,
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
   }
 ]
