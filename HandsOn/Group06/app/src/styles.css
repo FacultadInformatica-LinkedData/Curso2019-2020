@@ -1,0 +1,20 @@
+body {
+  background-color: hsl(0, 0%, 90%);
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.leaflet-container {
+  height: 500px;
+  width: 600px;
+  margin: 0 auto;
+  cursor: context-menu !important;
+}
+.leaflet-marker-icon:hover {
+  cursor: pointer !important;
+}
+.MuiTypography-body2 {
+  padding: 0 20px !important;
+  text-align: justify;
+}
