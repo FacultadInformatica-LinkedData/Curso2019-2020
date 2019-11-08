@@ -1,0 +1,2176 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cr: <http://www.localizacion.es/ontology/localizacion#> .
+
+<http://www.culturalrace.es/resource/13947> a cr:monuments;
+  cr:barrio "Cortes";
+  cr:cp "28014"^^xsd:int;
+  cr:description "El Banco de España es el banco central nacional y, en el marco del Mecanismo Único de Supervisión (MUS)  el supervisor del sistema bancario español junta al Banco Centra Europeo. Su actividad está regulada por la Ley de Autonomía del Banco de España.";
+  cr:distrito "Centro";
+  cr:horario "De lunes a viernes: 8.30 a 14.00 horas. Sábados, domingos y festivos: cerrado.";
+  cr:latitud "40.4188339187439";
+  cr:longitud "-3.69482107480432";
+  cr:nombre "Banco de España";
+  cr:telefono "913 385 000 (centralita)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Banco de España (línea 2).Bus: 10, 34, 5, 9, 51, 52, 53, 146, 150, 1, 2, 15, 20, 74, 203, 14, 27, 37, 45, 46.";
+  cr:via "Alcala";
+  owl:image "Madrid_-_Metro_-_Estación_de_Banco_de_España_(7187847138).jpg" .
+
+<http://www.culturalrace.es/resource/Banco+de+Espa%C3%B1a> owl:sameAs <https://www.wikidata.org/wiki/Q2481227> .
+
+<http://www.culturalrace.es/resource/3371> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28005"^^xsd:int;
+  cr:distrito "Centro";
+  cr:latitud "40.414203159177625";
+  cr:longitud "-3.7096715906562716";
+  cr:nombre "Basílica Pontificia de San Miguel";
+  cr:telefono "915 484 011";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Sol (líneas 1, 2 y 3), Tirso de Molina (línea 1), La Latina (línea 5)Renfe: Sol (líneas 3 y 4)Bus: 3, 17, 18, 23, 31, 35, 50, 65, 148";
+  cr:via "San Justo";
+  owl:image "Basílica_of_San_Miguel.jpg" .
+
+<http://www.culturalrace.es/resource/Bas%C3%ADlica+Pontificia+de+San+Miguel> owl:sameAs
+    <https://www.wikidata.org/wiki/Q4407295> .
+
+<http://www.culturalrace.es/resource/1744> a cr:monuments;
+  cr:barrio "Recoletos";
+  cr:cp "28001"^^xsd:int;
+  cr:description "Fundada por Felipe V en 1712 como Biblioteca Pública de Palacio. En 1836 dejó de ser propiedad de la Corona y pasó a depender del Ministerio de la Gobernación y recibió por primera vez el nombre de Biblioteca Nacional y en 1896 se abrió al público.";
+  cr:distrito "Salamanca";
+  cr:horario "Salas de lectura y servicios: de lunes a viernes, de 9 a 21 horas.Consultar días de cierre.";
+  cr:latitud "40.423001908945956";
+  cr:longitud "-3.69084423390357";
+  cr:nombre "Biblioteca Nacional de España";
+  cr:telefono "915 807 800 (Centralita) / 915 807 823 /  915 807 805 (Información)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Colón, (línea 4), Retiro (Línea 2)Bus: 5, 14, 27, 45, 53, 150, 37, 21, 1, 9, 19, 51, 74Cercanías Renfe: Recoletos (líneas C1, C2, C7, C8  y C10)Bicimad: Estación 94 (Paseo Recoletos, 32-34)";
+  cr:via "Recoletos";
+  owl:image "Biblioteca-Nacional-271112.jpg" .
+
+<http://www.culturalrace.es/resource/Biblioteca+Nacional+de+Espa%C3%B1a> owl:sameAs
+    <https://www.wikidata.org/wiki/Q6057871> .
+
+<http://www.culturalrace.es/resource/14211> a cr:monuments;
+  cr:barrio "Los Jeronimos";
+  cr:cp "28014"^^xsd:int;
+  cr:description "Visitas guiadas al Palacio de la Bolsa Todos los días laborables, en horario de mañana, la Bolsa de Madrid abre sus puertas al público para que puedan recorrer el Palacio de la Bolsa. Todas las visitas son guiadas por personal de la Bolsa de Madrid, con objeto de poder aclarar las preguntas del público, ofreciendo así una visita dinámica y participativa.La visita tiene una duración aproximada de 60 minutos. Visitas individuales Todos los Jueves a las 12 horas.Reservas: visitas@grupobme.es  Visitas de grupos Centros de Bachiller (colegios, Institutos, etc).Otros grupos: profesionales, universidades, centros de formación profesional, asociaciones, etc. Horario: Desde las 10 horas de lunes a viernesGrupos de 30 personas como máximo.Edad mínima: 16 años.";
+  cr:distrito "Retiro";
+  cr:email "infobolsamadrid@grupobme.es";
+  cr:latitud "40.41688576337496";
+  cr:longitud "-3.692184322678944";
+  cr:nombre "Bolsa de Madrid";
+  cr:telefono "917 095 000 / 915 891 184 (Protector del inversor)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Banco de España (línea 2).Bus: 203, 10, 14, 27, 34, 37, 45.Bicimad: Estación 65 (calle Antonio Maura, 15).";
+  cr:via "Lealtad";
+  owl:image "Bolsa_de_Madrid_edited.jpg" .
+
+<http://www.culturalrace.es/resource/Bolsa+de+Madrid> owl:sameAs <https://www.wikidata.org/wiki/Q3361062> .
+
+<http://www.culturalrace.es/resource/1956> a cr:monuments;
+  cr:barrio "Recoletos";
+  cr:cp "28014"^^xsd:int;
+  cr:description "Antiguo Palacio de Linares, diseñado por Carlos Colubí en 1872.De estilo rococó, destaca la escalera de mármol de Manuel Aníbal Álvarez y toda la decoración interior.";
+  cr:distrito "Salamanca";
+  cr:horario "Punto de información: Lunes a viernes de 9 a 15 y de 16 a 20:30 horas. Exposiciones (Salas Frida Khalo y Diego Rivera): Lunes a viernes de 11 a 19:30 horas, sábados de 11 a 15 horas. Domingos cerrado. Restaurante y cafetería: Consultar pestaña 'Servicios'.";
+  cr:latitud "40.41975904857138";
+  cr:longitud "-3.692284495888486";
+  cr:nombre "Casa de América";
+  cr:telefono "915 954 800 (información)";
+  cr:tipo "/contenido/entidadesYorganismos/Consorcios";
+  cr:transporte "Metro: Banco de España (línea 2).Bus: 5, 14, 27, 37, 45, 53, 150, 1, 2, 9, 15, 20, 51, 52, 74, 146, 203, 34, 10.Cercanías Renfe: Recoletos (líneas C1, C2, C7, C10 y Regional).Bicimad: Estación 86 (Paseo del Prado 1).";
+  cr:via "Cibeles";
+  owl:image "Palacio_de_Linares,_Plaza_de_Cibeles,_Madrid.jpg" .
+
+<http://www.culturalrace.es/resource/Casa+de+Am%C3%A9rica> owl:sameAs <https://www.wikidata.org/wiki/Q2628455> .
+
+<http://www.culturalrace.es/resource/20363> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28005"^^xsd:int;
+  cr:description "Es uno de los pocos palacios renacentistas del siglo XVI conservados en Madrid, aunque con muchas modificaciones.";
+  cr:distrito "Centro";
+  cr:latitud "40.41490075227339";
+  cr:longitud "-3.7105039839947347";
+  cr:nombre "Casa de Cisneros";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Sol (líneas 1, 2, 3), Ópera (líneas R, 2, 5)Bus: 3, 5, 20, 25, 33, 39, 50, 51, 52, 53, 150";
+  cr:via "Villa";
+  owl:image "Casa_de_Cisneros_(Madrid)_02.jpg" .
+
+<http://www.culturalrace.es/resource/Casa+de+Cisneros> owl:sameAs <https://www.wikidata.org/wiki/Q5754790> .
+
+<http://www.culturalrace.es/resource/20375> a cr:monuments;
+  cr:barrio "Sol";
+  cr:cp "28012"^^xsd:int;
+  cr:description "Iniciada por Diego Sillero en 1590 para el gremio del pan, será acabada y transformada en 1617 por Gómez de Mora al integrarla en el conjunto de la Plaza Mayor. La planta baja era completamente libre permitiendo el paso entre la calle Mayor y la Plaza. A finales del siglo XVIII  Juan de Villanueva la restauró tras el incendio de la plaza en 1672. Es de destacar el balcón y Escudo Real de la fachada, así como sus pinturas.";
+  cr:distrito "Centro";
+  cr:latitud "40.41583855082183";
+  cr:longitud "-3.7074257084323636";
+  cr:nombre "Casa de La Panadería";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Sol (líneas 1, 2, 3).Bus: 3, 50.Renfe: Sol (líneas C3, C4).";
+  cr:via "Mayor";
+  owl:image "Visita_turística_guiada_por_la_Plaza_Mayor_con_motivo_de_su_IV_Centenario_(01).jpg" .
+
+<http://www.culturalrace.es/resource/Casa+de+La+Panader%C3%ADa> owl:sameAs <https://www.wikidata.org/wiki/Q4348433> .
+
+<http://www.culturalrace.es/resource/71807> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28005"^^xsd:int;
+  cr:distrito "Centro";
+  cr:latitud "40.41518829867041";
+  cr:longitud "-3.7106248754622504";
+  cr:nombre "Casa de La Villa. Ayuntamiento de Madrid";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Sol (líneas 1, 2, 3), Ópera (líneas R, 2, 5)Bus: 3, 5, 20, 25, 33, 39, 50, 51, 52, 53, 150";
+  cr:via "Villa";
+  owl:image "Casa_de_la_Villa_(Madrid)_02.jpg" .
+
+<http://www.culturalrace.es/resource/Casa+de+La+Villa.+Ayuntamiento+de+Madrid> owl:sameAs
+    <https://www.wikidata.org/wiki/Q3661194> .
+
+<http://www.culturalrace.es/resource/20390> a cr:monuments;
+  cr:barrio "Ciudad Universitaria";
+  cr:cp "28040"^^xsd:int;
+  cr:description "La Casa de Velázquez es, a la vez, un centro de creación artística y un centro de investigación. Esto es lo que constituye su singularidad en el conjunto de las cinco Escuelas Francesas en el Extranjero bajo la tutela del Ministerio de Enseñanza Superior, Investigación e Innovación.Establecimiento público de carácter científico, cultural y profesional, la Casa de Velázquez tiene la misión de desarrollar actividades creadoras e investigaciones relacionadas con las artes, las lenguas, las literaturas y las sociedades de los países ibéricos, iberoamericanos y del Magreb.";
+  cr:distrito "Moncloa-aravaca";
+  cr:latitud "40.441013640676644";
+  cr:longitud "-3.7299866834370903";
+  cr:nombre "Casa de Velázquez";
+  cr:telefono "914 551 580";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Bus: 83 , 133, 162.Metro: Ciudad Universitaria (línea 6).";
+  cr:via "Paul Guinard";
+  owl:image "CasaVelazquez-01.jpg" .
+
+<http://www.culturalrace.es/resource/Casa+de+Vel%C3%A1zquez> owl:sameAs <https://www.wikidata.org/wiki/Q48125171> .
+
+<http://www.culturalrace.es/resource/2064> a cr:monuments;
+  cr:barrio "Los Jeronimos";
+  cr:cp "28014"^^xsd:int;
+  cr:description "Edificio que forma parte del Museo Nacional del Prado, donde pueden consultarse fondos de la Biblioteca, del Archivo y del Servicio de Documentación de la colección del Museo y de otras fuentes relativas a la historia del arte.";
+  cr:distrito "Retiro";
+  cr:email "biblioteca@museodelprado.es";
+  cr:horario "Mañanas De lunes a jueves, de 9 a 15 horas (Servicio de libros y otros materiales hasta las 14:30 horas)Viernes, de 9 a 14:30 horas (Servicio de libros y otros materiales hasta las 14 h) Tardes Lunes y miércoles, de 15 a 18 horas (Servicio de libros y otros materiales hasta las 17:30 horas) Horario de verano  Desde el 16 de junio al 15 de septiembre, de lunes a viernes, de 9 a 14:30 horas";
+  cr:latitud "40.415263749471535";
+  cr:longitud "-3.689232811717636";
+  cr:nombre "Casón del Buen Retiro";
+  cr:telefono "913 302 821";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Estación del Arte (Atocha) (línea 1)Bus: 19Renfe: AtochaBicimad: Estación 65 (calle Antonio Maura, 15)";
+  cr:via "Alfonso Xii";
+  owl:image "Cason_del_Buen_Retiro-Front_side.jpg" .
+
+<http://www.culturalrace.es/resource/Cas%C3%B3n+del+Buen+Retiro> owl:sameAs <https://www.wikidata.org/wiki/Q3321174> .
+
+<http://www.culturalrace.es/resource/5682031> a cr:monuments;
+  cr:barrio "Alameda De Osuna";
+  cr:cp "28042"^^xsd:int;
+  cr:description "El Castillo de la Alameda o de Barajas se trata de uno de los escasos vestigios de la arquitectura militar del pasado siglo XV y uno de los pocos castillos que ha sobrevivido al paso del tiempo. Bajo él y su entorno, existen restos de asentamientos antiguos desde la Edad del Bronce hasta la Época Romana.En el edificio se realizan talleres para escolares y actividades en verano.";
+  cr:distrito "Barajas";
+  cr:email "castilloalameda@madrid.es";
+  cr:horario "Abierto solo en fin de semana (sábado y domingo) y festivos (lunes festivos incluidos)Del 1 de abril al 15 de junio de 10 a 21 horas.Del 16 de junio al 15 de septiembre de 10 a 20 horas.Del 15 al 30 de septiembre de 10 a 21 horas.De octubre a marzo de 10 a 18 horas.Cerrado: 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre.";
+  cr:latitud "40.45835460563491";
+  cr:longitud "-3.5932903820278788";
+  cr:nombre "Castillo de la Alameda";
+  cr:telefono "913 667 415";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Alameda de Osuna y El Capricho (línea 5) Bus: 101, 105, 112, 114, 115 y 151";
+  cr:via "Antonio Sancha";
+  owl:image "Castillo_de_La_Alameda_(Madrid)_02.jpg" .
+
+<http://www.culturalrace.es/resource/Castillo+de+la+Alameda> owl:sameAs <https://www.wikidata.org/wiki/Q8342365> .
+
+<http://www.culturalrace.es/resource/3361> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28013"^^xsd:int;
+  cr:description "Su construcción comienza a finales del siglo XIX por el Marqués de Cubas, sobre el primer recinto amurallado del Madrid musulmán, y finaliza en el año 1993.";
+  cr:distrito "Centro";
+  cr:latitud "40.415547923977506";
+  cr:longitud "-3.713669638684312";
+  cr:nombre "Catedral Santa María la Real de la Almudena";
+  cr:telefono "915 422 200";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Ópera (líneas 2, 5, Ramal), Sol (Línea 1, 2, 3), Príncipe Pío (línea 6, 10, Ramal), Tirso de Molina (línea 1), Latina (línea 5)Bus: 3, 25, 31, 39, 50 65, 148";
+  cr:via "Bailen";
+  owl:image "Catedral_de_la_Almudena_(Madrid)_25.jpg" .
+
+<http://www.culturalrace.es/resource/Catedral+Santa+Mar%C3%ADa+la+Real+de+la+Almudena>
+  owl:sameAs <https://www.wikidata.org/wiki/Q849711> .
+
+<http://www.culturalrace.es/resource/2000> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28013"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "cepc@cepc.es";
+  cr:latitud "40.42063654129458";
+  cr:longitud "-3.7124503472242387";
+  cr:nombre "Centro de Estudios Políticos y Constitucionales";
+  cr:telefono "915 401 950";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Santo Domingo (línea 2), Plaza de España (línea 3), Ópera (línea 2, 5)Bus: 3,, 25, 39, 46, 75, 138, 148, C1, C2";
+  cr:via "Marina Espa&amp;ntilde;ola" .
+
+<http://www.culturalrace.es/resource/103331> a cr:monuments;
+  cr:barrio "Embajadores";
+  cr:cp "28012"^^xsd:int;
+  cr:description "Edificio de carácter monumental. De estilo neomudéjar, fue diseñado por el arquitecto Fernando Arbós e inaugurado en el año 1913. Cuenta con más de 6.000 metros cuadrados de instalaciones divididas en 4 plantas y una azotea.";
+  cr:distrito "Centro";
+  cr:email "lacasaencendida@montemadrid.es";
+  cr:horario "De martes a domingo de 10 a 22 horas (todos los días del año, excepto festividades nacionales y de la Comunidad de Madrid)Exposiciones: de 10 a 21:45 horas";
+  cr:latitud "40.40595710517701";
+  cr:longitud "-3.699779793558763";
+  cr:nombre "Centro Social y Cultural La Casa Encendida";
+  cr:telefono "902 430 322";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Embajadores (línea 3), Lavapies (línea 3), Estación del Arte (Atocha) (línea 1), Palos de la Frontera (línea 3)Bus: 27, 34, 36, 41, 119, C1, C2Renfe: Embajadores (C5), Atocha ( C1, C2, C3, C4, C5, C7, C8, C10)";
+  cr:via "Valencia";
+  owl:image "Casa_Encendida,_patio_interior,_Madrid,_2018_01.jpg" .
+
+<http://www.culturalrace.es/resource/Centro+Social+y+Cultural+La+Casa+Encendida> owl:sameAs
+    <https://www.wikidata.org/wiki/Q5962732> .
+
+<http://www.culturalrace.es/resource/2045> a cr:monuments;
+  cr:barrio "Cortes";
+  cr:cp "28014"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "info@circulobellasartes.com";
+  cr:horario "Salas de exposiciones: martes a domingo de 11 a 14 y de 17 a 21 horas. Lunes cerrado. Azotea: de lunes a viernes de 9 a 21 horas. Sábados y domingos de 11 a 21 horas (venta de entradas finaliza a las 20:30 horas. Horario sujeto a cambios. Taquilla (cine y espectáculos): miércoles a domingo de 16 a 22 horas. Horario sujeto a cambios. Cafetería 'La Pecera': De 8 a 1 horas (viernes, sábado y domingo hasta las 3 horas).";
+  cr:latitud "40.41842683569739";
+  cr:longitud "-3.6965967618484465";
+  cr:nombre "Círculo de Bellas Artes";
+  cr:telefono "913 605 400";
+  cr:tipo "/contenido/entidadesYorganismos/Consorcios";
+  cr:transporte "Metro: Banco de España (línea 2).Bus: 1, 2, 3, 5, 9, 14, 15, 20, 27, 45, 46, , 51, 52, 53, 74, 146, 147, 150.Bicimad: Estación 20 a (calle Alcalá 49), estación 28 (calle Alcalá 27).";
+  cr:via "Alcalá";
+  owl:image "Círculo_de_Bellas_Artes_(Madrid)_06.jpg" .
+
+<http://www.culturalrace.es/resource/C%C3%ADrculo+de+Bellas+Artes> owl:sameAs <https://www.wikidata.org/wiki/Q41323951> .
+
+<http://www.culturalrace.es/resource/1916> a cr:monuments;
+  cr:barrio "Universidad";
+  cr:cp "28015"^^xsd:int;
+  cr:description "Conde Duque es un espacio cultural vinculado a la memoria y a la la difusión de Madrid.Entre sus fines se encuentran: la difusión de la historia de Madrid, el intercambio de conocimientos históricos con la sociedad, la conservación de  los fondos históricos y artísticos del Ayuntamiento y la producción y exhibición de manifestaciones artísticas relacionadas con el mundo de la escena y de la música.";
+  cr:distrito "Centro";
+  cr:horario "Exposiciones (entrada gratuita) De martes a sábado de 10 a 14 y de 17:30 a 21 horas.Domingos y festivos de 10:30 a 14 horas.";
+  cr:latitud "40.42802889001877";
+  cr:longitud "-3.710182353581842";
+  cr:nombre "Conde Duque";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Ventura Rodríguez (línea 3), San Bernardo (línea 2 y 4) y Noviciado (línea 2).Bus: 1, 2, 44, 74, 133, 202, 749, Minibús M-2BICIMAD: Estación 13 (calle Conde Duque, 22)";
+  cr:via "Conde Duque";
+  owl:image "Llega_la_tercera_edición_de_LaborArte,_una_mirada_al_mundo_del_trabajo_desde_la_cultura_(03).jpg" .
+
+<http://www.culturalrace.es/resource/Conde+Duque> owl:sameAs <https://www.wikidata.org/wiki/Q56426480> .
+
+<http://www.culturalrace.es/resource/20> a cr:monuments;
+  cr:barrio "Cortes";
+  cr:cp "28014"^^xsd:int;
+  cr:description "El Congreso de los Diputados está configurado por un complejo de cinco edificios con una superficie de cerca de setenta mil metros cuadrados.";
+  cr:distrito "Centro";
+  cr:email "informacion@congreso.es";
+  cr:latitud "40.41626174493484";
+  cr:longitud "-3.697081267552528";
+  cr:nombre "Congreso de los Diputados";
+  cr:telefono "913 906 000";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Sevilla (línea 2), Banco de España (línea 2)Bus: 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53,150";
+  cr:via "Cortes";
+  owl:image "Palacio_de_los_Diputados.jpg" .
+
+<http://www.culturalrace.es/resource/Congreso+de+los+Diputados> owl:sameAs <https://www.wikidata.org/wiki/Q539149> .
+
+<http://www.culturalrace.es/resource/14218> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28013"^^xsd:int;
+  cr:description "Es el supremo órgano consultivo del Gobierno. Actualmente se rige por la Ley Orgánica 3/1980, de 22 de abril, y su Reglamento es de 18 de julio del mismo año. (Modificados por Ley Orgánica 3/2004 de 28 de diciembre) y (Real Decreto 449/2005 de 22 de abril).  No forma parte de la Administración activa ni está integrado en ninguno de los Departamentos ministeriales y, aunque la Constitución de 1978 lo califique literalmente de órgano consultivo del Gobierno, tiene en realidad el carácter de órgano del Estado (Sentencia del Tribunal Constitucional 56/1990, de 29 de marzo).";
+  cr:distrito "Centro";
+  cr:latitud "40.4149668099875";
+  cr:longitud "-3.7129445136801347";
+  cr:nombre "Consejo de Estado";
+  cr:telefono "915 166 262";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Ópera (líneas 2 y 5)Bus: 3, 31, 50, 65, 148";
+  cr:via "Mayor" .
+
+<http://www.culturalrace.es/resource/3354> a cr:monuments;
+  cr:barrio "Universidad";
+  cr:cp "28015"^^xsd:int;
+  cr:description "El templo fue construido entre 1667 y 1679 por Manuel del Olmo y José del Olmo. El convento data del siglo XVIII  y es obra de Francisco de Sabatini. Es destacable la iglesia de planta cruciforme con gran cúpula central y cuatro exedras semicirculares, así como la sacristía de planta elíptica construida entre 1745 y 1754 por Francisco Moradillo.";
+  cr:distrito "Centro";
+  cr:latitud "40.4273968151307";
+  cr:longitud "-3.708949668437218";
+  cr:nombre "Convento de las Comendadoras de Santiago";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: San Bernardo (líneas 2, 4), Ventura Rodríguez (línea 3) Bus: 1, 2, 21, 44, 74, 133, 147, C";
+  cr:via "Comendadoras";
+  owl:image "Convento_de_las_Comendadoras_de_Santiago_(Madrid)_08.jpg" .
+
+<http://www.culturalrace.es/resource/Convento+de+las+Comendadoras+de+Santiago> owl:sameAs
+    <https://www.wikidata.org/wiki/Q5166197> .
+
+<http://www.culturalrace.es/resource/20432> a cr:monuments;
+  cr:barrio "Cortes";
+  cr:cp "28014"^^xsd:int;
+  cr:description "Arquitectos: Jules y Reymond Fevrier y Luis Esteve (1906 - 1910) Edificio de carácter monumental de estilo clasicista - francés de fin de siglo, aporta una buena solución de esquina para el arranque de la Gran Vía en la rotonda de columnas corintias de orden gigante que sostienen un tercer piso profuso en grupos escultóricos de Saint Marceux, Landousky, Lambert y Benlliure.  La Compañía Metrópolis sustituyó en 1975 el grupo escultórico de la Unión y el Fénix que coronaba la cúpula por una victoria alada de Federico Coullaut Valera.";
+  cr:distrito "Centro";
+  cr:latitud "40.41866416622284";
+  cr:longitud "-3.6975775550486154";
+  cr:nombre "Edificio Metrópolis";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Sevilla (línea 2), Banco de España (línea 2) Bus: 1, 2, 5, 9, 15, 20, 51, 52, 53, 74, 146, 150, 202";
+  cr:via "Alcala";
+  owl:image "Edificio_Metrópolis,_calle_de_Alcalá,_Madrid,_España,_2017-05-18,_DD_08.jpg" .
+
+<http://www.culturalrace.es/resource/Edificio+Metr%C3%B3polis> owl:sameAs <https://www.wikidata.org/wiki/Q465250> .
+
+<http://www.culturalrace.es/resource/6469186> a cr:monuments;
+  cr:barrio "Casa De Campo";
+  cr:cp "28008"^^xsd:int;
+  cr:description "Ermita dedicada a San Antonio de Padua y pequeño museo. Las pinturas murales que la decoran son de Francisco de Goya. Alberga los restos mortales del artista desde 1919. Para preservar sus pinturas, en 1929 se trasladó el culto a una ermita gemela construida a su lado, dejando el edificio original como museo.";
+  cr:distrito "Moncloa-aravaca";
+  cr:email "sanantonio@madrid.es";
+  cr:horario "General de martes a domingos de 9:30 a 20 horas. Verano del 15 de junio al 15 de septiembre: de martes a viernes de 9:30 a 14 horas.sábados, domingos y festivos de 9:30 a 19 horas. Cerrado:  lunes (incluidos festivos), 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre. Último pase de visita: 20 minutos antes del cierre (el desalojo de las salas comenzará 10 minutos antes)Este horario y la apertura de salas pueden sufrir modificaciones.";
+  cr:latitud "40.425256682855846";
+  cr:longitud "-3.725725718176111";
+  cr:nombre "Ermita de San Antonio de la Florida (Museo)";
+  cr:telefono "915 420 722 o 683 429 760";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Príncipe Pío (líneas 5, 10 y ramal Ópera - Príncipe Pío) Bus: 41, 46 y 75 (Intercambiador Príncipe Pío) Renfe: Príncipe Pío BICIMAD: Estación 161 (Paseo de la Florida 8)";
+  cr:via "San Antonio De La Florida";
+  owl:image "San_Antonio_de_la_Florida.jpg" .
+
+<http://www.culturalrace.es/resource/Ermita+de+San+Antonio+de+la+Florida+%28Museo%29>
+  owl:sameAs <https://www.wikidata.org/wiki/Q3109752> .
+
+<http://www.culturalrace.es/resource/6079820> a cr:monuments;
+  cr:barrio "San Isidro";
+  cr:cp "28019"^^xsd:int;
+  cr:distrito "Carabanchel";
+  cr:horario "Ermita: sábados de 11 a 13 horas (celebración de la Eucaristía a las 12 horas). Fuente del Santo: sólo permanece abierta desde la semana anterior a la fiesta de San Isidro hasta la semana posterior. Oficio en rito hispano mozárabe: los días 2 de enero a las 18 horas (comienzo del año Caput anni) y 11 de mayo a las 18,30 horas (aniversario de la dedicación).";
+  cr:latitud "40.39949832410487";
+  cr:longitud "-3.73168274610084";
+  cr:nombre "Ermita de San Isidro";
+  cr:telefono "913 650 841";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Marqués de Vadillo (línea 5) Bus: 17, 25, 50";
+  cr:via "Quince De Mayo";
+  owl:image "Ermita-san-isidro.jpg" .
+
+<http://www.culturalrace.es/resource/Ermita+de+San+Isidro> owl:sameAs <https://www.wikidata.org/wiki/Q920742> .
+
+<http://www.culturalrace.es/resource/35254> a cr:monuments;
+  cr:barrio "Vista Alegre";
+  cr:cp "28047"^^xsd:int;
+  cr:distrito "Carabanchel";
+  cr:latitud "40.382490632700176";
+  cr:longitud "-3.75251593492415";
+  cr:nombre "Ermita de Santa María la Antigua";
+  cr:telefono "914 628 536 (Parroquia de San Sebastián Mártir)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Bus: 34, 108";
+  cr:via "Monse&amp;ntilde;or Oscar Romero";
+  owl:image "Ermita_de_Santa_María_de_la_Antigua._Lateral..jpg" .
+
+<http://www.culturalrace.es/resource/Ermita+de+Santa+Mar%C3%ADa+la+Antigua> owl:sameAs
+    <https://www.wikidata.org/wiki/Q926529> .
+
+<http://www.culturalrace.es/resource/3357> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28005"^^xsd:int;
+  cr:distrito "Centro";
+  cr:latitud "40.41556461689203";
+  cr:longitud "-3.7211426105677465";
+  cr:nombre "Ermita Virgen del Puerto";
+  cr:telefono "648 841 991 / 637 388 244";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Príncipe Pio (líneas 6 y 10)Bus: 25, 31, 33, 36, 39, 41, 50, 62, 65, 138, C2 Renfe: Príncipe Pío (líneas 1, 7 y 10)";
+  cr:via "Virgen Del Puerto";
+  owl:image "Ermita_de_la_Virgen_del_Puerto_(Madrid)_02b.jpg" .
+
+<http://www.culturalrace.es/resource/Ermita+Virgen+del+Puerto> owl:sameAs <https://www.wikidata.org/wiki/Q3813365> .
+
+<http://www.culturalrace.es/resource/13151> a cr:monuments;
+  cr:barrio "Cortes";
+  cr:cp "28012"^^xsd:int;
+  cr:description "Edificio con carácter monumental construído en 1889 por Alberto del Palacio para la Compañía Madrid - Zaragoza - Alicante, en sustitución de la de los años 50";
+  cr:distrito "Centro";
+  cr:horario "Horario de la estación:  diario, de 05 a 01 horas.Horario consignas: diario, de 5:30 a 22:20 horas";
+  cr:latitud "40.409567615732286";
+  cr:longitud "-3.692651480759636";
+  cr:nombre "Estación ferroviaria Madrid Puerta de Atocha";
+  cr:telefono "Ver pestaña Más Información";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Atocha Renfe (línea 1)Bus: 27, 34, C1, 6, 59, E1, 85, 86, 102, C2, 119, 41, 36, 14, 10, 19, 45, SE78, 32Renfe: AtochaBicimad: Estación 51 (Ronda de Atocha, 2)";
+  cr:via "Emperador Carlos V";
+  owl:image "Madrid_-_Edificios_Retama_1.JPG" .
+
+<http://www.culturalrace.es/resource/Estaci%C3%B3n+ferroviaria+Madrid+Puerta+de+Atocha>
+  owl:sameAs <https://www.wikidata.org/wiki/Q3814594> .
+
+<http://www.culturalrace.es/resource/162905> a cr:monuments;
+  cr:barrio "Recoletos";
+  cr:cp "28001"^^xsd:int;
+  cr:distrito "Salamanca";
+  cr:latitud "40.42144182034705";
+  cr:longitud "-3.6910993927829567";
+  cr:nombre "Fundación BBVA. Palacio del Marqués de Salamanca";
+  cr:telefono "91 537 69 64 (Fundación BBVA)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:via "Recoletos";
+  owl:image "Palacio_del_Marqués_de_Salamanca.jpg" .
+
+<http://www.culturalrace.es/resource/Fundaci%C3%B3n+BBVA.+Palacio+del+Marqu%C3%A9s+de+Salamanca>
+  owl:sameAs <https://www.wikidata.org/wiki/Q9054715> .
+
+<http://www.culturalrace.es/resource/5703491> a cr:monuments;
+  cr:barrio "Los Jeronimos";
+  cr:cp "28014"^^xsd:int;
+  cr:description "Una gran bóveda acristalada, de geometría irregular y forma orgánica, cobija  2.800 m&amp;sup2;   de este lugar de representación, celebración y encuentro para los ciudadanos y las ciudadanas, bajo el cielo de Madrid. Eleva a 30 metros de altura su transparente levedad (500 toneladas). Está construida con casi 2.000 cristales triangulares, todos diferentes entre sí, formados por 2.966 barras y 1.034 nudos unidos uno a uno.Tras haber sufrido diversas alteraciones, este espacio, que nace al cubrir el antiguo pasaje Ruiz de Alarcón, antes ocupado por vehículos de reparto de correo, restaurado y rehabilitado, constituye un elemento esencial de la sede del Ayuntamiento de Madrid.";
+  cr:distrito "Retiro";
+  cr:email "eventos@madrid-destino.com";
+  cr:horario "De lunes a domingo de 10 a 20 horas, siempre que no haya actividad en el espacio.";
+  cr:latitud "40.418291440980205";
+  cr:longitud "-3.69213979278398";
+  cr:nombre "Galería de Cristal del Palacio de Cibeles";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Banco de España (línea 2)Bus: 1, 2, 5, 9, 10, 15, 20, 27, 34, 45, 51, 52, 53, 74, 146, 150Renfe: Recoletos";
+  cr:via "Montalban";
+  owl:image "Palacio_de_Comunicaciones_-_46.jpg" .
+
+<http://www.culturalrace.es/resource/Galer%C3%ADa+de+Cristal+del+Palacio+de+Cibeles>
+  owl:sameAs <https://www.wikidata.org/wiki/Q1849031> .
+
+<http://www.culturalrace.es/resource/3356> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28005"^^xsd:int;
+  cr:distrito "Centro";
+  cr:latitud "40.414889947123754";
+  cr:longitud "-3.7122600779776733";
+  cr:nombre "Iglesia Catedral de las Fuerzas Armadas";
+  cr:telefono "915 473 624";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Ópera (Líneas , Ramal , 2 , 5), Tirso de Molina (línea 1), La Latina (línea 5)Bus: 3 , 17 , 31, 41 , 50 , 62, 65, 148";
+  cr:via "Sacramento";
+  owl:image "Madrid_-_Iglesia_Catedral_de_las_Fuerzas_Armadas_-_121223_174344.jpg" .
+
+<http://www.culturalrace.es/resource/Iglesia+Catedral+de+las+Fuerzas+Armadas> owl:sameAs
+    <https://www.wikidata.org/wiki/Q5117018> .
+
+<http://www.culturalrace.es/resource/3363> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28005"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "iglesiadelcorpuschristi@archimadrid.es";
+  cr:latitud "40.41481486646874";
+  cr:longitud "-3.7098194568632374";
+  cr:nombre "Iglesia Corpus Christi (Jerónimas Recoletas)";
+  cr:telefono "915 480 319";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Ópera (Lineas Ramal , 2 , 5), La Latina (Línea, 5), Tirso de Molina (línea 1)Bus: 3, 17, 18, 23, 31, 35, 50, 65";
+  cr:via "Conde De Miranda" .
+
+<http://www.culturalrace.es/resource/Iglesia+Corpus+Christi+%28Jer%C3%B3nimas+Recoletas%29>
+  owl:sameAs <https://www.wikidata.org/wiki/Q43034013> .
+
+<http://www.culturalrace.es/resource/3355> a cr:monuments;
+  cr:barrio "Cortes";
+  cr:cp "28014"^^xsd:int;
+  cr:distrito "Centro";
+  cr:latitud "40.418196333786035";
+  cr:longitud "-3.698963613858259";
+  cr:nombre "Iglesia de las Calatravas (Concepción Real de Calatrava)";
+  cr:telefono "915 218 035";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Sevilla (línea 2), Banco de España (línea 2), Sol (líneas 1, 2, 3), Gran Vía (líneas 1, 5)Bus: 1, 2, 3, 9, 46, 52, 53, 74, 146, 150";
+  cr:via "Alcala";
+  owl:image "Iglesia_de_las_Calatravas_(Madrid)_03.jpg" .
+
+<http://www.culturalrace.es/resource/Iglesia+de+las+Calatravas+%28Concepci%C3%B3n+Real+de+Calatrava%29>
+  owl:sameAs <https://www.wikidata.org/wiki/Q5117778> .
+
+<http://www.culturalrace.es/resource/60150> a cr:monuments;
+  cr:barrio "Buenavista";
+  cr:cp "28044"^^xsd:int;
+  cr:distrito "Carabanchel";
+  cr:latitud "40.37319952563821";
+  cr:longitud "-3.755699003858804";
+  cr:nombre "Iglesia Madres Redentoristas";
+  cr:telefono "915 086 800";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Bus: 34 , 35 , 47 , 121 , 131 , 139";
+  cr:via "Madre Celeste" .
+
+<http://www.culturalrace.es/resource/3365> a cr:monuments;
+  cr:barrio "Universidad";
+  cr:cp "28004"^^xsd:int;
+  cr:distrito "Centro";
+  cr:latitud "40.422294329828986";
+  cr:longitud "-3.703603319643193";
+  cr:nombre "Iglesia San Antonio de los Alemanes";
+  cr:telefono "915 223 774";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Callao (líneas 3, 5), Gran Vía (líneas 1, 5), Noviciado (línea 2), Santo Domingo (línea 2), Chueca (línea 5)Bus: 1, 2, 3, 46, 74, 146, 147, 202, M2";
+  cr:via "Puebla";
+  owl:image "Iglesia_de_San_Antonio_de_los_Alemanes_(Madrid)_01.jpg" .
+
+<http://www.culturalrace.es/resource/Iglesia+San+Antonio+de+los+Alemanes> owl:sameAs
+    <https://www.wikidata.org/wiki/Q5117080> .
+
+<http://www.culturalrace.es/resource/3368> a cr:monuments;
+  cr:barrio "Cortes";
+  cr:cp "28014"^^xsd:int;
+  cr:distrito "Centro";
+  cr:latitud "40.41367254153843";
+  cr:longitud "-3.6976792276700987";
+  cr:nombre "Iglesia San Ildefonso (Monasterio de las Trinitarias Descalzas)";
+  cr:telefono "914 295 671";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Antón Martín (Línea 1)Bus: 10, 14, 27, 34, 37, 45";
+  cr:via "Lope De Vega" .
+
+<http://www.culturalrace.es/resource/3346> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28005"^^xsd:int;
+  cr:distrito "Centro";
+  cr:latitud "40.41320112124687";
+  cr:longitud "-3.71000286701288";
+  cr:nombre "Iglesia San Pedro el Viejo";
+  cr:telefono "913 651 284";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: La Latina (Línea 5) Tirso de Molina (Línea 1)Bus: 3, 17, 31, 50, 65, 148";
+  cr:via "Nuncio";
+  owl:image "San_Pedro_el_viejo_Madrid.jpg" .
+
+<http://www.culturalrace.es/resource/Iglesia+San+Pedro+el+Viejo> owl:sameAs <https://www.wikidata.org/wiki/Q7415163> .
+
+<http://www.culturalrace.es/resource/4280> a cr:monuments;
+  cr:barrio "Justicia";
+  cr:cp "28014"^^xsd:int;
+  cr:description "El antiguo Banco Español del Río de la Plata eligió para su construcción el solar en el que estuvo situado el palacio de Casa Irujo y seleccionó a dos arquitectos de la época, Palacios y Otamendi. Para algunos autores es su mejor edificio, dentro de ese característico estilo grandioso y monumental que incorpora los órdenes clásicos con vigor, rotundidad y correcta modulación y los conjuga con la innovación de las superficies lisas de grandes vanos acristalados. En el chaflán, un grupo de cariátides preside la entrada. Ese mismo argumento de monumentalidad fue el que se utilizó para conceder la licencia constructiva, pues el exceso de altura (25 metros en vez de los 18 permitidos) retrasó el permiso para iniciar las obras. La gran carga simbólica del edificio se subrayaba en el patio central de operaciones, que abarcaba la altura de todas las plantas y se remataba con una magnífica cúpula vidriera. En torno a él se abrían perimetralmente las distintas dependencias bancarias, conjugando asimismo modernidad y monumentalidad en los elementos constructivos. Ese grandioso espacio central se perdió con la reforma y ampliación de la década de 1940, en la que se añadió un nuevo edificio por la calle del Barquillo y se cambió por completo el interior. La fachada de esta ampliación aspira a repetir el esquema de Palacios y Otamendi sin mimetizarlo.";
+  cr:distrito "Centro";
+  cr:email "informa@cervantes.es";
+  cr:horario "Consultar";
+  cr:latitud "40.419245261976";
+  cr:longitud "-3.6953321647484363";
+  cr:nombre "Instituto Cervantes";
+  cr:telefono "914 367 600";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Banco de España (línea 2).Bus: 5, 9, 51, 52, 53, 146,150,1, 2, 74, 15, 20, 203, 46, M2.Bicimad: Estación 20 (calle Alcalá 49).";
+  cr:via "Alcala";
+  owl:image "I.E.S._Cervantes_(Madrid)_02.jpg" .
+
+<http://www.culturalrace.es/resource/Instituto+Cervantes> owl:sameAs <https://www.wikidata.org/wiki/Q5806253> .
+
+<http://www.culturalrace.es/resource/6619> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28013"^^xsd:int;
+  cr:description "Descripción monumental: el Palacio de Abrantes inicia su construcción en 1652, aunque las reformas más importantes se acometen en el siglo XIX por Aníbal Alvárez Bouquel. Su estilo sigue criterios italianizantes, reflejados en los detalles neorrenacentistas del exterior, semejando los palacios italianos del siglo XVI.";
+  cr:distrito "Centro";
+  cr:email "iicmadrid@esteri.it";
+  cr:horario "De lunes a viernes de 9 a 18 horas.";
+  cr:latitud "40.41523808103924";
+  cr:longitud "-3.7127823633086336";
+  cr:nombre "Istituto Italiano di Cultura de Madrid";
+  cr:telefono "915 475 205";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Opera (líneas 2 y 5)Bus: 3, 148Bicimad:Estación 166 (calle Segovia, 26)Estación 36 (plaza Ramales, 1)";
+  cr:via "Mayor" .
+
+<http://www.culturalrace.es/resource/94391> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28005"^^xsd:int;
+  cr:description "Jardín declarado Histórico Artístico en 1931. Los jardines salvan un pronunciado desnivel que comunica el Palacio Real con las riberas del Río Manzanares.Este parque se incluye entre las visitas recomendadas a turistas que visitan la ciudad, según la web oficial de turismo de Madrid.El parque es accesible a personas con movilidad reducida en las partes principales del mismo.";
+  cr:distrito "Centro";
+  cr:email "info@patrimonionacional.es";
+  cr:horario "Horario de invierno (octubre a marzo): todos los días de 10 a 18 horasHorario de verano (abril a septiembre): todos los días 10 a 20 horas";
+  cr:latitud "40.41898630733354";
+  cr:longitud "-3.719976836914711";
+  cr:nombre "Jardines del Campo del Moro";
+  cr:telefono "914 548 800 (Información de Palacio Real)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Ópera (líneas 2, 5, ramal), Principe Pío (líneas 6, 10, ramal)Bus: 25, 33, 39, 41, 46, 62, 75, 138, 148, CRenfe: Príncipe Pío Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones.";
+  cr:via "Virgen Del Puerto";
+  owl:image "Campo_del_Moro_(Madrid)_04.jpg" .
+
+<http://www.culturalrace.es/resource/Jardines+del+Campo+del+Moro> owl:sameAs <https://www.wikidata.org/wiki/Q1070622> .
+
+<http://www.culturalrace.es/resource/5853414> a cr:monuments;
+  cr:barrio "Sol";
+  cr:cp "28014"^^xsd:int;
+  cr:description "Edificio declarado bien de interés cultural, con categoría de monumento.Construido por Francisco Sabatini en 1769 para Real Casa de Aduanas. Es uno de los primeros edificios neoclásicos de Madrid. Destaca su fachada romana y escalera que forma el núcleo del edificio, lugar de intersección de toda la circulación dentro de la organización de los tres patios.";
+  cr:distrito "Centro";
+  cr:latitud "40.417489335230385";
+  cr:longitud "-3.7011604823997892";
+  cr:nombre "Ministerio de Hacienda. Sede calle Alcalá";
+  cr:telefono "915 958 000";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Sol (líneas 1, 2, 3), Sevilla (línea 5)Bus: 15, 20, 5, 150, 51, 51, 52, 53, M1, 3Renfe: SolBICIMAD: Estación 1 a y b (Plaza Puerta del Sol, 1)";
+  cr:via "Alcala" .
+
+<http://www.culturalrace.es/resource/Ministerio+de+Hacienda.+Sede+calle+Alcal%C3%A1>
+  owl:sameAs <https://www.wikidata.org/wiki/Q19796502> .
+
+<http://www.culturalrace.es/resource/4> a cr:monuments;
+  cr:barrio "Universidad";
+  cr:cp "28015"^^xsd:int;
+  cr:description "Edificio construido por el arquitecto Evaristo del Castillo para la Marquesa de Sonora en 1797, sobre el solar donde se encontraba la casa de Don Bernardo Grimaldo, destruida en un incendio en 1789. En 1851 pasa a ser propiedad del Estado y entre 1942 y 1947 es transformado por Javier Barroso, que le da el estilo nacionalista - herreriano, introduciendo las torres con sus chapiteles y revistiendo éstas con piedra.";
+  cr:distrito "Centro";
+  cr:latitud "40.42412618887789";
+  cr:longitud "-3.707536103996874";
+  cr:nombre "Ministerio de Justicia";
+  cr:telefono "918 372 295 / 902 007 214";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Noviciado (línea 2), Plaza de España (líneas 3, 10)Bus: M2, 3, 147BICIMAD: Estación 16 (calle San Bernardo, 22)";
+  cr:via "San Bernardo";
+  owl:image "Madrid_-_Palacio_de_la_Marquesa_de_la_Sonora,_sede_del_Ministerio_de_Justicia_de_España.jpg" .
+
+<http://www.culturalrace.es/resource/Ministerio+de+Justicia> owl:sameAs <https://www.wikidata.org/wiki/Q3181035> .
+
+<http://www.culturalrace.es/resource/3364> a cr:monuments;
+  cr:barrio "Universidad";
+  cr:cp "28004"^^xsd:int;
+  cr:distrito "Centro";
+  cr:latitud "40.422820373636355";
+  cr:longitud "-3.704504689941362";
+  cr:nombre "Monasterio de Benedictinas";
+  cr:telefono "915 317 999";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Noviciado (línea 2), Gran Vía (línea 1, 5), Callao (línea 3, 5), Tribunal (línea 1, 10)Bus: 1, 2, 3, 44, 46, 74, 75, 133, 146, 148, M2, 147, 148";
+  cr:via "San Roque" .
+
+<http://www.culturalrace.es/resource/3348> a cr:monuments;
+  cr:barrio "Sol";
+  cr:cp "28013"^^xsd:int;
+  cr:description "Convento fundado por la Princesa Juana de Austria, transformando un antiguo palacio de su madre Isabel de Portugal.";
+  cr:distrito "Centro";
+  cr:email "info@patrimonionacional.es";
+  cr:horario "Sólo con visita guiada .  De martes a sábado de 10 a 14 horas y de 16 a 18:30 horas.Domingos y festivos, de 10 a 15 horas. Cerrado los lunes.Cierre taquillas y acceso al Monasterio una hora antes.Días de cierre: 17 a 20 abril, 1 mayo, 24, 25 y 31 diciembre.Además de los cierres previstos, puede haber cierres motivados por la celebración de actos oficiales o festividad en el municipio, en estos casos consultar la web o telefónicamente.";
+  cr:latitud "40.418233359889484";
+  cr:longitud "-3.706213134639163";
+  cr:nombre "Monasterio de las Descalzas Reales";
+  cr:telefono "914 548 700";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Callao (líneas 3, 5) , Santo Domingo (línea 2) , Sol (líneas 1, 2, 3) Gran Vía (líneas 1, 5).Bus: 1, 2, 3, 5, 15, 20, 25, 39, 40, 44, 46, 50, 51, 52, 53, 74, 75, 133, 146, 147, 148, 149, 150, 202.Bicimad: Estación 25 a y b (Plaza de Celenque).";
+  cr:via "Descalzas";
+  owl:image "Monasterio_de_las_Descalzas_Reales_(Madrid)_07.jpg" .
+
+<http://www.culturalrace.es/resource/Monasterio+de+las+Descalzas+Reales> owl:sameAs
+    <https://www.wikidata.org/wiki/Q2268271> .
+
+<http://www.culturalrace.es/resource/4539061> a cr:monuments;
+  cr:barrio "Los Jeronimos";
+  cr:cp "28014"^^xsd:int;
+  cr:distrito "Retiro";
+  cr:horario "De martes a domingos, de 11 a 14 horas y de 17 a 19 horas. Lunes Cerrado.";
+  cr:latitud "40.40774080279238";
+  cr:longitud "-3.6892974870165984";
+  cr:nombre "Monumento Homenaje a las Víctimas del 11 de marzo";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:via "Emperador Carlos V" .
+
+<http://www.culturalrace.es/resource/2071> a cr:monuments;
+  cr:barrio "Castellana";
+  cr:cp "28046"^^xsd:int;
+  cr:description "El Museo de Escultura al Aire Libre de La Castellana, está situado bajo el paso elevado que une las calles de Juan Bravo y Eduardo Dato, contiene una excelente colección de escultura abstracta española.";
+  cr:distrito "Salamanca";
+  cr:email "mmacmdifusion@madrid.es";
+  cr:horario "Entrada libre. Espacio urbano abiertoAbierto 24 horas al día los 365 días del año.";
+  cr:latitud "40.433219398671156";
+  cr:longitud "-3.6876122680805956";
+  cr:nombre "Museo de Escultura al Aire Libre de la Castellana";
+  cr:telefono "915 885 921";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Transporte público más próximo  Metro: Rubén Darío (línea 5) Bus: 5, 14, 27, 45, 150 BICIMAD: Estación 142 (Paseo de la Castellana n&amp;ordm;42)";
+  cr:via "Castellana" .
+
+<http://www.culturalrace.es/resource/2054> a cr:monuments;
+  cr:barrio "Justicia";
+  cr:cp "28004"^^xsd:int;
+  cr:description "Creado como Museo Municipal en 1929 y rebautizado como Museo de Historia de Madrid en 2007, tras una profunda remodelación, el año 2014 reabre sus puertas con un montaje moderno y una puesta al día de sus colecciones.";
+  cr:distrito "Centro";
+  cr:email "smuseosm@madrid.es";
+  cr:horario "De martes a domingos de 10 a 20 horas. Verano: de martes a domingos de 10 a 19 horas. Cerrado: lunes y los días 1 y 6 de enero, 1 de mayo,  24, 25 y 31 de diciembre. El desalojo de las salas se hará diez minutos antes del cierre.";
+  cr:latitud "40.42577054821346";
+  cr:longitud "-3.700845660719608";
+  cr:nombre "Museo de Historia de Madrid";
+  cr:telefono "917 011 863";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Tribunal, Bilbao y Alonso Martínez. Bus: 3, 21, 37, 40, 147 y 149. BICIMAD: Estación 54 (Calle Barceló 7) Aparcamiento público: Barceló.";
+  cr:via "Fuencarral" .
+
+<http://www.culturalrace.es/resource/2114> a cr:monuments;
+  cr:barrio "Sol";
+  cr:cp "28014"^^xsd:int;
+  cr:description "Construido inicialmente para palacio de Don Juan de Goyeneche, el edificio fue adquirido por la Academia de Bellas Artes en 1773 y reformado bajo la dirección de Fernando Chueca Goitia en 1973 y la fachada por Diego de Villanueva en 1774.";
+  cr:distrito "Centro";
+  cr:email "museo@rabasf.org";
+  cr:horario "Colección permanente:De martes a domingos y festivos de 10 a 15 horasCerrado: todos los lunes y el mes de agostoExposiciones temporales: consultar el apartado específico de la exposición temporal.Días cerrados: 1 y 6 de enero; 1 y 30 de mayo; 9 de noviembre; 24, 25 y 31 de diciembre. En periodos vacacionales pueden sufrir cambios.";
+  cr:latitud "40.41765456031193";
+  cr:longitud "-3.7006553517170633";
+  cr:nombre "Museo de la Real Academia de Bellas Artes de San Fernando";
+  cr:telefono "915 240 864 (Centralita)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Sol (líneas 1, 2, 3), Sevilla (línea 2)Bus: 3, 15, 20, 53, 150, M1, 3Renfe Cercanías: SolBicimad: Estación 28 (calle Alcalá, 27)";
+  cr:via "Alcala" .
+
+<http://www.culturalrace.es/resource/2066> a cr:monuments;
+  cr:barrio "Delicias";
+  cr:cp "28045"^^xsd:int;
+  cr:description "Edificio de caracter monumental. Construido como cabecera de la línea Madrid - Extremadura - Portugal en el año 1880 por E. Cachelievre.";
+  cr:distrito "Arganzuela";
+  cr:horario "De octubre a mayo:  Lunes a viernes, de 9.30 a 15.00 horas. Sábados, domingos y festivos de 10.00 a 19.00 horas  De junio a septiembre:  Lunes a domingo, de 10.00 a 15.00 horas. Cerrado: 25 de diciembre, 1 y 6 de enero.";
+  cr:latitud "40.400281290485566";
+  cr:longitud "-3.693817192160563";
+  cr:nombre "Museo del Ferrocarril de Madrid";
+  cr:telefono "915 390 085";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Delicias (línea 3)Bus: 19, 45, 47, 59, 85, 86, 247, 8, 6, 55Renfe: Delicias";
+  cr:via "Delicias" .
+
+<http://www.culturalrace.es/resource/2053> a cr:monuments;
+  cr:barrio "Castellana";
+  cr:cp "28006"^^xsd:int;
+  cr:distrito "Salamanca";
+  cr:email "info@museolazarogaldiano.es";
+  cr:horario "Martes a sábados de 10 a 16:30 horas.Domingos de 10 a 15 horas.Cerrado todos los lunes, 1 y 6 de enero, 18 y 19 de abril, 1 de mayo, 15 de agosto, 1 de noviembre y 9, 24, 25 y 31 de diciembre de 2019.Grupos y visitas guiadas consultar.";
+  cr:latitud "40.436750328725985";
+  cr:longitud "-3.6861980129207894";
+  cr:nombre "Museo Lázaro Galdiano";
+  cr:telefono "915 616 084";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Gregorio Marañón (línea 7 y 10).Bus: 12, 16, 9, 19, 51, 61";
+  cr:via "Serrano";
+  owl:image "Museo_Lázaro_Galdiano_(Madrid)_08.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+L%C3%A1zaro+Galdiano> owl:sameAs <https://www.wikidata.org/wiki/Q48060062> .
+
+<http://www.culturalrace.es/resource/2055> a cr:monuments;
+  cr:barrio "Los Jeronimos";
+  cr:cp "28014"^^xsd:int;
+  cr:description "Inaugurado en 1912, su sede es un típico palacete madrileño del último tercio del siglo XIX. El museo posee muebles, cerámicas, vidrios, joyas, tejidos, arte oriental, y hasta 30 000 objetos distintos que a lo largo de la historia han servido para embellecer las casas, palacios y los monumentos de distintas culturas.El museo posee muestras como el Jarrón de Sevres regalo de Napoleón III, la Cocina Valenciana del siglo XVIII compuesta por más de 1500 azulejos de Manises, la Mesa de plata del siglo XVI o la colección de alfombras españolas de los siglos XV al XVII.";
+  cr:distrito "Retiro";
+  cr:email "mnad@cultura.gob.es";
+  cr:horario "Martes a sábados de 9:30 a 15 horas.Domingo y festivos: de 10 a 15 horas.Jueves tarde de 17 a 20 horas (excepto julio y agosto) Cerrado:  todos los lunes, 1 y 6 de enero, 1 y 15 de mayo, 24, 25 y 31 de diciembre.";
+  cr:latitud "40.417891279015194";
+  cr:longitud "-3.689754685481908";
+  cr:nombre "Museo Nacional de Artes Decorativas";
+  cr:telefono "915 326 499 / 915 326 845 / 910 505 755 (Reserva actividades infantiles) / 910 505 768 (Biblioteca) / 910 505 763 (Atención a investigadores)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Retiro (línea 2).Bus: 1, 2, 9, 10, 14, 15, 19, 20, 27,  28, 34, 37, 45 51, 52, 74, 146, 203.Cercanías Renfe: Recoletos (líneas C1, C2, C7, C8 Y C10).";
+  cr:via "Montalban" .
+
+<http://www.culturalrace.es/resource/2056> a cr:monuments;
+  cr:barrio "El Viso";
+  cr:cp "28006"^^xsd:int;
+  cr:distrito "Chamartin";
+  cr:horario "De martes a viernes de 10 a 17 horas.Sábados, domingos y festivos de 10 a 20 horas.Sábados, domingos y festivos de agosto de 10 a 15 horas.   Cerrado: todos los lunes no festivos, 1 y 6 de enero, 1 de mayo y 25 de diciembre.";
+  cr:latitud "40.44042007613476";
+  cr:longitud "-3.690220716379925";
+  cr:nombre "Museo Nacional de Ciencias Naturales";
+  cr:telefono "914 111 328";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Gregorio Marañón (líneas 7, 10).Bus: 12, 45, 7, 14, 27, 40, 147, 150.Bicimad: Estación 139 (Calle José Gutiérrez Abascal, 2).";
+  cr:via "Jose Gutierrez Abascal";
+  owl:image "Escuela_de_industriales_de_Madrid_(ETSIIM)_DavidDaguerro_95331.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Nacional+de+Ciencias+Naturales> owl:sameAs
+    <https://www.wikidata.org/wiki/Q29477212> .
+
+<http://www.culturalrace.es/resource/2099> a cr:monuments;
+  cr:barrio "Cortes";
+  cr:cp "28014"^^xsd:int;
+  cr:description "El Palacio donde se ubica la colección fue el antiguo palacio del duque de Villahermosa. Edificación neoclásica. Posteriormente se adapta como entidad bancaria perdiento sus espacios interiores. Más tarde, pasó a formar parte de los edificios del Museo del Prado. Desde principios de los 90 alberga la Colección Thyssen. El museo ofrece un recorrido por la historia de la pintura europea desde sus inicios en el siglo XIII, hasta finales del siglo XX.";
+  cr:distrito "Centro";
+  cr:email "cav@museothyssen.org";
+  cr:horario "Colecciones permanentes:  lunes de 12 a 16 horas (acceso gratuito gracias al patrocinio de MasterCard). Martes a domingos de 10 a 19 horas.  Exposiciones temporales: consultar horario específico en Museo.Último acceso 1 hora antes del cierre. El desalojo de todas las salas tendrá lugar 5 minutos antes del cierre. Avisos y aperturas extraordinarias: los días 1 de enero, 1 de mayo y 25 de diciembre el Museo permanecerá cerrado. El 24 y el 31 de diciembre el horario de apertura del Museo será de 10 a 15 horas.";
+  cr:latitud "40.41600553697803";
+  cr:longitud "-3.694744831131079";
+  cr:nombre "Museo Nacional Thyssen-Bornemisza";
+  cr:telefono "917 911 370";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Banco de España (línea 2)Bus: 10, 14, 27, 34, 37, 45Cercanías Renfe: Recoletos";
+  cr:via "Prado" .
+
+<http://www.culturalrace.es/resource/20484> a cr:monuments;
+  cr:barrio "Justicia";
+  cr:cp "28014"^^xsd:int;
+  cr:description "El actual Cuartel General del Ejército está formado por un conjunto de edificios entre los cuales destaca por su importancia y tamaño el palacio de Buenavista. Fue construido por el duodécimo duque de Alba, que compró en 1769 una finca situada en el lugar conocido como Altillo de Buenavista, que había tenido varios propietarios, entre ellos la Corona.  En 1847 se amplía con un nuevo cuerpo que se destina a Ministerio de la Guerra. El grupo escultórico de la fachada es obra de Aniceto Marías.";
+  cr:distrito "Centro";
+  cr:horario "Relevo de la Guardia: último viernes de cada mes, a las 11 horas en la fachada de la calle de Alcalá.";
+  cr:latitud "40.419660627134164";
+  cr:longitud "-3.6936744082913036";
+  cr:nombre "Palacio de Buenavista. Cuartel General del Ejército de Tierra";
+  cr:telefono "917 802 200";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Banco de España (línea 2)Bus: 1, 2, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, 203BICIMAD: Estación 86 (Paseo del Prado, 1)";
+  cr:via "Cibeles";
+  owl:image "Palacio_de_Buenavista_(14203354114)_(cropped).jpg" .
+
+<http://www.culturalrace.es/resource/Palacio+de+Buenavista.+Cuartel+General+del+Ej%C3%A9rcito+de+Tierra>
+  owl:sameAs <https://www.wikidata.org/wiki/Q3889284> .
+
+<http://www.culturalrace.es/resource/13815> a cr:monuments;
+  cr:barrio "Los Jeronimos";
+  cr:cp "28014"^^xsd:int;
+  cr:distrito "Retiro";
+  cr:latitud "40.419011767401095";
+  cr:longitud "-3.692206111679657";
+  cr:nombre "Palacio de Cibeles";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Banco de España (línea 2)Bus: 1 , 2 , 5 , 9 , 10 , 15 , 20 , 27 , 34 , 45 , 51 , 52 , 53 , 74 , 146 , 150Renfe: Recoletos";
+  cr:via "Cibeles";
+  owl:image "Palacio_de_Comunicaciones_-_46.jpg" .
+
+<http://www.culturalrace.es/resource/Palacio+de+Cibeles> owl:sameAs <https://www.wikidata.org/wiki/Q1849031> .
+
+<http://www.culturalrace.es/resource/10999576> a cr:monuments;
+  cr:barrio "Universidad";
+  cr:cp "28008"^^xsd:int;
+  cr:description "El PalacioPalacio Palacio de Liria es uno de los losPalaciosPalacios Palacios más importantes importantes de España y el único de Madrid.Entre sus muros alberga alberga unade las colecciones privadas de arte más exclusivas de España,una colección que muy pocos privilegiados han podido ver y disfrutar.250 años años después de su construcción por primera vez abre sus puertas al público.El itinerario incluye estancias como la biblioteca, que contiene más de 18.000 volúmenes y donde se exhiben joyas  como la Biblia de la Casa de Alba, la primera traducida al castellano, una colecciónde cartas de Cristóbal Colón,el último testamento de  Fernando El Católico, la primera edición de 'ElQuijote Quijote' (1605 ).El Palacio de Liria no es un palacio - museo al uso, es especial, es el único único palacio habitado de Madrid.Las visitas se realizarán en grupos, con inicio cada 30 minutos y una duración de 65 minut os.Cada entrada llevará asignada una hora de visita. Una vez dé comienzo la visita, no se podrá acceder al Palacio. Se debe llegar con 10 minutos de antelación.";
+  cr:distrito "Centro";
+  cr:email "info@palaciodeliria.com / visitas@palaciodeliria.com (información para grupos y eventos privados)";
+  cr:horario "Horario de visitas De noviembre a febreroLunes de 09:45 a 14 horas.De martes a domingo de 9:45 a 14 horas y de 15:45 a 18:30 horas.De marzo a octubreLunes de 09:45 a 14 horas.De martes a domingo de 9:45 a 14 horas y de 15:45 a 19:30 horas.Horario reducido días 31 diciembre y 5 enero de 9:45 a 13 horas.Horario para grupos gratuito: lunes no festivos a las 9:45 y a las 10:15 horas.Cerrado los días 1 y 6 enero, 24 y 25 diciembre.";
+  cr:latitud "40.426837593736934";
+  cr:longitud "-3.7126361453494083";
+  cr:nombre "Palacio de Liria";
+  cr:telefono "912 302 200 (desde el 19 de septiembre de 2019 de lunes a domingo de 9 a 20 horas, festivos incluidos) / 649 671 643 (solo para Whatsapp)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:via "Princesa";
+  owl:image "Palacio_de_Liria_(Madrid)_02.jpg" .
+
+<http://www.culturalrace.es/resource/Palacio+de+Liria> owl:sameAs <https://www.wikidata.org/wiki/Q3288223> .
+
+<http://www.culturalrace.es/resource/114984> a cr:monuments;
+  cr:barrio "Cortes";
+  cr:cp "28012"^^xsd:int;
+  cr:description "Es una construcción del siglo XVI, reformada posteriormente en el siglo XVIII  por el arquitecto Pedro de Ribera, y en el siglo XIX por Antonio Ruiz de Salces.";
+  cr:distrito "Centro";
+  cr:latitud "40.413979743685495";
+  cr:longitud "-3.700511154527751";
+  cr:nombre "Palacio de Santoña";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Antón Martín (línea 1) Bus: 6, 26, 32, 50, 65";
+  cr:via "Huertas";
+  owl:image "Palacio_de_los_Duques_de_Santoña_(Madrid)_01.jpg" .
+
+<http://www.culturalrace.es/resource/Palacio+de+Santo%C3%B1a> owl:sameAs <https://www.wikidata.org/wiki/Q7126253> .
+
+<http://www.culturalrace.es/resource/2061> a cr:monuments;
+  cr:barrio "El Pardo";
+  cr:cp "28048"^^xsd:int;
+  cr:description "Recinto en el que se conserva el Palacio, construido sobre el castillo del siglo XV, la Casita del Príncipe, del siglo XVIII y la Quinta del Duque de Arco (Palacete que fue Casa de Labor y sus tierras). Desde 1983 ha sido adecuado para residencia de Jefes de Estado extranjeros en visita oficial.";
+  cr:distrito "Fuencarral-el Pardo";
+  cr:email "info@patrimonionacional.es";
+  cr:horario "Horario (Palacio y Casa del Príncipe Don Carlos) De octubre a marzo: todos los días de 10 a 18 horas. De abril a septiembre: todos los días de 10 a 20 horas.  Cierre taquillas y acceso a Palacio una hora antes.  Pradera de San Francisco: todos los días de 8 a 21 horas.  Días de cierre: 9 y 10 enero, 1 mayo, 24, 25 y 31 diciembre.  Además de los cierres previstos, puede haber cierres motivados por la celebración de actos oficiales o festividad en el municipio, en estos casos consultar la web o telefónicamente.";
+  cr:latitud "40.520522342970146";
+  cr:longitud "-3.7762390614462853";
+  cr:nombre "Palacio Real de El Pardo";
+  cr:telefono "914 548 700 (Información general)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Bus: 601 (Madrid - Colonia Mingorrubio).";
+  cr:via "Manuel Alonso";
+  owl:image "El_Palacio_de_El_Pardo.JPG" .
+
+<http://www.culturalrace.es/resource/Palacio+Real+de+El+Pardo> owl:sameAs <https://www.wikidata.org/wiki/Q1368571> .
+
+<http://www.culturalrace.es/resource/2062> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28013"^^xsd:int;
+  cr:description "Construido sobre el solar del antiguo Alcázar tras un incendio en 1734. Proyectado por Juvara en 1735 y construido por Sachet de 1738 a 1764 bajo las influencias del clasicismo barroco. A partir de 1770, Sabatini añadió el ala sudeste y realizó la gran escalera. Es de destacar el gran patio que articula el edificio y la fachada principal que aloja el balcón y Escudo Real.";
+  cr:distrito "Centro";
+  cr:email "info@patrimonionacional.es";
+  cr:horario "Horario De octubre a marzo: de 10 a 18 horas.De abril a septiembre: de 10 a 20 horas.Cierre taquillas y acceso a Palacio una hora antes.Días de cierre: 16, 21, 22, 23 y 24 enero, 1 mayo, 25 diciembre.Además de los cierres previstos, puede haber cierres motivados por la celebración de actos oficiales o festividad en el municipio, en estos casos consultar la web o telefónicamente. Jardines del Campo del Moro De octubre a marzo: de 10 a 18 horas.De abril a septiembre: de 10 a 20 horas.";
+  cr:latitud "40.42075212551193";
+  cr:longitud "-3.712699107286406";
+  cr:nombre "Palacio Real de Madrid";
+  cr:telefono "914 548 700 (Información general)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Ópera (líneas 2, 5 y Ramal Ópera Norte).Bus: 25, 39.Cercanías: Príncipe Pío.Bicimad: Estación 36 (Plaza de Ramales, 1).";
+  cr:via "Bailen";
+  owl:image "Madrid_Palacio_Real_079.jpg" .
+
+<http://www.culturalrace.es/resource/Palacio+Real+de+Madrid> owl:sameAs <https://www.wikidata.org/wiki/Q171517> .
+
+<http://www.culturalrace.es/resource/2079> a cr:monuments;
+  cr:barrio "Pacifico";
+  cr:cp "28014"^^xsd:int;
+  cr:description "La construcción de este edificio responde a dos de las constantes de fines de siglo: la arquitectura historicista y la escultura funeraria. En él reposan trece personajes ilustres de la historia política y militar española.";
+  cr:distrito "Retiro";
+  cr:email "info@patrimonionacional.es";
+  cr:horario "De martes a sábado de 10 a 14 y de 16 a 18:30 horasDomingos y festivos de 10 a 15 horas. Lunes cerradoCerrado todos los lunes del añoDías de cierre: 1 mayo y 25 diciembre.Además de los cierres previstos, puede haber cierres motivados por la celebración de actos oficiales o festividad en el municipio, en estos casos consultar la web o telefónicamente.";
+  cr:latitud "40.40622617519116";
+  cr:longitud "-3.683413041846525";
+  cr:nombre "Panteón de Hombres Ilustres";
+  cr:telefono "914 548 700 (Información general)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Estación del Arte (Atocha) (línea 1).Bus: 10, 14, 24, 32, 37, 54, 57, 141.Renfe: Atocha.";
+  cr:via "Julian Gayarre";
+  owl:image "Patio_interior_del_Panteón_de_Hombres_Ilustres.jpg" .
+
+<http://www.culturalrace.es/resource/Pante%C3%B3n+de+Hombres+Ilustres> owl:sameAs
+    <https://www.wikidata.org/wiki/Q7131757> .
+
+<http://www.culturalrace.es/resource/3351> a cr:monuments;
+  cr:barrio "Embajadores";
+  cr:cp "28005"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "pquiabuenconsejoysanisidro@archimadrid.es";
+  cr:latitud "40.412964921671964";
+  cr:longitud "-3.707383827213788";
+  cr:nombre "Parroquia Nuestra Señora del Buen Consejo y San Isidro";
+  cr:telefono "913 692 037";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: La Latina (línea 5), Tirso de Molina (línea 1)Bus: 17, 18, 23, 35";
+  cr:via "Toledo" .
+
+<http://www.culturalrace.es/resource/3374> a cr:monuments;
+  cr:barrio "Almagro";
+  cr:cp "28010"^^xsd:int;
+  cr:distrito "Chamberi";
+  cr:email "samuelazcona@gmail.com";
+  cr:latitud "40.432757364795805";
+  cr:longitud "-3.692571049214642";
+  cr:nombre "Parroquia San Fermín de los Navarros";
+  cr:telefono "913 197 148";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Rubén Darío (Línea 5).Bus: 40, 147, 7.";
+  cr:via "Eduardo Dato" .
+
+<http://www.culturalrace.es/resource/Parroquia+San+Ferm%C3%ADn+de+los+Navarros> owl:sameAs
+    <https://www.wikidata.org/wiki/Q17653317> .
+
+<http://www.culturalrace.es/resource/3352> a cr:monuments;
+  cr:barrio "Sol";
+  cr:cp "28013"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "parroquiadesangines@madrid.es";
+  cr:latitud "40.41728242858594";
+  cr:longitud "-3.707028284837054";
+  cr:nombre "Parroquia San Ginés";
+  cr:telefono "913 664 875";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Opera (líneas 2, 5, Ramal)Bus:  3Renfe: SolBicimad:Estación 25b (plaza de Celenque, 1)Estación 31 (calle Mayor, 20)";
+  cr:via "Arenal";
+  owl:image "Iglesia_de_San_Ginés_(Madrid)_09.jpg" .
+
+<http://www.culturalrace.es/resource/Parroquia+San+Gin%C3%A9s> owl:sameAs <https://www.wikidata.org/wiki/Q5117097> .
+
+<http://www.culturalrace.es/resource/3370> a cr:monuments;
+  cr:barrio "Justicia";
+  cr:cp "28014"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "sanjose@archimadrid.es";
+  cr:latitud "40.41904792380414";
+  cr:longitud "-3.6966856794698795";
+  cr:nombre "Parroquia San José";
+  cr:telefono "915 226 784";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Banco de España (línea 2).Bus: 146, 74, 1, 2, 51, 53, 150, 5, 52, 9, M2, 46, 20, 15.Bicimad: Estación 20a (calle Alcalá 49).";
+  cr:via "Alcala" .
+
+<http://www.culturalrace.es/resource/3375> a cr:monuments;
+  cr:barrio "Recoletos";
+  cr:cp "28009"^^xsd:int;
+  cr:distrito "Salamanca";
+  cr:email "samasabe@archimadrid.es";
+  cr:latitud "40.42074217866137";
+  cr:longitud "-3.6860471147515685";
+  cr:nombre "Parroquia San Manuel y San Benito";
+  cr:telefono "914 357 682 / 915 756 005";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Retiro (línea 2)Bus: 2, 20, 28";
+  cr:via "Alcala" .
+
+<http://www.culturalrace.es/resource/3372> a cr:monuments;
+  cr:barrio "Universidad";
+  cr:cp "28015"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "psmarcos@archimadrid.es";
+  cr:latitud "40.42476160196848";
+  cr:longitud "-3.7111617863516715";
+  cr:nombre "Parroquia San Marcos";
+  cr:telefono "915 471 079";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Bus: 1, 138, 2, 44, 74, M2, 46. Metro: Plaza de España (líneas 3, 10), Noviciado (línea 2).Bicimad: Estación 116b (plaza de España).";
+  cr:via "San Leonardo" .
+
+<http://www.culturalrace.es/resource/3369> a cr:monuments;
+  cr:barrio "Embajadores";
+  cr:cp "28012"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "millanycayetano@gmail.com";
+  cr:latitud "40.409461123751505";
+  cr:longitud "-3.705791428982776";
+  cr:nombre "Parroquia San Millán y San Cayetano";
+  cr:telefono "915 270 790";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Latina (línea 5), Tirso de Molina (línea 1), Lavapiés (línea 3).Bus: M1.Bicimad: Estación 44 (calle Mesón de Paredes, 35).";
+  cr:via "Embajadores" .
+
+<http://www.culturalrace.es/resource/63393> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28013"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "sannicolasdebari@archimadrid.es";
+  cr:latitud "40.415793260849824";
+  cr:longitud "-3.7118688527171226";
+  cr:nombre "Parroquia San Nicolás de Bari de los Servitas";
+  cr:telefono "915 594 064";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Opera (líneas 2, 5, ramal).Bus: 3, 148.Bicimad: Estación 68 (plaza de Ramales, 1).";
+  cr:via "San Nicolas" .
+
+<http://www.culturalrace.es/resource/3358> a cr:monuments;
+  cr:barrio "Justicia";
+  cr:cp "28004"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "info@paroquiadesantabarbara.es";
+  cr:latitud "40.42428879388528";
+  cr:longitud "-3.6940873878242177";
+  cr:nombre "Parroquia Santa Bárbara";
+  cr:telefono "913 194 811";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Colón (línea 4).Bus: 5, 14, 27, 45, 53, 150.Cercanías Renfe: Recoletos (líneas C1, C2, C7, C8 y C10).";
+  cr:via "General Casta&amp;ntilde;os" .
+
+<http://www.culturalrace.es/resource/3362> a cr:monuments;
+  cr:barrio "Sol";
+  cr:cp "28012"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "santacruz@archimadrid.es";
+  cr:latitud "40.414608558946085";
+  cr:longitud "-3.705255882048698";
+  cr:nombre "Parroquia Santa Cruz";
+  cr:telefono "913 691 239";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Sol (líneas 1, 2, 3), Tirso de Molina (línea 1).Bus: 50, 26, 32, 6, 65, 18, 23, 17, M1, 31.Cercanías Renfe: Sol (líneas C3 y C4).Bicimad: Estaciones 32 (plaza de la Provincia, 1), 34 (plaza de Jacinto Benavente), 40 (plaza del Conde Romanones, 9).";
+  cr:via "Atocha" .
+
+<http://www.culturalrace.es/resource/3373> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28013"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "santiagoysanjuanbautista@archimadrid.es";
+  cr:latitud "40.41652031892383";
+  cr:longitud "-3.7108392672110684";
+  cr:nombre "Parroquia Santiago y San Juan Bautista";
+  cr:telefono "915 480 824";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Ópera (línea 2, 5, Ramal).Bus: 3.Bicimad: Estación 9 (plaza de San Miguel, 9).";
+  cr:via "Santiago" .
+
+<http://www.culturalrace.es/resource/20557> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28013"^^xsd:int;
+  cr:description "Diseñada por González Velázquez. Se empieza a construir en 1816, tomándose como eje el Teatro Real enfrentado al Palacio Real. Su trazado definitivo se realiza en 1850 por Narciso Pascual Colomer. Entre 1994 y 1997 se llevó a cabo la remodelación que integra en un conjunto peatonal el Palacio Real y el Teatro de la Opera, siguiendo el proyecto de los arquitectos Miguel Oriol e Ibarra y Miguel Botella Ruiz-Castillo. Los jardines situados frente al Palacio Real. En el centro de la plaza se encuentra la estatua ecuestre de Felipe IV, obra fundida por Pietro Tacca según cálculos de Galileo Galilei.";
+  cr:distrito "Centro";
+  cr:nombre "Plaza de Oriente";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Ópera (líneas 2, 5, R) Bus: 3, 25, 33, 39, 148";
+  cr:via "Oriente";
+  owl:image "Plaza_de_Oriente_(Madrid)_06.jpg" .
+
+<http://www.culturalrace.es/resource/Plaza+de+Oriente> owl:sameAs <https://www.wikidata.org/wiki/Q2193218> .
+
+<http://www.culturalrace.es/resource/20563> a cr:monuments;
+  cr:barrio "Sol";
+  cr:cp "28012"^^xsd:int;
+  cr:description "Lugar emblemático de Madrid con origen en la antigua Plaza del Arrabal, extramuros del recinto medieval y foco comercial del primitivo Madrid. Tuvo forma irregular debido a su crecimiento espontáneo,  y fue objeto de varios proyectos de regularización. Al ser elegida Madrid como capital, se vio la necesidad de crear una auténtica Plaza Mayor y Felipe II  se lo encargó a Juan de Herrera. En el siglo XIX  se colocó la estatua de Felipe III a cuyo reinado pertenece la construcción de la plaza.Este año se celebra el IV Centenario de su construcción.";
+  cr:distrito "Centro";
+  cr:latitud "40.41498735934118";
+  cr:longitud "-3.706662448203068";
+  cr:nombre "Plaza Mayor";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Sol (líneas 1, 2, 3), Tirso de Molina (línea 1)Bus: 3, 17, 18, 23, 31";
+  cr:via "Mayor";
+  owl:image "Plaza_Mayor_de_Salamanca,_Castilla_y_León,_España.jpg" .
+
+<http://www.culturalrace.es/resource/Plaza+Mayor> owl:sameAs <https://www.wikidata.org/wiki/Q1561555> .
+
+<http://www.culturalrace.es/resource/2430> a cr:monuments;
+  cr:barrio "Guindalera";
+  cr:cp "28028"^^xsd:int;
+  cr:description "De estilo neomudéjar se terminó de construir en el año 1931. Basada en un proyecto de José Espelius, quien murió antes de la conclusión de las obras, fue terminada por Manuel Muñoz Monasterio. El terreno se presenta en talud, salvado desde la Avenida de los Toreros mediante escalinatas que interrumpen el trazado ajardinado.";
+  cr:distrito "Salamanca";
+  cr:email "comunicacion@plazauno.es";
+  cr:latitud "40.431580111585106";
+  cr:longitud "-3.6628728693917627";
+  cr:nombre "Plaza Monumental de Toros de las Ventas";
+  cr:telefono "913 562 200 (ver pestaña más información)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Ventas (líneas 2, 5)Bus: 12, 21, 38, 53, 74, 106, 110, 146, 210.";
+  cr:via "Alcala";
+  owl:image "Plaza_de_Toros_de_Las_Ventas_(Madrid)_04.jpg" .
+
+<http://www.culturalrace.es/resource/Plaza+Monumental+de+Toros+de+las+Ventas> owl:sameAs
+    <https://www.wikidata.org/wiki/Q756621> .
+
+<http://www.culturalrace.es/resource/7714918> a cr:monuments;
+  cr:barrio "Sol";
+  cr:cp "28013"^^xsd:int;
+  cr:description "Toma su nombre de un postigo de la antigua muralla medieval que estaba decorado con un Sol y que se derribó en el siglo XVII, el lugar conservó el nombre. En origen fue un punto exterior de la ciudad, aunque debido al crecimiento de Madrid y a su  situación fue convirtiéndose poco a poco en el centro de la capital. En 1857 ,el Ministerio de Fomento  convoca un concurso quedando aprobada la reforma de Lucio del Valle, Juan Rivera y José Morer, que conservaba la alineación de la antigua Casa de Correos en uno de los lados, mientras que el otro adoptaba una forma semicircular.";
+  cr:distrito "Centro";
+  cr:latitud "40.416887979993966";
+  cr:longitud "-3.7022740027977377";
+  cr:nombre "Puerta del Sol";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Sol (líneas 1, 2, 3) Bus: 15, 20, 51, 52, 53";
+  cr:via "Puerta Del Sol";
+  owl:image "Real_Casa_de_Correos_(Madrid)_05b.jpg" .
+
+<http://www.culturalrace.es/resource/Puerta+del+Sol> owl:sameAs <https://www.wikidata.org/wiki/Q9067027> .
+
+<http://www.culturalrace.es/resource/2124> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28005"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "secretaria@racmyp.es";
+  cr:latitud "40.4151547271264";
+  cr:longitud "-3.71022377531515";
+  cr:nombre "Real Academia de Ciencias Morales y Políticas";
+  cr:telefono "915 481 330 / 917 581 505 (Biblioteca)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Sol (líneas 1, 2, 3), Ópera (líneas 2, 5)Bus: 3, 31, 50, 65Renfe: SolBICIMAD: Estación 9 (Plaza San Miguel, 9)";
+  cr:via "De La Villa";
+  owl:image "Casa_y_Torre_de_los_Lujanes_(Madrid)_01.jpg" .
+
+<http://www.culturalrace.es/resource/Real+Academia+de+Ciencias+Morales+y+Pol%C3%ADticas>
+  owl:sameAs <https://www.wikidata.org/wiki/Q840015> .
+
+<http://www.culturalrace.es/resource/2128> a cr:monuments;
+  cr:barrio "Cortes";
+  cr:cp "28014"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "secretaria@rajyl.es";
+  cr:horario "De lunes a jueves  9:30 a 14 y de 17 a 20 horas. Viernes de 9:30 a 14 horas.";
+  cr:latitud "40.41749648159225";
+  cr:longitud "-3.6955027540085243";
+  cr:nombre "Real Academia de Jurisprudencia y Legislación";
+  cr:telefono "915 222 069";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Banco de España (línea 2)Bus: 1, 2, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 46, 51, 52, 53, 74, 146, 150, M2BICIMAD: Estación 29 (calle Marqués de Cubas, 25)";
+  cr:via "Marqués De Cubas";
+  owl:image "Real_Academia_de_Jurisprudencia_y_Legislación_(España)_01.jpg" .
+
+<http://www.culturalrace.es/resource/Real+Academia+de+Jurisprudencia+y+Legislaci%C3%B3n>
+  owl:sameAs <https://www.wikidata.org/wiki/Q26960978> .
+
+<http://www.culturalrace.es/resource/2127> a cr:monuments;
+  cr:barrio "Cortes";
+  cr:cp "28014"^^xsd:int;
+  cr:distrito "Centro";
+  cr:horario "De 8:30 a 15:30 horas.";
+  cr:latitud "40.41346631071615";
+  cr:longitud "-3.699008959181709";
+  cr:nombre "Real Academia de la Historia";
+  cr:telefono "914 290 611";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Antón Martín (línea 1)Bus: M1, 6, 26, 32BICIMAD: Estación 41 (calle Atocha, 54)";
+  cr:via "De León" .
+
+<http://www.culturalrace.es/resource/2126> a cr:monuments;
+  cr:barrio "Justicia";
+  cr:cp "28004"^^xsd:int;
+  cr:distrito "Centro";
+  cr:horario "De lunes a jueves (no festivos) de 9:30 a 14:30 y de 15:30 a 21:30 horas.";
+  cr:latitud "40.423966629698484";
+  cr:longitud "-3.6997070566405665";
+  cr:nombre "Real Academia Nacional de Farmacia";
+  cr:telefono "915 310 307  / 915 223 147";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Chueca (línea 5), Tribunal (líneas 1 y 10)Bus: 3BICIMAD: Estación 6 (calle Hortaleza, 63)";
+  cr:via "Farmacia";
+  owl:image "Real_Academia_Nacional_de_Farmacia_(España)_01.jpg" .
+
+<http://www.culturalrace.es/resource/Real+Academia+Nacional+de+Farmacia> owl:sameAs
+    <https://www.wikidata.org/wiki/Q29903068> .
+
+<http://www.culturalrace.es/resource/3359> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28005"^^xsd:int;
+  cr:description "Conjunto conventual que sustituyó al monasterio franciscano medieval, construido por Francisco de las Cabezas entre 1761 y 1768, que fue relevado por Antonio Polo y que concluye Francisco Sabatini en 1784 donde se exponen colecciones de pinturas de los siglos XVII al XIX.";
+  cr:distrito "Centro";
+  cr:horario "Museo:  De martes a viernes de 10:30 a 12:30 y de 16 a 18 horasSábados de 10:30 a 12:30 y de 16 a 18 horas (si no se ofician actos religiosos).Julio, agosto y septiembre: de martes a domingo de 10:30 a 12:30 y de 17 a 19 horas.";
+  cr:latitud "40.41084005024222";
+  cr:longitud "-3.714503845728281";
+  cr:nombre "Real Basílica San Francisco el Grande";
+  cr:telefono "913 653 800";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: La Latina (línea 5) , Puerta de Toledo (línea 5)Bus:  3, 60, 148";
+  cr:via "San Buenaventura";
+  owl:image "Madrid_Real_Basílica_de_San_Francisco_el_Grande_16-03-2010_16-35-14.JPG" .
+
+<http://www.culturalrace.es/resource/Real+Bas%C3%ADlica+San+Francisco+el+Grande> owl:sameAs
+    <https://www.wikidata.org/wiki/Q2473884> .
+
+<http://www.culturalrace.es/resource/6070> a cr:monuments;
+  cr:barrio "Embajadores";
+  cr:cp "28012"^^xsd:int;
+  cr:distrito "Centro";
+  cr:latitud "40.40962511552305";
+  cr:longitud "-3.6965767139076444";
+  cr:nombre "Real Colegio Santa Isabel - La Asunción";
+  cr:telefono "915 273 183 - 915 273 181";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Atocha , Antón Martín  Bus: 6 , 19 , 26 , 27 , 32 , 34 , 37 , 41 , 45 , 119 , C  Renfe: Atocha";
+  cr:via "Santa Isabel";
+  owl:image "Real_Monasterio_de_Santa_Isabel_(Madrid)_02.jpg" .
+
+<http://www.culturalrace.es/resource/Real+Colegio+Santa+Isabel+-+La+Asunci%C3%B3n>
+  owl:sameAs <https://www.wikidata.org/wiki/Q9067089> .
+
+<http://www.culturalrace.es/resource/2087> a cr:monuments;
+  cr:barrio "Pacifico";
+  cr:cp "28014"^^xsd:int;
+  cr:distrito "Retiro";
+  cr:email "informacion@realfabricadetapices.com";
+  cr:horario "Visitas guiadas: Lunes a viernes a las 10, 11, 12 y 13 horas (duración de la visita 45 minutos).Se recomienda realizar una reserva antes de la llegada al museo.";
+  cr:latitud "40.406087329011655";
+  cr:longitud "-3.682515969574079";
+  cr:nombre "Real Fábrica de Tapices";
+  cr:telefono "914 340 550";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Menéndez Pelayo (línea 1).Bus: 10, 14, 26, 32, C1, C2, 24, 37, 54, 57, 141.Bicimad: Estación 79 (Avenida de Menéndez Pelayo, 38).";
+  cr:via "Fuenterrabia";
+  owl:image "Real_Fabrica_de_Tapices_de_Madrid.jpg" .
+
+<http://www.culturalrace.es/resource/Real+F%C3%A1brica+de+Tapices> owl:sameAs <https://www.wikidata.org/wiki/Q570665> .
+
+<http://www.culturalrace.es/resource/6113673> a cr:monuments;
+  cr:barrio "Los Jeronimos";
+  cr:cp "28014"^^xsd:int;
+  cr:description "Centro de investigación del CSIC que alberga cuatro terrazas con plantas de América, Europa y el Pacífico, así como una colección de bonsáis.";
+  cr:distrito "Retiro";
+  cr:horario "El Jardín está abierto al público todos los días del año, excepto los días de Navidad y Año Nuevo.Enero y febrero: de 10 a 18 horasMarzo: de 10 a 19 horasAbril: de 10 a 20 horasDe mayo a agosto de 10 a 21 horasSeptiembre: de 10 a 20 horasOctubre: de 10 a 19 horasNoviembre y diciembre: de 10 a 18 horas";
+  cr:latitud "40.41238214985831";
+  cr:longitud "-3.692032097926277";
+  cr:nombre "Real Jardín Botánico";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Atocha (línea 1)Bus: 10, 14, 19, 24, 26, 27, 32, 34, 45, 57, 140, CircularRENFE: Atocha Servicio Bicimad, para consultar la estación más cercana, acceda al mapa de geolocalización de las estaciones.";
+  cr:via "Murillo";
+  owl:image "RealJardinBotanico_Puerta_del_Rey.jpg" .
+
+<http://www.culturalrace.es/resource/Real+Jard%C3%ADn+Bot%C3%A1nico> owl:sameAs <https://www.wikidata.org/wiki/Q1794858> .
+
+<http://www.culturalrace.es/resource/3349> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28013"^^xsd:int;
+  cr:description "Edificio construído por Juan Gómez de Mora de 1611 a 1616 como monasterio anejo al Alcázar Real, modelo de lo que se ha dado en llamar barroco madrileño. Cuenta con la reliquia de San Pantaleón.";
+  cr:distrito "Centro";
+  cr:email "info@patrimonionacional.es";
+  cr:horario "De martes a sábado: de 10 a 14 horas y de 16 a 18:30 horasDomingos y festivos: de 10 a 15 horas. Tardes cerradoCerrado todos los lunes del año Días de cierre: 25 enero, 17 a 20 abril, 1 mayo, 24 y 31 diciembre.  Además de los cierres previstos, puede haber cierres motivados por la celebración de actos oficiales o festividad en el municipio, en estos casos consultar la web o telefónicamente.";
+  cr:latitud "40.41967800877382";
+  cr:longitud "-3.711567962866152";
+  cr:nombre "Real Monasterio de la Encarnación";
+  cr:telefono "914 548 700 (Información general)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro:  Ópera (líneas 2, 5 y Ramal Ópera Príncipe Pío), Plaza de España (líneas 3, 10).Bus:  1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 147, 148, C1, C2.";
+  cr:via "Encarnacion";
+  owl:image "Real_Monasterio_de_la_Encarnación_(Madrid)_01.jpg" .
+
+<http://www.culturalrace.es/resource/Real+Monasterio+de+la+Encarnaci%C3%B3n> owl:sameAs
+    <https://www.wikidata.org/wiki/Q205524> .
+
+<http://www.culturalrace.es/resource/4707297> a cr:monuments;
+  cr:barrio "Embajadores";
+  cr:cp "28012"^^xsd:int;
+  cr:description "El Real Monasterio de Santa Isabel está situado en Madrid, dentro de la ciudad histórica, en una gran manzana, próxima a Atocha.Santa Isabel agrupa dos fundaciones, un colegio de niñas, establecido por Felipe II, y un convento de clausura de monjas agustinas recoletas, fundado por la esposa de Felipe III, doña Margarita de Austria.La arquitectura de la iglesia se debe a Gómez de Mora, de mediados del siglo XVIII. En la clausura se conservan numerosas obras pictóricas de los siglos XVII y XVIII.";
+  cr:distrito "Centro";
+  cr:email "info@patrimonionacional.es";
+  cr:horario "El acceso al templo sólo es posible en horario de culto.";
+  cr:latitud "40.41213027498252";
+  cr:longitud "-3.6994547941964946";
+  cr:nombre "Real Monasterio de Santa Isabel";
+  cr:telefono "914 548 700 (Información general)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Estación del Arte (Atocha) (línea 1).Bus: 6, 19, 26, 27, 32, 34, 45, 59, 85, 86, C1, E1.Renfe: Atocha.";
+  cr:via "Santa Isabel";
+  owl:image "Real_Monasterio_de_Santa_Isabel_(Madrid)_02.jpg" .
+
+<http://www.culturalrace.es/resource/Real+Monasterio+de+Santa+Isabel> owl:sameAs <https://www.wikidata.org/wiki/Q9067089> .
+
+<http://www.culturalrace.es/resource/3360> a cr:monuments;
+  cr:barrio "Sol";
+  cr:cp "28013"^^xsd:int;
+  cr:description "Construído por Juan de Villanueva entre 1786 y 1795 de planta basilical y en un sentir muy cercano al de las iglesias venecianas de Palladio. La fachada es de Custodio Moreno.Entre 1976 y 1981 el arquitecto Fernando Chueca Goitia emprendió un proyecto de restauración  con polémicos resultados. Los trabajos se interrumpieron durante largos años; convocándose finalmente un concurso de arquitectura que fue ganado en 1987 por Javier Feduchi Benlliure.";
+  cr:distrito "Centro";
+  cr:email "info@caballerodegracia.org / info.caballerodegracia@archimadrid.es";
+  cr:latitud "40.41953675995833";
+  cr:longitud "-3.700769178078419";
+  cr:nombre "Real Oratorio del Caballero de Gracia";
+  cr:telefono "915 326 937";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Sevilla (línea 2)Bus: 3, 46, M2, 1, 2, 74, 146";
+  cr:via "Caballero De Gracia";
+  owl:image "Real_Oratorio_del_Caballero_de_Gracia_(Madrid)_02.jpg" .
+
+<http://www.culturalrace.es/resource/Real+Oratorio+del+Caballero+de+Gracia> owl:sameAs
+    <https://www.wikidata.org/wiki/Q7099937> .
+
+<http://www.culturalrace.es/resource/2135> a cr:monuments;
+  cr:barrio "Rios Rosas";
+  cr:cp "28003"^^xsd:int;
+  cr:description "Singular espacio expositivo ubicado en un antiguo depósito de agua, construido entre 1907 y 1911 por el ingeniero Diego Martín Montalvo y el arquitecto Ramón de Aguinaga, de estilo ecléctico con una estructura exterior de ladrillo en planta circular, restaurado y acondicionado como sala de exposiciones en 1986 por los arquitectos Javier Alau y Antonio Lopera.Las exposiciones temporales que se realizan en este espacio están destinadas exclusivamente a la creación fotográfica y audiovisual contemporánea. La sala acoge tanto a artistas clásicos internacionales como a representantes de la joven fotografía española e internacional y se ha consolidado como un espacio emblemático en la difusión de las últimas tendencias.";
+  cr:distrito "Chamberi";
+  cr:email "museosexposiciones@madrid.org";
+  cr:horario "De martes a sábados de 11 a 20:30 horas. Domingos y festivos de 11 a 14 horas. Cerrado: lunes, 24, 25 y 31 de diciembre; 1 y 6 de enero; 1 de mayo.Consultar horario específico de cada exposición.";
+  cr:latitud "40.43917634033899";
+  cr:longitud "-3.7007844119216258";
+  cr:nombre "Sala de Exposiciones Canal de Isabel II";
+  cr:telefono "915 451 000 (ext. 2505)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Ríos Rosas (línea 1), Alonso Cano (línea 7)Bus: 3, 37, 149Bicimad: Estación 130 (calle Santa Engracia, 127)";
+  cr:via "Santa Engracia" .
+
+<http://www.culturalrace.es/resource/21> a cr:monuments;
+  cr:barrio "Palacio";
+  cr:cp "28013"^^xsd:int;
+  cr:distrito "Centro";
+  cr:latitud "40.42145565624762";
+  cr:longitud "-3.712565078821235";
+  cr:nombre "Senado de España";
+  cr:telefono "900 103 038 / 915 381 000";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Plaza España (líneas 3, 10)Bus: 25, 39, 46, 68, 69, 74, 75, 138, 148, C2, 3";
+  cr:via "Bailen";
+  owl:image "Senado_fachada_Madrid.jpg" .
+
+<http://www.culturalrace.es/resource/Senado+de+Espa%C3%B1a> owl:sameAs <https://www.wikidata.org/wiki/Q10343739> .
+
+<http://www.culturalrace.es/resource/20592> a cr:monuments;
+  cr:barrio "Justicia";
+  cr:cp "28004"^^xsd:int;
+  cr:description "La SGAE, Sociedad General de Autores y Editores, es una entidad privada dedicada a la defensa y gestión colectiva de los derechos de propiedad intelectual de sus más de 106.000 socios. Su misión fundamental es la protección y reparto de la remuneración de los socios por la utilización de sus obras (reproducción, distribución, comunicación pública, transformación y copia privada) y la gestión de licencias entre los clientes para su uso.";
+  cr:distrito "Centro";
+  cr:email "sociosmadrid@sgae.es";
+  cr:latitud "40.425444297155785";
+  cr:longitud "-3.6966927307702515";
+  cr:nombre "Sociedad General de Autores y Editores (SGAE)";
+  cr:telefono "913 499 550 / 00";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Alonso Martínez (líneas 4, 5, 10), Tribunal (líneas 1, 10) Bus: 3, 37,";
+  cr:via "Fernando Vi";
+  owl:image "Palacio_Longoria_(Madrid)_16.jpg" .
+
+<http://www.culturalrace.es/resource/Sociedad+General+de+Autores+y+Editores+%28SGAE%29>
+  owl:sameAs <https://www.wikidata.org/wiki/Q2571772> .
+
+<http://www.culturalrace.es/resource/20605> a cr:monuments;
+  cr:barrio "Casa De Campo";
+  cr:cp "28008"^^xsd:int;
+  cr:description "Templo egipcio dedicado a Amón de Debod y a Isis, construido entre 185 AC y el siglo I de la Era. Fue donado por Egipto a España en 1968, en agradecimiento por la ayuda en el salvamento de los templos de Abu Simbel. Egyptian temple dedicated to Amun of Debod and Isis. It was built between 185 BC and the 1st century. It was donated by Egypt to Spain in 1968 for its help in the rescue of the temples of Abu Simbel.";
+  cr:distrito "Moncloa-aravaca";
+  cr:email "templodebod@madrid.es";
+  cr:horario "Martes a domingos y festivos, de 10 a 20 horas / Tuesday to Sundays and holidays, from 10 a.m. to 8 p.m.  Cerrado los lunes y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre./ Closed Mondays and January 1 and 6, May 1, December 24, 25 and 31 Último pase de visita 30 minutos antes del cierre / Last visit pass 30 minutes before closing El horario y la apertura de salas pueden sufrir modificaciones. Ppor favor, confírmelo en el teléfono de información del museo./ The schedule  is subjects to change. Please, confirm it in the information telephone of the museum.";
+  cr:latitud "40.42425096551599";
+  cr:longitud "-3.716531855540272";
+  cr:nombre "Templo de Debod";
+  cr:telefono "913 667 415 (Museo de San Isidro / Templo de Debod)";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Plaza de España (líneas 3 y 10) y Ventura Rodríguez (línea 3) Bus: 1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 148, C1 y C2 Renfe: Príncipe Pío  Bus turístico: Ruta 1. PARADA 10 - Templo de Debod Otras formas de acceso: Aparcamiento de coches: dentro del Área de Estacionamiento Regulado de la ciudad de Madrid. BICIMAD (Servicio público de bicicletas de la ciudad de Madrid): Estación 115 (calle Evaristo San Miguel s/n.,entre Paseo Pintor Rosales y calle Ferraz)";
+  cr:via "Ferraz";
+  owl:image "Templo_de_Debod_Madrid.JPG" .
+
+<http://www.culturalrace.es/resource/Templo+de+Debod> owl:sameAs <https://www.wikidata.org/wiki/Q1140249> .
+
+<http://www.culturalrace.es/resource/1634> a cr:monuments;
+  cr:barrio "Lista";
+  cr:cp "28006"^^xsd:int;
+  cr:description "Supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado, así como del Sector Público, sin perjuicio de su propia jurisdicción.";
+  cr:distrito "Salamanca";
+  cr:latitud "40.42952490187533";
+  cr:longitud "-3.670881135626959";
+  cr:nombre "Tribunal de Cuentas";
+  cr:telefono "914 478 701";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Manuel Becerra (líneas 2 y 6)Bus: 1, 12, 38, 43, 48, 56, 74, 110, 210, C1, C2";
+  cr:via "Jose Ortega Y Gasset";
+  owl:image "Tribunal_de_Cuentas.jpg" .
+
+<http://www.culturalrace.es/resource/Tribunal+de+Cuentas> owl:sameAs <https://www.wikidata.org/wiki/Q29653372> .
+
+<http://www.culturalrace.es/resource/541> a cr:monuments;
+  cr:barrio "Justicia";
+  cr:cp "28004"^^xsd:int;
+  cr:distrito "Centro";
+  cr:latitud "40.4247497561406";
+  cr:longitud "-3.6933000719659024";
+  cr:nombre "Tribunal Supremo";
+  cr:telefono "913 971 245 / 913 973 230 / 913 971 004";
+  cr:tipo "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos";
+  cr:transporte "Metro: Colón (línea 4)Bus: 5, 14, 21 , 27, 37, 45, 53, 150 Cercanías: RecoletosBICIMAD:Estación 10 (calle Marqués de la Ensenada, 16)Estación 26 (Plaza Salesas, 7)";
+  cr:via "Villa De Paris";
+  owl:image "TRIBUNAL_SUPREMO_DE_ESPAÑA.jpg" .
+
+<http://www.culturalrace.es/resource/Tribunal+Supremo> owl:sameAs <https://www.wikidata.org/wiki/Q29650096> .
+
+<http://www.culturalrace.es/resource/4847190> a cr:museums;
+  cr:barrio "Cortes";
+  cr:cp "28014"^^xsd:int;
+  cr:descripcion "'Mi casilla, mi quietud, mi g&amp;uuml;ertecillo y estudio'. Así define su casa Félix Lope de Vega (1562-1635) en una carta dirigida a un amigo. Situada en pleno centro histórico, en el Barrio de las Letras, la Casa Museo Lope de Vega se ubica en el edificio donde el escritor vivió sus últimos 25 años. La recreación de ambientes, cuyo objetivo es que se respire la presencia de Lope, evoca la vida cotidiana del Siglo de Oro y nos acerca a su intimidad. El equipamiento de la casa incorpora obras de arte, mobiliario, enseres y ediciones bibliográficas vinculadas al literato y su tiempo. Visitas Guiadas El acceso al museo se hace mediante visitas guiadas en grupo (máximo 15 personas). Imprescindible reservar con antelación, llamando al teléfono 914 299 216 o escribiendo un correo electrónico a casamuseolopedevega@madrid.org.Las visitas comienzan cada media hora y tienen una duración aproximada de 35 minutos (última visita a las 17 horas).También se realizan visitas en inglés y francés.";
+  cr:distrito "Centro";
+  cr:email "casamuseolopedevega@madrid.org";
+  cr:horario "De martes a domingo de 10 a 18 horas (último pase a las 17 horas) Cerrado los lunes, días 1 y 6 de enero, 1 de mayo, 9 de noviembre y 24, 25 y 31 de diciembre.";
+  cr:latitud "40.414358466555235";
+  cr:longitud "-3.6974741545860015";
+  cr:nombre "Casa Museo Lope de Vega";
+  cr:telefono "914 299 216";
+  cr:transporte "Metro: Antón Martín (línea 1).Bus: M1Bicimad:Estación 27 (calle Jesús)Estación 52 (Plaza de Santa Ana)Cercanías Renfe: Sol (líneas C3 y C4)";
+  cr:via "Cervantes";
+  owl:image "Casa-Museo_de_Lope_de_Vega_(Madrid)_01.jpg" .
+
+<http://www.culturalrace.es/resource/Casa+Museo+Lope+de+Vega> owl:sameAs <https://www.wikidata.org/wiki/Q948580> .
+
+<http://www.culturalrace.es/resource/5682031> a cr:museums;
+  cr:barrio "Alameda De Osuna";
+  cr:cp "28042"^^xsd:int;
+  cr:descripcion "El Castillo de la Alameda o de Barajas se trata de uno de los escasos vestigios de la arquitectura militar del pasado siglo XV y uno de los pocos castillos que ha sobrevivido al paso del tiempo. Bajo él y su entorno, existen restos de asentamientos antiguos desde la Edad del Bronce hasta la Época Romana.En el edificio se realizan talleres para escolares y actividades en verano.";
+  cr:distrito "Barajas";
+  cr:email "castilloalameda@madrid.es";
+  cr:horario "Abierto solo en fin de semana (sábado y domingo) y festivos (lunes festivos incluidos)Del 1 de abril al 15 de junio de 10 a 21 horas.Del 16 de junio al 15 de septiembre de 10 a 20 horas.Del 15 al 30 de septiembre de 10 a 21 horas.De octubre a marzo de 10 a 18 horas.Cerrado: 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre.";
+  cr:latitud "40.45835460563491";
+  cr:longitud "-3.5932903820278788";
+  cr:nombre "Castillo de la Alameda";
+  cr:telefono "913 667 415";
+  cr:transporte "Metro: Alameda de Osuna y El Capricho (línea 5) Bus: 101, 105, 112, 114, 115 y 151";
+  cr:via "Antonio Sancha";
+  owl:image "Castillo_de_La_Alameda_(Madrid)_02.jpg" .
+
+<http://www.culturalrace.es/resource/Castillo+de+la+Alameda> owl:sameAs <https://www.wikidata.org/wiki/Q8342365> .
+
+<http://www.culturalrace.es/resource/2064> a cr:museums;
+  cr:barrio "Los Jeronimos";
+  cr:cp "28014"^^xsd:int;
+  cr:descripcion "Edificio que forma parte del Museo Nacional del Prado, donde pueden consultarse fondos de la Biblioteca, del Archivo y del Servicio de Documentación de la colección del Museo y de otras fuentes relativas a la historia del arte.";
+  cr:distrito "Retiro";
+  cr:email "biblioteca@museodelprado.es";
+  cr:horario "Mañanas De lunes a jueves, de 9 a 15 horas (Servicio de libros y otros materiales hasta las 14:30 horas)Viernes, de 9 a 14:30 horas (Servicio de libros y otros materiales hasta las 14 h) Tardes Lunes y miércoles, de 15 a 18 horas (Servicio de libros y otros materiales hasta las 17:30 horas) Horario de verano  Desde el 16 de junio al 15 de septiembre, de lunes a viernes, de 9 a 14:30 horas";
+  cr:latitud "40.415263749471535";
+  cr:longitud "-3.689232811717636";
+  cr:nombre "Casón del Buen Retiro";
+  cr:telefono "913 302 821";
+  cr:transporte "Metro: Estación del Arte (Atocha) (línea 1)Bus: 19Renfe: AtochaBicimad: Estación 65 (calle Antonio Maura, 15)";
+  cr:via "Alfonso Xii";
+  owl:image "Cason_del_Buen_Retiro-Front_side.jpg" .
+
+<http://www.culturalrace.es/resource/Cas%C3%B3n+del+Buen+Retiro> owl:sameAs <https://www.wikidata.org/wiki/Q3321174> .
+
+<http://www.culturalrace.es/resource/103331> a cr:museums;
+  cr:barrio "Embajadores";
+  cr:cp "28012"^^xsd:int;
+  cr:descripcion "Edificio de carácter monumental. De estilo neomudéjar, fue diseñado por el arquitecto Fernando Arbós e inaugurado en el año 1913. Cuenta con más de 6.000 metros cuadrados de instalaciones divididas en 4 plantas y una azotea.";
+  cr:distrito "Centro";
+  cr:email "lacasaencendida@montemadrid.es";
+  cr:horario "De martes a domingo de 10 a 22 horas (todos los días del año, excepto festividades nacionales y de la Comunidad de Madrid)Exposiciones: de 10 a 21:45 horas";
+  cr:latitud "40.40595710517701";
+  cr:longitud "-3.699779793558763";
+  cr:nombre "Centro Social y Cultural La Casa Encendida";
+  cr:telefono "902 430 322";
+  cr:transporte "Metro: Embajadores (línea 3), Lavapies (línea 3), Estación del Arte (Atocha) (línea 1), Palos de la Frontera (línea 3)Bus: 27, 34, 36, 41, 119, C1, C2Renfe: Embajadores (C5), Atocha ( C1, C2, C3, C4, C5, C7, C8, C10)";
+  cr:via "Valencia";
+  owl:image "Casa_Encendida,_patio_interior,_Madrid,_2018_01.jpg" .
+
+<http://www.culturalrace.es/resource/Centro+Social+y+Cultural+La+Casa+Encendida> owl:sameAs
+    <https://www.wikidata.org/wiki/Q5962732> .
+
+<http://www.culturalrace.es/resource/6469186> a cr:museums;
+  cr:barrio "Casa De Campo";
+  cr:cp "28008"^^xsd:int;
+  cr:descripcion "Ermita dedicada a San Antonio de Padua y pequeño museo. Las pinturas murales que la decoran son de Francisco de Goya. Alberga los restos mortales del artista desde 1919. Para preservar sus pinturas, en 1929 se trasladó el culto a una ermita gemela construida a su lado, dejando el edificio original como museo.";
+  cr:distrito "Moncloa-aravaca";
+  cr:email "sanantonio@madrid.es";
+  cr:horario "General de martes a domingos de 9:30 a 20 horas. Verano del 15 de junio al 15 de septiembre: de martes a viernes de 9:30 a 14 horas.sábados, domingos y festivos de 9:30 a 19 horas. Cerrado:  lunes (incluidos festivos), 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre. Último pase de visita: 20 minutos antes del cierre (el desalojo de las salas comenzará 10 minutos antes)Este horario y la apertura de salas pueden sufrir modificaciones.";
+  cr:latitud "40.425256682855846";
+  cr:longitud "-3.725725718176111";
+  cr:nombre "Ermita de San Antonio de la Florida (Museo)";
+  cr:telefono "915 420 722 o 683 429 760";
+  cr:transporte "Metro: Príncipe Pío (líneas 5, 10 y ramal Ópera - Príncipe Pío) Bus: 41, 46 y 75 (Intercambiador Príncipe Pío) Renfe: Príncipe Pío BICIMAD: Estación 161 (Paseo de la Florida 8)";
+  cr:via "San Antonio De La Florida";
+  owl:image "San_Antonio_de_la_Florida.jpg" .
+
+<http://www.culturalrace.es/resource/Ermita+de+San+Antonio+de+la+Florida+%28Museo%29>
+  owl:sameAs <https://www.wikidata.org/wiki/Q3109752> .
+
+<http://www.culturalrace.es/resource/58353> a cr:museums;
+  cr:barrio "Universidad";
+  cr:cp "28004"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "actividades.espacio@fundaciontelefonica.com";
+  cr:horario "De martes a domingo, de 10 a 20 horas.Cerrado al público todos los lunes y días 25 de diciembre, 1 y 6 de enero.";
+  cr:latitud "40.42041458612889";
+  cr:longitud "-3.7016034186955076";
+  cr:nombre "Espacio Fundación Telefónica";
+  cr:telefono "915 808 700 (información general) / 915 226 645 (visitas guiadas y talleres)";
+  cr:transporte "Metro: Gran Vía (líneas 1, 5)Bus: 1, 2, 3, 46, 74, 146, M2Bicimad estación 21 - Red de San Luis A: calle de la Montera, 48";
+  cr:via "Fuencarral";
+  owl:image "Telefónica_-_Gran_Vía_28_-_Madrid.jpg" .
+
+<http://www.culturalrace.es/resource/Espacio+Fundaci%C3%B3n+Telef%C3%B3nica> owl:sameAs
+    <https://www.wikidata.org/wiki/Q2092717> .
+
+<http://www.culturalrace.es/resource/5873478> a cr:museums;
+  cr:barrio "Universidad";
+  cr:cp "28015"^^xsd:int;
+  cr:descripcion "Centro de arte, dibujo e ilustración.";
+  cr:distrito "Centro";
+  cr:email "info_museo@abc.es";
+  cr:horario "De martes a sábado de 11 a 20 horas.Domingos de 10 a 14 horas. Lunes cerrado. Durante 2019 el Museo ABC permanecerá cerrado los días:1 y 6 de enero.1 de mayo.24, 25 y 31 de diciembre.";
+  cr:latitud "40.42741121610518";
+  cr:longitud "-3.709539260414957";
+  cr:nombre "Museo ABC";
+  cr:telefono "917 588 379";
+  cr:transporte "Metro: San Bernardo (líneas 2, 4), Noviciado (línea 2), Ventura Rodríguez (línea 3), Plaza de España (líneas 3, 10) Bus: M2.Bicimad: Estación 13 (calle Conde Duque 22).";
+  cr:via "Amaniel";
+  owl:image "Museo_ABC_(Madrid)_01.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+ABC> owl:sameAs <https://www.wikidata.org/wiki/Q21564330> .
+
+<http://www.culturalrace.es/resource/2050> a cr:museums;
+  cr:barrio "Recoletos";
+  cr:cp "28001"^^xsd:int;
+  cr:descripcion "Fundado en 1867, el MAN se inauguró en 1895 en su actual sede, en el Palacio de Biblioteca y Museos, edificio proyectado por Francisco Jareño y terminado por Antonio Ruiz de Salces.";
+  cr:distrito "Salamanca";
+  cr:horario "De martes a sábados de 9:30 a 20 horas.Domingos y festivos de 9:30 a 15 horas. Cerrado Todos los lunes del año.1 y 6 de enero, 1 de mayo, 9 de noviembre y 24, 25 y 31 de diciembre. Horario de cierre de las taquillas: 15 minutos antes del cierre del Museo. Días festivos 2019. Horario 9.30 a 15 horas: 18 y 19 de abril; 2 y 15 de mayo; 15 de agosto; 12 de octubre; 1 y 9 de noviembre; 6 y 8 de diciembre.";
+  cr:latitud "40.42327763947072";
+  cr:longitud "-3.688418705931963";
+  cr:nombre "Museo Arqueológico Nacional";
+  cr:telefono "915 777 912";
+  cr:transporte "Metro: Serrano (línea 4).Bus: 1, 9, 19, 51, 74, 5, 14, 27, 45, 53, 150.Cercanías Renfe: Recoletos (línea C1, C2, C7, C-10 y Regional).Bicimad; Estación 95 (calle Claudio Coello 109).";
+  cr:via "Serrano";
+  owl:image "Museo_Arqueológico_Nacional_de_España_01.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Arqueol%C3%B3gico+Nacional> owl:sameAs
+    <https://www.wikidata.org/wiki/Q1352282> .
+
+<http://www.culturalrace.es/resource/2072> a cr:museums;
+  cr:barrio "Goya";
+  cr:cp "28028"^^xsd:int;
+  cr:distrito "Salamanca";
+  cr:email "museo@fnmt.es";
+  cr:horario "De martes a viernes ininterrumpidamente de 10 a 17:30 horas. Sábados, domingos y festivos de 10 a 14 horas.Cerrado los lunes (incluido festivos), y los días 1 y 6 de enero; 19 de marzo; 1 de mayo;  24, 25 y 31 de diciembre.";
+  cr:latitud "40.42259797372905";
+  cr:longitud "-3.6691502061733674";
+  cr:nombre "Museo Casa de la Moneda";
+  cr:telefono "915 666 544";
+  cr:transporte "Metro: O&amp;acute;Donnell (línea 6).Bus: 2, 30, 56, 71, 143, 156, E4, C2, 28, 203, E2, E3.Bicimad: Estación 101 (calle Jorge Juan, 131).";
+  cr:via "Doctor Esquerdo";
+  owl:image "Museo_Casa_de_la_Moneda.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Casa+de+la+Moneda> owl:sameAs <https://www.wikidata.org/wiki/Q39072661> .
+
+<http://www.culturalrace.es/resource/4112> a cr:museums;
+  cr:barrio "Arguelles";
+  cr:cp "28008"^^xsd:int;
+  cr:descripcion "Este Palacio, construido entre 1883 y 1893, fue concebido como vivienda y como museo para sede de las obras de arte reunidas por los Marqueses de Cerralbo y sus hijos, los Marqueses de Villa Huerta, durante los numerosos viajes que realizaron por España y Europa.";
+  cr:distrito "Moncloa-aravaca";
+  cr:email "museo.cerralbo@cultura.gob.es";
+  cr:horario "De martes a sábado de 9:30 a 15 horas.Jueves, apertura semanal extraordinaria, de 17 a 20 horas, excepto festivos.Domingos y festivos de 10 a 15 horas.Cerrado: todos los lunes, 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre, una fiesta local (9 noviembre para 2019).";
+  cr:latitud "40.42376732078657";
+  cr:longitud "-3.7146170388153497";
+  cr:nombre "Museo Cerralbo";
+  cr:telefono "915 473 646 / 915 473 647";
+  cr:transporte "Metro: Plaza de España (líneas 3, 10), Príncipe Pío (líneas 6 y 10)Bus: 74, 138Renfe: Príncipe Pio (líneas C1, C7 Y C10)";
+  cr:via "Ventura Rodriguez";
+  owl:image "Palacio_del_Marqués_de_Cerralbo_(Madrid)_01.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Cerralbo> owl:sameAs <https://www.wikidata.org/wiki/Q976019> .
+
+<http://www.culturalrace.es/resource/2074> a cr:museums;
+  cr:barrio "Rios Rosas";
+  cr:cp "28003"^^xsd:int;
+  cr:descripcion "Construcción típica de la arquitectura en hierro y cristal de principios del siglo XX que alberga colecciones de minerales, rocas y fósiles procedentes de todas las regiones españolas y de antiguos territorios coloniales, así como de yacimientos significados del registro mundial. Objetivos del museo: conservar, investigar y difundir el patrimonio geológico, paleontológico y mineralógico";
+  cr:distrito "Chamberi";
+  cr:email "m.geominero@igme.es";
+  cr:horario "De lunes a domingo y festivos de 9 a 14 horasCerrado los días 1 y 6 de enero y 24, 25 y 31 de diciembre";
+  cr:latitud "40.442047952073665";
+  cr:longitud "-3.699670468881422";
+  cr:nombre "Museo Geominero";
+  cr:telefono "913 495 759";
+  cr:transporte "Metro: Ríos Rosas (línea 1) y Alonso Cano (línea 7)Bus: 3, 5, 12, 37, 45, 149Bicimad estación 130: calle Santa Engracia, 127";
+  cr:via "Rios Rosas";
+  owl:image "Museo_Geominero_-_main_hall_-_Madrid_Spain_01.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Geominero> owl:sameAs <https://www.wikidata.org/wiki/Q13532751> .
+
+<http://www.culturalrace.es/resource/2075> a cr:museums;
+  cr:barrio "Rios Rosas";
+  cr:cp "28003"^^xsd:int;
+  cr:descripcion "Ubicado en la Escuela Técnica Superior de Ingenieros de Minas de Madrid";
+  cr:distrito "Chamberi";
+  cr:horario "De lunes a viernes, de 9 a 14 horas.";
+  cr:latitud "40.44207963042673";
+  cr:longitud "-3.7003900716027776";
+  cr:nombre "Museo Histórico Minero Don Felipe de Borbón y Grecia";
+  cr:telefono "913 367 017";
+  cr:transporte "Metro: Ríos Rosas (línea 1)Bus: 3, 12, 37, 45, 149Bicimad estación 130: calle Santa Engracia, 127";
+  cr:via "Rios Rosas";
+  owl:image "Museo_de_la_Escuela_de_Minas_de_Madrid.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Hist%C3%B3rico+Minero+Don+Felipe+de+Borb%C3%B3n+y+Grecia>
+  owl:sameAs <https://www.wikidata.org/wiki/Q53997723> .
+
+<http://www.culturalrace.es/resource/18176> a cr:museums;
+  cr:barrio "Cortes";
+  cr:cp "28014"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "museoico@ico.es";
+  cr:horario "De martes a sábados: de 11 a 20 horas  Domingos y festivos: de 10 a 14 horas  Cerrado: Todos los lunes del año (incluidos festivos)";
+  cr:latitud "40.41675330128869";
+  cr:longitud "-3.6977346235068373";
+  cr:nombre "Museo ICO";
+  cr:telefono "914 201 242";
+  cr:transporte "Metro: Banco de España (línea 2) , Sevilla (línea 2)Bus: 3, 5, 9, 15, 20, 46, 51, 52, 53, 150, M1, M2BICIMAD estación 29: calle Marqués de Cubas, 25";
+  cr:via "Zorrilla";
+  owl:image "Fachada_del_museo_ICO_en_Madrid_por_arquigraph.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+ICO> owl:sameAs <https://www.wikidata.org/wiki/Q60829823> .
+
+<http://www.culturalrace.es/resource/6019032> a cr:museums;
+  cr:barrio "Palacio";
+  cr:cp "28013"^^xsd:int;
+  cr:distrito "Centro";
+  cr:horario "Viernes, sábados y domingos de 11 a 13 y de 17 a 19 horas";
+  cr:latitud "40.41775560280743";
+  cr:longitud "-3.709202070089538";
+  cr:nombre "Museo Los Caños del Peral. Estación de Metro Ópera";
+  cr:telefono "902 444 403 / 917 796 399";
+  cr:transporte "Metro: Ópera (líneas 2, 5 y Ramal).Bus: 25Bicimad: Estación 24: Calle Carlos III, 1 28013";
+  cr:via "Isabel Ii";
+  owl:image "Fuente_de_los_Caños_del_Peral-2011-Reconstruida.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Los+Ca%C3%B1os+del+Peral.+Estaci%C3%B3n+de+Metro+%C3%93pera>
+  owl:sameAs <https://www.wikidata.org/wiki/Q5870258> .
+
+<http://www.culturalrace.es/resource/2053> a cr:museums;
+  cr:barrio "Castellana";
+  cr:cp "28006"^^xsd:int;
+  cr:distrito "Salamanca";
+  cr:email "info@museolazarogaldiano.es";
+  cr:horario "Martes a sábados de 10 a 16:30 horas.Domingos de 10 a 15 horas.Cerrado todos los lunes, 1 y 6 de enero, 18 y 19 de abril, 1 de mayo, 15 de agosto, 1 de noviembre y 9, 24, 25 y 31 de diciembre de 2019.Grupos y visitas guiadas consultar.";
+  cr:latitud "40.436750328725985";
+  cr:longitud "-3.6861980129207894";
+  cr:nombre "Museo Lázaro Galdiano";
+  cr:telefono "915 616 084";
+  cr:transporte "Metro: Gregorio Marañón (línea 7 y 10).Bus: 12, 16, 9, 19, 51, 61";
+  cr:via "Serrano";
+  owl:image "Museo_Lázaro_Galdiano_(Madrid)_05.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+L%C3%A1zaro+Galdiano> owl:sameAs <https://www.wikidata.org/wiki/Q386570> .
+
+<http://www.culturalrace.es/resource/5349304> a cr:museums;
+  cr:barrio "Embajadores";
+  cr:cp "28012"^^xsd:int;
+  cr:descripcion "Edificio Sabatini: calle Santa Isabel 52. Edificio Nouvel (ampliación): ronda de Atocha, esquina a plaza del Emperador Carlos V. Espacios en el parque del Retiro: Palacio de Velázquez y Palacio de Cristal.";
+  cr:distrito "Centro";
+  cr:horario "De lunes a sábado de 10 a 21 horas y domingos de 10 a 19 horas.Martes cerrado (incluso festivos).Cerrado 1 y 6 enero, 1 y 15 de mayo, 9 de noviembre, 24, 25 y 31 de diciembre.";
+  cr:latitud "40.40854131574014";
+  cr:longitud "-3.6940316511856017";
+  cr:nombre "Museo Nacional Centro de Arte Reina Sofía (MNCARS)";
+  cr:telefono "917 741 000";
+  cr:transporte "Metro: Estación del Arte (Atocha) (línea 1)Bus: 6, 26, 32, E1, 27, 34, C1, 59, 85, C2, 10, 14, 37, 45, 36, 41, 119Cercanías Renfe: Atocha (líneas C1, C2, C3, C4, C5, C7, C8, C10)Bicimad: Estación 50 (calle Santa Isabel, 57)Estación 51 (Ronda de Atocha, 2)";
+  cr:via "Santa Isabel";
+  owl:image "MNCARS_05.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Nacional+Centro+de+Arte+Reina+Sof%C3%ADa+%28MNCARS%29>
+  owl:sameAs <https://www.wikidata.org/wiki/Q460889> .
+
+<http://www.culturalrace.es/resource/2099> a cr:museums;
+  cr:barrio "Cortes";
+  cr:cp "28014"^^xsd:int;
+  cr:descripcion "El Palacio donde se ubica la colección fue el antiguo palacio del duque de Villahermosa. Edificación neoclásica. Posteriormente se adapta como entidad bancaria perdiento sus espacios interiores. Más tarde, pasó a formar parte de los edificios del Museo del Prado. Desde principios de los 90 alberga la Colección Thyssen. El museo ofrece un recorrido por la historia de la pintura europea desde sus inicios en el siglo XIII, hasta finales del siglo XX.";
+  cr:distrito "Centro";
+  cr:email "cav@museothyssen.org";
+  cr:horario "Colecciones permanentes:  lunes de 12 a 16 horas (acceso gratuito gracias al patrocinio de MasterCard). Martes a domingos de 10 a 19 horas.  Exposiciones temporales: consultar horario específico en Museo.Último acceso 1 hora antes del cierre. El desalojo de todas las salas tendrá lugar 5 minutos antes del cierre. Avisos y aperturas extraordinarias: los días 1 de enero, 1 de mayo y 25 de diciembre el Museo permanecerá cerrado. El 24 y el 31 de diciembre el horario de apertura del Museo será de 10 a 15 horas.";
+  cr:latitud "40.41600553697803";
+  cr:longitud "-3.694744831131079";
+  cr:nombre "Museo Nacional Thyssen-Bornemisza";
+  cr:telefono "917 911 370";
+  cr:transporte "Metro: Banco de España (línea 2)Bus: 10, 14, 27, 34, 37, 45Cercanías Renfe: Recoletos";
+  cr:via "Prado";
+  owl:image "Museo_Thyssen-Bornemisza_(Madrid)_07.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Nacional+Thyssen-Bornemisza> owl:sameAs
+    <https://www.wikidata.org/wiki/Q176251> .
+
+<http://www.culturalrace.es/resource/2057> a cr:museums;
+  cr:barrio "Los Jeronimos";
+  cr:cp "28014"^^xsd:int;
+  cr:descripcion "El Museo está instalado en el edificio de estilo clasicista construido por el Marqués de Cubas en 1875 por encargo del Doctor González Velasco, fundador de la institución.";
+  cr:distrito "Retiro";
+  cr:horario "De martes a sábado de 9:30 a 20 horas.Domingos y festivos: de 10 a 15 horas.Cerrado todos los lunes del año y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y un festivo local.";
+  cr:latitud "40.407887537677716";
+  cr:longitud "-3.688862923660605";
+  cr:nombre "Museo Nacional de Antropología";
+  cr:telefono "915 306 418 / 915 395 995";
+  cr:transporte "Metro: Estación del Arte (Atocha) (línea 1)Bus: 19,  C1, 10, 14, 26, 32, 37, 103, SE76, 86, C2, 203Cercanías Renfe: Atocha (líneas C1, C2, C3, C4, C5, C7, C8, C10)Bicimad: Estación 80 a y b (Paseo Infanta Isabel, 3)";
+  cr:via "Alfonso Xii";
+  owl:image "Sala_Orígenes_del_Museo_(27530162552).jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Nacional+de+Antropolog%C3%ADa> owl:sameAs
+    <https://www.wikidata.org/wiki/Q2917041> .
+
+<http://www.culturalrace.es/resource/2055> a cr:museums;
+  cr:barrio "Los Jeronimos";
+  cr:cp "28014"^^xsd:int;
+  cr:descripcion "Inaugurado en 1912, su sede es un típico palacete madrileño del último tercio del siglo XIX. El museo posee muebles, cerámicas, vidrios, joyas, tejidos, arte oriental, y hasta 30 000 objetos distintos que a lo largo de la historia han servido para embellecer las casas, palacios y los monumentos de distintas culturas.El museo posee muestras como el Jarrón de Sevres regalo de Napoleón III, la Cocina Valenciana del siglo XVIII compuesta por más de 1500 azulejos de Manises, la Mesa de plata del siglo XVI o la colección de alfombras españolas de los siglos XV al XVII.";
+  cr:distrito "Retiro";
+  cr:email "mnad@cultura.gob.es";
+  cr:horario "Martes a sábados de 9:30 a 15 horas.Domingo y festivos: de 10 a 15 horas.Jueves tarde de 17 a 20 horas (excepto julio y agosto) Cerrado:  todos los lunes, 1 y 6 de enero, 1 y 15 de mayo, 24, 25 y 31 de diciembre.";
+  cr:latitud "40.417891279015194";
+  cr:longitud "-3.689754685481908";
+  cr:nombre "Museo Nacional de Artes Decorativas";
+  cr:telefono "915 326 499 / 915 326 845 / 910 505 755 (Reserva actividades infantiles) / 910 505 768 (Biblioteca) / 910 505 763 (Atención a investigadores)";
+  cr:transporte "Metro: Retiro (línea 2).Bus: 1, 2, 9, 10, 14, 15, 19, 20, 27,  28, 34, 37, 45 51, 52, 74, 146, 203.Cercanías Renfe: Recoletos (líneas C1, C2, C7, C8 Y C10).";
+  cr:via "Montalban";
+  owl:image "Museo_Nacional_de_Artes_Decorativas_(Madrid)_01.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Nacional+de+Artes+Decorativas> owl:sameAs
+    <https://www.wikidata.org/wiki/Q5361303> .
+
+<http://www.culturalrace.es/resource/2056> a cr:museums;
+  cr:barrio "El Viso";
+  cr:cp "28006"^^xsd:int;
+  cr:distrito "Chamartin";
+  cr:horario "De martes a viernes de 10 a 17 horas.Sábados, domingos y festivos de 10 a 20 horas.Sábados, domingos y festivos de agosto de 10 a 15 horas.   Cerrado: todos los lunes no festivos, 1 y 6 de enero, 1 de mayo y 25 de diciembre.";
+  cr:latitud "40.44042007613476";
+  cr:longitud "-3.690220716379925";
+  cr:nombre "Museo Nacional de Ciencias Naturales";
+  cr:telefono "914 111 328";
+  cr:transporte "Metro: Gregorio Marañón (líneas 7, 10).Bus: 12, 45, 7, 14, 27, 40, 147, 150.Bicimad: Estación 139 (Calle José Gutiérrez Abascal, 2).";
+  cr:via "Jose Gutierrez Abascal";
+  owl:image "Palacio_de_las_Artes_e_Industrias_(Madrid)_01.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Nacional+de+Ciencias+Naturales> owl:sameAs
+    <https://www.wikidata.org/wiki/Q1966699> .
+
+<http://www.culturalrace.es/resource/2076> a cr:museums;
+  cr:barrio "Los Jeronimos";
+  cr:cp "28014"^^xsd:int;
+  cr:descripcion "Temática: historia de la navegación española";
+  cr:distrito "Retiro";
+  cr:email "ohculturanaval@fn.mde.es";
+  cr:horario "De martes a domingo de 10 a 19 horasCerrado los lunes y los festivos 1 y 6 de enero y 24, 25 y 31 de diciembreAgosto, martes a domingo de 10 a 15 horasPor motivos de seguridad el desalojo de las salas se realiza 15 minutos antes del cierre.";
+  cr:latitud "40.41751289873052";
+  cr:longitud "-3.692768317427539";
+  cr:nombre "Museo Naval";
+  cr:telefono "915 238 516 (martes y viernes de 9 a 14 horas)";
+  cr:transporte "Metro: Banco de España (línea 2)Bus: 14, 27, 34, 37, 45, 203Bicimad:Estación 65: Calle Antonio Maura, 15  Estación 86: Plaza de Cibeles";
+  cr:via "Prado";
+  owl:image "Museo_Naval_de_Madrid_02.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Naval> owl:sameAs <https://www.wikidata.org/wiki/Q1815235> .
+
+<http://www.culturalrace.es/resource/2085> a cr:museums;
+  cr:barrio "Valdemarin";
+  cr:cp "28023"^^xsd:int;
+  cr:descripcion "Recorrido temático y cronológico por la evolución de los medios de comunicación y colecciones filatélicas de gran valor histórico, temáticas y por países.";
+  cr:distrito "Moncloa-aravaca";
+  cr:email "museopostaltelegrafico@correos.com";
+  cr:horario "Museo: de lunes a viernes de 9 a 14 y de 16 a 18 horasBiblioteca: de lunes a viernes de 9 a 14";
+  cr:latitud "40.467706026917405";
+  cr:longitud "-3.7690721403206724";
+  cr:nombre "Museo Postal y Telegráfico";
+  cr:telefono "917 400 668 (Museo) / 917 400 664 (Biblioteca)";
+  cr:transporte "Bus: 161";
+  cr:via "Tapia De Casariego";
+  owl:image "Museo_Postal_y_Telegráfico.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Postal+y+Telegr%C3%A1fico> owl:sameAs <https://www.wikidata.org/wiki/Q64071045> .
+
+<http://www.culturalrace.es/resource/4997114> a cr:museums;
+  cr:barrio "Almagro";
+  cr:cp "28010"^^xsd:int;
+  cr:distrito "Chamberi";
+  cr:email "museo.sorolla@cultura.gob.es";
+  cr:horario "De martes a sábado: de 9:30 a 20 horas Domingos y festivos: de 10 a 15 horasCerrado: todos los lunes del año, 1 de enero, 6 de enero, 1 de mayo, 9 noviembre, 24, 25 y 31 de diciembre";
+  cr:latitud "40.43557863874977";
+  cr:longitud "-3.6923288211390055";
+  cr:nombre "Museo Sorolla";
+  cr:telefono "913 101 584";
+  cr:transporte "Metro: Rubén Darío (línea 5), Gregorio Marañón (líneas 7, 10), Iglesia (línea 1)Bus: 5, 7, 14, 16, 27, 40, 45, 61, 147 y 150Bicimad: Estación 125 (calle Fernández de la Hoz, 29)Estación 141 (Paseo Castellana, 43)";
+  cr:via "General Martinez Campos";
+  owl:image "Sala_I_in_Museo_Sorolla_Madrid_on_20161106.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Sorolla> owl:sameAs <https://www.wikidata.org/wiki/Q1592523> .
+
+<http://www.culturalrace.es/resource/2077> a cr:museums;
+  cr:barrio "Guindalera";
+  cr:cp "28028"^^xsd:int;
+  cr:descripcion "Su existencia data del día de San Isidro de 1951, creado por la extinta Diputación Provincial de Madrid. Sirve como testimonio de los momentos estelares del arte y la historia del toreo.La entrada se encuentra situada junto al patio de caballos de la Plaza de Toros Monumental de Las Ventas.";
+  cr:distrito "Salamanca";
+  cr:horario "Fuera de Temporada: De lunes a domingo: de 10 a 18 horas. Temporada Taurina: De lunes a domingo: de 10 a 18 horas, exceptuando días de festejo que abrirá de 10 a 16 horas.";
+  cr:latitud "40.43157110306013";
+  cr:longitud "-3.662872780933851";
+  cr:nombre "Museo Taurino de la Comunidad de Madrid";
+  cr:telefono "917 264 800 (Centro de Asuntos Taurinos)";
+  cr:transporte "Metro: Ventas (líneas 2, 5).Bus: 12, 21, 38, 53, 74, 106, 110, 146, 210.";
+  cr:via "Alcala";
+  owl:image "Museo_taurino_de_Madrid.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+Taurino+de+la+Comunidad+de+Madrid> owl:sameAs
+    <https://www.wikidata.org/wiki/Q27500479> .
+
+<http://www.culturalrace.es/resource/2068> a cr:museums;
+  cr:barrio "Cuatro Vientos";
+  cr:cp "28024"^^xsd:int;
+  cr:descripcion "Emplazado en Cuatro Vientos desde 1966, tiene como objetivo narrar la historia y el desarrollo científico - técnico de la Aeronáutica y Astronáutica españolas. Ocupa una superficie de 66.938 metros cuadrados, repartidos en una zona de exposición exterior y siete hangares que albergan más de 140 aeronaves, así como uniformes, condecoraciones, motores, maquetas y otros fondos relacionados con la aviación.";
+  cr:distrito "Latina";
+  cr:email "museodelaire@ea.mde.es";
+  cr:horario "De martes a domingo de 10 a 14 horasCerrado los días 1 y 6 de enero, Jueves y Viernes Santos, 12 de octubre, 10 de diciembre (Patrona de Aviación), 24, 25 y 31 de diciembre y días establecidos en calendario anual.";
+  cr:latitud "40.3733013700739";
+  cr:longitud "-3.798200034372686";
+  cr:nombre "Museo de Aeronáutica y Astronáutica";
+  cr:telefono "915 091 690 (centralita)";
+  cr:via "A-5";
+  owl:image "CASA_C-207_Azor,_Museo_del_Aire.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+de+Aeron%C3%A1utica+y+Astron%C3%A1utica>
+  owl:sameAs <https://www.wikidata.org/wiki/Q11057120> .
+
+<http://www.culturalrace.es/resource/2091> a cr:museums;
+  cr:barrio "Ciudad Universitaria";
+  cr:cp "28040"^^xsd:int;
+  cr:distrito "Moncloa-aravaca";
+  cr:horario "Horario: De martes a sábado, de 9:30 a 15 horas.Jueves, apertura continuada de 9:30 a 19 horas.Domingos y festivos de 10 a 15 horas. Cerrado: todos los lunes del año, días 1 y 6 de enero, 1 y 15 de mayo, 24, 25 y 31 de diciembre.";
+  cr:latitud "40.43792950973577";
+  cr:longitud "-3.72186494128936";
+  cr:nombre "Museo de América";
+  cr:telefono "915 492 641 / 915 439 437";
+  cr:transporte "Metro: Moncloa (líneas 3, 6), Islas Filipinas (línea 7).Autobús: 1, 2, 16, 44, 46, 61, 82, 113, 132, 133 y Circular. Aparcamiento gratuito durante los fines de semana y festivos.";
+  cr:via "Reyes Catolicos";
+  owl:image "Museo_de_América_de_Madrid_-_01.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+de+Am%C3%A9rica> owl:sameAs <https://www.wikidata.org/wiki/Q2568412> .
+
+<http://www.culturalrace.es/resource/83922> a cr:museums;
+  cr:barrio "Centro";
+  cr:cp "28015"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "mmacmdifusion@madrid.es";
+  cr:horario "De martes a sábado:mañanas de 10 a 14 horastardes de 17:30 a 21 horas Domingos y festivos de 10:30 a 14 horas Horario de Verano del 15 de junio al 15 de septiembre. De martes a sábado:mañanas de 10:00 a 13:30 horastardes de 17:30 a 20:00 horasDomingos y festivos de 10:30 a 13:30 horas Cerrado Todos los lunes, 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre.Las salas se desalojan 15 minutos antes del cierre.";
+  cr:latitud "40.42737760210632";
+  cr:longitud "-3.7106116887809817";
+  cr:nombre "Museo de Arte Contemporáneo de Madrid";
+  cr:telefono "915 885 921";
+  cr:transporte "Metro: Ventura Rodríguez, Plaza de España, San Bernardo, Noviciado. Bus: 1, 2, 21, 44, 74, 133, C, M2 Bicimad: Estación 13, Calle Conde Duque n&amp;ordm;22. Parking:  Plaza de España";
+  cr:via "Conde Duque";
+  owl:image "Madrid_en_12_nuevas_miradas_19.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+de+Arte+Contempor%C3%A1neo+de+Madrid> owl:sameAs
+    <https://www.wikidata.org/wiki/Q6940528> .
+
+<http://www.culturalrace.es/resource/2069> a cr:museums;
+  cr:barrio "Embajadores";
+  cr:cp "28005"^^xsd:int;
+  cr:descripcion "El Museo se forma tras la donación de la colección de Guadalupe González Hontoria a la Universidad Autónoma de Madrid. Las piezas comprenden:El ciclo vital humano y religiosidad popularEl ciclo festivo anual, instrumentos musicales, bailes y juegos de adultosTareas domésticasAgricultura, ganadería, caza y pescaLos oficios artesanales y transporte rural.";
+  cr:distrito "Centro";
+  cr:email "museoatp@uam.es";
+  cr:horario "Lunes a viernes de 10 a 20 horas. Sábados de 10 a 14 horas.Cerrado domingos, festivos y mes de agosto, 24 y 31 diciembre.";
+  cr:latitud "40.40882397197274";
+  cr:longitud "-3.708330456274069";
+  cr:nombre "Museo de Artes y Tradiciones Populares. Centro Cultural La Corrala";
+  cr:telefono "914 976 500";
+  cr:transporte "Metro: La Latina (línea 5)Bus: 41, 60, 148 y CircularRenfe: Embajadores * Atocha";
+  cr:via "Carlos Arniches";
+  owl:image "La_Corrala.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+de+Artes+y+Tradiciones+Populares.+Centro+Cultural+La+Corrala>
+  owl:sameAs <https://www.wikidata.org/wiki/Q5915440> .
+
+<http://www.culturalrace.es/resource/2054> a cr:museums;
+  cr:barrio "Justicia";
+  cr:cp "28004"^^xsd:int;
+  cr:descripcion "Creado como Museo Municipal en 1929 y rebautizado como Museo de Historia de Madrid en 2007, tras una profunda remodelación, el año 2014 reabre sus puertas con un montaje moderno y una puesta al día de sus colecciones.";
+  cr:distrito "Centro";
+  cr:email "smuseosm@madrid.es";
+  cr:horario "De martes a domingos de 10 a 20 horas. Verano: de martes a domingos de 10 a 19 horas. Cerrado: lunes y los días 1 y 6 de enero, 1 de mayo,  24, 25 y 31 de diciembre. El desalojo de las salas se hará diez minutos antes del cierre.";
+  cr:latitud "40.42577054821346";
+  cr:longitud "-3.700845660719608";
+  cr:nombre "Museo de Historia de Madrid";
+  cr:telefono "917 011 863";
+  cr:transporte "Metro: Tribunal, Bilbao y Alonso Martínez. Bus: 3, 21, 37, 40, 147 y 149. BICIMAD: Estación 54 (Calle Barceló 7) Aparcamiento público: Barceló.";
+  cr:via "Fuencarral";
+  owl:image "Museo_de_Historia_de_Madrid_(España)_03.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+de+Historia+de+Madrid> owl:sameAs <https://www.wikidata.org/wiki/Q876383> .
+
+<http://www.culturalrace.es/resource/2112> a cr:museums;
+  cr:barrio "Palacio";
+  cr:cp "28005"^^xsd:int;
+  cr:descripcion "Este espacio museográfico propone un viaje por la historia de la ciudad de Madrid desde la Prehistoria hasta el establecimiento de la Corte, a través de distintas salas como la de San Isidro, el Patio Renacentista, el Jardín Arqueobotánico o el Almacén Visitable.";
+  cr:distrito "Centro";
+  cr:email "museosanisidro@madrid.es";
+  cr:horario "De martes a domingo y festivos de 10 a 20 horas.Último pase de visita 15 minutos antes del cierre. Verano, del 16 de junio al 15 de septiembre: de martes a domingo de 10 a 19 horas. Cerrado todos los lunes, el 1 y 6 de enero, el 1 de mayo y los días 24, 25 y 31 de diciembre.";
+  cr:latitud "40.41207900253883";
+  cr:longitud "-3.7108161027466378";
+  cr:nombre "Museo de San Isidro. Los Orígenes de Madrid";
+  cr:telefono "913 667 415";
+  cr:transporte "Metro: Latina , Tirso de Molina Bus: 3 , 17 , 18 , 23 , 35 , 60 , 65 , 148 BICIMAD: Estación 38 (Carrera de San Francisco 1)";
+  cr:via "San Andres";
+  owl:image "Museo_de_San_Isidro.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+de+San+Isidro.+Los+Or%C3%ADgenes+de+Madrid>
+  owl:sameAs <https://www.wikidata.org/wiki/Q5556798> .
+
+<http://www.culturalrace.es/resource/4591873> a cr:museums;
+  cr:barrio "Recoletos";
+  cr:cp "28001"^^xsd:int;
+  cr:descripcion "El Museo de la Biblioteca Nacional de España, antiguo Museo del Libro, es responsable de la oferta educativa, formativa, cultural y de ocio de la institución y divulga las colecciones, funcionamiento e historia de la Biblioteca para todos los públicos.";
+  cr:distrito "Salamanca";
+  cr:email "museo@bne.es";
+  cr:horario "De lunes a sábados: de 10 a 20 horas.Domingos y festivos: de 10 a 14 horas.Consultar calendario de cierre.";
+  cr:latitud "40.423001908945956";
+  cr:longitud "-3.69084423390357";
+  cr:nombre "Museo de la Biblioteca Nacional de España";
+  cr:telefono "915 168 967 / 915 807 759 de lunes a viernes de 9 a 14 horas.";
+  cr:transporte "Metro: Colón, (línea 4), Retiro (Línea 2)Bus: 5, 14, 27, 45, 53, 150, 37, 21, 1, 9, 19, 51, 74Cercanías Renfe: Recoletos (líneas C1, C2, C7, C8  y C10)Bicimad: Estación 94 (Paseo Recoletos, 32-34)";
+  cr:via "Recoletos";
+  owl:image "Biblioteca_Nacional_de_España_(Madrid)_09.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+de+la+Biblioteca+Nacional+de+Espa%C3%B1a>
+  owl:sameAs <https://www.wikidata.org/wiki/Q750403> .
+
+<http://www.culturalrace.es/resource/4566286> a cr:museums;
+  cr:barrio "Palacio";
+  cr:cp "28013"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "reservasmuseo@catedraldelaalmudena.es";
+  cr:horario "De lunes a sábado de 10 a 14:30 horas.Cerrado los domingos, fiestas de precepto y días de actos de culto especiales en la Catedral.Visita libre en horario de apertura del museo.Visitas guiadas:Cripta de la catedral:Solicitar por correo reservasmuseo@catedraldelaalmudena.es De lunes a sábado a las 12 horas.Capilla del obispo:Solicitar por correo a reservascapilladelobispo@archimadrid.esHorario:Martes: 10, 10:45 y 11:30 horas.Jueves a las 16 y a las 16:45 horas.";
+  cr:latitud "40.415538770017406";
+  cr:longitud "-3.7136931154460564";
+  cr:nombre "Museo de la Catedral de la Almudena";
+  cr:telefono "915 592 874";
+  cr:transporte "Bus: 3, 148.Metro: Ópera (Líneas 2, 5 y Ramal Ópera Príncipe Pío).Bicimad estación 166: calle Segovia, 26";
+  cr:via "Bailen";
+  owl:image "Catedral_de_la_Almudena_(Madrid)_25.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+de+la+Catedral+de+la+Almudena> owl:sameAs
+    <https://www.wikidata.org/wiki/Q849711> .
+
+<http://www.culturalrace.es/resource/2073> a cr:museums;
+  cr:barrio "Ciudad Universitaria";
+  cr:cp "28040"^^xsd:int;
+  cr:descripcion "Entre sus fondos destacan las colecciones de botes cerámicos, morteros y cajas de madera policromadas, relacionados con la práctica docente, cuatro boticas históricas y tres instalaciones que recrean un laboratorio alquimista, una botica árabe y la botica del Hospital de San Juan de las Afueras (Toledo).";
+  cr:distrito "Moncloa-aravaca";
+  cr:email "museofar@ucm.es";
+  cr:horario "Se realizan durante el curso lectivo, de lunes a viernes y en horario de mañana. Consultar al pedir cita";
+  cr:latitud "40.4445328804645";
+  cr:longitud "-3.7262160043788155";
+  cr:nombre "Museo de la Farmacia Hispana";
+  cr:telefono "913 941 797";
+  cr:transporte "Metro: Ciudad Universitaria (línea 6)Bus: 82, 132 , F, G, U";
+  cr:via "Ramon Y Cajal";
+  owl:image "Museo_de_Farmacia_Militar_(Madrid)_01.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+de+la+Farmacia+Hispana> owl:sameAs <https://www.wikidata.org/wiki/Q9047062> .
+
+<http://www.culturalrace.es/resource/2114> a cr:museums;
+  cr:barrio "Sol";
+  cr:cp "28014"^^xsd:int;
+  cr:descripcion "Construido inicialmente para palacio de Don Juan de Goyeneche, el edificio fue adquirido por la Academia de Bellas Artes en 1773 y reformado bajo la dirección de Fernando Chueca Goitia en 1973 y la fachada por Diego de Villanueva en 1774.";
+  cr:distrito "Centro";
+  cr:email "museo@rabasf.org";
+  cr:horario "Colección permanente:De martes a domingos y festivos de 10 a 15 horasCerrado: todos los lunes y el mes de agostoExposiciones temporales: consultar el apartado específico de la exposición temporal.Días cerrados: 1 y 6 de enero; 1 y 30 de mayo; 9 de noviembre; 24, 25 y 31 de diciembre. En periodos vacacionales pueden sufrir cambios.";
+  cr:latitud "40.41765456031193";
+  cr:longitud "-3.7006553517170633";
+  cr:nombre "Museo de la Real Academia de Bellas Artes de San Fernando";
+  cr:telefono "915 240 864 (Centralita)";
+  cr:transporte "Metro: Sol (líneas 1, 2, 3), Sevilla (línea 2)Bus: 3, 15, 20, 53, 150, M1, 3Renfe Cercanías: SolBicimad: Estación 28 (calle Alcalá, 27)";
+  cr:via "Alcala";
+  owl:image "Palacio_de_Goyeneche_-_Real_Academia_de_Bellas_Artes_de_San_Fernando.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+de+la+Real+Academia+de+Bellas+Artes+de+San+Fernando>
+  owl:sameAs <https://www.wikidata.org/wiki/Q1322403> .
+
+<http://www.culturalrace.es/resource/2066> a cr:museums;
+  cr:barrio "Delicias";
+  cr:cp "28045"^^xsd:int;
+  cr:descripcion "Edificio de caracter monumental. Construido como cabecera de la línea Madrid - Extremadura - Portugal en el año 1880 por E. Cachelievre.";
+  cr:distrito "Arganzuela";
+  cr:horario "De octubre a mayo:  Lunes a viernes, de 9.30 a 15.00 horas. Sábados, domingos y festivos de 10.00 a 19.00 horas  De junio a septiembre:  Lunes a domingo, de 10.00 a 15.00 horas. Cerrado: 25 de diciembre, 1 y 6 de enero.";
+  cr:latitud "40.400281290485566";
+  cr:longitud "-3.693817192160563";
+  cr:nombre "Museo del Ferrocarril de Madrid";
+  cr:telefono "915 390 085";
+  cr:transporte "Metro: Delicias (línea 3)Bus: 19, 45, 47, 59, 85, 86, 247, 8, 6, 55Renfe: Delicias";
+  cr:via "Delicias";
+  owl:image "Delicias_fachada.JPG" .
+
+<http://www.culturalrace.es/resource/Museo+del+Ferrocarril+de+Madrid> owl:sameAs <https://www.wikidata.org/wiki/Q6034436> .
+
+<http://www.culturalrace.es/resource/2058> a cr:museums;
+  cr:barrio "Los Jeronimos";
+  cr:cp "28014"^^xsd:int;
+  cr:descripcion "Construido inicialmente como Museo de Ciencias Naturales, este edificio neoclásico fue transformado en pinacoteca de las Colecciones Reales en 1818 con colecciones de pintura, dibujos, grabados, monedas y medallas desde el Románico hasta el siglo XIX.";
+  cr:distrito "Retiro";
+  cr:horario "De lunes a sábado de 10 a 20 horasDomingos y festivos de 10 a 19 horasCerrado los días 1 de enero, 1 de mayo y 25 de diciembreHorario reducido, de 10 a 14 horas, los días 6 de enero, 24 y 31 de diciembreHorario gratuito, de lunes a sábado de 18 a 20 horas y domingos y festivos de 17 a 19 horas Durante las dos últimas horas de apertura, 50% de reducción en el precio de la entrada a las exposiciones temporales";
+  cr:latitud "40.41358458131178";
+  cr:longitud "-3.691325445518223";
+  cr:nombre "Museo del Prado";
+  cr:telefono "913 302 800";
+  cr:transporte "Metro: Estación del Arte (Atocha) (línea 1), Banco de España (línea 2), Retiro (línea 2)Bus: 9, 10, 14, 19, 27, 34, 37, 45Renfe: AtochaBicimad: Estación 68 (calle Espalter, 1)";
+  cr:via "Ruiz De Alarcon";
+  owl:image "Sala_de_Tiziano_en_el_Museo_del_Prado.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+del+Prado> owl:sameAs <https://www.wikidata.org/wiki/Q160112> .
+
+<http://www.culturalrace.es/resource/2059> a cr:museums;
+  cr:barrio "Justicia";
+  cr:cp "28004"^^xsd:int;
+  cr:distrito "Centro";
+  cr:email "informacion.romanticismo@mecd.es";
+  cr:horario "Horario de invierno (de noviembre a abril)De martes a sábado: de 9:30 a 18:30. Domingos y festivos: de 10 a 15 horas Horario de verano (de mayo a octubre)De martes a sábado: de 9:30 a 20:30. Domingos y festivos: de 10 a 15 horas Cerrado: Todos los lunes, 1 y 6 de enero, 1 y 15 de mayo, 24, 25 y 31 de diciembre.";
+  cr:latitud "40.42585510296794";
+  cr:longitud "-3.6987835425963063";
+  cr:nombre "Museo del Romanticismo";
+  cr:telefono "914 481 045 / 914 480 163";
+  cr:transporte "Metro: Tribunal (líneas 1, 10), Alonso Martínez (líneas 4, 5, 10)Bus: 3, 40, 149, 3Renfe: RecoletosBicimad: Estación 7 (calle Hortaleza, 75)";
+  cr:via "San Mateo";
+  owl:image "Museo_del_Romanticismo_-_Fachada_-_Fachada_del_Museo_del_Romanticismo.jpg" .
+
+<http://www.culturalrace.es/resource/Museo+del+Romanticismo> owl:sameAs <https://www.wikidata.org/wiki/Q6974501> .
+
+<http://www.culturalrace.es/resource/2115> a cr:museums;
+  cr:barrio "Ciudad Universitaria";
+  cr:cp "28040"^^xsd:int;
+  cr:descripcion "Edificio de carácter monumental, construido por Jaime López de Asiaín en 1969.";
+  cr:distrito "Moncloa-aravaca";
+  cr:horario "De martes a sábado de 9:30 a 19 horas. Domingos y festivos de 10 a 15 horas.Verano (julio y agosto): los jueves se amplia el horario de 9:30 a 22:30 horas.Cerrado: todos los lunes, 1 y 6 de enero, 1 y 15 de mayo, 9 de noviembre, 24, 25 y 31 de diciembre.";
+  cr:latitud "40.439657822278555";
+  cr:longitud "-3.7278378564088275";
+  cr:nombre "Museo del Traje. Centro de Investigación del Patrimonio Etnológico (CIPE)";
+  cr:telefono "915 504 700";
+  cr:transporte "Metro: Ciudad Universitaria (línea 6).Bus: 46, 160, 161, U, 82, G, 132, 83, 133, 162.";
+  cr:via "Juan De Herrera";
+  owl:image "Museo_del_Traje.JPG" .
+
+<http://www.culturalrace.es/resource/Museo+del+Traje.+Centro+de+Investigaci%C3%B3n+del+Patrimonio+Etnol%C3%B3gico+%28CIPE%29>
+  owl:sameAs <https://www.wikidata.org/wiki/Q9047135> .
+
+<http://www.culturalrace.es/resource/2061> a cr:museums;
+  cr:barrio "El Pardo";
+  cr:cp "28048"^^xsd:int;
+  cr:descripcion "Recinto en el que se conserva el Palacio, construido sobre el castillo del siglo XV, la Casita del Príncipe, del siglo XVIII y la Quinta del Duque de Arco (Palacete que fue Casa de Labor y sus tierras). Desde 1983 ha sido adecuado para residencia de Jefes de Estado extranjeros en visita oficial.";
+  cr:distrito "Fuencarral-el Pardo";
+  cr:email "info@patrimonionacional.es";
+  cr:horario "Horario (Palacio y Casa del Príncipe Don Carlos) De octubre a marzo: todos los días de 10 a 18 horas. De abril a septiembre: todos los días de 10 a 20 horas.  Cierre taquillas y acceso a Palacio una hora antes.  Pradera de San Francisco: todos los días de 8 a 21 horas.  Días de cierre: 9 y 10 enero, 1 mayo, 24, 25 y 31 diciembre.  Además de los cierres previstos, puede haber cierres motivados por la celebración de actos oficiales o festividad en el municipio, en estos casos consultar la web o telefónicamente.";
+  cr:latitud "40.520522342970146";
+  cr:longitud "-3.7762390614462853";
+  cr:nombre "Palacio Real de El Pardo";
+  cr:telefono "914 548 700 (Información general)";
+  cr:transporte "Bus: 601 (Madrid - Colonia Mingorrubio).";
+  cr:via "Manuel Alonso";
+  owl:image "El_Palacio_de_El_Pardo.JPG" .
+
+<http://www.culturalrace.es/resource/Palacio+Real+de+El+Pardo> owl:sameAs <https://www.wikidata.org/wiki/Q1368571> .
+
+<http://www.culturalrace.es/resource/2079> a cr:museums;
+  cr:barrio "Pacifico";
+  cr:cp "28014"^^xsd:int;
+  cr:descripcion "La construcción de este edificio responde a dos de las constantes de fines de siglo: la arquitectura historicista y la escultura funeraria. En él reposan trece personajes ilustres de la historia política y militar española.";
+  cr:distrito "Retiro";
+  cr:email "info@patrimonionacional.es";
+  cr:horario "De martes a sábado de 10 a 14 y de 16 a 18:30 horasDomingos y festivos de 10 a 15 horas. Lunes cerradoCerrado todos los lunes del añoDías de cierre: 1 mayo y 25 diciembre.Además de los cierres previstos, puede haber cierres motivados por la celebración de actos oficiales o festividad en el municipio, en estos casos consultar la web o telefónicamente.";
+  cr:latitud "40.40622617519116";
+  cr:longitud "-3.683413041846525";
+  cr:nombre "Panteón de Hombres Ilustres";
+  cr:telefono "914 548 700 (Información general)";
+  cr:transporte "Metro: Estación del Arte (Atocha) (línea 1).Bus: 10, 14, 24, 32, 37, 54, 57, 141.Renfe: Atocha.";
+  cr:via "Julian Gayarre";
+  owl:image "Patio_interior_del_Panteón_de_Hombres_Ilustres.jpg" .
+
+<http://www.culturalrace.es/resource/Pante%C3%B3n+de+Hombres+Ilustres> owl:sameAs
+    <https://www.wikidata.org/wiki/Q7131757> .
+
+<http://www.culturalrace.es/resource/2213> a cr:museums;
+  cr:barrio "Legazpi";
+  cr:cp "28045"^^xsd:int;
+  cr:descripcion "Inaugurado el 29 de septiembre de 1986, es un centro dependiente del Área de Cultura y Deportes del Ayuntamiento de Madrid. Durante los años 2016/2017 fue sometido a una profunda renovación tanto tecnológica como de las instalaciones y edificio, posible en virtud de un acuerdo de colaboración entre el Ayuntamiento de Madrid y la Obra Social &amp;ldquo;la Caixa&amp;rdquo; &amp;ndash; que incluye dotación de contenidos, renovación de exposiciones y la realización de actividades varias en el campo de la divulgación científica.Siempre con el fin de contribuir a la difusión de la astronomía y de la ciencia en general, tanto entre escolares como entre el público de cualquier edad y condición, posee una variada oferta de proyecciones audiovisuales, exposiciones y actividades (talleres, cursos, conferencias, observaciones públicas...)Las proyecciones que se ofrecen en el Planetario de Madrid se renuevan periódicamente, y tienen una duración aproximada de 30 minutos.Existen dos programaciones básicas diferentes: una activa durante el verano y época de vacaciones escolares, y otra durante el curso escolar. Durante el curso escolar, las proyecciones de las mañanas de los días lectivos se reservan a escolares. Video de presentación del centro    //     Folleto informativo (PDF)    //    Planetario en  Google Maps";
+  cr:distrito "Arganzuela";
+  cr:email "buzon@planetmad.es";
+  cr:horario "Horario del centro. De martes a viernes, de 9:30 a 13:45 horas (reservadas a escolares) y de 17 a 19:45 horas. Fin de semana y festivos, de 10 a 13:45 horas y de 17 a 19:45 horas. Cerrado: Todos los lunes del año. El día 1 y 6 de enero. El día 1 de mayo. Días 24, 25 y 31 de diciembre.";
+  cr:latitud "40.392279999540044";
+  cr:longitud "-3.684956957448299";
+  cr:nombre "Planetario de Madrid";
+  cr:telefono """914 673 461 (reserva grupos)
+914 673 898 (contestador automático de información)""";
+  cr:transporte "Metro: Méndez Álvaro (línea 6) Bus: 148, 156 BICIMAD: Estación 177 (Calle Bolívar 3) Planetario en  Google Maps";
+  cr:via "Planetario";
+  owl:image "Planetario_de_Madrid_01.jpg" .
+
+<http://www.culturalrace.es/resource/Planetario+de+Madrid> owl:sameAs <https://www.wikidata.org/wiki/Q9060456> .
+
+<http://www.culturalrace.es/resource/2087> a cr:museums;
+  cr:barrio "Pacifico";
+  cr:cp "28014"^^xsd:int;
+  cr:distrito "Retiro";
+  cr:email "informacion@realfabricadetapices.com";
+  cr:horario "Visitas guiadas: Lunes a viernes a las 10, 11, 12 y 13 horas (duración de la visita 45 minutos).Se recomienda realizar una reserva antes de la llegada al museo.";
+  cr:latitud "40.406087329011655";
+  cr:longitud "-3.682515969574079";
+  cr:nombre "Real Fábrica de Tapices";
+  cr:telefono "914 340 550";
+  cr:transporte "Metro: Menéndez Pelayo (línea 1).Bus: 10, 14, 26, 32, C1, C2, 24, 37, 54, 57, 141.Bicimad: Estación 79 (Avenida de Menéndez Pelayo, 38).";
+  cr:via "Fuenterrabia";
+  owl:image "Real_Fabrica_de_Tapices_de_Madrid.jpg" .
+
+<http://www.culturalrace.es/resource/Real+F%C3%A1brica+de+Tapices> owl:sameAs <https://www.wikidata.org/wiki/Q570665> .
+
+<http://www.culturalrace.es/resource/4707297> a cr:museums;
+  cr:barrio "Embajadores";
+  cr:cp "28012"^^xsd:int;
+  cr:descripcion "El Real Monasterio de Santa Isabel está situado en Madrid, dentro de la ciudad histórica, en una gran manzana, próxima a Atocha.Santa Isabel agrupa dos fundaciones, un colegio de niñas, establecido por Felipe II, y un convento de clausura de monjas agustinas recoletas, fundado por la esposa de Felipe III, doña Margarita de Austria.La arquitectura de la iglesia se debe a Gómez de Mora, de mediados del siglo XVIII. En la clausura se conservan numerosas obras pictóricas de los siglos XVII y XVIII.";
+  cr:distrito "Centro";
+  cr:email "info@patrimonionacional.es";
+  cr:horario "El acceso al templo sólo es posible en horario de culto.";
+  cr:latitud "40.41213027498252";
+  cr:longitud "-3.6994547941964946";
+  cr:nombre "Real Monasterio de Santa Isabel";
+  cr:telefono "914 548 700 (Información general)";
+  cr:transporte "Metro: Estación del Arte (Atocha) (línea 1).Bus: 6, 19, 26, 27, 32, 34, 45, 59, 85, 86, C1, E1.Renfe: Atocha.";
+  cr:via "Santa Isabel";
+  owl:image "Real_Monasterio_de_Santa_Isabel_(Madrid)_02.jpg" .
+
+<http://www.culturalrace.es/resource/Real+Monasterio+de+Santa+Isabel> owl:sameAs <https://www.wikidata.org/wiki/Q9067089> .
+
+<http://www.culturalrace.es/resource/3349> a cr:museums;
+  cr:barrio "Palacio";
+  cr:cp "28013"^^xsd:int;
+  cr:descripcion "Edificio construído por Juan Gómez de Mora de 1611 a 1616 como monasterio anejo al Alcázar Real, modelo de lo que se ha dado en llamar barroco madrileño. Cuenta con la reliquia de San Pantaleón.";
+  cr:distrito "Centro";
+  cr:email "info@patrimonionacional.es";
+  cr:horario "De martes a sábado: de 10 a 14 horas y de 16 a 18:30 horasDomingos y festivos: de 10 a 15 horas. Tardes cerradoCerrado todos los lunes del año Días de cierre: 25 enero, 17 a 20 abril, 1 mayo, 24 y 31 diciembre.  Además de los cierres previstos, puede haber cierres motivados por la celebración de actos oficiales o festividad en el municipio, en estos casos consultar la web o telefónicamente.";
+  cr:latitud "40.41967800877382";
+  cr:longitud "-3.711567962866152";
+  cr:nombre "Real Monasterio de la Encarnación";
+  cr:telefono "914 548 700 (Información general)";
+  cr:transporte "Metro:  Ópera (líneas 2, 5 y Ramal Ópera Príncipe Pío), Plaza de España (líneas 3, 10).Bus:  1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 147, 148, C1, C2.";
+  cr:via "Encarnacion";
+  owl:image "Real_Monasterio_de_la_Encarnación_(Madrid)_01.jpg" .
+
+<http://www.culturalrace.es/resource/Real+Monasterio+de+la+Encarnaci%C3%B3n> owl:sameAs
+    <https://www.wikidata.org/wiki/Q205524> .
+
+<http://www.culturalrace.es/resource/20605> a cr:museums;
+  cr:barrio "Casa De Campo";
+  cr:cp "28008"^^xsd:int;
+  cr:descripcion "Templo egipcio dedicado a Amón de Debod y a Isis, construido entre 185 AC y el siglo I de la Era. Fue donado por Egipto a España en 1968, en agradecimiento por la ayuda en el salvamento de los templos de Abu Simbel. Egyptian temple dedicated to Amun of Debod and Isis. It was built between 185 BC and the 1st century. It was donated by Egypt to Spain in 1968 for its help in the rescue of the temples of Abu Simbel.";
+  cr:distrito "Moncloa-aravaca";
+  cr:email "templodebod@madrid.es";
+  cr:horario "Martes a domingos y festivos, de 10 a 20 horas / Tuesday to Sundays and holidays, from 10 a.m. to 8 p.m.  Cerrado los lunes y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre./ Closed Mondays and January 1 and 6, May 1, December 24, 25 and 31 Último pase de visita 30 minutos antes del cierre / Last visit pass 30 minutes before closing El horario y la apertura de salas pueden sufrir modificaciones. Ppor favor, confírmelo en el teléfono de información del museo./ The schedule  is subjects to change. Please, confirm it in the information telephone of the museum.";
+  cr:latitud "40.42425096551599";
+  cr:longitud "-3.716531855540272";
+  cr:nombre "Templo de Debod";
+  cr:telefono "913 667 415 (Museo de San Isidro / Templo de Debod)";
+  cr:transporte "Metro: Plaza de España (líneas 3 y 10) y Ventura Rodríguez (línea 3) Bus: 1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 148, C1 y C2 Renfe: Príncipe Pío  Bus turístico: Ruta 1. PARADA 10 - Templo de Debod Otras formas de acceso: Aparcamiento de coches: dentro del Área de Estacionamiento Regulado de la ciudad de Madrid. BICIMAD (Servicio público de bicicletas de la ciudad de Madrid): Estación 115 (calle Evaristo San Miguel s/n.,entre Paseo Pintor Rosales y calle Ferraz)";
+  cr:via "Ferraz";
+  owl:image "Templo_de_Debod_Madrid.JPG" .
+
+<http://www.culturalrace.es/resource/Templo+de+Debod> owl:sameAs <https://www.wikidata.org/wiki/Q1140249> .
