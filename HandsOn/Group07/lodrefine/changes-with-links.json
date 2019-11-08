@@ -1,1162 +1,2647 @@
 [
-  {
-    "op": "core/column-removal",
-    "columnName": "PK",
-    "description": "Remove column PK"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "HORARIO",
-    "description": "Remove column HORARIO"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "EQUIPAMIENTO",
-    "description": "Remove column EQUIPAMIENTO"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "Column",
-    "description": "Remove column Column"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "TIPO",
-    "description": "Remove column TIPO"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "COORDENADA-Y",
-    "description": "Remove column COORDENADA-Y"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "COORDENADA-X",
-    "description": "Remove column COORDENADA-X"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "ORIENTACION",
-    "description": "Remove column ORIENTACION"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "TIPO-NUM",
-    "description": "Remove column TIPO-NUM"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "ACCESIBILIDAD",
-    "description": "Remove column ACCESIBILIDAD"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "TELEFONO",
-    "description": "Remove column TELEFONO"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "FAX",
-    "description": "Remove column FAX"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "EMAIL",
-    "description": "Remove column EMAIL"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+    {
+        "op": "core/column-removal",
+        "columnName": "PK",
+        "description": "Remove column PK"
     },
-    "columnName": "TRANSPORTE",
-    "expression": "value.toLowercase()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column TRANSPORTE using expression value.toLowercase()"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+    {
+        "op": "core/column-removal",
+        "columnName": "HORARIO",
+        "description": "Remove column HORARIO"
     },
-    "columnName": "TRANSPORTE",
-    "expression": "jython:import string\n\nindex = string.find(value, \"servicio bicimad\")\n\nindex2 = string.find(value, \"renfe\")\n\nif index2 < index and index2 != -1:\n   index = index2\n\nreturn value[0:index]",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column TRANSPORTE using expression jython:import string\n\nindex = string.find(value, \"servicio bicimad\")\n\nindex2 = string.find(value, \"renfe\")\n\nif index2 < index and index2 != -1:\n   index = index2\n\nreturn value[0:index]"
-  },
-  {
-    "op": "core/column-split",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+    {
+        "op": "core/column-removal",
+        "columnName": "EQUIPAMIENTO",
+        "description": "Remove column EQUIPAMIENTO"
     },
-    "columnName": "TRANSPORTE",
-    "guessCellType": true,
-    "removeOriginalColumn": false,
-    "mode": "separator",
-    "separator": "b[uú]s:",
-    "regex": true,
-    "maxColumns": 0,
-    "description": "Split column TRANSPORTE by separator"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "TRANSPORTE 3",
-    "description": "Remove column TRANSPORTE 3"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+    {
+        "op": "core/column-removal",
+        "columnName": "Column",
+        "description": "Remove column Column"
     },
-    "columnName": "TRANSPORTE 1",
-    "expression": "jython:return value[6:]",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column TRANSPORTE 1 using expression jython:return value[6:]"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+    {
+        "op": "core/column-removal",
+        "columnName": "TIPO",
+        "description": "Remove column TIPO"
     },
-    "columnName": "TRANSPORTE 1",
-    "expression": "value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column TRANSPORTE 1 using expression value.trim()"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+    {
+        "op": "core/column-removal",
+        "columnName": "COORDENADA-Y",
+        "description": "Remove column COORDENADA-Y"
     },
-    "columnName": "TRANSPORTE 2",
-    "expression": "value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column TRANSPORTE 2 using expression value.trim()"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "TRANSPORTE 1",
-    "newColumnName": "ACCESO METRO",
-    "description": "Rename column TRANSPORTE 1 to ACCESO METRO"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "TRANSPORTE 2",
-    "newColumnName": "ACCESO BUS",
-    "description": "Rename column TRANSPORTE 2 to ACCESO BUS"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "TRANSPORTE",
-    "description": "Remove column TRANSPORTE"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
+    {
+        "op": "core/column-removal",
+        "columnName": "COORDENADA-X",
+        "description": "Remove column COORDENADA-X"
     },
-    "columnName": "NOMBRE-VIA",
-    "expression": "grel:cells['NUM'].value + \" \" +   value",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column NOMBRE-VIA using expression grel:cells['NUM'].value + \" \" +   value"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "NOMBRE-VIA",
-    "newColumnName": "ADRESS",
-    "description": "Rename column NOMBRE-VIA to ADRESS"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "ADRESS",
-    "newColumnName": "ADDRESS",
-    "description": "Rename column ADRESS to ADDRESS"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "ADDRESS",
-    "newColumnName": "ADDRESS (RDF)",
-    "description": "Rename column ADDRESS to ADDRESS (RDF)"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "CODIGO-POSTAL",
-    "newColumnName": "PostalCode (RDF)",
-    "description": "Rename column CODIGO-POSTAL to PostalCode (RDF)"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "LATITUD",
-    "newColumnName": "LATITUD (RDF)",
-    "description": "Rename column LATITUD to LATITUD (RDF)"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "LONGITUD",
-    "newColumnName": "LONGITUD (RDF)",
-    "description": "Rename column LONGITUD to LONGITUD (RDF)"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "PROVINCIA",
-    "newColumnName": "PROVINCIA (RDF)",
-    "description": "Rename column PROVINCIA to PROVINCIA (RDF)"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "LOCALIDAD",
-    "newColumnName": "LOCALIDAD (RDF)",
-    "description": "Rename column LOCALIDAD to LOCALIDAD (RDF)"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "LOCALIDAD (RDF)",
-    "newColumnName": "LOCALIDAD (RDF",
-    "description": "Rename column LOCALIDAD (RDF) to LOCALIDAD (RDF"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "LOCALIDAD (RDF",
-    "newColumnName": "LOCALIDAD",
-    "description": "Rename column LOCALIDAD (RDF to LOCALIDAD"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "DISTRITO",
-    "newColumnName": "DISTRITO (RDF)",
-    "description": "Rename column DISTRITO to DISTRITO (RDF)"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
+    {
+        "op": "core/column-removal",
+        "columnName": "ORIENTACION",
+        "description": "Remove column ORIENTACION"
     },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
+    {
+        "op": "core/column-removal",
+        "columnName": "TIPO-NUM",
+        "description": "Remove column TIPO-NUM"
     },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
+    {
+        "op": "core/column-removal",
+        "columnName": "ACCESIBILIDAD",
+        "description": "Remove column ACCESIBILIDAD"
     },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
+    {
+        "op": "core/column-removal",
+        "columnName": "TELEFONO",
+        "description": "Remove column TELEFONO"
     },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
+    {
+        "op": "core/column-removal",
+        "columnName": "FAX",
+        "description": "Remove column FAX"
     },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
+    {
+        "op": "core/column-removal",
+        "columnName": "EMAIL",
+        "description": "Remove column EMAIL"
     },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "core/row-removal",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "Starred Rows",
-          "expression": "row.starred",
-          "columnName": "",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": true,
-                "l": "true"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "description": "Remove rows"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "LOCALIDAD",
-    "newColumnName": "LOCALIDAD (RDF)",
-    "description": "Rename column LOCALIDAD to LOCALIDAD (RDF)"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "LOCALIDAD (RDF)",
-    "newColumnName": "LOCALIDAD (RDF",
-    "description": "Rename column LOCALIDAD (RDF) to LOCALIDAD (RDF"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "LOCALIDAD (RDF",
-    "newColumnName": "LOCALIDAD",
-    "description": "Rename column LOCALIDAD (RDF to LOCALIDAD"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "LOCALIDAD",
-    "newColumnName": "LOCALIDAD (RDF)",
-    "description": "Rename column LOCALIDAD to LOCALIDAD (RDF)"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "LOCALIDAD (RDF)",
-    "newColumnName": "LOCALIDAD (RDF",
-    "description": "Rename column LOCALIDAD (RDF) to LOCALIDAD (RDF"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "LOCALIDAD (RDF",
-    "newColumnName": "LOCALIDAD",
-    "description": "Rename column LOCALIDAD (RDF to LOCALIDAD"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "NOMBRE",
-    "expression": "jython:import re\n\nvalue.replace('á', 'a')\nvalue.replace('é', 'e')\nvalue.replace('í', 'i')\nvalue.replace('ó', 'o')\nvalue.replace('ú', 'u')",
-    "onError": "set-to-blank",
-    "newColumnName": "name_URL",
-    "columnInsertIndex": 1,
-    "description": "Create column name_URL at index 1 based on column NOMBRE using expression jython:import re\n\nvalue.replace('á', 'a')\nvalue.replace('é', 'e')\nvalue.replace('í', 'i')\nvalue.replace('ó', 'o')\nvalue.replace('ú', 'u')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "name_URL",
-    "expression": "jython:import re\nresult = cells[\"NOMBRE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column name_URL using expression jython:import re\nresult = cells[\"NOMBRE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "name_URL",
-    "expression": "jython:import re\nresult = cells[\"NOMBRE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column name_URL using expression jython:import re\nresult = cells[\"NOMBRE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "core/recon",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "DISTRITO (RDF)",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q3032114",
-        "name": "district of Madrid"
-      },
-      "autoMatch": true,
-      "columnDetails": [],
-      "limit": 0
-    },
-    "description": "Reconcile cells in column DISTRITO (RDF) to type Q3032114"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "core/recon",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "DISTRITO (RDF): judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "DISTRITO (RDF)",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "matched",
-                "l": "matched"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "NOMBRE",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q1107656",
-        "name": "garden"
-      },
-      "autoMatch": true,
-      "columnDetails": [
-        {
-          "column": "ADDRESS (RDF)",
-          "propertyName": "located at street address",
-          "propertyID": "P6375"
-        }
-      ],
-      "limit": 0
-    },
-    "description": "Reconcile cells in column NOMBRE to type Q1107656"
-  },
-  {
-    "op": "core/recon",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "DISTRITO (RDF): judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "DISTRITO (RDF)",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "matched",
-                "l": "matched"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
         },
-        {
-          "type": "list",
-          "name": "NOMBRE: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "NOMBRE",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
+        "columnName": "TRANSPORTE",
+        "expression": "value.toLowercase()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column TRANSPORTE using expression value.toLowercase()"
     },
-    "columnName": "NOMBRE",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q22698",
-        "name": "park"
-      },
-      "autoMatch": true,
-      "columnDetails": [],
-      "limit": 0
-    },
-    "description": "Reconcile cells in column NOMBRE to type Q22698"
-  },
-  {
-    "op": "core/recon",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "DISTRITO (RDF): judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "DISTRITO (RDF)",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "matched",
-                "l": "matched"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
         },
-        {
-          "type": "list",
-          "name": "NOMBRE: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "NOMBRE",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
+        "columnName": "TRANSPORTE",
+        "expression": "jython:import string\n\nindex = string.find(value, \"servicio bicimad\")\n\nindex2 = string.find(value, \"renfe\")\n\nif index2 < index and index2 != -1:\n   index = index2\n\nreturn value[0:index]",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column TRANSPORTE using expression jython:import string\n\nindex = string.find(value, \"servicio bicimad\")\n\nindex2 = string.find(value, \"renfe\")\n\nif index2 < index and index2 != -1:\n   index = index2\n\nreturn value[0:index]"
     },
-    "columnName": "NOMBRE",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q22746",
-        "name": "urban park"
-      },
-      "autoMatch": true,
-      "columnDetails": [],
-      "limit": 0
-    },
-    "description": "Reconcile cells in column NOMBRE to type Q22746"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "core/recon",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "DISTRITO (RDF)",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q3032114",
-        "name": "district of Madrid"
-      },
-      "autoMatch": true,
-      "columnDetails": [],
-      "limit": 0
-    },
-    "description": "Reconcile cells in column DISTRITO (RDF) to type Q3032114"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "DISTRITO (RDF)",
-    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
-    "onError": "set-to-blank",
-    "newColumnName": "District Recon",
-    "columnInsertIndex": 18,
-    "description": "Create column District Recon at index 18 based on column DISTRITO (RDF) using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [],
-      "baseUri": null,
-      "rootNodes": []
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "core/recon",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "NOMBRE",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q22698",
-        "name": "park"
-      },
-      "autoMatch": true,
-      "columnDetails": [],
-      "limit": 0
-    },
-    "description": "Reconcile cells in column NOMBRE to type Q22698"
-  },
-  {
-    "op": "core/recon",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "NOMBRE",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q1107656",
-        "name": "garden"
-      },
-      "autoMatch": true,
-      "columnDetails": [],
-      "limit": 0
-    },
-    "description": "Reconcile cells in column NOMBRE to type Q1107656"
-  },
-  {
-    "op": "core/recon",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "NOMBRE: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "NOMBRE",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
+    {
+        "op": "core/column-split",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
         },
-        {
-          "type": "range",
-          "name": "NOMBRE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "NOMBRE",
-          "from": 38,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
-      "mode": "row-based"
+        "columnName": "TRANSPORTE",
+        "guessCellType": true,
+        "removeOriginalColumn": false,
+        "mode": "separator",
+        "separator": "b[uú]s:",
+        "regex": true,
+        "maxColumns": 0,
+        "description": "Split column TRANSPORTE by separator"
     },
-    "columnName": "NOMBRE",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q22698",
-        "name": "park"
-      },
-      "autoMatch": true,
-      "columnDetails": [],
-      "limit": 0
+    {
+        "op": "core/column-removal",
+        "columnName": "TRANSPORTE 3",
+        "description": "Remove column TRANSPORTE 3"
     },
-    "description": "Reconcile cells in column NOMBRE to type Q22698"
-  }
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "TRANSPORTE 1",
+        "expression": "jython:return value[6:]",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column TRANSPORTE 1 using expression jython:return value[6:]"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "TRANSPORTE 1",
+        "expression": "value.trim()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column TRANSPORTE 1 using expression value.trim()"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "TRANSPORTE 2",
+        "expression": "value.trim()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column TRANSPORTE 2 using expression value.trim()"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "TRANSPORTE 1",
+        "newColumnName": "ACCESO METRO",
+        "description": "Rename column TRANSPORTE 1 to ACCESO METRO"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "TRANSPORTE 2",
+        "newColumnName": "ACCESO BUS",
+        "description": "Rename column TRANSPORTE 2 to ACCESO BUS"
+    },
+    {
+        "op": "core/column-removal",
+        "columnName": "TRANSPORTE",
+        "description": "Remove column TRANSPORTE"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE-VIA",
+        "expression": "grel:cells['NUM'].value + \" \" +   value",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column NOMBRE-VIA using expression grel:cells['NUM'].value + \" \" +   value"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "NOMBRE-VIA",
+        "newColumnName": "ADRESS",
+        "description": "Rename column NOMBRE-VIA to ADRESS"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "ADRESS",
+        "newColumnName": "ADDRESS",
+        "description": "Rename column ADRESS to ADDRESS"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "ADDRESS",
+        "newColumnName": "ADDRESS (RDF)",
+        "description": "Rename column ADDRESS to ADDRESS (RDF)"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "CODIGO-POSTAL",
+        "newColumnName": "PostalCode (RDF)",
+        "description": "Rename column CODIGO-POSTAL to PostalCode (RDF)"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "LATITUD",
+        "newColumnName": "LATITUD (RDF)",
+        "description": "Rename column LATITUD to LATITUD (RDF)"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "LONGITUD",
+        "newColumnName": "LONGITUD (RDF)",
+        "description": "Rename column LONGITUD to LONGITUD (RDF)"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "PROVINCIA",
+        "newColumnName": "PROVINCIA (RDF)",
+        "description": "Rename column PROVINCIA to PROVINCIA (RDF)"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "LOCALIDAD",
+        "newColumnName": "LOCALIDAD (RDF)",
+        "description": "Rename column LOCALIDAD to LOCALIDAD (RDF)"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "LOCALIDAD (RDF)",
+        "newColumnName": "LOCALIDAD (RDF",
+        "description": "Rename column LOCALIDAD (RDF) to LOCALIDAD (RDF"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "LOCALIDAD (RDF",
+        "newColumnName": "LOCALIDAD",
+        "description": "Rename column LOCALIDAD (RDF to LOCALIDAD"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "DISTRITO",
+        "newColumnName": "DISTRITO (RDF)",
+        "description": "Rename column DISTRITO to DISTRITO (RDF)"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "core/row-removal",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "Starred Rows",
+                    "expression": "row.starred",
+                    "columnName": "",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": true,
+                                "l": "true"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "description": "Remove rows"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "LOCALIDAD",
+        "newColumnName": "LOCALIDAD (RDF)",
+        "description": "Rename column LOCALIDAD to LOCALIDAD (RDF)"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "LOCALIDAD (RDF)",
+        "newColumnName": "LOCALIDAD (RDF",
+        "description": "Rename column LOCALIDAD (RDF) to LOCALIDAD (RDF"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "LOCALIDAD (RDF",
+        "newColumnName": "LOCALIDAD",
+        "description": "Rename column LOCALIDAD (RDF to LOCALIDAD"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "LOCALIDAD",
+        "newColumnName": "LOCALIDAD (RDF)",
+        "description": "Rename column LOCALIDAD to LOCALIDAD (RDF)"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "LOCALIDAD (RDF)",
+        "newColumnName": "LOCALIDAD (RDF",
+        "description": "Rename column LOCALIDAD (RDF) to LOCALIDAD (RDF"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "LOCALIDAD (RDF",
+        "newColumnName": "LOCALIDAD",
+        "description": "Rename column LOCALIDAD (RDF to LOCALIDAD"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "NOMBRE",
+        "expression": "jython:import re\n\nvalue.replace('á', 'a')\nvalue.replace('é', 'e')\nvalue.replace('í', 'i')\nvalue.replace('ó', 'o')\nvalue.replace('ú', 'u')",
+        "onError": "set-to-blank",
+        "newColumnName": "name_URL",
+        "columnInsertIndex": 1,
+        "description": "Create column name_URL at index 1 based on column NOMBRE using expression jython:import re\n\nvalue.replace('á', 'a')\nvalue.replace('é', 'e')\nvalue.replace('í', 'i')\nvalue.replace('ó', 'o')\nvalue.replace('ú', 'u')"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "name_URL",
+        "expression": "jython:import re\nresult = cells[\"NOMBRE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column name_URL using expression jython:import re\nresult = cells[\"NOMBRE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "name_URL",
+        "expression": "jython:import re\nresult = cells[\"NOMBRE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column name_URL using expression jython:import re\nresult = cells[\"NOMBRE\"].value\n\nresult = re.sub('á','a', result)\nresult = re.sub('é','e', result)\nresult = re.sub('í','i', result)\nresult = re.sub('ó','o', result)\nresult = re.sub('ú','u', result)\nresult = re.sub('ñ','n', result)\nresult = re.sub(' ','_', result)\nresult = result.lower()\n\nreturn result"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "DISTRITO (RDF)",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q3032114",
+                "name": "district of Madrid"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column DISTRITO (RDF) to type Q3032114"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "DISTRITO (RDF): judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "DISTRITO (RDF)",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q1107656",
+                "name": "garden"
+            },
+            "autoMatch": true,
+            "columnDetails": [
+                {
+                    "column": "ADDRESS (RDF)",
+                    "propertyName": "located at street address",
+                    "propertyID": "P6375"
+                }
+            ],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column NOMBRE to type Q1107656"
+    },
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "DISTRITO (RDF): judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "DISTRITO (RDF)",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q22698",
+                "name": "park"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column NOMBRE to type Q22698"
+    },
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "DISTRITO (RDF): judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "DISTRITO (RDF)",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q22746",
+                "name": "urban park"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column NOMBRE to type Q22746"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "DISTRITO (RDF)",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q3032114",
+                "name": "district of Madrid"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column DISTRITO (RDF) to type Q3032114"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "DISTRITO (RDF)",
+        "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+        "onError": "set-to-blank",
+        "newColumnName": "District Recon",
+        "columnInsertIndex": 18,
+        "description": "Create column District Recon at index 18 based on column DISTRITO (RDF) using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q22698",
+                "name": "park"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column NOMBRE to type Q22698"
+    },
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q1107656",
+                "name": "garden"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column NOMBRE to type Q1107656"
+    },
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "range",
+                    "name": "NOMBRE: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "NOMBRE",
+                    "from": 38,
+                    "to": 101,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": true,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q22698",
+                "name": "park"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column NOMBRE to type Q22698"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "schema": {
+            "prefixes": [],
+            "baseUri": null,
+            "rootNodes": []
+        },
+        "description": "Save RDF schema skeleton"
+    },
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q22698",
+                "name": "park"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column NOMBRE to type Q22698"
+    },
+    {
+        "op": "core/column-rename",
+        "oldColumnName": "name_URL",
+        "newColumnName": "name_sinEspacios",
+        "description": "Rename column name_URL to name_sinEspacios"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "baseColumnName": "NOMBRE",
+        "expression": "grel:if\n(isBlank(cell.recon.match.id),\ncells['name_sinEspacios'].value, cell.recon.match.id)",
+        "onError": "set-to-blank",
+        "newColumnName": "name_URL",
+        "columnInsertIndex": 1,
+        "description": "Create column name_URL at index 1 based on column NOMBRE using expression grel:if\n(isBlank(cell.recon.match.id),\ncells['name_sinEspacios'].value, cell.recon.match.id)"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_sinEspacios",
+        "expression": "grel:value.replace(\":\", \"\")\nvalue.replace(\".\", \"\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column name_sinEspacios using expression grel:value.replace(\":\", \"\")\nvalue.replace(\".\", \"\")"
+    },
+    {
+        "op": "core/column-removal",
+        "columnName": "name_URL",
+        "description": "Remove column name_URL"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "baseColumnName": "NOMBRE",
+        "expression": "grel:if\n(isBlank(cell.recon.match.id),\ncells['name_sinEspacios'].value, cell.recon.match.id)",
+        "onError": "set-to-blank",
+        "newColumnName": "name_URL",
+        "columnInsertIndex": 1,
+        "description": "Create column name_URL at index 1 based on column NOMBRE using expression grel:if\n(isBlank(cell.recon.match.id),\ncells['name_sinEspacios'].value, cell.recon.match.id)"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "name_sinEspacios",
+                    "columnName": "name_sinEspacios",
+                    "query": ".",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_sinEspacios",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "jardines_del_mundial._castellana"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "jardines_del_mundial_castellana"
+            }
+        ],
+        "description": "Mass edit cells in column name_sinEspacios"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "name_sinEspacios",
+                    "columnName": "name_sinEspacios",
+                    "query": ".",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_sinEspacios",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "parque_cuna_verde_de_vicalvaro._zona_a"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "parque_cuna_verde_de_vicalvaro_zona_a"
+            }
+        ],
+        "description": "Mass edit cells in column name_sinEspacios"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "name_sinEspacios",
+                    "columnName": "name_sinEspacios",
+                    "query": ".",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_sinEspacios",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "parque_cuna_verde_de_vicalvaro._zona_b"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "parque_cuna_verde_de_vicalvaro_zona_b"
+            }
+        ],
+        "description": "Mass edit cells in column name_sinEspacios"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "name_sinEspacios",
+                    "columnName": "name_sinEspacios",
+                    "query": ".",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_sinEspacios",
+        "expression": "grel:value.replace(\":\", \"\")\nvalue.replace(\".\", \"\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column name_sinEspacios using expression grel:value.replace(\":\", \"\")\nvalue.replace(\".\", \"\")"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "name_sinEspacios",
+                    "columnName": "name_sinEspacios",
+                    "query": ".",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_sinEspacios",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "parque_cuna_verde_de_vicalvaro._zona_c"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "parque_cuna_verde_de_vicalvaro_zona_c"
+            }
+        ],
+        "description": "Mass edit cells in column name_sinEspacios"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "name_sinEspacios",
+                    "columnName": "name_sinEspacios",
+                    "query": ".",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_sinEspacios",
+        "expression": "grel:value.replace(\".\", \"\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column name_sinEspacios using expression grel:value.replace(\".\", \"\")"
+    },
+    {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_URL",
+        "expression": "grel:value.replace(\".\", \"\")",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column name_URL using expression grel:value.replace(\".\", \"\")"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "name_URL",
+                    "columnName": "name_URL",
+                    "query": "jardines_de_la_plaza_de_oriente,_lepanto_y_cabo_noval",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_URL",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "jardines_de_la_plaza_de_oriente,_lepanto_y_cabo_noval"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "jardines_de_la_plaza_de_oriente_lepanto_y_cabo_noval"
+            }
+        ],
+        "description": "Mass edit cells in column name_URL"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "name_URL",
+                    "columnName": "name_URL",
+                    "query": "felipe",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Parque Forestal de Valdebebas-Felipe VI",
+        "judgment": "matched",
+        "match": {
+            "id": "Q6062702",
+            "name": "Felipe VI Park",
+            "types": [
+                "Q22698"
+            ],
+            "score": 85
+        },
+        "shareNewTopics": false,
+        "description": "Match item Felipe VI Park (Q6062702) for cells containing \"Parque Forestal de Valdebebas-Felipe VI\" in column NOMBRE"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "name_URL",
+                    "columnName": "name_URL",
+                    "query": "felipe",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_URL",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "parque_forestal_de_valdebebas-felipe_vi"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Q6062702"
+            }
+        ],
+        "description": "Mass edit cells in column name_URL"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "NOMBRE",
+                    "columnName": "NOMBRE",
+                    "query": "Templo",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Jardín del Templo de Debod",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1140249",
+            "name": "Temple of Debod",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Temple of Debod (Q1140249) for cells containing \"Jardín del Templo de Debod\" in column NOMBRE"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "NOMBRE",
+                    "columnName": "NOMBRE",
+                    "query": "Templo",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_URL",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "jardin_del_templo_de_debod"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Q1140249"
+            }
+        ],
+        "description": "Mass edit cells in column name_URL"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "NOMBRE",
+                    "columnName": "NOMBRE",
+                    "query": "campo",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Parque de la Casa de Campo",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1046524",
+            "name": "Casa de Campo",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Casa de Campo (Q1046524) for cells containing \"Parque de la Casa de Campo\" in column NOMBRE"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "NOMBRE",
+                    "columnName": "NOMBRE",
+                    "query": "campo",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_URL",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "parque_de_la_casa_de_campo"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Q1046524"
+            }
+        ],
+        "description": "Mass edit cells in column name_URL"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "NOMBRE",
+                    "columnName": "NOMBRE",
+                    "query": "berro",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Quinta de la Fuente del Berro",
+        "judgment": "matched",
+        "match": {
+            "id": "Q5411839",
+            "name": "Parque de la Quinta de la Fuente del Berro",
+            "types": [
+                "Q22698"
+            ],
+            "score": 82
+        },
+        "shareNewTopics": false,
+        "description": "Match item Parque de la Quinta de la Fuente del Berro (Q5411839) for cells containing \"Quinta de la Fuente del Berro\" in column NOMBRE"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "NOMBRE",
+                    "columnName": "NOMBRE",
+                    "query": "berro",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_URL",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "quinta_de_la_fuente_del_berro"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Q5411839"
+            }
+        ],
+        "description": "Mass edit cells in column name_URL"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "NOMBRE",
+                    "columnName": "NOMBRE",
+                    "query": "alameda",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Jardín histórico El Capricho de la Alameda Osuna",
+        "judgment": "matched",
+        "match": {
+            "id": "Q2054035",
+            "name": "Parque de El Capricho",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Parque de El Capricho (Q2054035) for cells containing \"Jardín histórico El Capricho de la Alameda Osuna\" in column NOMBRE"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "NOMBRE",
+                    "columnName": "NOMBRE",
+                    "query": "alameda",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_URL",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "jardin_historico_el_capricho_de_la_alameda_osuna"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Q2054035"
+            }
+        ],
+        "description": "Mass edit cells in column name_URL"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "NOMBRE",
+                    "columnName": "NOMBRE",
+                    "query": "dehesa",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Parque Dehesa de la Villa",
+        "judgment": "matched",
+        "match": {
+            "id": "Q4887686",
+            "name": "Dehesa de la Villa",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Dehesa de la Villa (Q4887686) for cells containing \"Parque Dehesa de la Villa\" in column NOMBRE"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "NOMBRE",
+                    "columnName": "NOMBRE",
+                    "query": "dehesa",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_URL",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "Q24023283"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Q4887686"
+            }
+        ],
+        "description": "Mass edit cells in column name_URL"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "NOMBRE",
+                    "columnName": "NOMBRE",
+                    "query": "rosaleda",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Rosaleda de Madrid. Parque del Oeste",
+        "judgment": "matched",
+        "match": {
+            "id": "Q16626568",
+            "name": "Rosaleda Gardens",
+            "types": [
+                "Q22698"
+            ],
+            "score": 88
+        },
+        "shareNewTopics": false,
+        "description": "Match item Rosaleda Gardens (Q16626568) for cells containing \"Rosaleda de Madrid. Parque del Oeste\" in column NOMBRE"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "NOMBRE",
+                    "columnName": "NOMBRE",
+                    "query": "rosaleda",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_URL",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "rosaleda_de_madrid_parque_del_oeste"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Q16626568"
+            }
+        ],
+        "description": "Mass edit cells in column name_URL"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "NOMBRE",
+                    "columnName": "NOMBRE",
+                    "query": "lineal",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Parque Lineal del Manzanares (Usera - Pte de Vallecas)",
+        "judgment": "matched",
+        "match": {
+            "id": "Q6062319",
+            "name": "Manzanares Park",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Manzanares Park (Q6062319) for cells containing \"Parque Lineal del Manzanares (Usera - Pte de Vallecas)\" in column NOMBRE"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "list",
+                    "name": "NOMBRE: judgment",
+                    "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+                    "columnName": "NOMBRE",
+                    "invert": false,
+                    "omitBlank": false,
+                    "omitError": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "matched",
+                                "l": "matched"
+                            }
+                        },
+                        {
+                            "v": {
+                                "v": "none",
+                                "l": "none"
+                            }
+                        }
+                    ],
+                    "selectBlank": false,
+                    "selectError": false
+                },
+                {
+                    "type": "text",
+                    "name": "NOMBRE",
+                    "columnName": "NOMBRE",
+                    "query": "lineal",
+                    "mode": "text",
+                    "caseSensitive": false,
+                    "invert": false
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "name_URL",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    "parque_lineal_del_manzanares_(usera_-_pte_de_vallecas)"
+                ],
+                "fromBlank": false,
+                "fromError": false,
+                "to": "Q6062319"
+            }
+        ],
+        "description": "Mass edit cells in column name_URL"
+    }
 ]
