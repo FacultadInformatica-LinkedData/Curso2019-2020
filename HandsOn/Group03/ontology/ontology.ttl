@@ -42,7 +42,7 @@ rdf:type rdf:type rdfs:Datatype .
 ###  http://waterCH.es/Group03/ontology#inService
 :inService rdf:type owl:DatatypeProperty ;
              rdfs:domain :Fountain ;
-             rdfs:range xsd:boolean .
+             rdfs:range xsd:string .
 
 
 ###  http://waterCH.es/Group03/ontology#hasDate
@@ -55,18 +55,18 @@ rdf:type rdf:type rdfs:Datatype .
 ###  http://waterCH.es/Group03/ontology#district 
 :district  rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Location ;
-                    rdfs:range rdfs:Literal .
+                    rdfs:range xsd:string .
                     
 ###  http://waterCH.es/Group03/ontology#hasLongitude
 :hasLongitude rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Location ;
-                    rdfs:range xsd:decimal .
+                    rdfs:range xsd:double .
 
 
 ###  http://waterCH.es/Group03/ontology#hasLatitude         
 :hasLatitude rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Location ;
-                    rdfs:range xsd:decimal .
+                    rdfs:range xsd:double .
 
 ### http://waterCH.es/Group03/ontology#address          
 :address rdf:type owl:DatatypeProperty ;
