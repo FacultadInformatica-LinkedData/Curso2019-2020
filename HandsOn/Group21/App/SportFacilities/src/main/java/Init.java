@@ -50,7 +50,7 @@ public class Init {
 		
 		case ("Equipamiento"): queryString.append("insta:hasEquipment"); break;
 		
-		case ("Localidad"): queryString.append("insta:hasLocality"); break;
+		case ("Localidad"): queryString.append("insta:locality"); break;
 		
 		case ("Barrio"): queryString.append("insta:neigborhood"); break;
 		
@@ -90,7 +90,7 @@ public class Init {
 		queryString.setNsPrefix("insta", "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#");
 		queryString.setNsPrefix("clase", "http://www.instalacionesDeportivasMunicipales.es/ontology#");
 		queryString.setNsPrefix("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
-		queryString.append("SELECT ?properties WHERE{ ?x insta:name ");
+		queryString.append("SELECT ?y ?properties WHERE{ ?x insta:name ");
 		queryString.appendLiteral(resourceName);
 		queryString.append(" . ?x ?y ?properties}");
 		

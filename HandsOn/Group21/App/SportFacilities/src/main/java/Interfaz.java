@@ -50,9 +50,16 @@ public class Interfaz extends javax.swing.JFrame {
         jRadioButtonCalle = new javax.swing.JRadioButton();
         jRadioButtonDiponibilidad = new javax.swing.JRadioButton();
         jRadioButtonTransporte = new javax.swing.JRadioButton();
+        jButtonObtenerRecursos = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMinimumSize(new java.awt.Dimension(650, 500));
         setUndecorated(true);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowActivated(java.awt.event.WindowEvent evt) {
+                formWindowActivated(evt);
+            }
+        });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButtonBuscar.setBackground(new java.awt.Color(0, 204, 204));
@@ -75,7 +82,7 @@ public class Interfaz extends javax.swing.JFrame {
 
         jLabelTitulo.setFont(new java.awt.Font("Stencil", 3, 36)); // NOI18N
         jLabelTitulo.setText("Sport Facilities ");
-        getContentPane().add(jLabelTitulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 20, 340, 60));
+        getContentPane().add(jLabelTitulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 20, 480, 60));
 
         jLabelSelecciona.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabelSelecciona.setText("Por favor seleccione una opcion:");
@@ -95,7 +102,7 @@ public class Interfaz extends javax.swing.JFrame {
                 jButtonResetActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 510, 150, 40));
+        getContentPane().add(jButtonReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 510, 150, 40));
 
         jRadioButtonDistrito.setText("Distrito");
         jRadioButtonDistrito.addActionListener(new java.awt.event.ActionListener() {
@@ -105,7 +112,12 @@ public class Interfaz extends javax.swing.JFrame {
         });
         getContentPane().add(jRadioButtonDistrito, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, 130, 30));
 
-        jRadioButtonEquipamiento.setText("Equipamiento");
+        jRadioButtonEquipamiento.setText("Deporte");
+        jRadioButtonEquipamiento.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButtonEquipamientoActionPerformed(evt);
+            }
+        });
         getContentPane().add(jRadioButtonEquipamiento, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 230, -1, -1));
 
         jRadioButtonLocalidad.setText("Localidad");
@@ -133,6 +145,16 @@ public class Interfaz extends javax.swing.JFrame {
 
         jRadioButtonTransporte.setText("Transporte");
         getContentPane().add(jRadioButtonTransporte, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 260, -1, -1));
+
+        jButtonObtenerRecursos.setBackground(new java.awt.Color(0, 204, 204));
+        jButtonObtenerRecursos.setText("Obtener recursos");
+        jButtonObtenerRecursos.setPreferredSize(new java.awt.Dimension(63, 21));
+        jButtonObtenerRecursos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonObtenerRecursosActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButtonObtenerRecursos, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 100, 130, 40));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -194,6 +216,7 @@ public class Interfaz extends javax.swing.JFrame {
         this.jRadioButtonLocalidad.setSelected(false);
         this.jRadioButtonProvincia.setSelected(false);
         this.jRadioButtonTransporte.setSelected(false);
+        
        
     }//GEN-LAST:event_jButtonResetActionPerformed
 
@@ -204,6 +227,30 @@ public class Interfaz extends javax.swing.JFrame {
     private void jRadioButtonCodigoPostalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonCodigoPostalActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jRadioButtonCodigoPostalActionPerformed
+
+    private void jRadioButtonEquipamientoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonEquipamientoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadioButtonEquipamientoActionPerformed
+
+    private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
+        
+        this.buttonGroupSeleccionados.add(jRadioButtonProvincia);
+        this.buttonGroupSeleccionados.add(jRadioButtonBarrio);
+        this.buttonGroupSeleccionados.add(jRadioButtonCalle);
+        this.buttonGroupSeleccionados.add(jRadioButtonCodigoPostal);
+        this.buttonGroupSeleccionados.add(jRadioButtonDiponibilidad);
+        this.buttonGroupSeleccionados.add(jRadioButtonDistrito);
+        this.buttonGroupSeleccionados.add(jRadioButtonEquipamiento);
+        this.buttonGroupSeleccionados.add(jRadioButtonLocalidad);
+        this.buttonGroupSeleccionados.add(jRadioButtonDiponibilidad);
+    }//GEN-LAST:event_formWindowActivated
+
+    private void jButtonObtenerRecursosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonObtenerRecursosActionPerformed
+       Resultado2 res= new Resultado2();
+       
+       res.setVisible(true);
+       this.dispose();
+    }//GEN-LAST:event_jButtonObtenerRecursosActionPerformed
 
     /**
      * @param args the command line arguments
@@ -244,6 +291,7 @@ public class Interfaz extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroupSeleccionados;
     private javax.swing.JButton jButtonBuscar;
+    private javax.swing.JButton jButtonObtenerRecursos;
     private javax.swing.JButton jButtonReset;
     private javax.swing.JButton jButtonSalir;
     private javax.swing.JLabel jLabelSelecciona;
