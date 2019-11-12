@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Spanish Libraries - Spanish Libraries Around The World</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="./img/core-img/favicon.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+
+  <style>
+    #mapid {
+      height: 400px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- **** Header Area Start **** -->
+  <header class="header-area">
+    <!-- Top Header Area Start -->
+    <div class="top-header-area">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-6">
+            <div class="top-header-content">
+              <a href="#"><i class="icon_mail"></i> <span>info.spanishlibs@gmail.com</span></a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="top-header-content">
+              <!-- Top Social Area -->
+              <div class="top-social-area ml-auto">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Header Area End -->
+
+    <!-- Main Header Start -->
+    <div class="main-header-area animated">
+      <div class="classy-nav-container breakpoint-off">
+        <div class="container">
+          <!-- Classy Menu -->
+          <nav class="classy-navbar justify-content-between" id="rehomesNav">
+
+            <!-- Logo -->
+            <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" alt=""></a>
+
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler">
+              <span class="navbarToggler"><span></span><span></span><span></span></span>
+            </div>
+
+            <!-- Menu -->
+            <div class="classy-menu">
+              <!-- Menu Close Button -->
+              <div class="classycloseIcon">
+                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+              </div>
+              <!-- Nav Start -->
+              <div class="classynav">
+                <ul id="nav">
+                  <li class="active"><a href="./index.html">Home</a></li>
+                </ul>
+
+              </div>
+              <!-- Nav End -->
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- **** Header Area End **** -->
+
+  <div id="mapid"></div>
+
+  <!-- **** Location Search Form Area **** -->
+  <div class="rehomes-search-form-area wow fadeInUp" data-wow-delay="200ms">
+    <div class="container">
+      <div class="rehomes-search-form">
+        <form class="form-inline" action="#" method="post">
+          <div class="row">
+            <div class="col-12 col-lg-10">
+              <div class="row">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="pais" placeholder="Introduzca un país...">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="ciudad" placeholder="Introduzca una ciudad...">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="autor" placeholder="Introduzca un autor...">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="idioma" placeholder="Introduzca un idioma...">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <select name="movimiento" id="movimiento" class="form-control">
+                    <option value="movimiento">Movimiento Literario</option>
+                    <option value="dadaismo">Dadaismo</option>
+                    <option value="romanticismo">Romanticismo</option>
+                    <option value="existencialismo">Existencialismo</option>
+                    <option value="naturalismo">Naturalismo</option>
+                    <option value="realismo">Realismo</option>
+                    <option value="modernismo">Modernismo</option>
+                    <option value="generacion98">Generacion del 98</option>
+                    <option value="simbolismo">Simbolismo</option>
+                    <option value="renacimiento">Renacimiento</option>
+                    <option value="barroco">Barroco</option>
+                    <option value="clasicismo">Clasicismo</option>
+                    <option value="siglodeoro">Siglo de Oro</option>
+                    <option value="generacion27">Generacion del 27</option>
+                  </select>
+                </div>
+                <!--
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Scrollable Menu <span class="caret"></span></button>
+                  <ul class="dropdown-menu scrollable-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                  </ul>
+                </div>
+              -->
+              </div>
+            </div>
+            <div class="col-12 col-sm-2">
+              <button id="searchbtn" action="" type="submit" onclick="searchFunction()" class="btn rehomes-search-btn">Search</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- **** Location Search Form Area **** -->
+
+  <!-- **** Resultados de Busqueda **** -->
+
+
+
+  <!-- **** Footer Area Start **** -->
+
+  <footer class="footer-area bg-img bg-overlay-2 section-padding-100-0" style="background-image: url(img/bg-img/17.jpg);">
+    <!-- Main Footer Area -->
+    <div class="main-footer-area">
+      <div class="container">
+        <div class="row justify-content-between">
+
+          <!-- Footer Widget Area -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-footer-widget mb-80">
+              <!-- Footer Logo -->
+              <a href="#" class="footer-logo"><img src="img/core-img/logo.png" alt=""></a>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <!-- Social Info -->
+              <div class="social-info">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer Widget Area -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-footer-widget mb-80">
+              <!-- Widget Title -->
+              <h5 class="widget-title">Get info</h5>
+
+              <!-- Contact Area -->
+              <div class="footer-contact">
+                <p>Phone: <span>(12) 345 6789</span></p>
+                <p>Email: <span>info.spanishlibs@gmail.com</span></p>
+                <p>Address: <span>Universidad Politécnica de Madrid, Campus de Montegancedo</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer Widget Area -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-footer-widget mb-80">
+              <!-- Widget Title -->
+              <h5 class="widget-title">Property Cities</h5>
+
+              <!-- Footer Nav -->
+              <ul class="footer-nav d-flex flex-wrap">
+                <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Madrid</a></li>
+                <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Londres</a></li>
+                <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Dublin</a></li>
+                <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Viena</a></li>
+                <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Manchester</a></li>
+                <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> New York</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Footer Widget Area -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-footer-widget mb-80">
+              <!-- Widget Title -->
+              <h5 class="widget-title">Newsletter</h5>
+
+              <p>Subscribe our newsletter gor get notification about new updates, count, etc.</p>
+              <!-- Newsletter Form -->
+              <form action="index.html" class="nl-form">
+                <input type="email" name="nl-email" class="form-control" placeholder="Enter your email...">
+                <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copywrite Area -->
+    <div class="copywrite-content">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Copywrite Text -->
+          <div class="col-12 col-sm-6">
+            <div class="copywrite-text">
+              <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script> All rights reserved | We used this template developed by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+            </div>
+          </div>
+
+          <!-- Footer Menu -->
+          <div class="col-12 col-sm-6">
+            <div class="footer-menu">
+              <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Properties</a></li>
+                <li><a href="#">Agents</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- **** Footer Area End **** -->
+
+  <!-- **** All JS Files ***** -->
+  <!-- jQuery 2.2.4 -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Popper -->
+  <script src="js/popper.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- All Plugins -->
+  <script src="js/rehomes.bundle.js"></script>
+  <!-- Active -->
+  <script src="js/default-assets/active.js"></script>
+  <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin="">
+  </script>
+
+  <script>
+    var mymap = L.map('mapid').setView([47.7260825, 11.2824843], 4);
+
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+      maxZoom: 18,
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+        '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+        'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      id: 'mapbox.streets'
+    }).addTo(mymap);
+
+    var marker = L.marker([51.5131396, -0.115035]).addTo(mymap);
+    var marker = L.marker([53.4760037, -2.253296]).addTo(mymap);
+    var marker = L.marker([53.342006, -6.2535949]).addTo(mymap);
+
+  </script>
+
+  <script>
+
+    function searchFunction() {
+      var searchAPI = "http://127.0.0.1:5000/api/consulta/";
+      var url = new URL("http://127.0.0.1:5000/api/consulta/?");
+
+        var pais_input = document.getElementById("pais").value;
+        var ciudad_input = document.getElementById("ciudad").value;
+        var idioma_input = document.getElementById("idioma").value;
+        var autor_input = document.getElementById("autor").value;
+        var movimiento_input = document.getElementById("movimiento").value;
+
+        if (pais_input != '') {
+          url.searchParams.set('pais', pais_input);
+        }
+        if (ciudad_input != '') {
+          url.searchParams.append('ciudad', ciudad_input);
+        }
+        if (idioma_input != '') {
+          url.searchParams.append('idioma', idioma_input);
+        }
+        if (autor_input != '') {
+          url.searchParams.append('autor', autor_input);
+        }
+        if (movimiento_input != 'movimiento') {
+          url.searchParams.append('movimiento', movimiento_input);
+        }
+
+        url = encodeURIComponent(url);
+
+      $.get(url, function(data) {
+        obj = JSON.parse(data);
+        alert("BIblioteca: " + data[1]);
+      });
+    }
+  </script>
+
+
+
+
+</body>
+
+</html>

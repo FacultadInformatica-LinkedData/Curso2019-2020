@@ -1,0 +1,620 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix biblio: <http://www.spanishlibraries.es/group09/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.spanishlibraries.es/group09/resource/4.1000101E7> a biblio:Biblioteca ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:institucion "Instituto Cervantes" ;
+	biblio:direccion "15-19 Devereux Court" ;
+	biblio:codigo_postal "WC2R 3JJ" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Londres" ;
+	biblio:Pais "Reino Unido" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q84> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q145> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/0> .
+
+<http://www.spanishlibraries.es/group09/resource/4.1000201E7> biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:institucion "Instituto Cervantes" ;
+	biblio:direccion "326/330 Deansgate, Campfield Avenue Arcade" ;
+	biblio:codigo_postal "M3 4FN Manchester" ;
+	a biblio:Biblioteca ;
+	biblio:horario "Lunes a jueves de 10-14 y de 14:30 a 18, viernes de 12:30-15, sábados de 10-14. Domingos cerrado" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Mánchester" ;
+	biblio:Pais "Reino Unido" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q18125> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q145> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/1> .
+
+<http://www.spanishlibraries.es/group09/resource/4.1700101E7> a biblio:Biblioteca ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:institucion "Instituto Cervantes" ;
+	biblio:direccion "Lincoln House, Lincoln Place" ;
+	biblio:codigo_postal "2" ;
+	biblio:horario "Lunes-jueves de 11-20, Viernes de 10-14" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Dublín" ;
+	biblio:Pais "Irlanda" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q1761> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q22890> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/2> .
+
+<http://www.spanishlibraries.es/group09/resource/4.3000101E7> biblio:codigo_postal "8000" ;
+	a biblio:Biblioteca ;
+	biblio:institucion "Instituto Cervantes" ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:direccion "Alfons-Goppel-Straße 7" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Munich" ;
+	biblio:Pais "Alemania, República Federal de" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q1726> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q183> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/3> .
+
+<http://www.spanishlibraries.es/group09/resource/4.3600101E7> biblio:institucion "Instituto Cervantes" ;
+	a biblio:Biblioteca ;
+	biblio:direccion "Schwarzenbergplatz 2" ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:codigo_postal "A 1010" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Viena" ;
+	biblio:Pais "Austria" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q40> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/4> .
+
+<http://www.spanishlibraries.es/group09/resource/4.4000101E7> a biblio:Biblioteca ;
+	biblio:direccion "57 Cours de L'Intendence" ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:institucion "Instituto Cervantes" ;
+	biblio:codigo_postal "33000" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Burdeos" ;
+	biblio:Pais "Francia" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q1479> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q142> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/5> .
+
+<http://www.spanishlibraries.es/group09/resource/4.4000201E7> biblio:tipo_acceso "Acceso libre" ;
+	biblio:horario "Lunes-viernes de 10-18, Agosto cerrado" ;
+	biblio:direccion "7 Quentin Bauchart" ;
+	biblio:nombre "Instituto Cervantes. Biblioteca Española Octavio Paz" ;
+	biblio:institucion "Instituto Cervantes" ;
+	a biblio:Biblioteca ;
+	biblio:codigo_postal "75008" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "París" ;
+	biblio:Pais "Francia" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q90> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q142> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/6> .
+
+<http://www.spanishlibraries.es/group09/resource/4.4000202E7> a biblio:Biblioteca ;
+	biblio:nombre "Colegio de España" ;
+	biblio:institucion "Colegio de España" ;
+	biblio:direccion "7E Bd Jourdan" ;
+	biblio:codigo_postal "75014" ;
+	biblio:horario "Lunes, martes y jueves de 12-20, Miércoles y viernes de 10-13 y de 14-20, Sábado de 14-19'30, Navidad y Agosto cerrado" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "París" ;
+	biblio:Pais "Francia" ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q90> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q142> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/7> .
+
+<http://www.spanishlibraries.es/group09/resource/4.4000301E7> biblio:institucion "Instituto Cervantes" ;
+	a biblio:Biblioteca ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:direccion "31 Rue des Chalets" ;
+	biblio:codigo_postal "31000" ;
+	biblio:fecha_fundacion "1996"^^xsd:int ;
+	biblio:horario "Lunes-viernes de 10'30-12'30 y de 14-18'30" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "General/Pública" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Toulouse" ;
+	biblio:Pais "Francia" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q7880> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q142> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/8> .
+
+<http://www.spanishlibraries.es/group09/resource/4.5000101E7> a biblio:Biblioteca ;
+	biblio:institucion "Instituto Cervantes" ;
+	biblio:codigo_postal "20121" ;
+	biblio:direccion "Via Dante 12" ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Milán" ;
+	biblio:Pais "Italia" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q38> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/9> .
+
+<http://www.spanishlibraries.es/group09/resource/4.5000201E7> a biblio:Biblioteca ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:institucion "Instituto Cervantes" ;
+	biblio:direccion "Via Nazario Sauro 23" ;
+	biblio:codigo_postal "80132" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Nápoles" ;
+	biblio:Pais "Italia" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q2634> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q38> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/10> .
+
+<http://www.spanishlibraries.es/group09/resource/4.5000301E7> biblio:direccion "Via de Villa Albani 16" ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:codigo_postal "00198" ;
+	a biblio:Biblioteca ;
+	biblio:institucion "Instituto Cervantes" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Roma" ;
+	biblio:Pais "Italia" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q38> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/11> .
+
+<http://www.spanishlibraries.es/group09/resource/4.5000302E7> biblio:institucion "Consejo Superior de Investigaciones Científicas. CSIC" ;
+	biblio:nombre "Escuela Española de Historia y Arqueología en Roma. Biblioteca" ;
+	a biblio:Biblioteca ;
+	biblio:direccion "Via di Sant'Eufemia 13" ;
+	biblio:codigo_postal "00187" ;
+	biblio:horario "Lunes-viernes de 9-14'30. Agosto cerrado" ;
+	biblio:tipo_acceso "Acceso restringido" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Roma" ;
+	biblio:Pais "Italia" ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q38> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/12> .
+
+<http://www.spanishlibraries.es/group09/resource/4.6900101E7> biblio:codigo_postal "1169-119" ;
+	biblio:institucion "Instituto Cervantes" ;
+	a biblio:Biblioteca ;
+	biblio:direccion "Rua Santa Marta 43 F" ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Lisboa" ;
+	biblio:Pais "Portugal" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q597> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q45> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/13> .
+
+<http://www.spanishlibraries.es/group09/resource/4.7000101E7> biblio:direccion "Novinski Boulevard 20ª bl. 1-2" ;
+	biblio:codigo_postal "121069" ;
+	a biblio:Biblioteca ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:institucion "Instituto Cervantes" ;
+	biblio:horario "Lunes y jueves de 11-14 y de 15-19, sábados de 12-18. Martes, miércoles, viernes y domingos cerrado (abierta los últimos viernes de cada mes de 11-14 y 15-19)" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Moscú" ;
+	biblio:Pais "Rusia, Federación de" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q649> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q159> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/14> .
+
+<http://www.spanishlibraries.es/group09/resource/4.9200101E7> a biblio:Biblioteca ;
+	biblio:institucion "Instituto Cervantes" ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:direccion "Domplein 3" ;
+	biblio:codigo_postal "3512 JC" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Utrecht" ;
+	biblio:Pais "Países Bajos" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q39297398> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q55> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/15> .
+
+<http://www.spanishlibraries.es/group09/resource/4.9500101E7> biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	a biblio:Biblioteca ;
+	biblio:codigo_postal "10673" ;
+	biblio:institucion "Instituto Cervantes" ;
+	biblio:direccion "Skoufa 31" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Atenas" ;
+	biblio:Pais "Grecia" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q41> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/16> .
+
+<http://www.spanishlibraries.es/group09/resource/4.9800101E7> biblio:institucion "Instituto Cervantes" ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	a biblio:Biblioteca ;
+	biblio:direccion "Bd. Regina Elisabeta 38" ;
+	biblio:codigo_postal "050017" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Bucarest" ;
+	biblio:Pais "Rumanía" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q19660> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q218> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/17> .
+
+<http://www.spanishlibraries.es/group09/resource/5.1000101E7> biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	a biblio:Biblioteca ;
+	biblio:direccion "A1 Gongti Nanlu, 2ª Planta" ;
+	biblio:codigo_postal "100020" ;
+	biblio:fecha_fundacion "2007"^^xsd:int ;
+	biblio:horario "Martes a sábado: 10:30-18. Domingo y lunes: cerrado" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Pekín" ;
+	biblio:Pais "China" ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q29520> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/18> .
+
+<http://www.spanishlibraries.es/group09/resource/5.6930101E7> biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Pais "Líbano" ;
+	biblio:Municipio "Beirut" ;
+	a biblio:Biblioteca ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:institucion "Instituto Cervantes" ;
+	biblio:direccion "Bechara El Khoury C/ Nassif Yazigi" ;
+	biblio:codigo_postal "BDD 1075" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q3820> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q822> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/19> .
+
+<http://www.spanishlibraries.es/group09/resource/5.6950101E7> biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	a biblio:Biblioteca ;
+	biblio:institucion "Instituto Cervantes" ;
+	biblio:direccion "Mohammad Hafiz Maat 10" ;
+	biblio:codigo_postal "81546" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Amán" ;
+	biblio:Pais "Jordania" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q3805> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q810> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/20> .
+
+<http://www.spanishlibraries.es/group09/resource/5.9900101E7> biblio:institucion "Instituto Cervantes" ;
+	a biblio:Biblioteca ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:direccion "Ayala Triangle, Ayala Avenue. Makati City. Unit D G/F, Tower One & Exchange Plaza" ;
+	biblio:codigo_postal "1226" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Manila" ;
+	biblio:Pais "Filipinas" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q928> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/21> .
+
+<http://www.spanishlibraries.es/group09/resource/6.1100101E7> biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	a biblio:Biblioteca ;
+	biblio:institucion "Instituto Cervantes. Biblioteca" ;
+	biblio:direccion "120 Avn. de la Libertè" ;
+	biblio:codigo_postal "1002" ;
+	biblio:fecha_fundacion "1944"^^xsd:int ;
+	biblio:horario "Lunes-viernes de 10-18" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Túnez" ;
+	biblio:Pais "Túnez" ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q3572> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q948> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/22> .
+
+<http://www.spanishlibraries.es/group09/resource/6.2000101E7> biblio:direccion "101 Avn. El Horreya" ;
+	biblio:institucion "Instituto Cervantes" ;
+	a biblio:Biblioteca ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:codigo_postal "31515" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Alejandría" ;
+	biblio:Pais "Egipto" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q1014285> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q79> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/23> .
+
+<http://www.spanishlibraries.es/group09/resource/6.2000201E7> biblio:institucion "Instituto Cervantes" ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	a biblio:Biblioteca ;
+	biblio:direccion "20 Boulos Hanna St. (Dokki)" ;
+	biblio:codigo_postal "31515" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "El Cairo" ;
+	biblio:Pais "Egipto" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q85> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q79> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/24> .
+
+<http://www.spanishlibraries.es/group09/resource/6.4000101E7> a biblio:Biblioteca ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:institucion "Instituto Cervantes" ;
+	biblio:direccion "31 Rue d'Alger" ;
+	biblio:codigo_postal "21000" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Casablanca" ;
+	biblio:Pais "Marruecos" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q1028> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/25> .
+
+<http://www.spanishlibraries.es/group09/resource/6.4000201E7> a biblio:Biblioteca ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:institucion "Instituto Cervantes" ;
+	biblio:direccion "5 Rue Douiat. Résidence Walili" ;
+	biblio:codigo_postal "30 000" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Fez" ;
+	biblio:Pais "Marruecos" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q80985> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q1028> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/26> .
+
+<http://www.spanishlibraries.es/group09/resource/6.4000301E7> biblio:institucion "Instituto Cervantes" ;
+	a biblio:Biblioteca ;
+	biblio:direccion "5 Rue Zankat Madnine" ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:codigo_postal "10000" ;
+	biblio:fecha_fundacion "1965"^^xsd:int ;
+	biblio:horario "Martes-viernes de 8'30-13 y de 15-17'30, Sábados de 9-13" ;
+	biblio:tipo_acceso "Acceso restringido" ;
+	biblio:notas_acceso "con carnet de la biblioteca" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Rabat" ;
+	biblio:Pais "Marruecos" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q1028> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/27> .
+
+<http://www.spanishlibraries.es/group09/resource/6.4000401E7> biblio:direccion "Av. Sidi Mohamed Ben Abdellah 99" ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:institucion "Instituto Cervantes" ;
+	a biblio:Biblioteca ;
+	biblio:codigo_postal "90010" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Tánger" ;
+	biblio:Pais "Marruecos" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q126148> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q1028> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/28> .
+
+<http://www.spanishlibraries.es/group09/resource/6.4000501E7> biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:institucion "Instituto Cervantes" ;
+	a biblio:Biblioteca ;
+	biblio:direccion "Mohamed Torres 3" ;
+	biblio:codigo_postal "93000" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Tetuán" ;
+	biblio:Pais "Marruecos" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q185157> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q1028> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/29> .
+
+<http://www.spanishlibraries.es/group09/resource/6.5000101E7> biblio:institucion "Instituto Cervantes" ;
+	biblio:direccion "9 Rue Rhelifa Boukhalfa" ;
+	a biblio:Biblioteca ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	biblio:codigo_postal "16000" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Argel" ;
+	biblio:Pais "Argelia" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q3561> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q262> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/30> .
+
+<http://www.spanishlibraries.es/group09/resource/7.4700101E7> biblio:institucion "Instituto Cervantes" ;
+	biblio:nombre "Instituto Cervantes. Biblioteca" ;
+	a biblio:Biblioteca ;
+	biblio:direccion "211 East 49th Street" ;
+	biblio:codigo_postal "NY 10017" ;
+	biblio:fecha_fundacion "1994"^^xsd:int ;
+	biblio:horario "Martes-jueves de 12-19'30, Viernes de 12-17'30, Sábados de 9'45-13'45" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Nueva York" ;
+	biblio:Pais "Estados Unidos" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q165715> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q60> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q30> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/31> .
+
+<http://www.spanishlibraries.es/group09/resource/10010078> biblio:nombre "Biblioteca Pública Municipal Ernestina de Chapourcin" ;
+	a biblio:Biblioteca ;
+	biblio:institucion "Ayuntamiento de Alegria-Dulantzi" ;
+	biblio:direccion "Herriko Enparantza 2" ;
+	biblio:codigo_postal "01240" ;
+	biblio:fecha_fundacion "2005"^^xsd:int ;
+	biblio:horario "Lunes-viernes de 16'30-20'30, sábados de 11-13'30" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "General/Pública" ;
+	biblio:tipo_dependencia "Administración local municipal" ;
+	biblio:Municipio "Alegría-Dulantzi" ;
+	biblio:Provincia "Álava" ;
+	biblio:Comunidad_Autonoma "País Vasco" ;
+	biblio:Pais "España" ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q29> ;
+	biblio:Provincia_wikidata <https://www.wikidata.org/wiki/Q81801> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/32> .
+
+	<http://www.spanishlibraries.es/group09/resource/280051694> biblio:direccion "Entrepeñas 6" ;
+	biblio:codigo_postal "28803" ;
+	biblio:nombre "Biblioteca Pública Municipal Rafael Alberti" ;
+	biblio:fecha_fundacion "1990"^^xsd:int ;
+	a biblio:Biblioteca ;
+	biblio:institucion "Ayuntamiento de Alcalá de Henares" ;
+	biblio:horario "Lunes-viernes de 14'30-21'25" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:tipo_biblioteca "General/Pública" ;
+	biblio:tipo_dependencia "Administración local municipal" ;
+	biblio:Municipio "Alcalá de Henares" ;
+	biblio:Provincia "Madrid" ;
+	biblio:Comunidad_Autonoma "Madrid" ;
+	biblio:Pais "España" ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q46940> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q29> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/5418> .
+
+<http://www.spanishlibraries.es/group09/resource/280051759> biblio:institucion "Biblioteca Nacional de España" ;
+	a biblio:Biblioteca ;
+	biblio:nombre "Biblioteca Nacional de España. Sede en Alcalá de Henares" ;
+	biblio:direccion "Carretera de Alcala a Meco Km 1'600. Campus Universitario" ;
+	biblio:codigo_postal "28871" ;
+	biblio:fecha_fundacion "2004"^^xsd:int ;
+	biblio:horario "Lunes-viernes de 9-14" ;
+	biblio:tipo_acceso "Acceso restringido" ;
+	biblio:notas_acceso "con carnet de lector o investigador" ;
+	biblio:tipo_biblioteca "Nacional/Regional CC.AA." ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Alcalá de Henares" ;
+	biblio:Provincia "Madrid" ;
+	biblio:Comunidad_Autonoma "Madrid" ;
+	biblio:Pais "España" ;
+	biblio:institucion_wikidata <https://www.wikidata.org/wiki/Q750403> ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q46940> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q29> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/5419> .
+
+<http://www.spanishlibraries.es/group09/resource/280051761> biblio:horario "Lunes-viernes de 8'30-20'45" ;
+	biblio:codigo_postal "28871" ;
+	biblio:fecha_fundacion "1977"^^xsd:int ;
+	a biblio:Biblioteca ;
+	biblio:nombre "Universidad de Alcalá de Henares. Biblioteca de Farmacia" ;
+	biblio:tipo_acceso "Acceso libre" ;
+	biblio:institucion "Universidad de Alcalá de Henares" ;
+	biblio:direccion "Ctra. de Barcelona Km. 33'600. Campus Universitario. Facultad de Farmacia" ;
+	biblio:tipo_biblioteca "Universitaria" ;
+	biblio:tipo_dependencia "Administración autonómica" ;
+	biblio:Municipio "Alcalá de Henares" ;
+	biblio:Provincia "Madrid" ;
+	biblio:Comunidad_Autonoma "Madrid" ;
+	biblio:Pais "España" ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q46940> ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q29> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/5420> .
+	
+<http://www.spanishlibraries.es/group09/resource/280790065> biblio:institucion "Cámara Oficial de Comercio, Industria y Servicios de Madrid" ;
+	biblio:nombre "Cámara Oficial de Comercio, Industria y Servicios de Madrid. Biblioteca" ;
+	a biblio:Biblioteca ;
+	biblio:direccion "Pedro Salinas 11" ;
+	biblio:codigo_postal "28043" ;
+	biblio:fecha_fundacion "1887"^^xsd:int ;
+	biblio:horario "Lunes-viernes de 8-14 y lunes-jueves de 15-20" ;
+	biblio:tipo_acceso "Acceso restringido" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Otros" ;
+	biblio:Municipio "Madrid" ;
+	biblio:Provincia "Madrid" ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q2807> ;
+	biblio:Comunidad_Autonoma "Madrid" ;
+	biblio:Pais "España" ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q29> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/5640> .
+
+<http://www.spanishlibraries.es/group09/resource/280790066> biblio:direccion "Santa Isabel 51" ;
+	a biblio:Biblioteca ;
+	biblio:institucion "Ilustre Colegio Oficial de Médicos" ;
+	biblio:nombre "Ilustre Colegio Oficial de Médicos" ;
+	biblio:codigo_postal "28012" ;
+	biblio:fecha_fundacion "1930"^^xsd:int ;
+	biblio:horario "Lunes-viernes de 8-21. Verano: de junio-septiembre de 8-14" ;
+	biblio:tipo_acceso "Acceso restringido" ;
+	biblio:notas_acceso "para colegiados e investigadores acreditados" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Entidad privada" ;
+	biblio:Municipio "Madrid" ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q2807> ;
+	biblio:Provincia "Madrid" ;
+	biblio:Comunidad_Autonoma "Madrid" ;
+	biblio:Pais "España" ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q29> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/5641> .
+
+<http://www.spanishlibraries.es/group09/resource/280790068> a biblio:Biblioteca ;
+	biblio:nombre "Ministerio de Agricultura y Pesca, Alimentación y Medio Ambiente. Secretaría General de Pesca. Biblioteca" ;
+	biblio:institucion "Ministerio de Agricultura y Pesca, Alimentación y Medio Ambiente" ;
+	biblio:direccion "Velázquez 144" ;
+	biblio:codigo_postal "28071" ;
+	biblio:fecha_fundacion "1984"^^xsd:int ;
+	biblio:horario "Lunes-viernes de 9-14 (previa cita). Cerrado del 1 de Agosto al 15 de Septiembre" ;
+	biblio:tipo_acceso "Acceso restringido" ;
+	biblio:notas_acceso "para profesionales del sector pesquero e investigadores" ;
+	biblio:tipo_biblioteca "Especializada" ;
+	biblio:tipo_dependencia "Administración pública central" ;
+	biblio:Municipio "Madrid" ;
+	biblio:Municipio_wikidata <https://www.wikidata.org/wiki/Q2807> ;
+	biblio:Provincia "Madrid" ;
+	biblio:Comunidad_Autonoma "Madrid" ;
+	biblio:Pais "España" ;
+	biblio:Pais_wikidata <https://www.wikidata.org/wiki/Q29> ;
+	biblio:Comunidad_wikidata <http://www.spanishlibraries.es/group09/resource/5642> .
