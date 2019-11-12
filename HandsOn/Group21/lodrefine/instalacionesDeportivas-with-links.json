@@ -1258,1787 +1258,87 @@
   {
     "op": "rdf-extension/save-rdf-schema",
     "schema": {
-      "prefixes": [
-        {
-          "name": "insta",
-          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        },
-        {
-          "name": "clase",
-          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#"
-        }
-      ],
-      "baseUri": "http://www.instalacionesDeportivasMunicipales.es/resource/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "PK",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#name",
-              "curie": "insta:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "PK",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasEquipment",
-              "curie": "insta:hasEquipment",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Nombre",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#transport",
-              "curie": "insta:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Equipamiento",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#instalacionesDeportivas",
-              "curie": "insta:instalacionesDeportivas"
-            }
-          ]
-        }
-      ]
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
     },
     "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
     "schema": {
-      "prefixes": [
-        {
-          "name": "insta",
-          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        },
-        {
-          "name": "clase",
-          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#"
-        }
-      ],
-      "baseUri": "http://www.instalacionesDeportivasMunicipales.es/resource/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "PK",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#name",
-              "curie": "insta:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Nombre",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasEquipment",
-              "curie": "insta:hasEquipment",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "deporte",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#transport",
-              "curie": "insta:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "estacion",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#accesibility",
-              "curie": "insta:accesibility",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Accesibilidad",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#urlContent",
-              "curie": "insta:urlContent",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Content-URL",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasRoadName",
-              "curie": "insta:hasRoadName",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Nombre-Vía",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#roadClass",
-              "curie": "insta:roadClass",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Clase-Vial",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#typeNum",
-              "curie": "insta:typeNum",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Tipo-Num",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#num",
-              "curie": "insta:num",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Num",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#orientation",
-              "curie": "insta:orientation",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Orientación",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#locality",
-              "curie": "insta:locality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Localidad",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasProvince",
-              "curie": "insta:hasProvince",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Provincia",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasPostalCode",
-              "curie": "insta:hasPostalCode",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Código-Postal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#neigborhood",
-              "curie": "insta:neigborhood",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Barrio",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasDistrict",
-              "curie": "insta:hasDistrict",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Distrito",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordenate_x",
-              "curie": "insta:coordenate_x",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Coordenadas-X",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordenate_y",
-              "curie": "insta:coordenate_y",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Coordenadas-Y",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#latitude",
-              "curie": "insta:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Latitud",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#longitude",
-              "curie": "insta:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Longitud",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#type",
-              "curie": "insta:type",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Tipo",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#instalacionesDeportivas",
-              "curie": "insta:instalacionesDeportivas"
-            }
-          ]
-        }
-      ]
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
     },
     "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
     "schema": {
-      "prefixes": [
-        {
-          "name": "insta",
-          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        },
-        {
-          "name": "clase",
-          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#"
-        }
-      ],
-      "baseUri": "http://www.instalacionesDeportivasMunicipales.es/resource/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "PK",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#name",
-              "curie": "insta:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Nombre",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasEquipment",
-              "curie": "insta:hasEquipment",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "deporte",
-                "expression": "\"Equipment/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#transport",
-              "curie": "insta:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "estacion",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#accesibility",
-              "curie": "insta:accesibility",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Accesibilidad",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#int",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#urlContent",
-              "curie": "insta:urlContent",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Content-URL",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasRoadName",
-              "curie": "insta:hasRoadName",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Nombre-Vía",
-                "expression": "\"RoadName/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#roadClass",
-              "curie": "insta:roadClass",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Clase-Vial",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#typeNum",
-              "curie": "insta:typeNum",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Tipo-Num",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#num",
-              "curie": "insta:num",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Num",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#orientation",
-              "curie": "insta:orientation",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Orientación",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#locality",
-              "curie": "insta:locality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Localidad",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasProvince",
-              "curie": "insta:hasProvince",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Provincia",
-                "expression": "\"Province/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasPostalCode",
-              "curie": "insta:hasPostalCode",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Código-Postal",
-                "expression": "\"PostalCode/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#neigborhood",
-              "curie": "insta:neigborhood",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Barrio",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasDistrict",
-              "curie": "insta:hasDistrict",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Distrito",
-                "expression": "\"District/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordenate_x",
-              "curie": "insta:coordenate_x",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Coordenadas-X",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#double",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordenate_y",
-              "curie": "insta:coordenate_y",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Coordenadas-Y",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#double",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#latitude",
-              "curie": "insta:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Latitud",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#longitude",
-              "curie": "insta:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Longitud",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#type",
-              "curie": "insta:type",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Tipo",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#instalacionesDeportivas",
-              "curie": "insta:instalacionesDeportivas"
-            }
-          ]
-        }
-      ]
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
     },
     "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
     "schema": {
-      "prefixes": [
-        {
-          "name": "insta",
-          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        },
-        {
-          "name": "clase",
-          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#"
-        }
-      ],
-      "baseUri": "http://www.instalacionesDeportivasMunicipales.es/resource/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "PK",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#name",
-              "curie": "insta:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Nombre",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasEquipment",
-              "curie": "insta:hasEquipment",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "deporte",
-                "expression": "\"Equipment/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#transport",
-              "curie": "insta:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "estacion",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#accesibility",
-              "curie": "insta:accesibility",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Accesibilidad",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#int",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#urlContent",
-              "curie": "insta:urlContent",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Content-URL",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasRoadName",
-              "curie": "insta:hasRoadName",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Nombre-Vía",
-                "expression": "\"RoadName/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#roadClass",
-              "curie": "insta:roadClass",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Clase-Vial",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#typeNum",
-              "curie": "insta:typeNum",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Tipo-Num",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#num",
-              "curie": "insta:num",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Num",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#orientation",
-              "curie": "insta:orientation",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Orientación",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#locality",
-              "curie": "insta:locality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Localidad",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasProvince",
-              "curie": "insta:hasProvince",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Provincia",
-                "expression": "\"Province/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasPostalCode",
-              "curie": "insta:hasPostalCode",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Código-Postal",
-                "expression": "\"PostalCode/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#neigborhood",
-              "curie": "insta:neigborhood",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Barrio",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasDistrict",
-              "curie": "insta:hasDistrict",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Distrito",
-                "expression": "\"District/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordenate_x",
-              "curie": "insta:coordenate_x",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Coordenadas-X",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#double",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordenate_y",
-              "curie": "insta:coordenate_y",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Coordenadas-Y",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#double",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#latitude",
-              "curie": "insta:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Latitud",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#longitude",
-              "curie": "insta:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Longitud",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#type",
-              "curie": "insta:type",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Tipo",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#instalacionesDeportivas",
-              "curie": "insta:instalacionesDeportivas"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "deporte",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "deporte",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#Equipment",
-              "curie": "clase:Equipment"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Nombre-Vía",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Nombre-Vía",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#RoadName",
-              "curie": "clase:RoadName"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Provincia",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Provincia",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#Province",
-              "curie": "clase:Province"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Código-Postal",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Código-Postal",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#int",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#PostalCode",
-              "curie": "clase:PostalCode"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Distrito",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Distrito",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#District",
-              "curie": "clase:District"
-            }
-          ]
-        }
-      ]
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
     },
     "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
     "schema": {
-      "prefixes": [
-        {
-          "name": "insta",
-          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        },
-        {
-          "name": "clase",
-          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#"
-        }
-      ],
-      "baseUri": "http://www.instalacionesDeportivasMunicipales.es/resource/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "PK",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#name",
-              "curie": "insta:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Nombre",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasEquipment",
-              "curie": "insta:hasEquipment",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "deporte",
-                "expression": "\"Equipment/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#transport",
-              "curie": "insta:transport",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "estacion",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#accesibility",
-              "curie": "insta:accesibility",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Accesibilidad",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#int",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#urlContent",
-              "curie": "insta:urlContent",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Content-URL",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasRoadName",
-              "curie": "insta:hasRoadName",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Nombre-Vía",
-                "expression": "\"RoadName/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#roadClass",
-              "curie": "insta:roadClass",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Clase-Vial",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#typeNum",
-              "curie": "insta:typeNum",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Tipo-Num",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#num",
-              "curie": "insta:num",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Num",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#orientation",
-              "curie": "insta:orientation",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Orientación",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#locality",
-              "curie": "insta:locality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Localidad",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasProvince",
-              "curie": "insta:hasProvince",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Provincia",
-                "expression": "\"Province/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasPostalCode",
-              "curie": "insta:hasPostalCode",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Código-Postal",
-                "expression": "\"PostalCode/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#neigborhood",
-              "curie": "insta:neigborhood",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Barrio",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasDistrict",
-              "curie": "insta:hasDistrict",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Distrito",
-                "expression": "\"District/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordenate_x",
-              "curie": "insta:coordenate_x",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Coordenadas-X",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#double",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordenate_y",
-              "curie": "insta:coordenate_y",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Coordenadas-Y",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#double",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#latitude",
-              "curie": "insta:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Latitud",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#longitude",
-              "curie": "insta:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Longitud",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#type",
-              "curie": "insta:type",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Tipo",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#instalacionesDeportivas",
-              "curie": "insta:instalacionesDeportivas"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "deporte",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "deporte",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#Equipment",
-              "curie": "clase:Equipment"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Nombre-Vía",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Nombre-Vía",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#RoadName",
-              "curie": "clase:RoadName"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Provincia",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Provincia",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#Province",
-              "curie": "clase:Province"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Código-Postal",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Código-Postal",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#int",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#PostalCode",
-              "curie": "clase:PostalCode"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Distrito",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Distrito",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#District",
-              "curie": "clase:District"
-            }
-          ]
-        }
-      ]
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
     },
     "description": "Save RDF schema skeleton"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
     "schema": {
-      "prefixes": [
-        {
-          "name": "insta",
-          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        },
-        {
-          "name": "clase",
-          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#"
-        }
-      ],
-      "baseUri": "http://www.instalacionesDeportivasMunicipales.es/resource/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "PK",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#name",
-              "curie": "insta:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Nombre",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasEquipment",
-              "curie": "insta:hasEquipment",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "deporte",
-                "expression": "\"Equipment/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasTransport",
-              "curie": "insta:hasTransport",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "estacion",
-                "expression": "\"Transport/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#accesibility",
-              "curie": "insta:accesibility",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Accesibilidad",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#int",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#urlContent",
-              "curie": "insta:urlContent",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Content-URL",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasRoadName",
-              "curie": "insta:hasRoadName",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Nombre-Vía",
-                "expression": "\"RoadName/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#roadClass",
-              "curie": "insta:roadClass",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Clase-Vial",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#typeNum",
-              "curie": "insta:typeNum",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Tipo-Num",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#num",
-              "curie": "insta:num",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Num",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#orientation",
-              "curie": "insta:orientation",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Orientación",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#locality",
-              "curie": "insta:locality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Localidad",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasProvince",
-              "curie": "insta:hasProvince",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Provincia",
-                "expression": "\"Province/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasPostalCode",
-              "curie": "insta:hasPostalCode",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Código-Postal",
-                "expression": "\"PostalCode/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#neigborhood",
-              "curie": "insta:neigborhood",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Barrio",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasDistrict",
-              "curie": "insta:hasDistrict",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Distrito",
-                "expression": "\"District/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordenate_x",
-              "curie": "insta:coordenate_x",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Coordenadas-X",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#double",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordenate_y",
-              "curie": "insta:coordenate_y",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Coordenadas-Y",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#double",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#latitude",
-              "curie": "insta:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Latitud",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#longitude",
-              "curie": "insta:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Longitud",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#type",
-              "curie": "insta:type",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Tipo",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#instalacionesDeportivas",
-              "curie": "insta:instalacionesDeportivas"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "deporte",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "deporte",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#Equipment",
-              "curie": "clase:Equipment"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Nombre-Vía",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Nombre-Vía",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#RoadName",
-              "curie": "clase:RoadName"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Provincia",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Provincia",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#Province",
-              "curie": "clase:Province"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Código-Postal",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Código-Postal",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#int",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#PostalCode",
-              "curie": "clase:PostalCode"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Distrito",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Distrito",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#District",
-              "curie": "clase:District"
-            }
-          ]
-        }
-      ]
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
     },
     "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [],
+      "baseUri": null,
+      "rootNodes": []
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "estacion",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "ReconlEstacion",
+    "columnInsertIndex": 7,
+    "description": "Create column ReconlEstacion at index 7 based on column estacion using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
@@ -3441,6 +1741,533 @@
                 "columnName": "estacion",
                 "expression": "value",
                 "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ReconlEstacion",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#Transport",
+              "curie": "clase:Transport"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "deporte",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "ReconDeporte",
+    "columnInsertIndex": 4,
+    "description": "Create column ReconDeporte at index 4 based on column deporte using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Provincia",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "ReconProvincia",
+    "columnInsertIndex": 18,
+    "description": "Create column ReconProvincia at index 18 based on column Provincia using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Barrio",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "ReconBarrio",
+    "columnInsertIndex": 21,
+    "description": "Create column ReconBarrio at index 21 based on column Barrio using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Distrito",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "ReconDistrito",
+    "columnInsertIndex": 23,
+    "description": "Create column ReconDistrito at index 23 based on column Distrito using expression grel:\"https://www.wikidata.org/wiki/\" + cell.recon.match.id"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "insta",
+          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "clase",
+          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#"
+        }
+      ],
+      "baseUri": "http://www.instalacionesDeportivasMunicipales.es/resource/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "PK",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#name",
+              "curie": "insta:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasEquipment",
+              "curie": "insta:hasEquipment",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "deporte",
+                "expression": "\"Equipment/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasTransport",
+              "curie": "insta:hasTransport",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "estacion",
+                "expression": "\"Transport/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#accesibility",
+              "curie": "insta:accesibility",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Accesibilidad",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#urlContent",
+              "curie": "insta:urlContent",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Content-URL",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasRoadName",
+              "curie": "insta:hasRoadName",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Nombre-Vía",
+                "expression": "\"RoadName/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#roadClass",
+              "curie": "insta:roadClass",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Clase-Vial",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#typeNum",
+              "curie": "insta:typeNum",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Tipo-Num",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#num",
+              "curie": "insta:num",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Num",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#orientation",
+              "curie": "insta:orientation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Orientación",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#locality",
+              "curie": "insta:locality",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Localidad",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasProvince",
+              "curie": "insta:hasProvince",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Provincia",
+                "expression": "\"Province/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasPostalCode",
+              "curie": "insta:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Código-Postal",
+                "expression": "\"PostalCode/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#neigborhood",
+              "curie": "insta:neigborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Barrio",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasDistrict",
+              "curie": "insta:hasDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Distrito",
+                "expression": "\"District/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordenate_x",
+              "curie": "insta:coordenate_x",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Coordenadas-X",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordenate_y",
+              "curie": "insta:coordenate_y",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Coordenadas-Y",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#latitude",
+              "curie": "insta:latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Latitud",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#longitude",
+              "curie": "insta:longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Longitud",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#type",
+              "curie": "insta:type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Tipo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#instalacionesDeportivas",
+              "curie": "insta:instalacionesDeportivas"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "deporte",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "deporte",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ReconDeporte",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#Equipment",
+              "curie": "clase:Equipment"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Nombre-Vía",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre-Vía",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#RoadName",
+              "curie": "clase:RoadName"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Provincia",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Provincia",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ReconProvincia",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#Province",
+              "curie": "clase:Province"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Código-Postal",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Código-Postal",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#PostalCode",
+              "curie": "clase:PostalCode"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Distrito",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Distrito",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ReconDistrito",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#District",
+              "curie": "clase:District"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Transporte",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "estacion",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ReconlEstacion",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
               }
             }
           ],
@@ -3736,6 +2563,18 @@
                 "expression": "value",
                 "isRowNumberCell": false
               }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ReconDeporte",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
             }
           ],
           "rdfTypes": [
@@ -3783,6 +2622,18 @@
                 "columnName": "Provincia",
                 "expression": "value",
                 "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ReconProvincia",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
               }
             }
           ],
@@ -3833,6 +2684,18 @@
                 "expression": "value",
                 "isRowNumberCell": false
               }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ReconDistrito",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
             }
           ],
           "rdfTypes": [
@@ -3857,420 +2720,17 @@
                 "expression": "value",
                 "isRowNumberCell": false
               }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#Transport",
-              "curie": "clase:Transport"
-            }
-          ]
-        }
-      ]
-    },
-    "description": "Save RDF schema skeleton"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "schema": {
-      "prefixes": [
-        {
-          "name": "insta",
-          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        },
-        {
-          "name": "clase",
-          "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#"
-        }
-      ],
-      "baseUri": "http://www.instalacionesDeportivasMunicipales.es/resource/",
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "PK",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#name",
-              "curie": "insta:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Nombre",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
             },
             {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasEquipment",
-              "curie": "insta:hasEquipment",
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
               "target": {
                 "nodeType": "cell-as-resource",
-                "columnName": "deporte",
-                "expression": "\"Equipment/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasTransport",
-              "curie": "insta:hasTransport",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "estacion",
-                "expression": "\"Transport/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#accesibility",
-              "curie": "insta:accesibility",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Accesibilidad",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#int",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#urlContent",
-              "curie": "insta:urlContent",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Content-URL",
+                "columnName": "ReconlEstacion",
                 "expression": "value",
                 "isRowNumberCell": false,
                 "links": [],
                 "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasRoadName",
-              "curie": "insta:hasRoadName",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Nombre-Vía",
-                "expression": "\"RoadName/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#roadClass",
-              "curie": "insta:roadClass",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Clase-Vial",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#typeNum",
-              "curie": "insta:typeNum",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Tipo-Num",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#num",
-              "curie": "insta:num",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Num",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#orientation",
-              "curie": "insta:orientation",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Orientación",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#locality",
-              "curie": "insta:locality",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Localidad",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasProvince",
-              "curie": "insta:hasProvince",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Provincia",
-                "expression": "\"Province/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasPostalCode",
-              "curie": "insta:hasPostalCode",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Código-Postal",
-                "expression": "\"PostalCode/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#neigborhood",
-              "curie": "insta:neigborhood",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Barrio",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#hasDistrict",
-              "curie": "insta:hasDistrict",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "columnName": "Distrito",
-                "expression": "\"District/\"+value",
-                "isRowNumberCell": false,
-                "links": [],
-                "rdfTypes": []
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordenate_x",
-              "curie": "insta:coordenate_x",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Coordenadas-X",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#double",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#coordenate_y",
-              "curie": "insta:coordenate_y",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Coordenadas-Y",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#double",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#latitude",
-              "curie": "insta:latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Latitud",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#longitude",
-              "curie": "insta:longitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Longitud",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            },
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#type",
-              "curie": "insta:type",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Tipo",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology/InstalacionesDeportivas#instalacionesDeportivas",
-              "curie": "insta:instalacionesDeportivas"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "deporte",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "deporte",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#Equipment",
-              "curie": "clase:Equipment"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Nombre-Vía",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Nombre-Vía",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#RoadName",
-              "curie": "clase:RoadName"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Provincia",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Provincia",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#Province",
-              "curie": "clase:Province"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Código-Postal",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Código-Postal",
-                "expression": "value",
-                "valueType": "http://www.w3.org/2001/XMLSchema#int",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#PostalCode",
-              "curie": "clase:PostalCode"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Distrito",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "Distrito",
-                "expression": "value",
-                "isRowNumberCell": false
-              }
-            }
-          ],
-          "rdfTypes": [
-            {
-              "uri": "http://www.instalacionesDeportivasMunicipales.es/ontology#District",
-              "curie": "clase:District"
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "columnName": "Transporte",
-          "expression": "value",
-          "isRowNumberCell": false,
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "columnName": "estacion",
-                "expression": "value",
-                "isRowNumberCell": false
               }
             }
           ],
