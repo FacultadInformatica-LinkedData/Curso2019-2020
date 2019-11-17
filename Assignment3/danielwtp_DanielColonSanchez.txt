@@ -1,0 +1,109 @@
+
+1. Get all the properties that can be applied to instances of the Politician class
+
+SELECT DISTINCT ?property
+WHERE
+{
+	?i a <http://dbpedia.org/ontology/Politician> .
+	{?isValueOf ?property ?i}
+	UNION
+	{?i ?property ?hasValue}
+} LIMIT 7
+
+RESULT:
+ "property" ,
+ "http://www.w3.org/2002/07/owl#differentFrom" ,
+ "http://www.w3.org/2000/01/rdf-schema#seeAlso" ,
+ "http://www.w3.org/2002/07/owl#sameAs" ,
+ "http://dbpedia.org/ontology/wikiPageWikiLink" ,
+ "http://dbpedia.org/ontology/wikiPageRedirects" ,
+ "http://dbpedia.org/ontology/wikiPageDisambiguates" ,
+ "http://dbpedia.org/property/name"
+
+
+2. Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+SELECT DISTINCT ?property
+WHERE
+{
+	?i a <http://dbpedia.org/ontology/Politician> .
+	{?isValueOf ?property ?i}
+	UNION
+	{?i ?property ?hasValue}
+	FILTER(!(?property = rdf:type))
+} LIMIT 7
+
+RESULT:
+ "property" ,
+ "http://www.w3.org/2002/07/owl#differentFrom" ,
+ "http://www.w3.org/2000/01/rdf-schema#seeAlso" ,
+ "http://www.w3.org/2002/07/owl#sameAs" ,
+ "http://dbpedia.org/ontology/wikiPageWikiLink" ,
+ "http://dbpedia.org/ontology/wikiPageRedirects" ,
+ "http://dbpedia.org/ontology/wikiPageDisambiguates" ,
+ "http://dbpedia.org/property/name"
+
+
+
+3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+SELECT DISTINCT ?property ?hasValue
+WHERE
+{
+	?i a <http://dbpedia.org/ontology/Politician> .
+	?i ?property ?hasValue .
+	FILTER(!(?property = rdf:type))
+} LIMIT 7
+
+RESULT:
+ "property" , "hasValue" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Axel Oxenstierna" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , أكسل أكسنسترنا ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Axel Oxenstierna" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Axel Oxenstierna" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Axel Oxenstierna" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , "Axel Oxenstierna" ,
+ "http://www.w3.org/2000/01/rdf-schema#label" , アクセル・オクセンシェルナ ,
+
+
+4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+SELECT DISTINCT ?property ?isValue
+WHERE
+{
+	?i a <http://dbpedia.org/ontology/Politician> .
+	?isValue ?property ?i .
+	FILTER(!(?property = rdf:type))
+} LIMIT 7
+
+RESULT:
+ "property" , "isValue" ,
+ "http://www.w3.org/2002/07/owl#differentFrom" , "http://dbpedia.org/resource/Eric_Honegger" ,
+ "http://www.w3.org/2002/07/owl#differentFrom" , "http://dbpedia.org/resource/John_Glen_(politician)" ,
+ "http://www.w3.org/2000/01/rdf-schema#seeAlso" , "http://dbpedia.org/resource/Home_front_during_World_War_I" ,
+ "http://www.w3.org/2000/01/rdf-schema#seeAlso" , "http://dbpedia.org/resource/Feminism_in_Argentina" ,
+ "http://www.w3.org/2000/01/rdf-schema#seeAlso" , "http://dbpedia.org/resource/Jill_Hazelbaker" ,
+ "http://www.w3.org/2002/07/owl#sameAs" , "http://dbpedia.org/resource/Eva_Perón" ,
+ "http://www.w3.org/2002/07/owl#sameAs" , "http://dbpedia.org/resource/François_Arago" ,
+
+
+
+5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+
+SELECT ?property (COUNT(DISTINCT ?isValue) as ?count)
+WHERE
+{
+	?i a <http://dbpedia.org/ontology/Politician> .
+	?isValue ?property ?i .
+	FILTER(!(?property = rdf:type))
+} LIMIT 7
+
+RESULT:
+ "property" , "count" ,
+ "http://dbpedia.org/property/lyrics" , "2" ,
+ "http://dbpedia.org/property/spokesperson" , "1" ,
+ "http://dbpedia.org/property/deputyLeader" , "1" ,
+ "http://dbpedia.org/property/comptroller" , "1" ,
+ "http://dbpedia.org/property/président" , "3" ,
+ "http://dbpedia.org/property/officeholder" , "17" ,
+ "http://dbpedia.org/property/trophy" , "1"
