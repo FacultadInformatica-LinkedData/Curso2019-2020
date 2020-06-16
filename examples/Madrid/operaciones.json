@@ -1,0 +1,6467 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Título",
+    "newColumnName": "Nombre del evento",
+    "description": "Rename column Título to Nombre del evento"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Fecha",
+    "newColumnName": "Fecha del evento",
+    "description": "Rename column Fecha to Fecha del evento"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Titular de agenda",
+    "newColumnName": "Titular del evento",
+    "description": "Rename column Titular de agenda to Titular del evento"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Nombre del evento",
+          "expression": "\"Evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Nombre del evento",
+          "expression": "\"Evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Nombre del evento",
+          "expression": "\"Evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Nombre del evento",
+          "expression": "\"Evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "xsd:dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"/persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"/persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"/persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"/persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"/persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"evento/MADEVNT0000000\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"persona/00000000\"+value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"lugar/MADPLC00000000\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Nombre del evento",
+    "expression": "grel:\"EVENTO0000000\" + rowIndex",
+    "onError": "set-to-blank",
+    "newColumnName": "ID Evento",
+    "columnInsertIndex": 2,
+    "description": "Create column ID Evento at index 2 based on column Nombre del evento using expression grel:\"EVENTO0000000\" + rowIndex"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Lugar",
+    "newColumnName": "Lugar del evento",
+    "description": "Rename column Lugar to Lugar del evento"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ID Evento",
+    "description": "Remove column ID Evento"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Nombre del evento",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "ID Evento",
+    "columnInsertIndex": 2,
+    "description": "Create column ID Evento at index 2 based on column Nombre del evento using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\" \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\".\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\",\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\",\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\"\\'\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\"\\'\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\"\\\"\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\"\\\"\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\";\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\";\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\"á\",\"a\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\"á\",\"a\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\"é\",\"e\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\"é\",\"e\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\"í\",\"i\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\"í\",\"i\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\"ó\",\"o\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\"ó\",\"o\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\"é\",\"e\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\"é\",\"e\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\"ú\",\"u\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\"ú\",\"u\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "grel:\"EVT-\"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression grel:\"EVT-\"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\":\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\":\",\"\")"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Evento",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"persona/00000000\"+value",
+          "isRowNumberCell": true,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"lugar/MADPLC00000000\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Titular del evento",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "ID Titular",
+    "columnInsertIndex": 4,
+    "description": "Create column ID Titular at index 4 based on column Titular del evento using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Titular",
+    "expression": "value.replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Titular using expression value.replace(\" \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\"í\",\"i\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\"í\",\"i\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\"Á\",\"A\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\"Á\",\"A\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\"É\",\"E\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\"É\",\"E\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\"Ó\",\"O\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\"Ó\",\"O\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\"Ú\",\"U\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\"Ú\",\"U\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\"Í\",\"I\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\"Í\",\"I\")"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Evento",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"lugar/MADPLC00000000\"+value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Titular del evento",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Lugar del evento",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "ID Lugar",
+    "columnInsertIndex": 7,
+    "description": "Create column ID Lugar at index 7 based on column Lugar del evento using expression grel:value"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Evento",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Titular",
+    "expression": "grel:\"PLP-\" + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Titular using expression grel:\"PLP-\" + value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\" \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "grel:\"PLC-\" + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression grel:\"PLC-\" + value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Titular",
+    "expression": "value.replace(\";\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Titular using expression value.replace(\";\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Titular",
+    "expression": "value.replace(\":\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Titular using expression value.replace(\":\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Titular",
+    "expression": "value.replace(\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Titular using expression value.replace(\".\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Titular",
+    "expression": "value.replace(\"Á\",\"A\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Titular using expression value.replace(\"Á\",\"A\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Titular",
+    "expression": "value.replace(\"á\",\"a\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Titular using expression value.replace(\"á\",\"a\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Titular",
+    "expression": "value.replace(\"Ó\",\"O\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Titular using expression value.replace(\"Ó\",\"O\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Titular",
+    "expression": "value.replace(\"Í\",\"I\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Titular using expression value.replace(\"Í\",\"I\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Titular",
+    "expression": "value.replace(\"É\",\"E\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Titular using expression value.replace(\"É\",\"E\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Titular",
+    "expression": "value.replace(\"Ú\",\"U\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Titular using expression value.replace(\"Ú\",\"U\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Titular",
+    "expression": "value.replace(\"Ü\",\"U\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Titular using expression value.replace(\"Ü\",\"U\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Titular",
+    "expression": "value.replace(\"Ñ\",\"N\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Titular using expression value.replace(\"Ñ\",\"N\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\"Á\",\"A\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\"Á\",\"A\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\"É\",\"E\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\"É\",\"E\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\"Í\",\"I\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\"Í\",\"I\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\"Ó\",\"O\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\"Ó\",\"O\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\"Ú\",\"U\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\"Ú\",\"U\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\"á\",\"a\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\"á\",\"a\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\"é\",\"e\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\"é\",\"e\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\"í\",\"i\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\"í\",\"i\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\"ó\",\"o\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\"ó\",\"o\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\"ú\",\"u\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\"ú\",\"u\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\";\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\";\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\":\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\":\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\",\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\",\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\".\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\"º\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\"º\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\"ª\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\"ª\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\"/\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\"/\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Lugar",
+    "expression": "value.replace(\"\\\\\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Lugar using expression value.replace(\"\\\\\",\"\")"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Evento",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Evento",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/location",
+              "curie": "schema:location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID Lugar",
+                "expression": "\"lugar/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Evento",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/location",
+              "curie": "schema:location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID Lugar",
+                "expression": "\"lugar/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "grel:value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression grel:value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Fecha del evento",
+    "newColumnName": "Fecha",
+    "description": "Rename column Fecha del evento to Fecha"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "grel:value + cells.Fecha.value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression grel:value + cells.Fecha.value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\" \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\"/\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\"/\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Evento",
+    "expression": "value.replace(\":\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Evento using expression value.replace(\":\",\"\")"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Evento",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/location",
+              "curie": "schema:location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID Lugar",
+                "expression": "\"lugar/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#ambitoEvento",
+              "curie": "esagm:ambitoEvento",
+              "target": {
+                "nodeType": "resource",
+                "value": "https://datos.ign.es/recurso/btn100/municipio/28079",
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Cargo",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "ID Cargo",
+    "columnInsertIndex": 6,
+    "description": "Create column ID Cargo at index 6 based on column Cargo using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\"Á\",\"A\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\"Á\",\"A\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\"Ó\",\"O\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\"Ó\",\"O\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\"É\",\"E\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\"É\",\"E\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\"Í\",\"I\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\"Í\",\"I\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cargo",
+    "expression": "value.replace(\"Ú\",\"U\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Cargo using expression value.replace(\"Ú\",\"U\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\"á\",\"a\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\"á\",\"a\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\"é\",\"e\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\"é\",\"e\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\"í\",\"i\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\"í\",\"i\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\"ó\",\"o\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\"ó\",\"o\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\"ú\",\"u\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\"ú\",\"u\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\";\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\";\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\":\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\":\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\",\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\",\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\".\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\"/\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\"/\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\"\\\\\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\"\\\\\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "value.replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression value.replace(\" \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID Cargo",
+    "expression": "grel:\"CRG-\"+ value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID Cargo using expression grel:\"CRG-\"+ value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cargo",
+    "expression": "value.replace(\"/\",\"I\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Cargo using expression value.replace(\"/\",\"I\")"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Evento",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/location",
+              "curie": "schema:location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID Lugar",
+                "expression": "\"lugar/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#ambitoEvento",
+              "curie": "esagm:ambitoEvento",
+              "target": {
+                "nodeType": "resource",
+                "value": "https://datos.ign.es/recurso/btn100/municipio/28079",
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID Cargo",
+                "expression": "\"cargo/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Cargo",
+          "expression": "\"cargo/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Role",
+              "curie": "org:Role"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Evento",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/location",
+              "curie": "schema:location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID Lugar",
+                "expression": "\"lugar/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#ambitoEvento",
+              "curie": "esagm:ambitoEvento",
+              "target": {
+                "nodeType": "resource",
+                "value": "https://datos.ign.es/recurso/btn100/municipio/28079",
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Persona",
+              "curie": "esagm:Persona"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID Cargo",
+                "expression": "\"cargo/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Cargo",
+          "expression": "\"cargo/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Role",
+              "curie": "org:Role"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Evento",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/location",
+              "curie": "schema:location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID Lugar",
+                "expression": "\"lugar/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#ambitoEvento",
+              "curie": "esagm:ambitoEvento",
+              "target": {
+                "nodeType": "resource",
+                "value": "https://datos.ign.es/recurso/btn100/municipio/28079",
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://xmlns.com/foaf/0.1/name",
+              "curie": "foaf:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Titular del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://xmlns.com/foaf/0.1/Person",
+              "curie": "foaf:Person"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID Cargo",
+                "expression": "\"cargo/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Cargo",
+          "expression": "\"cargo/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Role",
+              "curie": "org:Role"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Evento",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/location",
+              "curie": "schema:location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID Lugar",
+                "expression": "\"lugar/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#ambitoEvento",
+              "curie": "esagm:ambitoEvento",
+              "target": {
+                "nodeType": "resource",
+                "value": "https://datos.ign.es/recurso/btn100/municipio/28079",
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://xmlns.com/foaf/0.1/name",
+              "curie": "foaf:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Titular del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://xmlns.com/foaf/0.1/Person",
+              "curie": "foaf:Person"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID Cargo",
+                "expression": "\"cargo/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/org#member",
+              "curie": "org:member",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID Titular",
+                "expression": "\"evento/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Cargo",
+          "expression": "\"cargo/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Role",
+              "curie": "org:Role"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "orges",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "org",
+          "uri": "http://www.w3.org/ns/org#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "esequip",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento-municipal#"
+        },
+        {
+          "name": "escjr",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+        },
+        {
+          "name": "esadm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"
+        },
+        {
+          "name": "esdir",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"
+        },
+        {
+          "name": "locn",
+          "uri": "http://www.w3.org/ns/locn#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://vocab.ciudadesabiertas.es/recurso/sector-publico/agenda-municipal/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Evento",
+          "expression": "\"evento/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Nombre del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Fecha del evento",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/location",
+              "curie": "schema:location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID Lugar",
+                "expression": "\"lugar/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#ambitoEvento",
+              "curie": "esagm:ambitoEvento",
+              "target": {
+                "nodeType": "resource",
+                "value": "https://datos.ign.es/recurso/btn100/municipio/28079",
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#Evento",
+              "curie": "esagm:Evento"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"persona/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://xmlns.com/foaf/0.1/name",
+              "curie": "foaf:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Titular del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://xmlns.com/foaf/0.1/Person",
+              "curie": "foaf:Person"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Lugar",
+          "expression": "\"lugar/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Lugar del evento",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Titular",
+          "expression": "\"membresia/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/ns/org#role",
+              "curie": "org:role",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID Cargo",
+                "expression": "\"cargo/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/ns/org#member",
+              "curie": "org:member",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID Titular",
+                "expression": "\"evento/\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Membership",
+              "curie": "org:Membership"
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID Cargo",
+          "expression": "\"cargo/\"+value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cargo",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/ns/org#Role",
+              "curie": "org:Role"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]
