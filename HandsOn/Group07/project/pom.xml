@@ -23,7 +23,7 @@
 		<servlet.version>2.5</servlet.version>	<!-- Servlet version -->
 		<jslt.version>1.2</jslt.version>	<!-- JSLT version -->
 		<google.client.version>1.20.0</google.client.version> <!-- Google HTTP Client version -->
-		<junit.version>4.12</junit.version> <!-- JUnit version -->
+		<junit.version>4.13.1</junit.version> <!-- JUnit version -->
 		<mockito.version>2.0.2-beta</mockito.version> <!-- Mockito version -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
